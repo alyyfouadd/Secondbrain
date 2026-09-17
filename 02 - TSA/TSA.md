@@ -15,13 +15,15 @@ We grow businesses on social media, and we find high-value businesses that need 
 
 This is my fourth agency. The difference is that this one runs on direction, systems and structure instead of on me out-working the problem — and the system scales in parallel with the business rather than getting bolted on once it hurts.
 
-- **Status:** Active — first client signed, work in progress.
+- **Status:** Active — first client ([[Alex Foods]]) signed on a 146,000 EGP total contract; delivery gated on the client's signed acceptance page and materials.
 
 ## Notes in this folder
-*(Nothing yet. The first client's scope note lands here as soon as the brief of what they bought arrives — tracked in [[Active Priorities]].)*
+- [[Alex Foods]] — first client. Full service scope: Brand Foundation (20,000) plus Package A retainer (42,000/mo x 3), the gating chain, deliverables and the 11 contract clauses.
+- `TSA - Alex Foods Service Scope V2.pdf` — the signed-scope source document, 09.09.2026. The note above is derived from it; this is the original.
 
 ## What belongs here as it gets built
-- One note per client: what they bought, what's owed, what's been delivered.
-- The offer and pricing logic — how a dedicated price gets arrived at, given there are no packages.
+- One note per client: what they bought, what's owed, what's been delivered. Once there are three or more, they move into a `Clients/` subfolder with its own index.
+- The offer and pricing logic — how a dedicated price gets arrived at, given there are no packages. [[Alex Foods]] is the first data point: a one-time foundation priced separately from a fixed-term monthly retainer.
 - Positioning work: how a high-value business gets identified and what the market read looks like.
 - The scaling plan: the structure that has to hold as the agency grows.
+- The delivery templates the retainer repeats every month — the shooting recipe, the content calendar format, the revision-and-approval loop. These are Job-shaped: the second time a month gets explained from scratch, it earns a Job note.

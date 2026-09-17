@@ -9,9 +9,23 @@ The single queue of open work across everything. Tag each item with its project 
 
 ### Open Tasks
 
-**TSA**
-- [ ] Deliver the first client's work. Aly still has to send what they bought — once that lands it gets its own note in `02 - TSA/` and this item splits into real steps. (tsa)
-- [ ] Build the TSA scaling plan: the structure and upfront planning that lets the agency grow without the system breaking, and that scales in parallel rather than getting bolted on later. (tsa)
+**TSA — [[Alex Foods]]** (full scope in the note; 146,000 EGP total contract)
+
+*Gates first. Nothing downstream can start until these close, and three of the four are outside my control.*
+- [ ] Get the signed acceptance page back, with the named approver, their role and contact. Work does not begin without it, and clause 3 makes that one person the only voice whose notes count. (tsa)
+- [ ] Chase the 7 client materials: 5 SKU names, logo files (vector), product photos or samples, packaging artwork, Meta admin access, Google account, GBP details. No delivery starts until all 7 land, and the foundation clock starts at the later of these arriving or the 22 Sep instalment. (tsa)
+- [ ] Invoice the 10,000 Brand Foundation instalment due **22 September 2026** — four days out. Clause 11 gives 4 days from invoice date, so the invoice date has to be set deliberately against that due date. (tsa)
+- [ ] Confirm the 42,000 for Package A month 1 actually landed. The scope marks it RECEIVED; that needs to be true in the bank, not just in the document — the whole money picture in [[Money]] turns on it. (tsa)
+
+*Delivery, once the gates close*
+- [ ] Brand Foundation — 8 deliverables, 3 weeks minimum: brand voice guide (one voice, tone per family across BeBo / AlRawy / Freeze Pops), colour and type kit, social pages setup, slogans plus giveaway song, monthly content calendar, animation and shooting recipe, Google Business Profile setup, local SEO for Alexandria. (tsa)
+- [ ] Get Brand Foundation signed off **in writing** — Package A's month 1 counts from that approval date, not from the payment date. Until it happens, the received 42,000 is money for a month that hasn't started. (tsa)
+- [ ] Package A month 1 — 2 product animations, 6 animated stills, 12 graphics, content calendar, GBP and local SEO maintenance, paid campaign management, giveaway slogan and lockup. (tsa)
+- [ ] Settle how product imagery arrives before production starts. No shoot is included in either stage, and every visual deliverable depends on the client's samples or photos being usable. A paid month does not extend for client delay. (tsa)
+
+**TSA — the business**
+- [ ] Build the TSA scaling plan: the structure and upfront planning that lets the agency grow without the system breaking, and that scales in parallel rather than getting bolted on later. [[Alex Foods]] is the first live test of whether the delivery shape holds. (tsa)
+- [ ] Turn the repeating month into a Job note once the first Alex Foods month has run — the calendar, the production order, the revision-and-approval loop. It repeats 3 times on this contract alone. (tsa)
 
 **Money** — full picture in [[Money]]
 - [ ] Confirm the date on the 18,000 EGP mobile tax. It's recorded as 9/11; as of 18 Sep 2026 that date has passed, so establish whether it's already overdue, refers to a future 9/11, or was noted earlier and has moved. Everything else in the phone plan hangs off the answer. (personal)

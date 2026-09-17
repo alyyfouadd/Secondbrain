@@ -27,7 +27,11 @@ The single queue of open work across everything. Tag each item with its project 
 - [ ] Build the TSA scaling plan: the structure and upfront planning that lets the agency grow without the system breaking, and that scales in parallel rather than getting bolted on later. [[Alex Foods]] is the first live test of whether the delivery shape holds. (tsa)
 - [ ] Turn the repeating month into a Job note once the first Alex Foods month has run — the calendar, the production order, the revision-and-approval loop. It repeats 3 times on this contract alone. (tsa)
 
-**Money** — full picture in [[Money]]
+**Money** — agency books in [[TSA Money]], personal in [[Money]]
+- [ ] **Work out X: what it costs TSA to deliver one month of Package A.** This is the gate on everything else — until it has a number, no draw is safe or reckless, only lucky. Drawable = 42,000 − X, and clearing all 23,000 of debt from this payment needs X at or under 19,000. (tsa)
+- [ ] Set the owner's draw: a decided amount on a decided date, logged in [[TSA Money]]. Not "whatever's in the account when a bill lands." (tsa)
+- [ ] Open a separate account or wallet for TSA money. The two-pot split exists in the notes now; it doesn't exist in the bank, and a paper-only split collapses the first bad week. (tsa)
+- [ ] Work out my real monthly personal number — food, transport, everything the subscription list doesn't count. Without it a draw can only be guessed at. (personal)
 - [ ] Confirm the date on the 18,000 EGP mobile tax. It's recorded as 9/11; as of 18 Sep 2026 that date has passed, so establish whether it's already overdue, refers to a future 9/11, or was noted earlier and has moved. Everything else in the phone plan hangs off the answer. (personal)
 - [ ] Decide on the phone swap: sell the current phone, buy a 17 Pro Max with a physical SIM slot for the 8 tax-free months, then pay the tax. Net cost of the swap isn't worked out yet. (personal)
 - [ ] Clear the 5,000 EGP owed to people: [[Bassem]] 1,500 · [[Abdrabo]] 1,000 · [[Omar Elawady]] 1,000 · [[Torgo]] 500 · [[Fares Hammam]] 1,000. Decide the order they get paid in. (personal)

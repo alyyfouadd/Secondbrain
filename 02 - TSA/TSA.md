@@ -19,6 +19,7 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 
 ## Notes in this folder
 - [[Alex Foods]] — first client. Full service scope: Brand Foundation (20,000) plus Package A retainer (42,000/mo x 3), the gating chain, deliverables and the 11 contract clauses.
+- [[TSA Money]] — the agency's books. Revenue, cost of delivery, and the owner's-draw rule that gates what moves from TSA to [[Money]]. Agency money and personal money are two pots; this note owns the first one.
 - `TSA - Alex Foods Service Scope V2.pdf` — the signed-scope source document, 09.09.2026. The note above is derived from it; this is the original.
 
 ## What belongs here as it gets built

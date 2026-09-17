@@ -5,7 +5,9 @@ type: plan
 ---
 # Money
 
-Everything I owe, everything that leaves every month, and everything I'm planning to buy. All figures in EGP.
+**My money, not [[TSA]]'s.** Everything I owe, everything that leaves every month, and everything I'm planning to buy. All figures in EGP.
+
+The agency's books live in [[TSA Money]] — what TSA earns, what it costs to run, and what it can afford to release. **The only thing that crosses from there to here is an owner's draw.** Client payments never fund a line on this page directly; a draw does. That gate is the whole point of keeping two notes.
 
 **How to read this:** every number in the "stated" columns is one I gave. Anything labelled *calculated* is arithmetic on those numbers, not a separate figure I quoted — check the arithmetic rather than trusting it. Recorded 18 September 2026.
 
@@ -101,30 +103,27 @@ The total depends entirely on what counts as a fit, and that isn't settled. As a
 
 ## Money coming in
 
-From [[TSA]], not personal income — agency revenue, and the two aren't the same pocket. Full terms in [[Alex Foods]].
+**Nothing, yet.** Every figure on this page is currently funded by nothing at all.
 
 | Source | Amount | State |
 |---|---|---|
-| Alex Foods — Package A, month 1 of 3 | 42,000 | **RECEIVED** — confirmed 18 Sep 2026 |
-| Alex Foods — Brand Foundation, instalment 1 | 10,000 | **Not received.** Due **22 Sep 2026** |
-| Alex Foods — Brand Foundation, instalment 2 | 10,000 | **Not received.** Due **08 Oct 2026** |
-| Alex Foods — Package A, months 2 and 3 | 84,000 | Contracted, not yet due. 3-month term, no auto-renewal. |
-| **Total contract value** | **146,000** | *calculated* |
-| **Actually in hand** | **42,000** | |
-| **Still to come on this contract** | **104,000** | *calculated* |
+| Owner's draw from [[TSA]] | 0 | **No draw taken yet** |
 
-### What 42,000 in hand does and doesn't cover
+TSA is holding 42,000 in cash, but that belongs to the agency and most of it is spoken for — it's one paid month of [[Alex Foods]] work that hasn't been delivered. The full picture, and the rule for what's safe to release, is in [[TSA Money]].
 
-Against the **23,000** owed, 42,000 clears everything and leaves **19,000** *(calculated)*. That is the first time these two pages have been able to say that.
+### What has to happen before a single pound moves here
 
-The part that doesn't fit on a balance sheet: **the 42,000 is a paid month of Package A, and that month has not been delivered.** Clause 9 says a paid month runs to its end even if either side walks. So it is revenue received in advance against roughly twenty deliverables still owed — 2 animations, 6 animated stills, 12 graphics, a content calendar, GBP and local SEO maintenance, campaign management, the giveaway lockup — plus whatever they cost to produce. Spending it clears the debts; it does not discharge the obligation, and the production costs for that month still have to come from somewhere.
+Work out **X** — what it costs TSA to deliver one month of Package A. Then:
 
-Three more things that are true at the same time:
+- Drawable = **42,000 − X**
+- Debts on this page = **23,000**
+- Clearing every debt from that one payment needs **X ≤ 19,000** *(calculated)*
 
-- The **18,000 mobile tax** and the **5,000 owed to people** are due now or already overdue. That pressure is real and the money to answer it exists.
-- **Delivery hasn't started.** It's gated on a signed acceptance page and 7 client materials, neither confirmed. Months 2 and 3 are contracted, not guaranteed.
-- Clause 5 licenses the final files **only on full payment** — real leverage, but over the last instalment, not this one.
+If X comes in under 19,000, the debts clear and the client month is still funded. If it comes in over, then paying everything off today is quietly spending Alex Foods' production budget, and it bites mid-month when there's work to make and nothing to make it with.
+
+**So: X first, then a decided draw, then this page gets funded.** Not the other way round. That's the sequencing, and it's exactly the step-one-before-step-two thing I keep skipping.
 
 ## What's still missing from this note
 
-A separation between agency money and my money. Every figure in this note above the income table is personal, and every figure inside it is TSA's. If TSA is going to scale, those need to stop sharing a page — what the agency earns, what it costs to run, and what I actually take out of it are three different numbers, and right now only the first one exists anywhere.
+- **A monthly personal number.** The run-rate above is roughly 1,495/mo now and 3,695/mo once gym and MMA start, but that's only subscriptions and training — there's no figure for what I actually need to live on in a month — food, transport, everything uncounted here. Without it, no draw can be sized properly, only guessed at.
+- **A separate wallet or account.** The two-pot split now exists in these notes. It probably doesn't exist in the bank, and a split that lives only on paper collapses back into one pot the first bad week.

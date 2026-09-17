@@ -18,10 +18,10 @@ The agency's books live in [[TSA Money]] — what TSA earns, what it costs to ru
 | Who / what | Amount | Notes |
 |---|---|---|
 | [[Bassem]] | 1,500 | |
-| [[Abdrabo]] | 1,000 | |
-| [[Omar Elawady]] | 1,000 | |
-| [[Torgo]] | 500 | |
-| [[Fares Hammam]] | 1,000 | |
+| Abdrabo | 1,000 | |
+| Omar Elawady | 1,000 | |
+| Torgo | 500 | |
+| Fares Hammam | 1,000 | |
 | **Owed to people** | **5,000** | *calculated* |
 | Mobile taxes | 18,000 | Recorded as due 9/11. That date has passed as of 18 Sep 2026 — see the open question below. |
 | **Total owed** | **23,000** | *calculated* |

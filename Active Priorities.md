@@ -34,7 +34,7 @@ The single queue of open work across everything. Tag each item with its project 
 - [ ] Work out my real monthly personal number — food, transport, everything the subscription list doesn't count. Without it a draw can only be guessed at. (personal)
 - [ ] Confirm the date on the 18,000 EGP mobile tax. It's recorded as 9/11; as of 18 Sep 2026 that date has passed, so establish whether it's already overdue, refers to a future 9/11, or was noted earlier and has moved. Everything else in the phone plan hangs off the answer. (personal)
 - [ ] Decide on the phone swap: sell the current phone, buy a 17 Pro Max with a physical SIM slot for the 8 tax-free months, then pay the tax. Net cost of the swap isn't worked out yet. (personal)
-- [ ] Clear the 5,000 EGP owed to people: [[Bassem]] 1,500 · [[Abdrabo]] 1,000 · [[Omar Elawady]] 1,000 · [[Torgo]] 500 · [[Fares Hammam]] 1,000. Decide the order they get paid in. (personal)
+- [ ] Clear the 5,000 EGP owed to people: [[Bassem]] 1,500 · Abdrabo 1,000 · Omar Elawady 1,000 · Torgo 500 · Fares Hammam 1,000. Decide the order they get paid in. (personal)
 - [ ] Price the winter wardrobe properly. 7 fits at 2,000 EGP minimum per piece — the total depends entirely on how many pieces count as a fit, which isn't settled. (personal)
 
 **Training**
@@ -43,9 +43,14 @@ The single queue of open work across everything. Tag each item with its project 
 
 **The vault itself**
 - [ ] Install Obsidian on the iPad and open this repo as a vault — see [[README]] for the setup path. Until this is done the vault has no window in it. (meta)
-- [ ] Fill in who [[Abdrabo]], [[Omar Elawady]], [[Torgo]] and [[Fares Hammam]] actually are. Right now the vault only knows they're owed money. (meta)
+- [ ] Decide the production toolchain: what the 2 animations, 6 animated stills and 12 graphics actually get made in, on an iPad. This is unanswered and it gates every visual deliverable Alex Foods is owed. (tsa)
+- [ ] Get the brand inputs only the client can give: the 5 SKU names and what BeBo, AlRawy and Freeze Pops each are, so the voice guide can carry a different tone per family instead of guessing. (tsa)
+- [ ] Budget the Working Copy paid unlock. The free tier clones and pulls but won't push, and a vault that can't push from the iPad is a vault that loses a day's memory. (meta)
 - [ ] Decide the writing rules for copy the AI drafts — emails, posts, ads. Nothing is set yet, so nothing is enforced. (meta)
 
 ### Completed Tasks
 - [x] Build the memory vault: boot config, root index, folder structure, daily-note template, and the rules that keep it self-maintaining. (18 Sep 2026)
 - [x] Confirm the 42,000 for Package A month 1 landed. Received. Brand Foundation confirmed still unpaid. (18 Sep 2026)
+- [x] Split agency money from personal money behind an owner's-draw gate. (18 Sep 2026)
+- [x] Decide the people-notes rule: Bassem only, everyone else stays a line in Key People. (18 Sep 2026)
+- [x] Give every folder an index, Daily Notes included. (18 Sep 2026)

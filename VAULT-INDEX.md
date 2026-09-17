@@ -32,11 +32,13 @@ I sold my laptop, so right now I work entirely from [[Bassem]]'s iPad. That's no
 
 ## Key People
 
-- **[[Bassem]]** — my partner. I'm working from their iPad, and I owe them 1,500 EGP.
-- **[[Abdrabo]]** — I owe them 1,000 EGP. *(Who they are to me beyond that isn't written down yet.)*
-- **[[Omar Elawady]]** — I owe them 1,000 EGP. *(Same — fill in as you learn it.)*
-- **[[Torgo]]** — I owe them 500 EGP. *(Same.)*
-- **[[Fares Hammam]]** — I owe them 1,000 EGP. *(Same.)*
+- **[[Bassem]]** — my partner. I'm working from their iPad, and I owe them 1,500 EGP. The only person with their own note.
+- **Abdrabo** — I owe them 1,000 EGP.
+- **Omar Elawady** — I owe them 1,000 EGP.
+- **Torgo** — I owe them 500 EGP.
+- **Fares Hammam** — I owe them 1,000 EGP.
+
+**People notes: Bassem only.** Everyone else lives as a line in this section and nothing more. Don't create a note for a person, and don't wikilink their name, unless I say so — a note per name I once mentioned is clutter, and unresolved links make the graph lie about what the vault actually holds. If one of them becomes someone the work genuinely revolves around, I'll ask for the note.
 
 ## TSA — The Standard Agency (02 - TSA)
 
@@ -173,7 +175,7 @@ When creating or editing a note, add `wikilinks`:
 
 ### Folder Indexes (keep them in sync)
 
-Every folder that holds substantial content (5+ notes, or a distinct area) gets an index note named after the folder: `<Folder Name>.md`, frontmatter `type: index`, listing each note in the folder with a one-line description. The index is a contract: when you create, rename, move, or materially change a note, update its folder's index in the same pass. A stale index makes a future session decide from a wrong map.
+**Every folder here has an index, with no exceptions and no "once it fills up."** The index is named after the folder with its number prefix stripped — `03 - Personal/Personal.md`, `01 - Daily Notes/Daily Notes.md` — carries frontmatter `type: index`, and lists each note in the folder with a one-line description. The index is a contract: when you create, rename, move, or materially change a note, update its folder's index in the same pass. A stale index makes a future session decide from a wrong map.
 
 **When a new folder is created:** create its `<Folder Name>.md` index at the same time, add an entry to the parent folder's index if it has one, and update the **Vault Structure** map in this file in the same pass. A folder the map doesn't show is a folder no future session will look in.
 

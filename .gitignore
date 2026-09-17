@@ -1,0 +1,21 @@
+# Mac and Windows drop junk files into every folder they touch -- .DS_Store when
+# a Finder window opens, Thumbs.db when Explorer renders a preview, ._ forks when
+# a Mac copies onto a drive that is not its own. Nobody creates these on purpose
+# and nobody wants them in a clone. This list is fixed rather than growing: the
+# operating systems have written the same handful of files for twenty years.
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Obsidian's per-device window layout (workspace.json on desktop,
+# workspace-mobile.json on iPad and iPhone). The REST of .obsidian/ is tracked on
+# purpose: app.json carries the vault's real settings, so any device that syncs
+# this repo opens the vault already configured. These two are different. They
+# record only which panes happen to be open on one device, they rewrite
+# themselves constantly, and the iPad and a desktop each want their own. Tracking
+# them buys a merge conflict on every sync in exchange for nothing.
+.obsidian/workspace*.json

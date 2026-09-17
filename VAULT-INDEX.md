@@ -59,6 +59,7 @@ This is my fourth agency. The difference this time is that it runs on direction,
 03 - Personal       <- Life outside the agency: money, health, training, things I'm buying
 04 - Archive        <- Completed projects and old notes
 05 - Resources      <- Cross-project reference material, templates, Jobs
+  Marketing/        <- jaredrhod's marketing playbook, read before any marketing work
 ```
 
 ## What's Active Right Now

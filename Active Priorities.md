@@ -46,7 +46,8 @@ The single queue of open work across everything. Tag each item with its project 
 - [ ] Decide the production toolchain: what the 2 animations, 6 animated stills and 12 graphics actually get made in, on an iPad. This is unanswered and it gates every visual deliverable Alex Foods is owed. (tsa)
 - [ ] Get the brand inputs only the client can give: the 5 SKU names and what BeBo, AlRawy and Freeze Pops each are, so the voice guide can carry a different tone per family instead of guessing. (tsa)
 - [ ] Budget the Working Copy paid unlock. The free tier clones and pulls but won't push, and a vault that can't push from the iPad is a vault that loses a day's memory. (meta)
-- [ ] Decide the writing rules for copy the AI drafts — emails, posts, ads. Nothing is set yet, so nothing is enforced. (meta)
+- [ ] Decide the writing rules for copy the AI drafts — emails, posts, ads. Nothing is set yet, so nothing is enforced. [[Marketing]] now supplies the craft rules; what's still missing is TSA's own voice on top of them. (meta)
+- [ ] Upload the marketing skill to the Claude app on the iPad: download `jaredrhod-marketing.zip` from github.com/jaredrhod/ai-marketing-skills in Safari and add it through Claude's Skills interface. Claude Code already has it via the vault; the app doesn't, and only I can do this one. (meta)
 
 ### Completed Tasks
 - [x] Build the memory vault: boot config, root index, folder structure, daily-note template, and the rules that keep it self-maintaining. (18 Sep 2026)

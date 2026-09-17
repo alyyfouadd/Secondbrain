@@ -11,5 +11,8 @@ Cross-project reference material: templates, knowledge bases, voice and brand gu
 
 No Jobs are built yet, by choice. The trigger for building one is simple: the second time I catch myself explaining the same task from scratch, that task earns a Job note here (or in `02 - TSA/Jobs/` if it only belongs to the agency).
 
+## Folders in here
+- **Marketing/** — [[Marketing]] · jaredrhod's marketing playbook: principles, the funnel, and a playbook each for copywriting, sales letters, email, ads, lead magnets, content and analytics. Read before any marketing work, for TSA or for a client.
+
 ## Notes in this folder
-*(Empty. This index exists from day one so the folder survives a git sync — git doesn't track empty folders.)*
+*(None yet. This index exists from day one so the folder survives a git sync — git doesn't track empty folders.)*

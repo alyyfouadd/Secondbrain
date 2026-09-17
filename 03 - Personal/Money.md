@@ -105,17 +105,25 @@ From [[TSA]], not personal income — agency revenue, and the two aren't the sam
 
 | Source | Amount | State |
 |---|---|---|
-| Alex Foods — Package A, month 1 of 3 | 42,000 | Marked RECEIVED in the scope document. **Confirm it landed in the bank.** |
-| Alex Foods — Brand Foundation, instalment 1 | 10,000 | Due **22 Sep 2026** |
-| Alex Foods — Brand Foundation, instalment 2 | 10,000 | Due **08 Oct 2026** |
-| Alex Foods — Package A, months 2 and 3 | 84,000 | Contracted, not yet due. Term is 3 months with no auto-renewal. |
+| Alex Foods — Package A, month 1 of 3 | 42,000 | **RECEIVED** — confirmed 18 Sep 2026 |
+| Alex Foods — Brand Foundation, instalment 1 | 10,000 | **Not received.** Due **22 Sep 2026** |
+| Alex Foods — Brand Foundation, instalment 2 | 10,000 | **Not received.** Due **08 Oct 2026** |
+| Alex Foods — Package A, months 2 and 3 | 84,000 | Contracted, not yet due. 3-month term, no auto-renewal. |
 | **Total contract value** | **146,000** | *calculated* |
+| **Actually in hand** | **42,000** | |
+| **Still to come on this contract** | **104,000** | *calculated* |
 
-Against the 23,000 total owed above, the contracted figure clears it several times over. What it doesn't do is arrive on a schedule that matches the bills:
+### What 42,000 in hand does and doesn't cover
 
-- The **18,000 mobile tax** and the **5,000 owed to people** are due now or overdue. The only Alex Foods money that is arguably already in hand is the 42,000, and that's the figure still to be confirmed.
-- **Nothing is unconditional.** Delivery is gated on a signed acceptance page and 7 client materials, neither of which has been confirmed. Clause 9 lets either side exit on 20 days notice, so months 2 and 3 are contracted, not guaranteed.
-- Clause 5 licenses the final files to the client **only on full payment** — the leverage exists, but it's leverage over the last instalment, not the first.
+Against the **23,000** owed, 42,000 clears everything and leaves **19,000** *(calculated)*. That is the first time these two pages have been able to say that.
+
+The part that doesn't fit on a balance sheet: **the 42,000 is a paid month of Package A, and that month has not been delivered.** Clause 9 says a paid month runs to its end even if either side walks. So it is revenue received in advance against roughly twenty deliverables still owed — 2 animations, 6 animated stills, 12 graphics, a content calendar, GBP and local SEO maintenance, campaign management, the giveaway lockup — plus whatever they cost to produce. Spending it clears the debts; it does not discharge the obligation, and the production costs for that month still have to come from somewhere.
+
+Three more things that are true at the same time:
+
+- The **18,000 mobile tax** and the **5,000 owed to people** are due now or already overdue. That pressure is real and the money to answer it exists.
+- **Delivery hasn't started.** It's gated on a signed acceptance page and 7 client materials, neither confirmed. Months 2 and 3 are contracted, not guaranteed.
+- Clause 5 licenses the final files **only on full payment** — real leverage, but over the last instalment, not this one.
 
 ## What's still missing from this note
 

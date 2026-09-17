@@ -24,10 +24,12 @@ Source document: `TSA - Alex Foods Service Scope V2.pdf` in this folder — Serv
 
 ### Money in and money due
 
-- **42,000 — Package A, month 1 of 3: marked RECEIVED** in the scope document, in both the payment summary and the line item. *Confirm this actually landed before treating it as cash in hand.*
-- **20,000 — Brand Foundation, unpaid, split across two instalments:**
+- **42,000 — Package A, month 1 of 3: RECEIVED.** Confirmed by me on 18 September 2026, not just marked in the document.
+- **20,000 — Brand Foundation: NOT received.** Confirmed unpaid as of 18 September 2026. Split across two instalments:
   - **10,000 due 22 September 2026** — four days out as of writing.
   - **10,000 due 08 October 2026.**
+
+**What the received 42,000 actually is.** It is a paid month of Package A, and clause 9 says a paid month runs to its end even if either side exits. So it is revenue received *in advance of delivery* — against roughly twenty deliverables I still owe that month (2 animations, 6 animated stills, 12 graphics, a content calendar, GBP and local SEO maintenance, campaign management, and the giveaway lockup), plus whatever they cost me to produce. Until that month is delivered, the 42,000 is an obligation wearing the clothes of a windfall.
 
 Payment terms that apply to both stages: minimum 50% upfront before work starts, due within **4 days** of invoice date, **2% per week** late penalty on any overdue amount.
 
@@ -121,6 +123,6 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 ## Open questions
 
 - Has the signed acceptance page come back, and who is the named approver? Nothing starts without it, and clause 3 makes that one person the only voice that counts.
-- Did the 42,000 actually land, or is RECEIVED the intent recorded when V2 was drafted?
 - Which of the seven client materials have arrived? That list is the real schedule driver, not the calendar.
 - Is the 10,000 due 22 September invoiced yet? Clause 11 gives 4 days from invoice date, so the invoice date and the due date have to line up deliberately.
+- Note how clause 11 and the Foundation schedule interlock: 50% minimum upfront before work starts, and 50% of the 20,000 Foundation is exactly the 10,000 due 22 September. That instalment *is* the upfront gate. No Foundation work should start before it clears.

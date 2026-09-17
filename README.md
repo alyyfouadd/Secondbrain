@@ -42,7 +42,18 @@ In Working Copy: **+ → Clone repository →** `https://github.com/alyyfouadd/S
 
 **3. Point Obsidian at the clone.** In Working Copy, open the repository's settings and use **Setup Folder Sync** (or share the repo folder to the Files app), then in Obsidian choose **Open folder as vault** and pick the `Secondbrain` folder. Obsidian now reads the repo directly, and `.obsidian/app.json` in this repo means it opens already configured.
 
-**4. Commit and push after a working session.** This is the part that's easy to forget and the part that actually protects the memory: a note you wrote on the iPad only exists on the iPad until it's committed and pushed. Do it in Working Copy at the end of a session. An uncommitted note is an unsaved note.
+**4. Set your git identity in Working Copy — before your first commit.** Working Copy shows *"Identity not configured"* on a fresh repository, and an unconfigured identity blocks committing. Open the repository, tap **Configuration**, and set a name and email. This is one time, and it's the step that stands between you and being able to save anything from the iPad at all.
+
+**5. Pull before you work, commit and push after.** This is the part that's easy to forget and the part that actually protects the memory.
+
+- **Pull first.** Any session run elsewhere writes to the repo, not to your iPad. Until you pull, Obsidian is showing you an older vault — and it looks completely normal while doing it. A graph missing notes is the usual symptom.
+- **Commit and push after.** A note you wrote on the iPad only exists on the iPad until it's pushed. An uncommitted note is an unsaved note.
+
+Working Copy has an **Auto-Sync** setting (shown on the repository screen, off by default) that can handle the pull side for you. Worth turning on once you trust the setup — a vault that silently falls behind is the main way this system starts lying to you.
+
+### Why CLAUDE.md doesn't appear in search or the graph
+
+`CLAUDE.md` is listed in Obsidian's excluded files (`userIgnoreFilters` in `.obsidian/app.json`). It's Claude Code configuration that happens to live at the vault root, not a note — so it stays out of the graph, search results and link suggestions, while remaining visible in the file explorer if you want to read it. Without that exclusion it shows up as a large orphan node connected to nothing.
 
 ### What's deliberately not tracked
 

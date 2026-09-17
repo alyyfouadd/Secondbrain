@@ -61,6 +61,10 @@ This is my fourth agency. The difference this time is that it runs on direction,
 05 - Resources      <- Cross-project reference material, templates, Jobs
 ```
 
+**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]]
+
+That line is not decoration. The map above is a code block, so it creates no links — without these, the only thing pointing at the folder indexes is whichever daily note happened to mention them, which makes a frozen log the hub of the vault instead of this file. This index is the hub. Every folder is one step away from it, and a new folder's index gets added to this line in the same pass that creates it.
+
 ## What's Active Right Now
 
 All open work lives in one note: [[Active Priorities]]. Tag each item with its project where it isn't obvious. Check it at the start of every conversation; verify an item's real state before acting on it (a listed item may already be done).

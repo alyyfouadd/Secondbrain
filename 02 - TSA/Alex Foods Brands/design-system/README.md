@@ -5,9 +5,16 @@ type: guide
 ---
 # Design System — build
 
-Source for `Alex Foods - Design System v1.1.pdf`. The PDF is generated, never hand-laid. A revision is an edit and a re-render, not a re-layout.
+**This folder builds two documents.** Both are generated, never hand-laid; a revision is an edit and a re-render, not a re-layout.
 
-**Version strings live in four places in `gen.py`** — the page footer, the cover meta block, the governance page body, and the `<title>`. Bump all four together; a grep for `v1.` catches them.
+| Generator | Output | What it is |
+|---|---|---|
+| `gen.py` | `Alex Foods - Design System v1.1.pdf` | 19pp governance document. **Cold White ground, TSA's system owns the page** per [[TSA Brand System]] §6. |
+| `kit.py` | `Alex Foods - Brand and Social Kit v1.0.pdf` | 6pp application kit. **Alex Foods' colours own the page**, because every frame in it is a mock Alex Foods post. See [[Brand and Social Kit]]. |
+
+They share `colour.py`, `plex.css`, `fonts/` and `tsafonts/`. **Nothing is duplicated — change the maths in one place.**
+
+**Version strings live in four places in `gen.py`** — the page footer, the cover meta block, the governance page body, and the `<title>`. Bump all four together; a grep for `v1.` catches them. `kit.py` carries its version in the footer helper and the `<title>` only.
 
 ## Files
 - `colour.py` — the colour maths: sRGB/Lab conversion, ΔE2000, WCAG contrast, ramps. Imported by the generator, and the source of every number in the document.
@@ -32,7 +39,11 @@ chromium --headless --disable-gpu --no-sandbox \
 
 **4. `display:block` on a broad selector like `.def b` blockifies every bold inside the card**, not just the heading, which silently breaks sentences mid-line. Scope heading styles to the direct child: `.def > b`.
 
-**This one bit a second time, on `.lay b`, during the v1.1 rebuild.** The original layer cards had no inline bold inside their paragraphs, so the unscoped selector looked harmless for a year; the moment the rebuilt copy used `<b>` mid-sentence, three sentences broke apart on the page. **The lesson is not "fix `.def`" — it is that any `display:block` on a descendant selector is a trap waiting for the next copy change.** `.lay` is now scoped to `.lay > b` as well. Check the rest before adding inline bold to a card.
+**5. A class name used for two different things will silently override one of them.** `kit.py` used `.tl` for both a corner frame mark (`.c.tl`) and the typography specimen's left column. The specimen's `background` won, and painted a Surface Navy square over the corner of the red statement panel. **A DOM probe found it in one run; three passes of looking at the PNG had not.** Prefix structural utility classes.
+
+**6. Read computed styles, not a downscaled PNG, before "fixing" a colour.** The Paper swatch card looked blue in an 80dpi render and was `rgb(20,20,20)` in the DOM. The render was lying, not the CSS.
+
+**Trap 4 bit a second time, on `.lay b`, during the v1.1 rebuild.** The original layer cards had no inline bold inside their paragraphs, so the unscoped selector looked harmless for a year; the moment the rebuilt copy used `<b>` mid-sentence, three sentences broke apart on the page. **The lesson is not "fix `.def`" — it is that any `display:block` on a descendant selector is a trap waiting for the next copy change.** `.lay` is now scoped to `.lay > b` as well. **And a third time in `kit.py`**, on `.how b`, `.card.hd b`, `.cs b`, `.stat b` and `.pil b` — all now scoped to the direct child. **Assume every `display:block` on a descendant selector is broken until proven otherwise.**
 
 ## Verifying a render
 

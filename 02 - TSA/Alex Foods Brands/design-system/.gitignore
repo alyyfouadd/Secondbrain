@@ -1,4 +1,12 @@
-# Build intermediates. gen.py regenerates these; only the source is tracked.
+# Build intermediates. gen.py and kit.py regenerate these; only the sources are tracked.
+# The shipped PDFs live one folder up, next to the notes, because that is where Aly picks
+# files from on the iPad.
 ds.html
 one*.html
 page*.png
+kit.html
+kit.pdf
+k[0-9]*.html
+k[0-9]*.png
+final*.png
+probe.html

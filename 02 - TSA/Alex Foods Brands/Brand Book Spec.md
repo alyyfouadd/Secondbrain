@@ -52,7 +52,7 @@ The [[Colour and Type Kit]] sets rules — two weights maximum per layout, Arabi
 
 **The route:** the HTML source lives in the vault next to this note. It renders to PDF headlessly in a Claude Code session and comes back as a finished file. Aly never has to print anything. Fallback if a session is not available: open the HTML in Safari on the iPad, Share → Print → pinch the preview → Save to Files. Flag on the fallback — Safari can drop background fills on print, so `print-color-adjust: exact` goes on every coloured block and page 1 gets test-printed before anyone builds page 60.
 
-**The PDF is a build artifact and does not get committed.** The HTML is the master and belongs in the vault; a 15 MB render regenerated on every revision would bloat every clone on every device forever, exactly as the print-resolution mockups would have. Same decision, same reason.
+**Correction, 18 Sep: the PDF does get committed.** The original call assumed a 15 MB render and treated it like the print-resolution mockups. **The real Design System render is 0.47 MB**, because a governance document carries swatches and type, not photographs. At that size the bloat argument does not hold, and Aly works from an iPad with no way to run a build, so a PDF he cannot open from the repo is a PDF he does not have. **Both go in: the source is the master, the PDF is the copy he can actually hand over.** If a future render ever carries photography and crosses a few MB, revisit it then.
 
 ## 4. Typography
 

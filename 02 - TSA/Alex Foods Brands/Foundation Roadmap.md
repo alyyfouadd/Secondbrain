@@ -51,7 +51,7 @@ Not a list of swatches. A governed system:
 - **Check contrast.** Every text-on-colour pairing tested, because half these fields are pale yellow and lime.
 - **Write the relationships:** flavour owns the field, brand owns the logo, parent seal sits where it sits.
 
-**2. Type System**
+**2. Type System** — **BUILT 18 Sep in [[Type System]].** Plex family selected at zero cost, weights, print and social scales, bilingual rules. **Phase 1 is now closed.**
 - Identify what each wordmark actually is — done. Two are illustrated lettering and can never be retyped.
 - **Select the supporting faces:** one Arabic, one Latin, that pair and carry the brands' energy. TSA chooses; the client approves the choice, not the process (clause 1).
 - Set the scale, the weights, the bilingual layout rules, and the fixed rule that Arabic is written first and English fitted to it.

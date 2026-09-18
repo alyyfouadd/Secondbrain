@@ -14,7 +14,10 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 ## Notes in this folder
 - [[Foundation Roadmap]] — the sequenced build plan for all 8 Foundation deliverables: order, dependencies, what needs a designer and what the client still owes. **Read this first.**
 - [[Colour and Type Kit]] — the sample set feeding Foundation deliverable 2: every colour read off the four packs, the type audit, and the usage rules that hold four brands apart. Values are eyeballed from these mockups **and that is the intended state** — there are no codes to wait for, because setting them is the deliverable.
+- `Alex Foods - Design System v1.0.pdf` — **the shipped deliverable 2**, 19 pages, A4, generated from `design-system/`. Colour and type in one governed document, with the sign-off page.
+- `design-system/` — the build: the colour maths, the generator, the fonts, and the traps worth not rediscovering. See its README.
 - [[Colour System]] — Foundation deliverable 2, part 1. **The governed system**: 31 sampled values rationalised to 18 masters, ramps, neutrals, every contrast pairing computed, the SKU map, and the three packaging defects the maths exposed.
+- [[Type System]] — Foundation deliverable 2, part 2. Wordmarks as artwork, the Plex family and why, weights, print and social scales, and the bilingual rules.
 - [[Brand Voice Guide]] — Foundation deliverable 1, drafted. One voice and four tones, the words each brand uses and avoids, sentence length and emoji policy per brand, the never-say list that keeps a food page out of trouble, and the full comment-reply procedure including the complaint script.
 - [[Slogans and Song]] — Foundation deliverable 4. Why a slogan is not a headline, who each brand is actually talking to, the feeling behind each of the four, the six tests a line has to pass, and why the giveaway song plays by campaign rules instead.
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.

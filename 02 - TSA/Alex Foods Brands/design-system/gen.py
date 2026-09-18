@@ -1,21 +1,29 @@
 # -*- coding: utf-8 -*-
 import io, os, sys
-sys.path.insert(0,'/tmp/claude-0/-home-user-Secondbrain/de8695b0-b80e-50a5-9110-2502907c667a/scratchpad')
-exec(open('/tmp/claude-0/-home-user-Secondbrain/de8695b0-b80e-50a5-9110-2502907c667a/scratchpad/colour.py').read().split('# sanity')[0])
+HERE = os.path.dirname(os.path.abspath(__file__))
+exec(open(os.path.join(HERE,'colour.py')).read().split('# sanity')[0])
 
-PAPER='#FAF8F3'; INK='#141414'; MIST='#EDEAE3'; SILVER='#C9C5BC'; SLATE='#8A8681'; GRAPHITE='#4A4742'
+# TSA brand system governs the document. Client colours appear only as content.
+PAPER='#F0F2F5'  # Cold White - the only white in the system
+INK='#0A0F1E'    # Precision Navy
+RED='#E8203A'    # Signal Red - accent, reserved
+SURF='#1A2340'   # Surface Navy - panels only, never a brand colour
+MIST='#E2E5EA'; SILVER='#C3C8D2'; SLATE='#6E7687'; GRAPHITE='#2A3348'
+# The client's own neutrals. Contrast verdicts describe ALEX FOODS' system, not this document's,
+# so they are measured against the client's ink and never against TSA's Precision Navy.
+CLIENT_INK='#141414'; CLIENT_PAPER='#FAF8F3'
 def cmyk(h):
     r,g,b=[c/255 for c in hx(h)]; k=1-max(r,g,b)
     if k>=1: return (0,0,0,100)
     return tuple(round(x*100) for x in ((1-r-k)/(1-k),(1-g-k)/(1-k),(1-b-k)/(1-k),k))
 def mix(a,b,t):
     A,B=hx(a),hx(b); return hs(tuple(A[i]+(B[i]-A[i])*t for i in range(3)))
-def ramp(h): return [mix(h,PAPER,.72),mix(h,PAPER,.36),h,mix(h,INK,.26),mix(h,INK,.52)]
+def ramp(h): return [mix(h,CLIENT_PAPER,.72),mix(h,CLIENT_PAPER,.36),h,mix(h,CLIENT_INK,.26),mix(h,CLIENT_INK,.52)]
 def best(h):
-    w=ratio('#FFFFFF',h); k=ratio(INK,h)
+    w=ratio('#FFFFFF',h); k=ratio(CLIENT_INK,h)
     if w>=4.5 and w>=k: return ('WHITE','#FFFFFF',w)
-    if k>=4.5: return ('INK',INK,k)
-    return ('KEYLINE', INK if k>=w else '#FFFFFF', max(w,k))
+    if k>=4.5: return ('INK',CLIENT_INK,k)
+    return ('KEYLINE', CLIENT_INK if k>=w else '#FFFFFF', max(w,k))
 
 M=[('Brand Green','#1BA34C','أخضر العلامة'),('Deep Green','#2C8C3B','أخضر غامق'),('Leaf Green','#8DC63F','أخضر ورقي'),
    ('Lime','#C6D42E','ليموني'),('BeBo Navy','#1E2A6B','كحلي بيبو'),('AlRawy Navy','#1B4F9C','كحلي الراوي'),
@@ -50,7 +58,9 @@ def p(s): H.append(s)
 PAGES=[0]
 def page(cls, body, label=''):
     PAGES[0]+=1
-    p(f'<section class="page {cls}">{body}<footer><span>Alex Foods × TSA · Design System v1.0 · 18.09.2026</span><span>{label}</span><span>{PAGES[0]}</span></footer></section>')
+    p(f'<section class="page {cls}">{body}<footer><span class="fm"><i></i><b>TSA</b></span>'
+      f'<span>Alex Foods · Design System v1.0 · 18.09.2026</span>'
+      f'<span>{label}</span><span>{PAGES[0]}</span></footer></section>')
 
 def sw(h,name='',code=True,hgt='22mm'):
     mode,col,r=best(h)
@@ -58,15 +68,16 @@ def sw(h,name='',code=True,hgt='22mm'):
     return f'<div class="sw" style="background:{h};height:{hgt}"><span style="color:{col}">{name}</span>{tag}</div>'
 
 # ---------- COVER ----------
-bands=''
 page('cover', f'''<div class="cov">
-<div class="covtop"><div class="kick">The Standard Agency</div></div>
+<div class="covtop"><div class="lockup"><i></i><span>THE STANDARD AGENCY</span></div></div>
 <div class="covmid">
-<h1>نظام التصميم</h1><h2>Design System</h2>
-<div class="covsub">Alex Foods · BeBo · AlRawy · 2MAN · POLEKA</div>
+<div class="eyebrow">Brand Foundation · Deliverable 2 of 8</div>
+<h1>نظام التصميم</h1><h2>DESIGN SYSTEM</h2>
+<div class="covsub">Alex Foods &nbsp;·&nbsp; BeBo &nbsp;·&nbsp; AlRawy &nbsp;·&nbsp; 2MAN &nbsp;·&nbsp; POLEKA</div>
 </div>
-<div class="covbot"><div class="meta"><span>Version 1.0</span><span>18 September 2026</span><span>Brand Foundation · Deliverable 2 of 8</span></div>
-<div class="bands">{bands}</div></div></div>''')
+<div class="covbot"><div class="meta"><span>Version 1.0</span><span>18 September 2026</span><span>Prepared for Alex Foods</span></div>
+<div class="tag">Grow the <em>standard</em>.</div>
+<div class="bands"></div></div></div>''')
 
 # ---------- HOW TO USE ----------
 page('', f'''<h3 class="ar">كيف يُستخدم هذا المستند</h3><h4>How to use this document</h4>
@@ -133,7 +144,7 @@ page('', f'''<h3 class="ar">التدرجات</h3><h4>4 · Ramps</h4>
 <p class="fn">Mixed toward paper and ink rather than white and black. Black-mixed shades go muddy.</p>''','Ramps')
 
 # ---------- NEUTRALS ----------
-nl=''.join(f'''<tr><td class="cell"><div class="chipsw" style="background:{h};border:0.3mm solid {SILVER}"></div></td><td><b>{n}</b></td><td class="mono">{h}</td><td class="sm">{u}</td><td class="mono sm">{ratio(h,PAPER):.2f}:1</td></tr>''' for n,h,u in NEU)
+nl=''.join(f'''<tr><td class="cell"><div class="chipsw" style="background:{h};border:0.3mm solid {SILVER}"></div></td><td><b>{n}</b></td><td class="mono">{h}</td><td class="sm">{u}</td><td class="mono sm">{ratio(h,CLIENT_PAPER):.2f}:1</td></tr>''' for n,h,u in NEU)
 page('', f'''<h3 class="ar">الألوان المحايدة</h3><h4>5 · Neutrals</h4>
 <p class="lead">The layer all four brands share and none of them had. Every document, template, calendar and this book are built from it.</p>
 <table class="mt"><thead><tr><th></th><th>Name</th><th>HEX</th><th>Use</th><th>On Paper</th></tr></thead><tbody>{nl}</tbody></table>
@@ -142,14 +153,14 @@ page('', f'''<h3 class="ar">الألوان المحايدة</h3><h4>5 · Neutral
 # ---------- CONTRAST ----------
 rows=''
 for n,h,ar in M:
-    w=ratio('#FFFFFF',h); k=ratio(INK,h)
+    w=ratio('#FFFFFF',h); k=ratio(CLIENT_INK,h)
     def v(x): return ('pass' if x>=4.5 else ('head' if x>=3 else 'fail'))
     rows+=f'''<tr><td class="cell"><div class="chipsw sm2" style="background:{h}"></div></td><td class="sm">{n}</td>
     <td class="mono sm t{v(w)}">{w:.1f}:1 {v(w)}</td><td class="mono sm t{v(k)}">{k:.1f}:1 {v(k)}</td></tr>'''
 page('', f'''<h3 class="ar">النص على اللون</h3><h4>6 · Type on colour</h4>
-<div class="rule big"><b>Ink is the default type colour on a flavour field. White is the exception, and it gets checked.</b>
+<div class="rule big"><b>The client's Ink #141414 is the default type colour on a flavour field. White is the exception, and it gets checked.</b>
 <p>White type fails on 11 of the 18 masters. Ink passes on 12. The instinct in this category is white on a bright field, and on this palette it is wrong more often than it is right.</p></div>
-<table class="mt"><thead><tr><th></th><th>Master</th><th>White text</th><th>Ink #141414</th></tr></thead><tbody>{rows}</tbody></table>
+<table class="mt"><thead><tr><th></th><th>Master</th><th>White text</th><th>Client Ink #141414</th></tr></thead><tbody>{rows}</tbody></table>
 <p class="fn">pass = WCAG AA body text at 4.5:1 · head = 3:1, display sizes only · fail = not usable for type without a keyline</p>''','Type on colour')
 
 # ---------- WORDMARKS ----------
@@ -249,17 +260,25 @@ CSS = f'''
 @page {{ size:210mm 297mm; margin:0; }}
 *{{box-sizing:border-box}}
 html,body{{margin:0;padding:0;background:{PAPER};color:{INK};
- font-family:'IBM Plex Sans Arabic','IBM Plex Sans',sans-serif;
+ font-family:'Inter',sans-serif;
  -webkit-print-color-adjust:exact;print-color-adjust:exact;}}
 .page{{width:210mm;height:297mm;padding:20mm 20mm 26mm;position:relative;overflow:hidden;
  background:{PAPER};page-break-after:always;break-after:page;}}
 .page:last-child{{page-break-after:auto}}
 footer{{position:absolute;left:20mm;right:20mm;bottom:12mm;display:flex;justify-content:space-between;
- font-size:7.5pt;color:{SLATE};border-top:0.25mm solid {SILVER};padding-top:2.5mm;font-family:'IBM Plex Mono',monospace}}
-h3.ar{{font-size:26pt;font-weight:600;margin:0;direction:rtl;text-align:right;line-height:1.3}}
-h4{{font-size:11pt;font-weight:400;color:{SLATE};margin:1mm 0 7mm;letter-spacing:.02em;
- border-bottom:0.25mm solid {SILVER};padding-bottom:3mm}}
-h5{{font-size:9.5pt;font-weight:600;margin:6mm 0 2.5mm;letter-spacing:.03em;text-transform:uppercase;color:{GRAPHITE}}}
+ align-items:center;font-size:6.5pt;color:{SLATE};letter-spacing:.14em;text-transform:uppercase;
+ font-weight:600;border-top:0.25mm solid {SILVER};padding-top:2.5mm}}
+footer .fm{{display:flex;align-items:center;gap:1.6mm}}
+footer .fm i{{display:block;width:1mm;height:3.4mm;background:{RED}}}
+footer .fm b{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:9pt;
+ letter-spacing:.04em;color:{INK}}}
+h3.ar{{font-family:'IBM Plex Sans Arabic',sans-serif;font-size:24pt;font-weight:600;margin:0;
+ direction:rtl;text-align:right;line-height:1.3;color:{INK}}}
+h4{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:16pt;color:{INK};
+ margin:1mm 0 7mm;letter-spacing:.01em;text-transform:uppercase;
+ border-bottom:0.6mm solid {RED};padding-bottom:3mm}}
+h5{{font-family:'Inter',sans-serif;font-size:7pt;font-weight:600;margin:6mm 0 2.5mm;
+ letter-spacing:.2em;text-transform:uppercase;color:{RED}}}
 p{{font-size:9.5pt;line-height:1.55;margin:0 0 3mm}}
 p.lead{{font-size:11pt;line-height:1.5}}
 p.sm,.sm{{font-size:8.5pt;line-height:1.5}}
@@ -267,7 +286,7 @@ p.sm,.sm{{font-size:8.5pt;line-height:1.5}}
 .mono{{font-family:'IBM Plex Mono',monospace}}
 .two{{display:grid;grid-template-columns:1fr 1fr;gap:10mm}}
 table.mt{{width:100%;border-collapse:collapse;margin:2mm 0}}
-table.mt th{{font-size:7.5pt;text-transform:uppercase;letter-spacing:.05em;color:{SLATE};text-align:left;
+table.mt th{{font-size:6.5pt;text-transform:uppercase;letter-spacing:.2em;color:{SLATE};text-align:left;
  font-weight:600;padding:0 2mm 2mm 0;border-bottom:0.25mm solid {SILVER}}}
 table.mt td{{padding:1.8mm 2mm 1.8mm 0;border-bottom:0.2mm solid {MIST};vertical-align:middle;font-size:9pt}}
 table.mt.xs2 td{{padding:1.2mm 1mm 1.2mm 0}}
@@ -275,9 +294,9 @@ td.cell{{width:12mm}} .chipsw{{width:10mm;height:7mm;border-radius:0.6mm}}
 .chipsw.sm2{{width:9mm;height:5.5mm}} td.rc{{text-align:left}} td.rc .xs{{display:block;color:{SLATE};margin-top:.6mm}}
 span.ar{{display:block;direction:rtl;color:{SLATE};font-size:8pt}}
 .tpass{{color:#17592F}} .thead{{color:#B87C0E}} .tfail{{color:#AC211B}}
-.rule{{border-right:1.2mm solid {INK};background:{MIST};padding:4mm 5mm;margin:5mm 0}}
-.rule.alt{{border-right-color:{SLATE}}} .rule.big b{{font-size:11.5pt;line-height:1.35;display:block;margin-bottom:2mm}}
-.rule > b{{font-size:10pt;display:block;margin-bottom:1.5mm}} .rule p{{margin:2mm 0 0;font-size:8.5pt}}
+.rule{{border-right:1.2mm solid {RED};background:{MIST};padding:4mm 5mm;margin:5mm 0}}
+.rule.alt{{border-right-color:{SURF}}} .rule.big b{{font-size:11.5pt;line-height:1.35;display:block;margin-bottom:2mm}}
+.rule > b{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:12pt;letter-spacing:.01em;display:block;margin-bottom:1.5mm}} .rule p{{margin:2mm 0 0;font-size:8.5pt}}
 .layers{{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-bottom:2mm}}
 .lay{{border:0.25mm solid {SILVER};padding:4mm;border-radius:1mm}}
 .lay b{{font-size:9.5pt;display:block;margin-bottom:1.5mm}} .lay p{{font-size:8.5pt;margin:0 0 1.5mm}}
@@ -292,18 +311,20 @@ span.ar{{display:block;direction:rtl;color:{SLATE};font-size:8pt}}
 .bi{{border-top:0.25mm solid {MIST};padding:3mm 0}} .bi b{{font-size:9.5pt}} .bi p{{font-size:8.5pt;margin:1mm 0 0;color:{GRAPHITE}}}
 .nevs{{display:grid;grid-template-columns:1fr 1fr;gap:3.5mm}}
 .nev{{display:flex;gap:3mm;border:0.25mm solid {SILVER};padding:3.5mm;border-radius:1mm}}
-.nev .x{{color:#AC211B;font-weight:700;font-size:12pt;line-height:1}}
+
+.nev .x{{color:{RED};font-weight:700;font-size:12pt;line-height:1}}
 .nev b{{font-size:8.5pt;display:block}} .nev p{{font-size:7.5pt;margin:1mm 0 0;color:{GRAPHITE}}}
 .def{{border:0.25mm solid {SILVER};padding:4mm;margin-bottom:4mm;border-radius:1mm}}
-.def.warn2{{border-color:#E1251D;border-width:0.4mm}}
-.def > b{{font-size:10pt;display:block;margin-bottom:2.5mm}}
+.def.warn2{{border-color:{RED};border-width:0.4mm}}
+.def > b{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:12pt;display:block;margin-bottom:2.5mm}}
 .cmp{{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-bottom:2.5mm}}
 .sw2{{height:26mm;border-radius:1mm;display:flex;align-items:center;justify-content:center}}
 .badge{{background:#1BA34C;color:#fff;font-weight:700;font-size:10pt;padding:2mm 5mm;border-radius:4mm}}
 .lbl{{color:#fff;font-weight:600;font-size:9pt}}
+chip-x{{}}
 .chip{{display:inline-block;background:{INK};color:{PAPER};font-size:7pt;letter-spacing:.08em;
  padding:1.5mm 3mm;border-radius:0.8mm;font-family:'IBM Plex Mono',monospace;margin-top:4mm}}
-.chip.warn{{background:#B87C0E}} .chip2{{font-size:7pt;font-family:'IBM Plex Mono',monospace;color:{SLATE}}}
+.chip.warn{{background:{RED}}} .chip2{{font-size:7pt;font-family:'IBM Plex Mono',monospace;color:{SLATE}}}
 .chip2.warn{{color:#B87C0E;font-weight:600}}
 table.toc td{{font-size:8.5pt;padding:1.4mm 2mm 1.4mm 0;border-bottom:0.2mm solid {MIST}}}
 table.toc td:first-child{{width:6mm;color:{SLATE};font-family:'IBM Plex Mono',monospace}}
@@ -312,22 +333,33 @@ table.toc td:last-child{{text-align:right;color:{SLATE};font-family:'IBM Plex Mo
 .sigline{{border-bottom:0.25mm solid {SLATE};height:9mm;margin-top:5mm;position:relative}}
 .sigline span{{position:absolute;bottom:1mm;font-size:7pt;color:{SLATE};font-family:'IBM Plex Mono',monospace}}
 /* cover */
-.page.cover{{padding:0;background:{PAPER}}}
-.cov{{height:100%;display:flex;flex-direction:column;padding:24mm 20mm 0}}
-.covtop .kick{{font-size:8.5pt;letter-spacing:.18em;text-transform:uppercase;color:{SLATE};font-family:'IBM Plex Mono',monospace}}
+.page.cover{{padding:0;background:{INK}}}
+.cov{{height:100%;display:flex;flex-direction:column;padding:22mm 20mm 0;color:{PAPER}}}
+.lockup{{display:flex;align-items:center;gap:3mm}}
+.lockup i{{display:block;width:2.2mm;height:8mm;background:{RED}}}
+.lockup span{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:14pt;
+ letter-spacing:.03em;color:{PAPER}}}
 .covmid{{flex:1;display:flex;flex-direction:column;justify-content:center}}
-.covmid h1{{font-size:54pt;font-weight:600;margin:0;direction:rtl;text-align:right;line-height:1.15}}
-.covmid h2{{font-size:26pt;font-weight:400;margin:3mm 0 0;color:{GRAPHITE};letter-spacing:.01em}}
-.covsub{{margin-top:8mm;font-size:10pt;color:{SLATE};font-family:'IBM Plex Mono',monospace}}
+.eyebrow{{font-family:'Inter',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.2em;
+ text-transform:uppercase;color:{RED};margin-bottom:6mm}}
+.covmid h1{{font-family:'IBM Plex Sans Arabic',sans-serif;font-size:46pt;font-weight:600;margin:0;
+ direction:rtl;text-align:right;line-height:1.2;color:{PAPER}}}
+.covmid h2{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:40pt;margin:2mm 0 0;
+ color:{PAPER};letter-spacing:.02em}}
+.covsub{{margin-top:8mm;font-size:8.5pt;color:{SILVER};letter-spacing:.06em}}
 .covbot{{padding-bottom:0}}
-.meta{{display:flex;gap:8mm;font-size:8pt;color:{SLATE};font-family:'IBM Plex Mono',monospace;margin-bottom:22mm}}
-.bands{{position:absolute;left:0;right:0;bottom:0;height:14mm;
+.meta{{display:flex;gap:8mm;font-size:7pt;color:{SLATE};letter-spacing:.12em;
+ text-transform:uppercase;font-weight:600;margin-bottom:5mm}}
+.tag{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:19pt;
+ color:{PAPER};margin-bottom:16mm}}
+.tag em{{font-style:normal;color:{RED}}}
+.bands{{position:absolute;left:0;right:0;bottom:0;height:9mm;
  background:linear-gradient(90deg,#1BA34C 0 25%,#29ABE2 25% 50%,#EC008C 50% 75%,#FFC20E 75% 100%);
  -webkit-print-color-adjust:exact;print-color-adjust:exact}}
 .page.cover footer{{display:none}}
 '''
 html=f'''<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8">
-<title>Alex Foods — Design System v1.0</title><link rel="stylesheet" href="plex.css">
+<title>Alex Foods — Design System v1.0</title><link rel="stylesheet" href="plex.css"><link rel="stylesheet" href="tsa.css">
 <style>{CSS}</style></head><body>{''.join(H)}</body></html>'''
-io.open('/tmp/claude-0/-home-user-Secondbrain/de8695b0-b80e-50a5-9110-2502907c667a/scratchpad/ds.html','w',encoding='utf-8').write(html)
+io.open(os.path.join(HERE,'ds.html'),'w',encoding='utf-8').write(html)
 print("pages:",PAGES[0])

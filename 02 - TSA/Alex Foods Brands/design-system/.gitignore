@@ -1,0 +1,4 @@
+# Build intermediates. gen.py regenerates these; only the source is tracked.
+ds.html
+one*.html
+page*.png

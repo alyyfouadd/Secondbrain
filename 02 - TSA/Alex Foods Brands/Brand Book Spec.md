@@ -11,6 +11,16 @@ The design and production specification for the document the [[Alex Foods]] Bran
 
 ---
 
+## 0. The deliverable carries TSA's brand — decided 18 September
+
+**These are TSA documents about a client's brand, so [[TSA Brand System]] governs the page and the client's system is the subject.** Cover, section openers, footers, headings, labels and body copy are Precision Navy, Cold White, Signal Red, Barlow Condensed 800 and Inter. The client's colours and type appear only inside swatches and specimen blocks.
+
+This replaces the earlier idea that the book should be set in the system it specifies. That is right for a brand book the client owns outright; it is wrong for a kit TSA hands over as the agency. **Aly's call, and it is the right one for a kit going out under TSA's name.**
+
+**Cold White `#F0F2F5` is the document ground**, which is on-system rather than a compromise: TSA's own rules name it for "any document printed or sent to a client to sign."
+
+> **The gap this exposed: TSA's brand system specifies no Arabic typeface.** Barlow Condensed and Inter are Latin only, and TSA is an Alexandria agency producing Arabic work. Every bilingual deliverable is currently off-system by necessity. Arabic here is set in IBM Plex Sans Arabic as an interim. **TSA's system needs an Arabic companion named and locked.** See [[TSA Brand System]].
+
 ## 1. The decision that governs every other one
 
 **The book is neutral. The brands are loud. The book never joins in.**
@@ -22,7 +32,7 @@ So the rule, and it is absolute:
 > **Brand colour appears as an object, never as an atmosphere.**
 > Swatches, specimen fields, navigation tabs and the artwork itself are objects. Page backgrounds, headers, rules, tinted panels and type colour are atmosphere, and those stay in the house neutrals.
 
-The house shell is off-white paper, near-black ink, one grey for secondary text. Nothing else. It is the empty gallery the four brands hang in.
+The house shell is **Cold White ground and Precision Navy type, with Signal Red reserved for rules and eyebrows**, per [[TSA Brand System]]. It is the empty gallery the four brands hang in, and it is TSA's gallery.
 
 ## 2. The book obeys its own rules
 

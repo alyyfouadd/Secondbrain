@@ -18,6 +18,7 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 - **Status:** Active — first client ([[Alex Foods]]) signed on a 146,000 EGP total contract; delivery gated on the client's signed acceptance page and materials.
 
 ## Folders in here
+- **TSA Brand/** — [[TSA Brand]] · the agency's own locked identity: three colours, two typefaces, one tagline, one logo, plus the source PDFs and the lockup artwork. **Governs every deliverable TSA hands over**, so read it before building anything a client will see.
 - **Alex Foods Brands/** — [[Alex Foods Brands]] · the four brands the client actually sells, read off the packaging mockups, plus the mockup images themselves. Where the Foundation's colour, type and voice work is sourced from.
 
 ## Notes in this folder

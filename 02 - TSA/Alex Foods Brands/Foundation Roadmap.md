@@ -57,7 +57,7 @@ Not a list of swatches. A governed system:
 - Set the scale, the weights, the bilingual layout rules, and the fixed rule that Arabic is written first and English fitted to it.
 - **Cost check:** default to free, properly-licensed families (Google Fonts has strong Arabic/Latin pairs) unless there is a reason to spend. Any paid licence gets priced before it is chosen.
 
-**3. Brand Voice Guide** *(contract deliverable 1)*
+**3. Brand Voice Guide** *(contract deliverable 1)* — **DRAFTED 18 Sep in [[Brand Voice Guide]].** Eight of nine sections complete and usable; only the house voice waits on the "Alex" answer. Carries the never-say list and the full comment-reply procedure.
 - The house voice, then a distinct tone per brand: BeBo, AlRawy, 2MAN, POLEKA.
 - Words in and words out, sentence length, emoji policy, Arabic/English register — Egyptian colloquial versus formal, per brand.
 - The comment-reply policy, which is what the scope actually asks for and what most guides skip.

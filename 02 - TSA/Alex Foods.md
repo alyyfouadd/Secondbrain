@@ -26,7 +26,7 @@ Source document: `TSA - Alex Foods Service Scope V2.pdf` in this folder — Serv
 
 - **42,000 — Package A, month 1 of 3: RECEIVED.** Confirmed by me on 18 September 2026, not just marked in the document.
 - **20,000 — Brand Foundation: NOT received.** Confirmed unpaid as of 18 September 2026. Split across two instalments:
-  - **10,000 due 22 September 2026** — four days out as of writing.
+  - **10,000 — INVOICED 18 September 2026**, with the due date set to **26 September**, not the 22nd in the scope document. *Confirm the invoice date:* clause 11's 4-day term would have landed on 21 or 22 Sep, so this is a deliberately longer window than the contract requires. The scope's 22 Sep date is superseded by the invoice.
   - **10,000 due 08 October 2026.**
 
 **What the received 42,000 actually is.** It is a paid month of Package A, and clause 9 says a paid month runs to its end even if either side exits. So it is revenue received *in advance of delivery* — against roughly twenty deliverables I still owe that month (2 animations, 6 animated stills, 12 graphics, a content calendar, GBP and local SEO maintenance, campaign management, and the giveaway lockup), plus whatever they cost me to produce. Until that month is delivered, the 42,000 is an obligation wearing the clothes of a windfall.
@@ -41,10 +41,23 @@ Four gates sit in front of delivery, and they fire in order. Three of them are o
 
 1. **Signed acceptance page.** Work does not begin until the client returns page 3 signed, naming one approver with role and contact.
 2. **Client materials, all seven.** No delivery starts before these arrive (list below).
-3. **Foundation clock: 3 weeks minimum**, starting from **the first instalment (10,000 on 22 Sep 2026) OR the arrival of the complete materials list — whichever is later.** Materials arriving late push the start; the money alone does not start it.
+3. **Foundation clock: 3 weeks minimum.** As written, it starts at the first instalment OR the complete materials list, whichever is later. **Superseded in part by the 18 Sep exception** (see above): the payment half of this gate is waived, so the clock now turns on the materials alone.
 4. **Package A starts only after Brand Foundation is signed off in writing — not from the payment date.** Month 1 counts from the written approval date.
 
 **The consequence worth holding onto:** Package A's 42,000 is marked received, but its clock has not started and cannot start until Foundation is approved. Money in hand is not the same as a month running.
+
+### The clause 11 exception — agreed 18 September 2026
+
+**Foundation work starts now, before the 10,000 clears.** Aly agreed this with the client as a one-off concession: TSA carries the Foundation on the strength of the 42,000 already received, and the Foundation payment follows. This overrides clause 11's "50% upfront before work starts" **for this stage only**. It is an exception granted to the client, not a change to the terms.
+
+What it does and does not do:
+
+- **It removes the money gate.** Foundation work may begin.
+- **It does not touch the materials gate.** The seven client materials are a separate dependency, and no exception on payment produces an SKU name. Most of the Foundation stays blocked until they arrive.
+- **It does not replace the signed acceptance page.** Clause 3's single named approver is what makes a delivery approvable and clause 4's rejection rule enforceable. Working without it means producing for a client with no defined voice of record.
+- **It weakens clause 6.** The day-for-day extension for client delay is harder to invoke once TSA has demonstrated it will work without the prerequisites.
+
+**The exposure, stated plainly:** three weeks of Foundation work now sit against money due 26 September from a client who has not yet returned a signed acceptance page. The 42,000 does not cover this — it is already owed against roughly twenty Package A deliverables.
 
 And clause 6: if the client is late with materials, product, or approvals, the **timeline extends day for day — but the paid month does not extend.**
 
@@ -122,7 +135,6 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 ## Open questions
 
-- Has the signed acceptance page come back, and who is the named approver? Nothing starts without it, and clause 3 makes that one person the only voice that counts.
-- Which of the seven client materials have arrived? That list is the real schedule driver, not the calendar.
-- Is the 10,000 due 22 September invoiced yet? Clause 11 gives 4 days from invoice date, so the invoice date and the due date have to line up deliberately.
-- Note how clause 11 and the Foundation schedule interlock: 50% minimum upfront before work starts, and 50% of the 20,000 Foundation is exactly the 10,000 due 22 September. That instalment *is* the upfront gate. No Foundation work should start before it clears.
+- **Has the signed acceptance page come back, and who is the named approver?** Still open, and now the most exposed item on the job: the clause 11 exception means work starts without it. Clause 3 makes that one person the only voice whose notes count, and clause 4's "a delivery matching the agreed brief counts as delivered" has nothing to lean on until a named approver exists.
+- **Which of the seven client materials have arrived?** Unchanged by the payment exception, and now the only gate still holding. This list, not the calendar, is the real schedule driver.
+- **What exact date was the 10,000 invoice issued?** The due date is set to 26 September; clause 11's 4-day term implies an 18 Sep issue date would have been due the 22nd. The gap is deliberate but should be recorded accurately.

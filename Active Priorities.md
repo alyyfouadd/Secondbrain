@@ -12,9 +12,9 @@ The single queue of open work across everything. Tag each item with its project 
 **TSA — [[Alex Foods]]** (full scope in the note; 146,000 EGP total contract)
 
 *Gates first. Nothing downstream can start until these close, and three of the four are outside my control.*
-- [ ] Get the signed acceptance page back, with the named approver, their role and contact. Work does not begin without it, and clause 3 makes that one person the only voice whose notes count. (tsa)
-- [ ] Chase the 7 client materials: 5 SKU names, logo files (vector), product photos or samples, packaging artwork, Meta admin access, Google account, GBP details. No delivery starts until all 7 land, and the foundation clock starts at the later of these arriving or the 22 Sep instalment. (tsa)
-- [ ] Invoice the 10,000 Brand Foundation instalment due **22 September 2026** — four days out, and confirmed not received. Clause 11 gives 4 days from invoice date, so the invoice date has to be set deliberately against that due date. This instalment is also the clause 11 "50% upfront" gate for the Foundation: no Foundation work starts before it clears. (tsa)
+- [ ] **Chase the 7 client materials — the only gate still actually holding.** 5 SKU names, logo files (vector), product photos or samples, packaging artwork, Meta admin access, Google account, GBP details. The payment exception did not touch this: six of the eight Foundation deliverables are blocked on these and no concession on money produces an SKU name. The Foundation clock now turns on this list alone. (tsa)
+- [ ] **Chase the signed acceptance page — now the most exposed item on the job.** Foundation work is starting without it under the 18 Sep exception, which means TSA is producing for a client with no named approver. Clause 3 makes that one person the only voice whose notes count, and clause 4's "matching the brief counts as delivered" has nothing to stand on until they exist. (tsa)
+- [ ] Collect the first Foundation instalment: 10,000 **invoiced 18 September, due 26 September**. Foundation work is already running against it under the exception, so this is now money owed for work in progress rather than money gating work. (tsa)
 - [ ] Invoice and collect the second Foundation instalment, 10,000 due **08 October 2026**. (tsa)
 
 *Delivery, once the gates close*

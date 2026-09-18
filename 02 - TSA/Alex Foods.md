@@ -107,6 +107,10 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 ## Client materials required — 7 items, no delivery before they arrive
 
+**First materials landed 18 September 2026:** the client sent **packaging mockups as PDFs**. Unreviewed at time of writing — which of the seven items they actually close is unconfirmed until the artwork has been looked at. Likely candidates: packaging artwork outright, plus the SKU names and possibly the logo if the files carry vector art.
+
+*The files are print-resolution — the smallest is 126 MB. **They do not go in this repo.** GitHub rejects any single file over 100 MB, and even under that limit, print PDFs in a git repo make every future clone slower on every device forever. They live in cloud storage; this note records where, and working copies for brand work are screen-resolution exports.*
+
 - [ ] 5 SKU names
 - [ ] Logo files — vector if available
 - [ ] Product photos, or actual samples for shooting

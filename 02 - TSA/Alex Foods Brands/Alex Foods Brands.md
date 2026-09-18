@@ -128,10 +128,11 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 **This list got shorter on 18 September, and the two that left were the loud ones.** "Which 2MAN design is live" is dead — both are live, and governing both is a sub-brand rule. "Exact colour codes and font names from the designer" is dead — there is no designer and there are no codes, and building the values *is* what the Foundation was bought for. Neither was ever a gate. See [[Foundation Roadmap]].
 
-Two real client answers remain:
+**And "what is Alex" closed on 18 September: the parent company, endorsing selected lines.** No consumer voice, no house palette, and the seal's absence on BeBo and POLEKA is deliberate information rather than an oversight. Consequences written up in [[Brand Voice Guide]] §2.
 
-1. **What is "Alex"?** The seal appears on AlRawy and 2MAN but not on BeBo or POLEKA. Is Alex the parent company endorsing some lines, a separate consumer brand, or being phased in? The Brand Voice Guide cannot define a house voice without knowing whether there is a house, and every profile bio depends on the same answer.
-2. **Do they hold the rights to the "Cola Cola" artwork?** See the trademark flag below. TSA runs the paid campaigns, so this is TSA's exposure, not just theirs.
+One real client answer remains:
+
+1. **Do they hold the rights to the "Cola Cola" artwork?** See the trademark flag below. TSA runs the paid campaigns, so this is TSA's exposure, not just theirs.
 
 And two materials, which are chases rather than questions:
 

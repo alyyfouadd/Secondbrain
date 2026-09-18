@@ -19,7 +19,7 @@ Alex Foods is not one brand with one colour scheme. It is **four consumer brands
 
 So the system has three layers:
 
-1. **Parent layer** — the *Alex* seal. Appears on **AlRawy** and **2MAN**. Does **not** appear on BeBo or POLEKA. *(Unresolved: see §7.)*
+1. **Parent layer** — the *Alex* seal. Appears on **AlRawy** and **2MAN**. Does **not** appear on BeBo or POLEKA. **Resolved 18 Sep: Alex is the parent company endorsing selected lines**, so the absence is information rather than an oversight, and **there is no house palette.** A parent that endorses does not repaint what it endorses. Placement and the freeze rule are in [[Brand Voice Guide]] §2.
 2. **Brand layer** — each brand's own logo colours. Fixed. Never changes for any reason.
 3. **Flavour layer** — the colour that owns the pack for a given SKU. Changes per product.
 
@@ -177,7 +177,6 @@ This is the single most important thing in this section, and getting it wrong pr
 What genuinely remains:
 
 1. **Vector logo files**, all four brands. *(Blocking every visual deliverable, not just this one.)*
-2. **What "Alex" is.** The seal is on AlRawy and 2MAN, absent from BeBo and POLEKA. Is it the parent company endorsing selected lines, a consumer brand in its own right, or a rollout mid-flight? **The answer decides whether this kit needs a house layer at all**, and it decides how every profile bio and every piece of copy refers to the business. The only client answer this document is actually waiting on.
-3. **POLEKA's scope, in writing.** Paperwork, not a decision — the decision is taken and it is in.
+2. **POLEKA's scope, in writing**, and the Alex answer papered in the same message. Both are paperwork rather than decisions — both decisions are taken.
 
 This document is the sample set. The governed system built on top of it — rationalised values, ramps, neutrals and contrast-tested pairings — is Phase 1 of [[Foundation Roadmap]], and it ships inside the book specified in [[Brand Book Spec]].

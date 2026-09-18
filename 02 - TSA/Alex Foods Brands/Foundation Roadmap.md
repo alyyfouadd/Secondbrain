@@ -116,10 +116,9 @@ Ranked by what it blocks.
 
 1. **Vector or layered source files, all four logos.** Blocks every visual asset in both stages. Cannot be worked around, cannot be recreated by TSA at this price.
 2. **Product photos or actual samples.** Blocks all 20 monthly Package A deliverables. The shooting recipe should be sent to unblock this.
-3. **What "Alex" is** — parent company endorsing selected lines, a consumer brand, or a rollout in progress. Decides whether the system carries a house layer and how every bio and sign-off reads.
 4. **Meta admin access** — blocks executing the social setup.
 5. **Google account and GBP details** — blocks the GBP deliverable.
-6. **POLEKA confirmed in writing** — clause 4 exposure, cheap to close.
+6. **POLEKA confirmed in writing, and the Alex answer papered with it** — same message, same clause 4 exposure, cheap to close.
 7. **Rights confirmation on the cola artwork** — TSA runs the paid campaigns, so it is TSA's ad account carrying it.
 
 ---

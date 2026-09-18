@@ -7,7 +7,7 @@ type: reference
 
 **Brand Foundation deliverable 1 of 8** for [[Alex Foods]]. How the four brands speak: what they say, what they never say, how long a sentence runs, and exactly how a comment gets answered. Written work, no client input required. Brand facts in [[Alex Foods Brands]], craft rules from [[Marketing]].
 
-> **STATUS: DRAFTED — one section pending.** Everything here is written and usable. The **house voice** in §2 cannot be finished until the client says what "Alex" is. That is one section, not a blocker on the rest.
+> **STATUS: DRAFTED, complete.** All nine sections are written and usable. The house-layer question that was holding §2 was answered on 18 September: Alex is the parent, endorsing selected lines, and it has no consumer voice.
 > **All Arabic below is draft copy for Aly's ear.** He is the native speaker and the arbiter. Lines that do not sound right said out loud get rewritten, not defended.
 
 ---
@@ -34,21 +34,42 @@ The same shape as the colour system in [[Colour and Type Kit]], and deliberately
 
 ---
 
-## 2. The house voice — PENDING
+## 2. The house layer — Alex
 
-**Blocked on one client answer: what is "Alex"?** The seal appears on AlRawy and 2MAN, and not on BeBo or POLEKA. Until the client says whether Alex is the parent company endorsing selected lines, a consumer brand in its own right, or a rollout mid-flight, there is no way to know whether a house voice should exist at all.
+**Answered 18 September 2026: Alex is the parent company, endorsing selected lines.** That settles the question that was holding this section, and it settles it in the cheapest direction.
 
-**What is already decided regardless of the answer:** the *house rules* in §1 apply to all four brands. Those are not the house voice. The house voice is the persona the parent speaks in when it speaks as itself, and whether it ever signs off on a brand's page.
+> *Paper this alongside the POLEKA confirmation. It is the same one-line job in the same message, and clause 4's rejection rule leans on the approved guide matching what the client actually told us.*
 
-Three outcomes, and the section that gets written depends on which one lands:
+**The consequence, stated plainly: Alex has no consumer voice.** It does not post, does not hold a page, does not speak in the first person to a shopper, and never appears in a caption. The four brands do all of the talking. There is no fifth tone block below, and there should not be one.
 
-| If Alex is | Then |
-|---|---|
-| Parent company, endorsing some lines | No consumer voice needed. A single sign-off line, corporate register, used nowhere in social. |
-| A consumer brand in its own right | It needs its own tone block, exactly like the four below, plus rules for how it appears alongside them. |
-| A rollout in progress | It gets a placeholder and a defined date to revisit, and no brand copy references it until then. |
+### What the seal actually is
 
-Same unanswered question shaping [[Brand Book Spec]] §7 and [[Slogans and Song]] §6. One message closes it.
+**An endorsement mark, not a logo.** It says *this line is ours* to the trade, to a retailer, and to a parent turning the pack over. It is not a brand the consumer is meant to follow, so it never gets a bio, a hashtag or a voice.
+
+### The rule for where it appears
+
+Current state: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
+
+"Endorsing selected lines" tells us the absence on BeBo and POLEKA is information rather than an oversight, which is a real and useful result. What it does not yet tell us is *the rule*, and there are two readings that give a designer opposite instructions:
+
+| Reading | The rule would be | Consequence |
+|---|---|---|
+| **Deliberate tiering** — Alex endorses the fruit-based lines and withholds from powder and confectionery | Category-based. The seal is **never** added to BeBo or POLEKA. | The seal carries meaning. It is worth something precisely because it is not everywhere. |
+| **Rollout in progress** — the seal is going onto everything and the print runs have not caught up | All lines. BeBo and POLEKA get it at the next print run. | The seal is a company mark and carries no tiering signal. |
+
+**The working rule until the client picks, and it is safe under both readings:**
+
+> **The seal appears exactly where it appears today. It is never added to a pack that does not carry it, and never removed from one that does.**
+
+That is what a governance document should do with a state it has not been given the reason for: write it down and freeze it, rather than guess at intent and let a designer act on the guess.
+
+### The rules that follow, and these are usable today
+
+1. **Bios.** A brand carrying the seal may reference the parent in its bio. **A brand without the seal must not.** Naming Alex on BeBo's page while the pack does not carry the seal breaks the one thing the endorsement means.
+2. **Sign-off line.** Alex gets a single line in corporate register, Arabic and English, for the Business Profile description, trade contexts and company materials. **It never appears in a consumer caption on any of the four brands.**
+3. **Google Business Profile and local SEO are Alex's, not the brands'.** A Business Profile is a company at an address, and consumer brands do not have addresses. That resolves the entity question sitting under Foundation deliverables 7 and 8 before it could become a problem: **one listing, for the company.**
+4. **No house palette.** Alex contributes the seal's own colours and its placement rules and nothing else. The four brands keep four deliberately clashing palettes, which is what separates them on a shelf. A parent that endorses does not repaint what it endorses.
+
 
 ---
 
@@ -228,10 +249,10 @@ TSA → **the named approver** (clause 3) → the client.
 
 ## 9. What this is waiting on
 
-1. **What "Alex" is.** Finishes §2 and nothing else. The other eight sections are usable today.
-2. **A named approver.** Puts a top rung on §8's escalation ladder.
-3. **The client's written product facts** (nutrition, sourcing, certifications, retail list) if they ever want §7's locked list loosened. Until then the list stands as written, and it stands in TSA's own interest.
+1. **A named approver.** Puts a top rung on §8's escalation ladder.
+3. **Which reading governs the seal** (tiering versus rollout, §2). Not a blocker: the freeze rule holds safely under either, and the answer only decides whether the seal can ever be added to BeBo and POLEKA.
+4. **The client's written product facts** (nutrition, sourcing, certifications, retail list) if they ever want §7's locked list loosened. Until then the list stands as written, and it stands in TSA's own interest.
 
 ---
 
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Slogans and Song]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Brand Book Spec]] · [[Marketing]]
+**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Producing Copy with AI]] *(TSA-internal, never delivered)* · [[Slogans and Song]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Brand Book Spec]] · [[Marketing]]

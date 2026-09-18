@@ -132,7 +132,7 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 
 ## 7. What this spec is still waiting on
 
-- **What "Alex" is.** Decides whether § 03 carries a house layer at all, and how every bio in § 09 and every sign-off reads. The book is structured so the house layer is one insertable section — build around it, drop it in when the answer lands.
+- ~~What "Alex" is.~~ **Answered 18 September: parent company, endorsing selected lines.** § 03 carries a parent layer with no house palette and no consumer voice, and § 09's bios follow the seal — a brand carrying it may name the parent, a brand without it may not. See [[Brand Voice Guide]] §2.
 - **Vector logo files.** § 06 cannot ship finished without them. It ships with the rules written and the artwork marked `PENDING CLIENT INPUT` rather than holding the whole book.
 
 ---

@@ -14,6 +14,7 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 ## Notes in this folder
 - [[Foundation Roadmap]] — the sequenced build plan for all 8 Foundation deliverables: order, dependencies, what needs a designer and what the client still owes. **Read this first.**
 - [[Colour and Type Kit]] — the sample set feeding Foundation deliverable 2: every colour read off the four packs, the type audit, and the usage rules that hold four brands apart. Values are eyeballed from these mockups **and that is the intended state** — there are no codes to wait for, because setting them is the deliverable.
+- [[Slogans and Song]] — Foundation deliverable 4. Why a slogan is not a headline, who each brand is actually talking to, the feeling behind each of the four, the six tests a line has to pass, and why the giveaway song plays by campaign rules instead.
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
 

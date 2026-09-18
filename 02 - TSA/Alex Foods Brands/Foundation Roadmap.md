@@ -67,6 +67,7 @@ Not a list of swatches. A governed system:
 
 **4. Slogans and the giveaway song** *(deliverable 4)*
 Needs the voice first. 2MAN's عيش جو المغامرة already works and gets built around, not replaced. The song is written, not produced — the scope says "written and ready for posts."
+**Method, audience map and the four feeling ladders are written up in [[Slogans and Song]].** The headline rules from [[Marketing]] do not transfer wholesale: a slogan has to survive two hundred repetitions, which is a test no headline ever faces.
 
 **5. Animation and Shooting Recipe** *(deliverable 6)*
 Independent of everything and **should ship early regardless of sequence**, because it is the document that tells the client how to shoot the product photos TSA is still waiting on. It unblocks them.

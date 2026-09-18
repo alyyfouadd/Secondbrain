@@ -17,6 +17,9 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 
 - **Status:** Active — first client ([[Alex Foods]]) signed on a 146,000 EGP total contract; delivery gated on the client's signed acceptance page and materials.
 
+## Folders in here
+- **Alex Foods Brands/** — [[Alex Foods Brands]] · the four brands the client actually sells, read off the packaging mockups, plus the mockup images themselves. Where the Foundation's colour, type and voice work is sourced from.
+
 ## Notes in this folder
 - [[Alex Foods]] — first client. Full service scope: Brand Foundation (20,000) plus Package A retainer (42,000/mo x 3), the gating chain, deliverables and the 11 contract clauses.
 - [[TSA Money]] — the agency's books. Revenue, cost of delivery, and the owner's-draw rule that gates what moves from TSA to [[Money]]. Agency money and personal money are two pots; this note owns the first one.

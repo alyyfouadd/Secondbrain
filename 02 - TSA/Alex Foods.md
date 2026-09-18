@@ -107,7 +107,14 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 ## Client materials required — 7 items, no delivery before they arrive
 
-**First materials landed 18 September 2026:** the client sent **packaging mockups as PDFs**. Unreviewed at time of writing — which of the seven items they actually close is unconfirmed until the artwork has been looked at. Likely candidates: packaging artwork outright, plus the SKU names and possibly the logo if the files carry vector art.
+**First materials landed 18 September 2026:** the client sent **packaging mockups as PDFs**. Reviewed — the full read is in [[Alex Foods Brands]], and it changed the shape of the job.
+
+- **Packaging artwork: arrived.** Material 4 closed.
+- **SKU names: arrived, and there are far more than five.** Roughly eighteen across four brands, against a contract asking for five.
+- **Logo files: NOT closed.** Mockup renders are not vector art. Material 2 is still outstanding.
+- **Product photos: NOT closed.** Packaging renders are not product photography. Material 3 is still outstanding, and it is the one every visual deliverable depends on.
+
+**The mismatch that matters: four brands arrived, the contract names three.** BeBo, AlRawy and 2MAN (the "Freeze Pops" family under its real name) are in scope. **POLEKA, a jelly-candy line, is not named anywhere in the scope document.** Under clause 7 it gets confirmed and quoted in writing, or it gets excluded, before any work touches it. See [[Alex Foods Brands]] for the full inventory, the two conflicting 2MAN designs, the unresolved "Alex" parent-brand question, and the trademark flag on the cola SKUs.
 
 *The files are print-resolution — the smallest is 126 MB. **They do not go in this repo.** GitHub rejects any single file over 100 MB, and even under that limit, print PDFs in a git repo make every future clone slower on every device forever. They live in cloud storage; this note records where, and working copies for brand work are screen-resolution exports.*
 

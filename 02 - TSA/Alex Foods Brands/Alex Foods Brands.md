@@ -15,7 +15,8 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 - [[Foundation Roadmap]] — the sequenced build plan for all 8 Foundation deliverables: order, dependencies, what needs a designer and what the client still owes. **Read this first.**
 - [[Colour and Type Kit]] — the sample set feeding Foundation deliverable 2: every colour read off the four packs, the type audit, and the usage rules that hold four brands apart. Values are eyeballed from these mockups **and that is the intended state** — there are no codes to wait for, because setting them is the deliverable.
 - `Alex Foods - Design System v1.1.pdf` — **the shipped deliverable 2**, 19 pages, A4, generated from `design-system/`. Colour and type in one governed document, with the sign-off page. **v1.1, 18 Sep: section 1 rebuilt as a master-brand hierarchy** after Alex Foods was confirmed as the master brand. No colour value, ramp or contrast verdict changed. *(v1.0 was superseded the same day and removed — it was never sent for approval, and two Design System PDFs in one folder is how the wrong file gets handed over. Git history retains it.)*
-- `Alex Foods - Brand and Social Kit v1.1.pdf` — **Foundation deliverable 3 in kit form**, 6 pages, A4, bilingual. **TSA's own kit rebuilt section for section for Alex Foods**: identity and lockups, positioning and pillars, profile and exact sizes, post templates, the rules, content mix, posting rhythm, and the product and story frames. **Paper ground**, client's own neutrals. Written up in [[Brand and Social Kit]].
+- `Alex Foods - Brand and Social Kit v1.2.pdf` — **Foundation deliverable 3 in kit form**, 8 pages, A4, bilingual. **TSA's own kit rebuilt section for section for Alex Foods**, plus two range pages the TSA kit has no equivalent of. Identity, positioning and pillars, **every range with its own colours, format and identity**, profile and exact sizes, post templates, the rules, content mix, posting rhythm, and the product and story frames carrying **real pack artwork**. **Paper ground**, client's own neutrals. Written up in [[Brand and Social Kit]].
+- `packshots/` — **the client's own product mockups for all four ranges**, received 19 Sep, cropped and keyed to transparency, with individual packs sliced out in `packshots/single/`. See its README.
 - [[Brand and Social Kit]] — the slot-for-slot map against TSA's kit, the measured colour layer, why the pillars are observable facts rather than claims, why the content mix is not TSA's, where every Arabic line came from, and the two things the kit deliberately does not do.
 - `design-system/` — the build for **both** PDFs: the colour maths, the two generators (`gen.py` for the Design System, `kit.py` for the kit), the fonts, and the traps worth not rediscovering. See its README.
 - [[Colour System]] — Foundation deliverable 2, part 1. **The governed system**: 31 sampled values rationalised to 18 masters, ramps, neutrals, every contrast pairing computed, the SKU map, and the three packaging defects the maths exposed.
@@ -39,7 +40,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 | Brand | What it is | In the contract? |
 |---|---|---|
 | **BeBo** | Powdered drink sachets, "Kids Zone" sub-mark | Yes, named |
-| **AlRawy** | Juice / nectar pouches | Yes, named |
+| **AlRawy** | **Ready-to-drink** nectar pouches, straw on the pack | Yes, named |
 | **2MAN** | Ice pops — **two live lines**, ICE POPS and Bu:Zz/Meyveli | Yes — the "Freeze Pops" family, under its actual brand name |
 | **POLEKA** | Jelly candy in bottle-shaped pouches | **Not named in the scope. Confirmed verbally as in, 18 Sep 2026.** |
 
@@ -81,6 +82,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 - **Logo:** "AlRawy®" in navy with a **red "y"**, Arabic **الراوى** below in navy, inside a white roundel wrapped by a green leaf-and-ribbon swoosh. The most grown-up of the four marks.
 - **Endorsement:** carries the **Alex** seal, bottom left of pack.
+- **Format, and this was corrected on 19 September: ready to drink, not a powder to mix.** Every pouch prints `Insert Straw Here / أدخل الماصة هنا` across the top. **BeBo is the powder range; AlRawy is the juice.** Copy must never imply AlRawy needs preparing.
 - **Photography-led:** real fruit photography dominates each pack, unlike the illustrated character work everywhere else.
 - **Bilingual:** English "…Nectar" plus Arabic, with a weight line.
 - **Registered mark** — note the ® on the logo.

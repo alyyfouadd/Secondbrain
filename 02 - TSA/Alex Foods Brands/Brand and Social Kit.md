@@ -5,7 +5,7 @@ type: reference
 ---
 # Brand and Social Kit — Alex Foods
 
-**Foundation deliverable 3 in kit form**, for [[Alex Foods]]. Six A4 pages: identity, positioning, the social setup, the rules, and the product and story templates. Built from `design-system/kit.py`, shipped as `Alex Foods - Brand and Social Kit v1.1.pdf`.
+**Foundation deliverable 3 in kit form**, for [[Alex Foods]]. Eight A4 pages: identity, positioning, **two pages of ranges**, the social setup, the rules, and the product and story templates. Built from `design-system/kit.py`, shipped as `Alex Foods - Brand and Social Kit v1.2.pdf`.
 
 > **STATUS: BUILT AND RENDERED, pending Aly's read.** Every page was rendered, measured against the live area and looked at. Two things it deliberately does not contain are named in §6.
 
@@ -26,9 +26,20 @@ type: reference
 | Social kit → profile, sizes, templates | Same |
 | Do & don't · content mix · posting rhythm | Same |
 | Photo/footage templates | **Product templates** — the pack is the creative |
+| *(no TSA equivalent)* | **Two range pages** — each family's own colours, format and identity |
 | Stories and reels covers · how to use | Same |
 
 **Where the slot had no honest Alex Foods equivalent, it says so on the page.** Alex Foods has no guarantee and no tagline, so the red panel carries their existing market line with a note that it is recorded, not invented, and that a real brand line is deliverable 4.
+
+## 1b. What changed in v1.2 — 19 September
+
+Aly sent the client's own product mockups for all four ranges, with three corrections. All three are in.
+
+1. **The packs are in the document.** Five lineups cropped from his screenshots, keyed to transparency into `packshots/`, plus the individual packs sliced out into `packshots/single/`. **The feed and story templates now carry a real pack on its own flavour field** rather than a range logo, which is what "put the pack in the frame" was always supposed to mean.
+2. **Two new range pages**, one block per range: the mark, the full lineup, the format, who it talks to, its signature and every flavour field as a swatch, and what makes it itself. **Each family carries its own colours and identity** instead of being one entry in a shared strip.
+3. **The secondary Alex Foods mark is gone.** There was no sanctioned alternate — I had copied TSA's pattern and invented one. Removed: the red-circle alternate profile picture, the "on red" lockup variant, the typed `ALEX FOODS` corner bug on every mockup, the typed badge on the statement panel, and the red-bar wordmark device in the footer. **The seal is now the only Alex Foods mark in the document**, and the mockups carry the real artwork.
+   > This also closed a rule the kit itself was breaking. The Design System says *no brand name in this system is ever set in a font.* The corner bug was exactly that — "ALEX FOODS" typed in Plex beside a red bar. It read as a lockup and it was a fabrication.
+4. **AlRawy is ready-to-drink, not a sachet to mix.** Every pouch prints `Insert Straw Here / أدخل الماصة هنا`. The range page now reads **"Ready to drink. Straw on the pack." / «جاهز للشرب. بماصة على العبوة.»** **BeBo is the powder; AlRawy is the juice**, and the two are never described the same way again.
 
 ## 2. The colour mapping
 
@@ -83,7 +94,7 @@ TSA's pillars are Quality, Results, Guarantee — claims a service business can 
 2. **Character** — every range already leads with a character. Verifiable off the packaging.
 3. **Alexandria** — the mark carries the Pharos lighthouse and the company name *is* the city. **A story no competitor can copy**, and it needs no claim to be true.
 
-## 6. What this kit does not do, and says so on page 6
+## 6. What this kit does not do, and says so on page 8
 
 1. **The master has no tone block.** The four ranges have register, sentence length and emoji policy. Alex Foods itself does not, and it is the account that posts. The kit uses the client's own line rather than guessing a voice. **Open in [[Active Priorities]]; needs Aly's ear.**
 2. **Product photography has not arrived.** Every frame uses pack artwork, which is not the same thing. The posting-rhythm page carries `SPEC — EXECUTION PENDING CLIENT ACCESS`, because Meta admin and the Google account are also outstanding.

@@ -10,7 +10,7 @@ type: guide
 | Generator | Output | What it is |
 |---|---|---|
 | `gen.py` | `Alex Foods - Design System v1.1.pdf` | 19pp governance document. **Cold White ground, TSA's system owns the page** per [[TSA Brand System]] §6. |
-| `kit.py` | `Alex Foods - Brand and Social Kit v1.1.pdf` | 6pp application kit. **TSA's kit rebuilt section for section for the client**, on the Paper ground and the client's own neutrals. See [[Brand and Social Kit]]. |
+| `kit.py` | `Alex Foods - Brand and Social Kit v1.2.pdf` | 8pp application kit. **TSA's kit rebuilt section for section for the client**, on the Paper ground and the client's own neutrals, plus two range pages and real pack artwork. See [[Brand and Social Kit]]. |
 
 They share `colour.py`, `plex.css`, `fonts/` and `tsafonts/`. **Nothing is duplicated — change the maths in one place.**
 
@@ -20,6 +20,7 @@ They share `colour.py`, `plex.css`, `fonts/` and `tsafonts/`. **Nothing is dupli
 - `colour.py` — the colour maths: sRGB/Lab conversion, ΔE2000, WCAG contrast, ramps. Imported by the generator, and the source of every number in the document.
 - `gen.py` — builds `ds.html` from the data. All content and CSS live here.
 - `plex.css` — `@font-face` rules pointing at the local font files.
+- `../packshots/` — the client's product mockups, keyed to transparency, with individual packs in `single/`. **`kit.py` references these by relative path**, so Chromium embeds them at render. Keep the paths stable.
 - `fonts/` — IBM Plex Sans Arabic, Plex Sans, Plex Mono as woff2. **Committed on purpose:** the build then works offline on any machine, and a render that depends on a CDN is a render that breaks silently when the network changes.
 
 ## Build
@@ -42,6 +43,8 @@ chromium --headless --disable-gpu --no-sandbox \
 **5. A class name used for two different things will silently override one of them.** `kit.py` used `.tl` for both a corner frame mark (`.c.tl`) and the typography specimen's left column. The specimen's `background` won, and painted a Surface Navy square over the corner of the red statement panel. **A DOM probe found it in one run; three passes of looking at the PNG had not.** Prefix structural utility classes.
 
 **6. Read computed styles, not a downscaled PNG, before "fixing" a colour.** The Paper swatch card looked blue in an 80dpi render and was `rgb(20,20,20)` in the DOM. The render was lying, not the CSS.
+
+**8. Hardcoding a page total breaks the moment the document grows.** `kit.py` printed `PAGE n / 6` in its footer and the kit went to eight pages. The footer now writes a `@@TOTAL@@` token that is substituted once, after generation, when the real count is known.
 
 **7. A descendant selector will silently beat a class you wrote later.** `.tyl p` (0,1,1) beat `.d1` (0,1,0), so a 21pt display statement rendered at 7.2pt and simply looked like a design choice. **Nothing errors, nothing warns, and a screenshot will not tell you** — the text is just quietly the wrong size. Scoped to `.tyl p.d1`.
 

@@ -113,9 +113,11 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 ---
 
-## 4. AlRawy — juice and nectar pouches
+## 4. AlRawy — ready-to-drink nectar pouches
 
 **Talking to: the buyer.** The only genuinely adult-facing brand of the four, and the tone has to carry that all the way down.
+
+> **Format, confirmed off the packs on 19 September: AlRawy is ready to drink.** Every pouch prints `Insert Straw Here / أدخل الماصة هنا`. **BeBo is the powder you make up; AlRawy is the one you open and drink.** Never write AlRawy copy that implies mixing, filling or preparing — that is BeBo's story and using it here describes the wrong product.
 
 **The feeling: I did not cut a corner.** Reassurance, not excitement.
 

@@ -113,7 +113,7 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 - **Packaging artwork: arrived.** Material 4 closed.
 - **SKU names: arrived, and there are far more than five.** Roughly eighteen across four brands, against a contract asking for five.
-- **Logo files: NOT closed.** Mockup renders are not vector art. Material 2 is still outstanding.
+- **Logo files: CLOSED for the contracted work, 18 Sep.** No source files exist to send, so all four marks were cut out of the supplied raster onto transparency — see `Alex Foods Brands/logos-transparent/`. **Two things make this sufficient rather than a compromise.** The material list itself asks for "logo files, **vector if available**", so vector was never a contractual requirement. And **nothing in either stage is printed** — the Foundation and all of Package A are social and digital. Vector only becomes a real requirement if print or large format enters scope under clause 7.
 - **Product photos: NOT closed.** Packaging renders are not product photography. Material 3 is still outstanding, and it is the one every visual deliverable depends on.
 
 **Four brands arrived, the contract names three.** BeBo, AlRawy and 2MAN (the "Freeze Pops" family under its real name) are in scope as written. **POLEKA, a jelly-candy line, is not in the document — and Aly confirmed on 18 September that it is in.** Four brands, no change to fee. Still to be papered: a one-line written confirmation, because clause 4's rejection rule leans on the approved guide matching the signed scope. See [[Alex Foods Brands]] for the full inventory, the two conflicting 2MAN designs, the unresolved "Alex" parent-brand question, and the trademark flag on the cola SKUs.

@@ -148,7 +148,9 @@ A file named `bebo_mucup.pdf` arrived 18 September. **It is not a BeBo file and 
 
 So the conclusion is firm rather than cautious: **every route the artwork has taken to TSA so far has been a photograph of a file somebody had open.** The sources exist. Nobody has sent one.
 
-**And it hands over a filename to ask for: `ashkal mucup`** — the document the 2MAN logo was screenshotted from. A far better ask than "please send vector files".
+**Superseded 18 Sep: there are no source files to ask for.** Aly confirmed the client has nothing but screenshots. So the chase is over, and it should have ended sooner — **the signed material list asks for "logo files, vector if available"**, which makes vector a convenience the contract already anticipated might not exist, not a condition anyone is failing.
+
+**All four marks were cut out of the supplied raster onto transparency instead** — see `logos-transparent/`. Sufficient for every deliverable in the contract, because **nothing in the Foundation or Package A is printed.**
 
 **What it did deliver:** the BeBo and POLEKA ranges at high resolution with real transparency, which is the most usable artwork received so far and exactly what the monthly graphics need.
 

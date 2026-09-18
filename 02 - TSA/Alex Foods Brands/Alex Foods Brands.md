@@ -22,6 +22,7 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 - [[Slogans and Song]] — Foundation deliverable 4. Why a slogan is not a headline, who each brand is actually talking to, the feeling behind each of the four, the six tests a line has to pass, and why the giveaway song plays by campaign rules instead.
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
+- `packs-bebo-transparent.png` · `packs-poleka-transparent.png` — **the most usable artwork received so far.** The full BeBo and POLEKA ranges at high resolution **on a transparent background**, extracted 18 Sep from a Canva mockup PDF. Cut out and ready to composite onto any layout, which is exactly what the monthly graphics need. Still raster.
 - `logo-alex-seal.jpg` — the **Alex parent seal** in full, with the Egyptian flag ribbon. Not a screen capture, but still raster.
 - `client-legacy-creative/` — two of the client's own existing graphics, kept as the "before" reference: what Alex Foods currently looks like in market, which is what the system is replacing. Useful for the voice guide and for the do-not pages.
 - `logo-alrawy-screencap.png` · `logo-2man-screencap.png` · `logo-bebo-screencap.png` · `logo-poleka-screencap.png` — **all four brand marks**, isolated on white, **received 18 September as iPad screenshots of files open in the Files app.** Far better than reading a mark off a pack: clean edges, no perspective, full colour. **Still not vector.** They are screen captures, so they do not close material #2 and they cannot be used for print or at large scale. **What they do prove is that the source files exist and are on the client's device**, which turns the chase from "do these exist?" into "send the file, not a picture of it."
@@ -131,6 +132,25 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 - **4 SKUs visible:** apple (التفاح) · mango (المانجو) · cola · strawberry (الفراولة)
 
 ---
+
+## The Canva mockup, and what it proves
+
+A file named `bebo_mucup.pdf` arrived 18 September. **It is not a BeBo file and it is not artwork.** It is a one-page Canva export carrying all four brands, assembled from raster images, and taking it apart settled the vector question for good.
+
+| What is inside | What it is |
+|---|---|
+| BeBo range, 3645 × 1515, with an alpha mask | High-res pack render, **transparent** — extracted and kept |
+| POLEKA range, 4859 × 2020, with an alpha mask | High-res pack render, **transparent** — extracted and kept |
+| AlRawy logo, 1433 × 1001 | **A screenshot.** The iOS status bar is still in the image |
+| 2MAN logo, 1194 × 834 | **A screenshot of a PDF viewer**, toolbar visible, showing a file called **`ashkal mucup`** |
+
+**No embedded fonts, and roughly 93,000 vector path operations.** That is Canva's signature: it outlines all text on export. Those paths are outlined type and layout shapes, **not logo artwork.**
+
+So the conclusion is firm rather than cautious: **every route the artwork has taken to TSA so far has been a photograph of a file somebody had open.** The sources exist. Nobody has sent one.
+
+**And it hands over a filename to ask for: `ashkal mucup`** — the document the 2MAN logo was screenshotted from. A far better ask than "please send vector files".
+
+**What it did deliver:** the BeBo and POLEKA ranges at high resolution with real transparency, which is the most usable artwork received so far and exactly what the monthly graphics need.
 
 ## Open questions — what the client still has to answer
 

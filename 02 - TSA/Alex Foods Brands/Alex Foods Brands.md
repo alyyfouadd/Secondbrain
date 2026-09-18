@@ -199,7 +199,9 @@ Both models are legitimate and they produce opposite instructions:
 | **Selective endorsement** (the packs) | Four brand pages, each speaking for itself. Alex never posts. | Only sealed brands may name the parent |
 | **Umbrella** (their marketing) | One Alex Foods presence carrying all four, brands as ranges inside it | Everything names Alex Foods |
 
-**The Foundation has to pick one, and it is a real strategic question rather than a detail** — it decides how many pages get set up under deliverable 3, how the calendar is structured, and whose follower count grows. Recorded in [[Brand Voice Guide]] §2.
+> **DECIDED 18 September: umbrella.** Aly sent the Alex seal and called it **"the main logo"**. Taken with the marketing evidence below and the seal being the corporate mark, Alex Foods is the master brand and the four are ranges beneath it. **One Alex Foods presence, not four brand pages.** Consequences written up in [[Brand Voice Guide]] §2.
+
+*Superseded — kept because the reasoning is what the decision rests on:* **the Foundation has to pick one, and it is a real strategic question rather than a detail** — it decides how many pages get set up under deliverable 3, how the calendar is structured, and whose follower count grows. Recorded in [[Brand Voice Guide]] §2.
 
 ### Two more things the legacy creative exposed
 

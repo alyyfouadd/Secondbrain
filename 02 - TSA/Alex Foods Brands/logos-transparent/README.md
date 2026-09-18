@@ -12,7 +12,10 @@ type: reference
 | `logo-bebo-transparent.png` | Canva mockup, 3645 × 1515 render | Cropped from artwork that already carried an alpha mask |
 | `logo-poleka-transparent.png` | Canva mockup, 4859 × 2020 render | Same — alpha was already present |
 | `logo-2man-transparent.png` | Screenshot of a PDF viewer | White keyed out by flood fill **from the page edges only**, then reduced to the largest connected component to drop the viewer's interface |
+| `logo-alex-lockup-transparent.png` | The Alex master lockup on flat navy | Navy keyed by a **hue-aware** test — dark **and** blue-dominant — because a plain distance test ate the black band of the Egyptian flag, which sits within tolerance of the navy. Edges feathered and the navy un-premultiplied, so it composites on white with no halo |
 | `logo-alrawy-transparent.png` | Screenshot, iOS status bar cropped | Same flood fill. **The faint concentric rings around the roundel stopped the fill**, which is the only reason the white disc survived — a global white removal would have destroyed it |
+
+**Why the Alex key had to be hue-aware:** the background navy is `#050221` and the flag's black band is about `#202020`. By straight colour distance they are 40 apart, inside any tolerance loose enough to catch the background's noise, so the fill ran straight through the flag and deleted half the ribbon. Testing for *dark **and** blue-dominant* separates them cleanly: navy has blue well above red and green, neutral black does not.
 
 **Why flood fill from the edges and never a global white removal:** three of these marks contain white *inside* them — BeBo's letterforms, AlRawy's roundel, 2MAN's ice highlights. Removing white everywhere would have punched holes through all three. Filling inward from the page edge only removes white that is connected to the background.
 

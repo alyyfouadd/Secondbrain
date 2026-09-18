@@ -42,8 +42,18 @@ The same shape as the colour system in [[Colour and Type Kit]], and deliberately
 
 **The consequence, stated plainly: Alex has no consumer voice.** It does not post, does not hold a page, does not speak in the first person to a shopper, and never appears in a caption. The four brands do all of the talking. There is no fifth tone block below, and there should not be one.
 
-> **UNRESOLVED as of 18 Sep, and it outranks everything else in this section.** The packs say selective endorsement. **The client's own marketing says umbrella** — both legacy graphics lead with *«طعم أحلى مع ALEX FOODS»* and *«جديد من أليكس فوودز»*, with all four brands' products arranged beneath the parent. That is a master brand speaking to consumers, which is exactly what "no consumer voice" rules out.
-> **This decides whether TSA sets up four brand pages or one Alex Foods presence**, and therefore how deliverable 3, the calendar and the whole of Package A are shaped. See [[Alex Foods Brands]]. **Everything below assumes selective endorsement and gets rewritten if the answer is umbrella.**
+> **RESOLVED 18 September: umbrella. Alex is the master brand.** Aly sent the seal and called it *"the main logo"*, which lines up with the two other signals already on file — the client's own marketing leads with *«طعم أحلى مع ALEX FOODS»* and *«جديد من أليكس فوودز»*, and the seal is the corporate mark of الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية.
+>
+> **So Alex does have a consumer voice, and this section changes from "no house voice" to "the house voice leads."** The four brands are ranges beneath it rather than four independents that happen to share a factory.
+>
+> **What it changes downstream, and it is not small:**
+> - **Deliverable 3 builds one Alex Foods presence**, not four brand pages. One audience compounding instead of four starting from zero.
+> - **The content calendar is structured around one account**, with the brands rotating as ranges inside it.
+> - **Every bio names Alex Foods.** The earlier rule that only sealed brands may name the parent is withdrawn.
+> - **The seal's absence on BeBo and POLEKA is a rollout that has not caught up**, not deliberate tiering. Printed packs stay as they are; new print carries the seal.
+> - **[[Colour System]] §2 layer 1 and the design system's architecture page both need rebuilding** around a master brand rather than a selective endorser.
+>
+> *If "main logo" meant only "this is the primary version of the Alex mark" rather than "Alex is the master brand", say so and this reverts — but three signals now point the same way.*
 
 ### What the seal actually is
 

@@ -10,7 +10,7 @@ type: guide
 | Generator | Output | What it is |
 |---|---|---|
 | `gen.py` | `Alex Foods - Design System v1.1.pdf` | 19pp governance document. **Cold White ground, TSA's system owns the page** per [[TSA Brand System]] §6. |
-| `kit.py` | `Alex Foods - Brand and Social Kit v1.0.pdf` | 6pp application kit. **Alex Foods' colours own the page**, because every frame in it is a mock Alex Foods post. See [[Brand and Social Kit]]. |
+| `kit.py` | `Alex Foods - Brand and Social Kit v1.1.pdf` | 6pp application kit. **TSA's kit rebuilt section for section for the client**, on the Paper ground and the client's own neutrals. See [[Brand and Social Kit]]. |
 
 They share `colour.py`, `plex.css`, `fonts/` and `tsafonts/`. **Nothing is duplicated — change the maths in one place.**
 
@@ -42,6 +42,10 @@ chromium --headless --disable-gpu --no-sandbox \
 **5. A class name used for two different things will silently override one of them.** `kit.py` used `.tl` for both a corner frame mark (`.c.tl`) and the typography specimen's left column. The specimen's `background` won, and painted a Surface Navy square over the corner of the red statement panel. **A DOM probe found it in one run; three passes of looking at the PNG had not.** Prefix structural utility classes.
 
 **6. Read computed styles, not a downscaled PNG, before "fixing" a colour.** The Paper swatch card looked blue in an 80dpi render and was `rgb(20,20,20)` in the DOM. The render was lying, not the CSS.
+
+**7. A descendant selector will silently beat a class you wrote later.** `.tyl p` (0,1,1) beat `.d1` (0,1,0), so a 21pt display statement rendered at 7.2pt and simply looked like a design choice. **Nothing errors, nothing warns, and a screenshot will not tell you** — the text is just quietly the wrong size. Scoped to `.tyl p.d1`.
+
+> **Traps 4, 5 and 7 are one trap wearing three coats: a CSS rule silently beating the one you meant.** A descendant `display:block`, a reused class name, a specificity override. None of them error and none of them look broken in a screenshot. **The only reliable check is a DOM probe** — walk the elements, read `getComputedStyle`, and compare against what you intended. Four real defects in the kit build were found that way after repeated passes of looking at PNGs had missed every one.
 
 **Trap 4 bit a second time, on `.lay b`, during the v1.1 rebuild.** The original layer cards had no inline bold inside their paragraphs, so the unscoped selector looked harmless for a year; the moment the rebuilt copy used `<b>` mid-sentence, three sentences broke apart on the page. **The lesson is not "fix `.def`" — it is that any `display:block` on a descendant selector is a trap waiting for the next copy change.** `.lay` is now scoped to `.lay > b` as well. **And a third time in `kit.py`**, on `.how b`, `.card.hd b`, `.cs b`, `.stat b` and `.pil b` — all now scoped to the direct child. **Assume every `display:block` on a descendant selector is broken until proven otherwise.**
 

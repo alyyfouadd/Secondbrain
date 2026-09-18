@@ -5,75 +5,83 @@ type: reference
 ---
 # Brand and Social Kit — Alex Foods
 
-**Foundation deliverable 3 in kit form**, for [[Alex Foods]]. Six A4 pages: identity, architecture, the social setup, the rules, and the post and story templates. Built 18 September 2026 from `design-system/kit.py`, shipped as `Alex Foods - Brand and Social Kit v1.0.pdf`.
+**Foundation deliverable 3 in kit form**, for [[Alex Foods]]. Six A4 pages: identity, positioning, the social setup, the rules, and the product and story templates. Built from `design-system/kit.py`, shipped as `Alex Foods - Brand and Social Kit v1.1.pdf`.
 
-> **STATUS: BUILT AND RENDERED, pending Aly's read.** Every page was rendered and looked at. Two things it deliberately does not contain are named in §6.
+> **STATUS: BUILT AND RENDERED, pending Aly's read.** Every page was rendered, measured against the live area and looked at. Two things it deliberately does not contain are named in §6.
 
 ---
 
-## 1. What this is, and why it is not the Design System
+## 1. What this is
 
-Two documents, two jobs, and they are deliberately different objects.
+**TSA's own kit, rebuilt for Alex Foods — the same layout and the same information architecture, section for section.** Aly's instruction on 18 September, after two wrong readings on my part: not a restyle of the governance document, and not a governance document wearing kit clothes. The kit's structure, with Alex Foods' content in it.
 
-| | [[Colour System]] / Design System v1.1 | **This kit** |
+| TSA's kit | This kit |
+|---|---|
+| Brand identity system → lockups, colour, typography | Same, with the Alex seal and the four range marks |
+| **The Guarantee** (red panel) | **The line already in market** — the client's own «طعم أحلى مع أليكس فودز» |
+| What makes TSA different → two cards | What makes Alex Foods different → four brands vs one company |
+| Brand pillars 01–03 | **Range · Character · Alexandria** |
+| Brand tagline hero | **The rule that governs every layout** |
+| Usage rules | Same, six of them |
+| Social kit → profile, sizes, templates | Same |
+| Do & don't · content mix · posting rhythm | Same |
+| Photo/footage templates | **Product templates** — the pack is the creative |
+| Stories and reels covers · how to use | Same |
+
+**Where the slot had no honest Alex Foods equivalent, it says so on the page.** Alex Foods has no guarantee and no tagline, so the red panel carries their existing market line with a note that it is recorded, not invented, and that a real brand line is deliverable 4.
+
+## 2. The colour mapping
+
+**Paper ground `#FAF8F3`, on Aly's instruction.** This is also what [[TSA Brand System]] §6 asks for on a client deliverable, so the kit and the Design System now sit on the same ground and the earlier tension is gone.
+
+The neutrals are the client's own, already governed in [[Colour System]] §7 — nothing was invented for this document.
+
+| Role | Value | Measured |
 |---|---|---|
-| **Job** | Governance. The system of record a designer looks things up in. | Application. The thing someone actually builds a post from. |
-| **Ground** | Cold White, TSA's document ground | **Alex Navy. The client's own colours carry the page.** |
-| **Governed by** | [[TSA Brand System]] §6 — TSA's system owns the document | Alex Foods' system, because this is the client's asset kit |
-| **Printed?** | Yes, on an office A4 printer | No. Screen and phone. |
+| Ground | **Paper `#FAF8F3`** | Never pure white |
+| Primary type | **Ink `#141414`** | **17.36:1** on Paper |
+| Secondary type | **Graphite `#4A4742`** | **8.71:1** |
+| Captions | **Slate `#8A8681`** | 3.41:1 — **display size only, never body** |
+| Rules and dividers | **Silver `#C9C5BC`** | Never type |
+| Panel fills | **Mist `#EDEAE3`** | Never type |
+| Accent | **System Red `#E1251D`** | **4.41:1** — clears 3:1 for display, misses 4.5:1 for body |
+| Hero panels | **`#05004B`** | Paper reads **17.86:1** on it |
+| Master mark and profile | **Alex Navy `#0A0378`** | Paper reads 15.25:1 |
 
-**The call, and it is a departure worth naming: [[TSA Brand System]] §6 says TSA's system owns a client deliverable's page furniture.** That rule was written for a governance document a client signs. **A kit whose entire content is Alex Foods post templates cannot be dressed in TSA's navy without lying about what it shows** — every frame in it is a mock Alex Foods post, and §6's own carve-out 1 already says client colour appearing as content is not drift. So the client's system carries this document and **TSA's mark stays in the sign-off block on page 6**, which is where authorship belongs.
+> **Red is a headline colour, never body copy**, and the kit obeys that on its own pages: the red statement panel carries display type only, and its explanatory note sits below it on the Paper ground. A kit that breaks its own rule on page one kills the rule.
 
-Aly asked for TSA's kit layout in Alex Foods' colours on 18 September. This is that, and the departure is recorded here rather than left for a future session to trip over.
+> **`#05004B` is the seal ring's own dark gradient stop**, recorded in [[Alex Foods Brands]], not an invented tint. It carries the hero blocks and the sign-off, which keeps the master present on a light page.
 
-## 2. The colour mapping — computed, not eyeballed
+## 3. The two decisions that were derived, not copied
 
-TSA's own relationships were measured and matched one for one, so the kit carries the same structure in the client's palette.
-
-| Role | TSA | Alex Foods | Check |
-|---|---|---|---|
-| Ground | Precision Navy `#0A0F1E` | **`#05004B`** | Paper reads **17.86:1** (TSA's: 17.02:1) |
-| Accent | Signal Red `#E8203A` | **System Red `#E1251D`** | **4.05:1** on ground (TSA's: 4.27:1) |
-| Type / light ground | Cold White `#F0F2F5` | **Paper `#FAF8F3`** | — |
-| Cards and panels | Surface Navy `#1A2340` | **Alex Surface `#221E5F`** | ΔE **7.57** from ground (TSA's: 8.71) |
-| Display face | Barlow Condensed 800 | **IBM Plex Sans Arabic 700** | Barlow is Latin-only and it is *TSA's* face |
-| Text face | Inter | **IBM Plex Sans 400** | — |
-
-> **The ground is `#05004B`, not Alex Navy `#0A0378`, and that is not a compromise.** `#05004B` is the seal ring's own dark gradient stop, already recorded in [[Alex Foods Brands]]. Alex Navy at full strength across six pages is too hot, and a value sampled from the artwork beats an invented tint. **Alex Navy is still the master's value** — it is the profile-picture circle, the first swatch, and the master post template.
-
-> **Red is a headline colour on this ground, never body copy.** 4.05:1 clears 3:1 for display and misses 4.5:1 for body. The kit obeys this on its own pages: the red statement panel on page 1 carries display type only, and the explanatory note sits below it on the ground.
-
-## 3. What the six pages carry
-
-1. **Identity** — master lockup, the four range marks as artwork, the four document colours, the type specimen, and the client's own market line «طعم أحلى مع أليكس فودز».
-2. **Architecture** — before and after the umbrella decision, the four ranges as numbered pillars with their flavour bars, the governing rule, and six usage rules.
-3. **Social** — profile picture in both circles, the exact pixel sizes, and three repeatable post templates: navy is the master speaking, red is a launch, a flavour field is a product post.
-4. **Rules, mix and rhythm** — ALWAYS and NEVER, the content mix, and the posting rhythm.
-5. **Feed templates** — 1080 × 1350 with real draft captions, **each frame printing its own contrast verdict**, plus two defects shown rather than described.
-6. **Stories and reels** — 1080 × 1920 covers, how to rebuild them in Canva, and what the kit does not do.
-
-## 4. The two decisions that were derived here, not copied
-
-**The content mix is not TSA's.** TSA's kit runs 40 proof / 30 authority / 20 offer / 10 brand, which is a lead-generation split for a video agency. An FMCG master brand with eighteen SKUs and four illustrated ranges needs a different one:
+**The content mix is not TSA's.** TSA runs 40 proof / 30 authority / 20 offer / 10 brand, a lead-generation split for a video agency. An FMCG master brand with eighteen SKUs and four illustrated ranges needs a different one:
 
 | Share | Pillar | Why |
 |---|---|---|
 | **40%** | Product · المنتج | Eighteen SKUs to rotate. The product is the hero. |
-| **30%** | Character · الشخصيات | BeBo's faces, POLEKA's animals, 2MAN's boy. **The characters are already drawn and they are the cheapest content in the business.** |
+| **30%** | Character · الشخصيات | BeBo's faces, POLEKA's animals, 2MAN's boy. **Already drawn and already paid for — the cheapest content this business owns.** |
 | **20%** | Moment · اللحظة | The lunchbox, the hot afternoon, the family jug. The occasion, never a claim about it. |
 | **10%** | Company · الشركة | Alex Foods itself. No age claim until the client confirms one. |
 
 **Facebook is weighted higher than an agency would normally weight it.** BeBo and AlRawy talk to mothers, and in Egypt that audience is on Facebook. Copying a Reels-first split off TSA's own kit would have quietly aimed the client's spend at the wrong platform.
 
-## 5. Where the copy came from
+## 4. Where the copy came from
 
-Every Arabic line in the kit already existed. **Nothing was invented for the layout.**
+Every Arabic line already existed. **Nothing was invented for the layout.**
 
 - Range captions are the draft captions from [[Brand Voice Guide]] §3–§6, written for Aly's ear.
-- The master line «طعم أحلى مع أليكس فودز» is **the client's own market creative**, recorded in [[Alex Foods Brands]]. It is not a slogan proposal — slogans are deliverable 4, in [[Slogans and Song]].
+- The master line «طعم أحلى مع أليكس فودز» is **the client's own market creative**, recorded in [[Alex Foods Brands]]. Not a slogan proposal — slogans are deliverable 4, in [[Slogans and Song]].
 - The NEVER column is [[Brand Voice Guide]] §7's never-say list. **That column is the legal shield, not styling.** TSA runs the ad account.
 
 **Checked before shipping:** no health claims, no «طبيعي ١٠٠٪», no nutrition numbers, no price, no shop named, no company age, no POLEKA cola SKU featured, no em-dashes in outgoing Arabic.
+
+## 5. The brand pillars, and why these three
+
+TSA's pillars are Quality, Results, Guarantee — claims a service business can make about itself. A food company cannot make claims without the client's written backing (§7 of the voice guide), so these three are **observable facts rather than promises:**
+
+1. **Range** — four ranges, eighteen SKUs, one company. Verifiable off the packaging.
+2. **Character** — every range already leads with a character. Verifiable off the packaging.
+3. **Alexandria** — the mark carries the Pharos lighthouse and the company name *is* the city. **A story no competitor can copy**, and it needs no claim to be true.
 
 ## 6. What this kit does not do, and says so on page 6
 
@@ -82,9 +90,9 @@ Every Arabic line in the kit already existed. **Nothing was invented for the lay
 
 ## 7. The build
 
-Source is `design-system/kit.py`. It shares `colour.py`, `plex.css` and the fonts with the Design System generator — nothing is duplicated. Pack artwork is referenced from `logos-transparent/`, so the marks are placed as supplied and never reconstructed.
+Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts with the Design System generator — nothing duplicated. Pack artwork is referenced from `logos-transparent/`, so the marks are placed as supplied and never reconstructed.
 
-Build, verification method and the traps are in `design-system/README.md`. **Every page was rendered and measured against the live area before shipping**, which is how three real defects were caught: a class-name collision painting a Surface Navy square on the red panel, an Arabic caption split across an LTR span, and the `display:block` descendant trap for the third time.
+**Every page is rendered and measured against the live area before shipping.** That method caught four real defects in this build, all of the same family: **a CSS rule silently beating the one you meant.** A class collision, a descendant `display:block`, and a specificity override that rendered a 21pt display statement at 7.2pt. Full list in `design-system/README.md`.
 
 ---
 

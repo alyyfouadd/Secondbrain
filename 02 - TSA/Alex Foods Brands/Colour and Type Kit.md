@@ -9,7 +9,7 @@ type: reference
 
 > **STATUS: SAMPLE SET — the raw input, not the deliverable.**
 > Every value here is sampled by eye from the packaging in [[Alex Foods Brands]]. **There is no brand manual and there are no existing codes — that absence is why TSA was hired.** The Foundation builds the system; it does not transcribe one. So this page is the observation layer: what the four brands currently look like, recorded accurately enough to design from.
-> The deliverable is the *governed system* built on top of it — rationalised values, tints and shades, neutrals, contrast-tested pairings and the rules binding them. Build order in [[Foundation Roadmap]].
+> The deliverable is the *governed system* built on top of it, and **it is now written: [[Colour System]]**. Thirty-one values here rationalised to eighteen masters, with ramps, neutrals, computed contrast for every pairing and the rules binding them. This page stays as the observation layer and the audit trail; the system is what ships.
 
 ---
 

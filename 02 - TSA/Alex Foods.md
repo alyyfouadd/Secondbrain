@@ -72,7 +72,7 @@ Defines what Alex Foods looks like, how it speaks, and where it appears, written
 Timeline: **3 weeks minimum** from whichever gate closes last.
 
 - [~] **Brand Voice Guide** — **drafted 18 Sep in [[Brand Voice Guide]]**, four brands not three. One voice and four tones, words in and out, sentence length and emoji per brand, the never-say list, and the comment-reply procedure with the complaint script. Only the house voice section is open, pending the "Alex" answer.
-- [~] **Colour and Type Kit** — sample set recorded 18 Sep in [[Colour and Type Kit]]; the system itself is Phase 1 of [[Foundation Roadmap]]. **There are no existing codes to wait for — building them is the deliverable.**
+- [~] **Colour and Type Kit** — **colour half built 18 Sep in [[Colour System]]**: 18 governed masters from 31 sampled values, ramps, neutrals, computed contrast and the SKU map. Sample set and audit trail stay in [[Colour and Type Kit]]. **Type system is the remaining half.**
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
 - [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material.
 - [ ] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins.

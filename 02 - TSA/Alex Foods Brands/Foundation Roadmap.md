@@ -41,7 +41,7 @@ Sequenced by dependency, not by the order the contract lists them. Each phase on
 
 ### Phase 1 — Define the system *(nothing external needed)*
 
-**1. Colour System** *(rebuilds [[Colour and Type Kit]] §2–5)*
+**1. Colour System** *(rebuilds [[Colour and Type Kit]] §2–5)* — **BUILT 18 Sep in [[Colour System]].** 31 sampled values down to 18 governed masters, ramps, neutrals, contrast computed on every pairing, SKU map, and three packaging defects named. Every step below is closed.
 Not a list of swatches. A governed system:
 - **Sample** every colour off the four packs — done.
 - **Rationalise.** Four brands grown separately will have near-duplicate greens, reds and blues that were never meant to relate. Decide which are genuinely distinct and which collapse into one value.

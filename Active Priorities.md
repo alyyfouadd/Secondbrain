@@ -58,6 +58,7 @@ The single queue of open work across everything. Tag each item with its project 
 - [ ] Upload the marketing skill to the Claude app on the iPad: download `jaredrhod-marketing.zip` from github.com/jaredrhod/ai-marketing-skills in Safari and add it through Claude's Skills interface. Claude Code already has it via the vault; the app doesn't, and only I can do this one. (meta)
 
 ### Completed Tasks
+- [x] Colour System built — [[Colour System]]. Deliverable 2 part 1: 31 sampled values rationalised to 18 masters, ramps, neutrals, every contrast pairing computed, SKU map, and three packaging defects named including a sharpened trademark read on the POLEKA cola pouch. (18 Sep 2026)
 - [x] Brand Voice Guide drafted — [[Brand Voice Guide]]. Foundation deliverable 1 of 8, four brands not three, 8 of 9 sections usable; house voice still pending the "Alex" answer, so the deliverable is drafted rather than closed. (18 Sep 2026)
 - [x] Build the memory vault: boot config, root index, folder structure, daily-note template, and the rules that keep it self-maintaining. (18 Sep 2026)
 - [x] Confirm the 42,000 for Package A month 1 landed. Received. Brand Foundation confirmed still unpaid. (18 Sep 2026)

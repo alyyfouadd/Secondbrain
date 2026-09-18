@@ -7,8 +7,9 @@ type: reference
 
 **Brand Foundation deliverable 2 of 8** for [[Alex Foods]]. Colour codes, type, weights and usage rules, so anyone designing for these brands lands in the same place.
 
-> **STATUS: DRAFT — provisional colour values.**
-> Every value here is sampled by eye from the packaging mockups in [[Alex Foods Brands]], not taken from a brand manual or a source file. They are close enough to design with and **not** close enough to print with or hand to a third party. Each one is confirmed or corrected when the client's designer sends the real codes. Nothing in this document goes to the client as final until that happens.
+> **STATUS: SAMPLE SET — the raw input, not the deliverable.**
+> Every value here is sampled by eye from the packaging in [[Alex Foods Brands]]. **There is no brand manual and there are no existing codes — that absence is why TSA was hired.** The Foundation builds the system; it does not transcribe one. So this page is the observation layer: what the four brands currently look like, recorded accurately enough to design from.
+> The deliverable is the *governed system* built on top of it — rationalised values, tints and shades, neutrals, contrast-tested pairings and the rules binding them. Build order in [[Foundation Roadmap]].
 
 ---
 
@@ -106,7 +107,8 @@ Blue · Red · Green · Orange. These read as colourways rather than named flavo
 
 2MAN is the only brand here that arrived with a line already written, and it is a good one: it sells the feeling, not the product. **The Slogans deliverable builds around this line rather than replacing it.** Replacing a working line to justify a deliverable is how agencies destroy brand equity they were hired to build.
 
-> **BLOCKED:** two different 2MAN designs were supplied — "ICE POPS 2MAN" with the Alex seal, and a "Bu:Zz / Meyveli" pack with different characters entirely. **No 2MAN asset gets produced until the client confirms which is live.** Values above are read from the ICE POPS design.
+> **NOT A CONFLICT — two live lines.** Confirmed 18 Sep: the client sells both. **2MAN ICE POPS** (Alex seal, running-boy character, four colourways) and **2MAN Bu:Zz / Meyveli** (different character set and layout, cola and fruit flavours) are separate product lines under one brand.
+> The brand constants — the 2MAN wordmark, the ice-blue world, the tagline — carry across both. Pack treatment differs by line. **That is a sub-brand rule and the Foundation has to write it down.** Values above are read from the ICE POPS line; Bu:Zz needs its own pass.
 
 ---
 

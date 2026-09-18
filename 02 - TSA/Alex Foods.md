@@ -70,7 +70,7 @@ Defines what Alex Foods looks like, how it speaks, and where it appears, written
 Timeline: **3 weeks minimum** from whichever gate closes last.
 
 - [ ] **Brand Voice Guide** — words we use and words we avoid, sentence length, how comments get replied to. One brand voice, a different tone per family: BeBo, AlRawy, Freeze Pops.
-- [~] **Colour and Type Kit** — **drafted 18 Sep**, see [[Colour and Type Kit]]. All four brands mapped with provisional colour values. Not final until the client's designer supplies exact codes and font names, and until the "Alex" parent-brand question is answered.
+- [~] **Colour and Type Kit** — sample set recorded 18 Sep in [[Colour and Type Kit]]; the system itself is Phase 1 of [[Foundation Roadmap]]. **There are no existing codes to wait for — building them is the deliverable.**
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
 - [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material.
 - [ ] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins.

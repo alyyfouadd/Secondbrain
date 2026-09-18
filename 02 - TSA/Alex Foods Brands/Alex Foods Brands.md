@@ -12,6 +12,7 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 ---
 
 ## Notes in this folder
+- [[Foundation Roadmap]] — the sequenced build plan for all 8 Foundation deliverables: order, dependencies, what needs a designer and what the client still owes. **Read this first.**
 - [[Colour and Type Kit]] — Foundation deliverable 2 of 8. Colour codes, type rules and usage rules for all four brands. **Draft** — colour values are eyeballed off these mockups until the client's designer sends the real ones.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
 
@@ -25,7 +26,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 |---|---|---|
 | **BeBo** | Powdered drink sachets, "Kids Zone" sub-mark | Yes, named |
 | **AlRawy** | Juice / nectar pouches | Yes, named |
-| **2MAN** | Ice pops | Yes — almost certainly the "Freeze Pops" family, under its actual brand name |
+| **2MAN** | Ice pops — **two live lines**, ICE POPS and Bu:Zz/Meyveli | Yes — the "Freeze Pops" family, under its actual brand name |
 | **POLEKA** | Jelly candy in bottle-shaped pouches | **Not named in the scope. Confirmed verbally as in, 18 Sep 2026.** |
 
 **POLEKA is in, by Aly's decision on 18 September 2026** — a fourth brand inside the Foundation at no change to fee. The work proceeds on that basis. **It still needs papering:** clause 4 lets the client reject anything not matching the *approved* foundation guide, and the signed document does not mention this brand, so a one-line written confirmation closes a gap that costs nothing to close now.
@@ -90,7 +91,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 `mockup-2man-a.png` · `mockup-2man-b.png`
 
-**Two completely different designs arrived for this brand, and they do not agree.** This has to be resolved before a single asset is made.
+**Two designs arrived and both are live products — the client sells both.** This is one brand running two pack architectures, not a supply error.
 
 **Design A** (`mockup-2man-a.png`) — "ICE POPS 2MAN", a running boy character, the **Alex** seal, a "YUM" flash, and the Arabic tagline **عيش جو المغامرة** ("live the adventure"). Four colourways: blue, red, green, orange.
 

@@ -13,7 +13,8 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 
 ## Notes in this folder
 - [[Foundation Roadmap]] — the sequenced build plan for all 8 Foundation deliverables: order, dependencies, what needs a designer and what the client still owes. **Read this first.**
-- [[Colour and Type Kit]] — Foundation deliverable 2 of 8. Colour codes, type rules and usage rules for all four brands. **Draft** — colour values are eyeballed off these mockups until the client's designer sends the real ones.
+- [[Colour and Type Kit]] — the sample set feeding Foundation deliverable 2: every colour read off the four packs, the type audit, and the usage rules that hold four brands apart. Values are eyeballed from these mockups **and that is the intended state** — there are no codes to wait for, because setting them is the deliverable.
+- [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
 
 ---
@@ -110,7 +111,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ---
 
-## POLEKA — jelly candy *(not in the contract)*
+## POLEKA — jelly candy *(in the Foundation, not yet in the signed scope)*
 
 `mockup-poleka.png`
 
@@ -121,13 +122,19 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ---
 
-## Open questions — client answers needed before the Foundation can finish
+## Open questions — what the client still has to answer
 
-1. **Is POLEKA in this contract or not?** Four brands were sent against a three-brand scope. Confirm in writing under clause 7, or exclude it.
-2. **Which 2MAN design is live?** A and B are different products visually. A guide built on the wrong one is worthless.
-3. **What is "Alex"?** The seal appears on AlRawy and 2MAN but not on BeBo or POLEKA. Is Alex the parent company endorsing some lines, a separate consumer brand, or being phased in? The Brand Voice Guide cannot define a house voice without knowing whether there is a house.
-4. **Exact colour codes and font names**, from whoever designed the packaging. Everything above is eyeballed off a render and is not good enough to hand a designer.
-5. **Vector logo files** for all confirmed brands — still outstanding as material #2.
+**This list got shorter on 18 September, and the two that left were the loud ones.** "Which 2MAN design is live" is dead — both are live, and governing both is a sub-brand rule. "Exact colour codes and font names from the designer" is dead — there is no designer and there are no codes, and building the values *is* what the Foundation was bought for. Neither was ever a gate. See [[Foundation Roadmap]].
+
+Two real client answers remain:
+
+1. **What is "Alex"?** The seal appears on AlRawy and 2MAN but not on BeBo or POLEKA. Is Alex the parent company endorsing some lines, a separate consumer brand, or being phased in? The Brand Voice Guide cannot define a house voice without knowing whether there is a house, and every profile bio depends on the same answer.
+2. **Do they hold the rights to the "Cola Cola" artwork?** See the trademark flag below. TSA runs the paid campaigns, so this is TSA's exposure, not just theirs.
+
+And two materials, which are chases rather than questions:
+
+3. **Vector logo files** for all four brands — material #2, still outstanding, and the one thing that blocks every visual asset in both stages.
+4. **POLEKA in writing** — the decision is taken and it is in; this is paperwork closing a clause 4 gap.
 
 ## The trademark flag
 

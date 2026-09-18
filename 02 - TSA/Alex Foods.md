@@ -44,6 +44,8 @@ Four gates sit in front of delivery, and they fire in order. Three of them are o
 3. **Foundation clock: 3 weeks minimum.** As written, it starts at the first instalment OR the complete materials list, whichever is later. **Superseded in part by the 18 Sep exception** (see above): the payment half of this gate is waived, so the clock now turns on the materials alone.
 4. **Package A starts only after Brand Foundation is signed off in writing — not from the payment date.** Month 1 counts from the written approval date.
 
+**And that fourth gate is a trap, not a milestone.** Month 1 is roughly twenty deliverables, and every visual one of them needs product photography and vector logos that have not arrived. Clause 6 extends the *timeline* day for day for client delay and explicitly does **not** extend the paid month — so approving the Foundation before those materials land starts a paid month that cannot be produced into. The fix is one written line agreed at the moment of delivery: **month 1 starts on the later of written Foundation approval or the arrival of usable product photography and vector logo files.** Full reasoning in [[Foundation Roadmap]].
+
 **The consequence worth holding onto:** Package A's 42,000 is marked received, but its clock has not started and cannot start until Foundation is approved. Money in hand is not the same as a month running.
 
 ### The clause 11 exception — agreed 18 September 2026

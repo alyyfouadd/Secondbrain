@@ -98,7 +98,7 @@ Colour system, type system, voice guide, slogans, shooting recipe, social spec, 
 | Thing | Who can do it | Note |
 |---|---|---|
 | Profile and cover images, 4 brands × platforms | Aly, on the iPad | Template-driven once the colour and type system exists. A designer is optional convenience, not a requirement. |
-| The presented brand book | Can be generated as a styled document | Only matters if the client expects a designed PDF rather than a working document. Worth asking before anyone builds one. |
+| The presented brand book | Generated as a styled document, no designer | **Decided 18 Sep:** it ships as a built A4 PDF, not a working document. Format, layout and production route are specified in [[Brand Book Spec]]. Built from HTML and rendered, so revisions are an edit and a re-render rather than a re-layout. |
 
 ### The one that could become a real cost
 **If the client has no vector or layered source files for the four logos.**
@@ -128,3 +128,49 @@ Ranked by what it blocks.
 Phase 1 and most of Phase 2 can be finished without the client sending anything else. That is roughly **six of the eight deliverables**.
 
 The remaining two, plus the whole of Package A, sit behind items 1 and 2 above. Clause 6 extends the timeline day for day for client delay — **but it does not extend the paid month.** The 42,000 already received is against a month that starts at Foundation sign-off, so every day the logos and photos are late is a day of a paid month that still has to be delivered in full.
+
+---
+
+## Closing the Foundation and delivering it
+
+### The trap sitting under the word "deliver"
+
+**Written Foundation sign-off starts Package A month 1.** That is clause-level, not a detail: month 1 counts from the approval date, not the payment date. And month 1 is twenty deliverables — 2 animations, 6 animated stills, 12 graphics — every one of which needs **product photography and vector logos that have not arrived.**
+
+Clause 6 extends the *timeline* day for day for client delay. It explicitly does **not** extend the paid month. So a Foundation approved on, say, 9 October against photos that land on 25 October leaves a paid month running with a fraction of it left to produce in. The 42,000 is already received. That month gets delivered in full regardless.
+
+**The consequence: sign-off is not a finish line to sprint at. It is a starting gun on a race the client has not yet supplied the shoes for.**
+
+The fix is one paragraph, agreed in writing at the moment of delivery, not after:
+
+> *Package A month 1 starts on the later of two dates: written approval of the Brand Foundation, or the arrival of usable product photography and vector logo files.*
+
+That is not a concession being asked for — it is the only reading of clause 6 that holds, and it is cheap to agree now and impossible to agree in week three of a burning month. It goes in the delivery message, alongside the book.
+
+### What "closed" actually means here
+
+Eight deliverables ship. **Two of them ship as specification with execution pending**, and no amount of work on TSA's side changes that:
+
+- **Social Pages Setup** — the spec needs nothing; executing it needs Meta admin access.
+- **Google Business Profile** — pure account work, blocked on the client's Google account and business details.
+
+Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see [[Brand Book Spec]]), which is what makes shipping them honest rather than optimistic. The stage is complete and delivered; two line items wait on a password.
+
+### The build order to get there
+
+1. **Send the two client questions today.** What "Alex" is, and the rights confirmation on the cola artwork. Both are one message. The first one shapes the architecture section; the second is TSA's own exposure on the ad account.
+2. **Ship § 10, the shooting recipe, on its own, this week.** Ahead of everything, out of sequence, as a short standalone PDF. It is the document that tells the client how to produce the photos that block all of Package A. Every day it sits inside an unfinished book is a day the client cannot start.
+3. **Build Phase 1 content** — colour system, type system, voice guide. Nothing external needed.
+4. **Build the book shell in parallel** — one proven page of each type (section opener, swatch page, rules page, specimen page, do-not page), rendered and checked, before 60 pages get poured into an untested template.
+5. **Build Phase 2 content** — slogans and song, social spec, local SEO, calendar format and month 1.
+6. **Assemble, render, proof.** Read the whole book against the signed scope's deliverable list, line by line.
+7. **Deliver**: the book, the sign-off page, and the month-1 start paragraph above, in one message.
+
+### What the delivery message has to carry
+
+Four things, and missing any one of them costs money:
+
+1. The book itself, and the sign-off page naming an approver with role and contact — which is also how the clause 3 gap finally closes.
+2. The month-1 start condition, quoted above.
+3. The honest status on the two execution-pending items, with exactly what is needed to close them.
+4. The POLEKA line in writing — four brands, no change to fee — because the signed scope still names three and clause 4's rejection rule leans on the approved guide matching the scope.

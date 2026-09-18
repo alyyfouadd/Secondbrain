@@ -38,6 +38,8 @@ That is not fixable by repainting, because the packs are printed and in market, 
 Three layers were already established in [[Colour and Type Kit]]. Building the real system added a fourth, and it exists to serve Package A.
 
 1. **Parent** — the Alex seal. Frozen where it sits, per [[Brand Voice Guide]] §2. **No house palette.** A parent that endorses does not repaint what it endorses.
+   **Values sampled 18 Sep from the seal artwork:** ring navy ~`#0A0378` (**a nineteenth master — ΔE 10.4 from BeBo Navy, so genuinely distinct**) and inner red ~`#E00000`, which is **ΔE 3.31 from System Red `#E1251D` and collapses into it.** The parent layer adds one value, not two.
+   The seal is a rendered 3D object with gradients and gloss, so it is placed as supplied and never reconstructed, exactly like the 2MAN and POLEKA wordmarks.
 2. **Brand** — each brand's own fixed colours. Never change, for any reason.
 3. **Flavour** — the field colour that owns a pack for a given SKU. Changes per product.
 4. **Extended** — colours a brand may use **in social layouts only, never on a pack.** This layer is new and it is not decoration. POLEKA's four SKUs use only three distinct fields, and twelve monthly graphics built from three colours look like three graphics repeated four times.

@@ -42,6 +42,9 @@ The same shape as the colour system in [[Colour and Type Kit]], and deliberately
 
 **The consequence, stated plainly: Alex has no consumer voice.** It does not post, does not hold a page, does not speak in the first person to a shopper, and never appears in a caption. The four brands do all of the talking. There is no fifth tone block below, and there should not be one.
 
+> **UNRESOLVED as of 18 Sep, and it outranks everything else in this section.** The packs say selective endorsement. **The client's own marketing says umbrella** — both legacy graphics lead with *«طعم أحلى مع ALEX FOODS»* and *«جديد من أليكس فوودز»*, with all four brands' products arranged beneath the parent. That is a master brand speaking to consumers, which is exactly what "no consumer voice" rules out.
+> **This decides whether TSA sets up four brand pages or one Alex Foods presence**, and therefore how deliverable 3, the calendar and the whole of Package A are shaped. See [[Alex Foods Brands]]. **Everything below assumes selective endorsement and gets rewritten if the answer is umbrella.**
+
 ### What the seal actually is
 
 **An endorsement mark, not a logo.** It says *this line is ours* to the trade, to a retailer, and to a parent turning the pack over. It is not a brand the consumer is meant to follow, so it never gets a bio, a hashtag or a voice.

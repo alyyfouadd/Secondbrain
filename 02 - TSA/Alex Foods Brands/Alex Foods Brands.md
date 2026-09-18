@@ -11,6 +11,12 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 
 ---
 
+## Notes in this folder
+- [[Colour and Type Kit]] — Foundation deliverable 2 of 8. Colour codes, type rules and usage rules for all four brands. **Draft** — colour values are eyeballed off these mockups until the client's designer sends the real ones.
+- `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
+
+---
+
 ## The headline problem: four brands arrived, the contract names three
 
 The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a different tone per family: **BeBo, AlRawy, Freeze Pops**." What the client actually sent is **four** brands:
@@ -20,9 +26,9 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 | **BeBo** | Powdered drink sachets, "Kids Zone" sub-mark | Yes, named |
 | **AlRawy** | Juice / nectar pouches | Yes, named |
 | **2MAN** | Ice pops | Yes — almost certainly the "Freeze Pops" family, under its actual brand name |
-| **POLEKA** | Jelly candy in bottle-shaped pouches | **No. Not named anywhere in the scope.** |
+| **POLEKA** | Jelly candy in bottle-shaped pouches | **Not named in the scope. Confirmed verbally as in, 18 Sep 2026.** |
 
-**POLEKA is scope creep arriving disguised as materials.** Clause 7 is explicit: anything not written in the document is quoted and agreed in writing before it starts. A fourth brand is a fourth voice, a fourth colour system and a fourth share of every monthly deliverable, at no extra fee. It gets confirmed or excluded in writing before any work touches it.
+**POLEKA is in, by Aly's decision on 18 September 2026** — a fourth brand inside the Foundation at no change to fee. The work proceeds on that basis. **It still needs papering:** clause 4 lets the client reject anything not matching the *approved* foundation guide, and the signed document does not mention this brand, so a one-line written confirmation closes a gap that costs nothing to close now.
 
 **And the SKU count moved.** The contract asks for "5 SKU names." Roughly **eighteen** arrived across the four brands. If the 12 monthly graphics were priced against five SKUs, they are now being spread across nearly four times that. Worth knowing before month one, not after.
 

@@ -19,7 +19,7 @@ Alex Foods is not one brand with one colour scheme. It is **four consumer brands
 
 So the system has three layers:
 
-1. **Parent layer** — the *Alex* seal. Appears on **AlRawy** and **2MAN**. Does **not** appear on BeBo or POLEKA. **Resolved 18 Sep: Alex is the parent company endorsing selected lines**, so the absence is information rather than an oversight, and **there is no house palette.** A parent that endorses does not repaint what it endorses. Placement and the freeze rule are in [[Brand Voice Guide]] §2.
+1. **Master layer** — the *Alex* seal. Appears on **AlRawy** and **2MAN**. Does **not** appear on BeBo or POLEKA. **Resolved 18 Sep: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it — so the absence is **a rollout that has not caught up**, not a tier. Printed packs stay; new print carries the seal on every range. **There is still no house palette**, now by architectural choice: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. Placement is in [[Brand Voice Guide]] §2; the layer as governed is [[Colour System]] §2.
 2. **Brand layer** — each brand's own logo colours. Fixed. Never changes for any reason.
 3. **Flavour layer** — the colour that owns the pack for a given SKU. Changes per product.
 

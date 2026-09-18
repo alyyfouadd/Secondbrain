@@ -14,16 +14,16 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 ## Notes in this folder
 - [[Foundation Roadmap]] — the sequenced build plan for all 8 Foundation deliverables: order, dependencies, what needs a designer and what the client still owes. **Read this first.**
 - [[Colour and Type Kit]] — the sample set feeding Foundation deliverable 2: every colour read off the four packs, the type audit, and the usage rules that hold four brands apart. Values are eyeballed from these mockups **and that is the intended state** — there are no codes to wait for, because setting them is the deliverable.
-- `Alex Foods - Design System v1.0.pdf` — **the shipped deliverable 2**, 19 pages, A4, generated from `design-system/`. Colour and type in one governed document, with the sign-off page.
+- `Alex Foods - Design System v1.1.pdf` — **the shipped deliverable 2**, 19 pages, A4, generated from `design-system/`. Colour and type in one governed document, with the sign-off page. **v1.1, 18 Sep: section 1 rebuilt as a master-brand hierarchy** after Alex Foods was confirmed as the master brand. No colour value, ramp or contrast verdict changed. *(v1.0 was superseded the same day and removed — it was never sent for approval, and two Design System PDFs in one folder is how the wrong file gets handed over. Git history retains it.)*
 - `design-system/` — the build: the colour maths, the generator, the fonts, and the traps worth not rediscovering. See its README.
 - [[Colour System]] — Foundation deliverable 2, part 1. **The governed system**: 31 sampled values rationalised to 18 masters, ramps, neutrals, every contrast pairing computed, the SKU map, and the three packaging defects the maths exposed.
 - [[Type System]] — Foundation deliverable 2, part 2. Wordmarks as artwork, the Plex family and why, weights, print and social scales, and the bilingual rules.
-- [[Brand Voice Guide]] — Foundation deliverable 1, drafted. One voice and four tones, the words each brand uses and avoids, sentence length and emoji policy per brand, the never-say list that keeps a food page out of trouble, and the full comment-reply procedure including the complaint script.
+- [[Brand Voice Guide]] — Foundation deliverable 1, drafted. One voice and four tones beneath one master, the words each range uses and avoids, sentence length and emoji policy per range, the never-say list that keeps a food page out of trouble, and the full comment-reply procedure including the complaint script. **§2 rebuilt 18 Sep on the umbrella model.** One block outstanding: Alex Foods' own tone, which needs Aly's ear.
 - [[Slogans and Song]] — Foundation deliverable 4. Why a slogan is not a headline, who each brand is actually talking to, the feeling behind each of the four, the six tests a line has to pass, and why the giveaway song plays by campaign rules instead.
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
 - `packs-bebo-transparent.png` · `packs-poleka-transparent.png` — **the most usable artwork received so far.** The full BeBo and POLEKA ranges at high resolution **on a transparent background**, extracted 18 Sep from a Canva mockup PDF. Cut out and ready to composite onto any layout, which is exactly what the monthly graphics need. Still raster.
-- `logo-alex-seal.jpg` — the **Alex parent seal** in full, with the Egyptian flag ribbon. Not a screen capture, but still raster.
+- `logo-alex-seal.jpg` — the **Alex Foods master seal** in full, with the Egyptian flag ribbon. Not a screen capture, but still raster.
 - `client-legacy-creative/` — two of the client's own existing graphics, kept as the "before" reference: what Alex Foods currently looks like in market, which is what the system is replacing. Useful for the voice guide and for the do-not pages.
 - `logo-alrawy-screencap.png` · `logo-2man-screencap.png` · `logo-bebo-screencap.png` · `logo-poleka-screencap.png` — **all four brand marks**, isolated on white, **received 18 September as iPad screenshots of files open in the Files app.** Far better than reading a mark off a pack: clean edges, no perspective, full colour. **Still not vector.** They are screen captures, so they do not close material #2 and they cannot be used for print or at large scale. **What they do prove is that the source files exist and are on the client's device**, which turns the chase from "do these exist?" into "send the file, not a picture of it."
 
@@ -158,7 +158,7 @@ So the conclusion is firm rather than cautious: **every route the artwork has ta
 
 **This list got shorter on 18 September, and the two that left were the loud ones.** "Which 2MAN design is live" is dead — both are live, and governing both is a sub-brand rule. "Exact colour codes and font names from the designer" is dead — there is no designer and there are no codes, and building the values *is* what the Foundation was bought for. Neither was ever a gate. See [[Foundation Roadmap]].
 
-**And "what is Alex" closed on 18 September: the parent company, endorsing selected lines.** No consumer voice, no house palette, and the seal's absence on BeBo and POLEKA is deliberate information rather than an oversight. Consequences written up in [[Brand Voice Guide]] §2.
+**And "what is Alex" closed on 18 September: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it. It **does** have a consumer voice and it leads — one Alex Foods presence rather than four brand pages. Still no house palette, now by architectural choice rather than endorsement etiquette: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. The seal's absence on BeBo and POLEKA is **a rollout that has not caught up**, not a tier. Consequences written up in [[Brand Voice Guide]] §2 and governed in [[Colour System]] §2.
 
 One real client answer remains:
 
@@ -169,7 +169,7 @@ And two materials, which are chases rather than questions:
 3. **Vector logo files** for all four brands — material #2, still outstanding, and the one thing that blocks every visual asset in both stages.
 4. **POLEKA in writing** — the decision is taken and it is in; this is paperwork closing a clause 4 gap.
 
-## Alex — the parent, now seen properly
+## Alex Foods — the master brand, now seen properly
 
 `logo-alex-seal.jpg` · `client-legacy-creative/`
 
@@ -184,11 +184,11 @@ The seal arrived in full on 18 September and it answers more than it was asked t
 | Ring navy | ~`#0A0378` | Heavy radial gradient, `#05004B` to `#110691` across the ring |
 | Inner red | ~`#E00000` | **ΔE 3.31 from System Red `#E1251D`** — the same red. It collapses rather than adding a value. |
 
-**So the parent layer adds exactly one master to [[Colour System]]: Alex Navy.** Not two.
+**So the master layer adds exactly one value to [[Colour System]]: Alex Navy.** Not two. **It has no ramp and no contrast row yet** — it was sampled after the 18 were computed, and adding a nineteenth means recomputing the master set, the ramps and the contrast table. Not a blocker, because the seal is placed as supplied and never reconstructed. See [[Colour System]] §11.
 
 ### The tension this creates, and it matters
 
-Aly's answer on 18 September was **parent company, endorsing selected lines**, and the packs support it: the seal is on AlRawy and 2MAN, absent from BeBo and POLEKA.
+Aly's first answer on 18 September was **parent company, endorsing selected lines**, and the packs alone support it: the seal is on AlRawy and 2MAN, absent from BeBo and POLEKA. **It was overturned the same day** — see the decision below.
 
 **Their own marketing does not behave that way.** Both legacy graphics lead with the parent as a consumer brand: *«طعم أحلى مع ALEX FOODS»* and *«جديد من أليكس فوودز»*, with every brand's products arranged underneath. That is **umbrella branding**, not selective endorsement.
 

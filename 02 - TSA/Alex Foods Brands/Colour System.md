@@ -35,21 +35,28 @@ That is not fixable by repainting, because the packs are printed and in market, 
 
 ## 2. The layers
 
-Three layers were already established in [[Colour and Type Kit]]. Building the real system added a fourth, and it exists to serve Package A.
+Three layers were already established in [[Colour and Type Kit]]. Building the real system added a fourth, and it exists to serve Package A. **Rewritten 18 September for the umbrella model** — layer 1 is a master, not a parent standing alongside.
 
-1. **Parent** — the Alex seal. Frozen where it sits, per [[Brand Voice Guide]] §2. **No house palette.** A parent that endorses does not repaint what it endorses.
-   **Values sampled 18 Sep from the seal artwork:** ring navy ~`#0A0378` (**a nineteenth master — ΔE 10.4 from BeBo Navy, so genuinely distinct**) and inner red ~`#E00000`, which is **ΔE 3.31 from System Red `#E1251D` and collapses into it.** The parent layer adds one value, not two.
+1. **Master — Alex Foods.** The seal sits at the **top** of the hierarchy, not beside it. Confirmed 18 September: Alex Foods is the master brand, and BeBo, AlRawy, 2MAN and POLEKA are ranges beneath it, per [[Brand Voice Guide]] §2. Every range below is a range *of* Alex Foods.
+   **Values sampled 18 Sep from the seal artwork:** ring navy ~`#0A0378` (**a nineteenth master — ΔE 10.4 from BeBo Navy, so genuinely distinct**) and inner red ~`#E00000`, which is **ΔE 3.31 from System Red `#E1251D` and collapses into it.** The master layer adds one value, not two.
    The seal is a rendered 3D object with gradients and gloss, so it is placed as supplied and never reconstructed, exactly like the 2MAN and POLEKA wordmarks.
-2. **Brand** — each brand's own fixed colours. Never change, for any reason.
+   **Still no house palette, and the reason changed.** Under the old endorsement model there was no house palette because a parent that endorses does not repaint what it endorses. Under a master brand it is a deliberate architectural choice: **the master owns the seal and the presence; the ranges keep their four clashing palettes**, because that clash is the only thing separating them on a shelf. A master brand that repainted its ranges would destroy the differentiation it depends on. **Alex Navy governs the seal, the corporate layer and the single Alex Foods presence — never a range's packaging.**
+2. **Range** — each range's own fixed colours. Never change, for any reason. *(§5 and the shipped document's per-range pages still say "brand", because that is what the contract, the client and every designer call them. The hierarchy is what changed, not the vocabulary.)*
 3. **Flavour** — the field colour that owns a pack for a given SKU. Changes per product.
-4. **Extended** — colours a brand may use **in social layouts only, never on a pack.** This layer is new and it is not decoration. POLEKA's four SKUs use only three distinct fields, and twelve monthly graphics built from three colours look like three graphics repeated four times.
+4. **Extended** — colours a range may use **in social layouts only, never on a pack.** This layer is new and it is not decoration. POLEKA's four SKUs use only three distinct fields, and twelve monthly graphics built from three colours look like three graphics repeated four times.
 
-> **The rule that governs all four, unchanged and still the most-broken rule in food design:**
-> **The flavour colour owns the field. The brand colour owns the logo. They never trade places.**
+> **The rule that governs all four, now with the master in it, and still the most-broken rule in food design:**
+> **The flavour colour owns the field. The range colour owns the logo. The master owns the seal, and it takes neither.**
+>
+> A BeBo mango pack is a mango-coloured field carrying the standard green banner. The banner does not turn orange to match the flavour, **and it does not turn navy to match Alex.**
 
 **And the new rule rationalisation forced:**
 
-> **A value may be shared between brands where neither owns it as a signature. It may not be shared where one does.**
+> **A value may be shared between ranges where neither owns it as a signature. It may not be shared where one does.**
+
+**And the rule the umbrella model retires:**
+
+> ~~The seal appears exactly where it appears today, never added and never removed.~~ **Retired 18 September.** The absence on BeBo and POLEKA is a rollout that has not caught up, not deliberate tiering. **Printed packs stay exactly as they are. New print carries the seal on every range.**
 
 ## 3. Colours that live inside a logo are not system values
 
@@ -229,7 +236,8 @@ The values are computed honestly from sampled inputs. Two limits, stated plainly
 ## 11. Still open
 
 - **Vector logo files.** Blocks §3 being verified against real artwork, and blocks every visual deliverable in both stages.
-- **The seal's rule** — tiering or rollout, per [[Brand Voice Guide]] §2. Frozen safely either way.
+- ~~**The seal's rule** — tiering or rollout.~~ **Closed 18 September: rollout**, and the freeze rule retired with it. See §2.
+- **Alex Navy `#0A0378` is a governed master with no ramp and no contrast row.** It was sampled after the 18 were computed, and §4, §6 and §8 are verified against those 18 — a nineteenth means recomputing all three. **Not a blocker today:** the seal is placed as supplied and never reconstructed, so nothing in either stage needs an Alex Navy tint or a type-on-Alex-Navy verdict. It becomes one the moment the single Alex Foods presence needs corporate-layout colours. **Aly's call whether that recompute happens now or at v1.2.**
 - **Type system**, the other half of deliverable 2. Next in Phase 1 of [[Foundation Roadmap]].
 
 ---

@@ -7,17 +7,18 @@ type: reference
 
 **Brand Foundation deliverable 1 of 8** for [[Alex Foods]]. How the four brands speak: what they say, what they never say, how long a sentence runs, and exactly how a comment gets answered. Written work, no client input required. Brand facts in [[Alex Foods Brands]], craft rules from [[Marketing]].
 
-> **STATUS: DRAFTED, complete.** All nine sections are written and usable. The house-layer question that was holding §2 was answered on 18 September: Alex is the parent, endorsing selected lines, and it has no consumer voice.
+> **STATUS: DRAFTED, and one block short of complete.** The master-layer question that was holding §2 was answered on 18 September: **Alex Foods is the master brand**, the four are ranges beneath it, and it **does** have a consumer voice that leads. §2 was rebuilt on that model. **The one thing outstanding is Alex Foods' own tone block** — see §2 and §9. Everything else is written and usable.
 > **All Arabic below is draft copy for Aly's ear.** He is the native speaker and the arbiter. Lines that do not sound right said out loud get rewritten, not defended.
 
 ---
 
-## 1. The architecture: one voice, four tones
+## 1. The architecture: one voice, four tones — beneath one master
 
 The same shape as the colour system in [[Colour and Type Kit]], and deliberately so. The client should learn **one** mental model across the whole Foundation, not a different one per deliverable.
 
 - **Voice** is the layer that never changes. Honesty, sentence length, Arabic first, no corporate register, reply like a person. It is identical on all four brands and it is not negotiable per campaign.
-- **Tone** is what shifts per brand. BeBo does not sound like AlRawy. That difference is the point.
+- **Tone** is what shifts per range. BeBo does not sound like AlRawy. That difference is the point.
+- **Alex Foods is the master brand and it speaks too**, per §2. Its tone block is the one piece still unwritten, so "four tones" becomes **five** the moment that lands. The voice layer does not change when it does.
 
 > **The rule that falls out of it: tone changes, voice never does.** A POLEKA post and an AlRawy post should be unmistakably different in energy and unmistakably the same company underneath.
 
@@ -34,55 +35,54 @@ The same shape as the colour system in [[Colour and Type Kit]], and deliberately
 
 ---
 
-## 2. The house layer — Alex
+## 2. The master layer — Alex Foods
 
-**Answered 18 September 2026: Alex is the parent company, endorsing selected lines.** That settles the question that was holding this section, and it settles it in the cheapest direction.
+**Decided 18 September 2026: Alex Foods is the MASTER BRAND.** BeBo, AlRawy, 2MAN and POLEKA are **ranges beneath it**, not four independents that happen to share a factory.
 
 > *Paper this alongside the POLEKA confirmation. It is the same one-line job in the same message, and clause 4's rejection rule leans on the approved guide matching what the client actually told us.*
 
-**The consequence, stated plainly: Alex has no consumer voice.** It does not post, does not hold a page, does not speak in the first person to a shopper, and never appears in a caption. The four brands do all of the talking. There is no fifth tone block below, and there should not be one.
+**Three signals point the same way, which is why this is settled rather than assumed:**
 
-> **RESOLVED 18 September: umbrella. Alex is the master brand.** Aly sent the seal and called it *"the main logo"*, which lines up with the two other signals already on file — the client's own marketing leads with *«طعم أحلى مع ALEX FOODS»* and *«جديد من أليكس فوودز»*, and the seal is the corporate mark of الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية.
->
-> **So Alex does have a consumer voice, and this section changes from "no house voice" to "the house voice leads."** The four brands are ranges beneath it rather than four independents that happen to share a factory.
->
-> **What it changes downstream, and it is not small:**
-> - **Deliverable 3 builds one Alex Foods presence**, not four brand pages. One audience compounding instead of four starting from zero.
-> - **The content calendar is structured around one account**, with the brands rotating as ranges inside it.
-> - **Every bio names Alex Foods.** The earlier rule that only sealed brands may name the parent is withdrawn.
-> - **The seal's absence on BeBo and POLEKA is a rollout that has not caught up**, not deliberate tiering. Printed packs stay as they are; new print carries the seal.
-> - **[[Colour System]] §2 layer 1 and the design system's architecture page both need rebuilding** around a master brand rather than a selective endorser.
->
-> *If "main logo" meant only "this is the primary version of the Alex mark" rather than "Alex is the master brand", say so and this reverts — but three signals now point the same way.*
+1. Aly sent the seal and called it **"the main logo."**
+2. The client's own marketing already runs Alex as a consumer brand — *«طعم أحلى مع ALEX FOODS»* and *«جديد من أليكس فوودز»*, with every range's products arranged underneath. That is umbrella branding, not selective endorsement.
+3. The seal is the corporate mark of **الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية**, the company that makes all four.
 
-### What the seal actually is
+*This replaced an earlier reading — "parent company, endorsing selected lines" — taken the same day. The packs alone supported that reading; the marketing and the "main logo" call overturned it. Recorded because the reasoning is what the decision rests on.*
 
-**An endorsement mark, not a logo.** It says *this line is ours* to the trade, to a retailer, and to a parent turning the pack over. It is not a brand the consumer is meant to follow, so it never gets a bio, a hashtag or a voice.
+### The consequence: Alex Foods has a consumer voice, and it leads
 
-### The rule for where it appears
+The four ranges do not each carry their own audience from zero. **One presence compounds.**
 
-Current state: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
-
-"Endorsing selected lines" tells us the absence on BeBo and POLEKA is information rather than an oversight, which is a real and useful result. What it does not yet tell us is *the rule*, and there are two readings that give a designer opposite instructions:
-
-| Reading | The rule would be | Consequence |
+| What it changes | From | To |
 |---|---|---|
-| **Deliberate tiering** — Alex endorses the fruit-based lines and withholds from powder and confectionery | Category-based. The seal is **never** added to BeBo or POLEKA. | The seal carries meaning. It is worth something precisely because it is not everywhere. |
-| **Rollout in progress** — the seal is going onto everything and the print runs have not caught up | All lines. BeBo and POLEKA get it at the next print run. | The seal is a company mark and carries no tiering signal. |
+| **Deliverable 3** | Four brand pages | **One Alex Foods presence**, ranges rotating inside it |
+| **The content calendar** | Four parallel calendars | **One calendar**, structured by range |
+| **Bios** | Only sealed brands may name the parent | **Every bio names Alex Foods.** The old rule is withdrawn |
+| **The seal's absence** | Deliberate tiering, frozen where it sits | **A rollout that has not caught up** |
+| **[[Colour System]] §2 and the design system** | A parent standing beside the four | **A master-brand hierarchy.** Rebuilt 18 Sep, shipped as Design System v1.1 |
 
-**The working rule until the client picks, and it is safe under both readings:**
+### What the seal is
 
-> **The seal appears exactly where it appears today. It is never added to a pack that does not carry it, and never removed from one that does.**
+**The master brand's corporate mark** — and under the umbrella model it is no longer "an endorsement mark, not a logo." It is the mark of the company the audience is being asked to follow. It still speaks to the trade and to a parent turning a pack over; it now also appears wherever Alex Foods speaks in its own right.
 
-That is what a governance document should do with a state it has not been given the reason for: write it down and freeze it, rather than guess at intent and let a designer act on the guess.
+It is a rendered 3D object with gradients and gloss, so it is **placed as supplied and never reconstructed**, exactly like the 2MAN and POLEKA wordmarks.
 
-### The rules that follow, and these are usable today
+### Where it appears — a rollout, not a tier
 
-1. **Bios.** A brand carrying the seal may reference the parent in its bio. **A brand without the seal must not.** Naming Alex on BeBo's page while the pack does not carry the seal breaks the one thing the endorsement means.
-2. **Sign-off line.** Alex gets a single line in corporate register, Arabic and English, for the Business Profile description, trade contexts and company materials. **It never appears in a consumer caption on any of the four brands.**
-3. **Google Business Profile and local SEO are Alex's, not the brands'.** A Business Profile is a company at an address, and consumer brands do not have addresses. That resolves the entity question sitting under Foundation deliverables 7 and 8 before it could become a problem: **one listing, for the company.**
-4. **No house palette.** Alex contributes the seal's own colours and its placement rules and nothing else. The four brands keep four deliberately clashing palettes, which is what separates them on a shelf. A parent that endorses does not repaint what it endorses.
+Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
+> **The freeze rule is retired.** It said the seal appears exactly where it appears today, never added and never removed — correct while the reason for the absence was unknown, and wrong now that it is known.
+>
+> **The rule that replaces it: printed packs stay exactly as they are. New print carries the seal on every range.** Nothing in market gets changed, and nobody has to explain why BeBo is missing something.
+
+### The rules that follow
+
+1. **Bios.** **Every range's bio names Alex Foods**, sealed pack or not. *(This reverses the earlier rule that only sealed brands could name the parent — that rule existed to protect a tiering signal that turned out not to exist.)*
+2. **Sign-off line.** Alex Foods gets a line in corporate register, Arabic and English, for the Business Profile description, trade contexts and company materials. It is **corporate register, not the consumer voice** — the two are different jobs and the sign-off line never carries a caption's tone.
+3. **Google Business Profile and local SEO are Alex Foods', not the ranges'.** A Business Profile is a company at an address, and a range does not have an address. **One listing, for the company** — and under the umbrella model this is now the obvious answer rather than a resolution of a tension. Settles the entity question under Foundation deliverables 7 and 8.
+4. **No house palette, and the reason changed.** The master owns the seal and the presence; **the four ranges keep their four deliberately clashing palettes**, because that clash is the only thing separating them on a shelf. A master brand that repainted its ranges would destroy the differentiation it depends on. Governed in [[Colour System]] §2.
+
+> **The one piece of writing this decision creates and nobody has done yet: Alex Foods' own tone block.** Sections 3 to 6 specify register, sentence length, emoji policy and person for each of the four ranges. The master now needs the same, because it is the account that actually posts. **It is deliberately not drafted here** — tone is Aly's call and his ear, and guessing it would put a fifth voice into a governance document on an AI's opinion. Everything else in §2 is usable today. See §9.
 
 ---
 
@@ -263,7 +263,8 @@ TSA → **the named approver** (clause 3) → the client.
 ## 9. What this is waiting on
 
 1. **A named approver.** Puts a top rung on §8's escalation ladder.
-3. **Which reading governs the seal** (tiering versus rollout, §2). Not a blocker: the freeze rule holds safely under either, and the answer only decides whether the seal can ever be added to BeBo and POLEKA.
+2. **Alex Foods' own tone block** — register, sentence length, emoji policy and person for the master account, matching the shape of §3 to §6. **The umbrella decision created this and it needs Aly's ear, not an AI's guess.** It is the only thing between this deliverable and complete, and it blocks deliverable 3's single presence from having a written voice.
+3. ~~**Which reading governs the seal** (tiering versus rollout).~~ **Closed 18 September: rollout.** Printed packs stay; new print carries the seal on every range. The freeze rule is retired. See §2.
 4. **The client's written product facts** (nutrition, sourcing, certifications, retail list) if they ever want §7's locked list loosened. Until then the list stands as written, and it stands in TSA's own interest.
 
 ---

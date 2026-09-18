@@ -119,9 +119,13 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 
 ### The pages that carry the weight
 
-**00 — Cover.** Type only on off-white: the title in Arabic and English, the client, The Standard Agency, version, date, and the named approver it is prepared for. No logo collage — four logos on a cover reads as a supplier catalogue. One graphic move instead: a single horizontal band at the foot of the page split into the four brand primaries. Four brands, one system, said in one line without a word. It also survives the unresolved "Alex" question, because it needs no parent mark to work.
+**00 — Cover.** Type only on off-white: the title in Arabic and English, the client, The Standard Agency, version, date, and the named approver it is prepared for. No logo collage — four logos on a cover reads as a supplier catalogue. One graphic move instead: a single horizontal band at the foot of the page split into the four brand primaries. Four brands, one system, said in one line without a word. The band survives the architecture change intact: under the umbrella model it reads as the four ranges of one company, which is exactly what it now is. **What changed is the title block** — Alex Foods is set above the four rather than listed alongside them, so the cover states the hierarchy before page 3 explains it.
 
-**03 — Brand architecture.** The three layers — parent seal, brand, flavour — drawn on an actual pack, with the rule that falls out of them: *the flavour colour owns the field, the brand colour owns the logo, and they never trade places.* This is the page that earns the 20,000. Everything downstream is application.
+**03 — Brand architecture.** **Rebuilt 18 September on the umbrella model.** Alex Foods is the **master brand** and BeBo, AlRawy, 2MAN and POLEKA are **ranges beneath it** — not four independents that happen to share a factory. The page is drawn as a hierarchy, master on top and the three lower layers beneath it, rather than four equal boxes: *master, range, flavour, extended*, laid over an actual pack. The rule that falls out of it: *the flavour colour owns the field, the range colour owns the logo, and the master owns the seal and takes neither.*
+
+**And the seal is a rollout, not a tier.** Its absence from BeBo and POLEKA is a print run that has not caught up. Printed packs stay as they are; new print carries it on every range. The page says so, because a designer reading "frozen where it sits" would refuse a seal the client is actively rolling out.
+
+**This is the page that earns the 20,000**, and the umbrella call is what makes that true — it is a strategic decision about how the company goes to market, not a diagram. Everything downstream is application: § 09 builds **one** Alex Foods presence rather than four brand pages, and the calendar rotates the ranges inside it.
 
 **04 — Colour system.** One spread explaining the system and the neutral house layer, then one page per brand for fixed brand colours with HEX, RGB and CMYK (conversions flagged as conversions, not press-accurate), then the flavour matrices, the neutrals, and a full **contrast table**: every text-on-field pairing with a verdict — *white / white + keyline / navy only*. That table is not decoration on a system where half the fields are pale yellow and lime.
 
@@ -142,7 +146,8 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 
 ## 7. What this spec is still waiting on
 
-- ~~What "Alex" is.~~ **Answered 18 September: parent company, endorsing selected lines.** § 03 carries a parent layer with no house palette and no consumer voice, and § 09's bios follow the seal — a brand carrying it may name the parent, a brand without it may not. See [[Brand Voice Guide]] §2.
+- ~~What "Alex" is.~~ **Answered 18 September: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it. § 03 carries a master layer — **still no house palette**, but now by architectural choice rather than because a parent does not repaint what it endorses: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. **§ 09 builds one Alex Foods presence, not four brand pages**, and the earlier bio rule is withdrawn — **every bio names Alex Foods**, sealed pack or not, because the seal is mid-rollout rather than a tier. See [[Brand Voice Guide]] §2.
+- **Alex Navy `#0A0378` has no ramp and no contrast row.** Sampled after the 18 masters were computed. Not a blocker for the book — the seal is placed as supplied — but § 04 carries the gap honestly rather than quietly. See [[Colour System]] §11.
 - **Vector logo files.** § 06 cannot ship finished without them. It ships with the rules written and the artwork marked `PENDING CLIENT INPUT` rather than holding the whole book.
 
 ---

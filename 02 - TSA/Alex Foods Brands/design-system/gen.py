@@ -59,7 +59,7 @@ PAGES=[0]
 def page(cls, body, label=''):
     PAGES[0]+=1
     p(f'<section class="page {cls}">{body}<footer><span class="fm"><i></i><b>TSA</b></span>'
-      f'<span>Alex Foods · Design System v1.0 · 18.09.2026</span>'
+      f'<span>Alex Foods · Design System v1.1 · 18.09.2026</span>'
       f'<span>{label}</span><span>{PAGES[0]}</span></footer></section>')
 
 def sw(h,name='',code=True,hgt='22mm'):
@@ -73,9 +73,9 @@ page('cover', f'''<div class="cov">
 <div class="covmid">
 <div class="eyebrow">Brand Foundation · Deliverable 2 of 8</div>
 <h1>نظام التصميم</h1><h2>DESIGN SYSTEM</h2>
-<div class="covsub">Alex Foods &nbsp;·&nbsp; BeBo &nbsp;·&nbsp; AlRawy &nbsp;·&nbsp; 2MAN &nbsp;·&nbsp; POLEKA</div>
+<div class="covsub"><b>ALEX FOODS</b><span>BeBo &nbsp;·&nbsp; AlRawy &nbsp;·&nbsp; 2MAN &nbsp;·&nbsp; POLEKA</span></div>
 </div>
-<div class="covbot"><div class="meta"><span>Version 1.0</span><span>18 September 2026</span><span>Prepared for Alex Foods</span></div>
+<div class="covbot"><div class="meta"><span>Version 1.1</span><span>18 September 2026</span><span>Prepared for Alex Foods</span></div>
 <div class="tag">Grow the <em>standard</em>.</div>
 <div class="bands"></div></div></div>''')
 
@@ -88,7 +88,7 @@ page('', f'''<h3 class="ar">كيف يُستخدم هذا المستند</h3><h4>
 <h5>What this is not</h5><p>This is structure and governance, not a repaint. The packs are printed and in market. Where this document records a problem on an existing pack, it records it and writes the rule that contains it. Changing printed artwork is a separate quotation.</p></div>
 <div><h5>Who decides</h5><p>TSA owns execution. The client approves or rejects a delivery as a whole, as an outcome rather than an instruction.</p>
 <h5>Contents</h5>
-<table class="toc"><tr><td>1</td><td>The four layers</td><td>3</td></tr>
+<table class="toc"><tr><td>1</td><td>The brand architecture</td><td>3</td></tr>
 <tr><td>2</td><td>The master set</td><td>4</td></tr><tr><td>3</td><td>Brand assignments</td><td>6</td></tr>
 <tr><td>4</td><td>Ramps</td><td>10</td></tr><tr><td>5</td><td>Neutrals</td><td>11</td></tr>
 <tr><td>6</td><td>Type on colour</td><td>12</td></tr><tr><td>7</td><td>The wordmarks</td><td>13</td></tr>
@@ -98,16 +98,21 @@ page('', f'''<h3 class="ar">كيف يُستخدم هذا المستند</h3><h4>
 <div class="chip">DEFINED</div></div></div>''','How to use')
 
 # ---------- LAYERS ----------
-page('', f'''<h3 class="ar">الطبقات الأربع</h3><h4>1 · The four layers</h4>
-<div class="layers">
-<div class="lay"><b>1 · Parent</b><p>The Alex seal. Alex is the parent company, endorsing selected lines. <b>There is no house palette.</b> A parent that endorses does not repaint what it endorses.</p><p class="sm">The seal appears exactly where it appears today. Never added to a pack without it, never removed from one with it.</p></div>
-<div class="lay"><b>2 · Brand</b><p>Each brand's own fixed colours. These never change, for any reason, in any medium.</p></div>
+page('', f'''<h3 class="ar">هيكل العلامة</h3><h4>1 · The brand architecture</h4>
+<div class="rule big"><b>Alex Foods is the master brand. BeBo, AlRawy, 2MAN and POLEKA are ranges beneath it.</b>
+<p>Confirmed 18 September 2026. Not four independent brands that happen to share a factory — four ranges of one company, and the company is what an audience is asked to follow.</p></div>
+<div class="layers one"><div class="lay top"><b>1 · Master — Alex Foods</b>
+<p>The seal sits at the top of the hierarchy, not beside it. It is the corporate mark of الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية, and every range below is a range <em>of</em> it.</p>
+<p class="sm"><b>Alex Navy <span class="mono">#0A0378</span> is the master's own value</b> — a nineteenth value, ΔE 10.4 clear of BeBo Navy. The seal's inner red is ΔE 3.31 from System Red and collapses into it, so <b>the master adds one value, not two.</b> The seal is a rendered 3D object: placed as supplied, never reconstructed, like the 2MAN and POLEKA wordmarks.</p></div></div>
+<div class="layers three">
+<div class="lay"><b>2 · Range</b><p>Each range's own fixed colours. These never change, for any reason, in any medium. <b>The master does not repaint what sits beneath it</b> — four deliberately clashing palettes is what separates the ranges on a shelf.</p></div>
 <div class="lay"><b>3 · Flavour</b><p>The field colour that owns a pack for a given SKU. Changes per product.</p></div>
-<div class="lay"><b>4 · Extended</b><p>Colours a brand may use <b>in social layouts only, never on a pack.</b> Twelve monthly graphics built from three colours look like three graphics repeated four times.</p></div>
+<div class="lay"><b>4 · Extended</b><p>Colours a range may use <b>in social layouts only, never on a pack.</b> Twelve monthly graphics built from three colours look like three graphics repeated four times.</p></div>
 </div>
-<div class="rule"><b>The flavour colour owns the field. The brand colour owns the logo. They never trade places.</b>
-<p>A BeBo mango pack is a mango-coloured field with the standard green banner on it. The banner does not turn orange to match. That unchanged banner across five colour fields is what makes a shelf of BeBo read as one brand.</p></div>
-<div class="rule alt"><b>A value may be shared between brands where neither owns it as a signature. It may not be shared where one does.</b></div>''','The four layers')
+<div class="rule"><b>The flavour colour owns the field. The range colour owns the logo. The master owns the seal, and it takes neither.</b>
+<p>A BeBo mango pack is a mango-coloured field carrying the standard green banner. The banner does not turn orange to match the flavour, and it does not turn navy to match Alex. That unchanged banner across five fields makes a shelf of BeBo read as one range; the seal makes it read as Alex Foods.</p></div>
+<div class="rule alt"><b>The seal is rolling out, not tiering.</b><p>Its absence from BeBo and POLEKA is a print run that has not caught up, not a signal those ranges are held at arm's length. <b>Printed packs stay exactly as they are. New print carries the seal on every range.</b></p></div>
+<div class="rule alt"><b>A value may be shared between ranges where neither owns it as a signature. It may not be shared where one does.</b></div>''','Brand architecture')
 
 # ---------- MASTERS ----------
 for chunk,start in ((M[:9],0),(M[9:],9)):
@@ -240,16 +245,19 @@ page('', f'''<h3 class="ar">عيوب معروفة</h3><h4>12 · Known defects in
 # ---------- GOVERNANCE ----------
 page('', f'''<h3 class="ar">الحوكمة</h3><h4>13 · Governance</h4>
 <div class="two"><div>
-<h5>Version</h5><p>This is <b>v1.0</b>, dated 18 September 2026. Every page carries the version in its footer, so a page found loose on a desk identifies itself.</p>
-<h5>What triggers a new version</h5><p>A new brand or SKU · a change to a printed pack · original artwork files arriving, which would allow values to be re-sampled from source and reissued as v1.1 · a decision on whether the Alex seal extends to BeBo and POLEKA.</p>
+<h5>Version</h5><p>This is <b>v1.1</b>, dated 18 September 2026. Every page carries the version in its footer, so a page found loose on a desk identifies itself.</p>
+<p class="sm"><b>What changed in v1.1.</b> Alex Foods was confirmed as the <b>master brand</b> rather than a parent endorsing selected lines. Section 1 was rebuilt as a master-brand hierarchy, Alex Navy is recorded as the master's own value, and the seal's absence from BeBo and POLEKA is now governed as a rollout in progress rather than frozen where it sits. No colour value, ramp or contrast verdict changed.</p>
+<h5>What triggers a new version</h5><p>A new range or SKU · a change to a printed pack · original artwork files arriving, which would allow values to be re-sampled from source and reissued · a further change to the brand architecture · Alex Navy joining the master table with its own ramp and contrast row.</p>
 <h5>Honest limits</h5><p class="sm">Values were sampled from supplied artwork rather than measured from printed packs or read from source files. The relationships between values are sound and the contrast verdicts hold, because those depend on the values as published here. <b>What is not guaranteed is that a published value matches the ink currently on a shelf.</b></p>
 <p class="sm">From approval onward these values are the brand's colours and the packs are the legacy. That is the correct direction for a system nobody had written down before.</p>
 </div><div>
 <h5>Still open</h5>
 <table class="mt sm"><tbody>
 <tr><td>Vector logo files</td><td class="chip2 warn">PENDING</td></tr>
-<tr><td>Seal rule: tiering or rollout</td><td class="chip2 warn">PENDING</td></tr>
 <tr><td>Cola artwork rights</td><td class="chip2 warn">PENDING</td></tr>
+<tr><td class="sm">Company age — materials say both 20 and 25 years</td><td class="chip2 warn">PENDING</td></tr>
+<tr><td>Product photography</td><td class="chip2 warn">PENDING</td></tr>
+<tr><td class="sm">Alex Navy ramp and contrast row</td><td class="chip2">TSA</td></tr>
 <tr><td>Type licence confirmation</td><td class="chip2">TSA</td></tr></tbody></table>
 <h5>Approval</h5>
 <div class="sign"><p class="sm">This document is submitted for written approval. Approving it fixes the values above as the system of record for all four brands.</p>
@@ -298,8 +306,12 @@ span.ar{{display:block;direction:rtl;color:{SLATE};font-size:8pt}}
 .rule.alt{{border-right-color:{SURF}}} .rule.big b{{font-size:11.5pt;line-height:1.35;display:block;margin-bottom:2mm}}
 .rule > b{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:12pt;letter-spacing:.01em;display:block;margin-bottom:1.5mm}} .rule p{{margin:2mm 0 0;font-size:8.5pt}}
 .layers{{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-bottom:2mm}}
+.layers.one{{grid-template-columns:1fr;margin-bottom:4mm}}
+.layers.three{{grid-template-columns:repeat(3,1fr)}}
+.lay.top{{border-width:0.6mm;border-color:{INK};background:{MIST}}}
+.lay.top > b{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:12.5pt;letter-spacing:.01em}}
 .lay{{border:0.25mm solid {SILVER};padding:4mm;border-radius:1mm}}
-.lay b{{font-size:9.5pt;display:block;margin-bottom:1.5mm}} .lay p{{font-size:8.5pt;margin:0 0 1.5mm}}
+.lay > b{{font-size:9.5pt;display:block;margin-bottom:1.5mm}} .lay p{{font-size:8.5pt;margin:0 0 1.5mm}}
 .flav{{display:grid;grid-template-columns:repeat(5,1fr);gap:2.5mm;margin:2mm 0 0}}
 .sw{{border-radius:1mm;padding:2.5mm;display:flex;flex-direction:column;justify-content:space-between;font-size:7.5pt;font-weight:600}}
 .hexl{{font-family:'IBM Plex Mono',monospace;font-size:6.5pt;opacity:.9}}
@@ -347,6 +359,9 @@ table.toc td:last-child{{text-align:right;color:{SLATE};font-family:'IBM Plex Mo
 .covmid h2{{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:40pt;margin:2mm 0 0;
  color:{PAPER};letter-spacing:.02em}}
 .covsub{{margin-top:8mm;font-size:8.5pt;color:{SILVER};letter-spacing:.06em}}
+.covsub b{{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:13pt;
+ letter-spacing:.1em;color:{PAPER};margin-bottom:2.5mm}}
+.covsub span{{display:block;padding-left:0.5mm;border-left:0.4mm solid {RED};padding-left:3mm}}
 .covbot{{padding-bottom:0}}
 .meta{{display:flex;gap:8mm;font-size:7pt;color:{SLATE};letter-spacing:.12em;
  text-transform:uppercase;font-weight:600;margin-bottom:5mm}}
@@ -359,7 +374,7 @@ table.toc td:last-child{{text-align:right;color:{SLATE};font-family:'IBM Plex Mo
 .page.cover footer{{display:none}}
 '''
 html=f'''<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8">
-<title>Alex Foods — Design System v1.0</title><link rel="stylesheet" href="plex.css"><link rel="stylesheet" href="tsa.css">
+<title>Alex Foods — Design System v1.1</title><link rel="stylesheet" href="plex.css"><link rel="stylesheet" href="tsa.css">
 <style>{CSS}</style></head><body>{''.join(H)}</body></html>'''
 io.open(os.path.join(HERE,'ds.html'),'w',encoding='utf-8').write(html)
 print("pages:",PAGES[0])

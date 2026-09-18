@@ -49,7 +49,7 @@ Not a list of swatches. A governed system:
 - **Build the ramps.** Each brand colour gets tints and shades so a designer has a usable range instead of one flat swatch, which is what forces off-system colour picking.
 - **Define the neutrals.** The one thing all four brands share and none of them currently have. This is where a house layer can exist without flattening the brands.
 - **Check contrast.** Every text-on-colour pairing tested, because half these fields are pale yellow and lime.
-- **Write the relationships:** flavour owns the field, brand owns the logo, parent seal sits where it sits.
+- **Write the relationships:** flavour owns the field, range owns the logo, and the master seal sits above both and takes neither. *(Rebuilt 18 Sep on the umbrella model — Alex Foods is the master brand, the four are ranges. See [[Colour System]] §2.)*
 
 **2. Type System** — **BUILT 18 Sep in [[Type System]].** Plex family selected at zero cost, weights, print and social scales, bilingual rules. **Phase 1 is now closed.**
 - Identify what each wordmark actually is — done. Two are illustrated lettering and can never be retyped.

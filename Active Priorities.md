@@ -47,6 +47,9 @@ The single queue of open work across everything. Tag each item with its project 
 - [ ] Set the MMA start date and buy gloves and the rest of the required gear. (personal)
 
 **The vault itself**
+- [ ] **Flip the GitHub default branch to `main`.** Safari → github.com/alyyfouadd/Secondbrain → Settings → General → Default branch → swap to `main`. It is currently `claude/ai-memory-vault-setup-w0suls`, a session branch — so every fresh clone, every new AI session and Working Copy's default checkout all land somewhere that isn't the trunk. **This is the root cause of the vault splitting across refs, not a tidying job.** Admin toggle, only Aly can do it. (meta)
+- [ ] **Then delete the stale branches** — `claude/ai-memory-vault-setup-w0suls`, `claude/ai-marketing-skills-setup-u7004r`, and each session branch once merged. They are byte-identical to `main`, so nothing is lost. GitHub blocks deleting the default branch, so the flip above has to happen first. (meta)
+- [ ] **Point Working Copy at `main`** once the flip is done, so the iPad stops tracking whichever session branch it landed on. (meta)
 - [ ] Install Obsidian on the iPad and open this repo as a vault — see [[README]] for the setup path. Until this is done the vault has no window in it. (meta)
 - [ ] Decide the production toolchain: what the 2 animations, 6 animated stills and 12 graphics actually get made in, on an iPad. This is unanswered and it gates every visual deliverable Alex Foods is owed. (tsa)
 - [ ] Get the brand inputs only the client can give: the 5 SKU names and what BeBo, AlRawy and Freeze Pops each are, so the voice guide can carry a different tone per family instead of guessing. (tsa)

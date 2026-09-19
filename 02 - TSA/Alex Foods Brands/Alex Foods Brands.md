@@ -29,7 +29,8 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
 - `packs-bebo-transparent.png` · `packs-poleka-transparent.png` — **the most usable artwork received so far.** The full BeBo and POLEKA ranges at high resolution **on a transparent background**, extracted 18 Sep from a Canva mockup PDF. Cut out and ready to composite onto any layout, which is exactly what the monthly graphics need. Still raster.
-- `logo-alex-seal.jpg` — the **Alex Foods master seal** in full, with the Egyptian flag ribbon. Not a screen capture, but still raster.
+- **`logos-vector/alex-seal-master.pdf` — THE VECTOR MASTER, received 19 September.** True vector, no images and no fonts. **The flat two-colour seal**, not the 3D rendered object. `alex-seal-master.svg` beside it is a working conversion for HTML layouts, **carrying one known defect: the x of "Alex" does not survive the conversion, so the PDF is the master and the SVG is checked before use.**
+- `logo-alex-seal.jpg` — the **3D rendered** master seal with the Egyptian flag ribbon. Superseded as a source by the vector above; kept because it is what is currently printed on pack.
 - `client-legacy-creative/` — two of the client's own existing graphics, kept as the "before" reference: what Alex Foods currently looks like in market, which is what the system is replacing. Useful for the voice guide and for the do-not pages.
 - `logo-alrawy-screencap.png` · `logo-2man-screencap.png` · `logo-bebo-screencap.png` · `logo-poleka-screencap.png` — **all four brand marks**, isolated on white, **received 18 September as iPad screenshots of files open in the Files app.** Far better than reading a mark off a pack: clean edges, no perspective, full colour. **Still not vector.** They are screen captures, so they do not close material #2 and they cannot be used for print or at large scale. **What they do prove is that the source files exist and are on the client's device**, which turns the chase from "do these exist?" into "send the file, not a picture of it."
 
@@ -150,6 +151,8 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 - **4 SKUs visible:** apple (التفاح) · mango (المانجو) · cola · strawberry (الفراولة)
 
 ---
+
+> **CORRECTED 19 September 2026: a true vector master EXISTS for the Alex Foods seal.** `LOGO.pdf` arrived from the client and it is genuine vector artwork: **zero embedded images, zero fonts, 1,612 vector path operations, CMYK fills.** Filed as `logos-vector/alex-seal-master.pdf`. **It is also the FLAT two-colour seal, not the rendered 3D object** in `logo-alex-seal.jpg` — navy ring, red disc, white type, no gradients and no gloss, which is far more usable at every size. **The standing claim that no source files exist was true of the four range marks and is now false of the master.** Nobody has sent vector for BeBo, AlRawy, 2MAN or POLEKA yet, and **the chase should restart, because this proves the client can produce vector when asked.**
 
 ## The Canva mockup, and what it proves
 

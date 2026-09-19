@@ -322,11 +322,59 @@ def pending(i,en,ar,deliv,what_ar,what_en,need_ar,need_en,cls='pend',chp='PENDIN
 <div class="hold"><b class="ar">هذا القسم محجوز ومحدَّد، ولم يُملأ بعد.</b>
 <span class="en">This section is reserved and specified, and has not been filled in. It is printed rather than omitted, because a book that quietly leaves a bought deliverable out is worse than one that says where it stands.</span></div>''')
 
-pending('10','SLOGANS &amp; THE GIVEAWAY SONG','الشعارات وأغنية المسابقة','4',
- 'الطريقة مكتوبة بالكامل: من تخاطبه كل مجموعة، والشعور خلف كل واحدة، والاختبارات الستة التي يجب أن يعبرها أي سطر. «عيش جو المغامرة» موجود بالفعل لتومان ويبقى كما هو.',
- 'The method is fully written: who each range is talking to, the feeling behind each one, and the six tests a line has to pass. 2MAN’s existing tagline already works and it stays.',
- 'السطور نفسها تحتاج أذن ناطق بالعربية. تُكتب بالعربية بصوت عالٍ أولًا، لا تُترجم، وتُعرض بسطر واحد لكل مجموعة ومعه بديلان على الأكثر.',
- 'The lines themselves need a native ear. They are written in Arabic out loud first, never translated, and presented one line per range with at most two alternates. Handing over thirty options invites the client to design, which is the exact thing the contract keeps them out of.')
+SLOG=[('01','أليكس فودز','Alex Foods','من إسكندرية لكل البيوت','From Alexandria to every home',
+ 'ركيزة العلامة الثالثة في خمس كلمات. لا يستطيع منافس أن يقولها، لأن اسم الشركة هو المدينة نفسها.',
+ 'Brand pillar 3 in five words. <b>No competitor can say it</b>, because the company name is the city itself.','star'),
+('02','أليكس فودز','Alex Foods','إسكندرية بتحلّي','Alexandria sweetens things',
+ 'أقصر وأدفأ، ويحمل نبرة المرح المطلوبة. يميل نحو الحلاوة، فيناسب ثلاث مجموعات ويجلس بصعوبة على الراوي.',
+ 'Shorter, warmer, and it carries the fun register. It leans sweet, which fits three ranges and sits oddly on AlRawy.',''),
+('03','بيبو','BeBo','قوليلهم آه','Tell them yes',
+ 'يبيع الإذن، وهو شعور بيبو كله، دون أن يسمّي المنتج مرة واحدة. ثلاث كلمات تنجو من مئتي تكرار.',
+ 'Sells permission, which is BeBo’s whole feeling, without once naming the product. Three words that survive two hundred repetitions.','star'),
+('04','بيبو','BeBo','مبسوطين، وانتي مرتاحة','They are happy and you are at ease',
+ 'الصفقة من جهتها هي، لا من جهة الطفل.','The transaction stated from her side rather than the child’s.',''),
+('05','الراوي','AlRawy','اختيار من غير ندم','A choice with no regret',
+ 'شعور الراوي بلا صفة واحدة. هادئ، بالغ، بلا علامة تعجب، وبلا ادعاء.',
+ 'AlRawy’s feeling without a single adjective. Calm, adult, no exclamation mark, and no claim.','star'),
+('06','الراوي','AlRawy','حطّيه وانتي مطمنة','Pack it and be at ease',
+ 'مناسبة اللانش بوكس ملمّح إليها لا مسمّاة، حتى لا يصير سطرًا للمدارس وحدها.',
+ 'The lunchbox occasion implied rather than named, so it does not become a school-only line.',''),
+('07','تومان','2MAN','برّه أحلى','Outside is better',
+ 'كلمتان. طفل في العاشرة في الإسكندرية يقولها دون أن يتعلّمها، وهذا هو الاختبار الخامس.',
+ 'Two words. A ten year old in Alexandria says it without being taught it, which is test 5 passed outright.','star'),
+('08','تومان','2MAN','الجو مستنيك','The day is waiting for you',
+ 'يحمل عالم الشعار القائم دون أن يكرّر كلماته.','Carries the existing tagline’s world without repeating its words.',''),
+('09','بوليكا','POLEKA','مين معاك النهاردة؟','Who is with you today?',
+ 'سؤال، وهذه هي الآلية لا الأسلوب. يُجاب عليه في التعليقات، ويسمّي الشخصية بدل الحلوى، ويبيع التجميع.',
+ 'A question, and that is the mechanic rather than the style. It gets answered in the comments, names the character instead of the sweet, and sells collection.','star'),
+('10','بوليكا','POLEKA','اختار صاحبك','Pick your friend',
+ 'الحيوانات كرفاق لا كنكهات. يجعل الاسم قابلًا للطلب، وهي وظيفة بوليكا التجارية كلها.',
+ 'The animals as companions rather than flavours. It makes the name askable, which is POLEKA’s entire commercial job.','')]
+sl=''.join(f'''<tr class="{c}"><td class="n">{i}</td><td class="ar"><b>{ar}</b><span class="en">{en}</span></td>
+ <td class="ar sg">{line}</td><td class="ar sm">{wa}<span class="en">{we}</span></td></tr>''' for i,ar,en,line,gl,wa,we,c in SLOG)
+glo=''.join(f'<div class="gl"><b class="mono">{i}</b><span class="ar">{line}</span><em>{gl}</em></div>' for i,ar,en,line,gl,wa,we,c in SLOG)
+
+sec('10','SLOGANS &amp; THE GIVEAWAY SONG','الشعارات وأغنية المسابقة',
+f"""{eb('الشعارات','10 · SLOGANS')}{chip('DEFINED','ok')}
+{rule('لا تبيع المنتج. بِع الشعور.','DO NOT SELL THE PRODUCT. SELL THE FEELING.')}
+{bi('عشرة سطور مكتوبة بالعامية المصرية، بصوت عالٍ، وغير مترجمة. الإنجليزية تحتها شرح للقارئ لا توأم يُنشر. كل سطر مرّ على ستة اختبارات: أيبيع شعورًا أم يصف منتجًا، أينجو من مئتي تكرار، أيعمل على كل أصناف المجموعة، أيستطيع منافس أن يقول الجملة نفسها، أيبدو صحيحًا بصوت عالٍ، وأيصمد بلا شيء بجانبه غير الشعار.',
+    'Ten lines written in Egyptian colloquial, out loud, and never translated. The English beneath is a gloss for the reader, not a twin to publish. Every line passed six tests: does it sell a feeling or describe a product, does it survive two hundred repetitions, does it work across every SKU in the family, could a competitor say the same sentence, does it sound right out loud, and does it hold with nothing beside it but the logo.')}
+<table class="t3 slg"><thead><tr><th>#</th><th>المجموعة</th><th>السطر · THE LINE</th><th>لماذا يصمد · WHY IT HOLDS</th></tr></thead><tbody>{sl}</tbody></table>
+<div class="lgd"><span><i class="ok"></i> الترشيح الأول · THE RECOMMENDED LINE</span></div>""",
+f"""{eb('الترجمة والتوصية','GLOSS &amp; RECOMMENDATION')}
+<div class="gls">{glo}</div>
+{note('البند الأول في العقد يعطي الوكالة التنفيذ ويعطي العميل اعتماد النتيجة. تُعرض جملة واحدة لكل علامة ومعها بديلان على الأكثر. تسليم ثلاثين خيارًا يدعو العميل إلى التصميم، وهو الشيء الذي يُبعده العقد عنه تحديدًا، ويجعل الوكالة تبدو وكأنها لم تستطع أن تقرّر.',
+ 'Clause 1 gives the agency execution and the client approval of an outcome. One line per brand is presented, with at most two alternates. Handing over thirty options invites the client to design, which is the exact thing the contract keeps them out of, and it makes the agency look as though it could not decide.',
+ 'لماذا لا تُعرض الثلاثون','Why thirty options are not presented',True)}
+{note('«عيش جو المغامرة» موجود بالفعل ويبقى. يبيع الشعور ولا يسمّي المنتج، وهو الاختبار كله. استبدال سطر ناجح لتبرير تسليم يهدم رصيدًا استُؤجرت الوكالة لبنائه. السطران 07 و08 حملتان تجلسان تحته، لا بدلًا منه.',
+ 'The existing 2MAN tagline already works and it stays. It sells the feeling and never names the product, which is the whole test. Replacing a working line to justify a deliverable destroys equity the agency was hired to build. Lines 07 and 08 are campaign lines that sit under it, never instead of it.',
+ 'ما لا يُستبدل','What does not get replaced')}
+{note('سطرا بيبو يتجنّبان الإبريق والظرف والماصة عمدًا. شكل بيبو غير محسوم، وشعار يسمّي شكلًا هو شعار يموت يوم يتأكد الشكل. السطران ينجوان من أي إجابة.',
+ 'Both BeBo lines deliberately avoid the jug, the sachet and the straw. BeBo’s format is unresolved, and a slogan that names a format is a slogan that dies the day the format is confirmed. These two survive either answer.',
+ 'ولماذا لا يذكر سطرا بيبو شكل العبوة','And why the BeBo lines name no format',True)}
+{eb('أغنية المسابقة','THE GIVEAWAY SONG')}{chip('PENDING · WRITING','pend')}
+{bi('الأغنية تتبع قواعد الحملات لا قواعد العلامة. هنا تعود الروافع المباشرة: الاستعجال مسموح، والتحديد مسموح، والموعد النهائي مسموح، لأن المسابقة تفتح وتقفل. عليها أن تحمل اسم العلامة داخل اللازمة نفسها لا في سطر قبلها أو بعدها، وأن تجلس على وزن يمكن إنشاده، لأن الأطفال سيؤدّونها بشكل سيئ وهذا هو التوزيع نفسه، وأن تسمّي آلية الاشتراك في السطر الثاني. مكتوبة لا منتجة: الإنتاج خارج النطاق.',
+    'The song plays by campaign rules rather than brand rules. Here the direct response levers come back on: urgency, specificity and a deadline are all allowed, because a giveaway opens and closes. It has to carry the brand name inside the hook itself rather than in a line before or after it, sit on a metre that can be chanted because children will perform it badly and that is the distribution, and name the entry mechanic in the second line. Written, not produced: production is outside the scope.')}""")
 
 pending('17','CONTENT CALENDAR','خطة المحتوى الشهرية','5',
  'الشكل جاهز: التاريخ، ونوع المحتوى، والمنتج، والرسالة، لكل منشور. الخطة تُسلَّم قبل بداية الشهر الذي تغطيه.',
@@ -852,6 +900,17 @@ table.wt tr.no td{{background:#FDF0EF}} table.wt tr:last-child td{{border-bottom
 .ly > b.ar{{font-size:9.5pt;display:block;margin-top:1.2mm;color:{INK}}}
 .ly > span{{font-size:5.4pt;font-weight:700;letter-spacing:.14em;color:{SLATE};display:block;margin-bottom:1.2mm}}
 .ly > p{{margin:0;font-size:6.2pt;line-height:1.55;color:{GRAPH}}} .ly > p.ar{{font-size:6.8pt;color:{INK};margin-bottom:0.6mm}}
+/* slogans */
+table.t3.slg td{{padding:1.8mm 2mm}}
+table.t3.slg td.sg{{font-size:11pt;font-weight:700;color:{INK};width:52mm;line-height:1.45}}
+table.t3.slg tr.star td{{background:#F2F7EE}}
+table.t3.slg tr.star td.sg{{color:#14803B}}
+table.t3.slg tr.star td.n::after{{content:' *';color:#1BA34C}}
+.gls{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2.5mm}}
+.gl{{background:#FFF;border:0.25mm solid {SILVER};padding:2.4mm 3mm;display:grid;grid-template-columns:7mm 1fr;gap:0 2mm}}
+.gl > b{{font-family:'IBM Plex Mono',monospace;font-size:6.4pt;color:{RED};grid-row:1/3}}
+.gl > span.ar{{font-size:9pt;font-weight:700;color:{INK};line-height:1.5}}
+.gl > em{{font-style:normal;font-size:6pt;color:{SLATE};line-height:1.45}}
 /* pending */
 .hold{{background:{MIST};border:0.4mm dashed {SLATE};padding:5mm;text-align:center;margin-top:2mm}}
 .hold > b.ar{{font-size:9pt;color:{INK};display:block}}

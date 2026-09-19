@@ -96,10 +96,68 @@ What it has to do:
 
 The campaign lockup (the fixed visual treatment carried across every giveaway asset) is a **Package A** line item, not a Foundation one. It gets designed once the colour and type system exists, and it is the thing that stops four brands running four different-looking giveaways.
 
+## 5b. The ten lines — written 19 September 2026
+
+**Written in Egyptian colloquial, out loud, never translated.** English below each one is a gloss so a non-Arabic reader can follow the argument, not a twin to publish. Every line was run against the six tests in §4.
+
+> **Aly's ear is the arbiter.** These are drafted to be said out loud and cut, not approved on paper.
+
+### Alex Foods — the master
+
+| # | السطر | Gloss | Why it holds |
+|---|---|---|---|
+| **1** | **«من إسكندرية لكل البيوت»** | From Alexandria to every home | **The strongest line in the set.** It is brand pillar 3 said in five words, and **no competitor can say it** — the company's name *is* the city and the seal carries the Pharos. It works on all eighteen SKUs, survives two hundred repetitions, and makes no claim that needs a document. |
+| **2** | **«إسكندرية بتحلّي»** | Alexandria sweetens things | Shorter, warmer, and carries the "fun" register the client asked for. Slight risk: «بتحلّي» leans sweet, which fits three ranges and sits oddly on AlRawy. |
+
+### BeBo — talking to the mother
+
+| # | السطر | Gloss | Why it holds |
+|---|---|---|---|
+| **3** | **«قوليلهم آه»** | Tell them yes | Sells **permission**, which is BeBo's whole feeling, and never once names the product. Three words, impossible to get wrong out loud, and it still works on the two hundredth hearing. **And it is format-agnostic**, which matters right now. |
+| **4** | **«مبسوطين، وانتي مرتاحة»** | They're happy and you're at ease | The transaction stated plainly from her side, not the child's. Also format-agnostic. |
+
+> **Both BeBo lines deliberately avoid the jug, the sachet and the straw.** BeBo's format is unresolved between the agency and the client, and **a slogan that names a format is a slogan that dies the day the format is confirmed.** These two survive either answer.
+
+### AlRawy — talking to the buyer
+
+| # | السطر | Gloss | Why it holds |
+|---|---|---|---|
+| **5** | **«اختيار من غير ندم»** | A choice with no regret | AlRawy's feeling is *I did not cut a corner*, and this is it without a single adjective. Calm, adult, no exclamation mark, no claim. |
+| **6** | **«حطّيه وانتي مطمنة»** | Pack it and be at ease | The lunchbox occasion implied rather than named, so it does not become a school-only line. |
+
+> **Neither line says fruit, juice, natural or organic.** §21 bans all four, and AlRawy is the range where that ban has teeth: the pack says **nectar**, and the word "organic" arrived from the client with no certificate behind it.
+
+### 2MAN — talking to the kid
+
+**عيش جو المغامرة stays.** It already sells the feeling and never names the product, which is the whole test. **Replacing a working line to justify a deliverable destroys equity TSA was hired to build.** These two are campaign lines that sit *under* it, never instead of it.
+
+| # | السطر | Gloss | Why it holds |
+|---|---|---|---|
+| **7** | **«برّه أحلى»** | Outside is better | Two words. A ten-year-old in Alexandria says it without being taught it, which is test 5 passed outright. |
+| **8** | **«الجو مستنيك»** | The day is waiting for you | Carries the existing tagline's world without repeating its words. |
+
+### POLEKA — talking to the child
+
+| # | السطر | Gloss | Why it holds |
+|---|---|---|---|
+| **9** | **«مين معاك النهاردة؟»** | Who's with you today? | **A question, and that is the mechanic rather than the style.** It gets answered in the comments, it names the character instead of the sweet, and it sells collection. |
+| **10** | **«اختار صاحبك»** | Pick your friend | The animals as companions rather than flavours. Makes the name askable, which is POLEKA's entire commercial job. |
+
+### What the set deliberately does not contain
+
+- **No line naming a product, a flavour, a size or a price.** Every one of those is a campaign line with a short life, not a brand line that sits under a logo for years.
+- **No line a competitor could also say.** Test 4 killed several that sounded good: anything about taste, quality, happiness or family is claimable by every factory in Egypt.
+- **No line needing a document.** Nothing here asserts a health benefit, a fruit content, a certification or a company age.
+- **No English twins.** The glosses are for reading. **If an English line will not carry itself, the brand carries the Arabic alone**, and that is better than a limp translation.
+
+### The recommendation, rather than thirty options
+
+Clause 1 gives TSA execution and the client approval of an *outcome*. **Present one line per brand with at most two alternates.** The shortlist: **«من إسكندرية لكل البيوت»** for the master, **«قوليلهم آه»** for BeBo, **«اختيار من غير ندم»** for AlRawy, **عيش جو المغامرة** unchanged for 2MAN, and **«مين معاك النهاردة؟»** for POLEKA.
+
 ## 6. What this is waiting on
 
-- **The Brand Voice Guide.** Hard dependency, see §4.1.
-- **What "Alex" is.** If there is a house layer, there may be a fifth line sitting above the four, and every brand line has to leave room for it. If there is no house, each brand line stands alone. Same unanswered question that shapes [[Brand Book Spec]] §7.
+- ~~What "Alex" is.~~ **Answered: umbrella.** The master has its own line (#1), and the four range lines leave room beneath it.
+- **Aly's ear on the ten lines above**, and the giveaway song, which is still unwritten and obeys campaign rules rather than brand rules.
 
 ---
 

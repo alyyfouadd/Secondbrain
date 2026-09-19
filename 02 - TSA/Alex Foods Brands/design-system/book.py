@@ -355,7 +355,7 @@ sl=''.join(f'''<tr class="{c}"><td class="n">{i}</td><td class="ar"><b>{ar}</b><
 glo=''.join(f'<div class="gl"><b class="mono">{i}</b><span class="ar">{line}</span><em>{gl}</em></div>' for i,ar,en,line,gl,wa,we,c in SLOG)
 
 sec('10','SLOGANS &amp; THE GIVEAWAY SONG','الشعارات وأغنية المسابقة',
-f"""{eb('الشعارات','10 · SLOGANS')}{chip('DEFINED','ok')}
+f"""{eb('الشعارات','10 · SLOGANS')}{chip('PENDING · LINES REJECTED, REWRITE IN PROGRESS','pend')}
 {rule('لا تبيع المنتج. بِع الشعور.','DO NOT SELL THE PRODUCT. SELL THE FEELING.')}
 {bi('عشرة سطور مكتوبة بالعامية المصرية، بصوت عالٍ، وغير مترجمة. الإنجليزية تحتها شرح للقارئ لا توأم يُنشر. كل سطر مرّ على ستة اختبارات: أيبيع شعورًا أم يصف منتجًا، أينجو من مئتي تكرار، أيعمل على كل أصناف المجموعة، أيستطيع منافس أن يقول الجملة نفسها، أيبدو صحيحًا بصوت عالٍ، وأيصمد بلا شيء بجانبه غير الشعار.',
     'Ten lines written in Egyptian colloquial, out loud, and never translated. The English beneath is a gloss for the reader, not a twin to publish. Every line passed six tests: does it sell a feeling or describe a product, does it survive two hundred repetitions, does it work across every SKU in the family, could a competitor say the same sentence, does it sound right out loud, and does it hold with nothing beside it but the logo.')}

@@ -96,7 +96,27 @@ What it has to do:
 
 The campaign lockup (the fixed visual treatment carried across every giveaway asset) is a **Package A** line item, not a Foundation one. It gets designed once the colour and type system exists, and it is the thing that stops four brands running four different-looking giveaways.
 
-## 5b. The ten lines — written 19 September 2026
+## 5b. REJECTED — all ten, 19 September 2026
+
+> **Aly's verdict: "Nothing will work from these."** All ten. Not a shortlist to trim, a set to throw away. **The lines stay printed below because the next attempt has to not repeat them**, and because the diagnosis is worth more than the lines were.
+
+### The likely failure, named honestly
+
+**They are concept-first, not sound-first.** Each one was reverse-engineered from a feeling in §3 and then expressed in Arabic. That method produces lines that are *structurally* correct and pass all six tests on paper, and still sound like Arabic written by someone who learned it from a book.
+
+**What they are all missing:**
+
+- **No rhyme, no assonance, no internal rhythm.** Egyptian FMCG lines that stick usually have one. These have none, which is why none of them can be chanted, and a slogan that cannot be said with a beat does not survive a child repeating it.
+- **No idiom.** None of them take a phrase people already say and turn it. They are all newly built sentences, and newly built sentences sound built.
+- **Several are agency sentences, not human ones.** «اختيار من غير ندم» is a marketing proposition wearing Arabic. Nobody says that out loud.
+
+**The method in §4 said write in Arabic, out loud, first. That is not what happened.** These were written in meaning and then dressed in Arabic, which is the exact failure §4 warns about, committed by the person who wrote the warning.
+
+### What has to change before the next attempt
+
+**Volume in Arabic first, sound before sense, and a reference point from a native ear.** Twenty to thirty per brand said out loud and cut, not ten reasoned into existence. §4 point 3 already says this and it was skipped.
+
+## 5c. The ten rejected lines — kept so they are not re-proposed
 
 **Written in Egyptian colloquial, out loud, never translated.** English below each one is a gloss so a non-Arabic reader can follow the argument, not a twin to publish. Every line was run against the six tests in §4.
 

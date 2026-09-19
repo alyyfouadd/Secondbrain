@@ -88,6 +88,47 @@ That is not a contradiction and the deliverables do not change — a factory has
 
 ---
 
+## B. Can work start? Yes. Here is exactly what is and is not blocked
+
+**Six of the eight Foundation deliverables can be built without the client sending another thing.** Nothing below is a reason to wait.
+
+### Buildable now, nothing blocking
+
+| # | Deliverable | Note |
+|---|---|---|
+| 6 | **Animation and Shooting Recipe** | **Ships first, out of sequence.** It is the document that tells them how to shoot the photos blocking all twenty Package A deliverables. Every day it sits inside an unfinished book is a day they cannot start. |
+| 1 | **Alex Foods master tone block** | Input received — **"fun."** Needs Aly's ear, not another client answer. Last piece of deliverable 1. |
+| 4 | **2MAN and POLEKA slogans** | Both voices are written and neither carries a conflict. **BeBo's and AlRawy's lines wait** — see §A1 and §A2. |
+| 8 | **Local SEO research + the shelf walk** | Alexandria keyword research needs nothing. The client does not know their competitors, so the shelf walk is now the only route to §6. |
+| 5 | **Content calendar format** | The structure is TSA's. **The filled calendar waits on seasonality** — see below. |
+| — | **Brand book assembly** | Template proven. Remaining work is content, not layout. |
+| — | **The four `kit.py` corrections** | Text in four lists. Awaiting go-ahead, because it is code. |
+
+### Blocked on one photograph
+**BeBo copy, everywhere** — voice section, slogan, captions. BeBo is the **priority range and the best seller**, so this single photo is the highest-value unlock on the job. §A1.
+
+### Blocked on client access
+- **Deliverable 3 execution** — Meta admin. *And possibly worse than that; see the profile-versus-Page flag in §7.*
+- **Deliverable 7, Google Business Profile** — Google account, plus hours, categories and phone. **The address arrived today.**
+- **The engagement baseline** — Meta admin again. Without it there is no number to improve on.
+
+### Blocked on Package A, not on the Foundation
+- **Product photography** — all twenty month-1 deliverables.
+- **Ad budget** — no campaign can be planned against an unnamed spend.
+
+### The gap nobody has priced yet, and it is a timing problem
+
+**The three-month term runs roughly October to January. That is Egyptian winter.**
+
+**2MAN is an ice-pop range**, and one of only four. If it behaves the way an ice pop behaves, **the entire paid term sits in its off-season** — which means a quarter of the portfolio is dead weight for the whole contract, and the content mix should carry BeBo, AlRawy and POLEKA correspondingly harder.
+
+> **This is inference from product category, not from their data**, and it is exactly what the unanswered seasonality question decides. **It is now the most valuable outstanding answer after the BeBo photo**, because it shapes all three monthly calendars rather than one deliverable. Question 9 and 10.
+
+### Contract-level, running in parallel and not blocking production
+One named approver · POLEKA papered in writing · the month-1 start condition line · the cola artwork rights.
+
+---
+
 ## 0. What we already know
 
 - `[CONFIRMED]` Client: **Alex Foods.** Signed Service Scope V2, 09.09.2026, bilingual.
@@ -226,6 +267,23 @@ That is not a contradiction and the deliverables do not change — a factory has
 | **TikTok** | `tiktok.com/@alex.foods36` | **~500** |
 | **Instagram** | `instagram.com/alex.foods1` | **~40** |
 
+> **`[CONFLICT]` — and this one may be the biggest single risk on the engagement. That Facebook URL looks like a personal profile, not a Page.**
+>
+> `facebook.com/profile.php?id=**100067105295519**`. Meta IDs beginning **`1000…`** are the classic **personal user account** range. Facebook *Pages* created under the New Pages Experience do also get `profile.php?id=` URLs, but those IDs typically begin **`61…`**. **This one does not.**
+>
+> **If the 52,000 sit on a personal profile rather than a Page, the entire Facebook-primary plan is built on an asset that cannot do the job:**
+> - **You cannot run paid campaigns from a personal profile.** Package A includes paid campaign management. That deliverable would have nowhere to run.
+> - **You cannot grant proper Business Suite admin access to it.** Material 5 could never arrive in usable form, because the thing being shared is not a Page.
+> - **An agency cannot manage it** without handing over personal login credentials, which the vault's own secrets rule and basic sense both forbid.
+> - **Meta can disable a business operating commercially as a personal profile.** 52,000 followers is possible on a profile — the 5,000 cap is on *friends*, not followers — so the number does not disprove it.
+>
+> **The check takes ten seconds and Mohamed can do it from his phone:** open the link and look at the buttons. A **Page** shows Like / Follow / Message plus page tools for an admin. A **profile** shows Add Friend / Follow. Or simpler: **if it does not appear in Meta Business Suite as a Page, it is not one.**
+>
+> **If it is a profile, this becomes the first thing on the job**, ahead of everything, because migrating a profile to a Page is a real operation with real risk and it has to happen before a single campaign is built. **If it is a Page, nothing changes and we lose ten seconds.** Cheap either way, and catastrophic to discover in month 1 with a paid month running.
+>
+> *Flagged on evidence from the URL format alone. TSA has not opened the link. **Verify before acting on it in either direction.***
+
+- `[MISSING]` **The engagement baseline — and this is the one the contract gets judged on.** The KPI they chose is **comments and views**. TSA has **follower counts and nothing else**. 52,000 followers tells us nothing about whether a post there gets five comments or five hundred, and **a follower count is not the KPI they asked for.** Until Meta admin arrives there is no baseline, no target, and no way to prove in month three that anything improved. **Meta admin is not "blocks the setup" — it blocks knowing whether we succeeded.**
 - `[CONFIRMED]` **They managed the accounts themselves. TSA takes over.**
 - `[MISSING]` Posts or ads that worked before · past ad spend and results · insights screenshots.
 - `[MISSING]` **Meta admin access.** Still one of the seven contracted materials, still outstanding, and now it blocks the baseline as well as the setup.
@@ -376,7 +434,9 @@ Plus, in priority order:
 | 2 | **One named approver on the acceptance page** | Clause 3 and 4 have nothing to stand on | Open |
 | 3 | **Organic certificate for AlRawy, or not** | TSA's ad account carries the claim | Open |
 | 4 | **Monthly ad budget** | Contracted to manage an unnamed spend | Open |
-| 5 | **Meta admin access** | Blocks deliverable 3 and every baseline number | Open |
+| 5 | **Meta admin access** | Blocks deliverable 3, and blocks knowing whether we succeeded | Open |
+| 5b | **Is the Facebook asset a Page or a personal profile?** | **If a profile, no ads can run from it at all.** Ten-second check. §7 | Open |
+| 5c | **Seasonality — does 2MAN die over Oct–Jan?** | The whole paid term sits in an ice pop's off-season. §B | Open |
 | 6 | Rights to the "Cola Cola" artwork | TSA's exposure, not just theirs | Open |
 | 7 | Engagement or shops, if we had to choose | Two goals, two kinds of content | Open |
 | 8 | Distributor and stockist count | "More shops" has no baseline | Open |

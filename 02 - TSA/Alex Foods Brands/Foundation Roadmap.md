@@ -108,6 +108,8 @@ Colour system, type system, voice guide, slogans, shooting recipe, social spec, 
 ### The one that could become a real cost
 **If the client has no vector or layered source files for the four logos.**
 
+> **Partly resolved 19 September: the master seal arrived as true Illustrator vector.** So the cost risk below now applies to **the four range marks only** — 2MAN and POLEKA are the illustrated 3D lettering, and those are the ones that would be specialist work to redraw. **Nothing in this contract needs them redrawn**, because nothing here is printed. See `logo-vector/README.md`.
+
 2MAN and POLEKA are custom illustrated 3D lettering. They cannot be retyped and they should not be traced badly. If no source artwork exists anywhere, **redrawing four logos — two of them illustrated — is a specialist job, it is not in the Foundation scope, and it gets quoted separately under clause 7.**
 
 Find this out before assuming it is free. Ask the question as: *"can you send the original design files — .ai, .eps, layered .psd or vector PDF — for all four logos?"* The answer decides whether this is a materials chase or a new line item.
@@ -118,7 +120,7 @@ Find this out before assuming it is free. Ask the question as: *"can you send th
 
 Ranked by what it blocks.
 
-1. **Vector or layered source files, all four logos.** Blocks every visual asset in both stages. Cannot be worked around, cannot be recreated by TSA at this price.
+1. ~~**Vector or layered source files, all four logos.**~~ **Master seal closed 19 September — real Illustrator vector.** The four range marks remain raster cut-outs and that is sufficient: nothing in either stage is printed, and the material list only ever asked for vector "if available". **This is no longer a blocker on anything.**
 2. **Product photos or actual samples.** Blocks all 20 monthly Package A deliverables. The shooting recipe should be sent to unblock this.
 4. **Meta admin access** — blocks executing the social setup.
 5. **Google account and GBP details** — blocks the GBP deliverable.

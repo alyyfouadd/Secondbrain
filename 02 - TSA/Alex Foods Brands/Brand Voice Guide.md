@@ -68,7 +68,9 @@ The four ranges do not each carry their own audience from zero. **One presence c
 
 **The master brand's corporate mark** — and under the umbrella model it is no longer "an endorsement mark, not a logo." It is the mark of the company the audience is being asked to follow. It still speaks to the trade and to a parent turning a pack over; it now also appears wherever Alex Foods speaks in its own right.
 
-It is a rendered 3D object with gradients and gloss, so it is **placed as supplied and never reconstructed**, exactly like the 2MAN and POLEKA wordmarks.
+~~It is a rendered 3D object with gradients and gloss, so it is **placed as supplied and never reconstructed**, exactly like the 2MAN and POLEKA wordmarks.~~
+
+> **Corrected 19 September: the real vector arrived and the seal is flat.** No gradients, no gloss. It scales and prints at any size. **Never retyped or redrawn — that rule stands** — but it is no longer trapped at the resolution it arrived in. **And the rule this creates for every page that uses it: the seal goes on white or Paper and on nothing else.** On navy its ring drops to 1.43:1 and disappears. See `logo-vector/README.md`.
 
 ### Where it appears — a rollout, not a tier
 

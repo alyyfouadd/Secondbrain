@@ -149,8 +149,9 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 ## 7. What this spec is still waiting on
 
 - ~~What "Alex" is.~~ **Answered 18 September: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it. § 03 carries a master layer — **still no house palette**, but now by architectural choice rather than because a parent does not repaint what it endorses: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. **§ 09 builds one Alex Foods presence, not four brand pages**, and the earlier bio rule is withdrawn — **every bio names Alex Foods**, sealed pack or not, because the seal is mid-rollout rather than a tier. See [[Brand Voice Guide]] §2.
-- **Alex Navy `#0A0378` has no ramp and no contrast row.** Sampled after the 18 masters were computed. Not a blocker for the book — the seal is placed as supplied — but § 04 carries the gap honestly rather than quietly. See [[Colour System]] §11.
-- **Vector logo files.** § 06 cannot ship finished without them. It ships with the rules written and the artwork marked `PENDING CLIENT INPUT` rather than holding the whole book.
+- ~~**Alex Navy `#0A0378` has no ramp and no contrast row.**~~ **Superseded 19 September: the value was wrong, not just un-ramped.** The client's real vector gives the authored ring blue as CMYK 98/81.3/27/12.9; `#0A0378` misses it by ΔE2000 9.80 and `#05004B` by 15.38. **§ 04 and § 06 both change**, and § 06 gains something it could not have before: **the master mark can now be shown at full page size and specified for print.** See [[Colour System]] §11.
+- **§ 06 gains a minimum-size and a placement rule, both now evidenced.** The ring lettering is the legibility floor — it turns to mush around 48 px and is gone by 28 px — and **the seal only holds on white or Paper**, because on navy its ring reads 1.43:1. Both are do-not pages that can be shown rather than described, which is what § 06's own rule asks for.
+- ~~**Vector logo files.** § 06 cannot ship finished without them.~~ **Master seal closed 19 September.** § 06 ships finished for the master mark. The four range marks stay raster and are sufficient, since nothing in this contract is printed — so § 06 no longer carries `PENDING CLIENT INPUT` at all.
 
 ---
 

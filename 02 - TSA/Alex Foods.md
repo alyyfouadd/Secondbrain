@@ -114,6 +114,7 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 - **Packaging artwork: arrived.** Material 4 closed.
 - **SKU names: arrived, and there are far more than five.** Roughly eighteen across four brands, against a contract asking for five.
+- **Logo files: the master seal is now REAL VECTOR, 19 Sep.** The client sent `logo-vector/Alex-master-seal.pdf` — true Adobe Illustrator artwork, flat, CMYK, authored that morning. **Material #2 is closed properly for the master mark rather than by concession**, and the seal is now printable and scalable at any size. **The four range marks (BeBo, AlRawy, 2MAN, POLEKA) are still raster cut-outs.** So the honest status is: master mark solved, ranges still on the 18 Sep workaround, which the contract's "vector if available" already covers.
 - **Logo files: CLOSED for the contracted work, 18 Sep.** No source files exist to send, so all four marks were cut out of the supplied raster onto transparency — see `Alex Foods Brands/logos-transparent/`. **Two things make this sufficient rather than a compromise.** The material list itself asks for "logo files, **vector if available**", so vector was never a contractual requirement. And **nothing in either stage is printed** — the Foundation and all of Package A are social and digital. Vector only becomes a real requirement if print or large format enters scope under clause 7.
 - **Product photos: NOT closed.** Packaging renders are not product photography. Material 3 is still outstanding, and it is the one every visual deliverable depends on.
 
@@ -122,7 +123,7 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 *The files are print-resolution — the smallest is 126 MB. **They do not go in this repo.** GitHub rejects any single file over 100 MB, and even under that limit, print PDFs in a git repo make every future clone slower on every device forever. They live in cloud storage; this note records where, and working copies for brand work are screen-resolution exports.*
 
 - [ ] 5 SKU names
-- [ ] Logo files — vector if available
+- [~] Logo files — vector if available. **Master seal: real vector received 19 Sep.** Four range marks: raster cut-outs, sufficient under "if available".
 - [ ] Product photos, or actual samples for shooting
 - [ ] Packaging artwork
 - [ ] Meta admin access on the social pages

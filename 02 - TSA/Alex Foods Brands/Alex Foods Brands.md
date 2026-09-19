@@ -27,7 +27,8 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
 - `packs-bebo-transparent.png` · `packs-poleka-transparent.png` — **the most usable artwork received so far.** The full BeBo and POLEKA ranges at high resolution **on a transparent background**, extracted 18 Sep from a Canva mockup PDF. Cut out and ready to composite onto any layout, which is exactly what the monthly graphics need. Still raster.
-- `logo-alex-seal.jpg` — the **Alex Foods master seal** in full, with the Egyptian flag ribbon. Not a screen capture, but still raster.
+- `logo-vector/` — **the real thing, received 19 September: true Illustrator vector of the master seal**, plus the SVG conversion for the build, transparent PNG exports and the converter. **First genuine source artwork the client has ever sent.** Read its README before using any Alex Navy value or placing the seal on anything.
+- `logo-alex-seal.jpg` — the **Alex Foods master seal** in full, **with the Egyptian flag ribbon**. Raster, and **superseded as the source of truth by `logo-vector/`** — but kept, because it is the only evidence of the ribbon version, and which version governs is still open.
 - `client-legacy-creative/` — two of the client's own existing graphics, kept as the "before" reference: what Alex Foods currently looks like in market, which is what the system is replacing. Useful for the voice guide and for the do-not pages.
 - `logo-alrawy-screencap.png` · `logo-2man-screencap.png` · `logo-bebo-screencap.png` · `logo-poleka-screencap.png` — **all four brand marks**, isolated on white, **received 18 September as iPad screenshots of files open in the Files app.** Far better than reading a mark off a pack: clean edges, no perspective, full colour. **Still not vector.** They are screen captures, so they do not close material #2 and they cannot be used for print or at large scale. **What they do prove is that the source files exist and are on the client's device**, which turns the chase from "do these exist?" into "send the file, not a picture of it."
 
@@ -155,6 +156,8 @@ A file named `bebo_mucup.pdf` arrived 18 September. **It is not a BeBo file and 
 
 So the conclusion is firm rather than cautious: **every route the artwork has taken to TSA so far has been a photograph of a file somebody had open.** The sources exist. Nobody has sent one.
 
+> **And superseded again on 19 September, in the other direction: a real Illustrator file arrived for the master seal.** It was authored that morning, which is the likely explanation — it did not exist to send, and somebody made it. **The lesson is not "the chase was right all along."** It is that "the client has nothing" was a fact about a moment, not about the world, and the master mark is now the one asset in this project held at full quality. **The four range marks are still raster.**
+
 **Superseded 18 Sep: there are no source files to ask for.** Aly confirmed the client has nothing but screenshots. So the chase is over, and it should have ended sooner — **the signed material list asks for "logo files, vector if available"**, which makes vector a convenience the contract already anticipated might not exist, not a condition anyone is failing.
 
 **All four marks were cut out of the supplied raster onto transparency instead** — see `logos-transparent/`. Sufficient for every deliverable in the contract, because **nothing in the Foundation or Package A is printed.**
@@ -184,14 +187,22 @@ The seal arrived in full on 18 September and it answers more than it was asked t
 
 **Alex is الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية** — the Alexandria Company for Food Packing and Packaging. The ring carries the name in Arabic and English, and **the icon at the top of the ring is a lighthouse**, which is the Pharos. The mark is a place as much as a company.
 
-**Construction:** navy outer ring, red inner disc, "Alex" in white with a sun burst above and a green leaf swoosh below, wrapped in an Egyptian flag ribbon. **It is a rendered 3D object with gradients and gloss, not a flat mark** — so like the 2MAN and POLEKA wordmarks it is placed as supplied and never reconstructed.
+**Construction:** navy outer ring, red inner disc, "Alex" in white with a sun burst above and a green leaf swoosh below, wrapped in an Egyptian flag ribbon.
+
+> **OVERTURNED 19 September 2026 — the real vector arrived.** `logo-vector/Alex-master-seal.pdf`, authored in Adobe Illustrator 24.2 that morning, with the live Illustrator artwork embedded. **The seal is FLAT vector: no gradients, no gloss, no raster, no fonts, CMYK throughout.** The 3D read was true of the *picture* the client had been sending, not of the mark.
+>
+> **What that changes:** the seal can now be scaled to any size, placed on any ground, and printed. It is still never *retyped or redrawn* — that rule stands and always did — but "placed as supplied" no longer means "stuck at whatever resolution arrived."
+>
+> **And this version carries no Egyptian flag ribbon.** `logo-alex-seal.jpg` has one. **Two versions of the master mark now exist, and the Foundation has to say which one governs.** See `logo-vector/README.md`.
 
 | Role | Value *(sampled)* | Note |
 |---|---|---|
-| Ring navy | ~`#0A0378` | Heavy radial gradient, `#05004B` to `#110691` across the ring |
+| ~~Ring navy~~ | ~~`#0A0378`~~ | **WRONG — superseded.** Sampled off the gradient render. The authored value is **CMYK 98 / 81.3 / 27 / 12.9**, about `#042AA2`, and the sampled value is **ΔE2000 9.80** away from it |
 | Inner red | ~`#E00000` | **ΔE 3.31 from System Red `#E1251D`** — the same red. It collapses rather than adding a value. |
 
-**So the master layer adds exactly one value to [[Colour System]]: Alex Navy.** Not two. **It has no ramp and no contrast row yet** — it was sampled after the 18 were computed, and adding a nineteenth means recomputing the master set, the ramps and the contrast table. Not a blocker, because the seal is placed as supplied and never reconstructed. See [[Colour System]] §11.
+**So the master layer adds exactly one value to [[Colour System]]: Alex Navy.** Not two.
+
+> **Revised 19 September, and the revision is bigger than a ramp.** The value itself was wrong, not just un-ramped. **The authoritative ring blue is the client's own CMYK 98 / 81.3 / 27 / 12.9**, and `#0A0378` misses it by ΔE2000 9.80. Worse, it **collapses into 2MAN blue `#2E3192` at ΔE2000 3.77** — under the system's own 5.0 rule — so the master's blue and a range's blue are arguably one colour. That is a governance decision, not a maths error, and it is Aly's. The disc red holds: it still collapses into System Red. See [[Colour System]] §11 and `logo-vector/README.md`.
 
 ### The tension this creates, and it matters
 

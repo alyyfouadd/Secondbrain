@@ -9,7 +9,7 @@ type: reference
 
 | File | What it is |
 |---|---|
-| `bebo.png` | The five BeBo sachets: peach, mango, apple, cola, pineapple. **Powder** — the pack graphic shows a cup being made up. |
+| `bebo.png` | The five BeBo **pillow bags**: peach, mango, apple, cola, pineapple. Each reads «مشروب بطعم X / X Drink». **Format contested — see [[Alex Foods Discovery Brief]] §A1.** The serving graphics show a drink already poured (a cup with a straw, a glass of cola over ice), and there is **no «أدخل الماصة هنا» print**, which AlRawy has. But nothing on the front says *powder* either. |
 | `alrawy.png` | The five AlRawy pouches: cocktail, apple, guava, peach, mango. **Ready to drink.** Every pouch prints `Insert Straw Here / أدخل الماصة هنا` across the top. |
 | `2man-icepops.png` | The four ICE POPS colourways: blue, red, green, orange. Each carries the Alex seal and the tagline عيش جو المغامرة. |
 | `2man-buzz.png` | The four Bu:Zz / Meyveli sticks: mango, a second fruit, strawberry, cola. **A different pack architecture for the same brand**, not a supply error. |

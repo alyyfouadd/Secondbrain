@@ -146,6 +146,17 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 ---
 
+## The discovery answers — 19 September 2026
+
+The client came back on most of the commercial brief. Full merge, with the Arabic follow-ups, in **[[Alex Foods Discovery Brief]]**. Four things in it change this note.
+
+1. **Three approvers were named, and clause 3 allows one.** *"Mohamed and Hussein, then a manager"* approve; **Mohamed** is the day-to-day contact. Three voices means a delivery can be approved by one and re-opened by another, and clause 4 stops protecting anything. **The acceptance page has to name ONE person with final say.** Mohamed running the day to day underneath that is fine and is a separate role.
+2. **The factory address arrived:** Cairo–Alexandria Agricultural Road, Khorshid entrance, First Abis, Alexandria. **Part of material 7 is closed** and deliverable 7 finally has an address. Hours, categories, phone and the Google account are still outstanding.
+3. **The complaint escalation ladder has a top rung for the first time.** TSA → **Mohamed** → the client. [[Brand Voice Guide]] §8 recorded this as a hole since day one. **It still needs Mohamed told that he is it.**
+4. **The stated goal is engagement and the distribution goal is "more shops,"** and those are different outcomes. Reconciled in the brief §A3: the engagement number is the contracted KPI, the shop count is the business case, and the monthly report carries both.
+
+**And two client statements are contradicted by the client's own packaging** — BeBo's format and the word "organic" on AlRawy. Both are stop-work flags on copy, not on the rest of the Foundation. Brief §A1 and §A2.
+
 ## Open questions
 
 - **Has the signed acceptance page come back, and who is the named approver?** Still open, and now the most exposed item on the job: the clause 11 exception means work starts without it. Clause 3 makes that one person the only voice whose notes count, and clause 4's "a delivery matching the agreed brief counts as delivered" has nothing to lean on until a named approver exists.

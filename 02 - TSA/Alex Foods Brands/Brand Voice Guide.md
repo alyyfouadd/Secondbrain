@@ -7,6 +7,8 @@ type: reference
 
 **Brand Foundation deliverable 1 of 8** for [[Alex Foods]]. How the four brands speak: what they say, what they never say, how long a sentence runs, and exactly how a comment gets answered. Written work, no client input required. Brand facts in [[Alex Foods Brands]], craft rules from [[Marketing]].
 
+> **UPDATE 19 September: the master tone block is unblocked.** The client answered the tone question directly — **"fun"**. That is the direction the block was waiting on. **It still gets written by Aly rather than guessed**, but it is no longer missing an input. **One thing to hold while writing it: "fun" is the MASTER's tone, not a licence applied to all four ranges.** Voice never changes, tone does — and **AlRawy's calm adult register has to survive underneath a fun master**, because it is the only range making an argument rather than making noise. See [[Alex Foods Discovery Brief]] §10.
+>
 > **STATUS: DRAFTED, and one block short of complete.** The master-layer question that was holding §2 was answered on 18 September: **Alex Foods is the master brand**, the four are ranges beneath it, and it **does** have a consumer voice that leads. §2 was rebuilt on that model. **The one thing outstanding is Alex Foods' own tone block** — see §2 and §9. Everything else is written and usable.
 > **All Arabic below is draft copy for Aly's ear.** He is the native speaker and the arbiter. Lines that do not sound right said out loud get rewritten, not defended.
 
@@ -88,7 +90,13 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 ## 3. BeBo — powdered drink sachets
 
+> **FROZEN 19 September, and this section is the one most likely to ship wrong.** The client described BeBo as *"juice in a sachet you drink directly with a straw."* **Their own artwork contradicts it:** BeBo is a pillow bag reading «مشروب بطعم X / X Drink», its serving graphics are a cup with a straw standing in it and a tall glass of cola over ice, and **it carries no «أدخل الماصة هنا» print — AlRawy does, on every pouch.** But the pack does not say *powder* either, so **the "one sachet makes a jug" premise this whole section rests on is TSA's inference, not a proven fact.**
+>
+> **Everything below — the feeling, the words in, the draft captions — is on hold until a photo of the back of a BeBo pack arrives.** Register, sentence length, emoji policy and person are unaffected and stand as written. **BeBo is now the client's priority range and best seller**, which is exactly why this gets settled before a word of it ships. See [[Alex Foods Discovery Brief]] §A1.
+
 **Talking to: the mother.** The characters on the pack already own the child. She is the one deciding, and what she is deciding is whether she can afford to say yes.
+
+> **Also queried 19 September.** The client says buyers are **mainly kids**, buying all four ranges themselves, with *"some parents buying it as an affordable juice for schools."* That second clause is a parent's sentence and BeBo is the school-drink candidate, so the mother is not gone. **But "mainly kids" is their answer and this line is TSA's reading, so it gets confirmed rather than defended.** Question 15 in the brief.
 
 **The feeling: permission, without the wince.** BeBo's product truth is that it is cheap enough that she never has to refuse.
 
@@ -132,6 +140,8 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 **Words in:** نكتار · فاكهة · مطمنة · اللانش بوكس · كل يوم · اختيار · هادي
 
 **Words out:** عصير طبيعي ١٠٠٪ · بدون سكر · صحي · أرخص · عرض · خصم *(discount language belongs to campaigns, never to the brand line)*
+
+> **NEW, 19 September, and it is worse than the nectar problem: the client called AlRawy "organic juice."** **Organic is a certified claim, not a describing word** — it is a bigger exposure than «طبيعي» because it asserts a certification that TSA has never seen. **TSA runs the paid campaigns**, so an ad carrying it is TSA's ad account being reviewed. **The word does not get written in either language, anywhere, until a certificate arrives in writing** — not in a caption, not in a bio, not in the Business Profile description. If the certification does exist it is a real asset and it changes AlRawy's positioning entirely, so **ask for it properly rather than only refusing the word.** See [[Alex Foods Discovery Brief]] §A2.
 
 > **The hard one, and it is a real exposure: AlRawy is a NECTAR, and the packs say so.** Nectar and juice are not the same product and the label distinguishes them. Writing "عصير طبيعي" or "100% juice" in a caption contradicts the client's own packaging, and on a paid ad it is the kind of claim that gets a page reported and an ad account reviewed. **Copy says what the pack says.** See §7.
 
@@ -265,7 +275,7 @@ TSA → **the named approver** (clause 3) → the client.
 ## 9. What this is waiting on
 
 1. **A named approver.** Puts a top rung on §8's escalation ladder.
-2. **Alex Foods' own tone block** — register, sentence length, emoji policy and person for the master account, matching the shape of §3 to §6. **The umbrella decision created this and it needs Aly's ear, not an AI's guess.** It is the only thing between this deliverable and complete, and it blocks deliverable 3's single presence from having a written voice.
+2. **Alex Foods' own tone block** — register, sentence length, emoji policy and person for the master account, matching the shape of §3 to §6. **Direction received 19 September: "fun."** The input is no longer missing; the writing still needs Aly's ear rather than an AI's guess. It is the only thing between this deliverable and complete, and it blocks deliverable 3's single presence from having a written voice.
 3. ~~**Which reading governs the seal** (tiering versus rollout).~~ **Closed 18 September: rollout.** Printed packs stay; new print carries the seal on every range. The freeze rule is retired. See §2.
 4. **The client's written product facts** (nutrition, sourcing, certifications, retail list) if they ever want §7's locked list loosened. Until then the list stands as written, and it stands in TSA's own interest.
 

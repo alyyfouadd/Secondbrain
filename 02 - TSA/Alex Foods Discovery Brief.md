@@ -5,382 +5,391 @@ type: reference
 ---
 # Alex Foods — Discovery Brief
 
-The interview file for [[Alex Foods]]. Every commercial fact TSA already holds, every fact it does not, and the Arabic questions that close the gap. Built 19 September 2026 from the signed scope, the client's own packaging and legacy creative, and the Foundation work already shipped.
+The client answers for [[Alex Foods]], received **19 September 2026**, merged with everything TSA had already read off the packaging and the signed scope.
 
-> **Where this file lives, and why it is not in `clients/alex-foods/`.** The source template asked for that path. This vault keeps one client note flat in `02 - TSA/` until there are three clients, at which point they all move into `Clients/` together (rule in [[TSA]]). Creating a one-client folder now would fork the convention for a single file. Path changes when the third client signs, not before.
+> **v0.2 — ANSWERED.** Most of this file was `[MISSING]` this morning. The client came back on sections 1, 2, 3, 4, 5, 7 and 10. **Three of those answers contradict something TSA had already built on, and one of them is a legal exposure.** Read §A before planning anything.
 
-> **What this file is NOT.** It does not restate the contract, the money or the gates — those live in [[Alex Foods]] and are the source of truth. It does not restate the brands — that is [[Alex Foods Brands]]. This is the *commercial* layer nobody has asked the client about yet: goals, distribution, pricing, competitors, real numbers. The Foundation was built on packaging. A strategy cannot be.
+> **Where this file lives, and why it is not in `clients/alex-foods/`.** The template asked for that path. This vault keeps one client note flat in `02 - TSA/` until there are three clients, then they all move into `Clients/` together (rule in [[TSA]]). Forking the convention for a single file is how a map stops being true.
 
 ---
 
 ## How to use this file
 
-**Status tags, on every line:**
-
 | Tag | Means |
 |---|---|
 | `[CONFIRMED]` | The client said it, or it is in the signed scope, or TSA has it on file. |
-| `[OBSERVED]` | **Read off the client's own materials by TSA** — packaging, legacy creative, the seal. Factual and sourced, but the client has never confirmed it in words. |
-| `[ASSUMED]` | TSA's guess. Must be checked with Hussein. |
+| `[OBSERVED]` | **Read off the client's own materials by TSA** — packaging, legacy creative, the seal. Sourced and factual, but never said by the client. In front of them it is *"your packaging says X"*, never *"you told us X."* |
+| `[ASSUMED]` | TSA's guess. Still needs checking. |
 | `[MISSING]` | Not known. Ask. |
+| `[CONFLICT]` | **The client's answer and TSA's evidence disagree.** Nothing ships off a `[CONFLICT]` line. |
 
-`[OBSERVED]` is an addition to the original four-tag scheme and it earns its place: roughly half of what TSA knows about this client came from reading their packaging, not from a conversation. Filing that under `[CONFIRMED]` would make a mockup read as a client statement, and filing it under `[ASSUMED]` would throw away real evidence. It is its own class.
+**Rules:** only `[CONFIRMED]` and `[OBSERVED]` are facts · never invent a number · a `[MISSING]` that changes the strategy becomes a question, not a guess · a `[CONFLICT]` stops the copy it touches · Arabic first, English fitted to it.
 
-**Rules before making any plan:**
-1. Read this whole file first.
-2. Only `[CONFIRMED]` and `[OBSERVED]` are facts, and `[OBSERVED]` gets stated as "your packaging says X" in front of the client, never as "you told us X."
-3. Never invent a number. No sales figure, budget, price, follower count or result appears in this file unless it is sourced.
-4. If a `[MISSING]` item changes the strategy, it stops the plan and becomes a question. It does not become a guess.
-5. All client-facing output: Arabic first, English fitted to it. ([[Brand Voice Guide]] §1, rule 1.)
+---
 
-**Arabic questions** under each section are the interview script. Ask, then write his answer into the field above them and change the tag.
+## A. The three answers that contradict what we built, and the one that is a legal problem
+
+**Read this before anything else.** Everything in this section came out of merging the answers against the packaging, and none of it is visible from the answer sheet alone.
+
+### A1. `[CONFLICT]` BeBo's format — and BeBo is now the priority range
+
+**The client says:** *"juice that sells in a sachet to drink from it directly with a straw, hand sized package."*
+**The artwork says otherwise, and it is the client's own artwork.**
+
+What is actually printed on the five BeBo packs in `packshots/`:
+
+- It is a **pillow bag**, the shape of a crisp packet, not a hand-sized straw sachet.
+- Every pack reads **«مشروب بطعم الخوخ» / "Peach Drink"** — a drink *with the flavour of* peach.
+- **The serving graphics show a prepared drink in a vessel.** The peach pack carries a cup with a straw standing in it; the cola pack carries a tall glass filled with cola and ice cubes. **Both are pictures of a drink already poured, not of a pack being drunk from.**
+- **There is no «أدخل الماصة هنا / Insert Straw Here» anywhere on a BeBo pack.** AlRawy prints exactly that, across the top of every pouch. **That print is the difference between the two ranges and it is on one of them only.**
+
+**The most likely explanation: whoever answered described AlRawy's format and applied it to both.** The two answers are near-identical — "juice in a sachet, drink directly with a straw" for BeBo, and the same sentence plus "organic" for AlRawy. AlRawy genuinely is that. BeBo's pack is not.
+
+**But TSA's own reading is not proven either.** The vault has carried BeBo as *"powder, one sachet makes a full jug"* since 18 September, and the voice guide's whole BeBo section rests on it — the feeling is *permission*, the words-in list is **ظرف** and **إبريق**, and the lead caption is «ظرف واحد يعمل إبريق كامل». **The word "powder" appears nowhere on the front of the pack**, and neither does a jug. A pillow bag could equally hold a strip of individual sachets, which would reconcile both accounts at once.
+
+> **So the honest position: BeBo's format is unresolved, and both readings are currently unsupported.** One photograph of the **back of a BeBo pack** — the preparation instructions and the net weight — settles it in thirty seconds. **Ask Mohamed for it today.**
+>
+> **What it blocks until it lands:** BeBo is now the **priority range** and the **best seller**, by the client's own answer. Its voice section is the one most likely to ship wrong, and a caption telling a mother to make up a jug of a product that is actually ready to drink is the kind of error a competitor screenshots. **BeBo copy is frozen until the photo arrives.** Everything else about BeBo — colour, type, character, the Kids Zone sub-mark — is unaffected.
+
+### A2. `[CONFLICT]` "Organic" — and this one is the ad account
+
+**The client says AlRawy is "organic juice."** Two separate problems, and both land on TSA rather than on them.
+
+1. **The pack says nectar.** AlRawy's pouches print «…Nectar». Nectar and juice are different products and the label distinguishes them. [[Brand Voice Guide]] §4 already forbids writing "عصير طبيعي" or "100% juice" for exactly this reason.
+2. **"Organic" is a regulated, certified claim, and it is a bigger one than "natural."** It is not a describing word, it is a certification. TSA has seen no certificate, and **TSA runs the paid campaigns** — so an ad carrying an unsupported organic claim is TSA's ad account getting reviewed, not theirs.
+
+> **This does not get written into anything, in either language, until a certificate arrives in writing.** Not in a caption, not in a bio, not in an ad, not in the Google Business Profile description. If they hold the certification, it is a genuine asset and it changes the AlRawy positioning completely — so **ask for it properly rather than just refusing the word.** [[Brand Voice Guide]] §7 stands as written.
+
+### A3. `[CONFLICT]` The goal and the distribution answer point in different directions
+
+| They said | And also said |
+|---|---|
+| Main goal: **engagement and online presence.** Success looks like **comments and views.** | Distribution goal: **"mostly more shops."** |
+
+**Comments and views do not open a distributor account.** These are two different outcomes needing two different kinds of content, and left unreconciled the contract gets judged on whichever one they happen to be thinking about in month three.
+
+**They are reconcilable, and the bridge is worth proposing rather than just flagging:** for a factory, an engaged page *is* a trade argument. A distributor deciding whether to carry a carton is reassured by a brand that visibly has demand. **So the engagement KPI is the deliverable and the shop count is the business case, and the monthly report should carry both** — reach, comments and views as the contracted number, plus any enquiry or stockist request the page produces, logged from month 1 so there is a line to point at.
+
+**What it changes concretely:** the 10% "Company" slice of the content mix in [[Brand and Social Kit]] §3 becomes the trade slice — the factory, the range, the Alexandria heritage, the carton — aimed at a shop owner rather than a mother. **No other change to the mix.** That is the cheapest possible way to serve both answers and it stays inside scope.
+
+### A4. `[CONFLICT]` Three approvers, and the contract allows one
+
+**They said:** *"mohamed and hussein then manager"* approve, and **Mohamed** is the day-to-day contact.
+
+**Clause 3 gives one named approver, and only their notes count.** Three voices in the chain means a delivery can be approved by one and re-opened by another, and clause 4's "a delivery matching the agreed brief counts as delivered" stops protecting anything. **This is not a formality — it is the mechanism that decides whether a revision round is included or chargeable.**
+
+> **Mohamed as day-to-day contact is fine and is a separate role.** What the acceptance page needs is **one name with final say**, with role and contact. If they want Hussein to hold it and Mohamed to run the day to day, that works perfectly — it just has to be written down that way.
+
+### A5. National distribution against an Alexandria-scoped deliverable
+
+**They said:** sold **all over Egypt**, through **their own distributors**, everywhere. **The contract buys Alexandria local SEO and one Google Business Profile.**
+
+That is not a contradiction and the deliverables do not change — a factory has one address, the listing is correct, and it gets delivered as scoped. **What changes is the honesty at delivery:** local SEO for Alexandria will not move national distribution, and it should not be presented as if it might. Deliverable 8 is worth what it is worth. Overselling it is how a month-three conversation goes bad.
 
 ---
 
 ## 0. What we already know
 
-- `[CONFIRMED]` Client: **Alex Foods**. Signed Service Scope V2, dated 09.09.2026, bilingual.
-- `[OBSERVED]` Legal name: **الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية** — the Alexandria Company for Food Packing and Packaging. Read off the master seal. **So the company is not only a juice factory** — it packs and packages food, across powdered drinks, nectar, ice pops and jelly candy. Calling it a juice factory undersells it and misroutes the positioning.
-- `[MISSING]` Owner: **Hussein.** *Carried from the source brief and used throughout as the interview subject.* **Nothing in TSA's files names him** — no signed acceptance page, no named approver, no contact record. See §2; this is a real gap, not a formality.
-- `[OBSERVED]` **Four ranges, not five: BeBo · AlRawy · 2MAN · POLEKA.** The original list of five double-counted: **"Freeze Pops" is 2MAN** — the contract's generic name for the range the client actually calls 2MAN (Arabic **تومان**, confirmed off the carton artwork). There is no fifth family.
-- `[CONFIRMED]` **POLEKA is not named in the signed scope.** The contract names three families: BeBo, AlRawy, Freeze Pops. POLEKA arrived with the packaging and Aly confirmed it in, verbally, 18 September, at no change to fee. **Still not papered.** See §11.
-- `[OBSERVED]` **Roughly eighteen SKUs across the four ranges**, against a contract that asked for five. Plus mini 2MAN and mini BeBo lines surfaced in the legacy creative, sold in 25 and 50 piece cartons, which nobody has counted yet.
-- `[CONFIRMED]` Engagement: one-time **Brand Foundation 20,000 EGP**, then **Package A 42,000 EGP/month × 3 = 126,000**. Total contract **146,000 EGP**. 3-month term, no auto-renewal.
-- `[CONFIRMED]` Client documents are bilingual, Arabic primary.
-- `[OBSERVED]` **Based in Alexandria, and the city is load-bearing.** The seal's icon is the **Pharos lighthouse** and the company name *is* the city. This is brand pillar 3 in [[Brand and Social Kit]] — a story no competitor can copy. Factory street address still `[MISSING]`, and the Google Business Profile deliverable cannot be built without it.
-- `[OBSERVED]` **The company's own age contradicts itself in its own materials.** The seal reads «جودة نثق بها منذ 20 عامًا», a legacy graphic «جودة من 20 سنة دائماً», and the mini-sizes creative carries a badge reading **25 YEARS**. **No copy claims either number until he confirms it** — a heritage line ends up in every bio and every ad.
-- `[OBSERVED]` **They already run Alex Foods as a consumer brand.** Their own legacy creative leads with the parent: «طعم أحلى مع ALEX FOODS» and «جديد من أليكس فوودز», ranges arranged underneath. That evidence is what settled the umbrella decision on 18 September.
+- `[CONFIRMED]` Client: **Alex Foods.** Signed Service Scope V2, 09.09.2026, bilingual.
+- `[OBSERVED]` Legal name **الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية** — the Alexandria Company for Food Packing and Packaging. **Not only a juice factory:** powder drinks, nectar, ice pops and jelly candy, four categories.
+- `[CONFIRMED]` **Hussein** is real and sits in the approval chain. **Mohamed** is the day-to-day contact and also approves. See §A4.
+- `[OBSERVED]` **Four ranges, not five: BeBo · AlRawy · 2MAN · POLEKA.** **"Freeze Pops" IS 2MAN** — the contract's generic name for the range the client calls 2MAN, Arabic **تومان**. The answer sheet still lists both as separate families and leaves 2MAN blank; there is no fifth family and nothing is missing there.
+- `[CONFIRMED]` **POLEKA is not in the signed scope.** Confirmed verbally as in, 18 Sep, no change to fee. **Still not papered.**
+- `[OBSERVED]` Roughly **eighteen SKUs**, against a contract asking for five. Plus uncounted mini 2MAN and mini BeBo lines in 25 and 50 piece cartons.
+- `[CONFIRMED]` Foundation **20,000** one-time · Package A **42,000 × 3 = 126,000** · total **146,000 EGP** · 3-month term, no auto-renewal.
+- `[CONFIRMED]` **Based in Alexandria**, and the city is load-bearing: the seal's icon is the **Pharos lighthouse** and the company name *is* the city. Brand pillar 3.
 
 ---
 
-## 1. Goals — the section that decides everything downstream
+## 1. Goals
 
-**Nothing in this section is known, and that is the single largest hole in the engagement.** TSA has built a colour system, a type system, a voice guide and a social kit for a client whose commercial objective has never been stated. Those deliverables are defensible because they are governance work — they are correct regardless of the goal. **The content calendar and the paid campaigns are not.** A calendar aimed at shop owners and a calendar aimed at mothers share almost nothing, and Package A buys twelve graphics a month that have to point somewhere.
+- `[CONFIRMED]` **Main goal: engagement and online presence.** They have their own name in market already; what they want is a better presence behind it.
+- `[CONFIRMED]` **Success after 3 months = comments and views.** Their words, and they admit they do not know much beyond that.
+- `[CONFIRMED]` **Priority range: BeBo.**
+- `[CONFIRMED]` **Biggest problem: weak online presence, no engagement, no marketing plan.**
+- `[CONFLICT]` Against the above: **"mostly more shops"** in §4. See §A3.
+- `[MISSING]` **A number and a deadline.** They did not give one, and on their own account they cannot. **So TSA sets it**, from the baseline in §7, and puts it in the delivery message for them to accept. **An agency that leaves the target undefined gets judged on a feeling in month three.**
 
-- Main goal for the next 3 months: `[MISSING]`
-- Goal as a number plus a deadline: `[MISSING]`
-- What "success after 3 months" looks like to him: `[MISSING]`
-- Priority range: `[MISSING]` — `[ASSUMED]` **BeBo or AlRawy**, on the reasoning that they are the two mother-facing ranges and the two with five SKUs each, so they carry the most rotation. **A guess. It decides where 40% of the content mix points, so it gets confirmed, not assumed.**
-- Biggest problem right now: `[MISSING]` — and note that the four candidate answers lead four different ways:
+> **The recommendation, stated plainly:** take the 52,000-follower Facebook page as the baseline, measure **comments and views on it** as the contracted number since that is literally what they asked for, and set a month-1 target from the first two weeks of real data rather than from a guess made today. **Do not promise a follower number.** Followers are the vanity metric they did not ask for, and promising one on a page that has sat idle is how a good contract ends badly.
 
-| If he says | Then the real job is | And Package A should skew |
-|---|---|---|
-| Sales are low | Demand generation to the end buyer | Paid campaigns, offers, reach |
-| Nobody knows the brand | Awareness and recall | Character content, the song, giveaways |
-| Competitors are cheaper | Positioning away from price | Quality and heritage proof, never a price fight |
-| We can't get into shops | **Trade marketing, not consumer marketing** | Content aimed at shop owners and distributors |
-
-> **That fourth row is the one to watch.** For a factory, the shop owner and the distributor are customers too, and a Facebook page full of cute characters does nothing for a distributor deciding whether to carry a carton. If the bottleneck is distribution, the brief that TSA delivers has to say so, and the content mix in [[Brand and Social Kit]] §3 gets revisited before month 1.
-
-**أسئلة لحسين:**
-- إيه أهم هدف عايز توصله في الـ٣ شهور الجايين؟
-- لو الشغل نجح، إيه الرقم اللي هيخليك تقول إنه نجح؟ مبيعات، عدد محلات، متابعين؟
-- أنهي براند أهم حاجة نركز عليه دلوقتي؟ وليه هو بالذات؟
-- إيه أكبر مشكلة بتواجهك في البيع حالياً؟ المبيعات قليلة، ولا الناس مش عارفة البراند، ولا المنافسين أرخص، ولا مش قادر تدخل محلات جديدة؟
-- مين العميل الأهم بالنسبالك دلوقتي: الزبون اللي بياكل المنتج، ولا صاحب المحل اللي بيقرر يشتري منك؟
+**أسئلة لحسين ومحمد:**
+- إحنا فاهمين إن المطلوب تفاعل وحضور أونلاين. بس إنتوا كمان عايزين تدخلوا محلات جديدة. أنهي واحدة فيهم الأهم لو اضطرينا نختار؟
+- لما نقولك «نجحنا»، عايز تشوف إيه بالظبط؟ كومنتات وفيوز، ولا موزعين بيكلموك؟
 
 ---
 
 ## 2. Business basics
 
-- `[MISSING]` Years in business. **Conflicting evidence on file: 20 versus 25.** See §0.
-- `[MISSING]` Factory address. `[OBSERVED]` Alexandria. **Blocks Foundation deliverable 7 (Google Business Profile) outright** — a listing is a company at an address.
-- `[MISSING]` **Who approves marketing decisions.** `[CONFIRMED]` **The signed acceptance page has not come back**, so there is no named approver on file. Clause 3 makes one named person the only voice whose notes count, and clause 4's "a delivery matching the agreed brief counts as delivered" has nothing to stand on until that person exists.
-- `[MISSING]` Day-to-day contact, and on which channel.
-- `[MISSING]` Production capacity if demand rises.
+- `[CONFIRMED]` **Years in business: 20 at least.** **This closes the 20-versus-25 conflict on the side of 20.** The 25 YEARS badge on the mini-sizes creative is theirs and it is inconsistent with their own seal; copy uses **20+ / «أكتر من 20 سنة»** and never 25. *(Worth one line back to them: their own artwork disagrees with itself in market.)*
+- `[CONFIRMED]` **Factory address: Cairo–Alexandria Agricultural Road, Khorshid entrance, First Abis, Alexandria, Egypt.** **This unblocks part of Foundation deliverable 7** — the Google Business Profile finally has an address.
+- `[CONFIRMED]` Approval chain: **Mohamed and Hussein, then a manager.** See §A4 — the contract allows one.
+- `[CONFIRMED]` **Day-to-day contact: Mohamed.**
+- `[CONFIRMED — out of scope by Aly's call]` Production capacity. Not being asked. Recorded so no future session re-opens it.
+- `[MISSING]` **Opening hours, business categories and a public phone number.** Deliverable 7 still cannot be completed without these three, and they are ten seconds of Mohamed's time.
 
-> **The acceptance page is not paperwork and it is already costing something operationally.** [[Brand Voice Guide]] §8 routes a product complaint — contamination, illness, a foreign object — as TSA → named approver → client. **There is no top rung on that ladder.** A complaint landing at 11pm has nowhere to go, and TSA is contractually the only party allowed to act on the page. Get the name, the role and the number in this meeting, in writing.
-
-**أسئلة لحسين:**
-- المصنع شغال من إمتى بالظبط؟ لأن في ورقكم مكتوب ٢٠ سنة، وفي حتة تانية مكتوب ٢٥ سنة، وإحنا مش هنكتب أي رقم قبل ما تأكده.
-- عنوان المصنع بالتفصيل، والمواعيد الرسمية، ورقم تليفون للناس؟ ده اللي محتاجينه عشان نعمل صفحة جوجل بتاعت الشركة.
-- مين اللي بيوافق على المحتوى نهائياً؟ عايزين اسم واحد ودوره ورقمه، مكتوبين، لأن ده الشخص الوحيد اللي كلامه بيتحسب في العقد.
-- ومين اللي هنتكلم معاه كل يوم؟ وعلى واتساب ولا تليفون؟
-- لو الطلب زاد فجأة، المصنع يقدر يغطي؟ ولا في حد أقصى؟
+**أسئلة لمحمد:**
+- محتاجين مواعيد العمل الرسمية، ورقم تليفون للعامة، ونوع النشاط، عشان نكمل صفحة جوجل.
+- العقد بيقول شخص واحد بس هو اللي بيوافق نهائياً. مين الاسم ده؟ حضرتك ولا أستاذ حسين؟ ده بيحمي الطرفين.
 
 ---
 
 ## 3. Products
 
-**Everything under "what it is" below is `[OBSERVED]` — read off the client's packaging mockups received 18 and 19 September and filed in `Alex Foods Brands/packshots/`.** Full inventory, colour samples and SKU maps in [[Alex Foods Brands]]. **Every price, margin and sales-rank line is `[MISSING]` and none of them will be guessed** — a wrong margin sends the content mix at the wrong range for three months.
+`[CONFIRMED]` **Buyers: mainly kids.** They buy all four ranges themselves. Some parents buy it as an affordable juice for school.
+`[CONFIRMED — out of scope by Aly's call]` **Prices and profit are not being collected.** The goal is engagement, not revenue, so range weighting runs off the engagement goal and off best-seller status instead of off margin. **That is a clean resolution rather than a gap** — but it does mean TSA cannot and will not answer a price question in a comment. See §9.
 
-### BeBo — powdered drink sachets
-- `[OBSERVED]` **Powder you make up.** Sachet makes a full jug. White "BeBo" wordmark, navy outline, green pillow banner, Arabic **بيبو** above. "KIDS ZONE" rainbow sub-mark. A winking cartoon face rendered in the flavour's own colour, so the face changes per flavour. Red "NEW" corner flash. **No Alex seal on pack.**
-- `[OBSERVED]` **5 SKUs:** Peach · Mango · Apple · Cola · Pineapple. Plus a **mini BeBo** line in 25 and 50 piece cartons, uncounted.
-- `[OBSERVED]` Main buyer: **the mother.** The characters own the child; she is the one deciding. Her decision is whether she can afford to say yes. ([[Brand Voice Guide]] §3.)
-- `[MISSING]` Price to shop / price to consumer · best or weak seller · profit level.
+### BeBo — **priority range, best seller**
+- `[CONFIRMED]` **Best seller**, and the range to lead on.
+- `[CONFLICT]` **Format. See §A1. BeBo copy is frozen until the back of a pack arrives.**
+- `[OBSERVED]` Pillow bag. «مشروب بطعم X / X Drink». Green pillow banner, navy-outlined wordmark, Arabic **بيبو**. **KIDS ZONE** rainbow sub-mark. A winking cartoon face rendered in each flavour's own colour, so the face changes per flavour. Red **NEW** corner flash. No Alex seal.
+- `[OBSERVED]` **5 SKUs:** Peach · Mango · Apple · Cola · Pineapple. Plus an uncounted mini line.
 
-### AlRawy — ready-to-drink nectar pouches
-- `[OBSERVED]` **Ready to drink, not a powder.** Every pouch prints `Insert Straw Here / أدخل الماصة هنا`. *(This was wrong in three notes until 19 September. BeBo is the powder; AlRawy is the juice. Copy must never imply mixing.)* "AlRawy®" in navy with a red "y", Arabic **الراوى**, white roundel, green leaf swoosh. **Carries the Alex seal.** Real fruit photography, the most grown-up mark of the four. **Registered trademark.**
+### AlRawy — weaker seller
+- `[CONFIRMED]` **Weaker seller**, by their own answer.
+- `[CONFLICT]` **"Organic." See §A2. The word does not get written anywhere until a certificate exists.**
+- `[OBSERVED]` **Ready to drink.** Every pouch prints «أدخل الماصة هنا / Insert Straw Here». **This is the range with the straw.** "AlRawy®" in navy with a red y, Arabic **الراوى**, white roundel, green leaf swoosh. **Carries the Alex seal.** Real fruit photography. Registered mark. **Labelled NECTAR.**
 - `[OBSERVED]` **5 SKUs:** Cocktail · Apple · Guava · Peach · Mango Nectar.
-- `[OBSERVED]` Main buyer: **the adult doing the shopping.** The only genuinely adult-facing range.
-- `[OBSERVED]` **It is a NECTAR and the label says so.** Never "عصير طبيعي" or "100% juice" — that contradicts the client's own pack and on a paid ad it is the claim that gets an ad account reviewed.
-- `[MISSING]` Price to shop / price to consumer · best or weak seller · profit level.
 
-### 2MAN — ice pops *(the contract's "Freeze Pops")*
-- `[OBSERVED]` **One brand, two live pack architectures, both selling.** **ICE POPS** — running-boy character, Alex seal, "YUM" flash, four colourways, and the existing tagline **عيش جو المغامرة**. **Bu:Zz / Meyveli** — different characters, different layout, four flavours including a cola. "2MAN" set in dripping ice-cream letters: yellow 2, pink M, green A, blue N.
-- `[OBSERVED]` Arabic name **تومان**. Plus a **mini 2MAN** line in 25 and 50 piece cartons, uncounted.
-- `[OBSERVED]` Main buyer: **the older kid, spending their own pocket money.** Which is why the brand talks to them directly instead of through a parent.
-- `[OBSERVED]` **عيش جو المغامرة already works and it stays.** It sells the feeling and never names the product, which is the whole test a brand line has to pass. Deliverable 4 builds around it rather than replacing it. ([[Slogans and Song]] §3.)
-- `[MISSING]` Price to shop / price to consumer · best or weak seller · profit level. **And one more: is 2MAN seasonal in a way the others are not?** An ice pop in an Egyptian January is a different business from an ice pop in July.
+### 2MAN — ice pops *(the sheet's "Freeze Pops" and "2 Man" are one range)*
+- `[OBSERVED]` **One brand, two live pack architectures, both selling.** **ICE POPS** — running-boy character, Alex seal, YUM flash, four colourways, and the existing tagline **عيش جو المغامرة**. **Bu:Zz / Meyveli** — different characters, different layout, four flavours including a cola. "2MAN" in dripping ice-cream letters: yellow 2, pink M, green A, blue N. Arabic **تومان**. Plus an uncounted mini line.
+- `[OBSERVED]` **عيش جو المغامرة stays.** It sells the feeling and never names the product, which is the whole test. Deliverable 4 builds around it.
+- `[MISSING]` **Whether 2MAN stops in winter.** An ice pop in an Egyptian January is a different business from one in July, and it decides whether the calendar can run flat across four ranges.
 
 ### POLEKA — jelly candy *(in the Foundation, not in the signed scope)*
-- `[OBSERVED]` Bottle-shaped pouches, each wrapped in a full-bleed animal character — caterpillar, lion, giraffe. "POLEKA" in fat rainbow gel letters on a cloud, with "jelly" and **جيلي كيدز**. The loudest, youngest mark of the four. **No Alex seal.**
-- `[OBSERVED]` **4 SKUs visible:** apple (التفاح) · mango (المانجو) · cola · strawberry (الفراولة).
-- `[OBSERVED]` Main buyer: **the child asks for it by name; the mother pays under pressure.** POLEKA's commercial job is being requested out loud in a shop. ([[Slogans and Song]] §2.)
-- `[MISSING]` Price to shop / price to consumer · best or weak seller · profit level.
+- `[OBSERVED]` Bottle-shaped pouches, each a full-bleed animal character — caterpillar, lion, giraffe. Rainbow gel letters on a cloud, «جيلي كيدز». The loudest, youngest mark. No Alex seal.
+- `[OBSERVED]` **4 SKUs:** apple · mango · cola · strawberry.
+- `[CONFIRMED]` **The cola SKU stays out of paid campaigns and out of copy** until the rights answer in §10 lands.
 
 ### Seasons
-- `[MISSING]` Strongest months · weakest months · Ramadan, summer and school-season effect.
-- `[ASSUMED]` **Four ranges with four different seasons, and this is worth arguing about in the meeting.** 2MAN is an ice pop and should peak hard in summer. BeBo makes a jug and plausibly peaks at Ramadan. POLEKA is pocket-money candy and plausibly tracks the school year. AlRawy goes in a lunchbox, which is also a school-year pattern. **If that shape is even roughly right, one flat calendar across four ranges is wrong** and the month-by-month range weighting becomes a real deliverable rather than a rotation. **All of this is inference from product category, not from his data.** Confirm before it touches a calendar.
+- `[MISSING]` Strongest and weakest months, and the Ramadan, summer and school effect. **Not answered, and it is the input the content calendar needs most after the goal.**
+- `[ASSUMED]` Four ranges probably carry four different seasons — 2MAN on summer, BeBo plausibly on Ramadan and the school year, POLEKA on pocket money, AlRawy on the lunchbox. **Inference from product category, not from their data.** If it is even roughly right, one flat calendar across four ranges is wrong.
 
-**أسئلة لحسين:**
-- كل براند فيه أنهي منتجات وأحجام وطعوم بالظبط؟ وعايزين نعرف كمان الأحجام الصغيرة اللي بتتباع كراتين ٢٥ و٥٠.
-- سعر كل منتج للمحل بكام، وبيتباع للزبون بكام؟
-- أنهي براند بيبيع أكتر؟ وأنهي براند بيكسبك أكتر؟ مش دايماً نفس الواحد.
-- في منتج بتحس إنه مش ماشي زي ما إنت عايز؟
-- إيه أكتر شهور البيع بتعلى فيها لكل براند؟ وإيه أقل شهور؟
-- رمضان بيأثر إزاي؟ والصيف؟ وفتح المدارس؟
-- التومان بيقف في الشتا ولا بيفضل ماشي؟
+**أسئلة لمحمد:**
+- محتاجين صورة لظهر كيس بيبو، الجزء اللي فيه طريقة التحضير والوزن. ده أهم طلب عندنا دلوقتي وهو صورة واحدة.
+- بيبو بيتشرب إزاي بالظبط؟ بيتحط في الميه وبيتقلب، ولا بيتشرب من الكيس على طول؟
+- الراوي مكتوب عليه نكتار. كلمة «أورجانيك» دي عندكوا عليها شهادة؟ لو أيوة ابعتوهالنا، لأنها ممنوعة في الإعلانات من غير ورق.
+- التومان بيقف في الشتا ولا بيفضل ماشي طول السنة؟
+- إيه أكتر شهور البيع بتعلى فيها؟ ورمضان والمدارس بيأثروا إزاي؟
 
 ---
 
-## 4. Distribution — how the product actually reaches a mouth
+## 4. Distribution
 
-**The most under-asked section in the file, and possibly the one that matters most.** TSA is being paid to run social media for a business whose revenue arrives through shop owners and distributors, not through a website. Nobody has established where the bottleneck is, and the whole of §1's "biggest problem" question resolves here.
+- `[CONFIRMED]` **Sold everywhere, through distributors.**
+- `[CONFIRMED]` **All over Egypt.** See §A5 — this sits against an Alexandria-scoped deliverable.
+- `[CONFIRMED]` **Their own distributors**, not third-party.
+- `[CONFIRMED]` **Goal: mostly more shops.** See §A3.
+- `[MISSING]` **How many shops, and how many distributors.** "All over Egypt" is a description, not a baseline. **Without a starting number, "more shops" can never be shown to have happened** — which matters because it is half of what they told us they want.
 
-- `[MISSING]` Where products are sold — kiosks, supermarkets, schools, wholesalers, online.
-- `[MISSING]` Which governorates and areas. `[ASSUMED]` **Alexandria and surrounding**, from the company's name and from the scope asking for Alexandria local SEO. **Not the same as knowing the sales footprint** — the scope's local SEO brief says where TSA was asked to rank, not where the cartons go.
-- `[MISSING]` Own delivery or distributors.
-- `[MISSING]` Roughly how many shops carry it now.
-- `[MISSING]` **More shops, or more sales per existing shop?** Two different campaigns. One is trade-facing, one is consumer-facing.
-- `[MISSING]` Is there any online or D2C sale at all, or is it 100% retail?
-
-> **The consequence for Package A.** If the answer is "we need more shops," then some of the twelve monthly graphics should be aimed at the trade: carton shots, case counts, margin talk, the Alexandria heritage story that reassures a shop owner the factory will still be there next year. None of that is in the current content mix, which runs 40% product / 30% character / 20% moment / 10% company ([[Brand and Social Kit]] §3). **That mix was derived from the packaging, honestly, in the absence of a stated goal. A trade answer changes it.**
-
-**أسئلة لحسين:**
-- منتجاتك بتتباع فين بالظبط؟ أكشاك، سوبر ماركت، مدارس، تجار جملة؟
-- في أنهي محافظات ومناطق؟ إسكندرية بس ولا بره كمان؟
-- بتوزع بنفسك ولا عن طريق موزعين؟ وعندك كام موزع؟
-- تقريباً كام محل بيبيع منتجاتك دلوقتي؟
-- عايز تدخل محلات جديدة، ولا تزود البيع في المحلات اللي عندك؟
-- لو محل جديد عايز يشتغل معاك، إيه أقل كمية بيطلبها؟ وبتديله هامش كام؟
-- بتبيع أونلاين خالص ولا كله محلات؟
+**أسئلة لمحمد:**
+- تقريباً كام موزع شغال معاكوا؟ وكام محل بيشيل المنتج دلوقتي؟ رقم تقريبي كفاية.
+- الموزع الجديد بيلاقيكوا إزاي دلوقتي؟ بيكلمكوا إزاي؟
 
 ---
 
 ## 5. Target customer
 
-- `[OBSERVED]` **Eater and buyer are different people on three of the four ranges**, and the split is already mapped in [[Slogans and Song]] §2: BeBo child eats / mother buys and the copy talks to **the mother** · AlRawy household / shopper and the copy talks to **the buyer** · 2MAN kid eats and the kid buys, so the copy talks to **the kid** · POLEKA child eats, mother pays, and the copy deliberately talks to **the child**, because being asked for by name is the mechanic.
-- `[MISSING]` Age, area and income level of the final buyer, in his words.
-- `[MISSING]` Why they buy — price, taste, habit, packaging.
-- `[MISSING]` What stops them buying — trust, quality doubts, not found in shops.
-- `[ASSUMED]` **Facebook carries the mother-facing ranges.** Already acted on: the social kit weights Facebook higher than an agency would normally weight it, because BeBo and AlRawy talk to mothers and in Egypt that audience is on Facebook. **This is a reasoned platform call, not a measured one**, and it aims real ad spend. Confirm it against whatever his page insights actually show.
-- `[MISSING]` What the shop owners say about the product, good and bad. **The most valuable answer in this section** and nobody ever asks it — the shop owner hears every complaint the factory never does.
+- `[CONFIRMED]` **Final buyer: kids.** They buy all four ranges themselves, mainly. Some parents buy it as **an affordable juice for school**.
+- `[CONFIRMED]` **Platforms: all of them.** See §7 — the real numbers say otherwise, and this is the answer most worth arguing with.
+- `[MISSING]` Age band, area and income level in their words.
+- `[MISSING]` Why people buy, and what stops them.
+- `[MISSING]` **What shop owners say about the product.** Never answered and still the most valuable question in the file. The shop owner hears every complaint the factory never does.
+- `[OBSERVED]` The eater-and-buyer split in [[Slogans and Song]] §2 **partly survives this answer and partly does not.** The client's "mainly kids" supports 2MAN and POLEKA talking to the child directly. **It sits against BeBo talking to the mother** — although "an affordable juice for school" is a *parent's* sentence, and BeBo is the priority range, so the mother is not gone. **Worth one more question rather than a rewrite.**
 
-**أسئلة لحسين:**
-- مين اللي بيشتري منتجاتك أكتر؟ سن تقريبي، ومنطقة، ومستوى تقريبي؟
-- في المحل، مين اللي بيختار: الطفل ولا الأم؟
-- الناس بتشتري منك ليه بدل المنافس؟ السعر، الطعم، العادة، ولا شكل العبوة؟
-- إيه اللي بيمنع حد إنه يشتري؟
-- أصحاب المحلات بيقولولك إيه على المنتج؟ الكويس والوحش، وقول الوحش بالذات.
-- في شكوى بتتكرر منك أو من الزباين؟
+**أسئلة لمحمد:**
+- بيبو مين اللي بيشتريه أكتر فعلاً: الطفل من مصروفه، ولا الأم وهي بتجيب حاجة البيت أو المدرسة؟
+- أصحاب المحلات بيقولوا إيه على المنتجات؟ الكويس والوحش، وقول الوحش بالذات.
 
 ---
 
 ## 6. Competitors
 
+`[CONFIRMED]` **The client does not know who their competitors are.** That is the answer, and it is itself informative: nobody there is watching the shelf.
+
 | Competitor | Their products | Their price | What they do well | Their weakness | Social page |
 |---|---|---|---|---|---|
 | `[MISSING]` | | | | | |
-| `[MISSING]` | | | | | |
-| `[MISSING]` | | | | | |
 
-> **These rows stay empty on purpose.** TSA has no sourced competitor information for this client — none in the scope, none on the packaging, none from the client. **Naming Egyptian FMCG brands from general knowledge would be inventing facts**, and a wrong competitor name in front of a factory owner who has fought these people for twenty years costs more credibility than the table is worth. The rows get filled from his mouth.
+> **The rows stay empty and no names get invented.** TSA has no sourced competitor information and will not supply Egyptian FMCG brand names out of general knowledge into a file whose own rule forbids it.
 >
-> **What TSA can do without asking anybody, and should do before the meeting:** the competitive set for these categories sits in a fridge and on a shelf in Alexandria. Two shop visits and a phone camera — the ice-pop freezer, the sachet rack, the candy box at the till — produces a real competitor audit with prices, pack sizes and shelf position, from an iPad, for free. That is the Alexandria keyword and competitor read that Foundation deliverable 8 already asks for. **Do it as a photo walk, not as desk research.**
-
-**أسئلة لحسين:**
-- مين أكبر ٣ منافسين ليك؟ ولكل براند لوحده لو مختلفين.
-- أسعارهم أرخص ولا أغلى منك؟ وبكام تقريباً؟
-- إيه اللي بيعملوه أحسن منك؟ قول بصراحة.
-- وإيه اللي إنت أحسن فيه فعلاً ومحدش واخد باله؟
-- في حد منهم شغال كويس على السوشيال؟ عندك صفحاتهم؟
+> **So the shelf walk is now the only route, and it moved from "nice idea" to "the method."** Two shop visits in Alexandria with a phone camera — the ice-pop freezer, the sachet rack, the candy box at the till — produces prices, pack sizes and shelf position for nothing. **That is the competitor read Foundation deliverable 8 already owes**, and it is now the only way it gets done.
 
 ---
 
-## 7. Current marketing and real data
+## 7. Current marketing — and the real numbers
 
-- `[MISSING]` Social accounts and links. **`[CONFIRMED]` Meta admin access has not arrived**, and it is one of the seven contracted client materials. **Foundation deliverable 3 is specified but cannot be executed without it** — the Brand and Social Kit ships carrying the chip `SPEC — EXECUTION PENDING CLIENT ACCESS` and says so on the page.
-- `[MISSING]` Follower counts. **No number goes in any document until it is read off the account.**
-- `[MISSING]` Who manages the pages now.
-- `[OBSERVED]` **What their existing creative looks like**, from two legacy graphics kept in `Alex Foods Brands/client-legacy-creative/`: parent-led lines «طعم أحلى مع ALEX FOODS» and «جديد من أليكس فوودز», with every range's products arranged underneath. **That is the "before" the Foundation is replacing**, and it is also the evidence that settled the umbrella decision.
-- `[MISSING]` Past ad spend and results.
-- `[MISSING]` Insights screenshots. **Ask for them in the meeting, on his phone, right then** — a screenshot taken during the call is the only reliable way to get this out of a client who has never exported a report.
-- `[CONFIRMED]` **Media spend does not pass through TSA.** The client pays the platforms directly. That is in the scope and it stays there — it keeps ad money out of TSA's books entirely.
-- `[MISSING]` **Reporting: how often, and which numbers.** Package A includes campaign management and local SEO tracking, but **the scope never defines a report**. See §11.
+**`[CONFIRMED]` and this is the most valuable thing in the whole return.**
 
-**أسئلة لحسين:**
-- عندك صفحات لكل براند ولا صفحة واحدة لأليكس فودز؟ ابعتلنا اللينكات.
-- مين ماسك الصفحات دلوقتي؟
-- ممكن تفتح الصفحة دلوقتي وتصورلنا شاشة الأرقام؟ عايزين نشوف الوضع الحقيقي مش تقديري.
-- عملت إعلانات ممولة قبل كده؟ صرفت قد إيه؟ وجابت إيه؟
-- محتاجين صلاحية أدمن على Meta Business Suite، وده واحد من الحاجات المتفق عليها في العقد ولسه مجاش.
-- عايز تقرير كل قد إيه؟ وإيه الأرقام اللي تهمك فيه فعلاً؟
+| Platform | Account | Followers |
+|---|---|---|
+| **Facebook** | `facebook.com/profile.php?id=100067105295519` | **~52,000** |
+| **TikTok** | `tiktok.com/@alex.foods36` | **~500** |
+| **Instagram** | `instagram.com/alex.foods1` | **~40** |
+
+- `[CONFIRMED]` **They managed the accounts themselves. TSA takes over.**
+- `[MISSING]` Posts or ads that worked before · past ad spend and results · insights screenshots.
+- `[MISSING]` **Meta admin access.** Still one of the seven contracted materials, still outstanding, and now it blocks the baseline as well as the setup.
+
+### What these three numbers actually settle
+
+1. **The umbrella decision is confirmed by real data.** The accounts are **`alex.foods`** — one Alex Foods presence carrying everything, not four brand pages. The architecture TSA chose on 18 September is the architecture they already run.
+2. **The Facebook weighting in [[Brand and Social Kit]] §3 was right**, and now it is measured rather than reasoned. 52,000 against 540 across both other platforms combined.
+3. **Instagram at 40 and TikTok at 500 are not accounts, they are placeholders.** "All platforms" is not the real answer. **One asset exists.**
+4. **And here is the tension nobody has named: the 52,000 are almost certainly not kids.** A five-year-old Facebook page in Egypt with 52k is a parent audience. The client says the buyers are mainly kids — and kids are on TikTok, where they have 500 followers. **The audience they have and the audience they describe are on two different platforms.**
+
+> **The recommendation, and it is a real strategic call rather than a hedge:** **month 1 works the 52,000.** It is the only asset with an audience, it is where the contracted KPI (comments and views) can actually move inside a month, and the parent audience is exactly right for BeBo-as-school-drink and for AlRawy. **TikTok gets built in parallel with the character content, because that is the cheapest content this business owns** — the faces, the animals and the running boy are already drawn and already paid for, and they are native to the platform the kids are on. **Instagram gets the same assets cross-posted and nothing more until it earns attention.** Chasing three platforms evenly from these baselines would spend the whole retainer proving nothing.
+
+- `[MISSING]` **Reporting cadence and metrics — the signed scope never defined one.** **Propose it:** one report, same date monthly, carrying reach, views, comments, follower movement, campaign spend and result, plus any stockist or distributor enquiry the page produced. That last line is what connects the engagement KPI to the "more shops" goal in §A3.
+
+**أسئلة لمحمد:**
+- محتاجين صلاحية أدمن على Meta Business Suite. من غيرها مش هنقدر نشوف الأرقام الحقيقية ولا نشتغل أصلاً، وهي متفق عليها في العقد.
+- صفحة الفيسبوك فيها 52 ألف متابع، وانستجرام 40 وتيك توك 500. إحنا هنركز على الفيسبوك الأول لأنه المكان الوحيد اللي فيه ناس، وهنبني تيك توك بالشخصيات اللي عندكوا. تمام كده؟
+- عملتوا إعلانات ممولة قبل كده؟ صرفتوا قد إيه وجابت إيه؟
 
 ---
 
 ## 8. Budget
 
-- `[MISSING]` Monthly ad budget, separate from the TSA fee. **Package A includes campaign management and this number has never been stated.** TSA is contracted to manage a spend of unknown size, which means the campaign plan cannot be written — 500 EGP a month and 20,000 EGP a month are different disciplines, not different scales.
-- `[MISSING]` Budget for extra production — shoots, samples, events.
+- `[MISSING]` **Monthly ad budget.** Not answered. **TSA is contracted to manage a spend of unknown size** — and their stated goal is engagement, which is the one goal that is cheap to buy badly and expensive to buy well. **This needs a number before any campaign is built.**
+- `[MISSING]` Budget for shoots, samples or events.
 - `[MISSING]` Openness to influencers or sampling.
-- `[CONFIRMED]` **No shoot is included in either stage.** TSA hands over the shooting recipe in writing; the client supplies samples or photographs. Any shoot TSA actually executes is a separate quote under clause 7. **Say this out loud in the meeting** — it is the single most common place a food client assumes otherwise.
+- `[CONFIRMED]` **Media spend does not pass through TSA.** The client pays the platforms directly.
+- `[CONFIRMED]` **No shoot is included in either stage.** Say it out loud — it is the single most common thing a food client assumes otherwise. Any shoot TSA executes is quoted separately under clause 7.
 
-> **The money question TSA has to hold in its own head, not his:** [[TSA Money]] still has no cost-of-delivery figure for one month of Package A. Until that exists, the 42,000 already received is an advance against roughly twenty deliverables of unknown cost. Not his problem and not his conversation, but it decides whether anything offered in this meeting is affordable.
-
-**أسئلة لحسين:**
-- ميزانية الإعلانات الشهرية قد إيه؟ دي غير أتعابنا، وإنت بتدفعها لفيسبوك مباشرة.
-- في ميزانية لتصوير، أو عينات مجانية، أو فعاليات؟
-- موافق نشتغل مع مؤثرين، أو نوزع عينات في مدارس ومحلات؟
-- تحب نعمل مسابقة أو هدايا؟ ده موجود في العقد أصلاً.
+**أسئلة لمحمد:**
+- ميزانية الإعلانات الشهرية قد إيه؟ دي غير أتعابنا وإنتوا بتدفعوها لفيسبوك مباشرة.
+- موافقين نوزع عينات أو نشتغل مع مؤثرين؟
+- مهم توضيح: العقد مفيهوش تصوير. إحنا بنكتبلكوا طريقة التصوير وإنتوا بتبعتوا الصور أو العينات.
 
 ---
 
-## 9. Sales process — what happens after the marketing works
+## 9. Sales process
 
-**The section most agencies skip and then wonder why the leads died.** Package A's campaigns will generate messages. If nobody answers them within a day, the spend is wasted and it will look like TSA's failure.
+**Came back completely blank, and it is not a small gap given the "more shops" goal.**
 
-- `[MISSING]` Who replies when a shop or customer makes contact.
-- `[MISSING]` How fast.
-- `[MISSING]` Main channel — WhatsApp, phone, rep visit.
-- `[MISSING]` Whether there are sales reps visiting shops, and how many.
-- `[CONFIRMED]` **TSA's side of the reply loop is already written.** [[Brand Voice Guide]] §8 defines eight comment cases with response times, and the complaint script. **But three of those cases route to the client and there is nobody on the other end yet:** a price question can only be answered with a price he has given in writing, an availability question can only name a shop he has confirmed, and any health or ingredient question escalates to him the same day. **All three are currently unanswerable.**
+- `[MISSING]` Who replies when a shop or distributor makes contact, and how fast.
+- `[MISSING]` Main channel — WhatsApp, phone, rep visits.
+- `[MISSING]` Whether there are sales reps, and how many.
+- `[CONFIRMED]` **TSA's side is already written** — [[Brand Voice Guide]] §8 defines eight comment cases with response times plus the complaint script. **Three of them route to the client and there is nobody assigned:** a price question can only be answered with a price given in writing *(and §3 says prices are not being collected, so the standing answer is "price varies by shop")*, an availability question can only name a confirmed stockist, and any health or ingredient question escalates the same day.
+- `[CONFIRMED]` **The complaint ladder now has a top rung.** TSA → **Mohamed** → the client. That is a real improvement on this morning, when it had none. **It still needs Mohamed to know he is it.**
 
-**أسئلة لحسين:**
-- لو محل أو زبون كلمك عايز يتعامل، مين بيرد عليه؟ وبيرد في قد إيه؟
-- الطلبات بتيجي إزاي؟ واتساب، تليفون، ولا مندوب؟
-- عندك مناديب بيلفوا على المحلات؟ كام واحد؟ وبيغطوا أنهي مناطق؟
-- لو حد سأل على السوشيال "بكام؟" أو "بلاقيه فين؟"، نرد بإيه؟ لازم إجابة مكتوبة منك عشان نقدر نرد أصلاً.
+**أسئلة لمحمد:**
+- لو موزع أو محل كلمكوا من الصفحة، مين بيرد؟ وفي قد إيه؟
+- لو حد كتب شكوى على منتج، نبعتهالك إنت شخصياً على واتساب؟ ده اللي هنعمله لو مفيش ترتيب تاني.
+- لو حد سأل «بكام؟» هنقول السعر بيختلف من محل لمحل، غير لو بعتولنا سعر مكتوب.
 
 ---
 
 ## 10. Brand and limits
 
-**This section is largely answered already, and by TSA rather than by the client** — the Foundation is the answer. What remains is short and specific.
+- `[CONFIRMED]` **Tone of voice: fun.** **This unblocks the last open piece of Foundation deliverable 1** — Alex Foods' own master tone block, which has been the single item between the voice guide and complete. It still gets written by Aly rather than guessed, but the direction is now given rather than missing.
+  > **One thing to hold while writing it: "fun" is the master's tone, not a licence applied to all four ranges.** Voice never changes; tone does. **AlRawy's calm adult register has to survive underneath a fun master**, because it is the only range making an argument rather than making noise. A fun master and a restrained AlRawy is exactly the one-voice-many-tones model in [[Brand Voice Guide]] §1.
+- `[CONFIRMED]` **The five brands should look "slightly separate."** **This confirms the umbrella architecture from the client's own mouth:** connected under Alex Foods, distinct from each other. It also confirms **no house palette** — the four clashing range palettes stay, because that clash is what separates them on a shelf.
+- `[CONFIRMED]` **Nothing is off-limits in content.** No banned topics, no style restrictions. *(TSA's own never-say list in [[Brand Voice Guide]] §7 still stands — that one is legal protection, not client preference, and it protects TSA's ad account.)*
+- `[CONFIRMED]` **Approval time: about 1 day.** Comfortably inside clause 3's 48-hour auto-approval. No conflict.
+- `[CONFIRMED]` **"There's a main logo and packaging."** Consistent with what arrived: no source files exist, all four marks were cut to transparency in `logos-transparent/`, and the contract only ever asked for vector *if available*. **Closed.**
+- `[CONFIRMED]` **Colour and type: delivered** as `Alex Foods - Design System v1.1.pdf`. Pending written approval.
+- `[MISSING]` **Rights to the "Cola Cola" artwork.** Still unanswered and still TSA's exposure, because TSA runs the ad account. The POLEKA cola SKU stays out of paid campaigns until it lands.
 
-- `[CONFIRMED]` **Logos: closed.** No source files exist. All four marks were cut out of the supplied raster onto transparency in `Alex Foods Brands/logos-transparent/`. The material list only ever asked for "vector **if available**", and nothing in the Foundation or Package A is printed, so this is closed rather than compromised. **Vector becomes a real requirement only if print enters scope under clause 7.**
-- `[CONFIRMED]` **Colour and type: delivered**, as `Alex Foods - Design System v1.1.pdf`, 19 pages. 31 sampled values rationalised to 18 masters, ramps, neutrals, every contrast pairing computed. Governed in [[Colour System]] and [[Type System]]. **Pending his written approval, not pending further work.**
-- `[CONFIRMED]` **Architecture: umbrella, decided 18 September.** Alex Foods is the master brand; BeBo, AlRawy, 2MAN and POLEKA are ranges beneath it. **One Alex Foods presence, not four brand pages.** Every bio names Alex Foods. **Not yet papered with the client.**
-- `[CONFIRMED]` **No house palette, and that is deliberate.** The master owns the seal and the presence; the four ranges keep their four clashing palettes, because that clash is the only thing separating them on a shelf.
-- `[CONFIRMED]` **The seal is a rollout, not a tier.** It is on AlRawy and 2MAN, absent from BeBo and POLEKA. Printed packs stay exactly as they are; new print carries it on every range.
-- `[OBSERVED]` **Tone per range is written** — register, sentence length, emoji policy and person for all four, in [[Brand Voice Guide]] §3–§6.
-- `[MISSING]` **Alex Foods' own tone block.** The master is the account that actually posts and it has no written voice. **This one is Aly's ear, not the client's** — it is the last thing between deliverable 1 and complete.
-- `[MISSING]` **What he does NOT want in the content.** Never asked. Cheap to ask, expensive to discover in a revision round.
-- `[CONFIRMED]` **Approval time is contractual: 48 hours, or it counts as approved.** One revision round per delivery, all notes in a single written reply. Extra rounds are charged.
-- `[CONFIRMED]` **Rights on the "Cola Cola" artwork: still unanswered, and it is TSA's exposure.** The POLEKA cola pouch carries a wordmark in red-and-white script closely imitating a very well-known trademark, and 2MAN's Bu:Zz line shows a cola bottle in similar territory. **TSA runs the paid campaigns**, which puts TSA's hands on the ad account pushing that artwork. Until confirmed in writing, **that SKU stays out of paid campaigns and out of copy.**
-
-**أسئلة لحسين:**
-- في حاجات مش عايزها خالص في المحتوى؟ مواضيع، أو أسلوب، أو مقارنة بالمنافسين؟
-- عندك بيانات مكتوبة عن المنتج: مكونات، قيمة غذائية، شهادات، حلال؟ من غير ورق مكتوب إحنا مش هنقدر نرد على أي سؤال من دول.
-- سؤال مهم وقانوني: تصميم "كولا كولا" اللي على البوليكا، عندك حق استخدامه مكتوب؟ إحنا اللي هنشغل الإعلانات الممولة، فالمسؤولية بتقع علينا كمان.
-- عايز نقول إن الشركة من كام سنة؟ عشرين ولا خمسة وعشرين؟
+**أسئلة لحسين ومحمد:**
+- سؤال قانوني مهم: تصميم «كولا كولا» اللي على بوليكا، عندكوا حق استخدامه مكتوب؟ إحنا اللي بنشغل الإعلانات الممولة فالمسؤولية بتقع علينا كمان. لحد ما يوصلنا رد، المنتج ده مش هيدخل أي إعلان مدفوع.
+- في ورقكم مكتوب مرة «٢٠ سنة» ومرة «٢٥ سنة». إحنا هنكتب «أكتر من ٢٠ سنة» علشان ده اللي متأكدين منه.
 
 ---
 
-## 11. TSA scope — what we actually deliver
+## 11. TSA scope
 
-`[CONFIRMED]` **All of it, from the signed Service Scope V2.** Full text and all 11 clauses in [[Alex Foods]]; sequenced build plan in [[Foundation Roadmap]].
+`[CONFIRMED]` from the signed Service Scope V2. Full clauses in [[Alex Foods]], build order in [[Foundation Roadmap]].
 
 ### Brand Foundation — 20,000 EGP, one-time, 8 deliverables, 3 weeks minimum
 
-| # | Deliverable | State |
+| # | Deliverable | State after today's answers |
 |---|---|---|
-| 1 | Brand Voice Guide | **Drafted.** 8 of 9 sections complete. Alex Foods' own tone block outstanding. |
+| 1 | Brand Voice Guide | **Drafted.** Master tone block **unblocked** by the "fun" answer. **BeBo's section frozen** pending §A1. |
 | 2 | Colour and Type System | **Delivered** as `Design System v1.1.pdf`. Pending written approval. |
-| 3 | Social Pages Setup | **Specified** as `Brand and Social Kit v1.2.pdf`. **Execution blocked on Meta admin.** |
-| 4 | Slogans plus the giveaway song | Method and audience map written in [[Slogans and Song]]. Lines not yet written. |
-| 5 | Monthly Content Calendar | Format buildable now. Filled calendar needs the voice, the SKUs and a stated goal. |
-| 6 | Animation and Shooting Recipe | **Ships first, out of sequence** — it is what unblocks the client's product photography. |
-| 7 | Google Business Profile | Blocked on his Google account and business details. |
-| 8 | Local SEO, Alexandria | Research unblocked. Listing needs his data. |
+| 3 | Social Pages Setup | **Specified** as `Brand and Social Kit v1.2.pdf`. **Still blocked on Meta admin.** Now aimed at a real 52k page rather than a hypothetical one. |
+| 4 | Slogans and giveaway song | Method written. Lines not written. BeBo's line waits on §A1. |
+| 5 | Monthly Content Calendar | **Goal now known.** Still needs seasonality and the platform split agreed. |
+| 6 | Animation and Shooting Recipe | **Ships first, out of sequence.** Unblocks their product photography. |
+| 7 | Google Business Profile | **Address received today.** Still needs hours, categories, phone and the Google account. |
+| 8 | Local SEO, Alexandria | Research unblocked. **Value honestly limited against national distribution — see §A5.** |
 
-Target delivery **around 9 October 2026**, which lands before the second Foundation instalment on 8 October.
+Target delivery **around 9 October 2026**, before the second Foundation instalment on 8 October.
 
-### Package A — 42,000 EGP/month × 3, roughly twenty deliverables a month
+### Package A — 42,000 EGP/month × 3
+2 product animations · 6 animated stills · 12 graphics feed and story · 1 content calendar delivered before the month starts · GBP and local SEO maintenance · paid campaign management · 1 giveaway slogan and campaign lockup.
 
-2 product animations · 6 animated stills · 12 graphics split feed and story · 1 content calendar delivered before the month starts · GBP and local SEO maintenance · paid campaign management · 1 giveaway slogan and campaign lockup.
-
-**How a month runs:** calendar before the month begins → production against the approved calendar → one revision round, notes collected into a single written reply → approval, or 48 hours of silence which counts as approval.
-
-### Reporting
-`[MISSING]` — **and this is a genuine hole in the signed scope, not an oversight in this file.** Package A includes campaign management and local SEO tracking, but the document never says what gets reported, how often, or which numbers. **Propose it rather than wait for it:** one monthly report, on the same date each month, carrying reach, engagement, follower movement, campaign spend and result, and local search visibility. Agreeing it costs nothing now and prevents a month-three argument about whether TSA proved anything.
+**How a month runs:** calendar before the month begins → production against the approved calendar → one revision round, all notes in a single written reply → approval, or 48 hours of silence counts as approval.
 
 ### Dates
 - `[CONFIRMED]` Scope signed **09.09.2026**. Foundation work started **18 September** under the clause 11 exception.
-- `[CONFIRMED]` **Package A month 1 does not start on the payment date. It starts on written Foundation approval.** The 42,000 is received against a month whose clock has not started.
-- `[CONFIRMED]` **The trap under that, and it has to be closed in the delivery message:** month 1 is twenty deliverables and every visual one needs product photography that has not arrived. Clause 6 extends the timeline day for day for client delay and explicitly does **not** extend the paid month. The line to agree, in writing, at delivery: *"Package A month 1 starts on the later of written Foundation approval or the arrival of usable product photography."*
+- `[CONFIRMED]` **Package A month 1 starts on written Foundation approval, not on the payment date.**
+- `[CONFIRMED]` **The line to agree in the delivery message:** *"Package A month 1 starts on the later of written Foundation approval or the arrival of usable product photography."* Clause 6 extends the timeline for client delay and explicitly does **not** extend the paid month.
 
-> **Nothing gets planned beyond this scope.** Good ideas that fall outside it go in §13 as upsells, quoted under clause 7, never absorbed.
+> **Nothing gets planned beyond this scope.** Ideas outside it are §13 upsells, quoted under clause 7.
 
 ---
 
 ## 12. What is still owed by the client
 
-Ranked by what it blocks. The seven contracted materials, current state:
-
 | # | Material | State |
 |---|---|---|
-| 1 | SKU names | **Arrived** — roughly 18, against a contract asking for 5 |
-| 2 | Logo files | **Closed** — no sources exist; all four cut to transparency |
-| 3 | **Product photos or samples** | **OUTSTANDING. Blocks all twenty Package A deliverables.** Packaging renders are not photography. |
+| 1 | SKU names | **Arrived** — roughly 18 against a contract asking for 5 |
+| 2 | Logo files | **Closed** — no sources exist, all four cut to transparency |
+| 3 | **Product photos or samples** | **OUTSTANDING. Blocks all twenty Package A deliverables.** |
 | 4 | Packaging artwork | **Arrived** |
-| 5 | **Meta admin access** | **OUTSTANDING.** Blocks executing deliverable 3. |
+| 5 | **Meta admin access** | **OUTSTANDING.** Blocks deliverable 3 and the baseline numbers. |
 | 6 | **Google account** | **OUTSTANDING.** Blocks deliverable 7. |
-| 7 | **GBP details** — address, hours, categories, phone | **OUTSTANDING.** Blocks deliverables 7 and 8. |
+| 7 | GBP details | **Address received today.** Hours, categories and phone still outstanding. |
 
-Plus four things that are not on the materials list and are owed anyway:
+Plus, in priority order:
 
-- **The signed acceptance page, naming one approver with role and contact.** The most exposed item on the job.
-- **POLEKA confirmed in writing**, and the umbrella decision papered in the same message. One line each, same clause 4 exposure.
-- **Written rights confirmation on the "Cola Cola" artwork.**
-- **Written product facts** — ingredients, nutrition, certifications, retail list — or [[Brand Voice Guide]] §7's never-say list stays locked as written, which is in TSA's interest anyway.
+1. **A photo of the back of a BeBo pack.** One photo, thirty seconds, and it unfreezes the priority range's copy. **Highest value per effort of anything on this list.**
+2. **The signed acceptance page, naming ONE approver** with role and contact. See §A4.
+3. **The organic certificate for AlRawy, or an acknowledgement that there isn't one.** See §A2.
+4. **Written rights confirmation on the "Cola Cola" artwork.**
+5. **POLEKA confirmed in writing**, with the umbrella decision papered in the same message.
+6. **A rough distributor and stockist count**, so "more shops" has a baseline.
 
 ---
 
-## 13. Upsell ideas — outside the current scope, quoted separately under clause 7
+## 13. Upsell ideas — outside scope, quoted under clause 7
 
-Recorded so they do not get absorbed into the retainer by accident. **None of these is proposed until the Foundation is approved and month 1 is running.**
-
-- **A product shoot.** Explicitly excluded from both stages, and every visual deliverable depends on imagery. If his photos come back unusable, this stops being an upsell and starts being the only way the month gets produced.
-- **Vector redraw of the four logos.** 2MAN and POLEKA are custom illustrated 3D lettering and cannot be retyped. Only needed if print or large format enters scope.
+- **A product shoot.** Excluded from both stages. If their photos come back unusable this stops being an upsell and becomes the only way month 1 gets produced.
+- **Trade-facing material** — a distributor one-pager, case sell sheets, a price list layout. **Now the most likely next sale**, because "mostly more shops" is half their stated goal and none of it is in scope.
+- **A TikTok build-out beyond cross-posting.** The kid audience lives there and the account is at 500. Serving it properly is a content volume the retainer does not carry.
 - **Produced version of the giveaway song.** The scope says *written*. A recorded track is a separate quote.
-- **Trade-facing material** — a distributor one-pager, carton and case sell sheets, a price list layout. **Becomes the obvious next sale if §1 and §4 come back saying the bottleneck is distribution.**
-- **Packaging redesign.** The Foundation is structure and governance, not repainting. The packs are printed and in market. A visual rebrand is a different job at a different price.
+- **Vector redraw of the four logos.** Only if print or large format enters scope.
+- **Packaging redesign.** The Foundation is governance, not repainting.
 
 ---
 
 ## 14. Open questions log
 
-**Ask in this order.** The first four change what TSA builds; the rest change how well it works.
+**Ranked by what they change.** The top five are the ones that stop work.
 
-| # | Question | Why it matters | Asked | Answer | Status |
-|---|---|---|---|---|---|
-| 1 | Who is the named approver, with role and contact? | Clause 3 and 4 have nothing to stand on. Complaint escalation has no top rung. | | | Open |
-| 2 | What is the goal for 3 months, as a number? | Decides the calendar and every campaign. | | | Open |
-| 3 | More shops, or more sales per shop? | Decides whether this is trade or consumer marketing. | | | Open |
-| 4 | What is the monthly ad budget? | TSA is contracted to manage an unknown spend. | | | Open |
-| 5 | Do you hold the rights to the "Cola Cola" artwork? | TSA's ad account carries it. | | | Open |
-| 6 | 20 years or 25? | A heritage line lands in every bio and ad. | | | Open |
-| 7 | Price to shop and to consumer, per range? | Decides which range the content mix favours. | | | Open |
-| 8 | Which range sells most, and which earns most? | They are usually not the same one. | | | Open |
-| 9 | Strongest and weakest months, per range? | Four ranges, probably four seasons. | | | Open |
-| 10 | Meta admin, Google account, GBP details? | Blocks three deliverables. | | | Open |
-| 11 | Product photos or samples? | Blocks all twenty Package A deliverables. | | | Open |
-| 12 | Who replies to enquiries, and how fast? | Campaign spend dies in an unanswered inbox. | | | Open |
-| 13 | What do shop owners say about the product? | The complaint the factory never hears. | | | Open |
-| 14 | Anything you do not want in the content? | Cheap now, expensive in a revision round. | | | Open |
-| 15 | Report how often, and carrying which numbers? | The scope never defines one. | | | Open |
+| # | Question | Why it matters | Status |
+|---|---|---|---|
+| 1 | **Photo of the back of a BeBo pack** | Priority range's copy is frozen without it | Open |
+| 2 | **One named approver on the acceptance page** | Clause 3 and 4 have nothing to stand on | Open |
+| 3 | **Organic certificate for AlRawy, or not** | TSA's ad account carries the claim | Open |
+| 4 | **Monthly ad budget** | Contracted to manage an unnamed spend | Open |
+| 5 | **Meta admin access** | Blocks deliverable 3 and every baseline number | Open |
+| 6 | Rights to the "Cola Cola" artwork | TSA's exposure, not just theirs | Open |
+| 7 | Engagement or shops, if we had to choose | Two goals, two kinds of content | Open |
+| 8 | Distributor and stockist count | "More shops" has no baseline | Open |
+| 9 | Seasonality per range | Decides whether one flat calendar works | Open |
+| 10 | Does 2MAN stop in winter | Same | Open |
+| 11 | GBP hours, categories, phone | Blocks deliverable 7 | Open |
+| 12 | Google account | Blocks deliverable 7 | Open |
+| 13 | Product photos or samples | Blocks all twenty month-1 deliverables | Open |
+| 14 | Who replies to enquiries, how fast | Campaign spend dies in an unanswered inbox | Open |
+| 15 | Who really buys BeBo — child or mother | Priority range's audience | Open |
+| 16 | What shop owners say about the product | The complaint the factory never hears | Open |
+| 17 | Past ad spend and results | Baseline for the campaign plan | Open |
+
+### Answered on 19 September
+Main goal · success definition · priority range · biggest problem · years in business · factory address · approval chain · day-to-day contact · buyer type · distribution model and geography · shops-versus-sales goal · platforms · **all three follower counts** · who manages the accounts · tone of voice · brand separation · content restrictions · approval time · logo and packaging state.
 
 ---
 

@@ -52,6 +52,10 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ## BeBo — powdered drink sachets
 
+> **FORMAT CONTESTED, 19 September.** The client described BeBo as *"juice in a sachet you drink directly with a straw, hand-sized package."* **That does not match this artwork.** The packs are **pillow bags**, they read «مشروب بطعم X / X Drink», their serving graphics are a **cup with a straw standing in it** (peach) and a **tall glass of cola over ice** (cola), and **none of them carries «أدخل الماصة هنا» — AlRawy prints it on every pouch.** Most likely the answer described AlRawy and applied it to both. **But "powdered" is TSA's inference too** — the word appears nowhere on the front, and a pillow bag could hold a strip of sachets, which would reconcile both accounts. **One photo of the back of a pack settles it.** Until then the heading below is unproven. See [[Alex Foods Discovery Brief]] §A1.
+
+> **Also confirmed 19 September: BeBo is the client's priority range and their best seller. AlRawy is the weaker seller.**
+
 `mockup-bebo.png`
 
 - **Logo:** white "BeBo" wordmark, navy outline, on a green pillow-shaped banner. Arabic **بيبو** set above it in white.
@@ -210,6 +214,8 @@ Both models are legitimate and they produce opposite instructions:
 ### Two more things the legacy creative exposed
 
 1. **New SKUs nobody had counted: mini 2MAN and mini BeBo**, sold in 25 and 50 piece cartons. The SKU list grows again, against a contract that asked for five.
+2. **SETTLED 19 September: 20 years, not 25.** The client answered *"20 at least."* Copy uses **«أكتر من ٢٠ سنة» / 20+** and never 25. The 25 YEARS badge on their own mini-sizes creative is inconsistent with their own seal and is worth one line back to them. *Original finding kept below, because the conflict is theirs and it is still live in market:*
+
 2. **The company's own age is inconsistent in its own materials.** One seal reads *«جودة نثق بها منذ 20 عامًا»* and a legacy graphic *«جودة من 20 سنة دائماً»*, while the mini-sizes creative carries an Alex badge reading **25 YEARS**. **Copy cannot claim either number until the client confirms it**, and a heritage claim is exactly the kind of line that ends up in every bio and every ad.
 
 *2MAN's Arabic name is **تومان**, confirmed on the carton artwork.*

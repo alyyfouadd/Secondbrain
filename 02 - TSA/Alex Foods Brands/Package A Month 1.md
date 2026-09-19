@@ -177,6 +177,8 @@ Assumes the gates in [[Alex Foods]] have closed and month 1 has actually started
 - Pack artwork in hand at production resolution.
 - One template family built and one test asset rendered and looked at, **before twenty get poured into an untested layout.** Same rule the brand book was built under, and it caught four real defects there.
 
+> **The month's actual content is now specified asset by asset in [[Content Plan]] §5** — the 2 animations, the 6 animated stills, the 12 graphics and the story rotation, with the giveaway taking five of the twelve graphics.
+
 **Week 1 — the spine**
 - The giveaway platform: lockup with its prize slot, slogan, song. This is the campaign's identity and everything else hangs on it.
 - The month-2 content calendar drafted, so it can be delivered before month 2 rather than during it.

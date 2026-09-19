@@ -75,7 +75,7 @@ Timeline: **3 weeks minimum** from whichever gate closes last.
 - [x] **Colour and Type Kit — DELIVERED 18 Sep** as `Alex Foods - Design System v1.1.pdf`, 19 pages. Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
 - [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material. **Scope moved on 19 September:** the client briefed **three** giveaway campaigns on two off-platform mechanics, and the song was written against one. See [[Giveaway Programme]].
-- [ ] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins.
+- [~] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins. **Strategy and month 1 drafted 19 Sep in [[Content Plan]]**, including the three-month arc and the month-3 engagement goal. Months 2 and 3 are structured but deliberately not scripted, because the contract delivers each calendar before its own month and month 1's baseline is what should shape month 2.
 - [ ] **Animation and Shooting Recipe** — written specs followed on every shoot: camera angle, lighting, background, product framing.
 - [ ] **Google Business Profile Setup** — create and verify the listing: address, hours, categories, contact details, photos.
 - [ ] **Local SEO** — business data and keywords tuned to rank inside Alexandria and surrounding areas.

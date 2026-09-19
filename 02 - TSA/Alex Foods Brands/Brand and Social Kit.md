@@ -87,6 +87,8 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 >
 > **Neither is wrong as shipped**, because both facts arrived after v1.2 rendered. But the mix is a governance statement and it is now incomplete. **It gets corrected in the next version of the kit, not silently**: most likely by taking the giveaway out of Product's 40 and naming it, so the split reflects what the brand actually does. **The PDF in this folder does not yet say any of this** — do not describe it as though it does. See [[Giveaway Programme]].
 
+> **A second thing to check against this page, found 19 September: the posting rhythm and the contract's production quantity have never been reconciled.** The rhythm on page 4 asks for roughly **84 slots a month**; the contract produces **20 original assets**. Taking Stories out as cheap and repurposed still leaves ~54 feed and Reel slots. **It only closes if every asset cross-posts about 2.7 times with no platform-native variation** — which also means Facebook, the platform this page deliberately weights up, receives Instagram content verbatim. Not wrong, but it has zero slack, and the client's winner footage is what creates it. Worked through in [[Content Plan]] §3.
+
 **Facebook is weighted higher than an agency would normally weight it.** BeBo and AlRawy talk to mothers, and in Egypt that audience is on Facebook. Copying a Reels-first split off TSA's own kit would have quietly aimed the client's spend at the wrong platform.
 
 ## 4. Where the copy came from

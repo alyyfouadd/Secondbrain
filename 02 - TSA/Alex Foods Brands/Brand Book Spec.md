@@ -108,7 +108,7 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 | 05 | Type system | 7 | 2 (part 2) |
 | 06 | Logo use | 5 | 2 (part 3) |
 | 07 | Brand voice | 10 | 1 |
-| 08 | Slogans and the giveaway song | 4 | 4 |
+| 08 | Slogans and the giveaway song | 4–6 | 4 |
 | 09 | Social pages setup | 5 | 3 |
 | 10 | Animation and shooting recipe | 6 | 6 |
 | 11 | Content calendar | 4 | 5 |
@@ -116,6 +116,8 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 | 13 | Local SEO — Alexandria | 5 | 8 |
 | 14 | Governance and version control | 2 | — |
 | 15 | Sign-off | 1 | — |
+
+> **§ 08 grew on 19 September.** Four pages was costed against a single giveaway. The client's actual programme is **three campaigns, two off-platform entry mechanics and a named hero product** ([[Giveaway Programme]]). The section now has to carry the giveaway platform — the lockup with its prize slot, the song with its swappable prize line, the two mechanics drawn so a designer understands that **entry is a scan, not a comment** — which is nearer 6 pages than 4. **It does not need its own section.** Adding a fourteenth section for one client campaign would be building the book around this month instead of around the brand.
 
 ### The pages that carry the weight
 
@@ -152,4 +154,4 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 
 ---
 
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[TSA]]
+**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Giveaway Programme]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[TSA]]

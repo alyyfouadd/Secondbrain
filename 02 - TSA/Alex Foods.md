@@ -72,9 +72,9 @@ Defines what Alex Foods looks like, how it speaks, and where it appears, written
 Timeline: **3 weeks minimum** from whichever gate closes last.
 
 - [~] **Brand Voice Guide** — **drafted 18 Sep in [[Brand Voice Guide]]**, four brands not three. One voice and four tones, words in and out, sentence length and emoji per brand, the never-say list, and the comment-reply procedure with the complaint script. Only the house voice section is open, pending the "Alex" answer.
-- [x] **Colour and Type Kit — DELIVERED 18 Sep** as `Alex Foods - Design System v1.0.pdf`, 19 pages. Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
+- [x] **Colour and Type Kit — DELIVERED 18 Sep** as `Alex Foods - Design System v1.1.pdf`, 19 pages. Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
-- [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material.
+- [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material. **Scope moved on 19 September:** the client briefed **three** giveaway campaigns on two off-platform mechanics, and the song was written against one. See [[Giveaway Programme]].
 - [ ] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins.
 - [ ] **Animation and Shooting Recipe** — written specs followed on every shoot: camera angle, lighting, background, product framing.
 - [ ] **Google Business Profile Setup** — create and verify the listing: address, hours, categories, contact details, photos.
@@ -92,7 +92,8 @@ The monthly retainer that executes what the Foundation defined. These quantities
 - [ ] **1 × Content Calendar** — same format as the Foundation's, for the new month, delivered before that month starts.
 - [ ] **GBP + Local SEO maintenance** — update listing data, posts and photos; track local search visibility in Alexandria and surroundings.
 - [ ] **Paid Campaign Management** — campaign build, audience targeting, performance monitoring and in-flight optimisation. **Media spend does not pass through TSA** — the client pays the platforms directly.
-- [ ] **1 × Giveaway slogan and campaign lockup** — the campaign slogan and the fixed visual treatment carried across every giveaway asset.
+  > **And the giveaway breaks the measurement half of this.** Entry is a QR scan on a pack in a shop, which Meta cannot see. Unless the QR destination is instrumented, these campaigns can only be optimised toward reach, engagement or clicks, and TSA cannot evidence a single entry it drove. **Settle this before the first pound of spend.** [[Giveaway Programme]] §3.
+- [ ] **1 × Giveaway slogan and campaign lockup** — the campaign slogan and the fixed visual treatment carried across every giveaway asset. **One of each is what the contract buys, and the client is running three campaigns.** The answer is one lockup with a swappable prize slot, not three builds. [[Giveaway Programme]] §7.1.
 
 ### How a month runs
 1. **Calendar** — arrives before the month begins.
@@ -128,6 +129,16 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 - [ ] Google account for the Business Profile
 - [ ] GBP business details: address, opening hours, categories, phone
 
+**And five more arrived as dependencies on 19 September**, created by the giveaway brief rather than listed in the contract. They are not contractual materials, but every one of them blocks work the client is asking for:
+
+- [ ] **The school campaign's real dates**, including the actual start of the school year. The client's number one priority has a deadline nobody on TSA's side has been told.
+- [ ] **Where the QR code on the back of the pack actually goes.** The live URL, or confirmation that nothing is built.
+- [ ] **The coupon artwork** — and whether TSA is being shown it or asked to rebuild it.
+- [ ] **Written permission to publish winner photos and videos.** Many winners are children, and consent to be photographed is not consent to appear in a paid ad.
+- [ ] **The giveaway's facts in writing** — prize counts, draw method, how winners are announced. Without them the comment policy cannot answer the three most-asked questions on a live giveaway.
+
+Full brief and the decisions it forces: [[Giveaway Programme]].
+
 ---
 
 ## Terms and conditions — 11 clauses, applying to both stages
@@ -150,4 +161,6 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 - **Has the signed acceptance page come back, and who is the named approver?** Still open, and now the most exposed item on the job: the clause 11 exception means work starts without it. Clause 3 makes that one person the only voice whose notes count, and clause 4's "a delivery matching the agreed brief counts as delivered" has nothing to lean on until a named approver exists.
 - **Which of the seven client materials have arrived?** Unchanged by the payment exception, and now the only gate still holding. This list, not the calendar, is the real schedule driver.
+- **Is TSA producing anything retailer-facing?** The giveaway has a trade track — retailers winning through a coupon in the carton — and the signed scope is a social contract end to end, with no trade deliverable in it. If the answer is yes, it is clause 7 work and the voice guide needs a register it does not have.
+- **Does the school campaign get TSA creative at all?** Its deadline lands before the Foundation is delivered, and the giveaway lockup is a Package A item that has not started. On the current plan the client's biggest push runs with nothing from TSA on it. [[Giveaway Programme]] §2.
 - **What exact date was the 10,000 invoice issued?** The due date is set to 26 September; clause 11's 4-day term implies an 18 Sep issue date would have been due the 22nd. The gap is deliberate but should be recorded accurately.

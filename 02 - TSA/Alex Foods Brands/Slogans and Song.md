@@ -7,6 +7,8 @@ type: guide
 
 **Brand Foundation deliverable 4 of 8** for [[Alex Foods]]: brand slogans plus the giveaway song, written and ready for posts, ads and campaign material. This note is the method and the working file. Build sequence in [[Foundation Roadmap]], brand facts in [[Alex Foods Brands]].
 
+> **Updated 19 September 2026.** The client briefed the actual promotional programme and it is **three campaigns on two off-platform mechanics**, not the single giveaway §5 was written against. The brief, the mechanics and the decisions it forces are in [[Giveaway Programme]]. §2 and §5 below are rebuilt on it.
+
 ---
 
 ## 1. The correction that has to come first
@@ -39,8 +41,11 @@ The single most common failure in food branding: the person who eats it and the 
 | AlRawy | household | the person shopping for it | **the buyer**, and it is the only one of the four that is genuinely adult-facing |
 | 2MAN | older kid | the kid, mostly own pocket money | **the kid** — which is why عيش جو المغامرة is pitched where it is |
 | POLEKA | young child | mother, under pressure from the child | **the child**, deliberately — POLEKA's job is to be asked for by name |
+| **The giveaway, trade track** | n/a | **the retailer** | **the shopkeeper, and none of the four tones fit him.** See below |
 
 Get this wrong and the line is homeless. It is not a stylistic choice, it decides the register, the vocabulary and whether the line is even in colloquial or standard Arabic.
+
+> **The fifth row is new on 19 September and it is a hole, not a row.** The client's giveaway has a **trade track**: retailers win through a coupon inside the carton. A wholesaler deciding how many cartons to stock is not a mother, a buyer or a child, and every tone in [[Brand Voice Guide]] §3–§6 is written for one of those three. **There is no register in this system for talking to the trade.** Whether that gap needs filling depends on whether TSA is producing anything retailer-facing at all, which is question 8 in [[Giveaway Programme]] §9 and is Aly's to answer.
 
 ## 3. The feeling, per brand
 
@@ -87,20 +92,49 @@ Run the "So What?" ladder until it stops. This is the hard part of the job and i
 
 The scope asks for it inside the same deliverable, but it obeys campaign rules, not brand rules. **Here the direct-response levers come back on:** urgency is allowed, specificity is allowed, a deadline is allowed, because a giveaway opens and closes.
 
-What it has to do:
+> **Rebuilt 19 September 2026.** This section used to assume one giveaway. **There are three**, running to a priority order the client set, and the two entry mechanics are a **coupon inside the carton** for retailers and a **QR code on the back of the pack** for consumers. Full brief in [[Giveaway Programme]].
 
-- **Carry the brand name inside the hook**, not in a line before or after it. A song that can be sung without naming the product is a gift to the competition.
+### What the song has to do
+
+- **Carry the brand name inside the hook**, not in a line before or after it. A song that can be sung without naming the product is a gift to the competition. **And the name is now decided: BeBo leads the advertising**, so the hook carries BeBo.
 - **Sit on a meter that can be chanted**, because it will be performed badly by children, which is the point and the distribution.
 - **Name the mechanic in the second line.** What you do to enter, in the song, or the song does no work.
-- **Be written, not produced.** The scope says "written and ready for posts." Production is not in the Foundation and is not in Package A, so if the client expects a recorded track that is a clause 7 quote.
+- **Be written, not produced.** The scope says "written and ready for posts." Production is not in the Foundation and is not in Package A, so if the client expects a recorded track that is a clause 7 quote. **Unchanged by the new brief.**
 
-The campaign lockup (the fixed visual treatment carried across every giveaway asset) is a **Package A** line item, not a Foundation one. It gets designed once the colour and type system exists, and it is the thing that stops four brands running four different-looking giveaways.
+### The line that changes everything: the mechanic is a scan, not a comment
+
+**Nobody enters this giveaway on social.** They scan a QR code on the back of a packet, or a shopkeeper finds a coupon in a carton.
+
+So the second line of the song is not *"comment and tag a friend."* It is **"turn the packet over and scan."** That is a physical instruction, it is unusual in a jingle, and it is the whole reason the song exists: **the song's job is to put a hand on a packet.** Written against the wrong mechanic it is a pleasant tune that drives nothing, and nobody would notice for a month.
+
+It also means the song has to survive being heard by someone **who is not holding the product yet** — in a feed, on a phone, nowhere near a shop. So the mechanic line has to work as a future instruction ("when you get one, look at the back"), not just a present one.
+
+### One song, or three — **recommend one, with a prize line that swaps**
+
+Three campaigns, one deliverable. The contract buys the song, singular.
+
+**Write one song. Make the prize a single swappable line.** Hook, mechanic, prize, hook. School gifts sit in the prize line now, the bike and scooter sit in it next, Umrah sits in it when the client takes it off the shelf. The hook and the mechanic never change, which is what turns three campaigns into one recognisable thing instead of three strangers.
+
+**And write the prize line to a fixed syllable count**, so a swap is a swap and not a rewrite of the meter. That is a two-minute decision now and a rebuild later.
+
+**The exception, and decide it while it is cheap: Umrah does not go in this song.** A pilgrimage and a pencil case cannot share a chant sung by children, and forcing them to will read as crass in a way that is very hard to walk back. Umrah gets its own treatment, quiet and plain, closer to AlRawy's restraint than to anything in this section. It is parked by the client right now, which is exactly when to settle it.
+
+### The lockup
+
+The campaign lockup (the fixed visual treatment carried across every giveaway asset) is a **Package A** line item, not a Foundation one. It gets designed once the colour and type system exists — **and both now do**, so the input is no longer missing.
+
+**It has a prize slot**, for the same reason the song has a prize line, and it carries the Alex Foods master mark **because BeBo's pack does not** ([[Giveaway Programme]] §4).
+
+**Whether it ships early, ahead of the school campaign, is an open decision and it is not a free one** — it is a Package A item being handed over before Package A starts, on a job that has already waived one payment gate. Argument both ways in [[Giveaway Programme]] §7.2.
 
 ## 6. What this is waiting on
 
 - **The Brand Voice Guide.** Hard dependency, see §4.1.
-- **What "Alex" is.** If there is a house layer, there may be a fifth line sitting above the four, and every brand line has to leave room for it. If there is no house, each brand line stands alone. Same unanswered question that shapes [[Brand Book Spec]] §7.
+- ~~**What "Alex" is.**~~ **Closed 18 September: Alex Foods is the master brand**, the four are ranges beneath it. There is a house layer, so every brand line has to leave room for the master line above it, and the master line is part of this deliverable rather than a possibility.
+- **The school campaign's dates**, before a word of the giveaway copy is written. Urgency is allowed in campaign copy and it is worthless without the actual deadline. [[Giveaway Programme]] §9.
+- **Where the QR code goes.** The mechanic line in the song describes an action, and nobody on TSA's side knows what happens after the scan.
+- **Aly's call on one platform versus three**, and on the trade register. [[Giveaway Programme]] §7.1 and §9.
 
 ---
 
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Marketing]]
+**Related:** [[Alex Foods]] · [[Giveaway Programme]] · [[Foundation Roadmap]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Marketing]]

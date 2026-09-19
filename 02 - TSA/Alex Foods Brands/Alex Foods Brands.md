@@ -22,6 +22,7 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 - [[Colour System]] — Foundation deliverable 2, part 1. **The governed system**: 31 sampled values rationalised to 18 masters, ramps, neutrals, every contrast pairing computed, the SKU map, and the three packaging defects the maths exposed.
 - [[Type System]] — Foundation deliverable 2, part 2. Wordmarks as artwork, the Plex family and why, weights, print and social scales, and the bilingual rules.
 - [[Brand Voice Guide]] — Foundation deliverable 1, drafted. One voice and four tones beneath one master, the words each range uses and avoids, sentence length and emoji policy per range, the never-say list that keeps a food page out of trouble, and the full comment-reply procedure including the complaint script. **§2 rebuilt 18 Sep on the umbrella model.** One block outstanding: Alex Foods' own tone, which needs Aly's ear.
+- [[Giveaway Programme]] — **the client's actual promotional programme, briefed 19 September.** Three campaigns on a priority order the client set, two entry mechanics that both happen off social, BeBo named as the hero product, what the contract does not buy, and the decisions it forces. **Read it before touching deliverable 4, the calendar or any paid campaign.**
 - [[Slogans and Song]] — Foundation deliverable 4. Why a slogan is not a headline, who each brand is actually talking to, the feeling behind each of the four, the six tests a line has to pass, and why the giveaway song plays by campaign rules instead.
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
@@ -62,6 +63,8 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 - **No Alex seal on this one.**
 
 **5 SKUs:** Peach · Mango · Apple · Cola · Pineapple
+
+> **BeBo is the hero product, named by the client on 19 September:** *«اهم منتج هنركز عليه في الاعلانات هو منتج البيبو»*. The advertising leads with this range. **It also collapses the SKU-spread problem below** — 12 monthly graphics across BeBo's 5 SKUs is the shape the contract was priced for, rather than spread across eighteen. **And note the tension:** BeBo is one of the two ranges with no Alex seal on the pack, so on the most-seen campaign the master brand has to be carried by the layout rather than by the product. See [[Giveaway Programme]] §4.
 
 **Approximate colours** *(eyeballed, must be confirmed)*
 | | |
@@ -164,7 +167,7 @@ So the conclusion is firm rather than cautious: **every route the artwork has ta
 
 **And "what is Alex" closed on 18 September: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it. It **does** have a consumer voice and it leads — one Alex Foods presence rather than four brand pages. Still no house palette, now by architectural choice rather than endorsement etiquette: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. The seal's absence on BeBo and POLEKA is **a rollout that has not caught up**, not a tier. Consequences written up in [[Brand Voice Guide]] §2 and governed in [[Colour System]] §2.
 
-One real client answer remains:
+One real client answer remains from the brand read, and **five more arrived with the giveaway brief on 19 September** — see [[Giveaway Programme]] §9:
 
 1. **Do they hold the rights to the "Cola Cola" artwork?** See the trademark flag below. TSA runs the paid campaigns, so this is TSA's exposure, not just theirs.
 

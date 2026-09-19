@@ -74,6 +74,10 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 | **20%** | Moment · اللحظة | The lunchbox, the hot afternoon, the family jug. The occasion, never a claim about it. |
 | **10%** | Company · الشركة | Alex Foods itself. No age claim until the client confirms one. |
 
+> **Drift recorded 19 September, not yet fixed in the PDF.** The client briefed a live giveaway programme — three campaigns, running now — and **this mix has no giveaway pillar.** The client's single most active marketing activity is not represented in the content plan TSA handed them. It also has no BeBo weighting, and the client has since named BeBo as the hero product for advertising.
+>
+> **Neither is wrong as shipped**, because both facts arrived after v1.2 rendered. But the mix is a governance statement and it is now incomplete. **It gets corrected in the next version of the kit, not silently**: most likely by taking the giveaway out of Product's 40 and naming it, so the split reflects what the brand actually does. **The PDF in this folder does not yet say any of this** — do not describe it as though it does. See [[Giveaway Programme]].
+
 **Facebook is weighted higher than an agency would normally weight it.** BeBo and AlRawy talk to mothers, and in Egypt that audience is on Facebook. Copying a Reels-first split off TSA's own kit would have quietly aimed the client's spend at the wrong platform.
 
 ## 4. Where the copy came from
@@ -107,4 +111,4 @@ Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts 
 
 ---
 
-**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Colour System]] · [[Brand Voice Guide]] · [[Brand Book Spec]] · [[TSA Brand System]] · [[Foundation Roadmap]]
+**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Giveaway Programme]] · [[Colour System]] · [[Brand Voice Guide]] · [[Brand Book Spec]] · [[TSA Brand System]] · [[Foundation Roadmap]]

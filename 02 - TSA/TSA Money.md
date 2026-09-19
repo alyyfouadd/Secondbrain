@@ -43,6 +43,8 @@ The 42,000 is **one paid month of Package A that has not been delivered.** Under
 - Paid campaign management
 - 1 giveaway slogan and campaign lockup
 
+> **Watch this line, 19 September.** The client is running **three** giveaway campaigns, and the contract buys **one** slogan and **one** lockup per month. Held as one platform with a swappable prize slot, it stays inside the priced month. Allowed to become three builds, or to pull in coupon artwork, a QR landing page or retailer-facing material, it is uncosted work on a month that is already paid for. **This is the likeliest place the scope quietly grows on this contract.** See [[Giveaway Programme]] §5.
+
 In plain terms: **it is not profit, it is an advance.** Some of it has to survive long enough to pay for producing that month. How much is the one number nobody has worked out yet, and it is the gate on everything below.
 
 **Ad spend is not a TSA cost.** The scope is explicit — media spend does not pass through TSA, the client pays the platforms directly. Never let it land in this pot or in these numbers.

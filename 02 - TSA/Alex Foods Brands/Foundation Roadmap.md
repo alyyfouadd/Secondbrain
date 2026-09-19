@@ -9,6 +9,8 @@ The sequenced build plan for the 8 Brand Foundation deliverables owed to [[Alex 
 
 **Clock:** work started 18 September 2026 under the clause 11 exception. 3 weeks minimum puts delivery around **9 October 2026**, which sits before the second Foundation instalment on 8 October — so the money and the delivery line up.
 
+> **And on 19 September a deadline arrived that this plan does not accommodate.** The client's number one priority is a **school-gifts giveaway timed to the start of the school year**, which lands before 9 October. Every asset it needs sits behind Foundation delivery and Package A sign-off, both of which close after the campaign is over. The collision, and the options, are in [[Giveaway Programme]] §2 and §7.2. **It is the most time-sensitive open decision on the job and it is Aly's.**
+
 ---
 
 ## The correction this plan is built on
@@ -69,6 +71,8 @@ Not a list of swatches. A governed system:
 Needs the voice first. 2MAN's عيش جو المغامرة already works and gets built around, not replaced. The song is written, not produced — the scope says "written and ready for posts."
 **Method, audience map and the four feeling ladders are written up in [[Slogans and Song]].** The headline rules from [[Marketing]] do not transfer wholesale: a slogan has to survive two hundred repetitions, which is a test no headline ever faces.
 
+> **Reordered in practice on 19 September, and this is the real change to the build order.** The song is no longer a Phase 2 item that can wait its turn: it belongs to a live campaign with a deadline, and its mechanic line describes **a QR scan on the back of a pack**, not a comment. **Two things it now needs that the plan never listed: the campaign dates, and where the QR code goes.** Neither is writing work, both are client answers, and the song cannot be finished without them. See [[Giveaway Programme]].
+
 **5. Animation and Shooting Recipe** *(deliverable 6)*
 Independent of everything and **should ship early regardless of sequence**, because it is the document that tells the client how to shoot the product photos TSA is still waiting on. It unblocks them.
 
@@ -120,6 +124,7 @@ Ranked by what it blocks.
 5. **Google account and GBP details** — blocks the GBP deliverable.
 6. **POLEKA confirmed in writing, and the Alex answer papered with it** — same message, same clause 4 exposure, cheap to close.
 7. **Rights confirmation on the cola artwork** — TSA runs the paid campaigns, so it is TSA's ad account carrying it.
+8. **The giveaway programme's own five** — school campaign dates, the QR destination, the coupon artwork, written permission to publish winner media, and the giveaway facts in writing. **Added 19 September and none of them are contractual materials**, which is exactly why they will be missed: they block work the client is actively asking for and no list was watching them. [[Giveaway Programme]] §9.
 
 ---
 

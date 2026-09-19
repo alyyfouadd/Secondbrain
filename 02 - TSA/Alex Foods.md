@@ -76,7 +76,7 @@ Timeline: **3 weeks minimum** from whichever gate closes last.
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
 - [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material.
 - [ ] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins.
-- [ ] **Animation and Shooting Recipe** — written specs followed on every shoot: camera angle, lighting, background, product framing.
+- [x] **Shooting and Compositing Recipe — COMPLETE 19 Sep** in [[Shooting and Compositing Recipe]]. *(Was "Animation and Shooting Recipe"; renamed because with AI producing the imagery there is no client shoot to write specs for.)* Bilingual, Arabic leading. **The governing rule is that the scene is generated and the product never is**, so every pixel of product in every image is the client's own artwork. Ready to render as its own short PDF ahead of the book.
 - [ ] **Google Business Profile Setup** — create and verify the listing: address, hours, categories, contact details, photos.
 - [ ] **Local SEO** — business data and keywords tuned to rank inside Alexandria and surrounding areas.
 

@@ -1,3 +1,8 @@
+---
+status: active
+project: tsa
+type: reference
+---
 # logo-vector — the real Alex Foods master seal
 
 **Received 19 September 2026. This is the first genuine source artwork the client has ever sent**, and it closes material #2 for the master mark. Everything before it was a photograph of a file somebody had open.
@@ -34,7 +39,7 @@ There is no `pdfinfo`, `pdftocairo`, `qpdf`, `mutool`, `inkscape` or PyMuPDF in 
 
 > **The trap, and it nearly shipped: the first conversion dropped the two stroked paths.** It only handled `f`, so 114 of 116 paths came through and the render looked perfectly convincing. Those two strokes are **white, 1.22 pt**, and they are the crisp white keyline between the red disc and the blue ring and around the seal's outer edge. Without them the red butts straight into the blue and the mark looks subtly cheaper, in a way that is very hard to spot unless you put the two side by side.
 >
-> **The method that caught it:** counting paint operators in the source (`f` × 114, `S` × 2) against paths in the output, instead of looking at the render and being satisfied. Same family as the four CSS defects in `design-system/README.md` — **it did not error and it did not look broken.**
+> **The method that caught it:** counting paint operators in the source (`f` × 114, `S` × 2) against paths in the output, instead of looking at the render and being satisfied. Same family as the four CSS defects in `design-system/design-system.md` — **it did not error and it did not look broken.**
 
 Anything else converted out of a PDF here gets the same check: count the operators, do not trust the picture.
 

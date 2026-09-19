@@ -37,6 +37,9 @@ I sold my laptop, so right now I work entirely from [[Bassem]]'s iPad. That's no
 - **Omar Elawady** — I owe them 1,000 EGP.
 - **Torgo** — I owe them 500 EGP.
 - **Fares Hammam** — I owe them 1,000 EGP.
+- **Mahmoud** — graphic designer. Produces the 12 monthly graphics for [[Alex Foods]]. A supplier, not an employee, and one half of TSA's cost of delivery.
+- **Mohamed** — works with [[Alex Foods]]. **The named approver under clause 3**, so his are the only notes that count on a delivery. Role and contact still needed for the signed page.
+- **A CGI animator** — not yet found as of 19 September 2026. Would own the 2 animations and 6 animated stills every month. **Eight of twenty monthly deliverables rest on this role being filled.**
 
 **People notes: Bassem only.** Everyone else lives as a line in this section and nothing more. Don't create a note for a person, and don't wikilink their name, unless I say so — a note per name I once mentioned is clutter, and unresolved links make the graph lie about what the vault actually holds. If one of them becomes someone the work genuinely revolves around, I'll ask for the note.
 
@@ -57,14 +60,18 @@ This is my fourth agency. The difference this time is that it runs on direction,
 01 - Daily Notes    <- Dated logs of what got done, one file per day, in month subfolders
 02 - TSA            <- The Standard Agency: clients, offers, positioning, scaling
   TSA Brand/         <- the agency's own locked identity: colour, type, tagline, logo
-  Alex Foods Brands/ <- the client's four brands, as read off their packaging
+  Alex Foods Brands/ <- EVERYTHING for the first client: contract, scope, brands, build, assets
+    design-system/   <- the generators that build the client's PDFs
+    logo-vector/     <- the client's real Illustrator master seal
+    logos-transparent/ <- the four range marks, cut out on transparency
+    packshots/       <- product mockups keyed to transparency
 03 - Personal       <- Life outside the agency: money, health, training, things I'm buying
 04 - Archive        <- Completed projects and old notes
 05 - Resources      <- Cross-project reference material, templates, Jobs
   Marketing/        <- jaredrhod's marketing playbook, read before any marketing work
 ```
 
-**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Alex Foods Brands]] (inside TSA)
+**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Alex Foods Brands]] (inside TSA) · [[design-system]] · [[logo-vector]] · [[logos-transparent]] · [[packshots]] (all inside Alex Foods Brands)
 
 That line is not decoration. The map above is a code block, so it creates no links — without these, the only thing pointing at the folder indexes is whichever daily note happened to mention them, which makes a frozen log the hub of the vault instead of this file. This index is the hub. Every folder is one step away from it, and a new folder's index gets added to this line in the same pass that creates it.
 
@@ -191,6 +198,8 @@ When creating or editing a note, add `wikilinks`:
 ### Renaming and moving notes
 
 - **Moving** a note to another folder is safe — wikilinks resolve by note name, so a folder change doesn't break `[[links]]`. Update both folders' indexes in the same pass.
+> **A real example of why this rule exists, 19 September 2026.** Four asset folders each carried an index called `README.md`, and the root vault-setup doc is also `README.md`. **Three `[[README]]` wikilinks all meant the root one, and Obsidian had five files to choose from.** The link resolved to whichever it felt like. The four asset indexes were renamed to match their folders — `design-system.md`, `packshots.md`, `logos-transparent.md`, `logo-vector.md` — which was safe only because nothing wikilinked them; they were referenced by path in prose, and every one of those references was updated in the same pass. **`README.md` at the root keeps its name and `[[README]]` now resolves to exactly one file.**
+
 - **Renaming** a note (changing its name) breaks the `[[links]]` pointing to it unless the rename is done **inside the Obsidian app**, whose "auto-update internal links" setting repairs them automatically (already switched on in `.obsidian/app.json`). A shell `mv`, or any rename outside the app, does not. So do renames in the app; if the AI must rename a file directly, it then has to find and fix every `[[old name]]` reference by hand.
 
 ### Checkpoint Persistence

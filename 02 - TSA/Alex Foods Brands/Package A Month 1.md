@@ -43,34 +43,56 @@ From the signed scope, repeating every month for the term:
 
 **Twenty assets, eight of them motion.** That is the real shape of the workload and it is worth staring at before agreeing a date.
 
-## 3. The production rail — tested 19 September, not assumed
+## 3. Who actually makes this — corrected 19 September
 
-The document rail already exists in `design-system/`: Python builds HTML, Chromium renders it. **The same rail builds social assets** — a 1080 × 1350 feed post is an HTML page rendered to PNG instead of an A4 page rendered to PDF. That is not a theory; `kit.py` already renders post mockups this way.
+**TSA is not Aly and an AI doing everything.** The model as of 19 September:
 
-**What was tested on 19 September**, end to end, using the real vector seal and the client's own BeBo range:
+| Who | Does | State |
+|---|---|---|
+| **Aly** | Scopes the month, writes the content plan, briefs, directs, approves | — |
+| **Mahmoud** | The 12 monthly graphics | **In place**, works with them already |
+| **A CGI animator** | The 2 animations and the 6 animated stills | **Being found right now.** Eight assets ride on a person who does not exist yet |
+| **TSA** | **Posts.** The account is run by TSA, not handed to the client | Needs Meta admin, which has not arrived |
+| **Jarvis / this vault** | The documents, the system, the specs, the briefs | — |
 
-- A parameterised HTML frame that takes a time value `t` from 0 to 1 and positions every element deterministically at that instant.
-- **60 frames at 1080 × 1350 rendered in 54 seconds.** Arabic set correctly in IBM Plex Sans Arabic, the vector seal crisp at any size, packs composited on their flavour field, the caption taken from [[Brand Voice Guide]] §3.
+> **This answers a question §6 raised and could not settle: does TSA post, or hand over files? TSA posts.** Which makes **Meta admin access critical-path, not a nice-to-have** — without it there is no delivery at all, only a folder of finished assets nobody can publish.
+>
+> **And it changes what the comment policy costs.** [[Brand Voice Guide]] §8 sets a two-hour response on a product complaint in working hours. If TSA runs the account, **that is TSA's clock**, and somebody has to actually be there. It is a staffing commitment wearing the clothes of a policy.
 
-> **So the answer to "what do the animations get made in" is: this, and it costs nothing.** That question has been sitting open in [[Active Priorities]] as the thing gating every visual deliverable. It is now answered for **stills and graphics outright**, and answered for **motion with one gap**, below.
+### What this changes about the whole job
 
-### The gap, stated honestly
+**TSA's product is no longer execution. It is direction, specification and the system.** That is what the agency was always supposed to be, and it is now literally true: Aly decides, two specialists execute, TSA publishes.
 
-**The ffmpeg available here is Playwright's minimal build.** It carries **VP8 and WebM only** — no H.264, no MP4 — and its pipe protocol is broken, so it cannot even be fed a frame sequence in the normal way.
+**The consequence nobody has costed: the brief is now the deliverable.**
 
-**Frames are not the problem. Encoding is.** Three routes, none of them tested yet:
+A content calendar says *"14 Oct, feed post, BeBo peach, giveaway."* **That is not enough for a designer to work from and it is nowhere near enough for an animator.** If Mahmoud and the CGI animator execute off the plan, every question they cannot answer from the brief comes back as a WhatsApp message, and twenty assets a month generates a lot of WhatsApp.
 
-1. **A full ffmpeg in the session.** Most likely fine, unblocks MP4 directly, costs nothing but needs installing and verifying.
-2. **Encode on the iPad.** The frames come down through the repo and any video app assembles them. Works, but it puts a manual step into a twenty-asset month, eight times.
-3. **Deliver WebM.** Facebook generally accepts it; **Instagram is much less reliable and I would not stake a paid campaign on it.** Not recommended without checking.
+**Each asset needs a brief carrying, at minimum:** the job it does, the range and the exact SKU, the field colour by name from [[Colour System]], the pack file to use and where it lives, the Arabic copy written out in full and final, the format and pixel size, where the seal goes and on what, the deadline, and the file name to deliver under.
 
-**Route 1 first, and it wants testing before month 1 is agreed, not during it.**
+**Build that template once and the month is a filled-in table. Skip it and the month is a conversation.** It is the single highest-leverage thing to make before month 1 starts, and it is also the thing that turns this contract into a repeatable system rather than one good month.
 
-### The design rules the test surfaced
+### What TSA still builds itself: the documents
 
-- **The seal needs a white disc behind it on any coloured field.** Dropped straight onto BeBo peach it loses its edge, exactly as the contrast table in [[Colour System]] §11 predicts. The packaging already solves this — AlRawy sets the seal in a white roundel. **Copy the pack, do not invent.**
-- **Build three or four template families, not twenty bespoke layouts.** Twelve graphics from a filled template is a day. Twelve original designs is not, and it is how one person on an iPad drowns in month two.
-- **Every template renders from data.** Flavour, pack, caption, range. Changing a month means changing a list, not a layout.
+The rail in `design-system/` builds the PDFs — the Design System, the Brand and Social Kit, the brand book. **That does not change and it is Aly's own ask:** the social kit, the logo usage rules, and the file packaged professionally.
+
+**Tested 19 September and worth keeping even though people now do the assets:** the same rail renders social layouts. 60 frames at 1080 × 1350 in 54 seconds, Arabic correct in Plex Sans Arabic, the vector seal crisp, real packs composited on their flavour field.
+
+**It is no longer the production route for the 12 graphics. It is better used for three other things:**
+
+1. **Template specimens inside the kit** — showing Mahmoud exactly what a correct post looks like, rendered rather than described.
+2. **A fallback** if a supplier drops out mid-month, which on a month that is already paid for is worth having.
+3. **Proving a spec is buildable before it is handed to somebody.** A layout that cannot be rendered is a layout that will come back as questions.
+
+*Encoder note, since it may still matter: the only ffmpeg here is Playwright's minimal build — VP8 and WebM, no MP4, broken pipe protocol. **Irrelevant if the CGI animator delivers finished video**, which is the plan. Recorded so nobody rediscovers it.*
+
+### The questions the new model creates, and none have answers
+
+1. **What do Mahmoud and the animator cost?** Per asset, per month, or per project. **This is the cost of delivery — X — and it stopped being a mystery the moment it got names.** See [[TSA Money]].
+2. **Does the animator exist yet?** Eight of twenty assets, on a paid month, resting on an unfilled role.
+3. **Who owns the working files?** Clause 5 keeps raw and project files as TSA property. **If Mahmoud makes them, that has to be agreed with Mahmoud**, not just written in the client's contract.
+4. **How many revision rounds with the suppliers?** The client gets one. If Mahmoud gets unlimited, the margin is wherever Mahmoud stops.
+5. **File naming and handoff.** Twenty assets a month, three months, two suppliers, one poster. Without a convention agreed up front this becomes unmanageable in week three, not week one.
+6. **Does Mahmoud work to the brand system?** He needs the colours, the type, the templates, the safe areas and the export settings. **Which means the kit's audience just changed** — see §9.
 
 ## 4. The thing that actually blocks production, and it is not what the notes said
 
@@ -86,6 +108,12 @@ The vault has said for days that the blocker is "product photography." **That is
 | `packshots/single/2man-*.png` | ~830 × 175 | No |
 
 **Every single-pack cut-out — the thing that goes in a post as the hero — is far too small.** A BeBo sachet at 199 × 251 blown up to fill a 1080-wide frame is mush. They were sliced out of iPad screenshots, which was the right call at the time and is not good enough for production.
+
+> **Updated 19 September: mockup PDFs exist for the packaging AND for the gifts.** Aly has them and they are too large to send through chat. **That is very likely where the high-resolution pack artwork already is** — the same thing happened with `bebo_mucup.pdf`, which yielded the 3645 × 1515 transparent BeBo range. **Getting those PDFs into reach is probably the fastest fix to everything in this section**, ahead of any new ask to the client.
+>
+> **Route:** they go to Drive, not into the repo — print-resolution files in git slow every clone on every device forever, and that rule is already set in [[Alex Foods]]. Screen-resolution extracts come into the vault; the originals stay in cloud storage with this note recording where.
+>
+> **And the gifts mockups matter on their own.** They are the giveaway prizes, and [[Giveaway Programme]] has no artwork of any kind for the campaign that the client ranked first.
 
 **So the ask splits into two, and it has been one item until now:**
 
@@ -136,7 +164,7 @@ Not the client's fault and not fixable by chasing them.
 
 1. **Cost of delivery — X.** Still the largest blank in the vault. Until one month of Package A has a number, no owner's draw is safe or reckless, only lucky. [[TSA Money]].
 2. **The encoder.** §3. Test a full ffmpeg before agreeing a delivery date that contains eight motion pieces.
-3. **The generators have not been rebuilt on the real vector.** `kit.py` and `gen.py` still reference the raster cut-out, still carry the wrong master colour, and still place the seal on navy grounds where its ring reads 1.43:1. **Source-code change, waiting on Aly's go-ahead.** See `logo-vector/README.md`.
+3. **The generators have not been rebuilt on the real vector.** `kit.py` and `gen.py` still reference the raster cut-out, still carry the wrong master colour, and still place the seal on navy grounds where its ring reads 1.43:1. **Source-code change, waiting on Aly's go-ahead.** See `logo-vector/logo-vector.md`.
 4. **Alex Foods' master tone block**, still unwritten, still needs Aly's ear.
 5. **The slogans and the song are not written.** Method only, in [[Slogans and Song]].
 
@@ -171,3 +199,28 @@ Assumes the gates in [[Alex Foods]] have closed and month 1 has actually started
 ---
 
 **Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Giveaway Programme]] · [[Brand Voice Guide]] · [[Colour System]] · [[Brand and Social Kit]] · [[TSA Money]] · [[Slogans and Song]]
+
+---
+
+## 9. What Aly asked for, 19 September — and why the kit's job just changed
+
+**Scope of TSA's own build, in his words: the social kit, the logo usage rules, and the file packaged professionally.** Not the assets. The assets belong to Mahmoud and the animator.
+
+**The thing to get right: this kit now has two audiences, and they want different documents.**
+
+| Reader | Wants |
+|---|---|
+| **The client** | Proof they bought a system. Identity, positioning, what the ranges are, what the pages will look like |
+| **Mahmoud, and the animator** | **To be able to build a correct asset without asking a question** |
+
+The shipped v1.2 serves the first and not the second. A designer opening it cannot find an export size, a safe area, a file-naming rule, or which pack file to use.
+
+**So the kit gains a production layer**, and it is the difference between a nice PDF and a document that actually runs a month:
+
+- **Exact canvas sizes and safe areas** — feed 1080 × 1350, story 1080 × 1920, profile 320 × 320 with the circle marked.
+- **The logo usage rules**, which is Aly's explicit ask and the one section that currently does not exist. Clear space, minimum size, what it goes on, what it never goes on. **All of it now evidenced rather than asserted** — the ring lettering is the legibility floor and turns to mush around 48 px, and the seal only holds on white or Paper because on navy its ring reads 1.43:1. **And the rule the render test found: on any coloured field the seal needs a white disc behind it, exactly as AlRawy's pack already does it.**
+- **Which file to use for what**, by path: `logo-vector/alex-seal.svg` for the master, `logos-transparent/` for the range marks, `packshots/` for product — with the resolution warning attached.
+- **Export settings and a file-naming convention.**
+- **The do-not pages**, shown rather than described, per [[Brand Book Spec]].
+
+> **The trap to avoid: do not turn the client's kit into a production manual.** The client should not be reading export settings. **Two documents, or one document with a clearly separated production section at the back** — and that is a real decision, not a formatting preference. **Aly's call.**

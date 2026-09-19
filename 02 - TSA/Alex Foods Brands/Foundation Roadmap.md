@@ -108,7 +108,7 @@ Colour system, type system, voice guide, slogans, shooting recipe, social spec, 
 ### The one that could become a real cost
 **If the client has no vector or layered source files for the four logos.**
 
-> **Partly resolved 19 September: the master seal arrived as true Illustrator vector.** So the cost risk below now applies to **the four range marks only** — 2MAN and POLEKA are the illustrated 3D lettering, and those are the ones that would be specialist work to redraw. **Nothing in this contract needs them redrawn**, because nothing here is printed. See `logo-vector/README.md`.
+> **Partly resolved 19 September: the master seal arrived as true Illustrator vector.** So the cost risk below now applies to **the four range marks only** — 2MAN and POLEKA are the illustrated 3D lettering, and those are the ones that would be specialist work to redraw. **Nothing in this contract needs them redrawn**, because nothing here is printed. See `logo-vector/logo-vector.md`.
 
 2MAN and POLEKA are custom illustrated 3D lettering. They cannot be retyped and they should not be traced badly. If no source artwork exists anywhere, **redrawing four logos — two of them illustrated — is a specialist job, it is not in the Foundation scope, and it gets quoted separately under clause 7.**
 

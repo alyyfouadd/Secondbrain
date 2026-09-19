@@ -70,7 +70,7 @@ The four ranges do not each carry their own audience from zero. **One presence c
 
 ~~It is a rendered 3D object with gradients and gloss, so it is **placed as supplied and never reconstructed**, exactly like the 2MAN and POLEKA wordmarks.~~
 
-> **Corrected 19 September: the real vector arrived and the seal is flat.** No gradients, no gloss. It scales and prints at any size. **Never retyped or redrawn — that rule stands** — but it is no longer trapped at the resolution it arrived in. **And the rule this creates for every page that uses it: the seal goes on white or Paper and on nothing else.** On navy its ring drops to 1.43:1 and disappears. See `logo-vector/README.md`.
+> **Corrected 19 September: the real vector arrived and the seal is flat.** No gradients, no gloss. It scales and prints at any size. **Never retyped or redrawn — that rule stands** — but it is no longer trapped at the resolution it arrived in. **And the rule this creates for every page that uses it: the seal goes on white or Paper and on nothing else.** On navy its ring drops to 1.43:1 and disappears. See `logo-vector/logo-vector.md`.
 
 ### Where it appears — a rollout, not a tier
 

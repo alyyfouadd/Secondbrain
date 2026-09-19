@@ -53,12 +53,27 @@ In plain terms: **it is not profit, it is an advance.** Some of it has to surviv
 
 ## Cost of delivery — the gap
 
-Not yet known. This is the single most important blank in the vault right now, because until it has a number, no draw can be called safe or reckless, only lucky.
+> **It stopped being a mystery on 19 September, because it got names.** TSA does not deliver this month alone any more: **Mahmoud does the 12 graphics, a CGI animator does the 2 animations and 6 animated stills, Aly directs and TSA posts.** See [[Package A Month 1]] §3.
+>
+> **X is now mostly two invoices.** Not a vague blank — two suppliers with rates that can simply be asked for.
+>
+> | Line | Status |
+> |---|---|
+> | **Mahmoud — 12 graphics/month** | Rate not recorded. **Ask.** |
+> | **CGI animator — 8 motion pieces/month** | **Role not filled yet.** No rate, no person |
+> | Tools and software | Near zero — the documents build on a free rail |
+> | Transfer fees | Small, real |
+>
+> **Both numbers are per month and they repeat three times**, so a rate agreed casually for month 1 is a rate agreed for 126,000 EGP of revenue. **Drawable = 42,000 − X**, and clearing all 23,000 of debt needs X at or under 19,000. **Two suppliers splitting 19,000 a month is the whole question**, and it is answerable this week rather than after the fact.
+>
+> **The risk worth naming: the animator is unfilled and is 8 of 20 assets.** An unfilled role has no rate, so the largest part of X is also the least known — and a scramble hire on a running paid month is how a margin disappears.
+
+Not yet known in total. This is the single most important blank in the vault right now, because until it has a number, no draw can be called safe or reckless, only lucky.
 
 What has to be priced for one month of Package A:
 
 - Software and tools — design, animation, scheduling, whatever the 12 graphics and 8 motion pieces actually get made in.
-- Any freelance or contract help, if I'm not producing all of it myself.
+- **Freelance and contract help — no longer an "if".** Mahmoud and the animator are the model, not a contingency.
 - Transfer and transaction fees on InstaPay and Vodafone Cash.
 - Anything the Foundation stage needs that the retainer doesn't cover.
 

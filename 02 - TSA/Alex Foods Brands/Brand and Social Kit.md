@@ -70,7 +70,7 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 >
 > **And the one that actually shows: the profile picture is unusable as specified.** `kit.py` line 215 puts the seal on Alex Navy and the page claims *"It holds on a light feed and a dark one, which is the whole reason it needs no second version."* **With the real artwork the ring reads 1.43:1 against that ground and disappears** — the mark becomes a red blob with white text round it. Line 73 has the same problem, labelled "ON NAVY — DEFAULT."
 >
-> **The fix is cheap and it is not a redesign: the seal goes on white or Paper.** It already contains its own navy. A corrected 320 × 320 export on white is filed at `logo-vector/alex-profile-320.png`. **The shipped v1.2 PDF still has the defect** — do not describe it as though it does not. Full numbers in `logo-vector/README.md` and [[Colour System]] §11.
+> **The fix is cheap and it is not a redesign: the seal goes on white or Paper.** It already contains its own navy. A corrected 320 × 320 export on white is filed at `logo-vector/alex-profile-320.png`. **The shipped v1.2 PDF still has the defect** — do not describe it as though it does not. Full numbers in `logo-vector/logo-vector.md` and [[Colour System]] §11.
 
 ## 3. The two decisions that were derived, not copied
 
@@ -116,7 +116,7 @@ TSA's pillars are Quality, Results, Guarantee — claims a service business can 
 
 Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts with the Design System generator — nothing duplicated. Pack artwork is referenced from `logos-transparent/`, so the marks are placed as supplied and never reconstructed. **From 19 September the master seal should be referenced from `logo-vector/alex-seal.svg` instead** — real vector, so it renders sharp at any size the book or a 320 × 320 export asks for, rather than being resampled from a cut-out.
 
-**Every page is rendered and measured against the live area before shipping.** That method caught four real defects in this build, all of the same family: **a CSS rule silently beating the one you meant.** A class collision, a descendant `display:block`, and a specificity override that rendered a 21pt display statement at 7.2pt. Full list in `design-system/README.md`.
+**Every page is rendered and measured against the live area before shipping.** That method caught four real defects in this build, all of the same family: **a CSS rule silently beating the one you meant.** A class collision, a descendant `display:block`, and a specificity override that rendered a 21pt display statement at 7.2pt. Full list in `design-system/design-system.md`.
 
 ---
 

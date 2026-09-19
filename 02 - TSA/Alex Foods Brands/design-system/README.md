@@ -10,6 +10,7 @@ type: guide
 | Generator | Output | What it is |
 |---|---|---|
 | `gen.py` | `Alex Foods - Design System v1.1.pdf` | 19pp governance document. **Cold White ground, TSA's system owns the page** per [[TSA Brand System]] §6. |
+| `field.py` | `field.pdf` | **Book section 12, the pack in field system.** 4pp. **A book section, not a standalone deliverable** — it renders as proven pages that drop into the book build, per the roadmap's "prove each page type before pouring 60 pages into an untested template." |
 | `recipe.py` | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` | **7pp, bilingual, Arabic leading.** Foundation deliverable 6 and book section 16. Ships early and alone. See [[Shooting and Compositing Recipe]]. |
 | `kit.py` | `Alex Foods - Brand and Social Kit v1.2.pdf` | 8pp application kit. **TSA's kit rebuilt section for section for the client**, on the Paper ground and the client's own neutrals, plus two range pages and real pack artwork. See [[Brand and Social Kit]]. |
 
@@ -20,6 +21,7 @@ They share `colour.py`, `plex.css`, `fonts/` and `tsafonts/`. **Nothing is dupli
 **Version strings live in four places in `gen.py`** — the page footer, the cover meta block, the governance page body, and the `<title>`. Bump all four together; a grep for `v1.` catches them. `kit.py` carries its version in the footer helper and the `<title>` only.
 
 ## Files
+- `ranges.py` — **the canonical range and flavour data**: signatures, pack shapes, aspect ratios and every flavour field. **`kit.py` still carries its own inline copy and gets pointed here on its next edit**, which is the book rebuild. Do not add a third copy.
 - `colour.py` — the colour maths: sRGB/Lab conversion, ΔE2000, WCAG contrast, ramps. Imported by the generator, and the source of every number in the document.
 - `gen.py` — builds `ds.html` from the data. All content and CSS live here.
 - `plex.css` — `@font-face` rules pointing at the local font files.

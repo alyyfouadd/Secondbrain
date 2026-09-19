@@ -133,7 +133,7 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 | 09 | **The caption system** — structure, length per range, Arabic-first, emoji, hashtags | 3 | 1 · **NEW** |
 | 10 | Slogans and the giveaway song | 4 | 4 |
 | 11 | **Canvas, grid and export specs** — post sizes, safe areas per platform, live area | 4 | 3 · **NEW** |
-| 12 | **The pack-in-field system** — how a cut-out pack sits on its flavour field | 4 | 3 · **NEW** |
+| 12 | **The pack-in-field system** — how a cut-out pack sits on its flavour field | **4, BUILT** | 3 · **NEW** |
 | 13 | **Flashes, badges and the character library** | 4 | 3 · **NEW** |
 | 14 | Social pages setup | 5 | 3 |
 | 15 | **Motion** — what moves, duration, easing, stills versus animations | 4 | 6 · **NEW** |

@@ -7,6 +7,8 @@ type: reference
 
 **Foundation deliverable 3 in kit form**, for [[Alex Foods]]. Eight A4 pages: identity, positioning, **two pages of ranges**, the social setup, the rules, and the product and story templates. Built from `design-system/kit.py`, shipped as `Alex Foods - Brand and Social Kit v1.2.pdf`.
 
+> **STATUS 19 September, final: v1.2 is retired. It is not a deliverable and it never goes to the client.** Its content lives on inside the one book — see §3c. *The defect list below is kept because it is what the rewrite has to not repeat.*
+>
 > **STATUS 19 September: v1.2 is rendered but NOT sendable.** Four defects on page 4, found by merging the client's answers against it — Instagram named as main platform, a posting rhythm the retainer cannot fund, "BeBo is a powder" printed as fact, and a stale company-age rule. **All four are content in `kit.py`, all four are cheap now and expensive after it goes out.** Detailed in §3b. Every other page stands.
 >
 > **STATUS: BUILT AND RENDERED, pending Aly's read.** Every page was rendered, measured against the live area and looked at. Two things it deliberately does not contain are named in §6.
@@ -117,7 +119,17 @@ Package A funds **20 assets a month**: 2 animations, 6 animated stills, 12 graph
 ### And one thing that does not change
 **The content mix stays 40 product / 30 character / 20 moment / 10 company.** The only adjustment is that **the 10% company slice now points at the trade** — the factory, the range, the Alexandria heritage, the carton — because "mostly more shops" is half of what the client said they want. See [[Alex Foods Discovery Brief]] §A3.
 
-## 3c. Kit v2 — the SWAG bar, and what it means here
+## 3c. SUPERSEDED 19 September — there is no kit v2. There is one book.
+
+> **Aly decided: one book.** The 20-section kit map below was the right analysis and the wrong container. **It has moved into [[Brand Book Spec]] §5b and §6**, merged with the book's existing architecture — which stays the spine, because its contents page mirrors the signed scope's deliverable list and that mapping is clause 4 armour.
+>
+> **What this note is now:** the record of what v1.2 was, why its decisions were made, and the source its content feeds into. **It is no longer a competing specification, and `Alex Foods - Brand and Social Kit v1.2.pdf` is no longer a deliverable** — its range pages become book §07 and its social spec becomes §11–14. **The four page-4 defects in §3b die in the rewrite rather than being patched.**
+>
+> **The platform plan in §3b is NOT superseded.** Facebook primary, the producible rhythm, and the four-defect list all stand — they are content the book's §14 and §18 now carry.
+>
+> *The SWAG reading is kept below because the reasoning is what the book's new sections rest on.*
+
+## 3c. The SWAG bar — the analysis the book's architecture rests on
 
 **Aly, 19 September, with `SWAG-Design-System.pdf` as the reference: *"the kit should contain everything like this one, shouldn't be for a site but it has everything in it."***
 
@@ -133,6 +145,8 @@ Package A funds **20 assets a month**: 2 animations, 6 animated stills, 12 graph
 **And the part that does not transfer: sections 08 to 17 are web furniture.** Buttons, forms, drawers, cart, footer. **Alex Foods has no site.** Copying that component list would produce a beautiful document specifying things that will never be built. **The depth transfers. The surfaces do not.**
 
 ### The map — SWAG's rigour on social surfaces
+
+> **This table is superseded as a plan.** It was merged into [[Brand Book Spec]] §6 as the 25-section book architecture. **Kept as the working that produced it.**
 
 | § | Alex Foods kit v2 | SWAG's equivalent | Source |
 |---|---|---|---|
@@ -162,7 +176,7 @@ Package A funds **20 assets a month**: 2 animations, 6 animated stills, 12 graph
 ### The four v1.2 defects get absorbed, not patched
 Everything in §3b — Instagram named as main platform, the unfundable rhythm, "BeBo is a powder" printed as fact, the stale age rule — **is content in sections that get rewritten anyway.** No separate patch pass.
 
-### The structural collision this creates, and it needs deciding before a page is built
+### The structural collision — RESOLVED 19 September: one book
 
 **There are now three documents claiming overlapping territory:**
 
@@ -174,7 +188,9 @@ Everything in §3b — Instagram named as main platform, the unfundable rhythm, 
 
 **A 28-page kit that "has everything in it" carries colour and type — which is a shipped deliverable — and it starts to look exactly like the book the Brand Book Spec describes.** Three documents governing the same values is the drift the vault exists to prevent, and the client cannot be handed three books and told which one wins.
 
-> **Unresolved and Aly's call. Three honest options:**
+> **DECIDED: option (a), one book.** The kit becomes the book, the Design System folds in as §04–06, and the client receives a single object. **Recorded in [[Brand Book Spec]] §5b with what it costs.** *The three options are kept below because the decision rests on the comparison.*
+>
+> **The options as they stood:**
 >
 > **(a) One book.** The kit becomes the brand book. All eight deliverables inside it, the Design System retired into it as sections 02–03. **One document, one source of truth, matches [[Brand Book Spec]]'s original intent and the vault's no-bloat rule.** Costs: the delivered Design System gets superseded before approval.
 > **(b) Kit swallows colour and type as a condensed tokens page**, Design System survives as the governance reference underneath. **Two documents, clear hierarchy** — the kit is for whoever posts on Tuesday, the system is for whoever adjudicates. Costs: two places state a hex value.

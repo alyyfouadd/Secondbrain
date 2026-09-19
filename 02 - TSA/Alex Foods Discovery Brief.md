@@ -113,8 +113,8 @@ That is not a contradiction and the deliverables do not change — a factory has
 - **The engagement baseline** — Meta admin again. Without it there is no number to improve on.
 
 ### Blocked on Package A, not on the Foundation
-- **Product photography** — all twenty month-1 deliverables.
-- **Ad budget** — no campaign can be planned against an unnamed spend.
+- ~~**Product photography**~~ — **UNBLOCKED 19 September. TSA produces it with an AI product shooter**, compositing the client's real pack artwork into generated scenes. **The biggest gate on the contract is gone.** Method and consequences in [[Alex Foods]].
+- **Ad budget** — still no campaign can be planned against an unnamed spend. **A media buyer is engaged at a fixed 2,000 EGP/month**, which is TSA's cost and separate from the client's spend.
 
 ### The gap nobody has priced yet, and it is a timing problem
 
@@ -192,6 +192,7 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 - `[OBSERVED]` **5 SKUs:** Cocktail · Apple · Guava · Peach · Mango Nectar.
 
 ### 2MAN — ice pops *(the sheet's "Freeze Pops" and "2 Man" are one range)*
+- `[CONFIRMED]` **Two packages — the normal one and «أشكال» (ashkal) — and the client says they are the same thing.** One brand, one voice, one identity, two packs. **The pack itself prints "Bu:Zz"; "ashkal" is what the client calls it.**
 - `[OBSERVED]` **One brand, two live pack architectures, both selling.** **ICE POPS** — running-boy character, Alex seal, YUM flash, four colourways, and the existing tagline **عيش جو المغامرة**. **Bu:Zz / Meyveli** — different characters, different layout, four flavours including a cola. "2MAN" in dripping ice-cream letters: yellow 2, pink M, green A, blue N. Arabic **تومان**. Plus an uncounted mini line.
 - `[OBSERVED]` **عيش جو المغامرة stays.** It sells the feeling and never names the product, which is the whole test. Deliverable 4 builds around it.
 - `[MISSING]` **Whether 2MAN stops in winter.** An ice pop in an Egyptian January is a different business from one in July, and it decides whether the calendar can run flat across four ranges.

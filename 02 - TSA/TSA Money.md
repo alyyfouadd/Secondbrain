@@ -51,7 +51,13 @@ In plain terms: **it is not profit, it is an advance.** Some of it has to surviv
 
 ## Cost of delivery — the gap
 
-Not yet known. This is the single most important blank in the vault right now, because until it has a number, no draw can be called safe or reckless, only lucky.
+> **First real number, 19 September 2026: a media buyer at a fixed 2,000 EGP per month.** The gap is no longer empty.
+>
+> **2,000 against 42,000 of monthly revenue. 6,000 against 126,000 across the term.** It is a TSA cost, not a client cost — **ad spend still does not pass through TSA** and never enters this pot. **Confirm it is per month and not per campaign** before it is relied on, and keep the media buyer away from a direct client relationship: clause 1 keeps execution TSA's and clause 5 keeps the working method agency property.
+>
+> **Still unpriced and still the blocker on setting a draw:** the AI product shooter's tooling, the animation and design tooling for 20 assets a month, and transfer fees. **X is no longer unknown, it is incomplete** — and `drawable = 42,000 − X` cannot be computed off one line item.
+
+Not yet known in full. This is the single most important blank in the vault right now, because until it has a number, no draw can be called safe or reckless, only lucky.
 
 What has to be priced for one month of Package A:
 

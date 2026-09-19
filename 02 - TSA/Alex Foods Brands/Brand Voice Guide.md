@@ -172,7 +172,7 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 > **عيش جو المغامرة is the existing tagline and it stays.** It sells the feeling and never names the product, which is the whole test a brand line has to pass. Every 2MAN caption is written so that line could sit under it without clashing.
 >
-> **Sub-brand rule:** 2MAN runs two live pack architectures, **ICE POPS** and **Bu:Zz / Meyveli**. The voice is identical across both. Only the artwork differs. A caption should never need to know which line it is for.
+> **Sub-brand rule, simplified 19 September:** 2MAN runs **two packages — the normal one and «أشكال» (ashkal), which prints Bu:Zz / Meyveli.** **The client says they are the same thing**, so this is one brand in two packs rather than two architectures. Voice, tone and identity are identical. Only the artwork differs, and a caption never needs to know which pack it is for.
 
 **Draft captions, to demonstrate tone:**
 - «برّه أحلى.»

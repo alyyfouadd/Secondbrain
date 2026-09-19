@@ -111,11 +111,18 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 `mockup-2man-a.png` · `mockup-2man-b.png`
 
-**Two designs arrived and both are live products — the client sells both.** This is one brand running two pack architectures, not a supply error.
+**Two designs arrived and both are live products — the client sells both.**
+
+> **NAMED AND SIMPLIFIED, 19 September.** Aly: **2MAN runs two packages — the normal one and one called «أشكال» (ashkal, "shapes") — and they are the same thing.** That settles what the vault had been treating as a governance problem. **It is not two pack architectures needing separate rules. It is one brand, one voice, one identity, in two packs.**
+>
+> **Note the naming gap, because it will bite whoever writes the file names:** the client calls it **ashkal** internally — the Canva export carried a screenshot of a file literally called `ashkal mucup` — but **the pack itself prints "Bu:Zz" and "Meyveli".** Internal name and printed name are different. Use *ashkal* when talking to the client and *Bu:Zz* when describing what is on the shelf.
+>
+> **What it changes:** the sub-brand rule gets shorter rather than longer. 2MAN is governed once. A caption still never needs to know which pack it is for, and now neither does a layout.
+
 
 **Design A** (`mockup-2man-a.png`) — "ICE POPS 2MAN", a running boy character, the **Alex** seal, a "YUM" flash, and the Arabic tagline **عيش جو المغامرة** ("live the adventure"). Four colourways: blue, red, green, orange.
 
-**Design B** (`mockup-2man-b.png`) — a different pack entirely: "Bu:Zz" branding, "Meyveli" (Turkish for "fruity"), different characters, different layout. Four flavours including a cola.
+**Design B — «أشكال» / ashkal** (`mockup-2man-b.png`) — the second package. Prints "Bu:Zz" and "Meyveli" (Turkish for "fruity"), different characters, different layout, four flavours including a cola. **Same brand, same voice, same identity as the normal pack**, by the client's own account.
 
 - **Logo (shared):** "2MAN" in dripping ice-cream letters — yellow 2, pink M, green A, blue N — on a splash of water and ice cubes.
 - **Tagline:** عيش جو المغامرة — the only brand of the four with a tagline already written. Worth keeping; the Slogans deliverable should build around it, not replace it.

@@ -117,6 +117,69 @@ Package A funds **20 assets a month**: 2 animations, 6 animated stills, 12 graph
 ### And one thing that does not change
 **The content mix stays 40 product / 30 character / 20 moment / 10 company.** The only adjustment is that **the 10% company slice now points at the trade** — the factory, the range, the Alexandria heritage, the carton — because "mostly more shops" is half of what the client said they want. See [[Alex Foods Discovery Brief]] §A3.
 
+## 3c. Kit v2 — the SWAG bar, and what it means here
+
+**Aly, 19 September, with `SWAG-Design-System.pdf` as the reference: *"the kit should contain everything like this one, shouldn't be for a site but it has everything in it."***
+
+### What the reference actually is
+
+28 pages, 19 numbered sections, a storefront design system for an Alexandria streetwear label. **The bar is not its look, it is its completeness.** Its own closing page states the test: *"written to be built from. Hand it to a developer and they can build the storefront; hand it to a designer and they can extend it without guessing."* It ends with **THE SYSTEM IN NUMBERS** (19 named colours, 24 fixed type sizes, 3 border weights, 14 components, 19 page patterns, 12 icons) and **REBUILDING FROM THIS DOCUMENT** — the five things everything else is assembled from.
+
+**Two things it does that our 8-page kit does not:**
+
+1. **It specifies states and options, not just examples.** Every component lists its variants, its sizes and its four states. Its pattern inventory lists all nineteen page patterns with **exactly what is configurable in each**.
+2. **It computes rather than asserts.** Contrast ratios are stated as numbers against WCAG 2.1 relative luminance, with a verdict. **We already work this way** — [[Colour System]] computed every pairing — so this part is a transplant, not a new discipline.
+
+**And the part that does not transfer: sections 08 to 17 are web furniture.** Buttons, forms, drawers, cart, footer. **Alex Foods has no site.** Copying that component list would produce a beautiful document specifying things that will never be built. **The depth transfers. The surfaces do not.**
+
+### The map — SWAG's rigour on social surfaces
+
+| § | Alex Foods kit v2 | SWAG's equivalent | Source |
+|---|---|---|---|
+| 01 | **Brand foundation** — master and four ranges, the five rules | 01 | [[Brand Voice Guide]] §1–2 |
+| 02 | **Colour** — 18 masters, ramps, neutrals, every contrast pairing computed | 02 | [[Colour System]] — **built** |
+| 03 | **Typography** — Plex family, weights, social scale, bilingual rules | 03 | [[Type System]] — **built** |
+| 04 | **Marks** — the seal and four range marks, usage, clear space, minimum sizes, the never-retype rule | 04 | `logos-transparent/` |
+| 05 | **Canvas and grid** — post sizes, safe areas per platform, gutters, the live area | 05 | new |
+| 06 | **The pack-in-field system** — how a cut-out pack sits on its flavour field. **This is their signature device and it is what SWAG's sticker-shadow section is to them** | 06 | `packshots/single/` |
+| 07 | **Motion** — what moves on an animated still, duration, easing, the difference between the 6 stills and the 2 animations | 07 | new — **8 motion pieces a month makes this real, not decorative** |
+| 08 | **Post formats** — feed square, feed portrait, story/reel, with states | 08 | partly built |
+| 09 | **Flashes and badges** — NEW corner, KIDS ZONE, giveaway lockup, offer flash | 09 | off-pack |
+| 10 | **The product post** — the core unit: pack, field, caption, call to action | 10 | built |
+| 11 | **The caption system** — structure, length per range, Arabic-first rule, emoji policy, hashtags | 11 | [[Brand Voice Guide]] §3–6 |
+| 12 | **Stories and highlights** — covers, safe zones, the zero-production formats | 12 | partly built |
+| 13 | **Profile system** — avatar, cover, bio per platform, buttons, highlight covers | 13 | built |
+| 14 | **Campaign and giveaway lockup** | — | Package A line item |
+| 15 | **Post archetypes per pillar** — product, character, moment, trade | 15 | §3 mix |
+| 16 | **Range pages** — BeBo, AlRawy, 2MAN *(both packs)*, POLEKA | — | **built in v1.2** |
+| 17 | **The character library** — BeBo's faces, POLEKA's animals, 2MAN's boy, **already drawn and already paid for** | 17 | client artwork |
+| 18 | **Pattern inventory** — every post pattern and what is configurable in each | 18 | new — **the section that makes it buildable** |
+| 19 | **Compliance and contrast audit** — every flavour field tested, plus the NEVER list as legal shield | 19 | [[Colour System]], [[Brand Voice Guide]] §7 |
+| 20 | **The system in numbers · rebuilding from this document** | closing | new |
+
+**Sections 02, 03, 10, 13 and 16 already exist.** The build is 05, 06, 07, 09, 14, 15, 17, 18, 20 — **nine new sections, not twenty.**
+
+### The four v1.2 defects get absorbed, not patched
+Everything in §3b — Instagram named as main platform, the unfundable rhythm, "BeBo is a powder" printed as fact, the stale age rule — **is content in sections that get rewritten anyway.** No separate patch pass.
+
+### The structural collision this creates, and it needs deciding before a page is built
+
+**There are now three documents claiming overlapping territory:**
+
+| Document | State | Claims |
+|---|---|---|
+| `Design System v1.1.pdf` | **Delivered**, 19pp | Colour and type — deliverable 2 |
+| `Brand and Social Kit` | Rendered, 8pp → **28pp** | Identity, ranges, social — deliverable 3 |
+| The brand book, [[Brand Book Spec]] | **Specified, not built** | **The container all eight deliverables ship inside** |
+
+**A 28-page kit that "has everything in it" carries colour and type — which is a shipped deliverable — and it starts to look exactly like the book the Brand Book Spec describes.** Three documents governing the same values is the drift the vault exists to prevent, and the client cannot be handed three books and told which one wins.
+
+> **Unresolved and Aly's call. Three honest options:**
+>
+> **(a) One book.** The kit becomes the brand book. All eight deliverables inside it, the Design System retired into it as sections 02–03. **One document, one source of truth, matches [[Brand Book Spec]]'s original intent and the vault's no-bloat rule.** Costs: the delivered Design System gets superseded before approval.
+> **(b) Kit swallows colour and type as a condensed tokens page**, Design System survives as the governance reference underneath. **Two documents, clear hierarchy** — the kit is for whoever posts on Tuesday, the system is for whoever adjudicates. Costs: two places state a hex value.
+> **(c) Kit stays social-only** and references the Design System for colour and type. **Cheapest, and closest to today.** Costs: it is then not "everything in it", which is what was asked for.
+
 ## 4. Where the copy came from
 
 Every Arabic line already existed. **Nothing was invented for the layout.**

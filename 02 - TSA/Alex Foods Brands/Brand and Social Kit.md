@@ -7,6 +7,8 @@ type: reference
 
 **Foundation deliverable 3 in kit form**, for [[Alex Foods]]. Eight A4 pages: identity, positioning, **two pages of ranges**, the social setup, the rules, and the product and story templates. Built from `design-system/kit.py`, shipped as `Alex Foods - Brand and Social Kit v1.2.pdf`.
 
+> **STATUS 19 September: v1.2 is rendered but NOT sendable.** Four defects on page 4, found by merging the client's answers against it — Instagram named as main platform, a posting rhythm the retainer cannot fund, "BeBo is a powder" printed as fact, and a stale company-age rule. **All four are content in `kit.py`, all four are cheap now and expensive after it goes out.** Detailed in §3b. Every other page stands.
+>
 > **STATUS: BUILT AND RENDERED, pending Aly's read.** Every page was rendered, measured against the live area and looked at. Two things it deliberately does not contain are named in §6.
 
 ---
@@ -75,6 +77,45 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 | **10%** | Company · الشركة | Alex Foods itself. No age claim until the client confirms one. |
 
 **Facebook is weighted higher than an agency would normally weight it.** BeBo and AlRawy talk to mothers, and in Egypt that audience is on Facebook. Copying a Reels-first split off TSA's own kit would have quietly aimed the client's spend at the wrong platform.
+
+> **Confirmed by measurement on 19 September, and then taken further.** The real counts are Facebook ~52,000, TikTok ~500, Instagram ~40. **The weighting was right and the kit still did not go far enough** — page 4 names Instagram as the main platform, on an account with forty followers. **Facebook is now primary by decision.** See §3b.
+
+## 3b. The platform plan — DECIDED 19 September: Facebook is primary
+
+Aly's call, against the real follower data in [[Alex Foods Discovery Brief]] §7. **It contradicts what the shipped kit currently prints, and the contradiction is the kit's fault, not the decision's** — page 4 was written before any follower number existed.
+
+| Platform | Followers | Role from now on |
+|---|---|---|
+| **Facebook** | **~52,000** | **Primary. Every asset lands here first.** The only account with an audience, and the only place the contracted KPI — comments and views — can move inside a month. |
+| **TikTok** | ~500 | **Secondary build**, on the character content. The faces, the animals and the running boy are already drawn and already paid for, and they are native to the platform the kids are actually on. |
+| **Instagram** | ~40 | **Mirror only.** Cross-post what Facebook gets. **No bespoke production until it earns attention.** |
+
+**The reasoning worth keeping, because it will get questioned:** the client says the buyers are mainly kids, and kids are not on a 52,000-follower Egyptian Facebook page — that is a parent audience. **So the audience they have and the audience they describe are on two different platforms.** Facebook still wins month 1, because it is the only asset that exists, because the parent audience is exactly right for BeBo-as-school-drink and for AlRawy, and because spreading evenly across three platforms from 52,000 / 500 / 40 would spend the whole retainer proving nothing. **TikTok is the build, not the bet.**
+
+### What the retainer can actually produce, which is the part page 4 got wrong
+
+Package A funds **20 assets a month**: 2 animations, 6 animated stills, 12 graphics. That is **8 motion pieces and 12 static**, and a month is about 4.35 weeks.
+
+| Platform | Producible rhythm | Where it comes from |
+|---|---|---|
+| **Facebook** | **4–5 / week** | All 20 assets. 20 ÷ 4.35 weeks. **This is the ceiling, and it is exactly what the contract funds.** |
+| **TikTok** | **2 / week** | The 8 motion pieces, repurposed vertical. No extra production. |
+| **Instagram** | **Mirrors Facebook** | The same assets. No extra production. |
+| **Stories** | **1–2 / week** | The story-format share of the 12 graphics. |
+
+> **The defect this exposes, and it is the serious one.** The shipped kit's page 4 asks for 5 Instagram posts a week, daily Instagram stories, 4 Facebook posts a week and 3–4 TikToks — **roughly 83 posts a month against 20 produced assets.** Even assuming every asset is cross-posted everywhere, that is each asset appearing four times, and **the page never says so.** "Reels for reach" implies motion, and the retainer produces **eight** motion pieces a month, not twenty-one.
+>
+> **A rhythm the contract cannot fund is a rhythm the client can hold us to.** It has to come off the page before the kit goes out.
+>
+> **Daily stories are the one line that cannot be salvaged by arithmetic.** They are not producible from this retainer at all. Either they go, or the page states plainly that stories beyond the produced ones are zero-production — polls, questions, resharing comments, reposting an existing asset — and belong to whoever runs the page day to day.
+
+### Two more things page 4 now prints wrongly
+
+1. **The NEVER column states "BeBo is a powder" as a fact.** As of 19 September that is `[CONFLICT]`, not fact — see [[Alex Foods Discovery Brief]] §A1. **A client-facing governance document asserting a product format we cannot prove is the worst possible place for that sentence.** It comes out until the back-of-pack photo settles it.
+2. **The NEVER column says "a company age — their own materials say 20 and 25."** **Settled 19 September: 20+.** The rule is no longer "never claim an age", it is **"never claim 25; «أكتر من ٢٠ سنة» is confirmed and usable."**
+
+### And one thing that does not change
+**The content mix stays 40 product / 30 character / 20 moment / 10 company.** The only adjustment is that **the 10% company slice now points at the trade** — the factory, the range, the Alexandria heritage, the carton — because "mostly more shops" is half of what the client said they want. See [[Alex Foods Discovery Brief]] §A3.
 
 ## 4. Where the copy came from
 

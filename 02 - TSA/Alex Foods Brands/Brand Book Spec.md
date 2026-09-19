@@ -137,7 +137,7 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 | 13 | **Flashes, badges and the character library** | 4 | 3 · **NEW** |
 | 14 | Social pages setup | 5 | 3 |
 | 15 | **Motion** — what moves, duration, easing, stills versus animations | 4 | 6 · **NEW** |
-| 16 | Shooting and compositing recipe | 6 | 6 |
+| 16 | Shooting and compositing recipe | **7, built** | 6 |
 | 17 | Content calendar | 4 | 5 |
 | 18 | **Post archetypes and pattern inventory** | 6 | 5 · **NEW** |
 | 19 | Google Business Profile | 2 | 7 |

@@ -11,3 +11,7 @@ k[0-9]*.png
 final*.png
 fin-*.png
 probe.html
+recipe.html
+recipe.pdf
+shot[0-9]*.html
+p[0-9]*.png

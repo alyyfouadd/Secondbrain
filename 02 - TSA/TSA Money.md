@@ -20,7 +20,7 @@ One client so far: [[Alex Foods]]. Full terms in that note.
 | Source | Amount | State |
 |---|---|---|
 | Alex Foods — Package A, month 1 of 3 | 42,000 | **RECEIVED** — confirmed 18 Sep 2026 |
-| Alex Foods — Brand Foundation, instalment 1 | 10,000 | Not received. Due **22 Sep 2026** |
+| Alex Foods — Brand Foundation, instalment 1 | 10,000 | Not received. **Invoiced 18 Sep 2026, due 26 Sep 2026.** The scope's 22 Sep date is superseded by the invoice. |
 | Alex Foods — Brand Foundation, instalment 2 | 10,000 | Not received. Due **08 Oct 2026** |
 | Alex Foods — Package A, months 2 and 3 | 84,000 | Contracted, not yet due. 3-month term, no auto-renewal. |
 | **Total contract value** | **146,000** | *calculated* |

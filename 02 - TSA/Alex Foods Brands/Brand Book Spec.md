@@ -113,6 +113,23 @@ Two weights only across the whole book — Regular and SemiBold. That is the kit
 1. **The book roughly doubles, from 71 pages to about 105.** Nine genuinely new sections. **The template is proven** — the Design System exercised every page type — so this is content work, not layout work. **But it is still content work against a 9 October target and a 20,000 EGP deliverable, and that should be said plainly rather than absorbed quietly.**
 2. **The 15 MB WhatsApp limit in §3 will not survive this, and that is a real problem rather than a detail.** The 8-page kit alone rendered at **10.2 MB**, because pack artwork is heavy. A 105-page book carrying range lineups, packshots and do-not pages will land far outside anything WhatsApp will carry. **The delivery route has to be solved before the book is finished, not after:** a compressed screen export alongside the full-resolution master, or a link. **Do not discover this at the moment of delivery.**
 
+## 5c. BUILT 19 September — `Alex Foods - Brand Foundation v1.0.pdf`
+
+**34 pages, 25 sections, bilingual throughout with Arabic leading, 8.0 MB.** Generated from `design-system/book.py`, which is now **the single source for every section's content** — `render(ids)` renders any subset, so an early standalone ship of one section is a call rather than a second script.
+
+**What is DEFINED and complete: 17 sections.** Cover, how to use, contents, architecture, colour, type, logo and seal, the four ranges, voice, captions, canvas and grid, pack in field, flashes and characters, motion, shooting and compositing, compliance, the system in numbers, governance, sign-off.
+
+**What carries a waiting chip: 5 sections.** §10 slogans *(needs a native ear, not a machine's guess)*, §14 social setup and §19 GBP *(both `SPEC · EXECUTION PENDING CLIENT ACCESS` — written in full, blocked on Meta admin and a Google account)*, §17 calendar *(needs seasonality)*, §18 patterns *(depends on §11, §13, §15 and POLEKA's unchosen extended colours)*, §20 local SEO.
+
+> **The waiting sections are printed, not omitted, and each one states what it waits on and who from.** A book that quietly leaves a bought deliverable out is worse than one that says where it stands. This is the status-chip system in §6 doing the job it was specified for.
+
+**Two things the build settled:**
+
+1. **The 15 MB delivery problem did not materialise, and the earlier worry was wrong about why.** The book renders at **8.0 MB**, comfortably inside WhatsApp. The 10.2 MB on an 8-page kit came from full-bleed pack lineups on nearly every page; a governance book is mostly type, and only the range pages carry heavy artwork.
+2. **`field.py` and `recipe.py` were deleted.** Their content is §12 and §16 of `book.py`. Keeping standalone generators would have put the same governance text in two files.
+
+> **One deviation from §6 that needs Aly's word rather than a silent override.** This spec says the cover is **type only on off-white**. The built cover is **navy with the seal**, on the reasoning that the umbrella decision made the master own the seal and the presence, and a navy cover states the hierarchy before page 3 explains it. **The four-brand band at the foot is exactly as specified.** It is a one-line change back to Paper if the original call stands.
+
 ## 6. Page architecture
 
 The contents page **mirrors the signed Service Scope V2's own deliverable list, in the scope document's own wording**, mapped to page numbers. That is not presentation — it is clause 4 armour. A client rejecting a delivery has to state a written reason, and a delivery matching the agreed brief and the approved guide counts as delivered. A contents page that reads as the contract's checklist makes "this isn't what we bought" a much harder sentence to write.

@@ -9,6 +9,8 @@ type: guide
 
 **Brand Foundation deliverable 6 of 8**, and book section 16. Ships early and on its own, ahead of the rest of the book, because it is the document every visual asset in both stages is produced against.
 
+> **Status 19 September, final: this is now §16 of the book.** The standalone `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` shipped and stands. **`recipe.py` was deleted** and the section's content now lives once, in `design-system/book.py`; a standalone re-ship is `render(['16'])`, not a second script. **This note remains the readable source of the method.**
+>
 > **Status: RENDERED AND SHIPPED 19 September.** `Alex Foods - Shooting and Compositing Recipe v1.0.pdf`, **7 pages**, A4, 0.61 MB, built from `design-system/recipe.py`. **Seven pages rather than the six the spec estimated**, because the overflow probe caught two pages running past the live area and splitting one was the honest fix. Sends on WhatsApp comfortably.
 >
 > **Status: COMPLETE and ready to render.** Bilingual throughout, Arabic leading. Written to be worked from, not read once. Brand facts in [[Alex Foods Brands]], values in [[Colour System]], the never say list in [[Brand Voice Guide]] §7, format rules in [[Brand Book Spec]].

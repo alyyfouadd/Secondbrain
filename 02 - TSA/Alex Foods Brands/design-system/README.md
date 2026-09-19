@@ -5,18 +5,17 @@ type: guide
 ---
 # Design System — build
 
-**This folder builds two documents.** Both are generated, never hand-laid; a revision is an edit and a re-render, not a re-layout.
+**This folder builds the book.** Both are generated, never hand-laid; a revision is an edit and a re-render, not a re-layout.
 
 | Generator | Output | What it is |
 |---|---|---|
-| `gen.py` | `Alex Foods - Design System v1.1.pdf` | 19pp governance document. **Cold White ground, TSA's system owns the page** per [[TSA Brand System]] §6. |
-| `field.py` | `field.pdf` | **Book section 12, the pack in field system.** 4pp. **A book section, not a standalone deliverable** — it renders as proven pages that drop into the book build, per the roadmap's "prove each page type before pouring 60 pages into an untested template." |
-| `recipe.py` | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` | **7pp, bilingual, Arabic leading.** Foundation deliverable 6 and book section 16. Ships early and alone. See [[Shooting and Compositing Recipe]]. |
-| `kit.py` | `Alex Foods - Brand and Social Kit v1.2.pdf` | 8pp application kit. **TSA's kit rebuilt section for section for the client**, on the Paper ground and the client's own neutrals, plus two range pages and real pack artwork. See [[Brand and Social Kit]]. |
+| **`book.py`** | **`Alex Foods - Brand Foundation v1.0.pdf`** | **THE BOOK. 34 pages, 25 sections, bilingual, Arabic leading.** The single source for every section's content. **`render(ids)` renders any subset**, so section 16 alone is `render(['16'])` and no section text exists twice. |
+| `gen.py` | `ds.pdf` | The 19pp Design System. **Retired as a client deliverable 19 Sep** when the one-book decision folded colour and type into the book as §04 to §06. Kept as the built source. |
+| `kit.py` | *(retired)* | The 8pp Brand and Social Kit. **Retired as a client deliverable 19 Sep**, folded into the book as §07 and §11 to §14. |
+
+> **`field.py` and `recipe.py` were deleted 19 September.** Their sections are §12 and §16 of `book.py`, and keeping standalone generators for them would have put the same governance text in two files, which is the drift this repo exists to avoid. **A standalone early ship is `book.py render(['16'])`, not a second script.**
 
 They share `colour.py`, `plex.css`, `fonts/` and `tsafonts/`. **Nothing is duplicated — change the maths in one place.**
-
-`recipe.py` carries its version in the footer helper and the `<title>` only, same as `kit.py`.
 
 **Version strings live in four places in `gen.py`** — the page footer, the cover meta block, the governance page body, and the `<title>`. Bump all four together; a grep for `v1.` catches them. `kit.py` carries its version in the footer helper and the `<title>` only.
 

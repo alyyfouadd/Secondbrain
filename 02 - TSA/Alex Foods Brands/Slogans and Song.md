@@ -155,10 +155,26 @@ Their lines **do** name the brand. They **do** sit close to the product. They ar
 
 ### The three that need a line
 
-**BeBo** — **the kid**, and the pattern is still theirs:
-- **«مع بيبو، الفسحة أحلى»** — *With BeBo, break time is better.* Their **مع + أحلى** structure, and **الفسحة is the child's own word for the school break**, which is also the one occasion the client named themselves: *an affordable juice for schools*. Names no format.
-- «بيبو.. اختار طعمك» — *BeBo, pick your taste.* Five flavours, so the choice is the point, and choosing is what a kid does with pocket money.
-- «بيبو معاك كل يوم» — *BeBo is with you every day.*
+**BeBo** — **the kid**, and the pattern is still theirs.
+
+> ### «بيبو معاك كل يوم»
+> *BeBo is with you every day.*
+>
+> **Chosen by Aly, 20 September 2026.** *Recorded as selected rather than final: the vault's rule is that restating a draft is iterating, not signing off, so this is marked locked only when he says lock.*
+
+**Why it beats the line I had recommended**, and the reason is structural rather than taste:
+
+| | |
+|---|---|
+| **It claims the habit, not an occasion** | «كل يوم» is exactly what an everyday affordable drink wants to own. **My «مع بيبو، الفسحة أحلى» locked the brand to the school break**, and BeBo sells all year while school stops for three months. **An occasion-bound line goes quiet with the occasion**, which makes it a campaign line wearing a brand line's clothes. Test 3 in §4 says a brand line holds across every context. الفسحة does not. |
+| **«معاك» is second person, singular, direct** | Straight to the kid with no parent in between, which is the correction that had just been made. |
+| **It names no format and no flavour** | **Survives the back-of-pack answer whichever way it goes**, and works across all five SKUs. |
+| **It is in their register** | Brand name inside the line, warm, no cleverness. The same shape as «طعم أحلى مع أليكس فودز». |
+| **Three beats** | بي-بو · مَ-عاك · كل-يوم. Chantable, which matters on a brand a child repeats. |
+
+**Alternates, if it ever needs one:** «بيبو.. اختار طعمك» — *pick your taste*, five flavours, and choosing is what a kid does with pocket money.
+
+> **One territory line worth holding: BeBo owns «معاك» and POLEKA owns «صاحبك».** Accompaniment against companionship. They are close enough that if both ranges start using both words the two brands blur, and POLEKA's whole mechanic is the character as a friend. **«صاحبك» comes out of BeBo's words-in list.**
 
 > **WITHDRAWN 20 September: «مع بيبو، البيت أحلى» and «بيبو.. وكل البيت مبسوط».** Both are built on **البيت**, and the house is a mother's frame. **BeBo is a kids product and the client said so in the discovery answers before I wrote either line.**
 

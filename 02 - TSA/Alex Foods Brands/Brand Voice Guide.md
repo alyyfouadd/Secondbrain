@@ -112,11 +112,11 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 | **Punctuation** | Exclamation marks allowed. Questions work harder, because they get answered. |
 | **Person** | "انت" or "انتي", singular and direct. **Never through a parent.** |
 
-**Words in:** طعم · حلو · هات · **معاك** · **كل يوم** · اختار · جديد
+**Words in:** طعم · **أحلى** · **اليوم** · حلو · هات · اختار · جديد
 
-> **«صاحبك» was here and has been removed: it is POLEKA's territory.** POLEKA's whole mechanic is the character as a friend, and if both ranges use the word the two brands blur. **BeBo owns «معاك» — accompaniment. POLEKA owns «صاحبك» — companionship.**
+> **«صاحبك» stays out: it is POLEKA's territory**, because the character as a friend is POLEKA's whole mechanic. *Originally this rule also gave BeBo «معاك» to protect the brand line «بيبو معاك كل يوم». **That line was replaced on 20 September, so the collision it guarded against can no longer happen** and this is now a caption-level note rather than a structural rule.*
 
-> **The brand line is «بيبو معاك كل يوم»**, chosen 20 September, which is why **معاك** and **كل يوم** lead this list. Captions echo the line's words; they do not compete with them.
+> **The brand line is «مع بيبو، اليوم أحلى»**, chosen 20 September, which is why **أحلى** and **اليوم** lead this list. Captions echo the line's words; they do not compete with them.
 
 **Words out:** صحي · طبيعي ١٠٠٪ · فيتامينات · مغذّي · أرخص من · بديل العصير — **and now also the mother's vocabulary that was here until 20 September: البيت · العيال · يكفّي · في دقيقة.** Those are a parent's words about children, not a child's words about a drink.
 

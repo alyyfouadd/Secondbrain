@@ -208,37 +208,6 @@ Their lines **do** name the brand. They **do** sit close to the product. They ar
 
 ---
 
-## 5c-iii. BeBo — two candidates, and they are not the same line
-
-**«مع بيبو، اليوم أحلى»** arrived 20 September. **It fixes exactly what was wrong with my «مع بيبو، الفسحة أحلى»** — اليوم runs all year where الفسحة stops with the school term. **But BeBo already has «بيبو معاك كل يوم» chosen, so this is a replacement rather than an addition, and the two claim different things.**
-
-| | «بيبو معاك كل يوم» | «مع بيبو، اليوم أحلى» |
-|---|---|---|
-| **What it claims** | **Habit.** BeBo is there every day. | **Effect.** The day is better for it. |
-| **Construction** | brand + **معاك** + everyday phrase | **مع** + brand + **أحلى** |
-| **Frame** | Companionship, presence | Improvement, comparative |
-
-### The set-level problem, which is the real finding
-
-**The master is «طعم أحلى مع أليكس فودز» — مع plus أحلى.** If BeBo becomes «مع بيبو، اليوم أحلى» that is **two of five lines in the same construction**, and my POLEKA draft «مع بوليكا، اللعب أحلى» would make it **three of five.**
-
-> **A family of lines should rhyme, not repeat.** Three identical constructions stops reading as a system and starts reading as one idea applied four times. **The master owns مع + أحلى, because it got there first and it is in market.**
-
-**So whichever BeBo line is chosen, POLEKA's should not be «مع بوليكا، اللعب أحلى».** **«اجمعهم مع بوليكا»** is the better POLEKA line on set logic as well as on its own merits: an imperative, and it does the collection job that is POLEKA's entire commercial reason to exist.
-
-### The recommendation
-
-**Keep «بيبو معاك كل يوم».** Four reasons:
-
-1. **It leaves مع + أحلى to the master**, where it already lives.
-2. **«معاك» is BeBo's own territory word.** That was settled an hour earlier: BeBo owns معاك, POLEKA owns صاحبك. **A brand line should carry the brand's own word.**
-3. **Habit is a stronger claim than improvement for a cheap daily product.** «كل يوم» asserts a place in the day; «أحلى» is comparative and softer.
-4. **The giveaway song is already built to bookend on it.**
-
-**The case for «مع بيبو، اليوم أحلى»**, stated fairly: it is warmer, it sits closer to the client's own master line, and **أحلى is the single most characteristic word in their register.** If the goal is a set that obviously belongs to one company, it does that better.
-
-**Aly's call.**
-
 ## 5c-ii. The pattern, extracted from the four lines that landed
 
 **This is evidence rather than doctrine.** Four lines are now accepted: three of them the client's or Aly's, one of them his pick from my alternates. **They share a shape, and every line I wrote that failed broke it.**
@@ -262,6 +231,36 @@ Their lines **do** name the brand. They **do** sit close to the product. They ar
 **«اختيار من غير ندم» breaks all four markers at once:** an abstract noun phrase, no brand, no مع, no verb. It is the clearest single piece of evidence that §1's "never name the product" rule was the wrong instruction for this client, and it is why that line was the one that read most like a marketing proposition.
 
 **«مع بيبو، البيت أحلى» had two markers right and still died**, because the marker it broke was the audience. **Shape is necessary and not sufficient.**
+
+## 5c-iii. BeBo — settled 20 September 2026
+
+> ### «مع بيبو، اليوم أحلى»
+> *With BeBo, the day is better.*
+>
+> **Aly's choice, against TSA's recommendation.** I argued for «بيبو معاك كل يوم» on the grounds that habit beats improvement and that the master should keep **مع + أحلى** to itself. **He bought warmth and family resemblance instead, and that is a defensible trade rather than a coin toss:** أحلى is the single most characteristic word in this client's register, and the set now obviously belongs to one company.
+
+**What it claims:** the day is better for it. **Effect rather than habit.** Comparative, warm, and in their own master construction.
+
+**What it keeps:** brand inside the line, four words, everyday concrete noun, no banned claim, **and it names no format**, so it still survives the back-of-pack answer either way.
+
+### The three consequences, and one of them breaks something
+
+**1. «بيبو معاك كل يوم» is dead**, and the giveaway song was built to bookend on it. **Line 4 of the draft song no longer exists.** The song is parked, so nothing is on fire, **but whoever picks it back up inherits a broken last line** and should rebuild it on «مع بيبو، اليوم أحلى» or on the campaign line alone.
+
+**2. BeBo's words-in list was rebuilt around معاك and كل يوم an hour ago.** Those were chosen because the brand line carried them. **It now carries اليوم and أحلى instead**, and the list follows the line rather than the other way round.
+
+**3. The معاك-versus-صاحبك territory rule is no longer load-bearing.** It existed to stop BeBo's «معاك» and POLEKA's «صاحبك» blurring. **BeBo's line no longer uses معاك**, so the collision it was written to prevent cannot happen. **POLEKA still owns صاحبك** — the character as a friend is its whole mechanic — but the rule is now a caption-level note rather than a structural one. *Recorded rather than deleted, because a rule that quietly stops applying is worse than one that says why.*
+
+### And it settles POLEKA's construction
+
+With the master and BeBo both on **مع + أحلى**, **a third would be one idea applied three times.** POLEKA takes an imperative.
+
+| Option | Shape | Trade |
+|---|---|---|
+| **«اجمعهم مع بوليكا»** | imperative + **مع** + brand | Flows better. But **مع** would then appear in three of five lines. |
+| **«بوليكا.. اجمعهم كلهم»** | brand + imperative | **Brand-first, no مع**, so it balances the set. Slightly blunter to say. |
+
+**Either does POLEKA's real job**, which is collection: the mechanic that makes a child ask for the next character by name. **The choice is between flow and balance, and that is an ear question rather than a structural one.**
 
 ## 5d. The giveaway — BeBo's, 20 September 2026
 

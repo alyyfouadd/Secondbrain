@@ -64,7 +64,7 @@ Run the "So What?" ladder until it stops. This is the hard part of the job and i
 **2MAN** — ice pops, adventure, motion, cold.
 > **The feeling: the day is yours, go outside.** Already solved. عيش جو المغامرة sells the feeling and not the product, which is the whole test. **It stays.** Replacing a working line to justify a deliverable destroys equity TSA was hired to build.
 
-**POLEKA** — jelly candy, each SKU a full-bleed animal character.
+**POLEKA** — a frozen juice in a snip-neck bottle pouch, each SKU a full-bleed animal character. *(Category owned by [[Alex Foods Brands]]; corrected 20 September.)*
 > So what? Every pouch is a character, not a sweet. → So what? The child plays with it before eating it. → So what? There is a next one to want.
 >
 > **The feeling: it is a toy you are allowed to eat.** Play and collection, not flavour.

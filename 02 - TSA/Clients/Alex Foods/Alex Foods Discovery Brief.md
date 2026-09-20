@@ -132,7 +132,7 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 ## 0. What we already know
 
 - `[CONFIRMED]` Client: **Alex Foods.** Signed Service Scope V2, 09.09.2026, bilingual.
-- `[OBSERVED]` Legal name **الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية** — the Alexandria Company for Food Packing and Packaging. **Not only a juice factory:** powder drinks, nectar, ice pops and jelly candy, four categories.
+- `[OBSERVED]` Legal name **الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية** — the Alexandria Company for Food Packing and Packaging. **Not only a juice factory:** powder drinks, nectar, ice pops and frozen juice, four categories.
 - `[CONFIRMED]` **Hussein** is real and sits in the approval chain. **Mohamed** is the day-to-day contact and also approves. See §A4.
 - `[OBSERVED]` **Four ranges, not five: BeBo · AlRawy · 2MAN · POLEKA.** **"Freeze Pops" IS 2MAN** — the contract's generic name for the range the client calls 2MAN, Arabic **تومان**. The answer sheet still lists both as separate families and leaves 2MAN blank; there is no fifth family and nothing is missing there.
 - `[CONFIRMED]` **POLEKA is not in the signed scope.** Confirmed verbally as in, 18 Sep, no change to fee. **Still not papered.**
@@ -212,7 +212,7 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 - `[OBSERVED]` **عيش جو المغامرة stays.** It sells the feeling and never names the product, which is the whole test. Deliverable 4 builds around it.
 - `[MISSING]` **Whether 2MAN stops in winter.** An ice pop in an Egyptian January is a different business from one in July, and it decides whether the calendar can run flat across four ranges.
 
-### POLEKA — jelly candy *(in the Foundation, not in the signed scope)*
+### POLEKA — frozen juice *(in the Foundation, not in the signed scope)*
 - `[CONFIRMED]` **A FROZEN JUICE in a bottle-shaped pouch with a snip-off neck, SOLD FROZEN from the shop's freezer.** Impulse buy, not a take-home. *Corrected three times on 20 September: chew candy, then drinkable jelly, then frozen juice.* **«جيلي» on the pack describes the texture, not the category.**
 - `[CONFIRMED]` **POLEKA and 2MAN share a freezer, a price point and a buyer.** Two Alex Foods ranges competing for one purchase. **The only difference a child sees through a freezer door is the gesture: 2MAN is a stick you lick, POLEKA is a bottle you drink.** *Corrected twice on 20 September: first from chew candy to drinkable jelly off the packshot, then to frozen juice by Aly. **«جيلي» on the pack describes the texture, not the category.*** Cut the neck, suck it out. **Not a chew candy** — corrected 20 September after opening the packshot for the first time. Each pouch is a full-bleed animal: caterpillar, lion, a cola bottle, giraffe and friends. Rainbow gel letters on a cloud, «جيلي كيدز». The loudest, youngest mark. No Alex seal.
 - `[OBSERVED]` **The bottle shape is the product idea, not decoration: a sweet pretending to be a drink.** Which also makes POLEKA consistent with the rest of the house rather than the odd one out — **BeBo, AlRawy and POLEKA are all drunk**, and 2MAN is the only one that is not.

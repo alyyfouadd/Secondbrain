@@ -23,6 +23,7 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 
 - **TSA Brand/** — [[TSA Brand]] · the agency's own locked identity: three colours, two typefaces, one tagline, one logo, plus the source PDFs and the lockup artwork. **Governs every deliverable TSA hands over**, so read it before building anything a client will see.
 - **Clients/** — [[Clients]] · one folder per client, each holding their contract note, their source document and their brand work. Currently one: [[Alex Foods]].
+- **Jobs/** — [[Jobs]] · one note per recurring agency job, each handing a future session the whole procedure in a single read. **Empty by design** — a task earns a Job note the second time it gets explained from scratch. The Package A monthly run is first in the queue, after month 1 has actually run.
 
 ## Notes in this folder
 - [[TSA Money]] — the agency's books. Revenue, cost of delivery, and the owner's-draw rule that gates what moves from TSA to [[Money]]. Agency money and personal money are two pots; this note owns the first one.

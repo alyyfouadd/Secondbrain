@@ -5,54 +5,50 @@ type: reference
 ---
 # Vault Brief
 
-A full read of this vault, front to back, as it stands on **Sunday 20 September 2026, 5:15 PM Cairo**. Every note on `main`, both daily logs, all eleven marketing playbooks, the build README and the folder indexes — 45 markdown files, roughly 5,340 lines, plus 8 PDFs and the packaging artwork.
+A full read of this vault, front to back. **Written 20 September 2026 at 5:15 PM Cairo against `main`; rewritten the same evening after the four refs were merged.**
 
-> **What this note is and is not.** It is a dated snapshot, written to be read cold by a future session or by Aly after a gap. It is **not** a second source of truth. The live queue is [[Active Priorities]], the operating manual is [[VAULT-INDEX]], and the rules are `CLAUDE.md`. Where this brief and those files ever disagree, **they win and this one is stale**. Re-date it or delete it rather than trusting it.
+> **What this note is and is not.** It is a dated snapshot, written to be read cold by a future session or by Aly after a gap. It is **not** a second source of truth. The live queue is [[Active Priorities]], delivery state is [[Delivery Register]], the operating manual is [[VAULT-INDEX]], and the rules are `CLAUDE.md`. Where this brief and those files disagree, **they win and this one is stale.**
 >
-> Everything below is verified against the actual files and the actual repo, not against what a note claims about itself. Where something is inference rather than fact, it says so.
+> Everything below is verified against the actual files and the actual repo, not against what a note claims about itself.
 
 ---
 
-## 1. The headline: the vault is split across four refs, and `main` is the smallest of them
+## 1. The vault is one ref again
 
-**This is the most important fact in the vault right now and nothing in `main` knows about it.**
+**The finding this brief opened with is now closed.** At 5:15 PM `main` was the smallest of four live versions of the vault: three session branches carried roughly 7,600 insertions of work that had never reached the trunk, two of them editing the boot config, and they conflicted with each other on where the client note lived and what the asset folders were called.
 
-`main` is current as of **19 September, 02:45 Cairo**. Since then, three separate session branches have pushed substantial work that never reached the trunk:
+**All three are merged.** The conflicts were resolved by combining rather than picking, because both sides were usually describing the same days from different sessions:
 
-| Branch | Last commit | Size | What is on it |
-|---|---|---|---|
-| `claude/zealous-curie-2luto5` | 20 Sep 03:06 | **20 commits, ~5,600 insertions** | Alex Foods Discovery Brief (535 lines of client answers), Delivery Plan, Week 1 client messages, Meta Access Runbook, TSA Client System, Daily Brief, `book.py` (the 1,158-line brand-book generator), the real vector seal, the POLEKA slogan work, **and an edit to `CLAUDE.md`** |
-| `claude/affectionate-hopper-7udgj5` | 19 Sep 15:46 | **5 commits, ~1,500 insertions** | Giveaway Programme, Package A Month 1, three-month content plan, a TSA delivery team, the real vector master seal, README-to-index renames |
-| `claude/relaxed-tesla-1gicm3` | 20 Sep 03:26 | **3 commits, ~530 insertions** | Moves Alex Foods into `02 - TSA/Clients/Alex Foods/`, a whole-vault audit, the graph/hub-link fixes, **and a different edit to `CLAUDE.md`** |
+- The client's 19 September answers, the shipped Shooting Recipe, the Brand Foundation book, the vector master seal, the giveaway programme, the delivery team and the month-1 plan are all on the trunk now.
+- `TSA Money`'s cost-of-delivery gap carries all three suppliers — the media buyer from one branch, Mahmoud and the unfilled animator from the other.
+- Two branches had independently written a `Content Plan.md`. They were different documents sharing a filename, so they were split along the line the brand book already draws: strategy stays in [[Content Plan]], the patterns became [[Post Archetypes]].
+- Both daily logs keep every session from every branch, renumbered by Cairo clock — 18 sessions on the 19th, 14 on the 20th.
 
-**This is the exact failure the vault already burned two sessions on** — Session 8 on 18 September found the vault split across two branches with neither holding a complete copy, and Session 26 merged a third specifically so that "two accounts booting on different rule sets" could not happen. It has happened again, at roughly four times the scale, and two of the three branches edit the boot config.
+**Verified, not assumed:** no conflict markers anywhere, every filename from all four refs present bar six deliberate renames and one byte-identical duplicate, every wikilink resolving, and the generators' relative paths still working after the move.
 
-**They also conflict with each other structurally, not just textually:**
-
-- `relaxed-tesla` moves `Alex Foods.md` into `Clients/Alex Foods/`. `zealous-curie` edits it in place at `02 - TSA/`.
-- `affectionate-hopper` renames `design-system/README.md`, `packshots/README.md` and `logos-transparent/README.md` into folder-index notes. `relaxed-tesla` writes a new VAULT-INDEX rule saying asset and build folders **keep** `README.md` on purpose.
-- Both branches add a vector seal, in **two differently-named folders**.
-- The two `CLAUDE.md` edits happen to touch different sections, so they merge cleanly, but one of them adds a **new rule 12** and renumbers "Locked decisions stay locked" to 13. Any note or session citing "rule 12" is now ambiguous across refs.
-
-**What this costs if it sits:** the client answers received on 19 September — the ones that overturn six things TSA had already built on — exist on exactly one branch. Any session that boots from `main`, which is the repo default, reads a vault that does not know them.
-
-> **And this brief has the same problem.** It is being written on `claude/vault-brief-jq4qem`, which is a fifth ref. Merging it to `main` is part of finishing it.
-
-### What the branches overturn, that `main` still states as fact
-
-Recorded here so the divergence is visible, **not** as settled truth — these are branch claims, unverified against `main`'s sources:
-
-- **POLEKA is not jelly candy.** It is a **frozen juice** sold from a freezer, corrected three times on 20 September. `main` calls it jelly candy in six notes. «جيلي» on the pack describes the texture, not the category.
-- **BeBo's format is in dispute.** `main` has carried "powder, one sachet makes a full jug" since 18 September and the whole BeBo voice section rests on it. The client described a ready-to-drink straw sachet. Neither reading is proven; one photo of the back of a pack settles it, and BeBo copy is frozen until it arrives.
-- **Product photography is no longer the gate.** The branch records TSA producing it with an AI product shooter from the real pack artwork. `main` still calls it the dependency every visual deliverable hangs on.
-- **A real vector seal arrived**, which `main` records as impossible ("no source files exist and none are coming").
-- **The client named three approvers**, where clause 3 allows one.
-- **Half the portfolio is frozen, and the paid term runs October to January.** POLEKA and 2MAN both sell from a freezer. If they behave seasonally, two of four ranges sit out of season for the entire contract. Inference from category, not from client data — and the branch calls it the biggest commercial risk on the job.
-- **Real follower counts**: Facebook ~52,000, TikTok ~500, Instagram ~40. One asset exists, and it confirms the umbrella decision from real data.
+**What it cost to find out:** this was the third recurrence. It is now rule 17 in the boot config rather than a habit.
 
 ---
 
-## 2. What this vault is
+## 2. What changed in the reorganisation
+
+| | Before | After |
+|---|---|---|
+| Live versions of the vault | **4** | **1** |
+| Client work | Flat in `02 - TSA/` | `02 - TSA/Clients/Alex Foods/`, client note doubling as the folder index |
+| Delivery status | Prose across four notes | **One row each in [[Delivery Register]]** |
+| Decisions | Inline blockquotes correcting the paragraph above | **[[Decisions]]** — dated, with evidence and what each overturned |
+| Recurring jobs | Named, never built | `02 - TSA/Jobs/` exists and is indexed |
+| The conventions | In a plan | **Rules 14 to 17 in `CLAUDE.md`**, which survives compaction |
+| Notes | 45 | 63 |
+
+**What did not change, because it was never the problem:** the numbered folders, the index-per-folder rule, the hub line, the boot-config split, the marketing playbook with its pointer skill, and append-only daily notes.
+
+**What is still outstanding:** step 5 of [[Vault Rebuild Plan]] — rewriting roughly forty notes to the one-fact-one-owner and history-below-the-line conventions. Deliberately not rushed.
+
+---
+
+## 3. What this vault is
 
 An **AI memory vault**: plain Markdown notes that an AI reads at the start of every session and writes back to, so it remembers across sessions instead of being re-briefed each morning. Built from Jared Rhodenizer's `ai-memory-vault` (CC BY-SA 4.0), adapted for an iPad-only setup.
 
@@ -64,7 +60,7 @@ Three files carry the system: `CLAUDE.md` (boot config and identity — survives
 
 ---
 
-## 3. The business: one client, and everything rides on it
+## 4. The business: one client, and everything rides on it
 
 **[[Alex Foods]]** — an Alexandria food manufacturer, legally الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية, whose seal carries the Pharos lighthouse. TSA's first and only client.
 
@@ -79,22 +75,13 @@ Three files carry the system: `CLAUDE.md` (boot config and identity — survives
 
 **The thing worth holding onto:** the 42,000 is not profit, it is an advance. It buys one month of Package A — roughly twenty deliverables — that has not been produced, and under clause 9 that month runs to its end even if either side walks. Its clock has not started and cannot start until the Foundation is approved in writing.
 
-### Foundation delivery — 8 deliverables, target 9 October, 19 days from today
+### Foundation delivery — target 9 October, 19 days from today
 
-| # | Deliverable | State on `main` |
-|---|---|---|
-| 1 | Brand Voice Guide | **Drafted.** 8 of 9 sections usable. Missing: Alex Foods' own tone block — needs Aly's ear, not more client input |
-| 2 | Colour and Type System | **SHIPPED** — `Design System v1.1.pdf`, 19pp. Pending written approval only |
-| 3 | Social Pages Setup | **Specified** — `Brand and Social Kit v1.2.pdf`, 8pp. Cannot be executed without Meta admin |
-| 4 | Slogans + giveaway song | **Method only. No lines written** |
-| 5 | Monthly Content Calendar | **Not started.** Format is TSA's and buildable |
-| 6 | Animation and Shooting Recipe | **Not started** — and it is flagged as the one to ship first, ahead of everything |
-| 7 | Google Business Profile | Blocked on the client's Google account and details |
-| 8 | Local SEO, Alexandria | **Not started.** Research is unblocked |
+**This brief does not carry a deliverable table any more, and that is the point.** [[Delivery Register]] owns delivery state — one row each, one closed status vocabulary, and the only place in the vault that says where anything got to. Duplicating it here is exactly the six-notes-one-fact problem that produced every drift item below.
 
-**Read that honestly: two of eight are shipped, one is specified, one is drafted, and four have no content at all.** Among the four with nothing written is deliverable 6, the shooting recipe — the document every note in the vault agrees should go out first and on its own, because it is what tells the client how to produce the photography that blocks all twenty Package A deliverables. It has been named as urgent since 18 September and does not exist.
+**The honest read as of this evening:** one deliverable finished and sent-ready (the Shooting and Compositing Recipe, shipped as its own PDF), two blocked on client access and shipping as specification with a waiting chip, five part-built, and the brand book itself built at 39 pages with four sections still waiting on content. **Nineteen days.** Dated plan in [[Alex Foods Delivery Plan]].
 
-**The trap under the word "deliver," and it is the sharpest commercial point in the vault:** written Foundation sign-off starts Package A month 1. Clause 6 extends the *timeline* day-for-day for client delay and explicitly does **not** extend the paid month. So approving the Foundation before usable materials land starts a paid month that cannot be produced into. The fix is one sentence agreed in the delivery message — *"month 1 starts on the later of written Foundation approval or the arrival of usable product photography"* — and it is cheap now and impossible in week three.
+**The trap under the word "deliver," and it is the sharpest commercial point in the vault:** written Foundation sign-off starts Package A month 1. Clause 6 extends the *timeline* day-for-day for client delay and explicitly does **not** extend the paid month. The fix is one sentence agreed in the delivery message — *"month 1 starts on the later of written Foundation approval or the arrival of usable product photography"* — cheap now, impossible in week three.
 
 ### What is exposed
 
@@ -116,7 +103,7 @@ Worth naming, because a brief that only lists risk misrepresents the vault. The 
 
 ---
 
-## 4. Money
+## 5. Money
 
 **Two pots, one gate**, and the gate is the point: money in the TSA pot is not Aly's money until it is drawn as a decided number on a decided date, logged in [[TSA Money]]. Personal spending pulls from draws, never from client payments.
 
@@ -134,7 +121,7 @@ Worth naming, because a brief that only lists risk misrepresents the vault. The 
 
 ---
 
-## 5. The vault as a system
+## 6. The vault as a system
 
 **Structure:** six numbered folders, each with a same-named index note, every index one hop from [[VAULT-INDEX]] via an explicit link line — because the structure map is a code block and creates no links, so without that line a frozen daily log becomes the hub of the vault. That failure was found by reading the graph view as a diagnostic and fixed.
 
@@ -144,47 +131,48 @@ Worth naming, because a brief that only lists risk misrepresents the vault. The 
 
 **No Jobs built yet**, by choice. The stated trigger is the second time a task gets explained from scratch; monthly content production repeats three times on this contract alone, so it will earn one after month 1 has actually run.
 
-### Health check — what is drifting on `main`
+### Health check — drift, and where it stands tonight
 
-Found by reading every note against every other note. Each is small; together they are the thing the checkpoint rule exists to prevent.
+Nine drift items were found by reading every note against every other note. **Eight are closed**, most of them by the audit that was sitting unmerged on a branch, the rest in this session.
 
-1. **[[TSA Money]] carries the wrong due date.** Its revenue table says instalment 1 is due **22 Sep**. The invoice set it to **26 Sep**, and [[Alex Foods]] and [[Active Priorities]] both say so. The money note is the one that is wrong.
-2. **Six notes still list vector logo files as blocking every visual deliverable.** That material was closed on 18 September — the contract only asked for vector "if available" and nothing in either stage is printed. Stale in [[Foundation Roadmap]], [[Colour System]], [[Type System]], [[Colour and Type Kit]], [[Alex Foods Brands]] and [[Brand Book Spec]]. *(TSA Brand's own entry is a separate, legitimate item about TSA's own logo.)*
-3. **Two notes cite a PDF that no longer exists.** [[Alex Foods]] and [[Type System]] both record deliverable 2 as shipped as `Design System v1.0.pdf`. v1.0 was superseded and deleted the same day; the file is v1.1.
-4. **[[Alex Foods]]'s client-materials checklist is entirely unticked**, including SKU names and packaging artwork that the same note says arrived on 18 September.
-5. **[[Slogans and Song]] §6 still waits on "what Alex is."** Answered 18 September: umbrella.
-6. **[[Alex Foods]] still opens by describing three product families.** There are four.
-7. **[[Active Priorities]] files TSA work under "The vault itself"** — the production toolchain and the brand-inputs item both carry `(tsa)`. The brand-inputs item also asks for SKU names that have already arrived.
-8. **The default-branch task looks done and is still open.** `git ls-remote --symref origin HEAD` returns `refs/heads/main`, so the flip appears to have happened. The follow-on cleanup did not: there are now **eight session branches on the remote**, not the two the queue names. Five are fully contained in `main` and safe to delete; three are the unmerged work in §1 and must not be.
-9. **`ds.pdf` and `Alex Foods - Design System v1.1.pdf` are the same file** — identical MD5, 888,832 bytes, committed twice under two names. Minor, but it is exactly the "two Design System files in one folder" situation the vault deleted v1.0 to avoid.
+| # | Item | State |
+|---|---|---|
+| 1 | [[TSA Money]] carried the superseded 22 Sep instalment date | **Fixed** |
+| 2 | Six notes still called vector logos a live blocker | **Fixed** — and partly overturned: the master seal *is* real vector now |
+| 3 | Two notes cited a deleted `Design System v1.0.pdf` | **Fixed** |
+| 4 | [[Alex Foods]]'s materials checklist was entirely unticked | **Fixed** — and the register now owns it |
+| 5 | [[Slogans and Song]] still waited on "what Alex is" | **Fixed** |
+| 6 | [[Alex Foods]] opened by describing three product families | **Fixed** |
+| 7 | [[Active Priorities]] filed TSA work under "The vault itself" | **Open** — cosmetic, and it dies with step 6 of [[Vault Rebuild Plan]] |
+| 8 | The default-branch flip was done but still queued, and eight branches were live | **Fixed** — three merged, and the dead ones are safe to delete |
+| 9 | `ds.pdf` and the shipped Design System PDF were the same bytes twice | **Open** — harmless, and it goes when the book replaces both |
 
-**The pattern underneath all nine:** a decision gets made and cascaded into the notes that change *because* of it, while the notes that merely *mention* it keep the old state. The vault already knows this — Session 13 called the same class of thing "real drift across three notes." It is recurring.
+**And one new one was found and fixed in this session, which is the pattern in miniature:** POLEKA's product category was corrected to *frozen juice* on one branch and left as *jelly candy* in five other notes. **One fact, six notes, five of them wrong.** That is what rule 14 now exists to stop.
+
+**The pattern underneath all of it:** a decision gets made and cascaded into the notes that change *because* of it, while the notes that merely *mention* it keep the old state. The structural fix shipped tonight — [[Decisions]] to hold the reasoning, [[Delivery Register]] to hold the status, and rules 14 to 17 to stop the restating. **The rewrite that removes the remaining duplication is step 5 of [[Vault Rebuild Plan]] and has not been done.**
+
+## 7. Risks, ranked by what they actually cost
+
+1. **Four unbuilt or part-built deliverables against a 9 October target.** The schedule is the exposure now that the refs are merged. [[Alex Foods Delivery Plan]] has it dated.
+2. **Producing for a client with no signed acceptance page.** Mohamed is named verbally as approver, which is a real improvement on nobody — but clause 3 wants a name, a role and a contact on a signed page, and a 48-hour auto-approval clock nobody agreed in writing is not a clock.
+3. **X is still incomplete**, so no draw is safe or reckless, only lucky. One of three suppliers has quoted; the animator who carries 8 of the 20 assets is unfilled and unpriced. 23,000 of personal debt waits on the answer.
+4. **The paid month trap** — sign-off starts a clock the client has not supplied everything for. One sentence in the delivery message fixes it.
+5. **Half the portfolio is frozen and the term runs October to January.** POLEKA and 2MAN both sell from a freezer. Inference from category, not client data, and the seasonality answer is the most valuable outstanding question.
+6. **Unlicensed third-party characters.** The cola artwork is cleared verbally; **SpongeBob is not** — their pinned post is built on it, and TSA runs the ad account.
+7. **Single-client concentration.** 100% of revenue. The scaling plan is named and not built.
+8. **The machine.** Everything runs on a borrowed iPad, owed 1,500 EGP to the person who owns it.
 
 ---
 
-## 6. Risks, ranked by what they actually cost
+## 8. What I would do, in order
 
-1. **The split refs.** Four versions of the vault, three of them holding work nobody merged, two editing the boot config. Until it is reconciled, "what the vault says" has no single answer and any fresh session reads an incomplete memory.
-2. **Four unbuilt deliverables against a 9 October target**, one of which is the document everything else waits on.
-3. **Producing for a client with no named approver.** No approvable delivery, no enforceable rejection clause, no top rung on the complaint ladder.
-4. **X is unknown**, so no draw is safe or reckless, only lucky — and 23,000 of personal debt is waiting on the answer.
-5. **The paid month trap** — sign-off starts a clock the client has not supplied the materials for.
-6. **The trademark exposure**, on TSA's own ad account.
-7. **Single-client concentration.** 100% of revenue, and the business note's own scaling plan is named but not built.
-8. **The machine.** Everything runs on a borrowed iPad, owed 1,500 EGP to the person who owns it. [[Bassem]] is correctly filed as load-bearing infrastructure rather than a contact.
-
----
-
-## 7. What I would do, in order
-
-Sequencing, since that is the thing Aly says he buys:
-
-1. **Reconcile the four refs into `main`**, resolving the structural conflicts deliberately rather than letting git pick. Then delete the five dead branches. Nothing else in this list is safe to do on a vault that has four versions.
-2. **Ship the Animation and Shooting Recipe on its own**, this week. It is the cheapest unblock available and it has been the obvious next move for two days.
-3. **Send one message closing four paper gaps at once:** POLEKA in writing, the umbrella decision, one named approver, and the company's real age.
-4. **Work out X.** Everything about money is downstream of it, and it is arithmetic rather than a decision.
-5. **Write Alex Foods' master tone block.** One block, Aly's ear, and deliverable 1 closes.
-6. **Clear the nine drift items in §5** in a single pass, then fix the daily-note-to-Active-Priorities leak that produced most of them.
+1. ~~**Reconcile the four refs.**~~ **Done tonight.** Delete the five dead branches when convenient — they are byte-identical to the trunk.
+2. **Send the Shooting and Compositing Recipe.** It is finished, rendered and sitting in the vault. **It is the only deliverable that can go out tomorrow**, and it is the one that unblocks the client's side.
+3. **Send one message closing the paper gaps:** POLEKA in writing, the umbrella decision, the acceptance page with Mohamed's role and contact, and the company's real age. [[Alex Foods Week 1 Messages]] already has them drafted.
+4. **Get the two supplier rates**, and X stops being incomplete.
+5. **Confirm which BeBo line is live** — [[Decisions]] carries two and cannot tell which is newer. One word from you closes it.
+6. **Write Alex Foods' master tone block.** Direction received ("fun"); it needs your ear and deliverable 1 closes.
+7. **Step 5 of [[Vault Rebuild Plan]]** — the forty-note rewrite. After the Foundation ships, not before.
 
 ---
 

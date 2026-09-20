@@ -60,6 +60,7 @@ This is my fourth agency. The difference this time is that it runs on direction,
 01 - Daily Notes    <- Dated logs of what got done, one file per day, in month subfolders
 02 - TSA            <- The Standard Agency: clients, offers, positioning, scaling
   TSA Brand/        <- the agency's OWN locked identity: colour, type, tagline, logo
+  Jobs/             <- one note per recurring agency job; empty until a task repeats
   Clients/          <- one folder per client; the client note IS that folder's index
     Alex Foods/     <- contract note, signed scope PDF, the plan, the brief, the messages
       Alex Foods Brands/   <- the four brands, the whole Foundation build, and the assets
@@ -82,7 +83,7 @@ Two rules keep this file the centre of the vault instead of an ornament, and the
 
 > **Measured 20 September:** `2026-09-18.md` carried **202 wikilinks — 30 outbound edges against 1 inbound** — and sat dead centre of the graph while [[VAULT-INDEX]] sat on the rim. Converted to backticks; the daily notes are now leaf nodes and [[Alex Foods]], the live client, is the largest node, which is what a working vault should look like.
 
-**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Clients]] (inside TSA) · [[Alex Foods]] (inside Clients — the client note doubles as its folder index) · [[Alex Foods Brands]] (inside Alex Foods)
+**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Jobs]] (inside TSA) · [[Clients]] (inside TSA) · [[Alex Foods]] (inside Clients — the client note doubles as its folder index) · [[Alex Foods Brands]] (inside Alex Foods)
 
 > **Asset and build folders are deliberately not on that line.** `design-system/`, `packshots/`, `logos-transparent/` and `logos-vector/` hold artwork, fonts and build scripts rather than notes, so each carries a **`README.md`** — documentation sitting beside code, not a node in the graph. They are described from [[Alex Foods Brands]], which is where a human would actually look them up. Giving `fonts/` an index note listing twenty-six `.woff2` files would be bloat under rule 5, not a map.
 

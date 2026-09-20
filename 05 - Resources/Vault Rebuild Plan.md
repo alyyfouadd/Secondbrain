@@ -1,5 +1,5 @@
 ---
-status: idea
+status: active
 project: meta
 type: plan
 ---
@@ -7,7 +7,21 @@ type: plan
 
 How to stand this vault up **the right way** — same system, same information, organised so it stops drifting. Written 20 September 2026 off a full read of every note, recorded in [[Vault Brief]].
 
-> **STATUS: PROPOSED, NOT APPROVED.** Nothing here has been executed. It is written down so the thinking survives the session and so a future session can run it without re-deriving it. Aly's call on the route in §2.
+> **STATUS: APPROVED AND MOSTLY EXECUTED, 20 September 2026.** Aly approved the route; steps 0 to 4 and 7 are done in the same session.
+>
+> | Step | State |
+> |---|---|
+> | 0 · Merge the four refs | **DONE.** All three branches merged into one trunk, conflicts resolved by combining rather than picking |
+> | 1 · Freeze and verify | **DONE.** No conflict markers, every wikilink resolves, every file from every ref accounted for |
+> | 2 · Build the target structure | **DONE.** `Clients/Alex Foods/` and `Jobs/` exist, both indexed and on the hub line |
+> | 3 · Move the files | **DONE.** Client work relocated; the generators' relative paths verified after the move |
+> | 4 · Extract the registers | **DONE.** [[Delivery Register]] and [[Decisions]] built |
+> | 5 · Rewrite the notes to §4's conventions | **NOT DONE — this is the remaining work.** Roughly forty notes, and rushing it is worse than leaving it |
+> | 6 · Rebuild Active Priorities as a thin queue | **NOT DONE.** Waits on step 5 |
+> | 7 · Write the conventions into the boot config | **DONE.** Rules 14 to 17 in `CLAUDE.md` |
+> | 8 · Verify | **DONE for what shipped**; step 5's verification comes with step 5 |
+>
+> **What is left is the careful part, and it is deliberately not rushed.** §7's cost note still applies: forty notes rewritten badly is worse than forty notes left honest and untidy, against a Foundation due 9 October.
 
 ---
 

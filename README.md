@@ -26,7 +26,10 @@ Everything else is memory.
 04 - Archive/        Finished work
 05 - Resources/      Reference material, templates, Jobs
 Active Priorities.md The single queue of open work
+Vault Brief.md       A dated snapshot of the whole vault, for reading cold
 ```
+
+[[Vault Brief]] is the one file here that is allowed to go stale: it is a point-in-time read of everything, useful for catching up after a gap, and it defers to `Active Priorities.md` and `VAULT-INDEX.md` wherever they disagree.
 
 ---
 

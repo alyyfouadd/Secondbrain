@@ -108,6 +108,10 @@ Learned the hard way on client one. **Sequenced by dependency, not by the order 
 
 > **Tested on client one's slogans and it worked twice**, including once where the client chose against the recommendation and was right to.
 
+## 4c. Getting platform access
+
+**Never ask for a login.** The partner route in [[Meta Access Runbook]] means credentials never move, access survives staff changes on both sides, and the client revokes it in one click when the engagement ends. **And the ad account must be the client's, not the agency's** — otherwise the agency becomes payer of record for media spend the contract says the client pays directly.
+
 ## 5. The questions that shaped client one, and will shape the next
 
 **Ask these before building anything.** On client one, several were asked late and the answers moved work that was already done.

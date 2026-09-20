@@ -32,6 +32,7 @@ type: reference
 
 | # | Date | Decision | Rests on | Overturned |
 |---|---|---|---|---|
+| 24 | 20 Sep | **BeBo's brand line is «مع بيبو، اليوم أحلى».** «بيبو معاك كل يوم» is dead | Aly, confirming directly when asked which of the two was live | **Decision #undated-duplicate**, where the same day recorded two BeBo lines and the vault could not tell which was newer |
 | 23 | 20 Sep | **The prompts do not ship to the client.** Section 16's prompt formula and exclusion list come out of the client build | Clause 5 reserves TSA's working method; the scope sold camera, light, background and framing, not the method | The assumption that the whole recipe was a client deliverable. **Pending Aly's go-ahead on the re-render** |
 | 22 | 20 Sep | **POLEKA is a frozen juice**, sold frozen from a freezer, snip the neck and drink it | The packshot, opened properly for the first time; then Aly | "Jelly candy", then "drinkable jelly". Corrected three times in one day |
 | 21 | 20 Sep | **The giveaway belongs to BeBo, not the master** | BeBo is the client's named hero product and best seller | The lockup had been put on Alex Foods and the hook on the wrong brand |
@@ -58,12 +59,12 @@ type: reference
 
 ---
 
-## One row that needs Aly to settle it
+## How this register earned its keep, once
 
-**BeBo's brand line is recorded twice, and the two entries disagree.**
+**The BeBo line was recorded twice on the same day and the register could not tell which was newer.** Two entries, both marked settled, the second saying the first was dead — and the only way to guess was list position, which is inference, not a record. **That is precisely the failure this note exists to stop, showing up inside the note itself.**
 
-[[Active Priorities]] carries both «**بيبو معاك كل يوم**» and «**مع بيبو، اليوم أحلى**» as settled on 20 September, the second saying the first is dead and that the parked song's bookend broke with it. **Reading the order, «مع بيبو، اليوم أحلى» is the later call and therefore the live one** — but that is inference from list position, not from a dated record, which is exactly the failure this note exists to stop.
+**Closed 20 September: Aly confirmed «مع بيبو، اليوم أحلى».** It is decision #24 above; the other is superseded and retired in `vault-check/retired.tsv`, so any note that states it again fails the check.
 
-> **Aly: confirm which line is live, and this row becomes decision #24 with the other marked superseded.** Nothing else in the vault should state a BeBo line until it does.
+**The lesson kept: a decision without a date and an author is not a record.** Every row above carries both for this reason.
 
 **Up:** [[Alex Foods]] · [[Clients]]

@@ -11,6 +11,23 @@ type: guide
 
 ---
 
+## 0. The lines — this is the live answer
+
+**Everything below section 1 is how these were arrived at, and most of it is inside a declared audit-trail block.** This section is what is true now. **Nothing else in the vault states a brand line; they link here.**
+
+| | Line | State |
+|---|---|---|
+| **Alex Foods** (master) | «طعم أحلى مع أليكس فودز» | **Live.** The client's own line, already in market — recorded, not written by TSA |
+| **BeBo** | «مع بيبو، اليوم أحلى» | **Settled 20 Sep**, `Decisions` #24, confirmed by Aly directly |
+| **AlRawy** | «الراوي.. طعم تثق فيه» | **Settled 20 Sep**, `Decisions` #19 |
+| **2MAN** | «عيش جو المغامرة» | **Live.** Theirs, in market, and it works — kept rather than replaced |
+| **POLEKA** | «بوليكا.. انتعاش في ازازة» | **Settled 20 Sep**, `Decisions` #18 — **with one open argument:** `Active Priorities` proposes «اجمعهم مع بوليكا» instead, because the master already owns **مع + أحلى** and a third line in that construction stops reading as a system |
+| **Giveaway campaign** | «صوّر واكسب مع بيبو» | **Settled 20 Sep**, `Decisions` #20. A campaign line, not a brand line |
+
+> **«بيبو معاك كل يوم» is dead.** It was chosen and then replaced the same day, and it is retired in `vault-check/retired.tsv` — any note that states it again fails the check. **The parked giveaway song still bookends on it**, which is the one thing this decision broke and has not been rebuilt.
+
+---
+
 ## 1. The correction that has to come first
 
 [[Marketing]] is the craft reference for every piece of copy TSA writes, and most of it carries here unchanged. **But a slogan is not a headline, and applying the headline rules literally will produce four unusable lines.**

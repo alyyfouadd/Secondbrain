@@ -481,14 +481,29 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 
 ### The line
 
-> ### «بوليكا.. برد في ازازة»
-> *POLEKA, cold in a bottle.*
+> ### «بوليكا.. انتعاش في ازازة»
+> *POLEKA, refreshment in a bottle.*
+>
+> **Aly, 20 September: «حاجة زي انتعاش تكون أفضل».** He is right, and the reason is §1's own rule.
 
-**Three words after the name, and it does both jobs at once.** **برد** puts it in the freezer category so a child knows what it is. **ازازة** is the differentiator, and it is the child's own word — **it is what makes POLEKA the one that is not a stick.**
+**برد is a fact. انتعاش is a benefit.** Cold describes the product; refreshment describes what it does for the child. **§1 says sell the feeling and not the feature, and برد was the feature.** I reached for the physical property because it was the easiest thing to name through a freezer door.
+
+**And the swap keeps the thing that was doing the real work.** **ازازة stays**, so POLEKA still owns the gesture that separates it from 2MAN on the same shelf. **The line now carries a benefit and a differentiator rather than a category and a differentiator**, which is strictly more than it was carrying before.
+
+**Alternates:**
+
+| السطر | Gloss | Trade |
+|---|---|---|
+| «انتعاش مع بوليكا» | Refreshment with POLEKA | **Their مع construction**, so it sits closest to the family. **But it loses ازازة**, and with it the only visible difference from 2MAN in that freezer. |
+| «بوليكا.. انتعاش ساقع» | POLEKA, cold refreshment | Benefit plus category. Same problem: no bottle, so no separation from the sibling. |
+
+> **The one tension worth stating, because it is a register question and Aly's ear decides it.** [[Brand Voice Guide]] §6 puts POLEKA at *colloquial, silly, sound-led, two to six words*, and **انتعاش is none of those — it is a grown-up advertising word that no six-year-old says.** The counter-argument is that Egyptian drink advertising has used it for decades, so **a child recognises it even without using it**, and a brand line does not have to be in the audience's vocabulary so long as it is about them. **Worth one deliberate decision rather than drifting into it.**
+
+*Withdrawn: «بوليكا.. برد في ازازة» — the feature version of the same line.*
+
+**Three words after the name, and it does both jobs at once.** **انتعاش** is what the child gets. **ازازة** is the differentiator and the child's own word — **it is what makes POLEKA the one that is not a stick.**
 
 It names no flavour, so it works across all four SKUs. It makes no claim needing a document. It carries the brand. **And it is true**, which is the first time that has been reliably said about a POLEKA line tonight.
-
-**Alternate:** «بوليكا.. ازازة ساقعة» — *a cold bottle.* Same idea, tighter, slightly less rhythmic.
 
 **Withdrawn:** «بوليكا.. ساقعة أحلى» — for the sibling reason above. **It is a good line for the wrong brand.**
 

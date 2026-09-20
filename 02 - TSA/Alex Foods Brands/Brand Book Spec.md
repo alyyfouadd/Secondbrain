@@ -94,9 +94,47 @@ Two weights only across the whole book — Regular and SemiBold. That is the kit
 
 **Sample copy is never translated.** The captions, slogans, reply templates and the giveaway song in the voice section *are the deliverable* — they are the actual Arabic that goes out. Translating Egyptian colloquial into English produces something nobody will ever post and quietly implies the English is the original. Sample copy stays in Arabic, with a one-line English gloss in the margin where a non-Arabic reader needs to follow the argument.
 
+## 5b. DECIDED 19 September: one book, and what it swallows
+
+**Aly's call, against `SWAG-Design-System.pdf` as the completeness bar: one document, not three.**
+
+| Was | Now |
+|---|---|
+| `Design System v1.1.pdf`, 19pp, deliverable 2 | **Folded in as §04–06.** Stops being a client-facing document; `design-system/` and [[Colour System]] / [[Type System]] remain the internal source of the values. |
+| `Brand and Social Kit v1.2.pdf`, 8pp, deliverable 3 | **Folded in as §07 and §11–14.** Its range pages and social spec survive as sections; its four page-4 defects die in the rewrite. |
+| This book | **The only thing the client receives.** |
+
+**Why this was the right call and not just a tidier one:** three documents stating the same hex value is the exact drift the vault's no-bloat rule exists to stop, and **a client handed three books has to be told which one wins.** The scope sells *one* Brand Foundation. It should arrive as one object.
+
+> **One thing to confirm before it matters: nothing in the vault records the Design System PDF actually being sent to the client.** v1.0 was explicitly never sent, and [[Foundation Roadmap]] step 7 has the whole Foundation shipping in a single message around 9 October. **If it has not gone out, folding it in costs nothing.** If Aly has WhatsApped it to them at some point, they need one line saying it is now section 04 of the book rather than a separate document.
+
+### The two production facts this creates
+
+1. **The book roughly doubles, from 71 pages to about 105.** Nine genuinely new sections. **The template is proven** — the Design System exercised every page type — so this is content work, not layout work. **But it is still content work against a 9 October target and a 20,000 EGP deliverable, and that should be said plainly rather than absorbed quietly.**
+2. **The 15 MB WhatsApp limit in §3 will not survive this, and that is a real problem rather than a detail.** The 8-page kit alone rendered at **10.2 MB**, because pack artwork is heavy. A 105-page book carrying range lineups, packshots and do-not pages will land far outside anything WhatsApp will carry. **The delivery route has to be solved before the book is finished, not after:** a compressed screen export alongside the full-resolution master, or a link. **Do not discover this at the moment of delivery.**
+
+## 5c. BUILT 19 September — `Alex Foods - Brand Foundation v1.0.pdf`
+
+**34 pages, 25 sections, bilingual throughout with Arabic leading, 8.0 MB.** Generated from `design-system/book.py`, which is now **the single source for every section's content** — `render(ids)` renders any subset, so an early standalone ship of one section is a call rather than a second script.
+
+**What is DEFINED and complete: 17 sections.** Cover, how to use, contents, architecture, colour, type, logo and seal, the four ranges, voice, captions, canvas and grid, pack in field, flashes and characters, motion, shooting and compositing, compliance, the system in numbers, governance, sign-off.
+
+**What carries a waiting chip: 5 sections.** §10 slogans *(needs a native ear, not a machine's guess)*, §14 social setup and §19 GBP *(both `SPEC · EXECUTION PENDING CLIENT ACCESS` — written in full, blocked on Meta admin and a Google account)*, §17 calendar *(needs seasonality)*, §18 patterns *(depends on §11, §13, §15 and POLEKA's unchosen extended colours)*, §20 local SEO.
+
+> **The waiting sections are printed, not omitted, and each one states what it waits on and who from.** A book that quietly leaves a bought deliverable out is worse than one that says where it stands. This is the status-chip system in §6 doing the job it was specified for.
+
+**Two things the build settled:**
+
+1. **The 15 MB delivery problem did not materialise, and the earlier worry was wrong about why.** The book renders at **8.0 MB**, comfortably inside WhatsApp. The 10.2 MB on an 8-page kit came from full-bleed pack lineups on nearly every page; a governance book is mostly type, and only the range pages carry heavy artwork.
+2. **`field.py` and `recipe.py` were deleted.** Their content is §12 and §16 of `book.py`. Keeping standalone generators would have put the same governance text in two files.
+
+> **One deviation from §6 that needs Aly's word rather than a silent override.** This spec says the cover is **type only on off-white**. The built cover is **navy with the seal**, on the reasoning that the umbrella decision made the master own the seal and the presence, and a navy cover states the hierarchy before page 3 explains it. **The four-brand band at the foot is exactly as specified.** It is a one-line change back to Paper if the original call stands.
+
 ## 6. Page architecture
 
 The contents page **mirrors the signed Service Scope V2's own deliverable list, in the scope document's own wording**, mapped to page numbers. That is not presentation — it is clause 4 armour. A client rejecting a delivery has to state a written reason, and a delivery matching the agreed brief and the approved guide counts as delivered. A contents page that reads as the contract's checklist makes "this isn't what we bought" a much harder sentence to write.
+
+**Revised 19 September for the one-book decision.** Nine sections are new, marked **NEW**; they carry the depth the SWAG reference sets as the bar — states and configurable options rather than examples, and computed values rather than asserted ones. **The deliverable column is unchanged and still mirrors the signed scope**, because that mapping is the clause 4 armour and nothing about added depth is allowed to disturb it.
 
 | § | Section | Pages | Scope deliverable |
 |---|---|---|---|
@@ -106,16 +144,38 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 | 03 | Brand architecture | 4 | — *(the spine everything else hangs on)* |
 | 04 | Colour system | 11 | 2 (part 1) |
 | 05 | Type system | 7 | 2 (part 2) |
-| 06 | Logo use | 5 | 2 (part 3) |
-| 07 | Brand voice | 10 | 1 |
-| 08 | Slogans and the giveaway song | 4 | 4 |
-| 09 | Social pages setup | 5 | 3 |
-| 10 | Animation and shooting recipe | 6 | 6 |
-| 11 | Content calendar | 4 | 5 |
-| 12 | Google Business Profile | 2 | 7 |
-| 13 | Local SEO — Alexandria | 5 | 8 |
-| 14 | Governance and version control | 2 | — |
-| 15 | Sign-off | 1 | — |
+| 06 | Logo and seal use | 5 | 2 (part 3) |
+| 07 | **The ranges** — one spread each: BeBo, AlRawy, 2MAN *(both packs)*, POLEKA | 6 | — · **NEW**, from kit v1.2 |
+| 08 | Brand voice | 10 | 1 |
+| 09 | **The caption system** — structure, length per range, Arabic-first, emoji, hashtags | 3 | 1 · **NEW** |
+| 10 | Slogans and the giveaway song | 4 | 4 |
+| 11 | **Canvas, grid and export specs** — post sizes, safe areas per platform, live area | 4 | 3 · **NEW** |
+| 12 | **The pack-in-field system** — how a cut-out pack sits on its flavour field | **4, BUILT** | 3 · **NEW** |
+| 13 | **Flashes, badges and the character library** | 4 | 3 · **NEW** |
+| 14 | Social pages setup | 5 | 3 |
+| 15 | **Motion** — what moves, duration, easing, stills versus animations | 4 | 6 · **NEW** |
+| 16 | Shooting and compositing recipe | **7, built** | 6 |
+| 17 | Content calendar | 4 | 5 |
+| 18 | **Post archetypes and pattern inventory** | 6 | 5 · **NEW** |
+| 19 | Google Business Profile | 2 | 7 |
+| 20 | Local SEO — Alexandria | 5 | 8 |
+| 21 | **Compliance — contrast audit and the never list** | 3 | — · **NEW** |
+| 22 | **The system in numbers · rebuilding from this book** | 2 | — · **NEW** |
+| 23 | Governance and version control | 2 | — |
+| 24 | Sign-off | 1 | — |
+
+**About 105 pages.** Sections 04, 05, 06, 07 and 14 already exist as built content in the Design System and the kit, so **the writing is the nine NEW sections plus the deliverables that were always outstanding.**
+
+### The three new sections that carry the most weight
+
+**12 — The pack-in-field system.** **This is Alex Foods' signature device and the book has never specified it.** A cut-out pack on its own flavour field is what every graphic, every still and every animation is built from. SWAG devotes a whole section to its sticker-shadow because that one device is the brand; this is the equivalent. Specify the field, the pack's position and scale, the margin, what happens when a pack is portrait versus landscape, and **what a pack may never sit on.**
+
+**18 — Post archetypes and pattern inventory.** **The section that makes the book buildable rather than admirable.** SWAG's pattern inventory lists all nineteen page patterns with exactly what is configurable in each. Here: every post pattern, per pillar — product, character, moment, trade — with what changes and what never does. **Without it the book describes a style. With it, somebody can make Tuesday's post without asking.**
+
+**22 — The system in numbers, and rebuilding from this book.** SWAG's closing move, and it is worth stealing outright: the system counted (named colours, type sizes, post formats, patterns, ranges, SKUs), then the short paragraph naming **the few things everything else is assembled from**. It is how a reader knows they have understood the system rather than read it.
+
+### The section that changed job
+**16 — Shooting and compositing recipe** *(was "Animation and shooting recipe")*. **With product photography now produced by TSA with an AI product shooter, there is no client shoot to write specs for.** It becomes the production recipe: scene prompts, the compositing rules, and the lighting and angle constants that keep eighteen SKUs looking like one brand. **The rule it exists to enforce: AI makes the scene, the client's real artwork gets placed into it, and nothing about a pack is ever generated.** See [[Alex Foods]].
 
 ### The pages that carry the weight
 

@@ -72,11 +72,11 @@ Defines what Alex Foods looks like, how it speaks, and where it appears, written
 Timeline: **3 weeks minimum** from whichever gate closes last.
 
 - [~] **Brand Voice Guide** — **drafted 18 Sep in [[Brand Voice Guide]]**, four brands not three. One voice and four tones, words in and out, sentence length and emoji per brand, the never-say list, and the comment-reply procedure with the complaint script. Only the house voice section is open, pending the "Alex" answer.
-- [x] **Colour and Type Kit — DELIVERED 18 Sep** as `Alex Foods - Design System v1.0.pdf`, 19 pages. Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
+- [~] **Colour and Type Kit — BUILT 18 Sep, and FOLDED INTO THE BOOK 19 Sep.** **Decided: one book, not three documents.** The Design System stops being a separate client-facing PDF and becomes **§04–06 of the brand book**; [[Colour System]] and [[Type System]] remain the internal source of every value. **Nothing is lost and nothing needs rebuilding** — the content is done. See [[Brand Book Spec]] §5b. *(Original entry: delivered as `Alex Foods - Design System v1.0.pdf`, 19 pages.)* Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
 - [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material.
 - [ ] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins.
-- [ ] **Animation and Shooting Recipe** — written specs followed on every shoot: camera angle, lighting, background, product framing.
+- [x] **Shooting and Compositing Recipe — COMPLETE 19 Sep** in [[Shooting and Compositing Recipe]]. *(Was "Animation and Shooting Recipe"; renamed because with AI producing the imagery there is no client shoot to write specs for.)* Bilingual, Arabic leading. **The governing rule is that the scene is generated and the product never is**, so every pixel of product in every image is the client's own artwork. Ready to render as its own short PDF ahead of the book.
 - [ ] **Google Business Profile Setup** — create and verify the listing: address, hours, categories, contact details, photos.
 - [ ] **Local SEO** — business data and keywords tuned to rank inside Alexandria and surrounding areas.
 
@@ -92,7 +92,7 @@ The monthly retainer that executes what the Foundation defined. These quantities
 - [ ] **1 × Content Calendar** — same format as the Foundation's, for the new month, delivered before that month starts.
 - [ ] **GBP + Local SEO maintenance** — update listing data, posts and photos; track local search visibility in Alexandria and surroundings.
 - [ ] **Paid Campaign Management** — campaign build, audience targeting, performance monitoring and in-flight optimisation. **Media spend does not pass through TSA** — the client pays the platforms directly.
-- [ ] **1 × Giveaway slogan and campaign lockup** — the campaign slogan and the fixed visual treatment carried across every giveaway asset.
+- [~] **1 × Giveaway slogan and campaign lockup** — **the slogan is written: «صوّر واكسب مع بيبو»**, chosen 20 September. Mechanic, cadence and the song are in [[Slogans and Song]] §5d. **The lockup itself is still to be designed**, and it carries BeBo's mark as campaign owner plus the Alex seal, because the master owns the seal.
 
 ### How a month runs
 1. **Calendar** — arrives before the month begins.
@@ -113,8 +113,9 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 - **Packaging artwork: arrived.** Material 4 closed.
 - **SKU names: arrived, and there are far more than five.** Roughly eighteen across four brands, against a contract asking for five.
+- **Logo files: REOPENED 19 September, and in a good way.** A **true vector master of the Alex Foods seal** arrived and is filed in `logos-vector/`. **This overturns the 18 September finding that no source files exist** — it was true of the four range marks and is now false of the master. **Restart the chase for the four range marks**, because this proves the client can produce vector when asked for it precisely. *(Original entry below, kept because the reasoning it rests on is still correct for the ranges.)*
 - **Logo files: CLOSED for the contracted work, 18 Sep.** No source files exist to send, so all four marks were cut out of the supplied raster onto transparency — see `Alex Foods Brands/logos-transparent/`. **Two things make this sufficient rather than a compromise.** The material list itself asks for "logo files, **vector if available**", so vector was never a contractual requirement. And **nothing in either stage is printed** — the Foundation and all of Package A are social and digital. Vector only becomes a real requirement if print or large format enters scope under clause 7.
-- **Product photos: NOT closed.** Packaging renders are not product photography. Material 3 is still outstanding, and it is the one every visual deliverable depends on.
+- **Product photos: CLOSED 19 September, by decision rather than by delivery.** **TSA produces the imagery with an AI product shooter, compositing the client's real pack artwork into generated scenes.** Material 3 stops being a gate. See the section above for the method and the three consequences.
 
 **Four brands arrived, the contract names three.** BeBo, AlRawy and 2MAN (the "Freeze Pops" family under its real name) are in scope as written. **POLEKA, a jelly-candy line, is not in the document — and Aly confirmed on 18 September that it is in.** Four brands, no change to fee. Still to be papered: a one-line written confirmation, because clause 4's rejection rule leans on the approved guide matching the signed scope. See [[Alex Foods Brands]] for the full inventory, the two conflicting 2MAN designs, the unresolved "Alex" parent-brand question, and the trademark flag on the cola SKUs.
 
@@ -145,6 +146,42 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 11. **Payment.** 50% minimum upfront before work starts, due within 4 days of invoice, 2% per week late penalty, via InstaPay or Vodafone Cash.
 
 ---
+
+## Two things that changed the shape of the job — 19 September 2026
+
+### Product photography is now AI, and that kills the biggest gate on the contract
+
+**Aly's decision: an AI product shooter produces the imagery.** Material 3 has blocked **all twenty Package A deliverables** since day one, and clause 6 does not extend a paid month for client delay. **That gate is gone.**
+
+**But the method matters more than the decision, and there is only one that works here.** AI does not render Arabic type or a registered logo reliably — it renders something that *looks* like them, which on a food pack is a fabricated product. **So nothing generates the pack.**
+
+> **The rule: AI makes the scene. The real artwork gets composited in.** The cut-out packs are already sitting in `packshots/single/` and the marks in `logos-transparent/`, on transparency, at usable resolution. **AI generates the set — surface, light, ice, condensation, a table, a school bag — and the actual pack is placed into it.** Every pixel of product is the client's own artwork. Nothing about the pack is invented.
+
+**Three consequences to hold:**
+
+1. **Deliverable 6 changes job, not name.** The Animation and Shooting Recipe was written specs for *the client* to shoot against. **With no client shoot there is nobody to hand it to.** It becomes TSA's own production recipe: the scene prompts, the compositing rules, the lighting and angle constants that keep eighteen SKUs looking like one brand. **Still deliverable 6, still ships first, but it is now an internal working document that also gets handed over.**
+2. **TSA has absorbed work the contract put on the client.** The scope says the client supplies photos or samples. **Doing it ourselves removes the schedule risk and takes on the cost** — a trade that is almost certainly worth it, since the alternative was a paid month that could not be produced into. **Worth stating in writing at delivery so it reads as a concession granted, not a duty assumed.**
+3. **The never-say list applies to pictures as well as words.** An AI scene must not imply a health benefit, a fruit content, or a serving context the client has not confirmed. And **BeBo cannot be shown being prepared, or being drunk from, until §A1 is settled** — the format is contested and a photograph would assert an answer.
+
+### There is a media buyer, at a fixed 2,000 EGP per month
+
+**The first real cost-of-delivery number this business has.** Recorded in [[TSA Money]], which has carried "cost of delivery: not yet known" as its largest blank since it was written.
+
+- **2,000/month against 42,000/month revenue.** Over the three-month term, **6,000 against 126,000.**
+- **It does not change what the client is owed.** Package A's "paid campaign management" is still TSA's deliverable and still TSA's responsibility under clause 1. **A subcontractor executes it; TSA owns it.**
+- **Two things to nail down before month 1:** that the 2,000 is **per month and not per campaign**, and that the media buyer has **no direct relationship with the client** — clause 5 keeps TSA's working method as agency property, and clause 1 keeps execution TSA's.
+- **Ad spend still does not pass through TSA.** The client pays the platforms directly. The media buyer's fee is a TSA cost; the media spend is not.
+
+## The discovery answers — 19 September 2026
+
+The client came back on most of the commercial brief. Full merge, with the Arabic follow-ups, in **[[Alex Foods Discovery Brief]]**. Four things in it change this note.
+
+1. **Three approvers were named, and clause 3 allows one.** *"Mohamed and Hussein, then a manager"* approve; **Mohamed** is the day-to-day contact. Three voices means a delivery can be approved by one and re-opened by another, and clause 4 stops protecting anything. **The acceptance page has to name ONE person with final say.** Mohamed running the day to day underneath that is fine and is a separate role.
+2. **The factory address arrived:** Cairo–Alexandria Agricultural Road, Khorshid entrance, First Abis, Alexandria. **Part of material 7 is closed** and deliverable 7 finally has an address. Hours, categories, phone and the Google account are still outstanding.
+3. **The complaint escalation ladder has a top rung for the first time.** TSA → **Mohamed** → the client. [[Brand Voice Guide]] §8 recorded this as a hole since day one. **It still needs Mohamed told that he is it.**
+4. **The stated goal is engagement and the distribution goal is "more shops,"** and those are different outcomes. Reconciled in the brief §A3: the engagement number is the contracted KPI, the shop count is the business case, and the monthly report carries both.
+
+**And two client statements are contradicted by the client's own packaging** — BeBo's format and the word "organic" on AlRawy. Both are stop-work flags on copy, not on the rest of the Foundation. Brief §A1 and §A2.
 
 ## Open questions
 

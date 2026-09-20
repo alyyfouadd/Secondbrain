@@ -20,7 +20,7 @@ One client so far: [[Alex Foods]]. Full terms in that note.
 | Source | Amount | State |
 |---|---|---|
 | Alex Foods — Package A, month 1 of 3 | 42,000 | **RECEIVED** — confirmed 18 Sep 2026 |
-| Alex Foods — Brand Foundation, instalment 1 | 10,000 | Not received. Due **22 Sep 2026** |
+| Alex Foods — Brand Foundation, instalment 1 | 10,000 | Not received. **Invoiced 18 Sep 2026, due 26 Sep 2026.** The scope's 22 Sep date is superseded by the invoice. |
 | Alex Foods — Brand Foundation, instalment 2 | 10,000 | Not received. Due **08 Oct 2026** |
 | Alex Foods — Package A, months 2 and 3 | 84,000 | Contracted, not yet due. 3-month term, no auto-renewal. |
 | **Total contract value** | **146,000** | *calculated* |
@@ -51,7 +51,13 @@ In plain terms: **it is not profit, it is an advance.** Some of it has to surviv
 
 ## Cost of delivery — the gap
 
-Not yet known. This is the single most important blank in the vault right now, because until it has a number, no draw can be called safe or reckless, only lucky.
+> **First real number, 19 September 2026: a media buyer at a fixed 2,000 EGP per month.** The gap is no longer empty.
+>
+> **2,000 against 42,000 of monthly revenue. 6,000 against 126,000 across the term.** It is a TSA cost, not a client cost — **ad spend still does not pass through TSA** and never enters this pot. **Confirm it is per month and not per campaign** before it is relied on, and keep the media buyer away from a direct client relationship: clause 1 keeps execution TSA's and clause 5 keeps the working method agency property.
+>
+> **Still unpriced and still the blocker on setting a draw:** the AI product shooter's tooling, the animation and design tooling for 20 assets a month, and transfer fees. **X is no longer unknown, it is incomplete** — and `drawable = 42,000 − X` cannot be computed off one line item.
+
+Not yet known in full. This is the single most important blank in the vault right now, because until it has a number, no draw can be called safe or reckless, only lucky.
 
 What has to be priced for one month of Package A:
 

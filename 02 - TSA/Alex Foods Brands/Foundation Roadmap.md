@@ -166,6 +166,42 @@ Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see 
 6. **Assemble, render, proof.** Read the whole book against the signed scope's deliverable list, line by line.
 7. **Deliver**: the book, the sign-off page, and the month-1 start paragraph above, in one message.
 
+### How to propose it so they choose without designing it
+
+**The tension, stated honestly.** Clause 1 gives TSA execution and gives the client approval of an *outcome*. Clause 4 makes "matches the agreed brief and the approved guide" the test. **Both exist to keep the client out of designing.** But a client who feels handed a finished object with no say in it approves slowly, reopens late, and treats the book as TSA's rather than theirs.
+
+**The resolution: offer choice at the level of outcome, never at the level of execution.** Three tiers, and every section of the book sits in exactly one.
+
+| Tier | What it covers | What the client is offered |
+|---|---|---|
+| **1 · Governed** | Colour values and contrast verdicts, type, the pack-in-field geometry, compliance and the never-say list | **Nothing. No choice is offered, and that is the deliverable.** These are computed or legal. **Offering a choice here is offering to be wrong**, and clause 1 exists to protect it. |
+| **2 · Recommended** | Slogans, tone, the giveaway mechanic, post archetypes, the platform split | **One recommendation, at most two alternates, with the trade named.** This is where their market knowledge genuinely adds something TSA does not have. |
+| **3 · Theirs to state** | The named approver, ad budget, seasonality, artwork rights, product facts | **Not choices. Inputs.** Asked as questions, never dressed up as options. |
+
+### The four rules that make tier 2 work
+
+1. **Always lead with a recommendation. Never present a menu.** A menu says the agency could not decide. A recommendation with alternates says the agency decided and is showing its working.
+2. **Never show an option you would be unhappy to ship.** **If three are shown and one is secretly wanted, a two-in-three chance of a worse outcome has been created with no right to complain about it.** Every option on the page is one TSA would defend.
+3. **Name the trade, not the taste.** *"This one claims a habit, that one claims an effect"* is a business decision they are qualified to make. *"Which do you prefer"* is an invitation to art-direct, and clause 1 keeps them out of that.
+4. **Two alternates maximum.** Thirty options invites designing. §4 point 5 of [[Slogans and Song]] already says this and it holds for every tier 2 section.
+
+> **This is not theory. It was tested on the slogans on 20 September and it worked twice.** Aly chose against TSA's recommendation on BeBo and picked a TSA draft on AlRawy. **The set is stronger than it would have been if TSA had simply decided alone**, and both decisions took one line each because the trade was named rather than the taste.
+
+### Turning clause 3 from a risk into a mechanism
+
+**Clause 3 says no reply within 48 hours counts as approved.** Read passively that is a trap waiting to be argued about. **Read actively it is the most useful sentence in the contract.**
+
+**State the recommended option as the default, in writing, in the delivery message:** *if we do not hear back, we proceed with the recommended line.* **Silence then produces TSA's preferred outcome rather than a stalled deliverable**, and the client keeps a real choice for as long as they want to use it.
+
+### The order to present it in
+
+**Never send 35 pages cold.** A book arriving without a walk-through gets skimmed, and a skimmed book gets approved shallowly and reopened later.
+
+1. **The spine first.** Section 3, brand architecture: Alex Foods is the master, the four are ranges, **one presence rather than four pages.** **This is the page that earns the fee**, and everything downstream is application. If they disagree here, nothing else matters yet.
+2. **Then the tier 2 choices, batched into one message.** Slogans, tone, giveaway, platform split. One reply covers all of them, which is also what clause 2's single written reply per revision round wants.
+3. **Then the honest status.** The sections carrying a waiting chip, what each waits on and who from.
+4. **Then the sign-off page**, which approves the Foundation and names the approver in the same signature.
+
 ### What the delivery message has to carry
 
 Four things, and missing any one of them costs money:

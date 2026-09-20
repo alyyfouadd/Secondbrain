@@ -233,6 +233,40 @@ The values are computed honestly from sampled inputs. Two limits, stated plainly
 
 ---
 
+## 10b. Exact collisions across layers — computed 19 September 2026
+
+**§9 records the near-collisions, measured in ΔE. This section records the five places where two things are the *same hex value*.** Found by computing the whole palette against itself while building book §12, and **none of them had been written down.**
+
+| Value | What shares it |
+|---|---|
+| `#1BA34C` | **BeBo range signature** · AlRawy guava field · POLEKA apple field |
+| `#EC008C` | **POLEKA range signature** · POLEKA cola field · POLEKA strawberry field |
+| `#29ABE2` | **2MAN range signature** · 2MAN blue field |
+| `#E1251D` | AlRawy peach field · 2MAN red field |
+| `#F07F13` | AlRawy mango field · 2MAN orange field |
+
+**They are not defects.** The packs are printed and in market and nothing here is being repainted. **They become defects the moment a layout is built without knowing about them**, which is precisely what had been about to happen.
+
+**The five rules that resolve them**, governed in book §12:
+
+1. **The pack identifies the SKU, never the field.** A field colour is a stage, not a name. **That is why a field may be reused and a pack may not.**
+2. **Two ranges never share one layout.** AlRawy peach and 2MAN red are the same red; side by side they read as one product line, and apart nobody will ever know. *(Same shape as the Ice Blue versus Nectar Blue rule in §9: governance, not repaint.)*
+3. **`#1BA34C` is a brand element on BeBo only.** On AlRawy and POLEKA it is a stage, never a badge, a border or a logo ground.
+4. **POLEKA has four SKUs but only three distinct fields, and two of them are the brand colour.** Four posts built straight off the flavour map show three colours, one of them twice. **This is what the extended layer exists for, and on POLEKA it is not optional.**
+5. **2MAN's signature is its own blue field**, so on that SKU the brand layer and the flavour layer are the same colour. There the mark carries the brand by shape, and the field carries nothing.
+
+### And the type verdict, computed across all 18 fields
+
+**Ink wins on 11 of 18. White on 4. Three clear 4.5 with neither.**
+
+| Verdict | Fields |
+|---|---|
+| **INK** (11) | BeBo peach, mango, pineapple · AlRawy apple, guava, mango · 2MAN blue, green, orange · POLEKA apple, mango |
+| **WHITE** (4) | BeBo cola · AlRawy cocktail, peach · 2MAN red |
+| **KEYLINE REQUIRED** (3) | **BeBo apple** `4.32 / 4.27` · **POLEKA cola** `4.34 / 4.25` · **POLEKA strawberry** `4.34 / 4.25` |
+
+**Those three carry a dark keyline behind the type, always.** The keyline is a legibility device rather than decoration: not added because it looks good, not dropped because a designer prefers it without, added when the number says it is needed.
+
 ## 11. Still open
 
 - **Vector logo files.** Blocks §3 being verified against real artwork, and blocks every visual deliverable in both stages.

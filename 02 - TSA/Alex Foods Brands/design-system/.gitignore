@@ -11,3 +11,10 @@ k[0-9]*.png
 final*.png
 fin-*.png
 probe.html
+book.html
+book.pdf
+s[0-9]*.html
+b[0-9]*.html
+b[0-9]*.png
+p[0-9]*.png
+__pycache__/

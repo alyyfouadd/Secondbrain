@@ -458,6 +458,44 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 
 **The paid term runs roughly October to January.** The seasonality risk was flagged at a quarter of the portfolio when only 2MAN was known to be frozen. **It is now half**, and that stops being a calendar adjustment and becomes a question about what the client should be paying for across an Egyptian winter.
 
+## 5c-ix. POLEKA — sold frozen, and the sibling problem
+
+**Aly, 20 September: sold frozen from the shop.** Impulse buy, freezer shelf. **The freeze-at-home ritual idea is dead**, and with it «جمّدها وكُلها».
+
+### The problem that answer creates
+
+**POLEKA and 2MAN are now in the same freezer, at the same price point, in front of the same child.** Two Alex Foods ranges competing for one purchase.
+
+**That kills my own recommended line.** «بوليكا.. ساقعة أحلى» says *cold is better* — **but cold is the category, not the brand.** Every ice pop in that freezer is cold, 2MAN included, and **2MAN already owns the cold story with عيش جو المغامرة.** A POLEKA line about temperature is a POLEKA line helping 2MAN.
+
+### What actually separates them in that freezer
+
+| | 2MAN | POLEKA |
+|---|---|---|
+| **Format** | A stick you lick | **A bottle you drink** |
+| **Character** | A running boy, one mark | **A different animal on every pouch** |
+| **Who** | Older kid | Younger child |
+| **Story** | Adventure, outdoors | **The bottle and the animal** |
+
+> **Same freezer, different gesture.** 2MAN is licked, POLEKA is drunk. **That is the only difference a child can see through a freezer door**, and it is the only thing POLEKA's line should be about.
+
+### The line
+
+> ### «بوليكا.. برد في ازازة»
+> *POLEKA, cold in a bottle.*
+
+**Three words after the name, and it does both jobs at once.** **برد** puts it in the freezer category so a child knows what it is. **ازازة** is the differentiator, and it is the child's own word — **it is what makes POLEKA the one that is not a stick.**
+
+It names no flavour, so it works across all four SKUs. It makes no claim needing a document. It carries the brand. **And it is true**, which is the first time that has been reliably said about a POLEKA line tonight.
+
+**Alternate:** «بوليكا.. ازازة ساقعة» — *a cold bottle.* Same idea, tighter, slightly less rhythmic.
+
+**Withdrawn:** «بوليكا.. ساقعة أحلى» — for the sibling reason above. **It is a good line for the wrong brand.**
+
+### And the seasonality risk hardened
+
+**Sold frozen from a shop freezer confirms it: POLEKA is a summer product.** Both frozen ranges are. **Half the portfolio sits out of season across an October-to-January term**, and that is no longer inference about how a product behaves, it is inference about where it is physically sold.
+
 ## 5d. The giveaway — BeBo's, 20 September 2026
 
 > **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.

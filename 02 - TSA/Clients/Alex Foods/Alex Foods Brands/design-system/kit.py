@@ -70,9 +70,9 @@ def corners(): return '<i class="cnr tl"></i><i class="cnr tr"></i><i class="cnr
 
 # ============ PAGE 1 — IDENTITY ============
 lock = f'''
-<div class="lk" style="background:{DEEP};color:{PAPER}"><img src="../logos-transparent/logo-alex-lockup-transparent.png"><span>ON NAVY — DEFAULT</span></div>
-<div class="lk" style="background:{PAPER};color:{INK};border:0.25mm solid {SILVER}"><img src="../logos-transparent/logo-alex-lockup-transparent.png"><span>ON PAPER — DOCUMENTS</span></div>
-<div class="lk" style="background:{MIST};color:{INK}">
+<div class="lk" style="background:{DEEP};color:{PAPER}"><img src="../logos-vector/alex-seal-flat.svg"><span>ON NAVY — DEFAULT</span></div>
+<div class="lk" style="background:{PAPER};color:{INK};border-top:0.4mm solid {INK}"><img src="../logos-vector/alex-seal-flat.svg"><span>ON PAPER — DOCUMENTS</span></div>
+<div class="lk wide" style="background:transparent;color:{INK}">
   <div class="minis">{''.join(f'<img src="../logos-transparent/{r["logo"]}">' for r in RANGES)}</div>
   <span>THE FOUR RANGES</span></div>'''
 
@@ -81,7 +81,7 @@ for n,h,ar,role in [('Alex Navy',NAVY,'كحلي أليكس','MASTER MARK &amp; P
                     ('System Red',RED,'أحمر النظام','ACCENT — NEVER BODY COPY'),
                     ('Paper',PAPER,'ورقي','EVERY BACKGROUND'),
                     ('Ink',INK,'حبري','TYPE EVERYWHERE')]:
-    sysc+=f'''<div class="csw"><div class="chip" style="background:{h};{'border:0.25mm solid '+SILVER if n=='Paper' else ''}"></div>
+    sysc+=f'''<div class="csw"><div class="chip" style="background:{h};{'outline:0.25mm solid '+SILVER if n=='Paper' else ''}"></div>
     <b>{n}</b><span class="ar">{ar}</span><span class="mono">{h}</span><span class="role">{role}</span></div>'''
 
 rngc=''.join(f'''<div class="rsw"><i style="background:{r['sig']}"></i><b>{r['en']}</b>
@@ -89,7 +89,7 @@ rngc=''.join(f'''<div class="rsw"><i style="background:{r['sig']}"></i><b>{r['en
 
 page(f'''{eyebrow('نظام الهوية — الإصدار الأول','BRAND IDENTITY SYSTEM V1 — ALEX FOODS')}
 <div class="hero">{corners()}<div class="grid"></div>
- <img class="seal" src="../logos-transparent/logo-alex-lockup-transparent.png">
+ <img class="seal" src="../logos-vector/alex-seal-flat.svg">
  <div class="hx"><h1 class="ar">أليكس فودز</h1><h2>ALEX FOODS</h2>
  <p class="ar sub">الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية</p>
  <p class="sub">MASTER BRAND &nbsp;·&nbsp; FOUR RANGES &nbsp;·&nbsp; ALEXANDRIA, EGYPT</p></div></div>
@@ -200,7 +200,7 @@ for bg,cap_ar,kind,note,fg in [
     if fg is None: fg,_,kl = best(bg)
     ks = f'text-shadow:0 0 0.9mm {INK};' if kl else ''
     tpl+=f'''<div class="tpw"><div class="tp" style="background:{bg};color:{fg}">{corners()}<div class="grid"></div>
-    <div class="tph"><img src="../logos-transparent/logo-alex-lockup-transparent.png"></div>
+    <div class="tph"><img src="../logos-vector/alex-seal-flat.svg"></div>
     {'<img class="tpk2" src="../packshots/single/bebo-3.png">' if kind.startswith('FIELD') else ''}
     <div class="tpb" style="{ks}"><b class="ar">{cap_ar}</b></div></div>
     <span class="tpk">{kind}</span><span class="tpn">{note}</span></div>'''
@@ -212,10 +212,10 @@ page(f'''{eyebrow('التواصل الاجتماعي','THE STANDARD AGENCY — S
 
 {eyebrow('صورة الحساب','01 — PROFILE PICTURE')}
 <div class="two">
- <div class="card ctr"><div class="pfp" style="background:{NAVY}"><img src="../logos-transparent/logo-alex-lockup-transparent.png"></div>
+ <div class="card ctr"><div class="pfp" style="background:{NAVY}"><img src="../logos-vector/alex-seal-flat.svg"></div>
  <span class="cap">THE ONLY PROFILE PICTURE</span><p>The seal on Alex Navy, centred, exported at 320 × 320. <b>There is no alternate.</b> It holds on a light feed and a dark one, which is the whole reason it needs no second version.</p></div>
  <div class="card"><span class="cap">CLEAR SPACE &amp; MINIMUMS</span>
- <div class="clr"><div class="clrbox"><img src="../logos-transparent/logo-alex-lockup-transparent.png"></div>
+ <div class="clr"><div class="clrbox"><img src="../logos-vector/alex-seal-flat.svg"></div>
  <div><p><b>Clear space:</b> a margin equal to one quarter of the seal's height on all four sides. Nothing enters it — no text, no image edge, no second mark.</p>
  <p><b>Minimum size:</b> 12 mm in print, 56 px on screen. Below that the ring text closes up and the lighthouse disappears.</p></div></div></div>
 </div>
@@ -282,7 +282,7 @@ for r in RANGES[:2]:
     ks = f'text-shadow:0 0 1mm {INK};' if kl else ''
     cap = CAPS[r['en']]
     feed+=f'''<div class="fdw"><div class="fd" style="background:{fld};color:{fg}">{corners()}
-    <div class="tph"><img src="../logos-transparent/logo-alex-lockup-transparent.png"></div>
+    <div class="tph"><img src="../logos-vector/alex-seal-flat.svg"></div>
     <img class="pk" src="../packshots/single/{r['key']}-1.png">
     <div class="fdb" style="{ks}"><b class="ar">{cap[0]}</b><span class="ar">{cap[1]}</span></div></div>
     <span class="tpk">{r['en']} · {lab} · <span class="mono">{fld}</span></span>
@@ -318,7 +318,7 @@ for rn,capar,fld,logo in [('2MAN','برّه أحلى.','#29ABE2','single/2man-1.
     fg,cr,kl = best(fld)
     ks = f'text-shadow:0 0 1mm {INK};' if kl else ''
     st+=f'''<div class="styw"><div class="sty" style="background:{fld};color:{fg}">{corners()}
-    <div class="tph"><img src="../logos-transparent/logo-alex-lockup-transparent.png"></div>
+    <div class="tph"><img src="../logos-vector/alex-seal-flat.svg"></div>
     <img class="pk" src="../packshots/{logo}">
     <div class="styb" style="{ks}"><b class="ar">{capar}</b>
     <span class="cta" style="background:{RED};color:{PAPER}">اعرف أكتر</span></div></div>
@@ -378,22 +378,23 @@ b,strong{{font-weight:700}}
 .sub{{font-size:7pt;color:#B9B5D8;margin:2.5mm 0 0;letter-spacing:.05em;line-height:1.55}}
 /* lockups */
 .locks{{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:2.5mm}}
-.lk{{height:20mm;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2mm;padding:3mm}}
-.lk img{{max-width:72%;max-height:13mm;object-fit:contain}}
+.lk{{height:23mm;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2mm;padding:3mm}}
+.lk img{{max-width:80%;max-height:16mm;object-fit:contain}}
+.lk.wide .minis img{{max-height:11mm;max-width:100%}}
 .lk span{{font-size:5.2pt;font-weight:700;letter-spacing:.14em;opacity:.75}}
 .minis{{display:grid;grid-template-columns:1fr 1fr;gap:1.5mm;width:100%;align-items:center;justify-items:center}}
 .minis img{{max-height:6.5mm;max-width:90%;object-fit:contain}}
 /* colour swatches */
 .csws{{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm}}
 .rsws{{display:grid;grid-template-columns:auto repeat(4,1fr);gap:3mm;align-items:center;
- margin-top:2.5mm;border:0.25mm solid {SILVER};padding:2.6mm 3.5mm}}
+ margin-top:2.5mm;border-top:0.4mm solid {INK};padding:2.6mm 3.5mm}}
 .rlab{{font-size:5pt;font-weight:700;letter-spacing:.14em;color:{RED};white-space:nowrap}}
 .rsw{{display:flex;align-items:center;gap:2mm}}
 .rsw i{{width:5mm;height:5mm;display:block;flex:none}}
 .rsw b{{font-size:7.5pt}}
 .rsw .ar{{font-size:6.6pt;color:{SLATE}}}
 .rsw .mono{{font-size:6.4pt;color:{GRAPH};margin-left:auto}}
-.csw{{border:0.25mm solid {SILVER};padding:0 0 3mm}}
+.csw{{border-top:0.4mm solid {INK};padding:0 0 3mm}}
 .csw .chip{{height:9.5mm;width:100%;display:block;margin-bottom:2.5mm}}
 .csw b{{font-size:8.5pt;display:block;padding:0 3mm}}
 .csw .ar{{font-size:7pt;color:{SLATE};display:block;padding:0 3mm}}
@@ -408,7 +409,7 @@ b,strong{{font-weight:700}}
 .tspec span{{display:block;font-size:5.6pt;font-weight:700;letter-spacing:.16em;color:{GRAPH};margin-bottom:1mm}}
 .tyl p{{font-size:7.2pt;line-height:1.6;margin:0;color:{GRAPH}}}
 .tyr{{display:flex;flex-direction:column;gap:2mm}}
-.tf{{border:0.25mm solid {SILVER};padding:1.9mm 3.5mm}}
+.tf{{border-top:0.4mm solid {INK};padding:1.9mm 3.5mm}}
 .tf b{{font-size:8pt;display:block}}
 .tf span{{font-size:6.2pt;color:{SLATE};line-height:1.5;display:block}}
 .tf.note{{background:{MIST};border-color:{MIST};margin-top:auto}}
@@ -421,19 +422,19 @@ b,strong{{font-weight:700}}
 .promise .en{{font-size:7.5pt;font-weight:700;letter-spacing:.2em;margin:1.5mm 0 0}}
 /* positioning */
 .two{{display:grid;grid-template-columns:1fr 1fr;gap:3.5mm}}
-.vs{{border:0.25mm solid {SILVER};border-top:0.7mm solid {SILVER};padding:4.5mm 5mm;background:{PAPER}}}
+.vs{{border-top:0.7mm solid {INK};padding:4.5mm 5mm;background:transparent}}
 .vs.win{{border-top-color:{RED};background:{MIST}}}
 .vl{{font-size:5.5pt;font-weight:700;letter-spacing:.2em;color:{RED};display:block;margin-bottom:2mm}}
 .vs > b{{font-size:13pt;line-height:1.2;display:block}}
 .vs p{{font-size:7.2pt;line-height:1.6;margin:2.5mm 0 0;color:{GRAPH}}}
 .pils{{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}}
-.pil{{border:0.25mm solid {SILVER};padding:4mm}}
+.pil{{border-top:0.4mm solid {INK};padding:4mm}}
 .pil .no{{font-size:19pt;font-weight:700;color:{SILVER};line-height:1;display:block}}
 .pil > b{{font-size:11pt;display:block;margin-top:1.5mm;letter-spacing:.04em}}
 .par{{font-size:8pt;color:{SLATE};display:block}}
 .pil p{{font-size:7pt;line-height:1.6;margin:2mm 0 0;color:{GRAPH}}}
 .rules{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm}}
-.ru{{border:0.25mm solid {SILVER};padding:3mm 4mm;font-size:7pt;display:flex;align-items:baseline;gap:2.5mm;
+.ru{{border-top:0.4mm solid {INK};padding:3mm 4mm;font-size:7pt;display:flex;align-items:baseline;gap:2.5mm;
  line-height:1.55;color:{GRAPH}}}
 .ru i{{width:1.4mm;height:1.4mm;background:{RED};border-radius:50%;flex:none;position:relative;top:-0.5mm}}
 .ru b{{color:{INK}}}
@@ -481,7 +482,7 @@ td.mono{{font-size:8pt;font-weight:700;color:{INK}}} td.rate{{font-size:9pt;font
 .lst li i{{font-style:normal;font-weight:700;color:{RED};flex:none;width:2.5mm}}
 /* stats */
 .stats{{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm}}
-.stat{{border:0.25mm solid {SILVER};padding:4mm}}
+.stat{{border-top:0.4mm solid {INK};padding:4mm}}
 .stat .n{{font-size:24pt;font-weight:700;line-height:1;display:block}}
 .stat .n em{{font-style:normal;color:{RED};font-size:15pt}}
 .stat > b{{font-size:8.5pt;display:block;margin-top:1.5mm;letter-spacing:.08em}}
@@ -504,7 +505,7 @@ td.mono{{font-size:8pt;font-weight:700;color:{INK}}} td.rate{{font-size:9pt;font
  font-size:7pt;font-weight:700;padding:1.6mm 3.5mm}}
 /* do-not */
 .dont{{display:grid;grid-template-columns:1fr 1fr;gap:3.5mm}}
-.dc{{border:0.25mm solid {SILVER};padding:4mm}}
+.dc{{border-top:0.4mm solid {INK};padding:4mm}}
 .dc > b{{font-size:8.5pt;display:block;margin:2.5mm 0 1mm}}
 .dc p{{font-size:6.6pt;line-height:1.55;margin:0;color:{GRAPH}}}
 .dpair{{display:grid;grid-template-columns:1fr 1fr;gap:2mm}}
@@ -513,7 +514,7 @@ td.mono{{font-size:8pt;font-weight:700;color:{INK}}} td.rate{{font-size:9pt;font
 .bdg{{background:#1BA34C;color:{PAPER};padding:1.3mm 3.5mm;font-size:7.5pt}}
 .bdg.kl{{border:0.7mm solid #1E2A6B}}
 /* range blocks */
-.rng{{border:0.25mm solid {SILVER};border-top:0.9mm solid {SILVER};padding:4mm 4.5mm 4.5mm;margin-bottom:3.5mm}}
+.rng{{border-top:0.9mm solid {INK};padding:4mm 4.5mm 4.5mm;margin-bottom:3.5mm}}
 .rtop{{display:grid;grid-template-columns:24mm 1fr 62mm;gap:5mm;align-items:center}}
 .rlogo{{height:17mm;display:flex;align-items:center;justify-content:center}}
 .rlogo img{{max-width:100%;max-height:17mm;object-fit:contain}}

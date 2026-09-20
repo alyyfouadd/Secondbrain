@@ -38,7 +38,7 @@ def note(ar,en,tar,ten,warn=False):
             f'<p class="ar">{ar}</p><p class="en">{en}</p></div>')
 def ok(ar,en,warn=False):
     return f'<div class="ok{" warn" if warn else ""}"><b>{ar}</b><span class="en">{en}</span></div>'
-def chip(t,cls=''): return f'<div class="chip {cls}">{t}</div>'
+def chip(t,cls=''): return f'<div class="chip{(" chip-"+cls) if cls else ""}">{t}</div>'
 def rule(ar,en,sm=False):
     return (f'<div class="rule{" sm" if sm else ""}">{cnr()}<p class="ar rl">{ar}</p>'
             f'<p class="rl en">{en}</p></div>')
@@ -46,7 +46,7 @@ def rule(ar,en,sm=False):
 # ================= 00 COVER =================
 band=''.join(f'<i style="background:{r["sig"]}"></i>' for r in RANGES)
 sec('00','COVER','الغلاف', f'''<div class="cover">{cnr()}
-<div class="cvtop"><img class="seal" src="../logos-transparent/logo-alex-lockup-transparent.png"></div>
+<div class="cvtop"><img class="seal" src="../logos-vector/alex-seal-flat.svg"></div>
 <div class="cvmid">
  <h1 class="ar">الأساس التجاري</h1><h2>BRAND FOUNDATION</h2>
  <p class="ar cvsub">أليكس فودز · الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية</p>
@@ -192,7 +192,7 @@ sec('05','TYPE SYSTEM','نظام الخطوط', f'''{eb('نظام الخطوط',
 # ================= 06 LOGO AND SEAL =================
 lk=''.join(f'<div class="lk"><img src="../logos-transparent/{r["logo"]}"><span>{r["en"]}</span></div>' for r in RANGES)
 sec('06','LOGO &amp; SEAL USE','الشعارات والختم', f'''{eb('الشعارات والختم','06 · LOGO &amp; SEAL USE')}{chip('DEFINED','ok')}
-<div class="sealrow"><img class="bigseal" src="../logos-transparent/logo-alex-lockup-transparent.png">
+<div class="sealrow"><img class="bigseal" src="../logos-vector/alex-seal-flat.svg">
 <div class="sealx"><b class="ar">ختم أليكس فودز</b><span>THE ALEX FOODS SEAL</span>
 <p class="ar">الحلقة تحمل اسم الشركة بالعربية والإنجليزية، والأيقونة في أعلاها منارة. المنارة هي فاروس، والعلامة مكان بقدر ما هي شركة.</p>
 <p class="en">The ring carries the company name in Arabic and English, and the icon at the top of it is a lighthouse. The lighthouse is the Pharos, and the mark is a place as much as a company.</p></div></div>
@@ -734,7 +734,7 @@ CONST=[('زاوية الكاميرا','Camera angle','من أعلى 10 إلى 15
 ('عمق الميدان','Depth of field','العبوة حادة، الخلفية ناعمة','pack sharp, background soft','العبوة هي البطل دائمًا','the pack is always the hero'),
 ('نسبة التصوير','Capture ratio','مربع 1:1 ثم يُقتطع','square 1:1 then cropped','مصدر واحد يخدم الفيد والستوري','one source serves feed and story')]
 cr=''.join(f'<tr><td><b class="ar">{a}</b><span class="en">{b}</span></td><td class="ar">{c}<span class="en">{d}</span></td><td class="ar sm">{e}<span class="en">{f}</span></td></tr>' for a,b,c,d,e,f in CONST)
-WLD=[('بيبو','BeBo','#1BA34C','مطبخ بيت، سطح نظيف','a home kitchen, a clean counter','ضوء صباح من نافذة','morning window light','هادئ، مرتب، بيت شغّال','calm, tidy, a house that works','لا تُظهر العبوة وهي تُحضَّر أو يُشرب منها','never show the pack being prepared or drunk from'),
+WLD=[('بيبو','BeBo','#1BA34C','مطبخ بيت، سطح نظيف','a home kitchen, a clean counter','ضوء صباح من نافذة','morning window light','هادئ، مرتب، بيت شغّال','calm, tidy, a house that works','لا تُعاد تلوين شارة KIDS ZONE لتطابق النكهة','never recolour the KIDS ZONE lozenge to match the flavour'),
 ('الراوي','AlRawy','#1B4F9C','طاولة نظيفة أو حقيبة مدرسة','a clean table, or an open school bag','نهار صافٍ','clear daylight','اطمئنان، لا إثارة','reassurance, never excitement','لا أكوام فاكهة توحي بنسبة عصير','no fruit piles implying juice content'),
 ('تومان','2MAN','#29ABE2','خارج البيت، شارع أو شاطئ','outdoors, a street or a beach','شمس قوية مباشرة','strong direct sun','حركة، برودة، النهار ملكك','motion, cold, the day is yours','العبوتان لهما نفس العالم','both packages share one world'),
 ('بوليكا','POLEKA','#EC008C','خلفية لون مسطّح، بلا واقعية','a flat colour ground, no realism','ناعم ومتساوٍ','soft and even','لعب. الشخصية أولًا','play. Character first','صنف الكولا لا يظهر في أي إعلان مدفوع','the cola SKU appears in no paid campaign')]
@@ -745,11 +745,6 @@ wb=''.join(f'''<div class="wld"><div class="wh" style="border-left:1.2mm solid {
 <tr><td class="k">المزاج · MOOD</td><td class="ar">{ma}<span class="en">{me}</span></td></tr>
 <tr class="no"><td class="k">ممنوع · FORBIDDEN</td><td class="ar"><b>{fa}</b><span class="en"><b>{fe}</b></span></td></tr>
 </tbody></table></div>''' for ar,en,sig,pa,pe,la,le,ma,me,fa,fe in WLD)
-PR=[('BeBo','#1BA34C','Empty home kitchen counter, no products, pale wood surface, soft morning window light from upper left at 45 degrees, blurred warm kitchen background, calm and tidy, 50mm lens, camera 12 degrees above, square 1:1, clear empty space in the centre foreground'),
-('AlRawy','#1B4F9C','Empty clean light table top, no products, one whole fresh peach resting to the right, clear daylight from upper left at 45 degrees, soft neutral background, calm and reassuring, 50mm lens, camera 12 degrees above, square 1:1, clear empty space in the centre'),
-('2MAN','#29ABE2','Empty wet concrete surface with scattered ice cubes and water droplets, no products, strong direct sunlight from upper left, blurred bright outdoor street background, high energy summer, 50mm lens, camera 12 degrees above, square 1:1, clear empty space in the centre'),
-('POLEKA','#EC008C','Flat solid colour studio background, no products, soft even light from upper left, no texture, no realism, playful and bright, 50mm lens, camera 12 degrees above, square 1:1, clear empty space in the centre')]
-pb=''.join(f'<div class="pr"><b style="color:{c}">{n}</b><code>{t}</code></div>' for n,c,t in PR)
 CHK=[('العبوة من مجلد المصادر ولم تُولَّد','pack came from the source folder, not generated'),
 ('لا يوجد أي حرف في المشهد','no lettering anywhere in the scene'),
 ('ظل التلامس موجود وناعم','contact shadow present and soft'),
@@ -758,7 +753,7 @@ CHK=[('العبوة من مجلد المصادر ولم تُولَّد','pack ca
 ('لون المشهد لمس حواف العبوة','the scene colour has touched the pack edges'),
 ('لا يد، لا وجه، لا شخص','no hand, no face, no person'),
 ('لا ادعاء صحي ولا نسبة فاكهة ولا رقم غذائي','no health cue, no fruit ratio, no nutritional number'),
-('بيبو ليست معروضة أثناء التحضير أو الشرب','BeBo not shown being prepared or drunk from'),
+('شارة KIDS ZONE بلونها الأصلي','KIDS ZONE lozenge in its original colours'),
 ('صنف كولا بوليكا خارج أي مادة مدفوعة','POLEKA cola out of all paid material')]
 kb=''.join(f'<li><i></i><span class="ar">{a}</span><span class="en">{e}</span></li>' for a,e in CHK)
 
@@ -776,21 +771,12 @@ f'''{eb('عوالم المشاهد','THE SCENE WORLDS')}
 {bi('لكل مجموعة عالمها. الثوابت لا تتغير، لكن المكان والأرضية والمزاج يتغيرون. العالم هو ما يفصل المجموعات عن بعضها، تمامًا كما تفعل ألوانها على الرف.',
     'Each range has its world. The constants never change, but the place, the surface and the mood do. The world is what separates the ranges, exactly as their colours do on a shelf.')}
 <div class="wlds">{wb}</div>
-{note('شكل استخدام بيبو غير محسوم بعد. الصورة التي تُظهر طريقة الاستخدام تعلن إجابة لا نملكها. تنتظر صورة ظهر العبوة.',
- 'BeBo’s format is not yet settled. An image showing how it is used asserts an answer we do not have. It waits on a photo of the back of the pack.',
- 'سبب منع بيبو','Why the BeBo ban',True)}''',
-f'''{eb('صيغة الأمر','THE PROMPT FORMULA')}
-{rule('اطلب الغرفة، لا تطلب المنتج.','ASK FOR THE ROOM, NEVER FOR THE PRODUCT.',True)}
-{bi('لا تطلب «عبوة عصير على طاولة»، لأن المولّد سيرسم عبوة مختلَقة. اطلب مشهدًا فارغًا فيه مساحة خالية واضحة، ثم ركّب العبوة الحقيقية في تلك المساحة.',
-    'Never ask for a juice pack on a table, because the generator will draw a fabricated pack. Ask for an empty set with a clear open space, then composite the real pack into it.')}
-<div class="prs">{pb}</div>
-{eb('ما يُستبعد من كل أمر','WHAT EVERY PROMPT EXCLUDES')}
-<div class="neg"><code>no text, no lettering, no arabic script, no logos, no brands, no packaging,<br>no bottles, no sachets, no hands, no people, no faces, no watermark</code></div>
-{note('أهم بند هو منع أي كتابة. المولّد إذا كتب حرفًا واحدًا، ولو في الخلفية، فقد صنع لغة مزيفة على صورة علامة غذائية. والثاني منع الأيدي والوجوه، لأن الوكالة لا تملك إذن تصوير لأي شخص.',
- 'The most important entry is the ban on lettering. If the generator writes one character, even in the background, it has invented a fake language on a food brand image. The second is hands and faces, because the agency holds no model release for anybody.',
- 'لماذا هذه القائمة','Why this list',True)}
+{note('بيبو مشروب يُشرب، وقد تأكد ذلك من صفحة العميل نفسها. إظهار الشرب صحيح ومطلوب. الممنوع هو العبث بشارة KIDS ZONE، فهي فن ثابت لا يتغير مع النكهة.',
+ 'BeBo is a drink, confirmed from the client’s own page. Showing it being drunk is correct and wanted. What is forbidden is touching the KIDS ZONE lozenge, which is fixed artwork and never changes with the flavour.',
+ 'بيبو، بعد أن حُسم','BeBo, now that it is settled')}
 {eb('قائمة المراجعة قبل النشر','THE PRE PUBLISH CHECKLIST')}
 <ol class="chk">{kb}</ol>''')
+
 
 # ================= 21 COMPLIANCE =================
 NEV=[('ادعاءات صحية أو طبية','Health or medical claims','صحي · مفيد · يقوي المناعة · غني بالفيتامينات'),
@@ -881,51 +867,55 @@ html,body{{margin:0;padding:0;background:{PAPER};color:{INK};font-family:'IBM Pl
 .ar{{font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;line-height:1.75;text-align:right}}
 .mono{{font-family:'IBM Plex Mono',monospace}}
 b,strong{{font-weight:700}}
-.eb{{display:flex;align-items:center;gap:3mm;margin:4.2mm 0 2.2mm}}
-.eb > span{{font-size:6pt;font-weight:700;letter-spacing:.2em;color:{RED};text-transform:uppercase;white-space:nowrap}}
-.eb > i{{flex:1;height:0.25mm;background:{SILVER}}}
-.eb > b.ar{{font-size:8pt;font-weight:400;color:{SLATE}}}
-.page > .eb:first-child{{margin-top:0}}
+.eb{{display:flex;align-items:baseline;gap:3mm;margin:5mm 0 2.4mm}}
+.eb > span{{font-size:7.6pt;font-weight:700;letter-spacing:.14em;color:{INK};text-transform:uppercase;white-space:nowrap}}
+.eb > i{{flex:1;height:0.25mm;background:{SILVER};align-self:center}}
+.eb > b.ar{{font-size:8.2pt;font-weight:400;color:{SLATE}}}
+.page > .eb:first-child{{margin-top:0;margin-bottom:3.6mm;align-items:baseline}}
+.page > .eb:first-child > span{{font-size:15pt;letter-spacing:.01em}}
+.page > .eb:first-child > b.ar{{font-size:14pt;font-weight:700;color:{INK}}}
+.page > .eb:first-child > i{{height:0.5mm;background:{INK}}}
 .cnr{{position:absolute;width:4mm;height:4mm;border:0.5mm solid {RED};z-index:3}}
 .cnr.tl{{top:2.5mm;left:2.5mm;border-right:0;border-bottom:0}} .cnr.tr{{top:2.5mm;right:2.5mm;border-left:0;border-bottom:0}}
 .cnr.bl{{bottom:2.5mm;left:2.5mm;border-right:0;border-top:0}} .cnr.br{{bottom:2.5mm;right:2.5mm;border-left:0;border-top:0}}
 /* cover */
+.cover ~ .cnr.bl,.cover ~ .cnr.br{{display:none}}
 .cover{{position:absolute;inset:0;background:{DEEP};color:{PAPER};display:flex;flex-direction:column;
  justify-content:space-between;padding:20mm 18mm 0}}
-.cvtop .seal{{width:34mm}}
+.cvtop .seal{{width:46mm}}
 .cvmid h1{{font-size:30pt;font-weight:700;margin:0;font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;text-align:right}}
 .cvmid h2{{font-size:15pt;font-weight:700;margin:2mm 0 0;letter-spacing:.2em}}
 .cvsub{{font-size:7.4pt;color:#B9B5D8;margin:4mm 0 0;line-height:1.7}}
 p.ar.cvsub{{text-align:right;font-size:8.4pt}}
-.cvbot{{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;padding-bottom:8mm}}
+.cvbot{{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;padding-bottom:16mm}}
 .cvmeta span{{display:block;font-size:5.2pt;font-weight:700;letter-spacing:.18em;color:#8A86B8}}
 .cvmeta b{{display:block;font-size:7.4pt;margin-top:1.2mm;letter-spacing:.06em}}
 .cvmeta b.pend{{color:#FF8A82}}
 .cvband{{position:absolute;left:0;right:0;bottom:0;height:7mm;display:flex}}
 .cvband i{{flex:1}}
 /* chips */
-.chip{{display:inline-block;font-size:5.4pt;font-weight:700;letter-spacing:.14em;padding:1mm 2.4mm;
- margin:0 0 2.5mm;background:{INK};color:{PAPER}}}
-.chip.ok{{background:#1BA34C}} .chip.wait{{background:{RED}}} .chip.pend{{background:{SLATE}}}
-.chips{{display:grid;grid-template-columns:auto 1fr;gap:1.5mm 3mm;align-items:center;margin-bottom:2.5mm}}
+.chip{{display:inline-block;font-size:5.6pt;font-weight:700;letter-spacing:.18em;padding:0 0 0 3mm;
+ margin:0 0 2.6mm;background:transparent;color:{GRAPH};border-left:0.8mm solid {INK}}}
+.chip-ok{{border-left-color:#1BA34C;color:{SLATE}}} .chip-wait{{border-left-color:{RED};color:{RED}}} .chip-pend{{border-left-color:{SLATE};color:{SLATE}}}
+.chips{{display:grid;grid-template-columns:auto 1fr;gap:1.5mm 3mm;align-items:center;margin-bottom:2mm}}
 .chips p{{margin:0;font-size:6.6pt;color:{GRAPH}}}
 .lgd{{display:flex;gap:6mm;font-size:5.6pt;font-weight:700;letter-spacing:.12em;color:{SLATE};margin-top:1mm}}
 .lgd i{{display:inline-block;width:2.4mm;height:2.4mm;margin-right:1.4mm}}
 .lgd i.ok,.st i.ok{{background:#1BA34C}} .lgd i.wait,.st i.wait{{background:{RED}}} .lgd i.pend,.st i.pend{{background:{SLATE}}}
 .st i{{display:block;width:2.6mm;height:2.6mm}}
 /* rule panel */
-.rule{{position:relative;background:{RED};color:#FFF;padding:6mm 9mm;text-align:center;overflow:hidden;margin-bottom:2.5mm}}
+.rule{{position:relative;background:{DEEP};color:{PAPER};padding:7mm 9mm;text-align:center;overflow:hidden;margin-bottom:3mm;border-left:1.2mm solid {RED}}}
 .rule.sm{{padding:4.5mm 9mm}}
 .rule p.rl{{margin:0;font-weight:700;position:relative;z-index:2}}
 .rule p.ar.rl{{font-size:16pt;line-height:1.5;text-align:center;font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl}}
 .rule.sm p.ar.rl{{font-size:13pt}}
 .rule p.rl.en{{font-size:8pt;letter-spacing:.15em;margin-top:2mm;opacity:.92}}
-.rule .cnr{{border-color:#FFF}}
-.bi{{margin:0 0 2.5mm}}
-.bi > p{{margin:0;font-size:7.3pt;line-height:1.7;color:{GRAPH}}}
-.bi > p.ar{{font-size:8pt;color:{INK};margin-bottom:1.2mm}}
+.rule .cnr{{display:none}}
+.bi{{margin:0 0 2mm}}
+.bi > p{{margin:0;font-size:7.4pt;line-height:1.68;color:{GRAPH};max-width:145mm}}
+.bi > p.ar{{font-size:8.1pt;color:{INK};margin-bottom:1.3mm;max-width:145mm;margin-left:auto}}
 /* tables */
-table.t3{{width:100%;border-collapse:collapse;margin:0 0 2.5mm}}
+table.t3{{width:100%;border-collapse:collapse;margin:0 0 2mm}}
 table.t3 th{{font-size:5.6pt;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:{SLATE};
  text-align:left;padding:0 2mm 1.4mm;border-bottom:0.3mm solid {SILVER}}}
 table.t3 td{{font-size:7pt;line-height:1.5;padding:1.5mm 2mm;border-bottom:0.2mm solid {SILVER};vertical-align:top;color:{GRAPH}}}
@@ -936,7 +926,7 @@ table.t3 td span.en{{display:block;font-family:'IBM Plex Sans',sans-serif;direct
  font-size:6.2pt;color:{SLATE};margin-top:0.5mm;line-height:1.5}}
 table.t3 td.n{{font-family:'IBM Plex Mono',monospace;color:{RED};font-weight:700;width:6mm;font-size:8pt}}
 table.t3 td.num{{text-align:right;color:{INK}}}
-table.t3 td.sw{{width:8mm;padding:1.2mm 1mm}} table.t3 td.sw > i{{display:block;width:100%;height:3.4mm;border:0.2mm solid {SILVER}}}
+table.t3 td.sw{{width:8mm;padding:1.2mm 1mm}} table.t3 td.sw > i{{display:block;width:100%;height:4.6mm}}
 table.t3.ct td{{padding:0.72mm 2mm}}
 table.t3.ct td:first-child{{font-size:6pt;font-weight:700;letter-spacing:.08em;color:{INK}}}
 table.t3.ct td.v{{width:22mm}}
@@ -955,40 +945,40 @@ table.t3.jb td.q{{width:16mm;text-align:right;font-family:'IBM Plex Mono',monosp
 table.t3.m1 td:first-child{{width:42mm}} table.t3.m1 td:nth-child(3){{width:46mm}}
 table.t3.m1 td.q{{width:9mm;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:11pt;font-weight:700;color:{RED}}}
 /* notes */
-.note{{background:{MIST};border-left:0.8mm solid {RED};padding:2.8mm 4.2mm;margin:0 0 2.5mm}}
+.note{{background:{MIST};border-left:0.8mm solid {RED};padding:2.4mm 4.2mm;margin:0 0 2mm}}
 .note.warn{{border-left-color:{INK}}}
 .note > b{{font-size:7.4pt;display:inline;color:{INK}}}
 .note > p{{font-size:7pt;line-height:1.62;margin:1.1mm 0 0;color:{GRAPH}}}
 .note > p.ar{{font-size:7.5pt;color:{INK}}}
-.ok{{background:{DEEP};color:{PAPER};padding:2.6mm 4.5mm;margin:0 0 2.5mm;font-family:'IBM Plex Sans Arabic',sans-serif;
+.ok{{background:{DEEP};color:{PAPER};padding:2.6mm 4.5mm;margin:0 0 2mm;font-family:'IBM Plex Sans Arabic',sans-serif;
  direction:rtl;text-align:right;font-size:8pt}}
 .ok.warn{{background:{INK}}}
 .ok > b{{display:inline;font-weight:700}}
 .ok > span.en{{display:block;direction:ltr;text-align:left;font-family:'IBM Plex Sans',sans-serif;font-size:6.6pt;
  color:#C9C5BC;margin-top:1mm;line-height:1.55}}
 /* lists */
-ol.ru{{list-style:none;margin:0 0 2.5mm;padding:0;counter-reset:r}}
+ol.ru{{list-style:none;margin:0 0 2mm;padding:0;counter-reset:r}}
 ol.ru li{{counter-increment:r;display:grid;grid-template-columns:6mm 1fr;gap:0 2mm;padding:1.6mm 0;border-bottom:0.2mm solid {SILVER}}}
 ol.ru li::before{{content:counter(r,decimal-leading-zero);font-family:'IBM Plex Mono',monospace;font-size:6.4pt;
  font-weight:700;color:{RED};grid-row:1/3}}
 ol.ru li > span.ar{{font-size:7.4pt;color:{INK};line-height:1.6}}
 ol.ru li > span.en{{font-size:6.4pt;color:{SLATE};line-height:1.55}}
-ol.dn,ol.chk{{list-style:none;margin:0 0 2.5mm;padding:0;columns:2;column-gap:5mm}}
+ol.dn,ol.chk{{list-style:none;margin:0 0 2mm;padding:0;columns:2;column-gap:5mm}}
 ol.dn li,ol.chk li{{break-inside:avoid;display:grid;grid-template-columns:3.4mm 1fr;gap:0 2mm;padding:1.3mm 0;
  border-bottom:0.2mm solid {SILVER}}}
 ol.dn li > i{{width:2.8mm;height:2.8mm;background:{RED};display:block;grid-row:1/3;margin-top:0.8mm}}
 ol.chk li > i{{width:2.8mm;height:2.8mm;border:0.3mm solid {INK};display:block;grid-row:1/3;margin-top:0.7mm}}
 ol.dn li > span.ar,ol.chk li > span.ar{{font-size:6.8pt;color:{INK};line-height:1.5}}
 ol.dn li > span.en,ol.chk li > span.en{{font-size:5.6pt;color:{SLATE};line-height:1.4}}
-ol.nev{{list-style:none;margin:0 0 2.5mm;padding:0}}
+ol.nev{{list-style:none;margin:0 0 2mm;padding:0}}
 ol.nev li{{display:grid;grid-template-columns:3.4mm 1fr;gap:0 2.5mm;padding:1.6mm 0;border-bottom:0.2mm solid {SILVER}}}
 ol.nev li > i{{width:2.8mm;height:2.8mm;background:{RED};display:block;grid-row:1/4;margin-top:0.8mm}}
 ol.nev li > span.ar{{font-size:7.4pt;color:{INK}}}
 ol.nev li > span.en{{font-size:6.2pt;color:{GRAPH}}}
 ol.nev li > span.ar.sm{{font-size:6.4pt;color:{SLATE}}}
 /* hierarchy */
-.hier{{margin:0 0 2.5mm}}
-.hlv{{background:#FFF;border:0.25mm solid {SILVER};padding:2.6mm 3.5mm;text-align:center}}
+.hier{{margin:0 0 2mm}}
+.hlv{{background:{MIST};padding:3.2mm 3.5mm;text-align:center}}
 .hlv.m{{background:{DEEP};color:{PAPER};border-color:{DEEP}}}
 .hlv > b.ar{{font-size:10pt;display:block}} .hlv > span{{font-size:5.4pt;font-weight:700;letter-spacing:.16em;color:{SLATE}}}
 .hlv.m > span{{color:#8A86B8}}
@@ -998,56 +988,56 @@ ol.nev li > span.ar.sm{{font-size:6.4pt;color:{SLATE}}}
 .harr{{height:3mm;border-left:0.3mm solid {SILVER};width:0;margin:0 auto}}
 .hrow{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm}}
 /* colour swatches */
-.csws4{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2.5mm}}
-.csw{{border:0.25mm solid {SILVER};background:#FFF;padding:2.2mm}}
-.chipc{{height:11mm;margin-bottom:1.6mm}}
+.csws4{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2mm}}
+.csw{{background:transparent;padding:0 0 2.2mm}}
+.chipc{{height:20mm;margin-bottom:2.2mm}}
 .csw b{{font-size:7pt;display:block;color:{INK}}}
 .csw span{{display:block;font-size:5.8pt;color:{SLATE};line-height:1.5}}
 .csw span.ar{{font-size:6.6pt;color:{GRAPH}}} .csw span.role{{font-size:5.2pt;letter-spacing:.06em;margin-top:0.8mm}}
 .csw span.cr{{font-family:'IBM Plex Mono',monospace;font-size:5.6pt;color:{INK};margin-top:0.8mm}}
 .csw span.cr em{{font-style:normal;color:{SLATE}}}
-.cols{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2.5mm}}
-.col{{display:flex;gap:2.5mm;background:#FFF;border:0.25mm solid {SILVER};padding:2.2mm}}
-.cs{{width:11mm;min-width:11mm;border:0.2mm solid {SILVER}}}
+.cols{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.col{{display:flex;gap:2.5mm;background:transparent;border-top:0.4mm solid {INK};padding:2.2mm}}
+.cs{{width:14mm;min-width:14mm}}
 .cx > b{{font-size:7pt;color:{INK};display:block;margin-bottom:0.8mm}}
 .cx > ul{{list-style:none;margin:0;padding:0}}
 .cx > ul li{{font-size:6pt;line-height:1.5;color:{GRAPH}}} .cx > ul li b{{color:{INK}}}
 table.t3.rl2 td{{padding:2mm}}
 /* type */
-.two{{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-bottom:2.5mm}}
-.fam{{background:#FFF;border:0.25mm solid {SILVER};padding:3mm}}
-.fam.full{{margin-bottom:2.5mm}}
+.two{{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-bottom:2mm}}
+.fam{{background:transparent;border-top:0.4mm solid {INK};padding:3mm}}
+.fam.full{{margin-bottom:2mm}}
 .fam > b{{font-size:12pt;display:block;color:{INK}}}
 .fam > span{{font-size:7pt;color:{SLATE};display:block;font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;text-align:right;margin-bottom:1.5mm}}
 .fam > p{{margin:0;font-size:6.6pt;line-height:1.6;color:{GRAPH}}}
 /* logos */
-.sealrow{{display:flex;gap:6mm;align-items:center;background:#FFF;border:0.25mm solid {SILVER};padding:4mm;margin-bottom:2.5mm}}
+.sealrow{{display:flex;gap:6mm;align-items:center;background:transparent;border-top:0.4mm solid {INK};padding:4mm;margin-bottom:2mm}}
 .bigseal{{width:32mm}}
 .sealx > b.ar{{font-size:12pt;display:block;color:{INK}}}
 .sealx > span{{font-size:5.6pt;font-weight:700;letter-spacing:.16em;color:{SLATE};display:block;margin-bottom:1.5mm}}
 .sealx > p{{margin:0 0 1mm;font-size:6.8pt;line-height:1.6;color:{GRAPH}}}
 .sealx > p.ar{{font-size:7.4pt;color:{INK}}}
-.lks{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2.5mm}}
+.lks{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2mm}}
 .lk{{background:{MIST};height:24mm;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5mm;padding:2mm}}
 .lk img{{max-width:78%;max-height:13mm;object-fit:contain}}
 .lk span{{font-size:5.4pt;font-weight:700;letter-spacing:.14em;color:{SLATE}}}
 /* ranges */
-.rhero{{display:flex;align-items:center;gap:5mm;background:#FFF;border:0.25mm solid {SILVER};padding:4mm;margin-bottom:2.5mm}}
+.rhero{{display:flex;align-items:center;gap:5mm;background:transparent;border-top:0.4mm solid {INK};padding:4mm;margin-bottom:2mm}}
 .rlogo{{width:26mm;max-height:16mm;object-fit:contain}}
 .rx{{flex:1}} .rx > b.ar{{font-size:14pt;display:block;color:{INK}}}
 .rx > span{{font-size:7pt;font-weight:700;letter-spacing:.16em;color:{SLATE};display:block;margin-bottom:1.5mm}}
 .rx > p{{margin:0;font-size:6.8pt;color:{GRAPH}}} .rx > p.ar{{font-size:7.4pt;color:{INK}}}
 .rsig{{text-align:center}} .rsig > i{{display:block;width:16mm;height:9mm;margin-bottom:1mm}}
 .rsig > span{{font-size:6pt;color:{INK};display:block}} .rsig > em{{font-style:normal;font-size:5pt;letter-spacing:.14em;color:{SLATE}}}
-.rpack{{background:{MIST};padding:3mm;margin-bottom:2.5mm;text-align:center}}
+.rpack{{background:{MIST};padding:3mm;margin-bottom:2mm;text-align:center}}
 .rpack img{{max-width:100%;max-height:36mm;object-fit:contain}}
-.rb{{background:#FFF;border:0.25mm solid {SILVER};padding:3mm}}
+.rb{{background:transparent;border-top:0.4mm solid {INK};padding:3mm}}
 .rb > b.ar{{font-size:8.5pt;display:block;color:{INK}}}
 .rb > span{{font-size:5.4pt;font-weight:700;letter-spacing:.14em;color:{SLATE};display:block;margin-bottom:1.5mm}}
 .rb > p{{margin:0 0 1mm;font-size:6.6pt;line-height:1.6;color:{GRAPH}}} .rb > p.ar{{font-size:7.2pt;color:{INK}}}
 .fsws{{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm}}
-.fsw{{border:0.25mm solid {SILVER};background:#FFF;padding:1.8mm;text-align:center}}
-.fsw > i{{display:block;height:9mm;margin-bottom:1.2mm}}
+.fsw{{background:transparent;padding:0 0 1.8mm;text-align:center}}
+.fsw > i{{display:block;height:14mm;margin-bottom:1.4mm}}
 .fsw > b.ar{{font-size:6.8pt;display:block;color:{INK}}}
 .fsw > span.mono{{font-size:5.2pt;color:{SLATE};display:block}}
 .fsw > span.vd{{font-size:4.8pt;font-weight:700;letter-spacing:.08em;padding:0.5mm 1mm;display:inline-block;margin-top:0.8mm}}
@@ -1055,7 +1045,7 @@ table.t3.rl2 td{{padding:2mm}}
 .fsw > span.vd.key{{background:{RED};color:#FFF}}
 /* voice */
 .vcs{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm}}
-.vc{{background:#FFF;border:0.25mm solid {SILVER}}}
+.vc{{background:transparent;border-top:0.4mm solid {INK}}}
 .vh{{padding:2.4mm 3mm;background:{MIST}}}
 .vh > b.ar{{font-size:11pt;color:{INK}}} .vh > span{{font-size:6.4pt;font-weight:700;letter-spacing:.12em;color:{SLATE};margin-left:2mm}}
 .vh > em.ar{{display:block;font-style:normal;font-size:7.4pt;color:{INK};margin-top:1mm;direction:rtl;text-align:right;font-family:'IBM Plex Sans Arabic',sans-serif}}
@@ -1068,8 +1058,8 @@ table.vt td span.en{{display:block;direction:ltr;text-align:left;font-family:'IB
 table.vt tr.in td.ar{{color:#1BA34C}} table.vt tr.out td.ar{{color:{RED}}}
 table.vt tr:last-child td{{border-bottom:0}}
 /* scene worlds + prompts */
-.wlds{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2.5mm}}
-.wld{{background:#FFF;border:0.25mm solid {SILVER}}}
+.wlds{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.wld{{background:transparent;border-top:0.4mm solid {INK}}}
 .wh{{padding:2.2mm 3mm;display:flex;align-items:baseline;gap:2.5mm;background:{MIST}}}
 .wh > b.ar{{font-size:10pt;font-weight:700;color:{INK}}}
 .wh > span{{font-size:6.6pt;font-weight:700;letter-spacing:.12em;color:{SLATE};margin-left:auto}}
@@ -1079,14 +1069,14 @@ table.wt td.k{{width:21mm;font-size:5.2pt;font-weight:700;letter-spacing:.06em;c
 table.wt td.ar{{font-size:6.8pt}}
 table.wt td span.en{{display:block;direction:ltr;text-align:left;font-family:'IBM Plex Sans',sans-serif;font-size:5.8pt;color:{SLATE};margin-top:0.4mm;line-height:1.4}}
 table.wt tr.no td{{background:#FDF0EF}} table.wt tr:last-child td{{border-bottom:0}}
-.prs{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2.5mm}}
-.pr{{background:#FFF;border:0.25mm solid {SILVER};padding:2.4mm 3mm}}
+.prs{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.pr{{background:transparent;border-top:0.4mm solid {INK};padding:2.4mm 3mm}}
 .pr > b{{font-size:8pt;display:block;margin-bottom:1.2mm;letter-spacing:.06em}}
 .pr > code{{font-family:'IBM Plex Mono',monospace;font-size:5.4pt;line-height:1.65;color:{GRAPH};display:block}}
-.neg{{background:{INK};padding:2.8mm 4.2mm;margin:0 0 2.5mm}}
+.neg{{background:{INK};padding:2.8mm 4.2mm;margin:0 0 2mm}}
 .neg > code{{font-family:'IBM Plex Mono',monospace;font-size:6.4pt;line-height:1.75;color:#FF8A82}}
-.lay3{{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5mm;margin-bottom:2.5mm}}
-.ly{{background:#FFF;border:0.25mm solid {SILVER};padding:2.8mm}}
+.lay3{{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5mm;margin-bottom:2mm}}
+.ly{{background:transparent;border-top:0.4mm solid {INK};padding:2.8mm}}
 .ly > i{{font-style:normal;font-family:'IBM Plex Mono',monospace;font-size:10pt;font-weight:700;color:{RED};display:block;line-height:1}}
 .ly > b.ar{{font-size:9.5pt;display:block;margin-top:1.2mm;color:{INK}}}
 .ly > span{{font-size:5.4pt;font-weight:700;letter-spacing:.14em;color:{SLATE};display:block;margin-bottom:1.2mm}}
@@ -1097,8 +1087,8 @@ table.t3.slg td.sg{{font-size:11pt;font-weight:700;color:{INK};width:52mm;line-h
 table.t3.slg tr.star td{{background:#F2F7EE}}
 table.t3.slg tr.star td.sg{{color:#14803B}}
 table.t3.slg tr.star td.n::after{{content:' *';color:#1BA34C}}
-.gls{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2.5mm}}
-.gl{{background:#FFF;border:0.25mm solid {SILVER};padding:2.4mm 3mm;display:grid;grid-template-columns:7mm 1fr;gap:0 2mm}}
+.gls{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.gl{{background:transparent;border-top:0.4mm solid {INK};padding:2.4mm 3mm;display:grid;grid-template-columns:7mm 1fr;gap:0 2mm}}
 .gl > b{{font-family:'IBM Plex Mono',monospace;font-size:6.4pt;color:{RED};grid-row:1/3}}
 .gl > span.ar{{font-size:9pt;font-weight:700;color:{INK};line-height:1.5}}
 .gl > em{{font-style:normal;font-size:6pt;color:{SLATE};line-height:1.45}}
@@ -1107,8 +1097,8 @@ table.t3.slg tr.star td.n::after{{content:' *';color:#1BA34C}}
 .hold > b.ar{{font-size:9pt;color:{INK};display:block}}
 .hold > span.en{{display:block;font-size:6.6pt;color:{GRAPH};margin-top:1.5mm;line-height:1.6}}
 /* numbers */
-.nums{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2.5mm}}
-.num{{background:#FFF;border:0.25mm solid {SILVER};padding:3mm;text-align:center}}
+.nums{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2mm}}
+.num{{background:transparent;border-top:0.4mm solid {INK};padding:3mm;text-align:center}}
 .num > b{{font-size:20pt;font-weight:700;color:{RED};display:block;line-height:1;font-family:'IBM Plex Mono',monospace}}
 .num > span.ar{{display:block;font-size:7pt;color:{INK};margin-top:1.5mm;text-align:center}}
 .num > span.en{{display:block;font-size:5.4pt;letter-spacing:.1em;color:{SLATE};text-transform:uppercase}}

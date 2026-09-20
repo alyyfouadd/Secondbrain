@@ -104,7 +104,15 @@ type: reference
 
 ## 6 · To Mohamed — delivering the Shooting and Compositing Recipe
 
-> ### HELD, 20 September. **Drafted and ready; the attachment is not.**
+> ### FIXED BUT NOT CLEARED, 20 September. **Both blockers are gone. A third one appeared.**
+>
+> **The prompts are out and the BeBo rule is corrected, verified by extracting the PDF's text rather than by trusting the build.** But the re-render came back at **2 pages, where the v1.0 Aly had was 7.**
+>
+> **That is not a rendering fault, it is a content gap that predates this session.** The 7-page original was built from `recipe.py`, which was deleted when section 16 moved into `book.py`, and **the move did not carry everything.** Checking the book's own text: the compositing rules, the colour-spill step and the output sizes survived; **the reject list, the source library and the never-enlarge-a-pack resolution rule did not.** All three are client-facing quality standards rather than method, so they should be in the book and are not.
+>
+> **The recommendation: do not send a 2-page "deliverable 1 of 8".** It reads thin next to a 20,000 EGP stage, and it is thin because three sections are missing rather than because the work is small. **Restore those three blocks into section 16 first** — that is content authoring in `book.py`, roughly a page and a half, and it fixes the book at the same time as the standalone. **Aly's call.**
+>
+> *The hold below is kept because it is the reasoning the fix rests on.*
 >
 > **The message is fine. `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` cannot go out as it stands**, for two reasons found on 20 September. Both are in [[Delivery Register]] and both are fixable in one re-render.
 >
@@ -117,7 +125,7 @@ type: reference
 
 > أستاذ محمد، أول بند من الأساس التجاري خلص ومعاك مرفق 📄
 >
-> ده **«وصفة التصوير والتركيب»**، بند من التمانية اللي في الأساس. سبع صفحات، عربي وإنجليزي.
+> ده **«وصفة التصوير والتركيب»**، بند من التمانية اللي في الأساس. عربي وإنجليزي.
 >
 > المستند بيحدد شكل كل صورة منتج هتطلع لأليكس فودز: زاوية الكاميرا، الإضاءة، الخلفية، مكان العبوة في الكادر، والمقاسات النهائية لكل منصة. هدفه إن التمنتاشر صنف في الأربع مجموعات يبانوا عيلة واحدة، مش تمنتاشر حاجة مالهمش علاقة ببعض.
 >
@@ -127,7 +135,7 @@ type: reference
 >
 > باقي البنود ماشية في معادها، والتسليم الكامل مستهدف **٩ أكتوبر**.
 
-**English gloss, for Aly's ear rather than for sending:** the first Foundation item is done and attached. Seven pages, bilingual. It defines how every product image is produced: camera, light, background, pack placement, output sizes. Its job is to make eighteen SKUs across four ranges read as one family. **One governing rule matters to you: the scene gets produced, the pack never gets redrawn** — every pixel of product is your own artwork, so the pack and the mark can never come out wrong. We started here on purpose, because it is the standard everything after it is measured against. The rest is on schedule, full delivery targeted 9 October.
+**English gloss, for Aly's ear rather than for sending:** the first Foundation item is done and attached. Bilingual. It defines how every product image is produced: camera, light, background, pack placement, output sizes. Its job is to make eighteen SKUs across four ranges read as one family. **One governing rule matters to you: the scene gets produced, the pack never gets redrawn** — every pixel of product is your own artwork, so the pack and the mark can never come out wrong. We started here on purpose, because it is the standard everything after it is measured against. The rest is on schedule, full delivery targeted 9 October.
 
 **Four decisions inside that draft:**
 

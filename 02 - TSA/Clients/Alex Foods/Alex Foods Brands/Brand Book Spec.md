@@ -246,7 +246,17 @@ Separately worth naming: **the four range logos in the "THE FOUR RANGES" panel a
 - **Costs money and is not recommended yet: a premium Arabic display licence.** It would lift the book, but it is the last 10% and it should wait until the eight free fixes are in and the improvement can actually be judged against them.
 - **Rejected, and the reasoning stands: Canva or a layout app.** 39 pages hand-assembled, and every revision round a manual re-layout. §3 chose HTML precisely so a revision is an edit and a re-render.
 
-> **All eight are source-code changes to `book.py` and `kit.py`, so they wait on Aly's go-ahead** — the same gate as the section 16 re-render in [[Alex Foods Week 1 Messages]] §6. **Doing them in one pass is right**, because every one of them changes the same pages and re-rendering twice wastes the proof pass.
+> ### DONE, 20 September. All eight applied and both documents re-rendered.
+>
+> **Verified by looking at the renders, not by trusting the code.** Book 38pp / 7.19 MB, kit 8pp / 9.51 MB, recipe 2pp / 0.31 MB, all inside the WhatsApp limit.
+>
+> **Two things worth recording.**
+>
+> **The chip fix exposed trap 5 for a fourth time.** `.ok` was doing two jobs — the navy Arabic callout block *and* the chip's status modifier — so `chip('DEFINED','ok')` was inheriting the callout's navy background and padding. **Invisible while the chip was itself dark; it only showed the moment the chip went transparent.** A computed-style probe found it in one run after the served CSS had already been checked and looked correct. Chip modifiers are now namespaced `chip-ok` / `chip-wait` / `chip-pend`.
+>
+> **Fix 8 fought fix 5, exactly as flagged.** A shorter measure makes pages taller, and it pushed four pages past the live area. Settled at **145mm** rather than 125mm, plus a tighter vertical rhythm. Two pages still sit about 3mm into the foot margin; **the footer was checked at 300dpi and there is no collision**, so the 1025px probe threshold is conservative rather than wrong.
+>
+> *(Superseded note: these were source-code changes to `book.py` and `kit.py` and waited on Aly's go-ahead* — given 20 September, and done in one pass with the section 16 re-render.)*
 
 ## 7. What this spec is still waiting on
 

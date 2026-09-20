@@ -141,7 +141,11 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ---
 
-## POLEKA — **frozen juice** *(in the Foundation, not yet in the signed scope)*
+## POLEKA — **«مشروب بطعم الفاكهة»**, sold frozen *(in the Foundation, not yet in the signed scope)*
+
+> **FOURTH CORRECTION, 20 September, and the only one from a primary source.** The client's own post reads **«بوليكا مشروب بطعم الفاكهة»** — *POLEKA is a drink with fruit flavour.* **That is the exact construction printed on the BeBo packs**, so the client files POLEKA in the same category as BeBo. *(Earlier readings, all TSA's: chew candy, drinkable jelly, frozen juice.)*
+>
+> **And the market has a word for the format that TSA had never heard: «لوليتا».** The client uses it as a generic and brands with it — **«لوليتا تومان»**. Verbatim source in `client-legacy-creative/client-social-copy.md`.
 
 > **CORRECTED AGAIN, 20 September: POLEKA is a FROZEN JUICE.** Aly: *"it's more of a frozen juice."* Not a chew candy, and not a room-temperature drinkable jelly either. **The «جيلي» on the pack describes the texture, not the category.** The scissors and the cut neck are real; what comes out of the neck is frozen or near-frozen juice.
 

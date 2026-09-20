@@ -244,7 +244,7 @@ This section exists because a food page can be reported, and a paid ad account c
 2. **"طبيعي ١٠٠٪" or "100% natural / 100% juice"** on any product here. BeBo is a powdered drink. AlRawy is a nectar. Neither claim is true as written and both contradict the client's own labels.
 3. **Any nutritional number.** Calories, sugar content, fruit percentage, vitamin content. Not without the client's written spec sheet, and it has not arrived.
 4. **Named competitor comparisons**, or "أحسن من" against anyone.
-5. **Price claims.** "الأرخص" is unverifiable, varies by shop, and invites a public argument TSA cannot win.
+5. **Price claims.** "الأرخص" is unverifiable, varies by shop, and invites a public argument TSA cannot win. **But stating a price the client themselves publish is not a price claim.** They post «و ب ٢ جنيه بس» in their own copy, and **2 EGP is a real selling point on a pocket-money product.** **The ban is on superlatives and comparisons, never on a number the client has put in public.**
 6. **Availability promises.** Never say a product is in a named shop or chain. Retail distribution is not TSA's information.
 7. **Anything about the factory, certifications, halal status, expiry, or sourcing.** All of it is client information. If it did not arrive in writing, it does not get typed.
 8. **A public reply to a contamination, illness or foreign-object complaint.** See §8, because this one has its own procedure.

@@ -193,7 +193,33 @@ Their lines **do** name the brand. They **do** sit close to the product. They ar
 
 ---
 
+## 5c-ii. The pattern, extracted from the four lines that landed
+
+**This is evidence rather than doctrine.** Four lines are now accepted: three of them the client's or Aly's, one of them his pick from my alternates. **They share a shape, and every line I wrote that failed broke it.**
+
+| Accepted line | Shape |
+|---|---|
+| «طعم أحلى مع أليكس فودز» | *noun* + **أحلى** + **مع** + brand |
+| «بيبو معاك كل يوم» | brand + **معاك** + everyday phrase |
+| «عيش جو المغامرة» | *imperative* + **جو** + noun |
+| «صوّر واكسب مع بيبو» | *imperative* + *imperative* + **مع** + brand |
+
+**The four markers:**
+
+1. **The brand name is inside the line.** Three of four. The exception is the oldest line, already on pack.
+2. **مع is the connector**, or a direct «معاك». Three of four.
+3. **Three or four words. Nothing longer.**
+4. **A verb or an everyday concrete noun. Never an abstract one.** صوّر · اكسب · عيش · معاك · كل يوم.
+
+### And this is exactly what the ten rejected lines got wrong
+
+**«اختيار من غير ندم» breaks all four markers at once:** an abstract noun phrase, no brand, no مع, no verb. It is the clearest single piece of evidence that §1's "never name the product" rule was the wrong instruction for this client, and it is why that line was the one that read most like a marketing proposition.
+
+**«مع بيبو، البيت أحلى» had two markers right and still died**, because the marker it broke was the audience. **Shape is necessary and not sufficient.**
+
 ## 5d. The giveaway — BeBo's, 20 September 2026
+
+> **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.
 
 > **Aly: BeBo is the one who does giveaways.** **I had specified the lockup as the master's and written the song with «أليكس فودز» in the hook.** Both corrected below.
 

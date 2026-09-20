@@ -32,6 +32,7 @@ type: reference
 
 | # | Date | Decision | Rests on | Overturned |
 |---|---|---|---|---|
+| 23 | 20 Sep | **The prompts do not ship to the client.** Section 16's prompt formula and exclusion list come out of the client build | Clause 5 reserves TSA's working method; the scope sold camera, light, background and framing, not the method | The assumption that the whole recipe was a client deliverable. **Pending Aly's go-ahead on the re-render** |
 | 22 | 20 Sep | **POLEKA is a frozen juice**, sold frozen from a freezer, snip the neck and drink it | The packshot, opened properly for the first time; then Aly | "Jelly candy", then "drinkable jelly". Corrected three times in one day |
 | 21 | 20 Sep | **The giveaway belongs to BeBo, not the master** | BeBo is the client's named hero product and best seller | The lockup had been put on Alex Foods and the hook on the wrong brand |
 | 20 | 20 Sep | **Giveaway slogan: «صوّر واكسب مع بيبو»** | Aly's line over TSA's | TSA's named the mechanic and stopped; this carries mechanic and reward in three words |
@@ -63,7 +64,7 @@ type: reference
 
 [[Active Priorities]] carries both «**بيبو معاك كل يوم**» and «**مع بيبو، اليوم أحلى**» as settled on 20 September, the second saying the first is dead and that the parked song's bookend broke with it. **Reading the order, «مع بيبو، اليوم أحلى» is the later call and therefore the live one** — but that is inference from list position, not from a dated record, which is exactly the failure this note exists to stop.
 
-> **Aly: confirm which line is live, and this row becomes decision #23 with the other marked superseded.** Nothing else in the vault should state a BeBo line until it does.
+> **Aly: confirm which line is live, and this row becomes decision #24 with the other marked superseded.** Nothing else in the vault should state a BeBo line until it does.
 
 ---
 

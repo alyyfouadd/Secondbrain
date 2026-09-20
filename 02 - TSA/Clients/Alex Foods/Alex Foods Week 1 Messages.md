@@ -102,6 +102,42 @@ type: reference
 
 ---
 
+## 6 · To Mohamed — delivering the Shooting and Compositing Recipe
+
+> ### HELD, 20 September. **Drafted and ready; the attachment is not.**
+>
+> **The message is fine. `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` cannot go out as it stands**, for two reasons found on 20 September. Both are in [[Delivery Register]] and both are fixable in one re-render.
+>
+> 1. **It contains TSA's working method.** Section 16 in `design-system/book.py` carries **THE PROMPT FORMULA** and **WHAT EVERY PROMPT EXCLUDES** — the four AI prompts, verbatim, one per range. **Clause 5 reserves raw files, project files and TSA's working method as agency property.** The scope sold "written specs followed on every shoot: camera angle, lighting, background, product framing", which is §03, §04, §08, §09 and §10. **The prompts are how TSA makes it, not what the client bought**, and handing them over gives away the part that makes TSA hard to replace. Same principle as [[Producing Copy with AI]].
+> 2. **It carries a rule the vault reversed the next day.** The PDF says *«لا تُظهر العبوة وهي تُحضَّر أو يُشرب منها»* — never show BeBo being prepared or drunk from — which was correct while BeBo's format was unsettled. **BeBo was settled as a juice on 20 September and the ban was lifted; drinking is now the correct thing to show.** Sending it ships a known-wrong instruction on the client's own priority range.
+>
+> **The fix is one pass:** drop the two prompt blocks from section 16, correct the BeBo world and reject-list rows, re-render with `render(['16'])`. **It is a source-code change to `book.py`, so it waits on Aly's go-ahead.** *(The iPad toolchain section in [[Shooting and Compositing Recipe]] §11 is internal-only and is already absent from the book build. No action needed there.)*
+
+**One job: deliver the first finished Foundation deliverable.** No ask attached, deliberately. Every other message in this file requests something, and **a delivery that arrives carrying a favour reads as an invoice.** This one only gives.
+
+> أستاذ محمد، أول بند من الأساس التجاري خلص ومعاك مرفق 📄
+>
+> ده **«وصفة التصوير والتركيب»**، بند من التمانية اللي في الأساس. سبع صفحات، عربي وإنجليزي.
+>
+> المستند بيحدد شكل كل صورة منتج هتطلع لأليكس فودز: زاوية الكاميرا، الإضاءة، الخلفية، مكان العبوة في الكادر، والمقاسات النهائية لكل منصة. هدفه إن التمنتاشر صنف في الأربع مجموعات يبانوا عيلة واحدة، مش تمنتاشر حاجة مالهمش علاقة ببعض.
+>
+> وفيه قاعدة واحدة حاكمة تهمكم إنتوا بالذات: **الخلفية والمكان بيتعملوا، لكن العبوة نفسها مابتترسمش من جديد أبدًا.** كل بكسل من المنتج في أي صورة هو فن العبوة بتاعكم زي ما هو بالظبط، فمفيش أي احتمال إن العبوة أو العلامة تطلع بشكل مختلف عن الحقيقة.
+>
+> بدأنا بالبند ده قبل الباقي عن قصد، لأنه المعيار اللي كل صورة بعد كده هتتقاس عليه.
+>
+> باقي البنود ماشية في معادها، والتسليم الكامل مستهدف **٩ أكتوبر**.
+
+**English gloss, for Aly's ear rather than for sending:** the first Foundation item is done and attached. Seven pages, bilingual. It defines how every product image is produced: camera, light, background, pack placement, output sizes. Its job is to make eighteen SKUs across four ranges read as one family. **One governing rule matters to you: the scene gets produced, the pack never gets redrawn** — every pixel of product is your own artwork, so the pack and the mark can never come out wrong. We started here on purpose, because it is the standard everything after it is measured against. The rest is on schedule, full delivery targeted 9 October.
+
+**Four decisions inside that draft:**
+
+- **It carries no ask.** The other five messages all want something. This one is the only thing TSA has sent that is purely a give, and it lands six days before the 26 September instalment. **That sequencing is worth more than any sentence in it.**
+- **The AI method is disclosed as a principle and not as mechanics.** *"The scene is produced, the pack is never redrawn"* is true, it is the honest disclosure, and **it reads as protection rather than as a shortcut** because that is what it is: their artwork, their trademark, never reinterpreted. **They cannot later say nobody told them.** What stays back is how it is produced, which is clause 5.
+- **It does not ask for approval.** Clause 3's 48 hour auto approval has never been agreed in writing, and the Foundation has **one** sign off, on the book's sign off page. Inviting a separate approval here would create a second one and muddy the only one that matters.
+- **"بند من التمانية" rather than "البند السادس".** Numbering it sixth implies one to five are finished. They are not.
+
+---
+
 ## What to expect back, and what to do if nothing comes
 
 **Realistically: message 1 gets answered, message 4 does not.** Photos are easy and decisions are not.

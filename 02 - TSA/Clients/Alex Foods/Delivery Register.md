@@ -25,12 +25,12 @@ type: reference
 | 3 | Social Pages Setup | **BLOCKED** | **Meta admin access.** The spec is written; execution needs the access | [[Brand and Social Kit]] |
 | 4 | Slogans and the giveaway song | **IN PROGRESS** | BeBo's line needs confirming — see [[Decisions]]. The song is drafted | [[Slogans and Song]] |
 | 5 | Monthly Content Calendar | **IN PROGRESS** | Seasonality answer before months 2 and 3 are scripted | [[Content Plan]] · [[Post Archetypes]] |
-| 6 | Shooting and Compositing Recipe | **SHIPPED** | — | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` |
+| 6 | Shooting and Compositing Recipe | **SHIPPED, not sendable** | **A re-render.** The PDF carries TSA's AI prompts (clause 5) and the BeBo ban that was lifted on 20 Sep. See [[Alex Foods Week 1 Messages]] §6 | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` |
 | 7 | Google Business Profile | **BLOCKED** | Google account, plus hours, categories and phone. **The address arrived 19 Sep** | — |
 | 8 | Local SEO — Alexandria | **NOT STARTED** | Nothing. Research is unblocked; the shelf walk is the competitor route | — |
 | — | **The brand book** — the one document all eight ship inside | **BUILT** | Content for the four waiting sections | `Alex Foods - Brand Foundation v1.0.pdf` · [[Brand Book Spec]] |
 
-**Honest read: one deliverable is finished and sent-ready. Two are blocked on client access and will ship as specification with a waiting chip. Five are part-built.** Nineteen days to target as of 20 September. Dated plan in [[Alex Foods Delivery Plan]].
+**Honest read: one deliverable is finished but held for a re-render. Two are blocked on client access and will ship as specification with a waiting chip. Five are part-built.** Nineteen days to target as of 20 September. Dated plan in [[Alex Foods Delivery Plan]].
 
 ---
 

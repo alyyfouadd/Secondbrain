@@ -26,7 +26,7 @@ A headline sells one click, once, and gets replaced tomorrow. A slogan is a perm
 - **Talk like a person, never like a company.**
 
 **What does NOT carry, and this is where people wreck it:**
-- **Specific numbers and time frames.** "In 30 days, using 3 principles" is a superb headline and a dead slogan. A brand line has to sit on eighteen SKUs for three years.
+- **Specific numbers and time frames.** "In 30 days, using 3 principles" is a superb headline and a dead slogan. A brand line has to sit on eighteen SKUs ([[Alex Foods Brands]]) for three years.
 - **Urgency and deadlines.** Those belong to the *campaign* line, never the brand line. The giveaway song is where they come back (see §5).
 - **Long copy and skim formatting.** Irrelevant. A slogan is four to six words.
 - **The "So What?" ladder** carries, but you stop differently. A headline climbs to the emotion and *states* it. A slogan climbs to the emotion and then finds the shortest way to *gesture* at it without naming it. Naming the feeling outright is what produces greeting-card copy.
@@ -590,7 +590,7 @@ Four reasons that hold independently of who decided it:
 
 ### Where it runs, which is a different question from whose it is
 
-**The giveaway belongs to BeBo. It runs on the Alex Foods account**, because that is the only presence with an audience — 52,000 against 540 across both other platforms. **One presence, a range campaign inside it.** That is the umbrella model working as designed rather than an exception to it.
+**The giveaway belongs to BeBo. It runs on the Alex Foods account**, because that is the only presence with an audience — 52,000 ([[Alex Foods Discovery Brief]]) against 540 across both other platforms. **One presence, a range campaign inside it.** That is the umbrella model working as designed rather than an exception to it.
 
 **The lockup therefore carries both:** BeBo's mark as the campaign owner, and **the Alex Foods seal, because the master owns the seal and always has.**
 
@@ -657,7 +657,7 @@ Four reasons that hold independently of who decided it:
 
 | # | السطر | Gloss | Why it holds |
 |---|---|---|---|
-| **1** | **«من إسكندرية لكل البيوت»** | From Alexandria to every home | **The strongest line in the set.** It is brand pillar 3 said in five words, and **no competitor can say it** — the company's name *is* the city and the seal carries the Pharos. It works on all eighteen SKUs, survives two hundred repetitions, and makes no claim that needs a document. |
+| **1** | **«من إسكندرية لكل البيوت»** | From Alexandria to every home | **The strongest line in the set.** It is brand pillar 3 said in five words, and **no competitor can say it** — the company's name *is* the city and the seal carries the Pharos. It works on all eighteen SKUs, survives two hundred repetitions, and makes no claim that needs a document. · [[Alex Foods Brands]] |
 | **2** | **«إسكندرية بتحلّي»** | Alexandria sweetens things | Shorter, warmer, and carries the "fun" register the client asked for. Slight risk: «بتحلّي» leans sweet, which fits three ranges and sits oddly on AlRawy. |
 
 ### BeBo — talking to the mother

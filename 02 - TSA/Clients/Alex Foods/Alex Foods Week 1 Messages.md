@@ -135,7 +135,7 @@ type: reference
 >
 > باقي البنود ماشية في معادها، والتسليم الكامل مستهدف **٩ أكتوبر**.
 
-**English gloss, for Aly's ear rather than for sending:** the first Foundation item is done and attached. Bilingual. It defines how every product image is produced: camera, light, background, pack placement, output sizes. Its job is to make eighteen SKUs across four ranges read as one family. **One governing rule matters to you: the scene gets produced, the pack never gets redrawn** — every pixel of product is your own artwork, so the pack and the mark can never come out wrong. We started here on purpose, because it is the standard everything after it is measured against. The rest is on schedule, full delivery targeted 9 October.
+**English gloss, for Aly's ear rather than for sending:** the first Foundation item is done and attached. Bilingual. It defines how every product image is produced: camera, light, background, pack placement, output sizes. Its job is to make eighteen SKUs ([[Alex Foods Brands]]) across four ranges read as one family. **One governing rule matters to you: the scene gets produced, the pack never gets redrawn** — every pixel of product is your own artwork, so the pack and the mark can never come out wrong. We started here on purpose, because it is the standard everything after it is measured against. The rest is on schedule, full delivery targeted 9 October.
 
 **Four decisions inside that draft:**
 

@@ -21,6 +21,21 @@ SKIP_NAMES = ("Decisions.md", "Vault Brief.md", "retired.tsv")
 # contract says, not drift in our work, and editing it is not an option.
 SOURCE_PDFS = ("TSA - Alex Foods Service Scope V2.pdf",)
 
+def load_owners(path):
+    """Rule 14: one fact, one owner. See owners.tsv."""
+    out = []
+    for ln in open(path, encoding="utf-8"):
+        # A comment is a # with no tab after it. Checking only for a leading #
+        # silently swallowed every colour row -- "#FAF8F3<TAB>Colour System" is
+        # a rule, not a comment -- so four facts went unenforced while the
+        # summary line cheerfully reported the table as loaded.
+        if not ln.strip() or "\t" not in ln:
+            continue
+        p = ln.rstrip("\n").split("\t")
+        if len(p) >= 3:
+            out.append(tuple(x.strip() for x in p[:3]))
+    return out
+
 import markers, structure
 MARKERS = markers.HISTORY
 
@@ -114,18 +129,63 @@ def main():
                             pdf_hits.append((os.path.relpath(fp, VAULT), pageno,
                                              pat, now, where))
 
+    # ---------------------------------------------------- one fact, one owner
+    # Rule 14. A note that does not own a fact may still mention it -- prose has
+    # to read like prose -- but the line must LINK the owner, which turns a
+    # restatement into a citation. A citation sends the next reader to the one
+    # file allowed to be wrong; a restatement quietly becomes another source
+    # nobody remembers to update. Measured before this check existed: 23 of 24
+    # tracked facts lived in two or more notes, the delivery date in thirteen.
+    owner_hits = []
+    owners = load_owners(os.path.join(HERE, "owners.tsv"))
+    for root, dirs, files in os.walk(VAULT):
+        dirs[:] = [d for d in dirs if not any(s in os.path.join(root, d) for s in SKIP_PARTS)]
+        if any(s in root for s in SKIP_PARTS):
+            continue
+        for fn in files:
+            if not fn.endswith(".md") or fn in SKIP_NAMES:
+                continue
+            name = fn[:-3]
+            fp = os.path.join(root, fn)
+            muted = False
+            # A citation counts for its whole SECTION, not just its own line.
+            # A colour table cites [[Colour System]] in the sentence above it and
+            # then lists nine rows; demanding a link inside every cell would make
+            # the table unreadable to serve a checker. So the owner is considered
+            # cited from the moment it is linked until the next heading.
+            cited = set()
+            for i, line in enumerate(open(fp, encoding="utf-8").read().splitlines(), 1):
+                low = line.lower()
+                if line.startswith("#"):
+                    cited = set()
+                for _pat, owner_name, _what in owners:
+                    if f"[[{owner_name}]]" in line:
+                        cited.add(owner_name)
+                if "retired-ok:start" in low: muted = True; continue
+                if "retired-ok:end" in low: muted = False; continue
+                if muted or markers.is_history(line):
+                    continue
+                for pat, owner, what in owners:
+                    if name == owner or not re.search(pat, line):
+                        continue
+                    if owner in cited:
+                        continue
+                    owner_hits.append((os.path.relpath(fp, VAULT), i, pat, owner, what))
+
     # The structural half: links that resolve, valid frontmatter, indexes that
     # exist, files that are really there. Same marker vocabulary, same
     # line-based rule - see structure.py.
     struct = structure.run()
 
-    if not hits and not pdf_hits and not struct:
+    if not hits and not pdf_hits and not struct and not owner_hits:
         print(f"vault-check: clean. {len(rules)} retired claims, none stated live.")
         print(f"             notes, code and {sum(1 for _ in _all_pdfs(VAULT))} shipped PDFs all checked line by line.")
         print( "             structure clean: links, frontmatter, indexes, orphans.")
+        print(f"             {len(owners)} owned facts, each stated only by its owner or with a citation.")
         return 0
 
     print(f"vault-check: FAILED. {len(hits) + len(pdf_hits)} live statement(s) of a retired claim"
+          f"{f', {len(owner_hits)} restated fact(s)' if owner_hits else ''}"
           f"{f', {len(struct)} structural finding(s)' if struct else ''}.\n")
     if pdf_hits:
         print("  IN A SHIPPED PDF - this is the copy that reaches the client:\n")
@@ -140,6 +200,13 @@ def main():
         print(f"     says     : {pat}")
         print(f"     but now  : {now}")
         print(f"     decided  : {where}\n")
+    if owner_hits:
+        print(f"  RESTATED FACT - rule 14, one fact one owner ({len(owner_hits)}):\n")
+        for fp, i, pat, owner, what in owner_hits:
+            print(f"  {fp}:{i}")
+            print(f"     restates : {pat}   ({what})")
+            print(f"     owner    : {owner}")
+            print(f"     fix      : drop the value and link [[{owner}]], or cite it on the same line\n")
     if struct:
         structure.report(struct)
         print()

@@ -21,7 +21,7 @@ Three facts point the same way and they were not all knowable until 19 September
 2. **They named BeBo as the hero product for advertising** — and BeBo talks to the mother, who is the person buying exercise books in September.
 3. **The contract already contains a giveaway slogan and campaign lockup** as a month-1 line item. It is not extra work; it is work that was always in the month.
 
-So the month's twenty deliverables get **weighted**, not split evenly across four ranges and eighteen SKUs. Something like: BeBo leads, the giveaway is the spine, the other three ranges rotate underneath.
+So the month's twenty deliverables get **weighted**, not split evenly across four ranges and eighteen SKUs ([[Alex Foods Brands]]). Something like: BeBo leads, the giveaway is the spine, the other three ranges rotate underneath.
 
 **Why this matters beyond tidiness:** it is the only version of month 1 that solves the deadline collision. The school campaign needs assets before the Foundation is delivered; month 1 contains those assets; pointing the month at the campaign means TSA produces one thing well instead of two things late. **It also means the client's first paid month is spent on the thing they care most about**, which is worth more than any amount of on-time genericness.
 

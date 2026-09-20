@@ -47,7 +47,7 @@ Aly sent the client's own product mockups for all four ranges, with three correc
 
 ## 2. The colour mapping
 
-**Paper ground `#FAF8F3`, on Aly's instruction.** This is also what [[TSA Brand System]] §6 asks for on a client deliverable, so the kit and the Design System now sit on the same ground and the earlier tension is gone.
+**Paper ground, on Aly's instruction — the value is governed in [[Colour System]] §7.** This is also what [[TSA Brand System]] §6 asks for on a client deliverable, so the kit and the Design System now sit on the same ground and the earlier tension is gone.
 
 The neutrals are the client's own, already governed in [[Colour System]] §7 — nothing was invented for this document.
 
@@ -78,7 +78,7 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 
 ## 3. The two decisions that were derived, not copied
 
-**The content mix is not TSA's.** TSA runs 40 proof / 30 authority / 20 offer / 10 brand, a lead-generation split for a video agency. An FMCG master brand with eighteen SKUs and four illustrated ranges needs a different one:
+**The content mix is not TSA's.** TSA runs 40 proof / 30 authority / 20 offer / 10 brand, a lead-generation split for a video agency. An FMCG master brand with eighteen SKUs ([[Alex Foods Brands]]) and four illustrated ranges needs a different one:
 
 | Share | Pillar | Why |
 |---|---|---|
@@ -95,7 +95,7 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 
 **Facebook is weighted higher than an agency would normally weight it.** BeBo and AlRawy talk to mothers, and in Egypt that audience is on Facebook. Copying a Reels-first split off TSA's own kit would have quietly aimed the client's spend at the wrong platform.
 
-> **Confirmed by measurement on 19 September, and then taken further.** The real counts are Facebook ~52,000, TikTok ~500, Instagram ~40. **The weighting was right and the kit still did not go far enough** — page 4 names Instagram as the main platform, on an account with forty followers. **Facebook is now primary by decision.** See §3b.
+> **Confirmed by measurement on 19 September, and then taken further.** The real counts are Facebook ~52,000 ([[Alex Foods Discovery Brief]]), TikTok ~500, Instagram ~40. **The weighting was right and the kit still did not go far enough** — page 4 names Instagram as the main platform, on an account with forty followers. **Facebook is now primary by decision.** See §3b.
 
 ## 3b. The platform plan — DECIDED 19 September: Facebook is primary
 
@@ -103,11 +103,11 @@ Aly's call, against the real follower data in [[Alex Foods Discovery Brief]] §7
 
 | Platform | Followers | Role from now on |
 |---|---|---|
-| **Facebook** | **~52,000** | **Primary. Every asset lands here first.** The only account with an audience, and the only place the contracted KPI — comments and views — can move inside a month. |
+| **Facebook** | **~52,000** | **Primary. Every asset lands here first.** The only account with an audience, and the only place the contracted KPI — comments and views — can move inside a month. · [[Alex Foods Discovery Brief]] |
 | **TikTok** | ~500 | **Secondary build**, on the character content. The faces, the animals and the running boy are already drawn and already paid for, and they are native to the platform the kids are actually on. |
 | **Instagram** | ~40 | **Mirror only.** Cross-post what Facebook gets. **No bespoke production until it earns attention.** |
 
-**The reasoning worth keeping, because it will get questioned:** the client says the buyers are mainly kids, and kids are not on a 52,000-follower Egyptian Facebook page — that is a parent audience. **So the audience they have and the audience they describe are on two different platforms.** Facebook still wins month 1, because it is the only asset that exists, because the parent audience is exactly right for BeBo-as-school-drink and for AlRawy, and because spreading evenly across three platforms from 52,000 / 500 / 40 would spend the whole retainer proving nothing. **TikTok is the build, not the bet.**
+**The reasoning worth keeping, because it will get questioned:** the client says the buyers are mainly kids, and kids are not on a 52,000-follower ([[Alex Foods Discovery Brief]]) Egyptian Facebook page — that is a parent audience. **So the audience they have and the audience they describe are on two different platforms.** Facebook still wins month 1, because it is the only asset that exists, because the parent audience is exactly right for BeBo-as-school-drink and for AlRawy, and because spreading evenly across three platforms from 52,000 / 500 / 40 would spend the whole retainer proving nothing. **TikTok is the build, not the bet.**
 
 ### What the retainer can actually produce, which is the part page 4 got wrong
 
@@ -225,7 +225,7 @@ Every Arabic line already existed. **Nothing was invented for the layout.**
 
 TSA's pillars are Quality, Results, Guarantee — claims a service business can make about itself. A food company cannot make claims without the client's written backing (§7 of the voice guide), so these three are **observable facts rather than promises:**
 
-1. **Range** — four ranges, eighteen SKUs, one company. Verifiable off the packaging.
+1. **Range** — four ranges, eighteen SKUs ([[Alex Foods Brands]]), one company. Verifiable off the packaging.
 2. **Character** — every range already leads with a character. Verifiable off the packaging.
 3. **Alexandria** — the mark carries the Pharos lighthouse and the company name *is* the city. **A story no competitor can copy**, and it needs no claim to be true.
 

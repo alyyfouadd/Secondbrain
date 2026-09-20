@@ -12,7 +12,7 @@ type: plan
 >
 > **If an item here starts describing a status, it is in the wrong note.** A queue says *what has to happen next and who has to do it*. Delete an item the moment it closes — a completed list in here rots, and the record already lives in [[Decisions]] and the daily notes.
 
-**Today is 20 September 2026. Foundation delivery is 9 October — 19 days.** Instalment 1 due **26 September**, instalment 2 due **8 October**.
+**Today is 20 September 2026.** The delivery target and both instalment dates are in [[Delivery Register]] — **it owns them, and this queue does not repeat them.**
 
 ---
 
@@ -30,11 +30,11 @@ type: plan
 - [ ] **Cover ground: navy with the seal, or type-only on Paper** as [[Brand Book Spec]] §6 originally specified? Built navy on the umbrella reasoning. One line to change back. (tsa)
 - [ ] **One kit or two?** The client wants proof they bought a system; Mahmoud wants to build an asset without asking a question. **Export settings do not belong in front of the client.** Two documents, or one with a separated production section at the back. [[Package A Month 1]] §9 (tsa)
 - [ ] **One giveaway platform with a swappable prize, or three campaigns?** The contract buys one slogan and one lockup; the client runs three prize programmes. **Recommendation: one platform with a prize slot, Umrah the deliberate exception** — a pilgrimage cannot wear the treatment built for pencil cases. (tsa)
-- [ ] **Pull the giveaway lockup forward for the school campaign?** Their number one priority lands **before** 9 October and the lockup is a Package A item that has not started — so on the current plan their biggest push runs with nothing from TSA on it. **Third concession in a row; it needs one written line saying what it is.** [[Giveaway Programme]] §7.2 (tsa)
+- [ ] **Pull the giveaway lockup forward for the school campaign?** Their number one priority lands **before** the Foundation delivery date in [[Delivery Register]] and the lockup is a Package A item that has not started — so on the current plan their biggest push runs with nothing from TSA on it. **Third concession in a row; it needs one written line saying what it is.** [[Giveaway Programme]] §7.2 (tsa)
 - [ ] **Does TSA produce anything retailer-facing at all?** The giveaway has a trade track; the signed scope is social end to end. If yes it is clause 7 work and [[Brand Voice Guide]] needs a trade register it does not have. **A scope question before it is a writing question.** (tsa)
 - [ ] **Name TSA's Arabic typefaces.** [[TSA Brand System]] §7 locks two Latin-only faces while TSA produces Arabic work, so every bilingual deliverable is off-system by necessity. Needs one Arabic display face and one text face, free and licensed. (tsa)
-- [ ] **Name the scope reality on the book out loud.** It doubled from 71 pages against a 9 October target on a 20,000 EGP deliverable. Template is proven so it is content work, not layout — **but it should be a decision rather than something that quietly happened.** (tsa)
-- [ ] **Was the Design System PDF ever actually sent?** Nothing records it going out, and the whole Foundation ships in one message around 9 October — **so folding it into the book almost certainly costs nothing.** If you WhatsApped it, they need one line saying it is now §04. **Only you know.** (tsa)
+- [ ] **Name the scope reality on the book out loud.** It doubled from 71 pages, against the target and the fee in [[Delivery Register]] and [[Alex Foods]]. Template is proven so it is content work, not layout — **but it should be a decision rather than something that quietly happened.** (tsa)
+- [ ] **Was the Design System PDF ever actually sent?** Nothing records it going out, and the whole Foundation ships in one message at the target date in [[Delivery Register]] — **so folding it into the book almost certainly costs nothing.** If you WhatsApped it, they need one line saying it is now §04. **Only you know.** (tsa)
 
 ## 2 · Ask the client — draft in [[Alex Foods Week 1 Messages]]
 
@@ -44,7 +44,7 @@ type: plan
 - [ ] **Where does the QR code point?** The scan is the only mechanism in the business that turns a stranger into a contact Alex Foods owns. **If it lands nowhere, the most valuable asset three months could build is thrown away every time somebody uses it** — and it decides whether campaign performance can be reported at all. [[Content Plan]] §2 (tsa)
 - [ ] **Paper the POLEKA inclusion and the umbrella decision**, one line each. Clause 4's rejection rule leans on the approved guide matching the signed scope, and the scope names three brands. (tsa)
 - [ ] **Signed acceptance page, with ONE named approver.** They named three; **clause 3 allows one**, and three means a delivery approved by one and re-opened by another. Mohamed as day-to-day contact underneath one named approver is fine. Closes the clause 3 gap and gives [[Brand Voice Guide]] §8's escalation ladder a top rung. (tsa)
-- [ ] **Meta admin access — now critical path.** Without it the month produces twenty finished assets nobody can publish, deliverables 3 and 7 stay blocked, and there is no engagement baseline. **The contracted KPI is comments and views; 52,000 followers says nothing about either.** [[Meta Access Runbook]] (tsa)
+- [ ] **Meta admin access — now critical path.** Without it the month produces twenty finished assets nobody can publish, deliverables 3 and 7 stay blocked, and there is no engagement baseline. **The contracted KPI is comments and views, and a follower count ([[Alex Foods Discovery Brief]]) says nothing about either.** [[Meta Access Runbook]] (tsa)
 - [ ] **Google account and the rest of the GBP details** — hours, categories, phone. Address arrived 19 Sep. (tsa)
 - [ ] **Pack artwork at production resolution, all four ranges.** Every single-pack cut-out is far too small to be the hero of a 1080×1350 post — BeBo's are **199 × 251**. **They proved they can do this on 19 Sep by sending real Illustrator artwork of the seal.** Ask the same way, as a separate ask from photography. Same message: the four **range** marks as vector. [[Package A Month 1]] §4 (tsa)
 - [ ] **A back-of-pack shot with a legible QR, and the carton with the coupon.** `packshots/` holds front-facing packs only, **so neither surface of the actual mechanic exists in the library.** Blocks the three mechanic-explainer posts and both trade posts. Hussein offered the coupon. (tsa)
@@ -52,13 +52,13 @@ type: plan
 - [ ] **The media budget.** TSA is contracted to build and manage campaigns and nobody has asked what the spend is. **Spend does not pass through TSA, which is exactly why it has to be asked.** (tsa)
 - [ ] **Do they already have social pages with followers and history?** The kit specifies one presence. **Creating a page and merging four existing ones are different jobs and only one is in scope.** Never asked. (tsa)
 - [ ] **The five giveaway answers:** school campaign dates including the real start of term · the coupon artwork and whether TSA rebuilds it · written permission to publish winner photos · prize counts, draw method and how winners are announced. **None are contractual materials, which is why nothing was watching them.** (tsa)
-- [ ] **Set the month-1 target they could not.** Their goal is "engagement, comments and views" with **no number, on their own admission.** Baseline is real — **Facebook 52,000 · TikTok 500 · Instagram 40** — so TSA sets a month-1 target off the first two weeks of live data and puts it in the delivery message. **Never promise a follower count** on a page that has sat idle. (tsa)
+- [ ] **Set the month-1 target they could not.** Their goal is "engagement, comments and views" with **no number, on their own admission.** Baseline is real and the counts are in [[Alex Foods Discovery Brief]] — so TSA sets a month-1 target off the first two weeks of live data and puts it in the delivery message. **Never promise a follower count** on a page that has sat idle. (tsa)
 - [ ] **Count the real SKU list, including mini 2MAN and mini BeBo.** Two more lines surfaced in the legacy creative, sold in 25 and 50 piece cartons. **The contract asked for five and the true number keeps climbing** — the twelve monthly graphics were priced against five. (tsa)
 - [ ] **A distributor and stockist count.** "All over Egypt" is a description, not a baseline — **without a starting number, "more shops" can never be shown to have happened**, and that is half of what they said they want. (tsa)
 - [ ] **What does "Meyveli" mean?** Turkish on the 2MAN Bu:Zz pack, never followed up. **A Turkish-language pack implies a market outside Egypt**, and if so the audience picture is wrong. (tsa)
 - [ ] **Business Suite home screenshot** — shows whether the Page sits in a Business Manager and decides the access route. **Claude cannot open Facebook; the network policy blocks it**, so every social fact comes through Aly. (tsa)
 
-## 3 · Build — to 9 October
+## 3 · Build — to the Foundation target
 
 *Sequenced in [[Alex Foods Delivery Plan]]. Status per deliverable is in [[Delivery Register]], not here.*
 
@@ -78,7 +78,7 @@ type: plan
 - [ ] **Build the asset brief template.** Mahmoud and an animator execute off Aly's plan, which makes **the brief the actual deliverable** — and a content calendar is not a brief. Per asset: the job it does, range and SKU, field colour by name, which pack file and where, final Arabic copy, format and pixel size, seal placement, deadline, delivery filename. **Build it once and the month is a filled-in table; skip it and the month is a WhatsApp conversation.** [[Package A Month 1]] §3 (tsa)
 - [ ] **Find the CGI animator.** **Eight of month 1's twenty assets rest on a role nobody is in**, and it is the largest unknown inside cost of delivery. (tsa)
 - [ ] **Agree three things with Mahmoud, not just the client:** who owns the working files, how many revision rounds he gets against the client's one, and the file-naming and handoff convention. **Cheap now, expensive in week three.** (tsa)
-- [ ] **Nail the media buyer's terms:** 2,000 EGP **per month, not per campaign**, and **no direct client relationship** — clause 1 keeps execution TSA's, clause 5 keeps the method agency property. (tsa)
+- [ ] **Nail the media buyer's terms:** the rate in [[TSA Money]] is **per month, not per campaign**, and **no direct client relationship** — clause 1 keeps execution TSA's, clause 5 keeps the method agency property. (tsa)
 - [ ] **Pin down four commercial terms:** what counts as "a delivery" for the one-revision clause · whether TSA posts or hands over files · how twenty assets a month actually get delivered · and that the 48-hour auto-approval has nobody to run against until an approver is named. [[Package A Month 1]] §6 (tsa)
 - [ ] **Decide month 1 IS the school campaign**, rather than a generic month with a giveaway attached. They ranked school gifts first and named BeBo the hero, so the twenty deliverables weight to it. **It is also the only version that solves the deadline collision.** [[Package A Month 1]] §1 (tsa)
 - [ ] **Decide BeBo's calendar share before it quietly happens.** A weekly BeBo giveaway gives BeBo more of the month than a flat rotation. Defensible — **but a decision, not a side effect.** (tsa)
@@ -98,11 +98,11 @@ type: plan
 
 ## 5 · TSA as a business
 
-- [ ] **Get Mahmoud's rate and the animator's rate. That IS X.** Cost of delivery stopped being a mystery the moment it got names — **it is now mostly two invoices, repeating three times across 126,000 EGP.** Drawable = 42,000 − X; clearing the 23,000 of debt needs **X ≤ 19,000**. [[TSA Money]] (tsa)
+- [ ] **Get Mahmoud's rate and the animator's rate. That IS X.** Cost of delivery stopped being a mystery the moment it got names — **it is now mostly two invoices, repeating three times across the term.** The drawable arithmetic and the debt threshold are in [[TSA Money]]. (tsa)
 - [ ] **Set the owner's draw:** a decided amount on a decided date, logged in [[TSA Money]]. Not "whatever is in the account when a bill lands." (tsa)
 - [ ] **Open a separate account or wallet for TSA money.** The two-pot split exists in the notes and **probably not in the bank, and a paper-only split collapses the first bad week.** (tsa)
-- [ ] Collect instalment 1 — **10,000, due 26 September.** (tsa)
-- [ ] Invoice and collect instalment 2 — **10,000, due 8 October.** Chase it *before* delivering on the 9th. (tsa)
+- [ ] Collect instalment 1. Amount and date in [[Delivery Register]]. (tsa)
+- [ ] Invoice and collect instalment 2 — **chase it *before* the delivery, not after.** Amount and date in [[Delivery Register]]. (tsa)
 - [ ] **Extract the TSA delivery system from this job.** The raw material exists — the roadmap, the month-1 plan, the brief template, the kit structure, the revision loop, the supplier model. **The second time a month gets explained from scratch it earns a Job note in [[Jobs]]**, and that is what turns one good contract into an agency. **After month 1 has run**, so it is extracted from something real. (tsa)
 - [ ] **Build the scaling plan.** Named since day one, never built. [[Alex Foods]] is the first live test of whether the delivery shape holds. **100% of revenue is one client.** (tsa)
 - [ ] **Decide the writing rules for copy the AI drafts.** [[Marketing]] supplies the craft rules; **TSA's own voice on top of them is still missing.** (meta)

@@ -91,7 +91,7 @@ type: reference
 
 **Settled.** The header shows **Alex Foods with a blue verification badge**, **Follow** and **WhatsApp** buttons, and the **All · Photos · Reels · Mentions** tab row. **All three are Page furniture and none of them exist on a personal profile.**
 
-> **The profile worry is dead, and it was the single biggest risk on the platform strategy.** Paid campaigns can run, partner access works as written in [[Meta Access Runbook]], and **the 52,000 are on an asset that can actually be managed.** It is also **verified**, which is an asset in itself and which TSA had no idea existed.
+> **The profile worry is dead, and it was the single biggest risk on the platform strategy.** Paid campaigns can run, partner access works as written in [[Meta Access Runbook]], and **the 52,000 ([[Alex Foods Discovery Brief]]) are on an asset that can actually be managed.** It is also **verified**, which is an asset in itself and which TSA had no idea existed.
 
 ## 2 · BeBo is a JUICE. You drink it.
 
@@ -127,7 +127,7 @@ type: reference
 
 - **The client's stated goal is «mostly more shops».** They already have the instrument for it and nobody mentioned it.
 - **It answers the trade-versus-consumer question that has been open since the discovery brief.** They are already doing both, on one page.
-- **The 52,000 followers are not only parents and kids. Some of them are the trade**, which changes who the content is talking to.
+- **The 52,000 ([[Alex Foods Discovery Brief]]) followers are not only parents and kids. Some of them are the trade**, which changes who the content is talking to.
 
 ## 5 · They use SpongeBob, and that is an IP exposure
 

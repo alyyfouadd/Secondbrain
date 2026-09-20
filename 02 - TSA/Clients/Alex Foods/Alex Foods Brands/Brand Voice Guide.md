@@ -220,7 +220,7 @@ The Umrah campaign, parked by the client but coming. **A pilgrimage cannot be ad
 
 **On pack and in-store:** the older child, spending their own pocket money, spoken to directly rather than through a parent. **عيش جو المغامرة lives here.**
 
-**On social:** **the adult who remembers.** Summer heat, childhood, «زمان». The client already writes this way and it is the more valuable audience on Facebook, **because the 52,000 followers there are not children.**
+**On social:** **the adult who remembers.** Summer heat, childhood, «زمان». The client already writes this way and it is the more valuable audience on Facebook, **because the 52,000 ([[Alex Foods Discovery Brief]]) followers there are not children.**
 
 **The feeling on pack: the day is yours, go outside.** Already solved on the packaging.
 

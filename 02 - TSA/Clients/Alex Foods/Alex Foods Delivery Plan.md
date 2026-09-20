@@ -69,7 +69,7 @@ type: plan
 | **Sun 27** | **Reclaimed: pull §11, §13 and §15 forward** into the space §17 and §18 just vacated | Nothing |
 | **Tue 29** | **§14 social setup executed**, or marked `SPEC — EXECUTION PENDING` | **Meta admin** |
 | **Wed 30** | **§19 GBP created**, or marked pending | **Google account + details** |
-| **Thu 1 Oct** | **First AI product shots.** Four scenes, one per range, checked against each other before eighteen SKUs are made to them | §16, already written |
+| **Thu 1 Oct** | **First AI product shots.** Four scenes, one per range, checked against each other before eighteen SKUs are made to them | §16, already written · [[Alex Foods Brands]] |
 | **Fri 2** | **Buffer.** Deliberately empty |
 | **Sat 3** | **Full read of the book against the signed scope, line by line** | Everything above |
 

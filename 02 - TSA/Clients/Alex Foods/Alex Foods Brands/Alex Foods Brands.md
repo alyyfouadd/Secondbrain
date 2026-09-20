@@ -232,6 +232,8 @@ The seal arrived in full on 18 September and it answers more than it was asked t
 >
 > **And this version carries no Egyptian flag ribbon.** `logo-alex-seal.jpg` has one. **Two versions of the master mark now exist, and the Foundation has to say which one governs.** See `logos-vector/README.md`.
 
+*Sampled off the artwork. [[Colour System]] owns the governed values these resolve to.*
+
 | Role | Value *(sampled)* | Note |
 |---|---|---|
 | ~~Ring navy~~ | ~~`#0A0378`~~ | **WRONG — superseded.** Sampled off the gradient render. The authored value is **CMYK 98 / 81.3 / 27 / 12.9**, about `#042AA2`, and the sampled value is **ΔE2000 9.80** away from it |

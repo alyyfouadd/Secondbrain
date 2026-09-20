@@ -1,0 +1,37 @@
+# One fact, one owner. Rule 14.
+#
+# regex <TAB> owner note <TAB> what the owner is
+#
+# A note that is NOT the owner may mention the fact, but the line must LINK the
+# owner, which turns a restatement into a citation. A citation sends the next
+# reader to the one file allowed to be wrong.
+#
+# ---------------------------------------------------------------------------
+# TWO THINGS THIS FILE LEARNED THE HARD WAY, 20 September.
+#
+# 1. Patterns are REGEX and are anchored. The first version used plain
+#    substrings and "2,000 EGP" matched inside "42,000 EGP", reporting eight
+#    false restatements in TSA Money alone. A check that cries wolf gets
+#    ignored, which is worse than no check.
+#
+# 2. NOT EVERY REPEATED FACT HAS AN OWNER, and forcing one wrecks the notes.
+#    Dates were listed here and the rewrite produced "Friday the date in
+#    [[Delivery Register]]" and "Week 1 · 20 to the date in [[Delivery
+#    Register]]". A dated delivery plan OWNS dates -- carrying them is the note
+#    doing its job, not drift.
+#
+#    Dates, product claims and anything else that CHANGES belong to
+#    retired.tsv instead: when the value moves, one row there finds all
+#    thirteen copies. Ownership is for facts with a single natural home;
+#    retirement is for facts that move. Using the wrong one produces either
+#    broken prose or a stale vault.
+# ---------------------------------------------------------------------------
+\b146,000\b	Alex Foods	the contract total
+\b52,000\b	Alex Foods Discovery Brief	the Facebook follower count
+eighteen SKUs	Alex Foods Brands	the real SKU count
+#FAF8F3	Colour System	the Paper neutral
+#E1251D	Colour System	System Red
+#0A0378	Colour System	Alex Navy
+#141414	Colour System	Ink
+18 governed masters	Colour System	the size of the master set
+\b2,000 EGP\b	TSA Money	the media buyer rate

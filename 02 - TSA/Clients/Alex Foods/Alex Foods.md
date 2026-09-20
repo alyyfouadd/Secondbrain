@@ -188,11 +188,11 @@ Full brief and the decisions it forces: [[Giveaway Programme]].
 
 **Three consequences to hold:**
 
-1. **Deliverable 6 changes job, not name.** The Animation and Shooting Recipe was written specs for *the client* to shoot against. **With no client shoot there is nobody to hand it to.** It becomes TSA's own production recipe: the scene prompts, the compositing rules, the lighting and angle constants that keep eighteen SKUs looking like one brand. **Still deliverable 6, still ships first, but it is now an internal working document that also gets handed over.**
+1. **Deliverable 6 changes job, not name.** The Animation and Shooting Recipe was written specs for *the client* to shoot against. **With no client shoot there is nobody to hand it to.** It becomes TSA's own production recipe: the scene prompts, the compositing rules, the lighting and angle constants that keep eighteen SKUs ([[Alex Foods Brands]]) looking like one brand. **Still deliverable 6, still ships first, but it is now an internal working document that also gets handed over.**
 2. **TSA has absorbed work the contract put on the client.** The scope says the client supplies photos or samples. **Doing it ourselves removes the schedule risk and takes on the cost** — a trade that is almost certainly worth it, since the alternative was a paid month that could not be produced into. **Worth stating in writing at delivery so it reads as a concession granted, not a duty assumed.**
 3. **The never-say list applies to pictures as well as words.** An AI scene must not imply a health benefit, a fruit content, or a serving context the client has not confirmed. And **BeBo cannot be shown being prepared, or being drunk from, until §A1 is settled** — the format is contested and a photograph would assert an answer.
 
-### There is a media buyer, at a fixed 2,000 EGP per month
+### There is a media buyer, at a fixed 2,000 EGP ([[TSA Money]]) per month
 
 **The first real cost-of-delivery number this business has.** Recorded in [[TSA Money]], which has carried "cost of delivery: not yet known" as its largest blank since it was written.
 

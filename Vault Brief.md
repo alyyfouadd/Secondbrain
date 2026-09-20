@@ -68,7 +68,7 @@ Three files carry the system: `CLAUDE.md` (boot config and identity — survives
 |---|---|
 | Brand Foundation | 20,000 EGP one-time |
 | Package A | 42,000 EGP/month × 3 = 126,000 |
-| **Total contract** | **146,000 EGP** |
+| **Total contract** | **146,000 EGP** · [[Alex Foods]] |
 | Term | 3 months, no auto-renewal, Egyptian law |
 
 **Cash position:** 42,000 received (Package A month 1). 10,000 invoiced 18 Sep, **due Friday 26 September — six days out**. 10,000 due 8 October. 84,000 contracted and not yet due.
@@ -87,7 +87,7 @@ Three files carry the system: `CLAUDE.md` (boot config and identity — survives
 
 - **No signed acceptance page, and no named approver.** Foundation work is running anyway under the clause 11 exception Aly granted on 18 September. Clause 3 makes one named person the only voice whose notes count, and clause 4's "matching the brief counts as delivered" has nothing to stand on until they exist. It also leaves the complaint-escalation ladder in [[Brand Voice Guide]] §8 with no top rung.
 - **Four brands against a three-brand contract.** BeBo, AlRawy and 2MAN are named; **POLEKA is not**, and is in by Aly's verbal decision at no change to fee. Still not papered.
-- **Roughly eighteen SKUs against a contract asking for five**, plus uncounted mini lines. The twelve monthly graphics were priced against five.
+- **Roughly eighteen SKUs ([[Alex Foods Brands]]) against a contract asking for five**, plus uncounted mini lines. The twelve monthly graphics were priced against five.
 - **The cola artwork.** POLEKA's cola pouch carries a photoreal contour bottle in red-and-white livery with "Cola Cola" in near-identical Spencerian script. The bottle silhouette is protected trade dress independently of the wordmark, and **TSA's own ad account would push it.** (A branch records Hussein clearing this verbally on 20 September; `main` does not know.)
 - **The company's own age contradicts itself** — 20 years on the seal, 25 on a legacy graphic. No copy claims either number.
 - **Three packaging defects found by arithmetic**, not by eye: BeBo's green banner sits at 1.30:1 against its own apple field; POLEKA's cola and strawberry are the identical magenta at ΔE 0.00; and 2MAN and POLEKA share four colours *exactly*, meaning those two brands do not separate on colour at all.

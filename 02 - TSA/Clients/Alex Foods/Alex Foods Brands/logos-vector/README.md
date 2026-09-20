@@ -64,6 +64,8 @@ Anything else converted out of a PDF here gets the same check: count the operato
 
 Recorded here because four notes stated the opposite with confidence, and the confidence was earned off a raster.
 
+*Colour values below are cited from [[Colour System]], which owns them.*
+
 1. **The seal is FLAT, not a rendered 3D object.** Every note said it was a 3D object with gradients and gloss that must be "placed as supplied and never reconstructed." **That was true of the picture, not of the mark.** It can now be scaled, placed, and printed at any size.
 2. **There is no Egyptian flag ribbon on this version.** `../logo-alex-seal.jpg` has one; this does not. **Two versions of the master mark now exist and the Foundation has to say which one governs.**
 3. **Alex Navy `#0A0378` is wrong by ΔE2000 9.80.** It was sampled off a gradient render. The real ring is a brighter blue.
@@ -72,7 +74,7 @@ Recorded here because four notes stated the opposite with confidence, and the co
 
 ## The placement rule this forces, with the numbers behind it
 
-Contrast of the seal's own ring against the ground it is placed on:
+Contrast of the seal's own ring against the ground it is placed on. **Every ground named below is a [[Colour System]] value; this table measures against them rather than defining them.**
 
 | Ground | Ring | Disc | Verdict |
 |---|---|---|---|

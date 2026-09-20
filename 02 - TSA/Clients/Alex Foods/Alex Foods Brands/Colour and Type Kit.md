@@ -35,6 +35,9 @@ So the system has three layers:
 Loud, kid-facing, character-led. The most playful of the four.
 
 ### Brand colours — fixed
+
+*Values here are the raw observation. The governed masters are in [[Colour System]] §4, which owns them.*
+
 | Role | Value *(provisional)* | Use |
 |---|---|---|
 | Banner green | `#1BA34C` | The logo pillow. Never recoloured. |

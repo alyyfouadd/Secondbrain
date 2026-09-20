@@ -80,7 +80,7 @@ This is the structural fact the whole programme turns on, and it was not knowabl
 - **It is the cheapest range to produce for.** BeBo's characters are drawn, paid for, and sitting in `packshots/`.
 - **And the problem: BeBo is one of the two ranges with no Alex seal on the pack.** Under the umbrella decision ([[Brand Voice Guide]] §2) Alex Foods is the master brand and the account that posts — but the flagship advertised pack does not carry the master mark. The rollout rule covers it (printed packs stay as they are, new print carries the seal), so nothing needs fixing on the pack. **What it means in practice is that the Alex Foods presence has to be carried by the layout and the lockup rather than by the product**, on the exact campaign that will be seen most.
 
-**What this does not do is narrow the Foundation.** The Foundation governs four ranges and eighteen SKUs regardless of which one the ads lead with. Hero product is a media weighting, not a scope reduction, and it should never be allowed to become one in conversation.
+**What this does not do is narrow the Foundation.** The Foundation governs four ranges and eighteen SKUs ([[Alex Foods Brands]]) regardless of which one the ads lead with. Hero product is a media weighting, not a scope reduction, and it should never be allowed to become one in conversation.
 
 ## 5. What is not in the contract, and has to be named before it is assumed
 

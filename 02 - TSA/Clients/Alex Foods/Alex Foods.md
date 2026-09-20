@@ -21,6 +21,7 @@ This note is both the client note and the index for `02 - TSA/Clients/Alex Foods
 - [[Alex Foods Discovery Brief]] — **what the client has actually told us**, tagged by where each fact came from. §12 is what they still owe, §14 every open question ranked, §15 what we will need later. **The Foundation was built on packaging; the strategy cannot be.**
 - [[Alex Foods Delivery Plan]] — **the dated plan to Foundation delivery on 9 October**, week by week, with what each day depends on and what can still break it.
 - [[Alex Foods Week 1 Messages]] — **five messages ready to send**, Arabic first, each with one job.
+- [[Alex Foods - Company Brief]] — **the one-page "who are they" in Arabic**, for a supplier about to make work for this client. Derived from the notes above and re-derived rather than patched when one of them changes.
 - `TSA - Alex Foods Service Scope V2.pdf` — the signed-scope source document, 09.09.2026. This note is derived from it; that is the original.
 
 Live open items for this client are in [[Active Priorities]], never in this note's checkboxes — the boxes below record scope, the queue records state.

@@ -193,40 +193,58 @@ Their lines **do** name the brand. They **do** sit close to the product. They ar
 
 ---
 
-## 5d. The giveaway — mechanic, lockup and song
+## 5d. The giveaway — BeBo's, 20 September 2026
 
-**The song obeys campaign rules, not brand rules.** Urgency, specificity and a deadline are all allowed here, because a giveaway opens and closes.
+> **Aly: BeBo is the one who does giveaways.** **I had specified the lockup as the master's and written the song with «أليكس فودز» in the hook.** Both corrected below.
 
-### The mechanic, which decides everything else
+### Why BeBo is the right range for it, and this is not just compliance
 
-**Photograph the pack, send it, weekly winner.** Chosen over the alternatives for specific reasons:
+Four reasons that hold independently of who decided it:
+
+1. **It is the priority range and the best seller**, by the client's own discovery answer. A giveaway spends attention, and it should be spent where the sales already are.
+2. **The audience is kids**, who enter giveaways with a willingness no adult audience matches.
+3. **Five flavours.** Entry is naturally repeatable and the prize can rotate without inventing anything.
+4. **It is the cheapest pack**, so entry costs a child almost nothing. **A giveaway that requires an expensive purchase is a giveaway with no entrants.**
+
+> **And it fits the brand line exactly.** «بيبو معاك كل يوم» claims a daily habit. **A weekly giveaway on a daily-habit brand gives the habit a reason to be photographed**, which is the cheapest possible bridge between a slogan and a mechanic.
+
+### Where it runs, which is a different question from whose it is
+
+**The giveaway belongs to BeBo. It runs on the Alex Foods account**, because that is the only presence with an audience — 52,000 against 540 across both other platforms. **One presence, a range campaign inside it.** That is the umbrella model working as designed rather than an exception to it.
+
+**The lockup therefore carries both:** BeBo's mark as the campaign owner, and **the Alex Foods seal, because the master owns the seal and always has.**
+
+### The mechanic
+
+**Photograph a BeBo pack, send it in, one winner a week.** Chosen against three alternatives:
 
 | Option | Verdict |
 |---|---|
-| **Photo of the pack, sent in** | **This one.** It requires a purchase, produces user content TSA can repost, and needs no code printing or pack change. |
+| **Photo of a BeBo pack, sent in** | **This one.** Requires a purchase, produces content TSA can repost, needs no pack change. |
 | Tag friends in comments | Free to enter, so it inflates reach and sells nothing. **The client wants shops, not tags.** |
-| Code under the wrapper | **Requires a pack change and a print run.** Outside scope, and the packs are already in market. |
+| Code under the wrapper | **Needs a pack change and a print run.** The packs are in market. Outside scope. |
 | Receipt upload | Excludes every kiosk sale, which is most of them. |
 
-**Cadence: one winner a week.** Weekly gives the page a recurring reason to post, and a deadline that renews rather than one that expires.
+**Weekly, not monthly.** A weekly winner gives the page a recurring reason to post and a deadline that renews rather than one that expires.
 
-### What the lockup has to hold
-**One fixed visual treatment across all four ranges**, because four ranges running four differently shaped giveaways is exactly what a campaign lockup exists to prevent. It carries: the giveaway name, the mechanic in one line, the weekly cadence, and the Alex Foods seal. **It sits on the master, not on a range**, since the master is the account that posts.
+### The song — DRAFT, and the hook is now BeBo's
 
-### The song — DRAFT, needs Aly's ear
+**Rules it obeys:** brand name inside the hook rather than in a line before or after it · a metre that can be chanted, **because children will perform it badly and that is the distribution** · the mechanic named in the second line · written, not produced.
 
-**Rules it obeys:** the brand name is inside the hook rather than in a line before or after it · it sits on a metre that can be chanted, **because children will perform it badly and that is the distribution** · the mechanic is named in the second line · it is written, not produced.
+> «بيبو معاك كل يوم
+> صوّر كيسك وابعتلنا
+> كل أسبوع في فايز جديد
+> بيبو معاك كل يوم»
 
-> «أليكس فودز، هات وصوّر
-> كل أسبوع في فايز يظهر
-> ابعت دلوقتي من غير تأخير
-> بكرة تكون انت وتشوف الخير»
+**The structural move: the song opens and closes on the brand line.** Line 1 and line 4 are «بيبو معاك كل يوم» unchanged. **A giveaway song's real job is not the giveaway, it is drilling the slogan into a child's head while they are motivated to repeat it.** The prize buys the repetition; the repetition plants the line.
 
-**Brand in line 1. Mechanic in lines 1 and 3. Weekly cadence and urgency in lines 2 and 3. Direct address in line 4.** Rhyme runs صوّر / يظهر, then تأخير / الخير.
+Mechanic in line 2, weekly cadence and urgency in line 3.
 
-**Marked draft deliberately.** Ten structurally correct lines were rejected yesterday, and a song is harder than a slogan because it has to survive being sung badly.
+> **Marked draft, and the metre specifically needs Aly's ear.** Rhyme currently runs وابعتلنا against the bookend rather than a clean pair, and **a song is harder than a slogan because it has to survive being sung badly.** Four Arabic drafts have been wrong this week; this one is not assumed right.
 
----
+### One consequence for the calendar
+
+**A recurring weekly BeBo giveaway gives BeBo more share of the month than a flat four-range rotation would.** That is defensible — it is the priority range and the best seller — **but it should be a decision in the content calendar rather than something that quietly happens.** §17 carries it when seasonality lands.
 
 ## 5e. The ten rejected lines — kept so they are not re-proposed
 

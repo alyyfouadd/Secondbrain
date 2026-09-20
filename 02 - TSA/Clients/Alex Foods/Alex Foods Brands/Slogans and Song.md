@@ -21,7 +21,7 @@ type: guide
 | **BeBo** | «مع بيبو، اليوم أحلى» | **Settled 20 Sep**, `Decisions` #24, confirmed by Aly directly |
 | **AlRawy** | «الراوي.. طعم تثق فيه» | **Settled 20 Sep**, `Decisions` #19 |
 | **2MAN** | «عيش جو المغامرة» | **Live.** Theirs, in market, and it works — kept rather than replaced |
-| **POLEKA** | **RE-OPENED 20 Sep** — `Decisions` #18 settled «بوليكا.. انتعاش في ازازة» and Aly has since asked for a different idea. **Seventeen lines are dead across six rounds; round seven is § 5c-x and recommends «بوليكا.. براحتك».** Nothing is live for this range until he picks |
+| **POLEKA** | «بوليكا.. مش محتاجة شرح» | **Settled 20 Sep**, `Decisions` #25 — Aly's pick over TSA's «براحتك», both from the client's own post. **Ends six rounds and seventeen dead lines**, all of which were built on TSA's reading of the product |
 | **Giveaway campaign** | «صوّر واكسب مع بيبو» | **Settled 20 Sep**, `Decisions` #20. A campaign line, not a brand line |
 
 > **«بيبو معاك كل يوم» is dead.** It was chosen and then replaced the same day, and it is retired in `vault-check/retired.tsv` — any note that states it again fails the check. **The parked giveaway song still bookends on it**, which is the one thing this decision broke and has not been rebuilt.

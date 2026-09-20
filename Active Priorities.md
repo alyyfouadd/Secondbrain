@@ -59,12 +59,15 @@ type: plan
 
 ## 3 · Build — to the Foundation target
 
+> **`vault-check` IS CURRENTLY RED, deliberately, and it stays red until Aly approves one source-code edit.** Decision #25 retired «انتعاش في ازازة», and two copies survive that a note edit cannot reach: **`book.py` line 261**, which holds the generator's own copy of the slogan, and **page 15 of the shipped `Alex Foods - Brand Foundation v1.0.pdf`**, which is the copy that would reach the client. **Do not send that book until this is fixed and re-rendered.** This is exactly the case rule 14b exists for.
+
+- [ ] **Correct POLEKA's line in `book.py` and re-render.** Line 261, one string in the voice table: the **retired** `'انتعاش في ازازة','Refreshment in a bottle'` becomes `'مش محتاجة شرح','Needs no explaining'`. **Source-code change — needs Aly's go-ahead.** **Worth folding into the same render as the eight design fixes below, so the book is built once rather than twice.** (tsa)
+
 *Sequenced in [[Alex Foods Delivery Plan]]. Status per deliverable is in [[Delivery Register]], not here.*
 
 - [ ] **Restore the three sections lost when `recipe.py` was deleted** — the reject list, the source library and the resolution rule. The shipped recipe is 2pp against the original 7pp, and **it is the only deliverable that can go out this week.** Delivery message drafted in [[Alex Foods Week 1 Messages]] §6. (tsa)
 - [ ] **The three waiting book sections:** §10 slogans *(needs Aly's ear)* · §20 local SEO *(needs the shelf walk)* · §14 and §19 written in full and blocked on Meta admin and a Google account. **Each prints an honest chip naming what it waits on.** (tsa)
 - [ ] **Choose POLEKA's extended colours.** Four SKUs, three fields, two of them its own brand colour — **the extended layer is mandatory there and has no values behind it.** No longer blocks §18; **still blocks the first POLEKA post.** (tsa)
-- [ ] **POLEKA's line — round seven, and it is the only one left open.** AlRawy settled «الراوي.. طعم تثق فيه». **Seventeen POLEKA lines are dead across six rounds**, every one of them built on TSA's reading of what the product is — and the product was corrected four times in one night. **Round seven uses the client's own published post instead** and recommends **«بوليكا.. براحتك»**, their word, two syllables, immune to the next product correction. Alternates and the full argument in [[Slogans and Song]] § 5c-x. **Aly's ear decides.** (tsa)
 - [ ] **Do the Alexandria shelf walk.** No sourced competitor information exists and none will be invented. **Two shop visits and a phone camera** gives prices, pack sizes and shelf position for free — and it is the competitor read deliverable 8 already asks for. (tsa)
 - [ ] **Solve the delivery route before the book is finished.** A compressed screen export alongside the full-resolution master, or a link. **Discovering this at the moment of delivery is the bad version.** (tsa)
 - [ ] **Correct §1 of [[Slogans and Song]].** Its "never name the product" rule is a headline rule. **For this brand in this market, naming the brand inside the line IS the register** — which is why ten structurally correct lines failed. (tsa)

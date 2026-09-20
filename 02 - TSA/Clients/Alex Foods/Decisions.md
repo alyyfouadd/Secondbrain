@@ -32,6 +32,7 @@ type: reference
 
 | # | Date | Decision | Rests on | Overturned |
 |---|---|---|---|---|
+| 25 | 20 Sep | **POLEKA's line is «بوليكا.. مش محتاجة شرح»** | **The client's own published post**, «سعرها وطعمها مش محتاجين شرح» — the only POLEKA source never used across six failed rounds. Aly took it over TSA's recommended «بوليكا.. براحتك» | **#18, «بوليكا.. انتعاش في ازازة»**, and with it seventeen lines across six rounds, every one built on TSA's reading of what the product is |
 | 24 | 20 Sep | **BeBo's brand line is «مع بيبو، اليوم أحلى».** «بيبو معاك كل يوم» is dead | Aly, confirming directly when asked which of the two was live | **Decision #undated-duplicate**, where the same day recorded two BeBo lines and the vault could not tell which was newer |
 | 23 | 20 Sep | **The prompts do not ship to the client.** Section 16's prompt formula and exclusion list come out of the client build | Clause 5 reserves TSA's working method; the scope sold camera, light, background and framing, not the method | The assumption that the whole recipe was a client deliverable. **Pending Aly's go-ahead on the re-render** |
 | 22 | 20 Sep | **POLEKA is a frozen juice**, sold frozen from a freezer, snip the neck and drink it | The packshot, opened properly for the first time; then Aly | "Jelly candy", then "drinkable jelly". Corrected three times in one day |

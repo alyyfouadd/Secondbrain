@@ -31,7 +31,7 @@ A full read of this vault, front to back, as it stands on **Sunday 20 September 
 
 - `relaxed-tesla` moves `Alex Foods.md` into `Clients/Alex Foods/`. `zealous-curie` edits it in place at `02 - TSA/`.
 - `affectionate-hopper` renames `design-system/README.md`, `packshots/README.md` and `logos-transparent/README.md` into folder-index notes. `relaxed-tesla` writes a new VAULT-INDEX rule saying asset and build folders **keep** `README.md` on purpose.
-- Both branches add a vector seal, in **two different folders** — `logo-vector/` and `logos-vector/`.
+- Both branches add a vector seal, in **two differently-named folders**.
 - The two `CLAUDE.md` edits happen to touch different sections, so they merge cleanly, but one of them adds a **new rule 12** and renumbers "Locked decisions stay locked" to 13. Any note or session citing "rule 12" is now ambiguous across refs.
 
 **What this costs if it sits:** the client answers received on 19 September — the ones that overturn six things TSA had already built on — exist on exactly one branch. Any session that boots from `main`, which is the repo default, reads a vault that does not know them.

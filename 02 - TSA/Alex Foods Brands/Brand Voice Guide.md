@@ -17,6 +17,8 @@ type: reference
 >
 > **STATUS: DRAFTED, and one block short of complete.** The master-layer question that was holding §2 was answered on 18 September: **Alex Foods is the master brand**, the four are ranges beneath it, and it **does** have a consumer voice that leads. §2 was rebuilt on that model. **The one thing outstanding is Alex Foods' own tone block** — see §2 and §9. Everything else is written and usable.
 > **All Arabic below is draft copy for Aly's ear.** He is the native speaker and the arbiter. Lines that do not sound right said out loud get rewritten, not defended.
+>
+> **And a second gap opened on 19 September.** The client's giveaway programme has a **trade track** — retailers winning through a coupon in the carton — and **there is no register in this guide for talking to the trade.** Four tones, all consumer. See §2 and [[Giveaway Programme]].
 
 ---
 
@@ -27,6 +29,7 @@ The same shape as the colour system in [[Colour and Type Kit]], and deliberately
 - **Voice** is the layer that never changes. Honesty, sentence length, Arabic first, no corporate register, reply like a person. It is identical on all four brands and it is not negotiable per campaign.
 - **Tone** is what shifts per range. BeBo does not sound like AlRawy. That difference is the point.
 - **Alex Foods is the master brand and it speaks too**, per §2. Its tone block is the one piece still unwritten, so "four tones" becomes **five** the moment that lands. The voice layer does not change when it does.
+- **A trade register may be a sixth**, per §2. Unlike the master block it is not automatically owed — it depends on whether TSA produces anything retailer-facing at all, which is an open scope question rather than a piece of missing writing.
 
 > **The rule that falls out of it: tone changes, voice never does.** A POLEKA post and an AlRawy post should be unmistakably different in energy and unmistakably the same company underneath.
 
@@ -74,7 +77,9 @@ The four ranges do not each carry their own audience from zero. **One presence c
 
 **The master brand's corporate mark** — and under the umbrella model it is no longer "an endorsement mark, not a logo." It is the mark of the company the audience is being asked to follow. It still speaks to the trade and to a parent turning a pack over; it now also appears wherever Alex Foods speaks in its own right.
 
-It is a rendered 3D object with gradients and gloss, so it is **placed as supplied and never reconstructed**, exactly like the 2MAN and POLEKA wordmarks.
+~~It is a rendered 3D object with gradients and gloss, so it is **placed as supplied and never reconstructed**, exactly like the 2MAN and POLEKA wordmarks.~~
+
+> **Corrected 19 September: the real vector arrived and the seal is flat.** No gradients, no gloss. It scales and prints at any size. **Never retyped or redrawn — that rule stands** — but it is no longer trapped at the resolution it arrived in. **And the rule this creates for every page that uses it: the seal goes on white or Paper and on nothing else.** On navy its ring drops to 1.43:1 and disappears. See `logos-vector/README.md`.
 
 ### Where it appears — a rollout, not a tier
 
@@ -105,6 +110,25 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 > **Direction confirmed: fun, which is what Aly said before this copy arrived.** The register is *a small company that likes its own products and is not pretending to be a big one*. **Still Aly's to write** — but it is now a transcription job rather than an invention, and that is a different kind of task.
 
 > **The one piece of writing this decision creates and nobody has done yet: Alex Foods' own tone block.** Sections 3 to 6 specify register, sentence length, emoji policy and person for each of the four ranges. The master now needs the same, because it is the account that actually posts. **It is deliberately not drafted here** — tone is Aly's call and his ear, and guessing it would put a fifth voice into a governance document on an AI's opinion. Everything else in §2 is usable today. See §9.
+
+### The audience this guide does not cover — the trade
+
+**Opened 19 September 2026.** The client's giveaway programme runs on two tracks, and one of them is retailers: *«تجار التجزئة»* win through a **gift coupon inside the carton**. Full brief in [[Giveaway Programme]].
+
+**Sections 3 to 6 are all consumer.** A mother, a buyer, a child, a child. **A shopkeeper deciding how many cartons to stock is none of them**, and nothing in this guide tells anyone how to speak to him. The characters that carry every consumer tone are actively wrong here: a wholesaler is not being charmed, he is being given a commercial reason.
+
+**What a trade register would have to be**, if it turns out to be owed:
+
+- **Plain, adult, transactional.** Closer to AlRawy's restraint than to anything else here, and flatter even than that.
+- **Numbers are allowed** — cartons, coupon values, dates — where §7 forbids them in consumer copy, because a stocking decision is made on numbers and a purchase decision is not.
+- **No characters, no emoji, no exclamation marks.**
+- **The register the seal already speaks in.** §2's sign-off line is corporate register for trade contexts, and it is the nearest thing in the guide to a starting point.
+
+> **This is not drafted, and it should not be until the scope question is answered.** The signed Service Scope V2 is a social contract end to end and contains no trade deliverable. Writing a fifth register into a governance document for work nobody has agreed to produce is how a guide gets longer and less true at the same time. **Aly's call:** is TSA producing anything retailer-facing, or is the trade track entirely the client's own operation? See [[Giveaway Programme]] §9.
+
+### And a register the giveaway will need on its own terms
+
+The Umrah campaign, parked by the client but coming. **A pilgrimage cannot be advertised in the voice that sells jelly sweets**, and it cannot borrow BeBo's or POLEKA's tone without reading as crass. When it comes off the shelf it needs quiet, plain, respectful copy with no characters and no exclamation marks — and that is worth deciding while it is parked and costs nothing. See [[Slogans and Song]] §5.
 
 ---
 
@@ -293,7 +317,9 @@ The scope asks for "how comments get replied to" and it is the part most brand g
 
 **Never copy and paste the same reply twice in one thread.** Identical replies read as a bot and get suppressed by the platform as much as by the reader.
 
-### The eight cases
+### The eleven cases
+
+> **Cases 9 to 11 were added on 19 September**, when the client briefed a live giveaway programme with two off-platform mechanics. **A running giveaway changes the comment section more than any other single thing a brand does** — it brings volume, it brings people who want something, and it brings losers. A policy written for praise and complaints does not survive it. See [[Giveaway Programme]].
 
 | Case | What to do | Time |
 |---|---|---|
@@ -304,7 +330,10 @@ The scope asks for "how comments get replied to" and it is the part most brand g
 | **5. Product complaint** (taste, a swollen pouch, something inside) | **Never debated publicly.** One neutral public line, then straight to DM. Get the batch code and a photo. Escalate to the client the same day. See the script below. | **2h in working hours, same day always** |
 | **6. Troll or insult** | Do not engage. Hide if abusive, never delete unless abusive, never argue. | n/a |
 | **7. Competitor bait** ("X is better") | Never respond to the comparison itself. Ignore, or reply in brand tone about your own product. | n/a |
-| **8. Giveaway tagging and spam** | Leave it. That is the mechanic working as designed. | n/a |
+| **8. Giveaway tagging and spam** | Leave it. It is organic noise, not an entry route. **But never invite it:** entry is a scan or a coupon, and asking people to tag or share to enter is a Meta promotions-policy problem on TSA's own ad account. | n/a |
+| **9. How do I enter** | **The single highest-volume comment once a campaign is live.** One fixed answer, in the range's tone, stating the real mechanic: the QR code on the back of the pack, or the coupon in the carton for shops. **Never improvise a second route.** | 12h |
+| **10. Did I win / when is the draw / I never heard back** | **Only answer with dates and results the client has given in writing.** No estimate, no "soon", no guessing at a draw date. If nothing is in writing, say the results are announced on the page and leave it. **TSA does not run the draw and cannot speak for it.** | 12h |
+| **11. The giveaway is rigged / nobody really wins** | **Do not argue and do not defend.** One neutral line, once, pointing at the published winners. Then stop. Arguing about fairness in public is unwinnable and it turns one comment into a thread. | 24h |
 
 ### The complaint script, because this is the one that costs money
 
@@ -320,6 +349,8 @@ The scope asks for "how comments get replied to" and it is the part most brand g
 
 **Then escalate the same day and log it.** Every complaint gets recorded with the date, SKU, batch code and what was sent to the client.
 
+> **The three new cases share one dependency: the giveaway's facts have to come from the client in writing.** Dates, prize counts, draw method, results. §7's governing principle applies here with no softening — **if it did not come from the client in writing, TSA does not know it** — and on a giveaway a helpful guess in a comment thread is a published promise about somebody's prize.
+
 ### The escalation ladder, and the hole in it
 
 TSA → **the named approver** (clause 3) → the client.
@@ -334,7 +365,9 @@ TSA → **the named approver** (clause 3) → the client.
 2. **Alex Foods' own tone block** — register, sentence length, emoji policy and person for the master account, matching the shape of §3 to §6. **Direction received 19 September: "fun."** The input is no longer missing; the writing still needs Aly's ear rather than an AI's guess. It is the only thing between this deliverable and complete, and it blocks deliverable 3's single presence from having a written voice.
 3. ~~**Which reading governs the seal** (tiering versus rollout).~~ **Closed 18 September: rollout.** Printed packs stay; new print carries the seal on every range. The freeze rule is retired. See §2.
 4. **The client's written product facts** (nutrition, sourcing, certifications, retail list) if they ever want §7's locked list loosened. Until then the list stands as written, and it stands in TSA's own interest.
+5. **Whether a trade register is owed at all** — §2's new sub-section. It is a scope question before it is a writing question, and it is Aly's. See [[Giveaway Programme]] §9.
+6. **The giveaway's facts in writing** — campaign dates, prize counts, draw method, how winners are announced. §8 cases 9 to 11 cannot be answered without them, and they will be the most-asked questions on the page.
 
 ---
 
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Producing Copy with AI]] *(TSA-internal, never delivered)* · [[Slogans and Song]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Brand Book Spec]] · [[Marketing]]
+**Related:** [[Alex Foods]] · [[Giveaway Programme]] · [[Foundation Roadmap]] · [[Producing Copy with AI]] *(TSA-internal, never delivered)* · [[Slogans and Song]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Brand Book Spec]] · [[Marketing]]

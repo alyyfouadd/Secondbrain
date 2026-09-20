@@ -65,7 +65,16 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 
 > **Red is a headline colour, never body copy**, and the kit obeys that on its own pages: the red statement panel carries display type only, and its explanatory note sits below it on the Paper ground. A kit that breaks its own rule on page one kills the rule.
 
-> **`#05004B` is the seal ring's own dark gradient stop**, recorded in [[Alex Foods Brands]], not an invented tint. It carries the hero blocks and the sign-off, which keeps the master present on a light page.
+> ~~**`#05004B` is the seal ring's own dark gradient stop**, recorded in [[Alex Foods Brands]], not an invented tint. It carries the hero blocks and the sign-off, which keeps the master present on a light page.~~
+>
+> **DEFECT, found 19 September when the real vector arrived. Two of them, in this table.**
+>
+> 1. **`#05004B` is not a brand colour and never was.** It is a gradient stop of a *rendering* of the seal. The authored ring blue is CMYK 98/81.3/27/12.9, and `#05004B` is **ΔE2000 15.38** from it. The justification above is dead.
+> 2. **`#0A0378` is wrong by ΔE2000 9.80** for the same reason.
+>
+> **And the one that actually shows: the profile picture is unusable as specified.** `kit.py` line 215 puts the seal on Alex Navy and the page claims *"It holds on a light feed and a dark one, which is the whole reason it needs no second version."* **With the real artwork the ring reads 1.43:1 against that ground and disappears** — the mark becomes a red blob with white text round it. Line 73 has the same problem, labelled "ON NAVY — DEFAULT."
+>
+> **The fix is cheap and it is not a redesign: the seal goes on white or Paper.** It already contains its own navy. A corrected 320 × 320 export on white is filed at `logos-vector/alex-profile-320.png`. **The shipped v1.2 PDF still has the defect** — do not describe it as though it does not. Full numbers in `logos-vector/README.md` and [[Colour System]] §11.
 
 ## 3. The two decisions that were derived, not copied
 
@@ -77,6 +86,12 @@ The neutrals are the client's own, already governed in [[Colour System]] §7 —
 | **30%** | Character · الشخصيات | BeBo's faces, POLEKA's animals, 2MAN's boy. **Already drawn and already paid for — the cheapest content this business owns.** |
 | **20%** | Moment · اللحظة | The lunchbox, the hot afternoon, the family jug. The occasion, never a claim about it. |
 | **10%** | Company · الشركة | Alex Foods itself. No age claim until the client confirms one. |
+
+> **Drift recorded 19 September, not yet fixed in the PDF.** The client briefed a live giveaway programme — three campaigns, running now — and **this mix has no giveaway pillar.** The client's single most active marketing activity is not represented in the content plan TSA handed them. It also has no BeBo weighting, and the client has since named BeBo as the hero product for advertising.
+>
+> **Neither is wrong as shipped**, because both facts arrived after v1.2 rendered. But the mix is a governance statement and it is now incomplete. **It gets corrected in the next version of the kit, not silently**: most likely by taking the giveaway out of Product's 40 and naming it, so the split reflects what the brand actually does. **The PDF in this folder does not yet say any of this** — do not describe it as though it does. See [[Giveaway Programme]].
+
+> **A second thing to check against this page, found 19 September: the posting rhythm and the contract's production quantity have never been reconciled.** The rhythm on page 4 asks for roughly **84 slots a month**; the contract produces **20 original assets**. Taking Stories out as cheap and repurposed still leaves ~54 feed and Reel slots. **It only closes if every asset cross-posts about 2.7 times with no platform-native variation** — which also means Facebook, the platform this page deliberately weights up, receives Instagram content verbatim. Not wrong, but it has zero slack, and the client's winner footage is what creates it. Worked through in [[Content Plan]] §3.
 
 **Facebook is weighted higher than an agency would normally weight it.** BeBo and AlRawy talk to mothers, and in Egypt that audience is on Facebook. Copying a Reels-first split off TSA's own kit would have quietly aimed the client's spend at the wrong platform.
 
@@ -221,10 +236,10 @@ TSA's pillars are Quality, Results, Guarantee — claims a service business can 
 
 ## 7. The build
 
-Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts with the Design System generator — nothing duplicated. Pack artwork is referenced from `logos-transparent/`, so the marks are placed as supplied and never reconstructed.
+Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts with the Design System generator — nothing duplicated. Pack artwork is referenced from `logos-transparent/`, so the marks are placed as supplied and never reconstructed. **From 19 September the master seal should be referenced from `logos-vector/alex-seal-flat.svg` instead** — real vector, so it renders sharp at any size the book or a 320 × 320 export asks for, rather than being resampled from a cut-out.
 
 **Every page is rendered and measured against the live area before shipping.** That method caught four real defects in this build, all of the same family: **a CSS rule silently beating the one you meant.** A class collision, a descendant `display:block`, and a specificity override that rendered a 21pt display statement at 7.2pt. Full list in `design-system/README.md`.
 
 ---
 
-**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Colour System]] · [[Brand Voice Guide]] · [[Brand Book Spec]] · [[TSA Brand System]] · [[Foundation Roadmap]]
+**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Giveaway Programme]] · [[Colour System]] · [[Brand Voice Guide]] · [[Brand Book Spec]] · [[TSA Brand System]] · [[Foundation Roadmap]]

@@ -27,12 +27,13 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 - [[Shooting and Compositing Recipe]] — **Foundation deliverable 6, COMPLETE and RENDERED.** Book section 16, and the one that ships early and alone because every visual asset in both stages is produced against it. Bilingual throughout, Arabic leading. Carries the one rule (**the scene is generated, the product never is**), the eight camera and light constants that make eighteen SKUs read as one family, a scene world per range, four ready prompts, the seven compositing rules, a ten item reject list, the visual claims ban, output specs and a pre publish checklist.
 - [[Giveaway Programme]] — **how the client's giveaways actually work**, and they already do. **Two mechanics already in the packaging** — a coupon in the carton for retailers, a QR code on the back of the pack for consumers. **Three campaigns, ranked by the client himself:** school gifts running now and urgent, bicycles and scooters running long-term, the Umrah trade programme paused. **Carries the commercial problem the school deadline creates.**
 - [[Content Plan]] — **book sections 17 and 18, and the answer to what to post, why, and what it looks like.** Written 20 Sep, once enough was known to write it honestly. **The spine is the three campaigns, not a four-range rotation**: school gifts racing a deadline, bicycles and scooters running continuously, Umrah paused. Carries the four jobs every post has to do and **explicitly replaces the 40/30/20/10 mix in [[Brand and Social Kit]]**, which was derived from packaging before anyone knew there was a live giveaway programme. Seven post archetypes, each with why it exists, what is fixed, what changes and what is never done. Month 1 costed against the 20 assets Package A actually funds, and **the two animations assigned on purpose** — the mechanic explainer and the school moment, not a product film.
+- [[Package A Month 1]] — **how the first paid month actually gets produced**: why month 1 should *be* the school campaign, the twenty deliverables, the render rail proven on 19 September, the pack-resolution audit that found the real blocker, the consolidated client ask, and the commercial terms nobody has defined yet.
 - [[Slogans and Song]] — Foundation deliverable 4. Why a slogan is not a headline, who each brand is actually talking to, the feeling behind each of the four, the six tests a line has to pass, and why the giveaway song plays by campaign rules instead.
 - [[Brand Book Spec]] — the design and production specification for the PDF the whole Foundation ships inside: format, grid, type, bilingual handling, page-by-page architecture, and how it gets built and rendered from an iPad.
 - `mockup-bebo.png` · `mockup-poleka.png` · `mockup-alrawy.png` · `mockup-2man-a.png` · `mockup-2man-b.png` — the packaging the client sent on 18 September, screen-resolution.
 - `packs-bebo-transparent.png` · `packs-poleka-transparent.png` — **the most usable artwork received so far.** The full BeBo and POLEKA ranges at high resolution **on a transparent background**, extracted 18 Sep from a Canva mockup PDF. Cut out and ready to composite onto any layout, which is exactly what the monthly graphics need. Still raster.
 - **`logos-vector/alex-seal-master.pdf` — THE VECTOR MASTER, received 19 September.** True vector, no images and no fonts. **The flat two-colour seal**, not the 3D rendered object. `alex-seal-master.svg` beside it is a working conversion for HTML layouts, **carrying one known defect: the x of "Alex" does not survive the conversion, so the PDF is the master and the SVG is checked before use.**
-- `logo-alex-seal.jpg` — the **3D rendered** master seal with the Egyptian flag ribbon. Superseded as a source by the vector above; kept because it is what is currently printed on pack.
+- `logo-alex-seal.jpg` — the **3D rendered** master seal with the Egyptian flag ribbon. Superseded as a source by the vector above; kept because it is what is currently printed on pack, and **it is the only evidence of the ribbon version — which version governs is still open.**
 - `client-legacy-creative/` — two of the client's own existing graphics, kept as the "before" reference: what Alex Foods currently looks like in market, which is what the system is replacing. Useful for the voice guide and for the do-not pages.
 - `logo-alrawy-screencap.png` · `logo-2man-screencap.png` · `logo-bebo-screencap.png` · `logo-poleka-screencap.png` — **all four brand marks**, isolated on white, **received 18 September as iPad screenshots of files open in the Files app.** Far better than reading a mark off a pack: clean edges, no perspective, full colour. **Still not vector.** They are screen captures, so they do not close material #2 and they cannot be used for print or at large scale. **What they do prove is that the source files exist and are on the client's device**, which turns the chase from "do these exist?" into "send the file, not a picture of it."
 
@@ -76,6 +77,8 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 - **No Alex seal on this one.**
 
 **5 SKUs:** Peach · Mango · Apple · Cola · Pineapple
+
+> **BeBo is the hero product, named by the client on 19 September:** *«اهم منتج هنركز عليه في الاعلانات هو منتج البيبو»*. The advertising leads with this range. **It also collapses the SKU-spread problem below** — 12 monthly graphics across BeBo's 5 SKUs is the shape the contract was priced for, rather than spread across eighteen. **And note the tension:** BeBo is one of the two ranges with no Alex seal on the pack, so on the most-seen campaign the master brand has to be carried by the layout rather than by the product. See [[Giveaway Programme]] §4.
 
 **Approximate colours** *(eyeballed, must be confirmed)*
 | | |
@@ -188,6 +191,8 @@ A file named `bebo_mucup.pdf` arrived 18 September. **It is not a BeBo file and 
 
 So the conclusion is firm rather than cautious: **every route the artwork has taken to TSA so far has been a photograph of a file somebody had open.** The sources exist. Nobody has sent one.
 
+> **And superseded again on 19 September, in the other direction: a real Illustrator file arrived for the master seal.** It was authored that morning, which is the likely explanation — it did not exist to send, and somebody made it. **The lesson is not "the chase was right all along."** It is that "the client has nothing" was a fact about a moment, not about the world, and the master mark is now the one asset in this project held at full quality. **The four range marks are still raster.**
+
 **Superseded 18 Sep: there are no source files to ask for.** Aly confirmed the client has nothing but screenshots. So the chase is over, and it should have ended sooner — **the signed material list asks for "logo files, vector if available"**, which makes vector a convenience the contract already anticipated might not exist, not a condition anyone is failing.
 
 **All four marks were cut out of the supplied raster onto transparency instead** — see `logos-transparent/`. Sufficient for every deliverable in the contract, because **nothing in the Foundation or Package A is printed.**
@@ -200,7 +205,7 @@ So the conclusion is firm rather than cautious: **every route the artwork has ta
 
 **And "what is Alex" closed on 18 September: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it. It **does** have a consumer voice and it leads — one Alex Foods presence rather than four brand pages. Still no house palette, now by architectural choice rather than endorsement etiquette: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. The seal's absence on BeBo and POLEKA is **a rollout that has not caught up**, not a tier. Consequences written up in [[Brand Voice Guide]] §2 and governed in [[Colour System]] §2.
 
-One real client answer remains:
+One real client answer remains from the brand read, and **five more arrived with the giveaway brief on 19 September** — see [[Giveaway Programme]] §9:
 
 1. **Do they hold the rights to the "Cola Cola" artwork?** See the trademark flag below. TSA runs the paid campaigns, so this is TSA's exposure, not just theirs.
 
@@ -217,14 +222,22 @@ The seal arrived in full on 18 September and it answers more than it was asked t
 
 **Alex is الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية** — the Alexandria Company for Food Packing and Packaging. The ring carries the name in Arabic and English, and **the icon at the top of the ring is a lighthouse**, which is the Pharos. The mark is a place as much as a company.
 
-**Construction:** navy outer ring, red inner disc, "Alex" in white with a sun burst above and a green leaf swoosh below, wrapped in an Egyptian flag ribbon. **It is a rendered 3D object with gradients and gloss, not a flat mark** — so like the 2MAN and POLEKA wordmarks it is placed as supplied and never reconstructed.
+**Construction:** navy outer ring, red inner disc, "Alex" in white with a sun burst above and a green leaf swoosh below, wrapped in an Egyptian flag ribbon.
+
+> **OVERTURNED 19 September 2026 — the real vector arrived.** `logos-vector/alex-seal-master.pdf`, authored in Adobe Illustrator 24.2 that morning, with the live Illustrator artwork embedded. **The seal is FLAT vector: no gradients, no gloss, no raster, no fonts, CMYK throughout.** The 3D read was true of the *picture* the client had been sending, not of the mark.
+>
+> **What that changes:** the seal can now be scaled to any size, placed on any ground, and printed. It is still never *retyped or redrawn* — that rule stands and always did — but "placed as supplied" no longer means "stuck at whatever resolution arrived."
+>
+> **And this version carries no Egyptian flag ribbon.** `logo-alex-seal.jpg` has one. **Two versions of the master mark now exist, and the Foundation has to say which one governs.** See `logos-vector/README.md`.
 
 | Role | Value *(sampled)* | Note |
 |---|---|---|
-| Ring navy | ~`#0A0378` | Heavy radial gradient, `#05004B` to `#110691` across the ring |
+| ~~Ring navy~~ | ~~`#0A0378`~~ | **WRONG — superseded.** Sampled off the gradient render. The authored value is **CMYK 98 / 81.3 / 27 / 12.9**, about `#042AA2`, and the sampled value is **ΔE2000 9.80** away from it |
 | Inner red | ~`#E00000` | **ΔE 3.31 from System Red `#E1251D`** — the same red. It collapses rather than adding a value. |
 
-**So the master layer adds exactly one value to [[Colour System]]: Alex Navy.** Not two. **It has no ramp and no contrast row yet** — it was sampled after the 18 were computed, and adding a nineteenth means recomputing the master set, the ramps and the contrast table. Not a blocker, because the seal is placed as supplied and never reconstructed. See [[Colour System]] §11.
+**So the master layer adds exactly one value to [[Colour System]]: Alex Navy.** Not two.
+
+> **Revised 19 September, and the revision is bigger than a ramp.** The value itself was wrong, not just un-ramped. **The authoritative ring blue is the client's own CMYK 98 / 81.3 / 27 / 12.9**, and `#0A0378` misses it by ΔE2000 9.80. Worse, it **collapses into 2MAN blue `#2E3192` at ΔE2000 3.77** — under the system's own 5.0 rule — so the master's blue and a range's blue are arguably one colour. That is a governance decision, not a maths error, and it is Aly's. The disc red holds: it still collapses into System Red. See [[Colour System]] §11 and `logos-vector/README.md`.
 
 ### The tension this creates, and it matters
 

@@ -24,6 +24,8 @@ type: reference
 
 All four are placed as supplied vector artwork. Anyone who rebuilds a logo because the file was missing has produced something unusable, and it will be spotted.
 
+> **Revised again 19 Sep: the master seal is real vector.** `logos-vector/alex-seal-flat.svg`, converted 1:1 from the client's Illustrator PDF. The rule is unchanged and the mark is still never rebuilt — what changed is that "as supplied" now means an actual path set for the master, so it holds at any size including print. **The four range wordmarks are still raster.**
+
 > **Revised 18 Sep.** No source files exist. All four marks are now available cut out on transparency in `logos-transparent/`, which is sufficient for every deliverable in this contract, since none of them are printed. **The rule above is unchanged and is what matters: the wordmark is placed as supplied and never rebuilt.** Whether "as supplied" means a vector path or a transparent PNG only starts to matter at print or at large scale, and neither is in scope.
 
 ## 2. The faces

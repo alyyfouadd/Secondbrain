@@ -26,3 +26,21 @@ type: reference
 ---
 
 **Related:** [[Alex Foods Brands]] · [[Brand and Social Kit]] · [[Colour System]]
+
+---
+
+## Resolution warning, added 19 September 2026
+
+**These are fine for a governance document and too small for a social asset where the pack is the hero.** Audited:
+
+| | Size | 1080 × 1350 feed post? |
+|---|---|---|
+| `bebo-*.png` | **199 × 251** | **No** |
+| `alrawy-*.png` | ~250 × 410 | No |
+| `poleka-*.png` | ~130 × 520 | No |
+| `2man-*.png` | ~830 × 175 | No |
+| the range lineups above | ~1400–2600 wide | Yes, **as a strip**, not as a single pack |
+
+They were sliced out of iPad screenshots, which was right at the time. **A BeBo sachet at 199 px tall blown up to fill a 1080-wide frame is mush.**
+
+**The fix is not a shoot.** It is pack artwork at high resolution or vector, which the client can supply — they sent real Illustrator artwork of the master seal on 19 September, so the route is proven. **That is a separate ask from product photography** and conflating the two is why neither has arrived. See [[Package A Month 1]] §4.

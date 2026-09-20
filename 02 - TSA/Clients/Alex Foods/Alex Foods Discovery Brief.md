@@ -532,4 +532,6 @@ Main goal · success definition · priority range · biggest problem · years in
 
 ---
 
-**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Foundation Roadmap]] · [[Brand Voice Guide]] · [[Brand and Social Kit]] · [[Slogans and Song]] · [[Colour System]] · [[Type System]] · [[Brand Book Spec]] · [[TSA]] · [[TSA Money]] · [[Active Priorities]] · [[Marketing]]
+**Related:** [[Alex Foods Brands]] · [[Slogans and Song]] · [[Colour System]] · [[Type System]] · [[Brand Book Spec]] · [[TSA Money]] · [[Active Priorities]] · [[Marketing]]
+
+**Up:** [[Alex Foods]] · [[Clients]]

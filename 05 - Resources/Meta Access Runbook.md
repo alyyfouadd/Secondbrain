@@ -126,4 +126,4 @@ The media buyer is added **as a user inside TSA's Business Manager**, then grant
 
 ---
 
-**Related:** [[Alex Foods]] · [[Alex Foods Discovery Brief]] · [[TSA Client System]] · [[TSA]]
+**Related:** [[Alex Foods Discovery Brief]] · [[TSA Client System]] · [[TSA]]

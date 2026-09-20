@@ -166,4 +166,4 @@ Added to the discovery brief for every client after the first:
 
 ---
 
-**Related:** [[TSA]] · [[Alex Foods]] · [[Brand Book Spec]] · [[Foundation Roadmap]] · [[Colour System]] · [[Brand Voice Guide]] · [[Slogans and Song]] · [[Shooting and Compositing Recipe]] · [[TSA Money]] · [[Marketing]] · [[Resources]]
+**Related:** [[Brand Book Spec]] · [[Colour System]] · [[Brand Voice Guide]] · [[Slogans and Song]] · [[Shooting and Compositing Recipe]] · [[TSA Money]] · [[Marketing]] · [[Resources]]

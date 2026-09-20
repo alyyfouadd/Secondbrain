@@ -218,3 +218,5 @@ Four things, and missing any one of them costs money:
 2. The month-1 start condition, quoted above.
 3. The honest status on the two execution-pending items, with exactly what is needed to close them.
 4. The POLEKA line in writing — four brands, no change to fee — because the signed scope still names three and clause 4's rejection rule leans on the approved guide matching the scope.
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

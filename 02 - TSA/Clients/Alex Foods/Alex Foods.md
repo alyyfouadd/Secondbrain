@@ -220,3 +220,7 @@ The client came back on most of the commercial brief. Full merge, with the Arabi
 - **Is TSA producing anything retailer-facing?** The giveaway has a trade track — retailers winning through a coupon in the carton — and the signed scope is a social contract end to end, with no trade deliverable in it. If the answer is yes, it is clause 7 work and the voice guide needs a register it does not have.
 - **Does the school campaign get TSA creative at all?** Its deadline lands before the Foundation is delivered, and the giveaway lockup is a Package A item that has not started. On the current plan the client's biggest push runs with nothing from TSA on it. [[Giveaway Programme]] §2.
 - **What exact date was the 10,000 invoice issued?** The due date is set to 26 September; clause 11's 4-day term implies an 18 Sep issue date would have been due the 22nd. The gap is deliberate but should be recorded accurately.
+
+---
+
+**Up:** [[VAULT-INDEX]] · [[TSA]] · [[Clients]]

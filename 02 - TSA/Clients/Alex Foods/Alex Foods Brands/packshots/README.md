@@ -25,7 +25,7 @@ type: reference
 
 ---
 
-**Related:** [[Alex Foods Brands]] · [[Brand and Social Kit]] · [[Colour System]]
+**Related:** [[Brand and Social Kit]]
 
 ---
 

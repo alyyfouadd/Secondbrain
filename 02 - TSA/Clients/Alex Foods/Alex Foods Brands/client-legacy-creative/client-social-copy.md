@@ -83,7 +83,7 @@ type: reference
 
 ---
 
-**Related:** [[Brand Voice Guide]] · [[Slogans and Song]] · [[Alex Foods Brands]] · [[Alex Foods Discovery Brief]]
+**Related:** [[Slogans and Song]] · [[Alex Foods Brands]] · [[Alex Foods Discovery Brief]]
 
 ---
 
@@ -140,3 +140,5 @@ type: reference
 **Same class of problem as the «Cola Cola» artwork, and arguably clearer.** SpongeBob is a Paramount property. **TSA runs the paid campaigns, so a licensed-character post pushed to a paid audience is TSA's ad account carrying it.**
 
 > **This needs the same written answer the cola question got: do they hold a licence?** Almost certainly not. **The rule follows regardless: TSA does not produce, boost or repost third-party character content**, and if the client wants it on organic posts they make it themselves.
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

@@ -105,3 +105,5 @@ type: plan
 ---
 
 **Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Brand Book Spec]] · [[Alex Foods Discovery Brief]] · [[Meta Access Runbook]] · [[Active Priorities]]
+
+**Up:** [[Alex Foods]] · [[Clients]]

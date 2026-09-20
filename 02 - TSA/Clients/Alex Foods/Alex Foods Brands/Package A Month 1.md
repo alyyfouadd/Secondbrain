@@ -200,7 +200,7 @@ Assumes the gates in [[Alex Foods]] have closed and month 1 has actually started
 
 ---
 
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Giveaway Programme]] · [[Brand Voice Guide]] · [[Colour System]] · [[Brand and Social Kit]] · [[TSA Money]] · [[Slogans and Song]]
+**Related:** [[Brand and Social Kit]]
 
 ---
 
@@ -226,3 +226,5 @@ The shipped v1.2 serves the first and not the second. A designer opening it cann
 - **The do-not pages**, shown rather than described, per [[Brand Book Spec]].
 
 > **The trap to avoid: do not turn the client's kit into a production manual.** The client should not be reading export settings. **Two documents, or one document with a clearly separated production section at the back** — and that is a real decision, not a formatting preference. **Aly's call.**
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

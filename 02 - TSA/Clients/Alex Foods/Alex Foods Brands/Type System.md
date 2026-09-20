@@ -107,4 +107,6 @@ White type fails on 11 of the 18 masters. It is genuinely correct on only four f
 
 ---
 
-**Related:** [[Alex Foods]] · [[Colour System]] · [[Colour and Type Kit]] · [[Brand Voice Guide]] · [[Foundation Roadmap]] · [[Brand Book Spec]]
+**Related:** [[Colour and Type Kit]] · [[Brand Book Spec]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

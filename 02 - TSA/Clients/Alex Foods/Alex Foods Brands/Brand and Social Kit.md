@@ -248,4 +248,6 @@ Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts 
 
 ---
 
-**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Giveaway Programme]] · [[Colour System]] · [[Brand Voice Guide]] · [[Brand Book Spec]] · [[TSA Brand System]] · [[Foundation Roadmap]]
+**Related:** [[Foundation Roadmap]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

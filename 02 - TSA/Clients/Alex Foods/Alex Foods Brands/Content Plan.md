@@ -209,8 +209,10 @@ The playbook again: *decide the thresholds ahead of time and let the number make
 
 ---
 
-**Related:** [[Alex Foods]] · [[Package A Month 1]] · [[Giveaway Programme]] · [[Brand Voice Guide]] · [[Slogans and Song]] · [[Brand and Social Kit]] · [[Marketing]] · [[marketing-content]] · [[marketing-analytics]]
+**Related:** [[Brand and Social Kit]] · [[marketing-content]] · [[marketing-analytics]]
 
 ---
 
 **Related:** [[Post Archetypes]] · [[Giveaway Programme]] · [[Alex Foods]] · [[Brand Book Spec]] · [[Alex Foods Brands]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

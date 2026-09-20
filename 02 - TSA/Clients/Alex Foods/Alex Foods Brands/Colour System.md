@@ -311,4 +311,6 @@ Contrast of the seal's own ring against its ground:
 
 ---
 
-**Related:** [[Alex Foods]] · [[Colour and Type Kit]] · [[Foundation Roadmap]] · [[Brand Voice Guide]] · [[Brand Book Spec]] · [[Alex Foods Brands]]
+**Related:** [[Brand Book Spec]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

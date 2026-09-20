@@ -176,4 +176,4 @@ Nine drift items were found by reading every note against every other note. **Ei
 
 ---
 
-**Related:** [[VAULT-INDEX]] · [[Active Priorities]] · [[README]] · [[TSA]] · [[Alex Foods]] · [[TSA Money]] · [[Money]] · [[Foundation Roadmap]] · [[Alex Foods Brands]] · [[Bassem]] · [[Resources]]
+**Related:** [[README]] · [[Foundation Roadmap]] · [[Alex Foods Brands]] · [[Resources]]

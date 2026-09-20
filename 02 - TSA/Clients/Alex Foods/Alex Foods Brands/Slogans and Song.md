@@ -720,6 +720,8 @@ Clause 1 gives TSA execution and the client approval of an *outcome*. **Present 
 
 ---
 
-**Related:** [[Alex Foods]] · [[Giveaway Programme]] · [[Foundation Roadmap]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Marketing]]
+**Related:** [[Colour and Type Kit]]
 
 <!-- retired-ok:end -->
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

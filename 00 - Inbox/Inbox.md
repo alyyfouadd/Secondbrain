@@ -35,4 +35,4 @@ Every item in this folder is in transit. These are the exits:
 
 ---
 
-**Related:** [[VAULT-INDEX]] · [[Active Priorities]]
+**Related:** [[VAULT-INDEX]]

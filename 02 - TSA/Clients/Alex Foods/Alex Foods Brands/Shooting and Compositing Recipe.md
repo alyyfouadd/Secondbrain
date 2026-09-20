@@ -331,4 +331,6 @@ no bottles, no sachets, no hands, no people, no faces, no watermark
 
 ---
 
-**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Brand Book Spec]] · [[Brand Voice Guide]] · [[Colour System]] · [[Type System]] · [[Foundation Roadmap]] · [[Brand and Social Kit]]
+**Related:** [[Alex Foods]] · [[Type System]] · [[Foundation Roadmap]] · [[Brand and Social Kit]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

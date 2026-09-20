@@ -80,4 +80,4 @@ So the never-say list is a filter applied to output, not just a rule stated in a
 
 ---
 
-**Related:** [[Marketing]] · [[jareds-takes]] · [[marketing-copywriting]] · [[TSA]] · [[Alex Foods]] · [[Brand Voice Guide]] · [[Slogans and Song]]
+**Related:** [[Brand Voice Guide]]

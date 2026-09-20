@@ -370,4 +370,6 @@ TSA → **the named approver** (clause 3) → the client.
 
 ---
 
-**Related:** [[Alex Foods]] · [[Giveaway Programme]] · [[Foundation Roadmap]] · [[Producing Copy with AI]] *(TSA-internal, never delivered)* · [[Slogans and Song]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Brand Book Spec]] · [[Marketing]]
+**Related:** [[Foundation Roadmap]] · [[Producing Copy with AI]] *(TSA-internal, never delivered)* · [[Brand Book Spec]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

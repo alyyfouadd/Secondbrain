@@ -68,4 +68,6 @@ type: reference
 
 ---
 
-**Related:** [[Alex Foods]] · [[Alex Foods Discovery Brief]] · [[Alex Foods Brands]] · [[Slogans and Song]] · [[Brand Voice Guide]] · [[Active Priorities]]
+**Related:** [[Alex Foods]] · [[Alex Foods Discovery Brief]] · [[Alex Foods Brands]] · [[Slogans and Song]]
+
+**Up:** [[Alex Foods]] · [[Clients]]

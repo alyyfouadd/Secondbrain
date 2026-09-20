@@ -267,4 +267,6 @@ Separately worth naming: **the four range logos in the "THE FOUR RANGES" panel a
 
 ---
 
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Giveaway Programme]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[TSA]]
+**Related:** [[Alex Foods Brands]] · [[TSA]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

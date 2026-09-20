@@ -30,7 +30,7 @@ So the system has three layers:
 
 ---
 
-## 2. BeBo — powdered drink sachets
+## 2. BeBo — a juice, in pillow-bag sachets
 
 Loud, kid-facing, character-led. The most playful of the four.
 

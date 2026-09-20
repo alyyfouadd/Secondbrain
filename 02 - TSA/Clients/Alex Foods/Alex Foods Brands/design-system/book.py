@@ -210,8 +210,8 @@ sec('06','LOGO &amp; SEAL USE','الشعارات والختم', f'''{eb('الش�
 </ol>''')
 
 # ================= 07 THE RANGES =================
-RD={'bebo':dict(pack='bebo.png',fmt_ar='أكياس وسادة. الشكل محل نقاش مع العميل.',fmt_en='Pillow bags. Format under query with the client.',
- who_ar='الأم. الشخصيات على العبوة تملك الطفل بالفعل، فالكلام موجَّه لمن يقرّر.',who_en='The mother. The characters already own the child, so the copy talks to whoever is deciding.',
+RD={'bebo':dict(pack='bebo.png',fmt_ar='عصير. بيتشرب.',fmt_en='A juice. You drink it.',
+ who_ar='الطفل. هو اللي بيطلبه وغالبًا بيدفع من مصروفه. الأهل بيدفعوا، لكن الكلام مش موجَّه لهم.',who_en='The kid. They ask for it and often pay from their own pocket money. A parent pays, but the copy does not talk to them.',
  id_ar='الوجه هو العبوة، ويأخذ لون نكهته. شارة KIDS ZONE، وفلاش NEW أحمر، وشريط أخضر بخط كحلي لا يُحذف.',
  id_en='The face <b>is</b> the pack and it takes the colour of its own flavour. KIDS ZONE sub-mark, red NEW flash, and a green banner with a navy keyline that never comes off.'),
 'alrawy':dict(pack='alrawy.png',fmt_ar='جاهز للشرب. ماصة على العبوة.',fmt_en='Ready to drink. Straw on the pack.',
@@ -328,15 +328,13 @@ SLOG=[('01','أليكس فودز','Alex Foods','من إسكندرية لكل ا�
 ('02','أليكس فودز','Alex Foods','إسكندرية بتحلّي','Alexandria sweetens things',
  'أقصر وأدفأ، ويحمل نبرة المرح المطلوبة. يميل نحو الحلاوة، فيناسب ثلاث مجموعات ويجلس بصعوبة على الراوي.',
  'Shorter, warmer, and it carries the fun register. It leans sweet, which fits three ranges and sits oddly on AlRawy.',''),
-('03','بيبو','BeBo','قوليلهم آه','Tell them yes',
- 'يبيع الإذن، وهو شعور بيبو كله، دون أن يسمّي المنتج مرة واحدة. ثلاث كلمات تنجو من مئتي تكرار.',
- 'Sells permission, which is BeBo’s whole feeling, without once naming the product. Three words that survive two hundred repetitions.','star'),
-('04','بيبو','BeBo','مبسوطين، وانتي مرتاحة','They are happy and you are at ease',
- 'الصفقة من جهتها هي، لا من جهة الطفل.','The transaction stated from her side rather than the child’s.',''),
-('05','الراوي','AlRawy','اختيار من غير ندم','A choice with no regret',
- 'شعور الراوي بلا صفة واحدة. هادئ، بالغ، بلا علامة تعجب، وبلا ادعاء.',
- 'AlRawy’s feeling without a single adjective. Calm, adult, no exclamation mark, and no claim.','star'),
-('06','الراوي','AlRawy','حطّيه وانتي مطمنة','Pack it and be at ease',
+('03','بيبو','BeBo','مع بيبو، اليوم أحلى','With BeBo, the day is better',
+ 'اختيار على. يشبه لغة العميل نفسه، و«أحلى» أكثر كلمة تميّز سجلّه. لا يسمّي شكل العبوة، ولا يربط نفسه بمناسبة تنتهي.',
+ 'Aly’s choice. It echoes the client’s own register, and «أحلى» is the most characteristic word in it. It names no format and ties itself to no occasion that ends.','star'),
+('04','الراوي','AlRawy','الراوي.. طعم تثق فيه','AlRawy, a taste you trust',
+ 'مبني على نمط العميل نفسه «جودة نثق بها». الثقة عن الصانع لا عن المحتوى، فلا يحمل أي ادعاء ممنوع، ويصلح للطفل وللمشتري معًا.',
+ 'Built on the client’s own trust pattern «جودة نثق بها». Trust is about the maker rather than the contents, so it carries no banned claim, and it works said to a child or to the buyer.','star'),
+('XX','الراوي','AlRawy','حطّيه وانتي مطمنة','Pack it and be at ease',
  'مناسبة اللانش بوكس ملمّح إليها لا مسمّاة، حتى لا يصير سطرًا للمدارس وحدها.',
  'The lunchbox occasion implied rather than named, so it does not become a school-only line.',''),
 ('07','تومان','2MAN','برّه أحلى','Outside is better',
@@ -369,9 +367,9 @@ f"""{eb('الترجمة والتوصية','GLOSS &amp; RECOMMENDATION')}
 {note('«عيش جو المغامرة» موجود بالفعل ويبقى. يبيع الشعور ولا يسمّي المنتج، وهو الاختبار كله. استبدال سطر ناجح لتبرير تسليم يهدم رصيدًا استُؤجرت الوكالة لبنائه. السطران 07 و08 حملتان تجلسان تحته، لا بدلًا منه.',
  'The existing 2MAN tagline already works and it stays. It sells the feeling and never names the product, which is the whole test. Replacing a working line to justify a deliverable destroys equity the agency was hired to build. Lines 07 and 08 are campaign lines that sit under it, never instead of it.',
  'ما لا يُستبدل','What does not get replaced')}
-{note('سطرا بيبو يتجنّبان الإبريق والظرف والماصة عمدًا. شكل بيبو غير محسوم، وشعار يسمّي شكلًا هو شعار يموت يوم يتأكد الشكل. السطران ينجوان من أي إجابة.',
- 'Both BeBo lines deliberately avoid the jug, the sachet and the straw. BeBo’s format is unresolved, and a slogan that names a format is a slogan that dies the day the format is confirmed. These two survive either answer.',
- 'ولماذا لا يذكر سطرا بيبو شكل العبوة','And why the BeBo lines name no format',True)}
+{note('سطر بيبو لا يسمّي شكل العبوة، وده مقصود. الشعار اللي بيسمّي شكلًا بيموت يوم الشكل يتغيّر، والسطر ده بيشتغل مهما كانت العبوة.',
+ 'The BeBo line names no format, and that is deliberate. A slogan that names a format dies the day the format changes, and this one works whatever the pack is.',
+ 'ولماذا لا يسمّي سطر بيبو شكل العبوة','And why the BeBo line names no format',True)}
 {eb('أغنية المسابقة','THE GIVEAWAY SONG')}{chip('BeBo · SLOGAN WRITTEN · SONG DRAFT','pend')}
 {bi('المسابقة تخص بيبو: هي المجموعة الأولى والأكثر مبيعًا، وأرخص عبوة فلا يكلّف الاشتراك الطفل شيئًا يُذكر، والجمهور أطفال يشتركون بحماس لا يضاهيه جمهور بالغ. وتُدار على حساب أليكس فودز، لأنه الحضور الوحيد الذي فيه جمهور، وهذا هو نموذج العلامة الأم يعمل كما صُمم. شعار الحملة مكتوب، ويحمل الآلية والجائزة في ثلاث كلمات: «صوّر واكسب مع بيبو». الآلية: صوّر كيس بيبو وابعته، وفايز كل أسبوع. تتطلب شراءً، وتنتج محتوى تستطيع الوكالة إعادة نشره، ولا تحتاج تغييرًا في العبوة. الأغنية تتبع قواعد الحملات لا قواعد العلامة، فالاستعجال والموعد مسموحان. تفتح وتقفل على سطر العلامة، لأن وظيفة أغنية المسابقة الحقيقية هي غرس الشعار في رأس الطفل بينما تحفّزه الجائزة على تكراره.',
     'The giveaway belongs to BeBo: it is the priority range, the best seller, the cheapest pack so entry costs a child almost nothing, and the audience is kids who enter giveaways with a willingness no adult audience matches. It runs on the Alex Foods account, because that is the only presence with an audience, which is the umbrella model working as designed. The campaign slogan is written and carries the mechanic and the reward in three words: shoot and win with BeBo. The mechanic is photograph a BeBo pack and send it in, one winner a week: it requires a purchase, it produces content the agency can repost, and it needs no pack change. The song plays by campaign rules rather than brand rules, so urgency and a deadline are allowed. It opens and closes on the brand line, because a giveaway song’s real job is drilling the slogan into a child’s head while the prize is motivating them to repeat it.')}""")

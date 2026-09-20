@@ -26,8 +26,8 @@ DEEP   = '#05004B'   # the seal ring's dark gradient stop. Hero panels only.
 RANGES = [
  dict(key='bebo', en='BeBo', ar='بيبو', sig='#1BA34C', logo='logo-bebo-transparent.png',
   packs=['bebo.png'],
-  fmt_en='Powder sachets. One makes a jug.', fmt_ar='ظرف بودرة. الواحد يعمل إبريق.',
-  who='The mother. The characters on the pack already own the child, so the copy talks to whoever is deciding.',
+  fmt_en='A juice. You drink it.', fmt_ar='عصير. بيتشرب.',
+  who='The kid. They ask for it and often pay from their own pocket money. A parent pays, but the copy does not talk to them.',
   idy='The face <b>is</b> the pack, and it takes the colour of its own flavour. KIDS ZONE sub-mark, red NEW flash, green banner with the navy keyline that never comes off.',
   fl=[('Peach · خوخ','#E4762A'),('Mango · مانجو','#F2A00C'),('Apple · تفاح','#2C8C3B'),('Cola · كولا','#1C74BC'),('Pineapple · أناناس','#C6D42E')]),
  dict(key='alrawy', en='AlRawy', ar='الراوي', sig='#1B4F9C', logo='logo-alrawy-transparent.png',
@@ -195,7 +195,7 @@ tpl=''
 for bg,cap_ar,kind,note,fg in [
  (DEEP,'طعم أحلى مع أليكس فودز','NAVY — THE MASTER SPEAKS','Brand, company, the ranges together.',PAPER),
  (RED,'جديد من أليكس فوودز','RED — A LAUNCH OR AN OFFER','The only full-bleed red in the system.',PAPER),
- ('#2C8C3B','قوليلهم آه.','FIELD — A PRODUCT POST','Flavour colour, the pack leads.',None)]:
+ ('#2C8C3B','طعمك انت.','FIELD — A PRODUCT POST','Flavour colour, the pack leads.',None)]:
     kl=False
     if fg is None: fg,_,kl = best(bg)
     ks = f'text-shadow:0 0 0.9mm {INK};' if kl else ''
@@ -236,7 +236,7 @@ always=['Write the Arabic first, then fit the English to it.',
  'Keep the navy keyline on the BeBo banner over any green.',
  'Name Alex Foods in every bio, sealed pack or not.']
 never=['Health claims. صحي · مفيد · يقوي المناعة · غني بالفيتامينات',
- '«طبيعي ١٠٠٪» or "100% juice". BeBo is a powder. AlRawy is a nectar.',
+ '«طبيعي ١٠٠٪» or "100% juice". BeBo is a juice. AlRawy is a nectar.',
  'Nutrition numbers without the client’s written spec sheet.',
  'Price claims. «الأرخص» is unverifiable and starts a public argument.',
  'Availability promises. Never name a shop that is not confirmed.',
@@ -274,7 +274,7 @@ page(f'''{eyebrow('افعل ولا تفعل','04 — RULES: DO &amp; DON&#39;T')
 
 # ============ PAGE 5 — PRODUCT TEMPLATES ============
 feed=''
-CAPS={'BeBo':('قوليلهم آه.','ظرف واحد يعمل إبريق كامل.'),
+CAPS={'BeBo':('طعمك انت.','خمس طعوم. اختار بتاعك.'),
       'AlRawy':('نكتار الراوي.','فاكهة، مش كلام.')}
 for r in RANGES[:2]:
     lab,fld = r['fl'][0]

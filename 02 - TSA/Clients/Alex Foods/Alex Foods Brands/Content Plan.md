@@ -113,8 +113,8 @@ Written against the content mix in the shipped kit: **40 product / 30 character 
 
 | | Range | Idea | Draft line |
 |---|---|---|---|
-| S1 | BeBo peach | Pack rises onto its peach field, sachet tilts, liquid catches light | «قوليلهم آه.» |
-| S2 | BeBo mango | Same frame, mango field. **Proves the template repeats** | «ظرف واحد يعمل إبريق كامل.» |
+| S1 | BeBo peach | Pack rises onto its peach field, tilts, liquid catches light | «طعمك انت.» |
+| S2 | BeBo mango | Same frame, mango field. **Proves the template repeats** | «خمس طعوم. اختار بتاعك.» |
 | S3 | AlRawy | Pouch, straw going in, lunchbox closing | «حطّيه في اللانش بوكس وانتي مطمنة.» |
 | S4 | POLEKA | The animal character leads, pack second | «مين معاك النهاردة؟» |
 | S5 | 2MAN | Cold, motion, outside | «برّه أحلى.» |

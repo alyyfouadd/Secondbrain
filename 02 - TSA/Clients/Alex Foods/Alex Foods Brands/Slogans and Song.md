@@ -131,6 +131,13 @@ The campaign lockup (the fixed visual treatment carried across every giveaway as
 
 > **Aly's verdict: "Nothing will work from these."** All ten. Not a shortlist to trim, a set to throw away. **The lines stay printed below because the next attempt has to not repeat them**, and because the diagnosis is worth more than the lines were.
 
+<!-- retired-ok:start -->
+
+> **EVERYTHING BELOW THIS LINE IS THE AUDIT TRAIL, NOT THE DELIVERABLE.**
+> It records every round of slogan work: the ten that were rejected, the diagnosis, the rewrite in the client's own register, and how each accepted line was arrived at. **It deliberately still contains the withdrawn candidates, because the reasoning is what the accepted lines rest on.**
+>
+> **The live lines are in [[Decisions]]** — «مع بيبو، اليوم أحلى» · «الراوي.. طعم تثق فيه» · «بوليكا.. انتعاش في ازازة» · «عيش جو المغامرة» · «صوّر واكسب مع بيبو». **Nothing below overrides that note.**
+
 ### The likely failure, named honestly
 
 **They are concept-first, not sound-first.** Each one was reverse-engineered from a feeling in §3 and then expressed in Arabic. That method produces lines that are *structurally* correct and pass all six tests on paper, and still sound like Arabic written by someone who learned it from a book.
@@ -696,7 +703,11 @@ Four reasons that hold independently of who decided it:
 
 ### The recommendation, rather than thirty options
 
-Clause 1 gives TSA execution and the client approval of an *outcome*. **Present one line per brand with at most two alternates.** The shortlist: **«من إسكندرية لكل البيوت»** for the master, **«قوليلهم آه»** for BeBo, **«اختيار من غير ندم»** for AlRawy, **عيش جو المغامرة** unchanged for 2MAN, and **«مين معاك النهاردة؟»** for POLEKA.
+Clause 1 gives TSA execution and the client approval of an *outcome*. **Present one line per brand with at most two alternates.**
+
+> **SUPERSEDED 20 September. The shortlist below was rejected in full and is kept only as the audit trail.** All ten candidates went and the lines were rewritten in the client's own register. **The live lines are in [[Decisions]]:** «مع بيبو، اليوم أحلى» for BeBo, «الراوي.. طعم تثق فيه» for AlRawy, «بوليكا.. انتعاش في ازازة» for POLEKA, **عيش جو المغامرة** unchanged for 2MAN, and «صوّر واكسب مع بيبو» for the giveaway.
+>
+> *The withdrawn shortlist: «من إسكندرية لكل البيوت» for the master, «قوليلهم آه» for BeBo, «اختيار من غير ندم» for AlRawy, «مين معاك النهاردة؟» for POLEKA.*
 
 ## 6. What this is waiting on
 
@@ -710,3 +721,5 @@ Clause 1 gives TSA execution and the client approval of an *outcome*. **Present 
 ---
 
 **Related:** [[Alex Foods]] · [[Giveaway Programme]] · [[Foundation Roadmap]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Marketing]]
+
+<!-- retired-ok:end -->

@@ -132,7 +132,7 @@ The Umrah campaign, parked by the client but coming. **A pilgrimage cannot be ad
 
 ---
 
-## 3. BeBo — powdered drink sachets
+## 3. BeBo — a juice, in pillow-bag sachets
 
 > **UNFROZEN AND SETTLED 20 September: BeBo is a JUICE. You drink it.** Their own page says «عصير بيبو», «وسبونج بوب شرب بيبو» and «اشرب بيبو» repeatedly, and Aly confirmed it. **The vault's *powder, one sachet makes a jug* was TSA's read off a pack graphic, and it was wrong.** The client said juice in the discovery answers, TSA deferred to its own reading, and the client was right. **Third time this week.**
 >
@@ -295,7 +295,7 @@ This section exists because a food page can be reported, and a paid ad account c
 **Never, on any of the four:**
 
 1. **Health or medical claims.** صحي · مفيد للصحة · يقوي المناعة · بيساعد على النمو · غني بالفيتامينات · خالي من السكر. These are regulated claims. TSA cannot verify a single one of them and the client has not supplied lab data.
-2. **"طبيعي ١٠٠٪" or "100% natural / 100% juice"** on any product here. BeBo is a powdered drink. AlRawy is a nectar. Neither claim is true as written and both contradict the client's own labels.
+2. **"طبيعي ١٠٠٪" or "100% natural / 100% juice"** on any product here. BeBo is a juice and AlRawy is a nectar, and neither is «طبيعي ١٠٠٪». Neither claim is true as written and both contradict the client's own labels.
 3. **Any nutritional number.** Calories, sugar content, fruit percentage, vitamin content. Not without the client's written spec sheet, and it has not arrived.
 4. **Named competitor comparisons**, or "أحسن من" against anyone.
 5. **Price claims.** "الأرخص" is unverifiable, varies by shop, and invites a public argument TSA cannot win. **But stating a price the client themselves publish is not a price claim.** They post «و ب ٢ جنيه بس» in their own copy, and **2 EGP is a real selling point on a pocket-money product.** **The ban is on superlatives and comparisons, never on a number the client has put in public.**

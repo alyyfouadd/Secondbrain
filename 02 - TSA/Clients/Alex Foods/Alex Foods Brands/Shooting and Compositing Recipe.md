@@ -107,7 +107,7 @@ Never scale a pack above its source size. If a scene needs a pack larger than th
 | الأرضية · Surface | خشب فاتح أو سطح ورقي `#FAF8F3` · light wood or a paper surface `#FAF8F3` |
 | الضوء · Light | ضوء صباح من نافذة · morning window light |
 | المزاج · Mood | هادئ، مرتب، بيت شغّال · calm, tidy, a house that works |
-| ممنوع هنا · Forbidden here | **لا تُظهر العبوة وهي تُحضَّر أو يُشرب منها** · **never show the pack being prepared or drunk from** |
+| ممنوع هنا · Forbidden here | **لا تُعاد تلوين شارة KIDS ZONE لتطابق النكهة** · **never recolour the KIDS ZONE lozenge to match the flavour** |
 
 > **سبب المنع، وهو سبب حقيقي · Why that ban, and it is a real one.** شكل استخدام بيبو غير محسوم حتى الآن بين الوكالة والعميل. الصورة التي تُظهر طريقة الاستخدام تعلن إجابة لا نملكها. تنتظر صورة ظهر العبوة.
 > BeBo's format is not yet settled between the agency and the client. An image showing how it is used asserts an answer we do not have. It waits on a photo of the back of the pack.
@@ -251,7 +251,7 @@ no bottles, no sachets, no hands, no people, no faces, no watermark
 5. هالة بيضاء حول القص · a white halo around the cutout
 6. يد أو وجه أو شخص · a hand, a face, or a person
 7. فاكهة لا تخص النكهة المعروضة · fruit that is not the flavour shown
-8. بيبو وهي تُحضَّر أو يُشرب منها · BeBo being prepared or drunk from
+8. شارة KIDS ZONE مُعاد تلوينها · the KIDS ZONE lozenge recoloured
 9. صنف كولا بوليكا في أي مادة مدفوعة · the POLEKA cola SKU in any paid material
 10. عبوة مكبَّرة فوق دقتها الأصلية · a pack enlarged beyond its source resolution
 
@@ -326,7 +326,7 @@ no bottles, no sachets, no hands, no people, no faces, no watermark
 - [ ] لون المشهد لمس حواف العبوة · the scene's colour has touched the pack edges
 - [ ] لا يد، لا وجه، لا شخص · no hand, no face, no person
 - [ ] لا ادعاء صحي ولا نسبة فاكهة ولا رقم غذائي · no health cue, no fruit ratio, no nutritional number
-- [ ] بيبو ليست معروضة أثناء التحضير أو الشرب · BeBo is not shown being prepared or drunk from
+- [ ] شارة KIDS ZONE بلونها الأصلي · the KIDS ZONE lozenge in its original colours
 - [ ] صنف كولا بوليكا خارج أي مادة مدفوعة · the POLEKA cola SKU is out of all paid material
 
 ---

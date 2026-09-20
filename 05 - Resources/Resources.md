@@ -14,6 +14,10 @@ No Jobs are built yet, by choice. The trigger for building one is simple: the se
 ## Folders in here
 - **Marketing/** — [[Marketing]] · jaredrhod's marketing playbook: principles, the funnel, and a playbook each for copywriting, sales letters, email, ads, lead magnets, content and analytics. Read before any marketing work, for TSA or for a client.
 
+## Folders in here — tools
+
+- **vault-check/** — the guard that makes a correction stick. One row per retired claim in `retired.tsv`; `check.py` fails on any live statement of one, anywhere in the notes **or the generators**. **Run it before any render and before any commit.** See its `README.md`.
+
 ## Notes in this folder
 - [[Vault Rebuild Plan]] — how to stand this vault up properly: the four causes of its drift, the target shape, the conventions that stop it recurring, and the order of work. **Proposed, not approved.**
 - [[Daily Brief]] — **the five-line status that lands at 18:00 Cairo every day.** What it covers, the rules that keep it honest (never invent progress, never pad, name who owes what), when it runs and why that hour, and what it reads from. **Started 20 September.**

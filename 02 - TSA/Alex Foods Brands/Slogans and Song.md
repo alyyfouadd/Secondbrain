@@ -116,7 +116,100 @@ The campaign lockup (the fixed visual treatment carried across every giveaway as
 
 **Volume in Arabic first, sound before sense, and a reference point from a native ear.** Twenty to thirty per brand said out loud and cut, not ten reasoned into existence. §4 point 3 already says this and it was skipped.
 
-## 5c. The ten rejected lines — kept so they are not re-proposed
+## 5b-ii. The real diagnosis — Aly, 20 September: "their slogans were good"
+
+**The client's own in-market lines work. That is the register, and it is not the one I was writing in.**
+
+| Their line | What it does |
+|---|---|
+| **«طعم أحلى مع أليكس فودز»** | Comparative + **مع** + brand name. Warm, direct, and it names the brand inside the line. |
+| **«عيش جو المغامرة»** | Imperative verb + **جو**, which is a phrase people already say. Not a built sentence. |
+| **«جودة نثق بها منذ ٢٠ عامًا»** | Trust stated plainly. No cleverness anywhere in it. |
+
+### What that reveals about my ten
+
+**I was applying a Western direct-response doctrine to a brand whose own working lines contradict it.** §1 of this note says *never describe the product, never name it, sell the feeling* — and that rule is correct for a headline in a funnel. **It is not the register that sells sachets in Alexandria.**
+
+Their lines **do** name the brand. They **do** sit close to the product. They are warm rather than clever, and they use everyday comparatives — **أحلى** most of all — that a person actually says. Mine were minimal, abstract and slightly cold, and «اختيار من غير ندم» is the clearest evidence: a proposition, not a sentence.
+
+> **The correction to §1, and it is a real one: the "never name the product" rule is a headline rule, and this note already warned that headline rules do not transfer wholesale to slogans.** It named specificity and urgency as the things that do not carry. **It missed the bigger one: in this market and for this brand, naming the brand inside the line is not a weakness, it is the register.**
+
+### The strategic consequence nobody had drawn
+
+**If their lines are good, the master line already exists.** «طعم أحلى مع أليكس فودز» is in market, it works, and it is theirs. **The same rule that protects عيش جو المغامرة protects this one: replacing a working line to justify a deliverable destroys equity TSA was hired to build.**
+
+**So two of the five brands are already solved, and the honest deliverable is three lines plus a giveaway, not five plus a giveaway.** That is a smaller bill of work and a better answer.
+
+---
+
+## 5c. Rewrite — in their register, 20 September 2026
+
+**Built on their own patterns rather than against them.** Volume was written per brand and cut; what is below is the cut, not the pool.
+
+### Already solved, and not touched
+
+| Brand | Line | Why it stays |
+|---|---|---|
+| **أليكس فودز** | **«طعم أحلى مع أليكس فودز»** | **Theirs, in market, and it works.** It is the pattern everything below is built on. |
+| **تومان** | **«عيش جو المغامرة»** | Already on pack and already correct. |
+
+### The three that need a line
+
+**BeBo** — the mother, and the pattern is theirs exactly:
+- **«مع بيبو، البيت أحلى»** — *With BeBo, the house is nicer.* Their **مع + أحلى** structure, pointed at her rather than the child, and it names no format.
+- «بيبو.. وكل البيت مبسوط» — *BeBo, and the whole house is happy.*
+
+**AlRawy** — the buyer, and it borrows their own trust language:
+- **«الراوي.. طعم تثق فيه»** — *AlRawy, a taste you trust.* **Echoes «جودة نثق بها» directly**, which is the client's own word for what AlRawy is for. No fruit, no juice, no natural, no organic.
+- «مع الراوي، الاختيار سهل» — *With AlRawy, the choice is easy.*
+
+**POLEKA** — the child, and it has to be askable out loud:
+- **«مع بوليكا، اللعب أحلى»** — *With POLEKA, playing is better.* Their pattern, aimed at play rather than flavour.
+- «اجمعهم كلهم» — *Collect them all.* **This one is a mechanic, not a mood**, and it is the line that makes a child ask for the next character by name.
+
+### Under 2MAN's tagline, never instead of it
+- «الصيف مع تومان أحلى» — *Summer is better with 2MAN.* Their pattern again, seasonal, sits beneath the existing line.
+
+> **All of these are drafts for Aly's ear and nothing more.** The last set passed every structural test and still failed the only test that matters. **Say them out loud before anything is built on them.**
+
+---
+
+## 5d. The giveaway — mechanic, lockup and song
+
+**The song obeys campaign rules, not brand rules.** Urgency, specificity and a deadline are all allowed here, because a giveaway opens and closes.
+
+### The mechanic, which decides everything else
+
+**Photograph the pack, send it, weekly winner.** Chosen over the alternatives for specific reasons:
+
+| Option | Verdict |
+|---|---|
+| **Photo of the pack, sent in** | **This one.** It requires a purchase, produces user content TSA can repost, and needs no code printing or pack change. |
+| Tag friends in comments | Free to enter, so it inflates reach and sells nothing. **The client wants shops, not tags.** |
+| Code under the wrapper | **Requires a pack change and a print run.** Outside scope, and the packs are already in market. |
+| Receipt upload | Excludes every kiosk sale, which is most of them. |
+
+**Cadence: one winner a week.** Weekly gives the page a recurring reason to post, and a deadline that renews rather than one that expires.
+
+### What the lockup has to hold
+**One fixed visual treatment across all four ranges**, because four ranges running four differently shaped giveaways is exactly what a campaign lockup exists to prevent. It carries: the giveaway name, the mechanic in one line, the weekly cadence, and the Alex Foods seal. **It sits on the master, not on a range**, since the master is the account that posts.
+
+### The song — DRAFT, needs Aly's ear
+
+**Rules it obeys:** the brand name is inside the hook rather than in a line before or after it · it sits on a metre that can be chanted, **because children will perform it badly and that is the distribution** · the mechanic is named in the second line · it is written, not produced.
+
+> «أليكس فودز، هات وصوّر
+> كل أسبوع في فايز يظهر
+> ابعت دلوقتي من غير تأخير
+> بكرة تكون انت وتشوف الخير»
+
+**Brand in line 1. Mechanic in lines 1 and 3. Weekly cadence and urgency in lines 2 and 3. Direct address in line 4.** Rhyme runs صوّر / يظهر, then تأخير / الخير.
+
+**Marked draft deliberately.** Ten structurally correct lines were rejected yesterday, and a song is harder than a slogan because it has to survive being sung badly.
+
+---
+
+## 5e. The ten rejected lines — kept so they are not re-proposed
 
 **Written in Egyptian colloquial, out loud, never translated.** English below each one is a gloss so a non-Arabic reader can follow the argument, not a twin to publish. Every line was run against the six tests in §4.
 

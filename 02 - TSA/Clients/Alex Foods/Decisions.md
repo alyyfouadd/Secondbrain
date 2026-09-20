@@ -34,6 +34,7 @@ type: reference
 
 | # | Date | Decision | Rests on | Overturned |
 |---|---|---|---|---|
+| 31 | 20 Sep | **Mahmoud's rates: 2,000 for the visual kit, 300 per post** | Aly | The blank in cost of delivery. **X is now two-thirds known and it produces a hiring ceiling for the animator** — [[TSA Money]] |
 | 30 | 20 Sep | **BeBo's legal product type is «مشروب سكري صناعي» — an artificial sugary drink, 75 ml, ready to drink** | **The back of a BeBo mango pack, read directly** (`packshots/bebo-mango-back.png`): «نوع المنتج: مشروب سكري صناعي بطعم المانجو محلي بالسكر والمحليات», ingredients led by ماء, «الوزن: ٧٥ مل تقريبا», Egyptian standard 1602/2002 | **Every surviving trace of the jug**, including animation A1 in [[Content Plan]] §5. BeBo is neither a powder nor a jug. **Whether TSA may write «عصير» is now open — see the table above** |
 | 29 | 20 Sep | **The Alexandria shelf walk is dropped** | Aly | The only sourced competitor route deliverable 8 had. **The competitor read becomes a digital-shelf read** — delivery apps, the Meta Ad Library and competitor pages — and loses shelf position and the till-side box, which nothing remote can supply |
 | 28 | 20 Sep | **Account access arrives as a shared login, not partner access.** Meta and Google both | The client sent emails and passwords; the verification code follows on 21 Sep | [[Meta Access Runbook]]'s *never ask for a login* — overtaken by events. **The rule that replaces it: the login is used once, to grant TSA partner/owner access, then never again** |

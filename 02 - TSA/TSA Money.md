@@ -59,13 +59,28 @@ In plain terms: **it is not profit, it is an advance.** Some of it has to surviv
 >
 > | Line | Rate | Status |
 > |---|---|---|
-> | **Media buyer — paid campaign management** | **2,000/month, fixed** | **Known.** The only priced line. **Confirm it is per month and not per campaign** before relying on it |
-> | **Mahmoud — 12 graphics/month** | — | Rate not recorded. **Ask** |
-> | **CGI animator — 8 motion pieces/month** | — | **Role not filled.** No rate, no person |
+> | **Media buyer — paid campaign management** | **2,000/month, fixed** | **Confirm it is per month and not per campaign** before relying on it |
+> | **Mahmoud — 12 graphics/month** | **300 each = 3,600/month** | **AGREED 20 Sep** ([[Decisions]] #31). **Confirm whether 300 is per asset or per delivered post** — a feed post and its story crop are two files and one asset |
+> | **Mahmoud — the visual kit and guidelines** | **2,000, one-off** | **AGREED 20 Sep.** Against the **Foundation's** 20,000, not the retainer. **The Foundation had no cost of delivery until this line existed** |
+> | **CGI animator — 8 motion pieces/month** | — | **Role not filled.** No rate, no person. **The only blank left in X** |
 > | Tools and software | Near zero | The documents build on a free rail. The AI product shooter's tooling is unpriced |
 > | Transfer fees | Small, real | InstaPay and Vodafone Cash |
 >
 > **Every rate here is per month and repeats three times**, so a rate agreed casually for month 1 is a rate agreed against 126,000 EGP of revenue. **Drawable = 42,000 − X**, and clearing all 23,000 of debt needs X at or under 19,000. **Three suppliers splitting 19,000 a month is the whole question**, and it is answerable this week rather than after the fact.
+>
+> ### X is now two thirds known, and it produces a hiring ceiling — computed 20 September
+>
+> | | Per month |
+> |---|---|
+> | Mahmoud, 12 graphics | **3,600** |
+> | Media buyer | **2,000** |
+> | **Known X** | **5,600** |
+> | **Ceiling before the debt stops clearing** (X ≤ 19,000) | **19,000** |
+> | **What is left for the animator** | **13,400 for 8 motion pieces** *(calculated)* |
+>
+> **So the animator's ceiling is roughly 1,675 per motion piece**, and above that the 23,000 of personal debt stops clearing out of this month. **That is a number to negotiate against rather than a feeling**, and it is the first time this note has had one.
+>
+> **And there is a cheaper shape worth trying first.** At 300 a post Mahmoud is cheap, and an animated still is a designed frame with a small motion pass on it. **If Mahmoud designs the six still frames at his post rate (1,800), the animator's scope drops from eight originated pieces to two films plus six passes on finished art.** Known X rises to 7,400, the animator's room falls to 11,600 — **but for two films and six passes rather than eight builds, which should cost materially less and de-risks the largest hole in the month.** Proposed in [[Month 1 Asset Brief]] §5.
 >
 > **Two risks worth naming.** The animator is **unfilled and is 8 of the 20 assets** — so the largest part of X is also the least known, and a scramble hire on a running paid month is how a margin disappears. And the media buyer must be kept away from a direct client relationship: clause 1 keeps execution TSA's, clause 5 keeps the working method agency property.
 >

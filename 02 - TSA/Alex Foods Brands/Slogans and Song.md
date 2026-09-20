@@ -227,20 +227,41 @@ Four reasons that hold independently of who decided it:
 
 **Weekly, not monthly.** A weekly winner gives the page a recurring reason to post and a deadline that renews rather than one that expires.
 
-### The song — DRAFT, and the hook is now BeBo's
+### The campaign line — «صوّر واكسب مع بيبو»
 
-**Rules it obeys:** brand name inside the hook rather than in a line before or after it · a metre that can be chanted, **because children will perform it badly and that is the distribution** · the mechanic named in the second line · written, not produced.
+> ### «صوّر واكسب مع بيبو»
+> *Shoot and win with BeBo.*
+>
+> **Aly's line, 20 September 2026.** This is the **giveaway slogan**, which is a **Package A** line item rather than a Foundation one. **That line item is now written.**
 
-> «بيبو معاك كل يوم
-> صوّر كيسك وابعتلنا
+**Why it beats what I had.** My song's second line was «صوّر كيسك وابعتلنا» — it named the mechanic and stopped there. **This one carries the mechanic and the reward in three words**, which is the entire campaign proposition in a single breath.
+
+| | |
+|---|---|
+| **Two imperative verbs** | **صوّر** and **اكسب**. Action and payoff, in that order, with nothing between them. |
+| **«مع بيبو»** | Their own **مع** pattern, brand named inside the line, exactly as «طعم أحلى مع أليكس فودز» does it. |
+| **It is a campaign line, not a brand line** | **And that distinction is the architecture working properly.** It sits *beside* «بيبو معاك كل يوم», never instead of it. The brand line claims the habit forever; the campaign line runs while the campaign runs. |
+| **Three beats** | صوّر · واكسب · مع بيبو. Chantable. |
+
+> **The pairing is what makes both stronger.** «بيبو معاك كل يوم» is the permanent claim. «صوّر واكسب مع بيبو» is the temporary ask. **A campaign line that carries the brand name means the campaign spends its budget on the brand rather than on itself**, which is the whole reason a campaign lockup exists as a deliverable.
+
+### The song — rebuilt on Aly's line, DRAFT
+
+**Rules it obeys:** brand name inside the hook · a metre that can be chanted, **because children will perform it badly and that is the distribution** · the mechanic named early · written, not produced.
+
+> «صوّر واكسب مع بيبو
 > كل أسبوع في فايز جديد
+> ابعت صورتك من دلوقتي
 > بيبو معاك كل يوم»
 
-**The structural move: the song opens and closes on the brand line.** Line 1 and line 4 are «بيبو معاك كل يوم» unchanged. **A giveaway song's real job is not the giveaway, it is drilling the slogan into a child's head while they are motivated to repeat it.** The prize buys the repetition; the repetition plants the line.
+**The structure, which is the part worth keeping regardless of the wording:**
 
-Mechanic in line 2, weekly cadence and urgency in line 3.
+- **Line 1 is the campaign line.** It opens on the ask, because the prize is what buys the child's attention in the first place.
+- **Line 2 is the cadence.** Weekly, so the deadline renews rather than expires.
+- **Line 3 is the instruction.** Send it, now.
+- **Line 4 is the brand line, unchanged.** **The song closes on the permanent claim, not the temporary one.** The prize buys the repetition; the repetition plants «بيبو معاك كل يوم». When the campaign ends the line stays in the child's head, which is the only part of a giveaway with any residual value.
 
-> **Marked draft, and the metre specifically needs Aly's ear.** Rhyme currently runs وابعتلنا against the bookend rather than a clean pair, and **a song is harder than a slogan because it has to survive being sung badly.** Four Arabic drafts have been wrong this week; this one is not assumed right.
+> **Draft, and the metre is the part needing Aly's ear.** Rhyme currently leans on the bookend and the repetition rather than a clean pair, which is how Egyptian children's chants usually work but is not a decision I can make from outside the language. **Five Arabic drafts have been wrong this week; this one is not assumed right either.**
 
 ### One consequence for the calendar
 

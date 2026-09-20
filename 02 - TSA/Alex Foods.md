@@ -92,7 +92,7 @@ The monthly retainer that executes what the Foundation defined. These quantities
 - [ ] **1 × Content Calendar** — same format as the Foundation's, for the new month, delivered before that month starts.
 - [ ] **GBP + Local SEO maintenance** — update listing data, posts and photos; track local search visibility in Alexandria and surroundings.
 - [ ] **Paid Campaign Management** — campaign build, audience targeting, performance monitoring and in-flight optimisation. **Media spend does not pass through TSA** — the client pays the platforms directly.
-- [ ] **1 × Giveaway slogan and campaign lockup** — the campaign slogan and the fixed visual treatment carried across every giveaway asset.
+- [~] **1 × Giveaway slogan and campaign lockup** — **the slogan is written: «صوّر واكسب مع بيبو»**, chosen 20 September. Mechanic, cadence and the song are in [[Slogans and Song]] §5d. **The lockup itself is still to be designed**, and it carries BeBo's mark as campaign owner plus the Alex seal, because the master owns the seal.
 
 ### How a month runs
 1. **Calendar** — arrives before the month begins.

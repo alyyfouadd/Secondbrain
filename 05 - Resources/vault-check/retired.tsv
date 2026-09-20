@@ -1,0 +1,20 @@
+# Retired claims. One per line, tab separated:
+# pattern <TAB> what is true now <TAB> where the decision is recorded
+# A line is only a failure if it states the retired thing LIVE. Lines carrying a
+# history marker (SUPERSEDED, withdrawn, was wrong, CORRECTED, audit trail...) are allowed.
+BeBo is a powder	BeBo is a juice, you drink it	Decisions #22 area, 20 Sep
+powdered drink	BeBo is a juice	Decisions, 20 Sep
+Powder sachets	A juice. You drink it.	Decisions, 20 Sep
+ظرف بودرة	عصير. بيتشرب.	Decisions, 20 Sep
+إبريق كامل	BeBo names no format	Decisions, 20 Sep
+قوليلهم آه	مع بيبو، اليوم أحلى	Decisions, BeBo line 20 Sep
+اختيار من غير ندم	الراوي.. طعم تثق فيه	Decisions #19
+مبسوطين، وانتي مرتاحة	BeBo talks to the child	Decisions #17
+The mother. The characters	The kid. They ask for it	Decisions #17
+jelly candy	POLEKA is a frozen juice	Decisions #22
+no source files exist	the master seal is real vector	Decisions #14
+Design System v1.0.pdf	v1.1, and folded into the book	Decisions #11
+due 22 Sep	instalment 1 is due 26 September	TSA Money, 18 Sep
+prepared or drunk from	drinking BeBo is correct to show	Decisions, 20 Sep
+logos-transparent/logo-alex-lockup	logos-vector/alex-seal-flat.svg	Brand Book Spec 6b
+The Only Agency In Alex That Guarantees	Grow the standard. is the only tagline	TSA Brand System §3, retired v3.1

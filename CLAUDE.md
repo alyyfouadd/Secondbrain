@@ -43,6 +43,8 @@ At the start of every session:
 
 A fresh or post-compaction session must never operate without these.
 
+*Rules 14 to 17 were added on 20 September 2026, after a full read of the vault found nine drift items and three session branches that had never reached the trunk. **They are the four conventions from [[Vault Rebuild Plan]]**, promoted here because a convention that lives only in a plan is a convention that lapses at the next compaction.*
+
 1. **Evidence only, never guess.** Verify state from the actual file or command before claiming anything is done, current, or in place. "I think / probably / should be" without checking is unacceptable. If you're unsure, say so and go find out.
 
 2. **Double-confirm before any source-code edit.** Treat project source code as read-only by default. Before editing any code file, any config that affects a running system, or any commit / push / deploy, state the exact change in plain language and wait for explicit confirmation, even when the request seemed obvious. (Editing notes in the vault does not require confirmation.)
@@ -65,7 +67,22 @@ A fresh or post-compaction session must never operate without these.
 
 11. **Verify the date.** Check the actual system date before writing a date into anything permanent. Conversations stay open overnight, and a wrong date poisons every note it touches. **This one bites here more than most:** I'm in Egypt (Africa/Cairo) and I sleep around 8 AM, so most of my sessions run through the night and cross midnight mid-conversation. The machine you run on may well be on UTC. Convert to Cairo time before you write a date or a timestamp anywhere.
 
-12. **Locked decisions stay locked.** If an instruction would contradict a rule marked "Locked" or a deliberate prior decision, pause and surface it ("this contradicts [X]. Are you changing it, or is this a one-time exception?") instead of silently overriding it.
+12. **The client's own words outrank your reading of their materials. Always, and without a "let me check one more thing" in between.** When what they say conflicts with what you inferred from a pack, a logo, a screenshot or a previous session's note, **they are right and you are wrong until proven otherwise.** Three enforcements, because this failed seven times in three days on one client and every failure had the same shape:
+    - **Open the source before you write about the thing.** If an image, a PDF or a file exists in the folder, **look at it.** Never work from a description somebody else wrote when the original is one command away. *(Ten slogans were written for a product from a note that misdescribed it, with the photograph sitting in the same folder.)*
+    - **Never defer a contradiction.** Noticing that their statement conflicts with your reading and writing *"worth one more question rather than a rewrite"* is how a whole voice section gets built on the wrong person. **Resolve it in that pass or stop.**
+    - **Ask what already exists before designing what is missing.** *"What are you already running?"* comes before *"here is what you should run."* **Two giveaway mechanics and three live campaigns were invented around rather than found.**
+
+13. **Locked decisions stay locked.** If an instruction would contradict a rule marked "Locked" or a deliberate prior decision, pause and surface it ("this contradicts [X]. Are you changing it, or is this a one-time exception?") instead of silently overriding it.
+
+14. **One fact, one owner. Link, never restate.** Every fact has exactly one note that owns it, and every other note points at that note instead of repeating it. **The test: changing one fact should require editing exactly one file.** When it takes six, five of them will rot — that is not a risk, it is what happened, twice in three days, to the vector-logo status and to POLEKA's product category. **If you are about to type a fact into a note that does not own it, type a link instead.**
+
+14b. **A reversal is not done until `vault-check` is clean.** When a decision retires a fact, add a row to `05 - Resources/vault-check/retired.tsv` in the same checkpoint and run `python3 "05 - Resources/vault-check/check.py"`. **Discipline alone does not propagate a correction** — it reached the voice guide and stopped, while the brand book went on describing BeBo as a powder in copy written to a mother, because the generators hold their own copy of the content. **The check is what finds the copies. Never render or commit on a failing check.**
+
+15. **Current state on top, history below the line.** A note's body describes **only what is true now.** Superseded models, retired rules and the reasoning that overturned them go into a `## How we got here` section at the foot of the note, or into that client's `Decisions.md`. **No blockquote in a body ever corrects the paragraph above it** — rewrite the paragraph and log the change underneath. A governance document that argues with itself has already failed the person reading it.
+
+16. **Status lives in a register row, never in prose.** If a thing has a state — a deliverable, a client material, an invoice, an open question — it gets a row in the register that owns it, and **no note describes that state in a sentence.** Notes say what a thing *is*; registers say where it *got to*. For a client that register is `Delivery Register.md`.
+
+17. **One ref, always.** Work on `main`. A session branch gets merged and deleted **in the session that created it**, not "later". A checkpoint is not saved until it is on the trunk. **This has now broken three times** — 18 September, 20 September, and again at four times the scale — and each recovery cost a whole session, so it is a numbered rule rather than a habit.
 
 ## How the vault stays healthy
 - **The vault is the memory.** Hold only the current task; reach for the rest on demand. Keeping the vault current is not busywork — it is how the system maintains itself. Letting it drift, or skipping a checkpoint, breaks the exact thing that makes the AI useful.

@@ -1,0 +1,1146 @@
+# -*- coding: utf-8 -*-
+# ALEX FOODS - BRAND FOUNDATION. The one book.
+# Single source for every section. recipe.py renders section 16 alone for the
+# early ship; it imports from here so the text exists in one place only.
+# NOTE: no em dashes in output copy. Voice Guide S1 rule 8.
+import io, os, sys
+HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,HERE)
+exec(open(os.path.join(HERE,'colour.py')).read().split('# sanity')[0])
+from ranges import RANGES
+
+PAPER='#FAF8F3'; INK='#141414'; GRAPH='#4A4742'; SLATE='#8A8681'
+SILVER='#C9C5BC'; MIST='#EDEAE3'; RED='#E1251D'; NAVY='#0A0378'; DEEP='#05004B'
+VER='v1.0'; DATE='09.10.2026'
+
+def verdict(h):
+    k=ratio(INK,h); w=ratio('#FFFFFF',h)
+    if k>=4.5 and k>=w: return ('INK',k,False)
+    if w>=4.5 and w>k:  return ('WHITE',w,False)
+    return ('KEYLINE',max(k,w),True)
+
+seen={}
+for r in RANGES:
+    seen.setdefault(r['sig'],[]).append((r['en'],'range signature'))
+    for en,ar,h in r['fl']: seen.setdefault(h,[]).append((r['en'],en+' field'))
+COLL={h:v for h,v in seen.items() if len(v)>1}
+NF=sum(len(r['fl']) for r in RANGES)
+NINK=sum(1 for r in RANGES for _,_,h in r['fl'] if verdict(h)[0]=='INK')
+NWHT=sum(1 for r in RANGES for _,_,h in r['fl'] if verdict(h)[0]=='WHITE')
+NKEY=sum(1 for r in RANGES for _,_,h in r['fl'] if verdict(h)[2])
+
+SEC=[]           # (id, label_en, label_ar, [page_bodies])
+def sec(i,en,ar,*bodies): SEC.append((i,en,ar,list(bodies)))
+def eb(ar,en): return f'<div class="eb"><span>{en}</span><i></i><b class="ar">{ar}</b></div>'
+def cnr(): return '<i class="cnr tl"></i><i class="cnr tr"></i><i class="cnr bl"></i><i class="cnr br"></i>'
+def bi(ar,en): return f'<div class="bi"><p class="ar">{ar}</p><p class="en">{en}</p></div>'
+def note(ar,en,tar,ten,warn=False):
+    return (f'<div class="note{" warn" if warn else ""}"><b>{tar} · {ten}</b>'
+            f'<p class="ar">{ar}</p><p class="en">{en}</p></div>')
+def ok(ar,en,warn=False):
+    return f'<div class="ok{" warn" if warn else ""}"><b>{ar}</b><span class="en">{en}</span></div>'
+def chip(t,cls=''): return f'<div class="chip{(" chip-"+cls) if cls else ""}">{t}</div>'
+def rule(ar,en,sm=False):
+    return (f'<div class="rule{" sm" if sm else ""}">{cnr()}<p class="ar rl">{ar}</p>'
+            f'<p class="rl en">{en}</p></div>')
+
+# ================= 00 COVER =================
+band=''.join(f'<i style="background:{r["sig"]}"></i>' for r in RANGES)
+sec('00','COVER','الغلاف', f'''<div class="cover">{cnr()}
+<div class="cvtop"><img class="seal" src="../logos-vector/alex-seal-flat.svg"></div>
+<div class="cvmid">
+ <h1 class="ar">الأساس التجاري</h1><h2>BRAND FOUNDATION</h2>
+ <p class="ar cvsub">أليكس فودز · الشركة الإسكندرية لتعبئة وتغليف المواد الغذائية</p>
+ <p class="cvsub">ALEX FOODS &nbsp;·&nbsp; ALEXANDRIA, EGYPT</p></div>
+<div class="cvbot">
+ <div class="cvmeta"><span>PREPARED BY</span><b>THE STANDARD AGENCY</b></div>
+ <div class="cvmeta"><span>VERSION</span><b>{VER}</b></div>
+ <div class="cvmeta"><span>DATE</span><b>{DATE}</b></div>
+ <div class="cvmeta"><span>APPROVER</span><b class="pend">TO BE NAMED</b></div></div>
+<div class="cvband">{band}</div></div>''')
+
+# ================= 01 HOW TO USE =================
+sec('01','HOW TO USE THIS BOOK','كيف تُستخدم', f'''{eb('كيف تُستخدم هذه الوثيقة','01 · HOW TO USE THIS BOOK')}
+{bi('هذه وثيقة يُرجع إليها، لا وثيقة تُقرأ مرة واحدة. أرقام الصفحات حقيقية ويمكن الاستشهاد بها في مكالمة. كل قسم مستقل بذاته ويمكن فتحه دون قراءة ما قبله.',
+    'This is a document to look things up in, not one to read once. The page numbers are real and quotable on a phone call. Every section stands alone and can be opened without reading what came before it.')}
+{eb('الحالة على كل قسم','THE STATUS CHIP ON EVERY SECTION')}
+<div class="chips">
+ {chip('DEFINED','ok')}<p>القسم مكتمل وجاهز للعمل به · complete and ready to work from</p>
+ {chip('SPEC · EXECUTION PENDING CLIENT ACCESS','wait')}<p>مكتوب بالكامل، والتنفيذ ينتظر صلاحية من العميل · fully written, execution waits on client access</p>
+ {chip('PENDING CLIENT INPUT','pend')}<p>ينتظر إجابة أو مادة من العميل · waiting on an answer or a material from the client</p>
+</div>
+{note('الوثيقة تقول حالتها بصدق على كل صفحة. القسم الذي ينتظر شيئًا يقول ما ينتظره ومن، بدل أن يبدو ناقصًا بلا تفسير.',
+ 'The book states its own status honestly on every page. A section that is waiting says what it waits on and who from, rather than simply looking unfinished with no explanation.',
+ 'لماذا الحالة مكتوبة','Why the status is printed')}
+{eb('القواعد التي تحكم كل صفحة','THE RULES THAT GOVERN EVERY PAGE')}
+<ol class="ru">
+<li><span class="ar">العربية تُكتب أولًا، والإنجليزية تُركَّب عليها.</span><span class="en">Arabic is written first and English is fitted to it, never the other way round.</span></li>
+<li><span class="ar">كل رقم في هذه الوثيقة محسوب، لا مُقدَّر.</span><span class="en">Every number in this book is computed, not estimated. Contrast uses the WCAG 2.1 relative luminance formula.</span></li>
+<li><span class="ar">لا يُكتب أي اسم علامة بخط. الأسماء فن، لا نص.</span><span class="en">No brand name in this system is ever set in a font. The wordmarks are artwork, not type.</span></li>
+<li><span class="ar">ما لم يصل من العميل مكتوبًا، لا تعرفه الوكالة.</span><span class="en">If it did not arrive from the client in writing, the agency does not know it.</span></li>
+</ol>''')
+
+# ================= 02 CONTENTS =================
+DELIV=[('03','البنية','Brand architecture','—','ok'),('04','نظام الألوان','Colour system','2','ok'),
+('05','نظام الخطوط','Type system','2','ok'),('06','الشعارات والختم','Logo and seal use','2','ok'),
+('07','المجموعات','The ranges','—','ok'),('08','صوت العلامة','Brand voice','1','ok'),
+('09','نظام الكتابة','The caption system','1','ok'),('10','الشعارات والأغنية','Slogans and the song','4','pend'),
+('11','اللوحة والشبكة','Canvas and grid','3','ok'),('12','العبوة على الحقل','The pack in field system','3','ok'),
+('13','الشارات والشخصيات','Flashes and characters','3','ok'),('14','إعداد الصفحات','Social pages setup','3','wait'),
+('15','الحركة','Motion','6','ok'),('16','وصفة التصوير','Shooting and compositing','6','ok'),
+('17','خطة المحتوى','Content calendar','5','pend'),('18','أنماط المنشورات','Post archetypes and patterns','5','pend'),
+('19','نشاط جوجل','Google Business Profile','7','wait'),('20','سيو الإسكندرية','Local SEO','8','pend'),
+('21','الالتزام','Compliance','—','ok'),('22','النظام بالأرقام','The system in numbers','—','ok')]
+cb=''.join(f'''<tr><td class="mono n">{i}</td><td class="ar">{ar}<span class="en">{en}</span></td>
+ <td class="mono d">{d}</td><td class="st"><i class="{c}"></i></td></tr>''' for i,ar,en,d,c in DELIV)
+sec('02','CONTENTS','المحتويات', f'''{eb('المحتويات وخريطة التسليمات','02 · CONTENTS &amp; DELIVERABLE MAP')}
+{bi('العمود الأيمن يربط كل قسم بالتسليم المقابل له في نطاق الخدمة الموقَّع، بنفس ترقيم المستند الأصلي. هذه الوثيقة تغطي الثمانية تسليمات المتفق عليها.',
+    'The right column maps each section to its deliverable in the signed Service Scope, using that document’s own numbering. This book covers the eight agreed deliverables.')}
+<table class="t3 toc"><thead><tr><th>§</th><th>القسم · SECTION</th><th>التسليم · DELIV.</th><th>الحالة</th></tr></thead><tbody>{cb}</tbody></table>
+<div class="lgd"><span><i class="ok"></i> DEFINED</span><span><i class="wait"></i> SPEC · PENDING ACCESS</span><span><i class="pend"></i> PENDING CLIENT INPUT</span></div>''')
+
+# ================= 03 BRAND ARCHITECTURE =================
+sec('03','BRAND ARCHITECTURE','بنية العلامة', f'''{eb('بنية العلامة','03 · BRAND ARCHITECTURE')}{chip('DEFINED','ok')}
+{rule('أليكس فودز هي العلامة الأم. الأربعة مجموعات تحتها.','ALEX FOODS IS THE MASTER BRAND. THE FOUR ARE RANGES BENEATH IT.')}
+{bi('هذا ليس رسمًا توضيحيًّا، بل قرار عن كيفية دخول الشركة إلى السوق. كل شيء بعده تطبيق له: حساب واحد لأليكس فودز لا أربع صفحات، وخطة محتوى واحدة تدور فيها المجموعات، وكل تعريف حساب يذكر أليكس فودز.',
+    'This is not a diagram, it is a decision about how the company goes to market. Everything after it is application: one Alex Foods presence rather than four brand pages, one content calendar with the ranges rotating inside it, and every bio naming Alex Foods.')}
+<div class="hier">
+ <div class="hlv m"><b class="ar">الماستر</b><span>MASTER</span><em class="ar">أليكس فودز · الختم</em></div>
+ <div class="harr"></div>
+ <div class="hrow">{''.join(f'<div class="hlv r"><b class="ar">{r["ar"]}</b><span>{r["en"]}</span><i style="background:{r["sig"]}"></i></div>' for r in RANGES)}</div>
+ <div class="harr"></div>
+ <div class="hlv f"><b class="ar">النكهة</b><span>FLAVOUR</span><em class="ar">حقل لكل صنف · {NF} حقلًا</em></div>
+</div>
+{note('لون النكهة يملك الحقل. لون المجموعة يملك الشعار. الماستر يملك الختم، ولا يأخذ أيًّا منهما.',
+ 'The flavour colour owns the field. The range colour owns the logo. The master owns the seal, and it takes neither.',
+ 'قاعدة الملكية','The ownership rule')}
+{note('الختم موجود على الراوي وتومان، وغائب عن بيبو وبوليكا. هذا طرح لم يكتمل، وليس تصنيفًا. العبوات المطبوعة تبقى كما هي، والطباعة الجديدة تحمل الختم على كل مجموعة.',
+ 'The seal is on AlRawy and 2MAN and absent from BeBo and POLEKA. That is a rollout that has not caught up, not a tier. Printed packs stay exactly as they are, and new print carries the seal on every range.',
+ 'الختم طرح، لا تصنيف','The seal is a rollout, not a tier',True)}
+{note('الماستر يملك الختم والحضور، والمجموعات تحتفظ بألوانها الأربعة المتنافرة، لأن ذلك التنافر هو الشيء الوحيد الذي يفصلها على الرف. علامة أم تعيد طلاء مجموعاتها تدمّر التمييز الذي تعتمد عليه.',
+ 'The master owns the seal and the presence, and the ranges keep their four clashing palettes, because that clash is the only thing separating them on a shelf. A master brand that repainted its ranges would destroy the differentiation it depends on.',
+ 'ولا توجد لوحة ألوان للماستر','And there is no house palette')}''')
+
+# ================= 04 COLOUR =================
+NEUT=[('Paper','ورقي',PAPER,'كل خلفية','every background'),('Ink','حبري',INK,'النص في كل مكان','type everywhere'),
+('Graphite','رصاصي',GRAPH,'نص ثانوي','secondary type'),('Slate','أردوازي',SLATE,'تعليقات بحجم العرض فقط','captions, display size only'),
+('Silver','فضي',SILVER,'خطوط وفواصل، لا نص','rules and dividers, never type'),('Mist','ضبابي',MIST,'تعبئة اللوحات، لا نص','panel fills, never type'),
+('System Red','أحمر النظام',RED,'لكنة، كلمة واحدة، لا نص متن','accent, one word, never body'),('Alex Navy','كحلي أليكس',NAVY,'الماستر والحساب','master mark and profile')]
+nb=''.join(f'''<div class="csw"><div class="chipc" style="background:{h};{'border:0.25mm solid '+SILVER if n in ('Paper','Mist') else ''}"></div>
+ <b>{n}</b><span class="ar">{ar}</span><span class="mono">{h}</span><span class="role">{re}</span>
+ <span class="cr">{ratio(INK,h):.2f} : 1 <em>on ink</em></span></div>''' for n,ar,h,ra,re in NEUT)
+fr=''
+for r in RANGES:
+    for i,(en,ar,h) in enumerate(r['fl']):
+        v,rt,key=verdict(h); cls='key' if key else ('wht' if v=='WHITE' else '')
+        fr+=(f'<tr class="{cls}"><td>{r["en"] if i==0 else ""}</td><td><b class="ar">{ar}</b><span class="en">{en}</span></td>'
+             f'<td class="mono">{h}</td><td class="sw"><i style="background:{h}"></i></td>'
+             f'<td class="mono num">{ratio(INK,h):.2f}</td><td class="mono num">{ratio("#FFFFFF",h):.2f}</td>'
+             f'<td class="v"><span class="{cls or "ink"}">{v}</span></td></tr>')
+cb2=''.join(f'''<div class="col"><div class="cs" style="background:{h}"></div><div class="cx"><b class="mono">{h}</b>
+ <ul>{''.join(f'<li><b>{a}</b> <span>{b}</span></li>' for a,b in v)}</ul></div></div>''' for h,v in COLL.items())
+
+sec('04','COLOUR SYSTEM','نظام الألوان',
+f'''{eb('نظام الألوان · الطبقة المحايدة','04 · COLOUR SYSTEM · THE NEUTRAL LAYER')}{chip('DEFINED','ok')}
+{bi('الشيء الوحيد الذي تشترك فيه المجموعات الأربع ولا يملكه أيٌّ منها. هذه هي الطبقة التي يمكن أن يوجد فيها مستوى للشركة دون أن يُسطّح المجموعات.',
+    'The one thing all four ranges share and none of them currently had. This is the layer where a house level can exist without flattening the ranges.')}
+<div class="csws4">{nb}</div>
+{note('أحمر النظام يعطي 4.41 إلى 1 على الأرضية الورقية. يعبر حد 3 إلى 1 لأحجام العرض ولا يعبر 4.5 لنص المتن. لذلك هو لون عناوين، ولا يُكتب به نص متن أبدًا، وهذه الوثيقة تلتزم بذلك على صفحاتها.',
+ 'System Red gives 4.41:1 on Paper. It clears 3:1 for display sizes and misses 4.5:1 for body copy. So it is a headline colour and never body copy, and this book obeys that on its own pages.',
+ 'الأحمر لون عناوين','Red is a headline colour',True)}''',
+f'''{eb('حقول النكهات · الحكم محسوب','FLAVOUR FIELDS · THE VERDICT IS COMPUTED')}
+{ok(f'الافتراضي مقلوب: الحبري هو الأصل على حقل النكهة، والأبيض هو الاستثناء الذي يُفحص. الحبري يفوز على {NINK} من {NF}.',
+    f'The default is flipped: Ink is the default on a flavour field and white is the exception that has to be checked. Ink wins on {NINK} of {NF}.')}
+<table class="t3 ct"><thead><tr><th>المجموعة</th><th>النكهة · FLAVOUR</th><th>HEX</th><th></th><th>INK</th><th>WHITE</th><th>الحكم</th></tr></thead><tbody>{fr}</tbody></table>
+{note(f'ثلاثة حقول من {NF} لا يعبر عليها الحبري ولا الأبيض حدّ 4.5: تفاح بيبو، وكولا بوليكا، وفراولة بوليكا. هذه الثلاثة تحمل خطًّا محيطًا داكنًا خلف النص دائمًا.',
+ f'Three fields out of {NF} clear 4.5 with neither ink nor white: BeBo apple, POLEKA cola and POLEKA strawberry. Those three always carry a dark keyline behind the type.',
+ 'الحقول الثلاثة التي تحتاج خطًّا محيطًا','The three fields that need a keyline',True)}''',
+f'''{eb('التصادمات الدقيقة','EXACT COLLISIONS')}
+{bi(f'حساب اللوحة كاملةً ضد نفسها أخرج {len(COLL)} تصادمات دقيقة. ليست أخطاء، لأن العبوات مطبوعة وفي السوق ولا أحد يعيد طلاءها. تصبح أخطاء في اللحظة التي يُبنى فيها تخطيط دون معرفتها.',
+    f'Computing the palette against itself produced {len(COLL)} exact collisions. They are not defects, because the packs are printed and in market and nothing is being repainted. They become defects the moment a layout is built without knowing about them.')}
+<div class="cols">{cb2}</div>
+<table class="t3 rl2"><tbody>
+<tr><td class="n">1</td><td><b class="ar">العبوة هي التي تعرّف الصنف، لا الحقل.</b><span class="en"><b>The pack identifies the SKU, never the field.</b> A field colour is a stage, not a name. That is why a field may be reused and a pack may not.</span></td></tr>
+<tr><td class="n">2</td><td><b class="ar">مجموعتان لا تشتركان في تخطيط واحد أبدًا.</b><span class="en"><b>Two ranges never share one layout.</b> AlRawy peach and 2MAN red are the same red. Side by side they read as one product line; apart, nobody will ever know.</span></td></tr>
+<tr><td class="n">3</td><td><b class="ar">أخضر بيبو عنصر علامة على بيبو وحدها.</b><span class="en"><b>BeBo's signature green is also AlRawy's guava field and POLEKA's apple field.</b> It stays a brand element on BeBo only; elsewhere it is a stage, never a badge, a border or a logo ground.</span></td></tr>
+<tr><td class="n">4</td><td><b class="ar">بوليكا لها أربعة أصناف وثلاثة حقول، اثنان منها لون العلامة.</b><span class="en"><b>POLEKA has four SKUs but only three distinct fields, and two are the brand colour.</b> Four posts off the flavour map show three colours, one twice. <b>The extended layer is not optional on this range.</b></span></td></tr>
+<tr><td class="n">5</td><td><b class="ar">شريط بيبو الأخضر على حقل التفاح يعطي 1.30 إلى 1.</b><span class="en"><b>BeBo's green banner on its own apple field gives 1.30:1.</b> The logo nearly vanishes into its field and is held only by the navy keyline around it. On that SKU the keyline is not a detail.</span></td></tr>
+</tbody></table>''')
+
+# ================= 05 TYPE =================
+sec('05','TYPE SYSTEM','نظام الخطوط', f'''{eb('نظام الخطوط','05 · TYPE SYSTEM')}{chip('DEFINED','ok')}
+{rule('لا يُكتب اسم أي علامة بخط. الأسماء فن، لا نص.','NO BRAND NAME IS EVER SET IN A FONT. THE WORDMARKS ARE ARTWORK.',True)}
+{bi('شعارا تومان وبوليكا حروف مرسومة ثلاثية الأبعاد لا يمكن إعادة كتابتها، وختم أليكس جسم مُصيَّر بتدرجات ولمعان. كلها تُوضع كما وردت ولا يُعاد بناؤها أبدًا. الخطوط أدناه للنص المحيط، لا للأسماء.',
+    'The 2MAN and POLEKA wordmarks are illustrated 3D lettering that cannot be retyped, and the Alex seal is a rendered object with gradients and gloss. All of them are placed as supplied and never reconstructed. The faces below are for the type around them, never for the names.')}
+{eb('العائلة','THE FAMILY')}
+<div class="two">
+<div class="fam"><b>IBM Plex Sans Arabic</b><span>العربية · الأساسي</span>
+<p class="en">Free and open licensed. Drawn as one bilingual superfamily rather than a Latin face with Arabic bolted on, which is the difference between a document that looks designed and one that looks assembled.</p></div>
+<div class="fam"><b>IBM Plex Sans</b><span>اللاتينية</span>
+<p class="en">The Latin companion. Same skeleton, same rhythm, so a bilingual line does not break in the middle.</p></div></div>
+<div class="fam full"><b>IBM Plex Mono</b><span>الأكواد والمواصفات</span>
+<p class="en">Codes and specifications only. HEX values in a proportional face do not align in a column, and an 8 reads as a B at 8pt.</p></div>
+{note('صفر جنيه. عائلة مفتوحة الترخيص تغطي العربية واللاتينية والمونو، وتعمل دون اتصال لأن الملفات محفوظة مع البناء. أي ترخيص مدفوع كان سيُسعَّر قبل اختياره، ولم يكن هناك سبب لدفعه.',
+ 'Zero cost. An open licensed family covering Arabic, Latin and mono, working offline because the files are committed with the build. Any paid licence would have been priced before it was chosen, and there was no reason to pay one.',
+ 'التكلفة','The cost',True)}
+{eb('القواعد ثنائية اللغة','THE BILINGUAL RULES')}
+<ol class="ru">
+<li><span class="ar">العربية تُكتب أولًا، والإنجليزية تُركَّب عليها أو تُحذف.</span><span class="en">Arabic is written first and English is fitted to it, or dropped. Never translate a caption out of English: a layout and a sentence both break when Arabic is poured into a shape built for English.</span></li>
+<li><span class="ar">العربية لا تُكتب بأحرف كبيرة ولا تُباعَد حروفها.</span><span class="en">Arabic is never set in caps and never letter-spaced. Neither exists in the script, and both break the joins.</span></li>
+<li><span class="ar">العربية تحتاج ارتفاع سطر أكبر من اللاتينية بنفس المقاس.</span><span class="en">Arabic needs more line height than Latin at the same size. 1.7 against 1.5 is the working ratio in this book.</span></li>
+</ol>''')
+
+# ================= 06 LOGO AND SEAL =================
+lk=''.join(f'<div class="lk"><img src="../logos-transparent/{r["logo"]}"><span>{r["en"]}</span></div>' for r in RANGES)
+sec('06','LOGO &amp; SEAL USE','الشعارات والختم', f'''{eb('الشعارات والختم','06 · LOGO &amp; SEAL USE')}{chip('DEFINED','ok')}
+<div class="sealrow"><img class="bigseal" src="../logos-vector/alex-seal-flat.svg">
+<div class="sealx"><b class="ar">ختم أليكس فودز</b><span>THE ALEX FOODS SEAL</span>
+<p class="ar">الحلقة تحمل اسم الشركة بالعربية والإنجليزية، والأيقونة في أعلاها منارة. المنارة هي فاروس، والعلامة مكان بقدر ما هي شركة.</p>
+<p class="en">The ring carries the company name in Arabic and English, and the icon at the top of it is a lighthouse. The lighthouse is the Pharos, and the mark is a place as much as a company.</p></div></div>
+{eb('علامات المجموعات','THE RANGE MARKS')}
+<div class="lks">{lk}</div>
+{note('لا توجد ملفات مصدر. جميع العلامات مقصوصة من الراستر المورَّد على خلفية شفافة. كافٍ لكل تسليم في هذا التعاقد، لأن لا شيء في الأساس التجاري ولا في الباقة الشهرية مطبوع. الفيكتور يصبح مطلبًا حقيقيًّا فقط إذا دخلت الطباعة في النطاق.',
+ 'No source files exist. All marks are cut out of the supplied raster onto transparency. Sufficient for every deliverable on this contract, because nothing in the Foundation or the monthly package is printed. Vector becomes a real requirement only if print enters scope.',
+ 'حالة الملفات','The file state')}
+{eb('قواعد الاستخدام','USAGE RULES')}
+<ol class="ru">
+<li><span class="ar">لا يُعاد رسم أي علامة ولا يُعاد كتابتها.</span><span class="en">No mark is ever redrawn or retyped. Place as supplied.</span></li>
+<li><span class="ar">لا يتلوّن شعار المجموعة بلون النكهة.</span><span class="en">A range logo is never recoloured to match the flavour field it sits on.</span></li>
+<li><span class="ar">خلوص حول الختم لا يقل عن نصف قطر الحلقة.</span><span class="en">Clear space around the seal is never less than half the ring radius.</span></li>
+<li><span class="ar">الخط الكحلي حول شريط بيبو لا يُحذف أبدًا.</span><span class="en">The navy keyline around the BeBo banner never comes off. On the apple SKU it is the only thing holding the logo off its field.</span></li>
+</ol>''')
+
+# ================= 07 THE RANGES =================
+RD={'bebo':dict(pack='bebo.png',fmt_ar='عصير. بيتشرب.',fmt_en='A juice. You drink it.',
+ who_ar='الطفل. هو اللي بيطلبه وغالبًا بيدفع من مصروفه. الأهل بيدفعوا، لكن الكلام مش موجَّه لهم.',who_en='The kid. They ask for it and often pay from their own pocket money. A parent pays, but the copy does not talk to them.',
+ id_ar='الوجه هو العبوة، ويأخذ لون نكهته. شارة KIDS ZONE، وفلاش NEW أحمر، وشريط أخضر بخط كحلي لا يُحذف.',
+ id_en='The face <b>is</b> the pack and it takes the colour of its own flavour. KIDS ZONE sub-mark, red NEW flash, and a green banner with a navy keyline that never comes off.'),
+'alrawy':dict(pack='alrawy.png',fmt_ar='جاهز للشرب. ماصة على العبوة.',fmt_en='Ready to drink. Straw on the pack.',
+ who_ar='المشتري، وهي المجموعة الوحيدة الموجَّهة لبالغ. طمأنينة لا إثارة.',who_en='The buyer, and the only adult facing range of the four. Reassurance rather than excitement.',
+ id_ar='تصوير فاكهة حقيقي لا رسم. أنضج العلامات الأربع، تحمل الختم وعلامة مسجَّلة. نكتار، والعبوة تقول ذلك.',
+ id_en='Real fruit photography, not illustration, and the most grown up mark of the four. Carries the seal and a registered mark. <b>It is a nectar and the pack says so</b>, so copy never calls it juice.'),
+'2man':dict(pack='2man-icepops.png',fmt_ar='مثلجات. عبوتان: العادية و«أشكال».',fmt_en='Ice pops. Two packages: the normal one and ashkal.',
+ who_ar='الطفل الأكبر مباشرة. يصرف من مصروفه، فلا أحد يحتاج وسيطًا.',who_en='The older kid, directly. They spend their own pocket money, so nobody has to be talked through a parent.',
+ id_ar='حروف مثلجة ثلاثية الأبعاد لا يمكن إعادة كتابتها، وولد يجري يحمل العلامة كلها. الشعار «عيش جو المغامرة» مكتوب بالفعل ويبقى.',
+ id_en='Illustrated 3D lettering that <b>cannot be retyped</b>, and a running boy who carries the whole brand. The tagline is already written and it stays. <b>Both packages share one voice</b> and differ only in artwork.'),
+'poleka':dict(pack='poleka.png',fmt_ar='حلوى جيلي في عبوات على شكل زجاجة.',fmt_en='Jelly candy in bottle shaped pouches.',
+ who_ar='الطفل، عن قصد. وظيفة العلامة كلها أن تُطلَب بالاسم بصوت عالٍ في محل.',who_en='The child, deliberately. The brand’s whole job is being asked for by name, out loud, in a shop.',
+ id_ar='حيوان يملأ كل صنف، فالشخصية تقود كل إطار، والمنشور بلا شخصية خارج العلامة. أربعة أصناف وثلاثة حقول فقط.',
+ id_en='A full bleed animal per SKU, so <b>the character leads every frame</b> and a post without one is off brand. <b>Four SKUs but only three distinct fields</b>, which is why the extended layer is mandatory here.')}
+rp=[]
+for r in RANGES:
+    d=RD[r['key']]
+    sw=''.join(f'''<div class="fsw"><i style="background:{h}"></i><b class="ar">{ar}</b><span class="mono">{h}</span>
+     <span class="vd {'key' if verdict(h)[2] else ('wht' if verdict(h)[0]=='WHITE' else 'ink')}">{verdict(h)[0]}</span></div>''' for en,ar,h in r['fl'])
+    rp.append(f'''{eb('المجموعات · '+r['ar'],'07 · THE RANGES · '+r['en'])}{chip('DEFINED','ok')}
+<div class="rhero" style="border-top:1.6mm solid {r['sig']}">
+ <img class="rlogo" src="../logos-transparent/{r['logo']}">
+ <div class="rx"><b class="ar">{r['ar']}</b><span>{r['en']}</span>
+ <p class="ar">{d['fmt_ar']}</p><p class="en">{d['fmt_en']}</p></div>
+ <div class="rsig"><i style="background:{r['sig']}"></i><span class="mono">{r['sig']}</span><em>SIGNATURE</em></div></div>
+<div class="rpack"><img src="../packshots/{d['pack']}"></div>
+<div class="two">
+<div class="rb"><b class="ar">يتكلم مع</b><span>TALKS TO</span><p class="ar">{d['who_ar']}</p><p class="en">{d['who_en']}</p></div>
+<div class="rb"><b class="ar">ما يميّزها</b><span>WHAT MAKES IT ITSELF</span><p class="ar">{d['id_ar']}</p><p class="en">{d['id_en']}</p></div></div>
+{eb('الحقول والحكم','FIELDS &amp; VERDICT')}
+<div class="fsws">{sw}</div>''')
+sec('07','THE RANGES','المجموعات', *rp)
+
+# ================= 08 BRAND VOICE =================
+VO=[('بيبو','BeBo','#1BA34C','الطفل','the kid','طعمي أنا','It is mine and it tastes good',
+ 'عامية مصرية، مرحة، من طفل لطفل. ليست صوت أب ولا لغة أطفال.','Egyptian colloquial, bright, kid to kid. Never a parent voice and never baby talk.',
+ '4 إلى 9 كلمات','4 to 9 words','حر، وبحد أقصى ثلاثة','Free use, capped at three',
+ 'طعم · حلو · هات · الفسحة · صاحبك · كل يوم','صحي · طبيعي ١٠٠٪ · فيتامينات · البيت · العيال'),
+('الراوي','AlRawy','#1B4F9C','المشتري','the buyer','ما قصّرتش','I did not cut a corner',
+ 'عامية نظيفة. لا عامية شارع ولا فصحى.','Clean colloquial. No slang, and no formal Arabic either.',
+ '8 إلى 16 كلمة','8 to 16 words','الصفر هو الأصل','Zero is the default',
+ 'نكتار · فاكهة · مطمنة · اللانش بوكس · اختيار','عصير طبيعي ١٠٠٪ · بدون سكر · صحي · خصم'),
+('تومان','2MAN','#29ABE2','الطفل على العبوة، الكبير على السوشيال','the kid on pack, the adult on social','النهار ملكك · وانت لسه الطفل ده','The day is yours · and you are still that kid',
+ 'عامية مصرية، طاقة عالية على العبوة، وحنين على السوشيال.','Egyptian colloquial. High energy on pack, nostalgia on social, which is where the audience is adult.',
+ '3 إلى 8 كلمات','3 to 8 words','حر، وبحد أقصى ثلاثة','Free use, capped at three',
+ 'برّه · اطلع · الجو · مغامرة · ساقع · يلا','أي كلام يشبه صوت أب. لا «مفيد» ولا «خد بالك»'),
+('بوليكا','POLEKA','#EC008C','الطفل','the child','انتعاش في ازازة','Refreshment in a bottle',
+ 'عامية، هزلية، تعتمد على الصوت. الأعلى صوتًا وهذا صحيح للفئة.','Colloquial, silly, sound led. The loudest of the four and that is correct for the category.',
+ '2 إلى 6 كلمات','2 to 6 words','الأكثر استخدامًا، وبحد أقصى ثلاثة','Heaviest use, still capped at three',
+ 'أسماء الشخصيات · مين · النهاردة · جيلي · هات','أي شيء عن السكر أو الأسنان أو الصحة')]
+vb=''.join(f'''<div class="vc" style="border-left:1.2mm solid {sig}">
+<div class="vh"><b class="ar">{ar}</b><span>{en}</span><em class="ar">{feel_ar}</em><em class="en">{feel_en}</em></div>
+<table class="vt"><tbody>
+<tr><td class="k">يتكلم مع · TALKS TO</td><td class="ar">{to_ar}<span class="en">{to_en}</span></td></tr>
+<tr><td class="k">السجل · REGISTER</td><td class="ar">{reg_ar}<span class="en">{reg_en}</span></td></tr>
+<tr><td class="k">طول الجملة · LENGTH</td><td class="ar">{ln_ar}<span class="en">{ln_en}</span></td></tr>
+<tr><td class="k">الإيموجي · EMOJI</td><td class="ar">{em_ar}<span class="en">{em_en}</span></td></tr>
+<tr class="in"><td class="k">كلمات داخل · WORDS IN</td><td class="ar">{wi}</td></tr>
+<tr class="out"><td class="k">كلمات خارج · WORDS OUT</td><td class="ar">{wo}</td></tr>
+</tbody></table></div>''' for ar,en,sig,to_ar,to_en,feel_ar,feel_en,reg_ar,reg_en,ln_ar,ln_en,em_ar,em_en,wi,wo in VO)
+
+sec('08','BRAND VOICE','صوت العلامة',
+f'''{eb('صوت العلامة · البنية','08 · BRAND VOICE · THE ARCHITECTURE')}{chip('DEFINED','ok')}
+{rule('صوت واحد. نبرة لكل مجموعة.','ONE VOICE. A TONE PER RANGE.')}
+{bi('الصوت هو الطبقة التي لا تتغير أبدًا. النبرة هي ما يتحوّل مع كل مجموعة، وذلك التحوّل هو المقصود. منشور بوليكا ومنشور الراوي يجب أن يختلفا في الطاقة اختلافًا لا يخطئه أحد، وأن يكونا الشركة نفسها تحتهما بلا لبس.',
+    'Voice is the layer that never changes. Tone is what shifts per range, and that difference is the point. A POLEKA post and an AlRawy post should be unmistakably different in energy and unmistakably the same company underneath.')}
+{eb('قواعد الصوت · كل المجموعات، بلا استثناء','THE VOICE RULES · ALL RANGES, NO EXCEPTIONS')}
+<ol class="ru">
+<li><span class="ar">العربية تُكتب أولًا. الإنجليزية تُركَّب عليها أو تُحذف.</span><span class="en">Arabic is written first. English is fitted to it, or dropped.</span></li>
+<li><span class="ar">قُلها كما تقولها بصوت عالٍ. لو لا أحد في الإسكندرية يتكلم هكذا، لا تخرج.</span><span class="en">Say it the way you would say it out loud. If nobody in Alexandria talks like that, it does not go out.</span></li>
+<li><span class="ar">لا تشرح النكتة أبدًا.</span><span class="en">Never explain the joke. No line that has to point at itself.</span></li>
+<li><span class="ar">فكرة واحدة لكل منشور. فكرتان تعني منشورين.</span><span class="en">One idea per post. Two ideas is two posts.</span></li>
+<li><span class="ar">تكلّم مع شخص واحد، لا مع جمهور.</span><span class="en">Talk to one person, not an audience.</span></li>
+<li><span class="ar">لا لغة شركات. «يسر شركتنا أن تعلن» ممنوعة تمامًا.</span><span class="en">Never corporate. That register is banned outright on all four ranges.</span></li>
+<li><span class="ar">لا كذب ولا مبالغة. على الطعام هذه ليست مشكلة ثقة فقط، بل مشكلة تنظيمية.</span><span class="en">Never lie, never stretch. On food this is not just a trust problem, it is a regulatory one.</span></li>
+<li><span class="ar">لا شرطات طويلة في أي نص يخرج من المبنى.</span><span class="en">No em dashes in any copy that leaves the building. They read as machine written and they quietly cost trust.</span></li>
+</ol>
+{note('أليكس فودز هي الحساب الذي ينشر فعلًا، وتحتاج كتلة نبرة خاصة بها بنفس شكل المجموعات الأربع. الاتجاه وصل: «مرح». الكتابة نفسها تحتاج أذن مالك الوكالة لا تخمين آلة، ولذلك تُترك هنا معلنة بدل أن تُملأ بصوت خامس مخترع.',
+ 'Alex Foods is the account that actually posts and it needs a tone block of its own, in the same shape as the four ranges. The direction has arrived: fun. The writing itself needs the agency principal’s ear rather than a machine’s guess, so it is declared here rather than filled in with an invented fifth voice.',
+ 'الكتلة الوحيدة المفتوحة · نبرة الماستر','The one open block: the master tone',True)}
+{chip('PENDING · MASTER TONE BLOCK','pend')}''',
+f'''{eb('النبرة لكل مجموعة','TONE PER RANGE')}
+<div class="vcs">{vb[:len(vb)//2] if False else ''.join(vb.split('</div><div class="vc"')[0:1])+'</div>'}</div>''' if False else
+f'''{eb('النبرة لكل مجموعة','TONE PER RANGE')}<div class="vcs">{vb}</div>''')
+
+# ================= 09 CAPTION SYSTEM =================
+sec('09','THE CAPTION SYSTEM','نظام الكتابة', f'''{eb('نظام كتابة المنشور','09 · THE CAPTION SYSTEM')}{chip('DEFINED','ok')}
+{bi('القسم السابق يقول كيف تبدو كل مجموعة. هذا القسم يقول كيف يُبنى المنشور نفسه، سطرًا بسطر، حتى لا يعيد كل شخص اختراع الشكل كل يوم ثلاثاء.',
+    'The previous section says how each range sounds. This one says how the post itself is built, line by line, so nobody reinvents the shape every Tuesday.')}
+<table class="t3 cap"><thead><tr><th>السطر · LINE</th><th>وظيفته · ITS JOB</th><th>الحد · LIMIT</th></tr></thead><tbody>
+<tr><td class="n">1</td><td><b class="ar">الخطّاف</b><span class="en">The hook. One idea, in the range’s own register. It carries the post on its own if nothing else is read.</span></td><td class="ar">حسب المجموعة<span class="en">per range</span></td></tr>
+<tr><td class="n">2</td><td><b class="ar">السطر الثاني، اختياري</b><span class="en">Optional second line. It extends the first, never introduces a second idea.</span></td><td class="ar">سطر واحد<span class="en">one line</span></td></tr>
+<tr><td class="n">3</td><td><b class="ar">الدعوة، حين توجد دعوة</b><span class="en">The call, when there is one. A question the comments can answer, never a demand.</span></td><td class="ar">سؤال قصير<span class="en">a short question</span></td></tr>
+<tr><td class="n">4</td><td><b class="ar">الوسوم</b><span class="en">Hashtags. Three to five, on their own line, never inside a sentence.</span></td><td class="mono">3 - 5</td></tr>
+</tbody></table>
+{note('لا سعر، ولا اسم محل، ولا رقم غذائي، ولا ادعاء صحي، ولا عمر للشركة. هذه ليست تفضيلات أسلوب، بل الحد الذي يحمي حساب الإعلانات. القائمة الكاملة في القسم 21.',
+ 'No price, no shop name, no nutritional number, no health claim, and no company age. These are not style preferences, they are the boundary that protects the ad account. The full list is in section 21.',
+ 'ما لا يدخل أي منشور أبدًا','What never enters a caption',True)}
+{note('الوسوم تُكتب بالعربية أولًا حيث يبحث الناس بالعربية، وبالإنجليزية حيث تكون الكلمة إنجليزية في الأصل. لا يُترجم وسم لمجرد التوازن.',
+ 'Hashtags are Arabic first where people search in Arabic, and English where the word is English to begin with. A hashtag is never translated for the sake of symmetry.',
+ 'الوسوم','Hashtags')}''')
+
+# ================= PENDING SECTIONS =================
+def pending(i,en,ar,deliv,what_ar,what_en,need_ar,need_en,cls='pend',chp='PENDING CLIENT INPUT'):
+    sec(i,en,ar, f'''{eb(ar,i+' · '+en)}{chip(chp,cls)}
+{bi(what_ar,what_en)}
+{note(need_ar,need_en,'ما ينتظره هذا القسم','What this section is waiting on',True)}
+<div class="hold"><b class="ar">هذا القسم محجوز ومحدَّد، ولم يُملأ بعد.</b>
+<span class="en">This section is reserved and specified, and has not been filled in. It is printed rather than omitted, because a book that quietly leaves a bought deliverable out is worse than one that says where it stands.</span></div>''')
+
+SLOG=[('01','أليكس فودز','Alex Foods','من إسكندرية لكل البيوت','From Alexandria to every home',
+ 'ركيزة العلامة الثالثة في خمس كلمات. لا يستطيع منافس أن يقولها، لأن اسم الشركة هو المدينة نفسها.',
+ 'Brand pillar 3 in five words. <b>No competitor can say it</b>, because the company name is the city itself.','star'),
+('02','أليكس فودز','Alex Foods','إسكندرية بتحلّي','Alexandria sweetens things',
+ 'أقصر وأدفأ، ويحمل نبرة المرح المطلوبة. يميل نحو الحلاوة، فيناسب ثلاث مجموعات ويجلس بصعوبة على الراوي.',
+ 'Shorter, warmer, and it carries the fun register. It leans sweet, which fits three ranges and sits oddly on AlRawy.',''),
+('03','بيبو','BeBo','مع بيبو، اليوم أحلى','With BeBo, the day is better',
+ 'اختيار على. يشبه لغة العميل نفسه، و«أحلى» أكثر كلمة تميّز سجلّه. لا يسمّي شكل العبوة، ولا يربط نفسه بمناسبة تنتهي.',
+ 'Aly’s choice. It echoes the client’s own register, and «أحلى» is the most characteristic word in it. It names no format and ties itself to no occasion that ends.','star'),
+('04','الراوي','AlRawy','الراوي.. طعم تثق فيه','AlRawy, a taste you trust',
+ 'مبني على نمط العميل نفسه «جودة نثق بها». الثقة عن الصانع لا عن المحتوى، فلا يحمل أي ادعاء ممنوع، ويصلح للطفل وللمشتري معًا.',
+ 'Built on the client’s own trust pattern «جودة نثق بها». Trust is about the maker rather than the contents, so it carries no banned claim, and it works said to a child or to the buyer.','star'),
+('XX','الراوي','AlRawy','حطّيه وانتي مطمنة','Pack it and be at ease',
+ 'مناسبة اللانش بوكس ملمّح إليها لا مسمّاة، حتى لا يصير سطرًا للمدارس وحدها.',
+ 'The lunchbox occasion implied rather than named, so it does not become a school-only line.',''),
+('07','تومان','2MAN','برّه أحلى','Outside is better',
+ 'كلمتان. طفل في العاشرة في الإسكندرية يقولها دون أن يتعلّمها، وهذا هو الاختبار الخامس.',
+ 'Two words. A ten year old in Alexandria says it without being taught it, which is test 5 passed outright.','star'),
+('08','تومان','2MAN','الجو مستنيك','The day is waiting for you',
+ 'يحمل عالم الشعار القائم دون أن يكرّر كلماته.','Carries the existing tagline’s world without repeating its words.',''),
+('09','بوليكا','POLEKA','مين معاك النهاردة؟','Who is with you today?',
+ 'سؤال، وهذه هي الآلية لا الأسلوب. يُجاب عليه في التعليقات، ويسمّي الشخصية بدل الحلوى، ويبيع التجميع.',
+ 'A question, and that is the mechanic rather than the style. It gets answered in the comments, names the character instead of the sweet, and sells collection.','star'),
+('10','بوليكا','POLEKA','اختار صاحبك','Pick your friend',
+ 'الحيوانات كرفاق لا كنكهات. يجعل الاسم قابلًا للطلب، وهي وظيفة بوليكا التجارية كلها.',
+ 'The animals as companions rather than flavours. It makes the name askable, which is POLEKA’s entire commercial job.','')]
+sl=''.join(f'''<tr class="{c}"><td class="n">{i}</td><td class="ar"><b>{ar}</b><span class="en">{en}</span></td>
+ <td class="ar sg">{line}</td><td class="ar sm">{wa}<span class="en">{we}</span></td></tr>''' for i,ar,en,line,gl,wa,we,c in SLOG)
+glo=''.join(f'<div class="gl"><b class="mono">{i}</b><span class="ar">{line}</span><em>{gl}</em></div>' for i,ar,en,line,gl,wa,we,c in SLOG)
+
+sec('10','SLOGANS &amp; THE GIVEAWAY SONG','الشعارات وأغنية المسابقة',
+f"""{eb('الشعارات','10 · SLOGANS')}{chip('PENDING · LINES REJECTED, REWRITE IN PROGRESS','pend')}
+{rule('لا تبيع المنتج. بِع الشعور.','DO NOT SELL THE PRODUCT. SELL THE FEELING.')}
+{bi('عشرة سطور مكتوبة بالعامية المصرية، بصوت عالٍ، وغير مترجمة. الإنجليزية تحتها شرح للقارئ لا توأم يُنشر. كل سطر مرّ على ستة اختبارات: أيبيع شعورًا أم يصف منتجًا، أينجو من مئتي تكرار، أيعمل على كل أصناف المجموعة، أيستطيع منافس أن يقول الجملة نفسها، أيبدو صحيحًا بصوت عالٍ، وأيصمد بلا شيء بجانبه غير الشعار.',
+    'Ten lines written in Egyptian colloquial, out loud, and never translated. The English beneath is a gloss for the reader, not a twin to publish. Every line passed six tests: does it sell a feeling or describe a product, does it survive two hundred repetitions, does it work across every SKU in the family, could a competitor say the same sentence, does it sound right out loud, and does it hold with nothing beside it but the logo.')}
+<table class="t3 slg"><thead><tr><th>#</th><th>المجموعة</th><th>السطر · THE LINE</th><th>لماذا يصمد · WHY IT HOLDS</th></tr></thead><tbody>{sl}</tbody></table>
+<div class="lgd"><span><i class="ok"></i> الترشيح الأول · THE RECOMMENDED LINE</span></div>""",
+f"""{eb('الترجمة والتوصية','GLOSS &amp; RECOMMENDATION')}
+<div class="gls">{glo}</div>
+{note('البند الأول في العقد يعطي الوكالة التنفيذ ويعطي العميل اعتماد النتيجة. تُعرض جملة واحدة لكل علامة ومعها بديلان على الأكثر. تسليم ثلاثين خيارًا يدعو العميل إلى التصميم، وهو الشيء الذي يُبعده العقد عنه تحديدًا، ويجعل الوكالة تبدو وكأنها لم تستطع أن تقرّر.',
+ 'Clause 1 gives the agency execution and the client approval of an outcome. One line per brand is presented, with at most two alternates. Handing over thirty options invites the client to design, which is the exact thing the contract keeps them out of, and it makes the agency look as though it could not decide.',
+ 'لماذا لا تُعرض الثلاثون','Why thirty options are not presented',True)}
+{note('«عيش جو المغامرة» موجود بالفعل ويبقى. يبيع الشعور ولا يسمّي المنتج، وهو الاختبار كله. استبدال سطر ناجح لتبرير تسليم يهدم رصيدًا استُؤجرت الوكالة لبنائه. السطران 07 و08 حملتان تجلسان تحته، لا بدلًا منه.',
+ 'The existing 2MAN tagline already works and it stays. It sells the feeling and never names the product, which is the whole test. Replacing a working line to justify a deliverable destroys equity the agency was hired to build. Lines 07 and 08 are campaign lines that sit under it, never instead of it.',
+ 'ما لا يُستبدل','What does not get replaced')}
+{note('سطر بيبو لا يسمّي شكل العبوة، وده مقصود. الشعار اللي بيسمّي شكلًا بيموت يوم الشكل يتغيّر، والسطر ده بيشتغل مهما كانت العبوة.',
+ 'The BeBo line names no format, and that is deliberate. A slogan that names a format dies the day the format changes, and this one works whatever the pack is.',
+ 'ولماذا لا يسمّي سطر بيبو شكل العبوة','And why the BeBo line names no format',True)}
+{eb('أغنية المسابقة','THE GIVEAWAY SONG')}{chip('BeBo · SLOGAN WRITTEN · SONG DRAFT','pend')}
+{bi('المسابقة تخص بيبو: هي المجموعة الأولى والأكثر مبيعًا، وأرخص عبوة فلا يكلّف الاشتراك الطفل شيئًا يُذكر، والجمهور أطفال يشتركون بحماس لا يضاهيه جمهور بالغ. وتُدار على حساب أليكس فودز، لأنه الحضور الوحيد الذي فيه جمهور، وهذا هو نموذج العلامة الأم يعمل كما صُمم. شعار الحملة مكتوب، ويحمل الآلية والجائزة في ثلاث كلمات: «صوّر واكسب مع بيبو». الآلية: صوّر كيس بيبو وابعته، وفايز كل أسبوع. تتطلب شراءً، وتنتج محتوى تستطيع الوكالة إعادة نشره، ولا تحتاج تغييرًا في العبوة. الأغنية تتبع قواعد الحملات لا قواعد العلامة، فالاستعجال والموعد مسموحان. تفتح وتقفل على سطر العلامة، لأن وظيفة أغنية المسابقة الحقيقية هي غرس الشعار في رأس الطفل بينما تحفّزه الجائزة على تكراره.',
+    'The giveaway belongs to BeBo: it is the priority range, the best seller, the cheapest pack so entry costs a child almost nothing, and the audience is kids who enter giveaways with a willingness no adult audience matches. It runs on the Alex Foods account, because that is the only presence with an audience, which is the umbrella model working as designed. The campaign slogan is written and carries the mechanic and the reward in three words: shoot and win with BeBo. The mechanic is photograph a BeBo pack and send it in, one winner a week: it requires a purchase, it produces content the agency can repost, and it needs no pack change. The song plays by campaign rules rather than brand rules, so urgency and a deadline are allowed. It opens and closes on the brand line, because a giveaway song’s real job is drilling the slogan into a child’s head while the prize is motivating them to repeat it.')}""")
+
+# ================= 17 CONTENT CALENDAR =================
+JOBS=[('01','إثبات أن المسابقة حقيقية','Prove the giveaway is real','35%',
+ 'أعلى محتوى مصداقيةً تملكه العلامة، وهو الذي يخدم المؤشر المتعاقد عليه: التعليقات والمشاهدات.',
+ 'The highest trust content this brand owns, and the one that serves the contracted KPI: comments and views.'),
+('02','شرح طريقة الاشتراك','Explain how to enter','20%',
+ 'الآلية مطبوعة على ظهر العبوة وغير مرئية في الفيد. من لا يعرف كيف يشترك لا يشترك.',
+ 'The mechanic is printed on the back of the pack and invisible in the feed. Nobody enters a giveaway they cannot see the door to.'),
+('03','تحريك المنتجات','Keep the products moving','35%',
+ 'ثمانية عشر صنفًا، ودورة نكهات، وشخصيات مرسومة ومدفوعة بالفعل.',
+ 'Eighteen SKUs, a flavour rotation, and characters that are already drawn and already paid for.'),
+('04','مخاطبة التجارة','Serve the trade','10%',
+ 'نصف الهدف المعلن هو «محلات أكتر»، ولا يوجد على الحساب اليوم منشور واحد يكلّم صاحب محل.',
+ 'Half the stated goal is more shops, and there is not one post on the account today that speaks to a shop owner.')]
+jb=''.join(f'''<tr><td class="n">{i}</td><td class="ar"><b>{ar}</b><span class="en">{en}</span></td>
+ <td class="ar sm">{wa}<span class="en">{we}</span></td><td class="q">{p}</td></tr>'''
+ for i,ar,en,p,wa,we in JOBS)
+
+M1=[('منشور الفايز','Winner post','4','1 ستيل متحرك + 3 جرافيك','1 animated still + 3 graphics',
+  'واحد كل أسبوع، وهو مرساة الشهر','one a week, and it anchors the month','star'),
+('شرح الآلية','Mechanic explainer','3','1 أنيميشن + 2 جرافيك','1 animation + 2 graphics',
+  'أكبر فجوة في الحساب','the biggest gap on the account','star'),
+('منشور منتج','Product post','5','2 ستيل متحرك + 3 جرافيك','2 animated stills + 3 graphics','دورة النكهات','the flavour rotation',''),
+('منشور شخصية','Character post','3','2 ستيل متحرك + 1 جرافيك','2 animated stills + 1 graphic','أرخص محتوى تملكه الشركة','the cheapest content this business owns',''),
+('لحظة · المدارس','Moment · school','3','1 أنيميشن + 1 ستيل متحرك + 1 جرافيك','1 animation + 1 animated still + 1 graphic',
+  'الحملة التي يسابق العميل موعدها','the campaign the client is racing','star'),
+('منشور تجارة','Trade post','2','2 جرافيك','2 graphics','محجوز على فن الكرتونة والكوبون','blocked on carton and coupon artwork','no')]
+m1=''.join(f'''<tr class="{c}"><td class="ar"><b>{ar}</b><span class="en">{en}</span></td><td class="q">{n}</td>
+ <td class="ar sm">{fa}<span class="en">{fe}</span></td><td class="ar sm">{wa}<span class="en">{we}</span></td></tr>'''
+ for ar,en,n,fa,fe,wa,we,c in M1)
+
+sec('17','CONTENT CALENDAR','خطة المحتوى الشهرية',
+f'''{eb('لماذا ننشر أصلًا','17 · THE CONTENT CALENDAR')}{chip('DEFINED','ok')}
+{rule('المحتوى يتبع الحملة، لا العكس.','CONTENT FOLLOWS THE CAMPAIGN, NEVER THE OTHER WAY ROUND.')}
+{bi('كانت الخطة الأولى دورة بين أربع مجموعات. وهي خاطئة. العميل يدير ثلاث حملات على ثلاث ساعات مختلفة: هدايا المدارس تسابق موعدًا حقيقيًا، والعجل والاسكوتر شغّالة بلا نهاية معلنة، والعمرة متوقّفة حتى تنتهي المدارس. المجموعات تدور داخل الحملة، لا الحملة داخل المجموعات.',
+ 'The first plan was a rotation across four ranges. It is wrong. The client runs three campaigns on three different clocks: the school gifts are racing a real deadline, the bicycles and scooters run continuously with no announced end, and the Umrah programme is paused until the school push is done. Ranges rotate inside a campaign, never a campaign inside the ranges.')}
+{eb('الوظائف الأربع','THE FOUR JOBS')}
+{bi('كل منشور يؤدي واحدة من هذه الأربع. منشور لا يؤدي أيًا منها لا ينزل.',
+ 'Every post does one of these four. A post that does none of them does not go out.')}
+<table class="t3 jb"><thead><tr><th>#</th><th>الوظيفة · THE JOB</th><th>لماذا · WHY</th><th>الحصة</th></tr></thead><tbody>{jb}</tbody></table>
+{note('القسم السابق من عدّة السوشيال كان يقسّم المحتوى أربعين وثلاثين وعشرين وعشرة. ذلك التقسيم اشتُقّ من العبوات قبل أن يعرف أحد أن هناك برنامج مسابقات شغّالًا وبرنامج ولاء للتجار. كان تخمينًا معقولًا، وقد انتهت صلاحيته. هذا الجدول يحلّ محلّه.',
+ 'The mix in the social kit split content forty, thirty, twenty and ten. That split was derived from the packaging before anyone knew there was a live giveaway programme and a retailer loyalty scheme. It was a reasonable guess and it is now out of date. This table replaces it.',
+ 'ما الذي تغيّر','What changed',True)}
+''',
+
+f'''{eb('الشهر الأول · حملة المدارس','MONTH 1 · THE SCHOOL CAMPAIGN')}
+{bi('عشرون أصلًا، وهو ما تموّله الباقة أ بالضبط. لا تُبنى الخطة على الطموح، بل على العدد المدفوع.',
+ 'Twenty assets, which is exactly what Package A funds. The plan is built on the number that is paid for, not on ambition.')}
+<div class="nums">
+ <div class="num"><b>20</b><span class="ar">أصل</span><span class="en">assets</span></div>
+ <div class="num"><b>02</b><span class="ar">أنيميشن</span><span class="en">animations</span></div>
+ <div class="num"><b>06</b><span class="ar">ستيل متحرك</span><span class="en">animated stills</span></div>
+ <div class="num"><b>12</b><span class="ar">جرافيك</span><span class="en">graphics</span></div></div>
+<table class="t3 m1"><thead><tr><th>النمط · ARCHETYPE</th><th>عدد</th><th>الشكل · FORMAT</th><th>لماذا · WHY</th></tr></thead><tbody>{m1}</tbody></table>
+{note('واحد على شرح الآلية، لأنها أكبر فجوة في الحساب، ولأن الحركة تشرح ثلاث خطوات أفضل من أي إطار ثابت. وواحد على لحظة المدارس، لأنها الحملة التي يسابق العميل موعدها، وتستحق أفضل أصل في الشهر. الأنيميشن الثاني لا يذهب إلى فيلم منتج.',
+ 'One goes on the mechanic explainer, because it is the biggest gap on the account and motion explains a three step process better than any static frame will. One goes on the school moment, because it is the campaign the client is racing and it deserves the best asset of the month. The second animation does not go to a product film.',
+ 'أين يذهب الأنيميشنان','Where the two animations go')}
+{ok('الإيقاع: فيسبوك أربعة إلى خمسة في الأسبوع، تيك توك اثنان، وإنستجرام يعكس فيسبوك.',
+ 'Rhythm: Facebook four to five a week, TikTok two, Instagram mirrors Facebook. Derived from twenty assets across four and a third weeks.')}
+{bi('شكل الأسبوع: منشور الفايز يرسي الأسبوع، ثم شرح آلية أو منشور منتج في منتصفه، ثم شخصية أو لحظة، والباقي يدور.',
+ 'The shape of a week: the winner post anchors it, then a mechanic or product post mid week, then a character or moment post, and the rest rotates.')}''',
+
+f'''{eb('حين تتغيّر الحملة','WHEN THE CAMPAIGN CHANGES')}
+<div class="wlds">
+<div class="wld"><div class="wh"><b class="ar">هدايا المدارس</b><span>NOW</span></div><table class="wt">
+<tr><td class="k">يرتفع · RISES</td><td class="ar">اللحظة والعدّ التنازلي<span class="en">Moment and Countdown</span></td></tr>
+<tr><td class="k">لماذا · WHY</td><td class="ar">الموعد حقيقي والمناسبة محدّدة، فالاستعجال مسموح لأنه صادق.<span class="en">The deadline is real and the occasion is specific, so urgency is allowed because it is true.</span></td></tr>
+</table></div>
+<div class="wld"><div class="wh"><b class="ar">العجل والاسكوتر</b><span>ONGOING</span></div><table class="wt">
+<tr><td class="k">يرتفع · RISES</td><td class="ar">الفايز وشرح الآلية<span class="en">Winner and Mechanic</span></td></tr>
+<tr><td class="k">لماذا · WHY</td><td class="ar">لا موعد لها، فالاستعجال مُطفأ والإثبات هو الذي يحملها.<span class="en">It has no deadline, so urgency is switched off and proof is what carries it.</span></td></tr>
+</table></div></div>
+<div class="wlds">
+<div class="wld"><div class="wh"><b class="ar">العمرة</b><span>PAUSED</span></div><table class="wt">
+<tr><td class="k">يرتفع · RISES</td><td class="ar">التجارة تتصدّر<span class="en">Trade becomes the lead</span></td></tr>
+<tr><td class="k">لماذا · WHY</td><td class="ar">برنامج تجار لا مستهلكين، فتهبط الأنماط الاستهلاكية إلى حد الصيانة.<span class="en">It is a retailer programme and not a consumer one, so the consumer archetypes drop to maintenance level.</span></td></tr>
+</table></div>
+<div class="wld"><div class="wh"><b class="ar">القاعدة</b><span>THE RULE</span></div><table class="wt">
+<tr><td class="k">ثابت · FIXED</td><td class="ar">الوظائف الأربع لا تتغيّر أبدًا. الذي يتغيّر هو وزنها.<span class="en">The four jobs never change. What changes is their weighting.</span></td></tr>
+<tr class="no"><td class="k">أبدًا · NEVER</td><td class="ar">حملتان تتصدّران الحساب في وقت واحد.<span class="en">Two campaigns leading the account at the same time.</span></td></tr>
+</table></div></div>
+{eb('ما يعطّل هذه الخطة','WHAT IS BLOCKING THIS PLAN')}
+<table class="t3 cn"><thead><tr><th>المعطِّل · BLOCKER</th><th>يعطّل · BLOCKS</th><th>الحالة</th></tr></thead><tbody>
+<tr><td class="ar"><b>فن الكرتونة والكوبون</b><span class="en">Carton and coupon artwork</span></td><td class="ar sm">منشورا التجارة معًا<span class="en">Both trade posts</span></td><td><div class="st"><i class="wait"></i></div></td></tr>
+<tr><td class="ar"><b>صورة ظهر العبوة والـ QR واضح</b><span class="en">Back of pack shot, QR legible</span></td><td class="ar sm">شروح الآلية الثلاثة، وهي أكبر فجوة<span class="en">All three mechanic explainers</span></td><td><div class="st"><i class="wait"></i></div></td></tr>
+<tr><td class="ar"><b>الموسمية</b><span class="en">Seasonality</span></td><td class="ar sm">الشهران الثاني والثالث<span class="en">Months 2 and 3</span></td><td><div class="st"><i class="pend"></i></div></td></tr>
+<tr><td class="ar"><b>صلاحية ميتا</b><span class="en">Meta access</span></td><td class="ar sm">النشر، وخط الأساس الذي يُقاس عليه كل شيء<span class="en">Publishing, and the baseline everything is measured against</span></td><td><div class="st"><i class="pend"></i></div></td></tr>
+</tbody></table>
+{note('الشهران الثاني والثالث لا يُكتبان قبل إجابة الموسمية. بوليكا وتومان كلاهما مثلجات، والمدة تمتد إلى الشتاء. إن تصرّفت المجموعتان كما تتصرّف المثلجات، فنصف المحفظة خارج موسمه في منتصف المدة المدفوعة، وهذا يغيّر خطتين كاملتين لا سطرًا فيهما.',
+ 'Months 2 and 3 do not get written before the seasonality answer. POLEKA and 2MAN are both frozen, and the term runs into winter. If both behave the way frozen products behave, half the portfolio is out of season in the middle of the paid term, and that changes two entire calendars rather than a line inside them.',
+ 'لماذا شهر واحد فقط مكتوب','Why only one month is written',True)}''')
+
+# ================= 18 POST ARCHETYPES =================
+def arch(code,ar,en,wa,we,fa,fe,ca,ce,na,ne):
+    return f'''<div class="wld"><div class="wh"><b class="ar">{ar}</b><span>{code} · {en}</span></div><table class="wt">
+<tr><td class="k">لماذا · WHY</td><td class="ar">{wa}<span class="en">{we}</span></td></tr>
+<tr><td class="k">ثابت · FIXED</td><td class="ar">{fa}<span class="en">{fe}</span></td></tr>
+<tr><td class="k">متغيّر · CHANGES</td><td class="ar">{ca}<span class="en">{ce}</span></td></tr>
+<tr class="no"><td class="k">أبدًا · NEVER</td><td class="ar">{na}<span class="en">{ne}</span></td></tr>
+</table></div>'''
+
+A_WIN=arch('A','منشور الفايز','THE WINNER POST',
+ 'شخص حقيقي يحمل عجلة حقيقية أمام محل حقيقي هو إثبات، والإثبات يتفوّق على كل ادعاء يُسمح لعلامة غذائية أن تقوله. وهو المحتوى الوحيد هنا الذي يجيب على السؤال الذي يمنع الناس من الاشتراك: هل المسابقة دي حقيقية؟',
+ 'A real person holding a real bicycle outside a real shop is proof, and proof outperforms every claim a food brand is allowed to make. It is also the only content here that answers the question stopping people from entering: is this giveaway actually real.',
+ 'فايز حقيقي، وجائزة حقيقية، ومصوَّر في المحل. قفل «مبروك للفايز» في المكان نفسه كل مرة. ختم أليكس. الاسم الأول للفايز.',
+ 'A real winner, a real prize, shot in the shop. The congratulations lockup in the same position every time. The Alex seal. The winner first name.',
+ 'الشخص، والجائزة، والمحل، والكابشن.','The person, the prize, the shop, the caption.',
+ 'صورة أرشيفية. فايز مُمثَّل. جائزة لا يحملها الشخص بيده.',
+ 'A stock photo. A staged winner. A prize the person is not holding in their own hands.')
+
+A_MEC=arch('B','شرح الآلية','THE MECHANIC EXPLAINER',
+ 'الـ QR مطبوع على ظهر الباكو، وكل منشور ينزل يعرض الوش. مسابقة لا يعرف أحد طريقة الاشتراك فيها هي مسابقة تُحوِّل على الرف وحده.',
+ 'The QR code is printed on the back of the pack, and every post they publish shows the front. A giveaway nobody knows how to enter is a giveaway that converts on the shelf only.',
+ 'ظهر العبوة، والـ QR مقروء بحجم التليفون. ثلاث خطوات كحد أقصى. تعليمة واحدة في كل إطار.',
+ 'The back of the pack, with the QR legible at phone size. Three steps maximum. One instruction per frame.',
+ 'المجموعة، والجائزة المعروضة، والشكل: ثابت أو متحرّك.','The range, the prize shown, and the format: still or animation.',
+ 'QR أصغر من أن يُمسح. أكثر من ثلاث خطوات. وش العبوة كبطل للإطار.',
+ 'A QR too small to scan. More than three steps. The front of the pack as the hero of the frame.')
+
+A_PRD=arch('C','منشور المنتج','THE PRODUCT POST',
+ 'ثمانية عشر صنفًا، والعبوة هي التصميم. يبقي دورة النكهات مرئية والمجموعة حاضرة في الذهن.',
+ 'Eighteen SKUs, and the pack is the creative. It keeps the flavour rotation visible and the range front of mind.',
+ 'العبوة على حقل نكهتها. هامش ثمانية بالمئة. الكتابة في القدم. لون الكتابة محسوب لا مختار.',
+ 'The pack on its own flavour field. An eight per cent margin. Type at the foot. The type colour computed, never chosen.',
+ 'الصنف، والحقل، والكابشن.','The SKU, the field, the caption.',
+ 'عبوة على حقل مجموعة أخرى. لون كتابة لم يُحسب على الحقل.',
+ 'A pack on another range field. A type colour that was not computed against the field.')
+
+A_CHR=arch('D','منشور الشخصية','THE CHARACTER POST',
+ 'أرخص محتوى تملكه الشركة: مرسوم بالفعل ومدفوع بالفعل. وجوه بيبو، وحيوانات بوليكا، وولد تومان. لا يستطيع منافس أن ينسخها.',
+ 'The cheapest content this business owns: already drawn and already paid for. The BeBo faces, the POLEKA animals, the 2MAN boy. A competitor cannot copy them.',
+ 'الشخصية تتصدّر الإطار. منشور بوليكا بلا شخصية خارج عن العلامة حتى لو كان النص مضبوطًا.',
+ 'The character leads the frame. A POLEKA post without a character is off brand even if the copy is perfect.',
+ 'أي شخصية، والسطر.','Which character, and the line.',
+ 'شخصية معادة الرسم أو معدّلة النسب.','A character redrawn or restretched.')
+
+A_MOM=arch('E','منشور اللحظة','THE MOMENT POST',
+ 'المناسبة، لا ادعاء عنها. شنطة المدرسة، وعزّ الظهر، وتلاجة المحل. هو الذي يجعل المنتج جزءًا من يوم بدل أن يكون شيئًا في صورة.',
+ 'The occasion, never a claim about it. The school bag, the hot afternoon, the shop fridge. It is what makes a product feel like part of a day rather than an object in a photograph.',
+ 'سياق حقيقي. بلا إيحاء صحي، وبلا كومة فاكهة، وبلا تلميح غذائي.',
+ 'A real context. No health cue, no fruit pile, no nutritional implication.',
+ 'اللحظة، والمجموعة.','The moment, and the range.',
+ 'مناسبة مفتعلة لا يعيشها أحد في الإسكندرية.',
+ 'A manufactured occasion nobody in Alexandria actually lives.')
+
+A_TRD=arch('F','منشور التجارة','THE TRADE POST',
+ 'التاجر يكسب عن طريق كوبون في الكرتونة وعن طريق برنامج العمرة، ولم يُشرح أيٌّ منهما علنًا ولا مرة. الموزّع الذي يقرّر هل يشيل الكرتونة أم لا لا يجد شيئًا يبصّ عليه.',
+ 'The retailer wins through a coupon inside the carton and through the Umrah programme, and neither has ever been explained publicly. A distributor deciding whether to carry a carton has nothing to look at.',
+ 'الكرتونة لا العبوة الفردية. الكوبون. لغة الهامش، وعدد العبوات، وإسكندرية كأصل.',
+ 'The carton and not the single pack. The coupon. Margin language, case counts, and the Alexandria origin.',
+ 'البرنامج، والمجموعة، والطلب.','The programme, the range, and the ask.',
+ 'طفل. هذا المنشور لا يكلّمه.','A child. This post is not talking to them.')
+
+A_CNT=arch('G','العدّ التنازلي','THE COUNTDOWN',
+ 'أثناء حملة لها موعد فقط. هدايا المدارس لها موعد، والعجل والاسكوتر ليس لهما. الاستعجال رافعة حملة، واستعمالها خارج حملة يصرفها بلا مقابل.',
+ 'Only during a campaign with a deadline. The school gifts have one, the bicycles and scooters do not. Urgency is a campaign lever, and using it outside a campaign spends it for nothing.',
+ 'تاريخ حقيقي أو حد حقيقي. «الكمية محدودة» لا تُكتب إلا حين تكون صحيحة.',
+ 'A real date or a real limit. A limited quantity line is written only when it is true.',
+ 'الحملة، والعدّ.','The campaign, and the count.',
+ 'عدّ تنازلي بلا موعد خلفه.','A countdown with no deadline behind it.')
+
+sec('18','POST ARCHETYPES &amp; PATTERN INVENTORY','أنماط المنشورات',
+f'''{eb('أنماط المنشورات','18 · POST ARCHETYPES')}{chip('DEFINED · TRADE POST BLOCKED ON ARTWORK','ok')}
+{bi('سبعة أنماط، ولكل نمط أربعة سطور: لماذا يوجد، وما الثابت فيه، وما المتغيّر، وما لا يُفعل أبدًا. هذا هو القسم الذي يجعل الكتاب قابلًا للبناء بدل أن يكون قابلًا للإعجاب: مصمّم يفتح النمط وينفّذ، بلا مكالمة.',
+ 'Seven archetypes, and four lines for each: why it exists, what is fixed, what changes, and what is never done. This is the section that makes the book buildable rather than admirable. A designer opens the archetype and executes, without a phone call.')}
+{rule('الثابت هو العلامة. المتغيّر هو المنشور.','WHAT IS FIXED IS THE BRAND. WHAT CHANGES IS THE POST.')}
+<div class="wlds">{A_WIN}{A_MEC}</div>
+{note('النمطان أ وب هما ثلث ونصف الخطة معًا، وكلاهما يخدم برنامج المسابقات. النمط أ عند العميل جاهز بالفعل وينشره بنفسه. النمط ب غير موجود إطلاقًا، وهو الذي يفتح الباب الذي يقف الناس أمامه.',
+ 'Archetypes A and B together are more than half the plan, and both serve the giveaway programme. The client already makes A and already publishes it. B does not exist at all, and it is the one that opens the door people are standing in front of.',
+ 'لماذا هذان أولًا','Why these two come first')}''',
+
+f'''{eb('الأنماط ج إلى هـ','ARCHETYPES C TO E')}
+<div class="wlds">{A_PRD}{A_CHR}</div>
+<div class="wlds">{A_MOM}
+<div class="wld"><div class="wh"><b class="ar">ما يشترك فيه الجميع</b><span>COMMON TO ALL</span></div><table class="wt">
+<tr><td class="k">الختم · SEAL</td><td class="ar">ختم أليكس في كل منشور، في الموضع نفسه.<span class="en">The Alex seal on every post, in the same position.</span></td></tr>
+<tr><td class="k">الهامش · MARGIN</td><td class="ar">ثمانية بالمئة على الأربعة الاتجاهات.<span class="en">Eight per cent on all four sides.</span></td></tr>
+<tr><td class="k">الكتابة · TYPE</td><td class="ar">لون الكتابة يُحسب على الخلفية، ولا يُختار بالعين.<span class="en">Type colour is computed against the background, never picked by eye.</span></td></tr>
+<tr class="no"><td class="k">أبدًا · NEVER</td><td class="ar">سعر، واسم محل، ورقم غذائي، وادعاء صحي، وعمر الشركة.<span class="en">A price, a shop name, a nutritional number, a health claim, the company age.</span></td></tr>
+</table></div></div>
+{ok('منشور بوليكا بلا شخصية خارج عن العلامة حتى لو كان النص مضبوطًا.',
+ 'A POLEKA post without a character is off brand even if the copy is perfect.')}''',
+
+f'''{eb('الأنماط و وز','ARCHETYPES F AND G')}
+<div class="wlds">{A_TRD}{A_CNT}</div>
+{note('النمط و لا يُنفَّذ قبل وصول فن الكرتونة وشكل الكوبون. لا يمكن صنع شيء لصاحب محل بغير الاثنين، ولن يُستبدل بصورة عبوة فردية لسدّ الخانة. منشوران من العشرين معلّقان على ملفين.',
+ 'Archetype F is not executed before the carton artwork and the coupon design arrive. Nothing can be made for a shop owner without both, and a single pack shot will not be substituted to fill the slot. Two of the twenty assets hang on two files.',
+ 'المعطِّل الوحيد هنا','The one blocker here',True)}
+{eb('اختبار النمط','THE ARCHETYPE TEST')}
+<ol class="ru">
+<li><span class="ar">أي وظيفة من الأربع يؤديها هذا المنشور؟ إن لم تكن واحدة منها، فلا ينزل.</span><span class="en">Which of the four jobs does this post do? If it is not one of them, it does not go out.</span></li>
+<li><span class="ar">أي نمط هو؟ إن لم يكن واحدًا من السبعة، فهو نمط جديد يُكتب هنا أولًا.</span><span class="en">Which archetype is it? If it is not one of the seven, it is a new archetype and it gets written here first.</span></li>
+<li><span class="ar">هل الثابت فيه ثابت فعلًا؟ الختم، والهامش، واللون المحسوب.</span><span class="en">Is what is fixed actually fixed? The seal, the margin, the computed colour.</span></li>
+<li><span class="ar">هل كسر سطرًا من «أبدًا»؟ سطر واحد يكفي لإيقافه.</span><span class="en">Did it break a never line? One is enough to stop it.</span></li>
+<li><span class="ar">هل يخدم الحملة الشغّالة هذا الشهر، أم حملة أخرى؟</span><span class="en">Does it serve the campaign running this month, or a different one?</span></li>
+</ol>
+{note('سبعة أنماط عدد مقصود. الحساب الذي فيه عشرون نمطًا ليس فيه نظام، بل فيه مصمّمون يرتجلون بالتناوب. وحين يظهر نمط ثامن حقيقي، يُكتب هنا قبل أن يُنفَّذ، لا بعده.',
+ 'Seven archetypes is a deliberate number. An account with twenty patterns does not have a system, it has designers improvising in rotation. And when a genuine eighth appears, it gets written here before it is executed, not after.',
+ 'لماذا سبعة لا عشرون','Why seven and not twenty')}''')
+
+pending('19','GOOGLE BUSINESS PROFILE','نشاط جوجل','7',
+ 'العنوان وصل: طريق إسكندرية القاهرة الزراعي، مدخل خورشيد، أبيس الأولى، الإسكندرية. البيانات الباقية والتحقق عمل حساب بحت، بلا تصميم.',
+ 'The address has arrived: Cairo Alexandria Agricultural Road, Khorshid entrance, First Abis, Alexandria. The remaining data and the verification are pure account work with no design in them.',
+ 'حساب جوجل من العميل، ومواعيد العمل، وتصنيف النشاط، ورقم تليفون للعامة. أربعة أشياء، ودقيقة واحدة من وقت العميل.',
+ 'A Google account from the client, plus opening hours, business categories and a public phone number. Four things, and one minute of the client’s time.',
+ 'wait','SPEC · EXECUTION PENDING CLIENT ACCESS')
+
+pending('20','LOCAL SEO · ALEXANDRIA','السيو المحلي','8',
+ 'بحث الكلمات المفتاحية في الإسكندرية، وقراءة المنافسين، وبنية بيانات النشاط.',
+ 'Alexandria keyword research, a competitor read, and the business data structure.',
+ 'العميل لا يعرف منافسيه بالاسم، فالقراءة تأتي من الرف نفسه: زيارتان لمحلين وكاميرا تليفون تعطي الأسعار والأحجام وموقع المنتج على الرف بلا تكلفة. ويجب قول شيء بصراحة: الشركة توزّع في كل مصر، والسيو المحلي للإسكندرية لن يحرّك التوزيع الوطني، ولن يُقدَّم كأنه قد يفعل.',
+ 'The client does not know their competitors by name, so the read comes off the shelf itself: two shop visits and a phone camera gives prices, pack sizes and shelf position for nothing. And one thing has to be said plainly: the company distributes across Egypt, and Alexandria local SEO will not move national distribution. It is delivered as scoped and it will not be presented as if it might.')
+
+# ================= 11 CANVAS & GRID =================
+OUT=[('المصدر','Master','2048 × 2048','يُحفظ دائمًا، ومنه تُقتطع البقية','always kept, everything is cropped from it'),
+('منشور فيد','Feed post','1080 × 1350','المنصة الأساسية فيسبوك','Facebook is the primary platform'),
+('مربع','Square','1080 × 1080','',''),
+('ستوري وريلز','Story and Reels','1080 × 1920','العبوة داخل الثلث الأوسط','pack inside the middle third'),
+('صورة الحساب','Profile','320 × 320','تُعرض دائرية','shown as a circle'),
+('غلاف فيسبوك','Facebook cover','820 × 312','المنطقة الآمنة في الوسط','safe zone sits in the centre'),
+('صورة نشاط جوجل','GBP photo','1200 × 900','كحد أدنى','minimum')]
+ob=''.join(f'<tr><td class="ar">{a}<span class="en">{b}</span></td><td class="mono">{c}</td><td class="ar sm">{d}<span class="en">{e}</span></td></tr>' for a,b,c,d,e in OUT)
+sec('11','CANVAS, GRID &amp; EXPORT','اللوحة والشبكة', f'''{eb('اللوحة والشبكة والمقاسات','11 · CANVAS, GRID &amp; EXPORT')}{chip('DEFINED','ok')}
+{bi('كل شيء يُصوَّر مربعًا ثم يُقتطع. مصدر واحد يخدم الفيد والستوري والمربع، فلا يُنتج أصل ثلاث مرات ولا يختلف إطار عن آخر لأنه بُني مرتين.',
+    'Everything is made square and then cropped. One master serves feed, story and square, so no asset is produced three times and no two frames differ because they were built twice.')}
+<table class="t3"><thead><tr><th>الاستخدام · USE</th><th>المقاس · SIZE</th><th>ملاحظة · NOTE</th></tr></thead><tbody>{ob}</tbody></table>
+{note('هامش 8٪ من كل جانب لا يدخله أي عنصر. العبوة في الثلث الأوسط أفقيًّا. منطقة النص أسفل الإطار دائمًا، لا أعلاه. هذه الثوابت هي ما يجعل ثمانية عشر صنفًا تبدو عائلة واحدة.',
+ 'An 8% margin on every side that no element enters. The pack in the middle third horizontally. The type zone at the foot of the frame, never the head. These constants are what make eighteen SKUs read as one family.',
+ 'الثوابت في كل إطار','Constant in every frame',True)}
+{note('الستوري أطول من الفيد، والاقتطاع يأكل الأعلى والأسفل. العبوة توضع في الثلث الأوسط حتى ينجو الإطار نفسه في المقاسين دون إعادة تخطيط.',
+ 'A story is taller than a feed post and the crop eats the top and the bottom. Putting the pack in the middle third is what lets one frame survive both sizes without a re layout.',
+ 'لماذا الثلث الأوسط','Why the middle third')}
+{note('PNG للمصدر، JPG بجودة 90 للنشر. التسمية: اسم المجموعة، ثم الصنف، ثم الشكل، ثم الرقم.',
+ 'PNG for the master, JPG at quality 90 for publishing. Naming: range, then SKU, then format, then number.',
+ 'الصيغة والتسمية','Format and naming')}''')
+
+# ================= 12 PACK IN FIELD =================
+SHP=[('بيبو','BeBo','كيس وسادة','pillow bag','62٪ من عرض الإطار','62% of frame width'),
+('الراوي','AlRawy','عبوة قائمة','standing pouch','58٪ من ارتفاع الإطار','58% of frame height'),
+('تومان','2MAN','إصبع مثلج','ice stick','70٪ من ارتفاع الإطار','70% of frame height'),
+('بوليكا','POLEKA','عبوة زجاجة','bottle pouch','58٪ من ارتفاع الإطار','58% of frame height')]
+sb=''.join(f'<tr><td><b class="ar">{a}</b><span class="en">{b}</span></td><td class="ar">{c}<span class="en">{d}</span></td><td class="ar"><b>{e}</b><span class="en">{f}</span></td></tr>' for a,b,c,d,e,f in SHP)
+COMP=[('الحجم','Scale','حسب الشكل، من 58٪ إلى 70٪','by shape, 58% to 70%'),
+('الوضع','Placement','قاعدة العبوة على مستوى السطح','pack base sits on the surface plane'),
+('ظل التلامس','Contact shadow','أغمق عند التلامس ثم يتلاشى','darkest at contact, then fading'),
+('الظل الملقى','Cast shadow','أسفل اليمين دائمًا، لأن الضوء من أعلى اليسار','always down and right, because the key is upper left'),
+('انعكاس اللون','Colour spill','لون المشهد على حواف العبوة 5٪ إلى 10٪','scene colour on the pack edges at 5% to 10%'),
+('الحافة','Edge','تنعيم بكسل واحد، بلا هالة بيضاء','one pixel feather, no white halo')]
+cpb=''.join(f'<tr><td class="n">{i+1}</td><td><b class="ar">{a}</b><span class="en">{b}</span></td><td class="ar">{c}<span class="en">{d}</span></td></tr>' for i,(a,b,c,d) in enumerate(COMP))
+DN=[('عبوة على حقل ليس حقل نكهتها','a pack on a field that is not its own flavour'),
+('عبوة بلا ظل تلامس، تطفو على الحقل','a pack with no contact shadow, floating on the field'),
+('نص أبيض على حقل يحتاج خطًّا محيطًا','white type on a field that needs a keyline'),
+('شعار المجموعة يتلوّن بلون النكهة','the range logo recoloured to match the flavour'),
+('مجموعتان في إطار واحد','two ranges in one frame'),
+('عبوة تدخل هامش الـ8٪','a pack entering the 8% margin'),
+('حقل متدرّج أو بملمس','a gradient or textured field'),
+('نص فوق العبوة نفسها','type laid over the pack itself')]
+dnb=''.join(f'<li><i></i><span class="ar">{a}</span><span class="en">{e}</span></li>' for a,e in DN)
+CFG=[('الحقل','The field','لون النكهة من الخريطة','the flavour colour from the map'),
+('مقاس العبوة','Pack scale','حسب الشكل، 58٪ إلى 70٪','by shape, 58% to 70%'),
+('لون النص','Type colour','محسوب، لا يُختار','computed, never chosen'),
+('الخط المحيط','Keyline','إلزامي على ثلاثة حقول','mandatory on three fields'),
+('الشخصية','Character','اختياري، إلزامي على بوليكا','optional, mandatory on POLEKA')]
+cfb=''.join(f'<tr><td><b class="ar">{a}</b><span class="en">{b}</span></td><td class="ar">{c}<span class="en">{d}</span></td></tr>' for a,b,c,d in CFG)
+
+sec('12','THE PACK IN FIELD SYSTEM','العبوة على الحقل',
+f'''{eb('نظام العبوة على الحقل','12 · THE PACK IN FIELD SYSTEM')}{chip('DEFINED','ok')}
+{rule('العبوة على حقل نكهتها.','THE PACK ON ITS FLAVOUR FIELD.')}
+{bi('كل رسم، وكل صورة متحركة، وكل أنيميشن في هذا التعاقد مبني من هذا الشيء الواحد. ليس أسلوبًا من بين أساليب، بل الجهاز البصري الذي يميّز أليكس فودز. إذا تغيّر، تغيّرت العلامة.',
+    'Every graphic, every animated still and every animation on this contract is built from this one thing. It is not one style among several, it is the visual device that identifies Alex Foods. If it changes, the brand changes.')}
+<div class="lay3">
+ <div class="ly"><i>1</i><b class="ar">الحقل</b><span>THE FIELD</span><p class="ar">لون النكهة يملك الحقل.</p><p class="en">The flavour colour owns the field.</p></div>
+ <div class="ly"><i>2</i><b class="ar">العبوة</b><span>THE PACK</span><p class="ar">فن العميل نفسه، مقصوص على شفافية.</p><p class="en">The client’s own artwork, cut out on transparency.</p></div>
+ <div class="ly"><i>3</i><b class="ar">النص</b><span>THE TYPE</span><p class="ar">حبري أو أبيض، والقرار محسوب.</p><p class="en">Ink or white, and the decision is computed.</p></div></div>
+{eb('شكل العبوة يحدّد المقاس','THE PACK SHAPE SETS THE SCALE')}
+<table class="t3"><thead><tr><th>المجموعة</th><th>الشكل · SHAPE</th><th>المقاس · SCALE</th></tr></thead><tbody>{sb}</tbody></table>
+{note('أربع مجموعات بأربعة أشكال. مقاس واحد ثابت لكلها ينتج إطارًا فارغًا لتومان وإطارًا مزدحمًا لبيبو. المقاس يتبع الشكل، والهامش هو الثابت.',
+ 'Four ranges with four pack shapes. One fixed scale across all of them produces an empty frame for 2MAN and a crowded one for BeBo. The scale follows the shape and the margin is what stays constant.',
+ 'لماذا المقاس ليس رقمًا واحدًا','Why the scale is not one number')}''',
+f'''{eb('قواعد التركيب','COMPOSITING RULES')}
+<table class="t3 cp"><tbody>{cpb}</tbody></table>
+{note('عبوة لم يلمسها لون المكان تبدو دائمًا كأنها من صورة أخرى، حتى لو كان الظل مثاليًّا.',
+ 'A pack the room’s colour has not touched always looks like it came from another photograph, even when the shadow is perfect.',
+ 'البند الخامس هو الذي يقنع العين','Item 5 is the one that convinces the eye')}
+{eb('ما لا تجلس عليه العبوة أبدًا','WHAT A PACK MAY NEVER SIT ON')}
+{ok('ثمانية أخطاء تُبطل الإطار. كل واحد منها يُرى فورًا، ولهذا يُكتب.','Eight mistakes that void the frame. Every one is visible on sight, which is exactly why it gets written down.',True)}
+<ol class="dn">{dnb}</ol>
+{eb('ما الذي يتغيّر','THE CONFIGURABLES')}
+<table class="t3 cfg"><tbody>{cfb}</tbody></table>
+{note('الطبقات الثلاث وترتيبها. هامش الـ8٪. منطقة النص في الأسفل. ملكية اللون. ولون النص محسوب لا مختار.',
+ 'The three layers and their order. The 8% margin. The type zone at the foot. Colour ownership. And the type colour is computed, never chosen.',
+ 'وما لا يتغيّر أبدًا','And what never changes',True)}''')
+
+# ================= 13 FLASHES & CHARACTERS =================
+sec('13','FLASHES, BADGES &amp; CHARACTERS','الشارات والشخصيات', f'''{eb('الشارات والشخصيات','13 · FLASHES, BADGES &amp; THE CHARACTER LIBRARY')}{chip('DEFINED','ok')}
+{rule('الشخصيات مرسومة بالفعل ومدفوعة بالفعل.','THE CHARACTERS ARE ALREADY DRAWN AND ALREADY PAID FOR.',True)}
+{bi('كل مجموعة تقود بشخصية: وجوه بيبو التي تأخذ لون نكهتها، وحيوانات بوليكا التي تملأ العبوة، وولد تومان الذي يجري. هذه أرخص مادة تملكها هذه الشركة، وهي المادة الوحيدة التي لا يستطيع منافس نسخها.',
+    'Every range leads with a character: BeBo’s faces which take the colour of their own flavour, POLEKA’s full bleed animals, and 2MAN’s running boy. This is the cheapest content this business owns, and the one thing a competitor cannot copy.')}
+<table class="t3"><thead><tr><th>الشارة · BADGE</th><th>مصدرها · SOURCE</th><th>قاعدتها · ITS RULE</th></tr></thead><tbody>
+<tr><td><b class="ar">NEW</b><span class="en">Red corner flash</span></td><td class="ar">من عبوة بيبو<span class="en">from the BeBo pack</span></td><td class="ar">لا يُعاد رسمه ولا يُنقل لمجموعة أخرى<span class="en">never redrawn and never moved to another range</span></td></tr>
+<tr><td><b class="ar">KIDS ZONE</b><span class="en">Rainbow lozenge</span></td><td class="ar">من عبوة بيبو<span class="en">from the BeBo pack</span></td><td class="ar">خاص ببيبو وحدها<span class="en">BeBo only</span></td></tr>
+<tr><td><b class="ar">الختم</b><span class="en">The Alex seal</span></td><td class="ar">علامة الشركة<span class="en">the corporate mark</span></td><td class="ar">يوضع كما ورد، ولا يُعاد بناؤه<span class="en">placed as supplied, never reconstructed</span></td></tr>
+<tr><td><b class="ar">قفل المسابقة</b><span class="en">Giveaway lockup</span></td><td class="ar">بند في الباقة الشهرية<span class="en">a monthly package line item</span></td><td class="ar">واحد لكل المجموعات، يمنع أربع مسابقات بأربعة أشكال<span class="en">one across all ranges, which is what stops four differently shaped giveaways</span></td></tr>
+</tbody></table>
+{note('منشور بوليكا بلا شخصية خارج العلامة حتى لو كان النص مثاليًّا. كل صنف حيوان كامل، فالمنشور يقود بالحيوان لا بالكيس.',
+ 'A POLEKA post with no character in it is off brand even if the copy is perfect. Each SKU is a full animal, so the post leads with the animal and not the packet.',
+ 'القاعدة الوحيدة الملزمة هنا','The one binding rule here',True)}
+{note('لا تُقارن الشخصيات ببعضها أبدًا كأفضل وأسوأ. لكل طفل شخصية مفضّلة، ونصفهم سيُقال لهم إنهم اختاروا خطأ.',
+ 'Never compare the characters to each other as better or worse. Every child has a favourite, and half of them are being told they chose wrong.',
+ 'وما لا يُفعل بها','And what is never done with them')}''')
+
+# ================= 14 SOCIAL PAGES =================
+sec('14','SOCIAL PAGES SETUP','إعداد الصفحات', f'''{eb('إعداد الصفحات','14 · SOCIAL PAGES SETUP')}{chip('SPEC · EXECUTION PENDING CLIENT ACCESS','wait')}
+{rule('حضور واحد لأليكس فودز، لا أربع صفحات.','ONE ALEX FOODS PRESENCE, NOT FOUR BRAND PAGES.')}
+{bi('المجموعات الأربع لا تحمل كل واحدة جمهورها من الصفر. حضور واحد يتراكم، وأربعة حضورات تتقاسم نفس الجهد أربع مرات. المجموعات تدور داخل الحساب الواحد.',
+    'The four ranges do not each carry an audience from zero. One presence compounds, and four presences split the same effort four ways. The ranges rotate inside the one account.')}
+<table class="t3"><thead><tr><th>المنصة · PLATFORM</th><th>الدور · ROLE</th><th>الإيقاع · RHYTHM</th></tr></thead><tbody>
+<tr><td><b>Facebook</b></td><td class="ar"><b>الأساسية.</b> كل أصل ينزل هنا أولًا<span class="en"><b>Primary.</b> Every asset lands here first. The only account with an audience, and the only place the agreed number can move inside a month.</span></td><td class="mono">4 - 5 / week</td></tr>
+<tr><td><b>TikTok</b></td><td class="ar"><b>بناء ثانوي</b> على محتوى الشخصيات<span class="en"><b>Secondary build</b>, on the character content. Already drawn, already paid for, and native to the platform the kids are on.</span></td><td class="mono">2 / week</td></tr>
+<tr><td><b>Instagram</b></td><td class="ar"><b>مرآة.</b> بلا إنتاج خاص<span class="en"><b>Mirror only.</b> Cross post what Facebook gets. No bespoke production until it earns attention.</span></td><td class="ar sm">مرآة<span class="en">mirrors Facebook</span></td></tr>
+<tr><td><b class="ar">ستوري</b><span class="en">Stories</span></td><td class="ar">من حصة الستوري في الرسومات الشهرية<span class="en">from the story format share of the monthly graphics</span></td><td class="mono">1 - 2 / week</td></tr>
+</tbody></table>
+{note('الباقة الشهرية تموّل عشرين أصلًا في الشهر: أنيميشن اثنان، وست صور متحركة، واثنا عشر رسمًا. الإيقاع أعلاه مشتق من ذلك الرقم لا من الطموح. إيقاع لا يستطيع العقد تمويله هو إيقاع يستطيع العميل أن يحاسب عليه.',
+ 'The monthly package funds twenty assets a month: two animations, six animated stills and twelve graphics. The rhythm above is derived from that number rather than from ambition. A rhythm the contract cannot fund is a rhythm the client can hold the agency to.',
+ 'الإيقاع مشتق من الإنتاج','The rhythm is derived from what is produced',True)}
+{note('التنفيذ يحتاج صلاحية أدمن على Meta وحساب جوجل. الكلام مكتوب بالكامل والحسابات لا يمكن إعدادها بدون ذلك. وهناك ما يجب التحقق منه أولًا: يبدو أن حساب فيسبوك الحالي حساب شخصي لا صفحة، وإن كان كذلك فلا يمكن تشغيل إعلانات منه إطلاقًا.',
+ 'Execution needs Meta admin access and a Google account. The spec is fully written and the accounts cannot be set up without them. And one thing has to be checked first: the current Facebook asset appears to be a personal profile rather than a Page, and if it is, no paid campaign can run from it at all.',
+ 'ما يمنع التنفيذ','What blocks execution')}''')
+
+# ================= 15 MOTION =================
+sec('15','MOTION','الحركة', f'''{eb('الحركة','15 · MOTION')}{chip('DEFINED','ok')}
+{bi('الباقة الشهرية تسلّم ثماني قطع متحركة: أنيميشن اثنان وست صور متحركة. الفرق بينهما ليس في الطول بل في ما يتحرك، وتحديد ذلك كتابةً هو ما يمنع ست صور متحركة من أن تصير ستة أنيميشن صغيرة بتكلفة ستة أنيميشن.',
+    'The monthly package delivers eight motion pieces: two animations and six animated stills. The difference is not length, it is what moves, and writing that down is what stops six animated stills quietly becoming six small animations at the cost of six animations.')}
+<table class="t3"><thead><tr><th>النوع · TYPE</th><th>ما يتحرك · WHAT MOVES</th><th>المدة · DURATION</th></tr></thead><tbody>
+<tr><td><b class="ar">صورة متحركة</b><span class="en">Animated still</span><span class="en mono">6 / month</span></td><td class="ar">عنصر واحد فقط: بخار، أو قطرة، أو غمزة من وجه بيبو، أو ميل خفيف في العبوة. الإطار نفسه ثابت.<span class="en">One element only: steam, a droplet, a wink from a BeBo face, a slight tilt on the pack. The frame itself does not move.</span></td><td class="mono">2 - 4s<span class="en">loops</span></td></tr>
+<tr><td><b class="ar">أنيميشن منتج</b><span class="en">Product animation</span><span class="en mono">2 / month</span></td><td class="ar">الإطار يتحرك: دخول العبوة، وتغيّر الحقل، وظهور النص، ثم القفل. له بداية ونهاية.<span class="en">The frame moves: the pack enters, the field changes, the type resolves, then the lockup. It has a beginning and an end.</span></td><td class="mono">8 - 15s</td></tr>
+</tbody></table>
+{eb('القواعد','THE RULES')}
+<ol class="ru">
+<li><span class="ar">العبوة لا تتشوّه أبدًا. لا تمطّط ولا التواء ولا انضغاط.</span><span class="en">The pack never distorts. No stretch, no warp, no squash. It is the client’s printed artwork and it holds its proportions.</span></li>
+<li><span class="ar">النص يظهر ويثبت. لا يطير ولا يرتد ولا يدور.</span><span class="en">Type appears and settles. It never flies, bounces or spins. The register of the motion has to match the register of the voice.</span></li>
+<li><span class="ar">الحقل لا يتدرّج ولا يلمع. لون مسطّح في الحركة كما في الثبات.</span><span class="en">The field never gradients or shines. Flat colour in motion exactly as in stills.</span></li>
+<li><span class="ar">كل قطعة تعمل بلا صوت. الصوت إضافة، لا شرط.</span><span class="en">Every piece works with the sound off. Sound is an addition, never a condition, because most of this audience scrolls muted.</span></li>
+<li><span class="ar">آخر إطار هو إطار العبوة الثابت. من يتوقف عند النهاية يرى المنتج.</span><span class="en">The last frame is the still pack frame. Anybody who stops at the end sees the product.</span></li>
+</ol>
+{note('الصورة المتحركة عنصر واحد يتحرك داخل إطار ثابت. في اللحظة التي يتحرك فيها الإطار أو يدخل عنصر ثانٍ، صارت أنيميشن، وسعرها مختلف. هذا التعريف هو الذي يحمي الباقة الشهرية من أن تُستهلك.',
+ 'An animated still is one element moving inside a frame that does not. The moment the frame moves or a second element enters, it is an animation, and it costs differently. That definition is what protects the monthly package from being quietly consumed.',
+ 'الحد بين النوعين','The line between the two',True)}''')
+
+# ================= 16 SHOOTING & COMPOSITING =================
+CONST=[('زاوية الكاميرا','Camera angle','من أعلى 10 إلى 15 درجة','10 to 15 degrees above','أعلى يشوّه العبوة، وأقل يخفي الأرضية','higher distorts the pack, lower hides the surface'),
+('العدسة','Lens','ما يعادل 50 مم','50 mm equivalent','العدسات الواسعة تقوّس حواف العبوة','wide lenses bow the pack edges'),
+('اتجاه الضوء','Light direction','أعلى اليسار بزاوية 45 درجة','upper left at 45 degrees','ثابت واحد يجعل كل الظلال متفقة','one constant keeps every shadow in agreement'),
+('نوع الضوء','Light quality','ناعم، مصدر واسع','soft, broad source','الضوء الحاد يكسر ألوان العبوة المطبوعة','hard light breaks the printed pack colours'),
+('حرارة اللون','Colour temperature','5200 كلفن، نهار محايد','5200 K neutral daylight','حتى لا تتغير ألوان العلامة','so the brand colours do not shift'),
+('الظل','Shadow','ظل تلامس ناعم تحت العبوة','soft contact shadow beneath','بدونه تبدو العبوة طائرة','without it the pack floats'),
+('عمق الميدان','Depth of field','العبوة حادة، الخلفية ناعمة','pack sharp, background soft','العبوة هي البطل دائمًا','the pack is always the hero'),
+('نسبة التصوير','Capture ratio','مربع 1:1 ثم يُقتطع','square 1:1 then cropped','مصدر واحد يخدم الفيد والستوري','one source serves feed and story')]
+cr=''.join(f'<tr><td><b class="ar">{a}</b><span class="en">{b}</span></td><td class="ar">{c}<span class="en">{d}</span></td><td class="ar sm">{e}<span class="en">{f}</span></td></tr>' for a,b,c,d,e,f in CONST)
+WLD=[('بيبو','BeBo','#1BA34C','مطبخ بيت، سطح نظيف','a home kitchen, a clean counter','ضوء صباح من نافذة','morning window light','هادئ، مرتب، بيت شغّال','calm, tidy, a house that works','لا تُعاد تلوين شارة KIDS ZONE لتطابق النكهة','never recolour the KIDS ZONE lozenge to match the flavour'),
+('الراوي','AlRawy','#1B4F9C','طاولة نظيفة أو حقيبة مدرسة','a clean table, or an open school bag','نهار صافٍ','clear daylight','اطمئنان، لا إثارة','reassurance, never excitement','لا أكوام فاكهة توحي بنسبة عصير','no fruit piles implying juice content'),
+('تومان','2MAN','#29ABE2','خارج البيت، شارع أو شاطئ','outdoors, a street or a beach','شمس قوية مباشرة','strong direct sun','حركة، برودة، النهار ملكك','motion, cold, the day is yours','العبوتان لهما نفس العالم','both packages share one world'),
+('بوليكا','POLEKA','#EC008C','خلفية لون مسطّح، بلا واقعية','a flat colour ground, no realism','ناعم ومتساوٍ','soft and even','لعب. الشخصية أولًا','play. Character first','صنف الكولا لا يظهر في أي إعلان مدفوع','the cola SKU appears in no paid campaign')]
+wb=''.join(f'''<div class="wld"><div class="wh" style="border-left:1.2mm solid {sig}"><b class="ar">{ar}</b><span>{en}</span></div>
+<table class="wt"><tbody>
+<tr><td class="k">المكان · PLACE</td><td class="ar">{pa}<span class="en">{pe}</span></td></tr>
+<tr><td class="k">الضوء · LIGHT</td><td class="ar">{la}<span class="en">{le}</span></td></tr>
+<tr><td class="k">المزاج · MOOD</td><td class="ar">{ma}<span class="en">{me}</span></td></tr>
+<tr class="no"><td class="k">ممنوع · FORBIDDEN</td><td class="ar"><b>{fa}</b><span class="en"><b>{fe}</b></span></td></tr>
+</tbody></table></div>''' for ar,en,sig,pa,pe,la,le,ma,me,fa,fe in WLD)
+CHK=[('العبوة من مجلد المصادر ولم تُولَّد','pack came from the source folder, not generated'),
+('لا يوجد أي حرف في المشهد','no lettering anywhere in the scene'),
+('ظل التلامس موجود وناعم','contact shadow present and soft'),
+('اتجاه الظل يوافق الضوء من أعلى اليسار','shadow agrees with the upper left key'),
+('لا توجد هالة حول حواف العبوة','no halo on the pack edges'),
+('لون المشهد لمس حواف العبوة','the scene colour has touched the pack edges'),
+('لا يد، لا وجه، لا شخص','no hand, no face, no person'),
+('لا ادعاء صحي ولا نسبة فاكهة ولا رقم غذائي','no health cue, no fruit ratio, no nutritional number'),
+('شارة KIDS ZONE بلونها الأصلي','KIDS ZONE lozenge in its original colours'),
+('صنف كولا بوليكا خارج أي مادة مدفوعة','POLEKA cola out of all paid material')]
+kb=''.join(f'<li><i></i><span class="ar">{a}</span><span class="en">{e}</span></li>' for a,e in CHK)
+
+sec('16','SHOOTING &amp; COMPOSITING','وصفة التصوير والتركيب',
+f'''{eb('وصفة التصوير والتركيب','16 · SHOOTING &amp; COMPOSITING RECIPE')}{chip('DEFINED','ok')}
+{rule('المشهد يُولَّد. المنتج لا يُولَّد أبدًا.','THE SCENE IS GENERATED. THE PRODUCT NEVER IS.')}
+{bi('الذكاء الاصطناعي لا يكتب حروفًا عربية صحيحة، ولا يعيد رسم شعار مسجّل بدقة. ينتج شيئًا يشبههما. على عبوة طعام، الشبيه ليس أسلوبًا، بل منتج مختلَق لا وجود له. لذلك الذكاء الاصطناعي يصنع المكان فقط، والعبوة الحقيقية تُركَّب فوقه.',
+    'AI does not render correct Arabic lettering, and it does not redraw a registered mark accurately. It produces something that resembles them. On a food pack, a resemblance is not a style choice, it is a fabricated product that does not exist. So AI makes the place, and the real pack is composited into it.')}
+{note('فن العبوة ملك العميل، وكل بكسل منه في الصورة النهائية هو ملكه هو. لا يوجد ادعاء بصري لم يوافق عليه أحد، ولا علامة تجارية أُعيد رسمها خطأً.',
+ 'The pack artwork belongs to the client, so every pixel of product in the final image is theirs. There is no visual claim nobody approved, and no trademark redrawn wrongly.',
+ 'لماذا تحمي القاعدة الطرفين','Why the rule protects both sides')}
+{eb('الثوابت','THE CONSTANTS')}
+<table class="t3 cn"><thead><tr><th>الثابت · CONSTANT</th><th>القيمة · VALUE</th><th>لماذا · WHY</th></tr></thead><tbody>{cr}</tbody></table>''',
+f'''{eb('عوالم المشاهد','THE SCENE WORLDS')}
+{bi('لكل مجموعة عالمها. الثوابت لا تتغير، لكن المكان والأرضية والمزاج يتغيرون. العالم هو ما يفصل المجموعات عن بعضها، تمامًا كما تفعل ألوانها على الرف.',
+    'Each range has its world. The constants never change, but the place, the surface and the mood do. The world is what separates the ranges, exactly as their colours do on a shelf.')}
+<div class="wlds">{wb}</div>
+{note('بيبو مشروب يُشرب، وقد تأكد ذلك من صفحة العميل نفسها. إظهار الشرب صحيح ومطلوب. الممنوع هو العبث بشارة KIDS ZONE، فهي فن ثابت لا يتغير مع النكهة.',
+ 'BeBo is a drink, confirmed from the client’s own page. Showing it being drunk is correct and wanted. What is forbidden is touching the KIDS ZONE lozenge, which is fixed artwork and never changes with the flavour.',
+ 'بيبو، بعد أن حُسم','BeBo, now that it is settled')}
+{eb('قائمة المراجعة قبل النشر','THE PRE PUBLISH CHECKLIST')}
+<ol class="chk">{kb}</ol>''')
+
+
+# ================= 21 COMPLIANCE =================
+NEV=[('ادعاءات صحية أو طبية','Health or medical claims','صحي · مفيد · يقوي المناعة · غني بالفيتامينات'),
+('«طبيعي ١٠٠٪» أو «عصير ١٠٠٪»','100% natural or 100% juice','الراوي نكتار، وبيبو مشروب مُحضَّر'),
+('«أورجانيك» أو أي ادعاء شهادة','Organic, or any certification claim','لم تصل أي شهادة مكتوبة'),
+('أي رقم غذائي','Any nutritional number','سعرات · سكر · نسبة فاكهة · فيتامينات'),
+('مقارنة بمنافس بالاسم','Named competitor comparisons','ولا «أحسن من» ضد أحد'),
+('ادعاءات سعر','Price claims','«الأرخص» غير قابلة للتحقق وتختلف من محل لمحل'),
+('وعود توفّر','Availability promises','لا يُذكر محل لم يؤكده العميل'),
+('عمر الشركة قبل تأكيده','A company age before it is confirmed','ورقهم يقول عشرين وخمسة وعشرين'),
+('أي شيء عن المصنع أو الشهادات أو الحلال','Anything about the factory, certifications or halal','كلها معلومات العميل'),
+('رد علني على شكوى تلوّث أو مرض','A public reply to a contamination or illness complaint','لها إجراء خاص')]
+nv=''.join(f'<li><i></i><span class="ar"><b>{a}</b></span><span class="en">{b}</span><span class="ar sm">{c}</span></li>' for a,b,c in NEV)
+sec('21','COMPLIANCE','الالتزام', f'''{eb('الالتزام · ما لا يُقال أبدًا','21 · COMPLIANCE · THE NEVER LIST')}{chip('DEFINED','ok')}
+{ok('هذا القسم موجود لأن صفحة طعام يمكن الإبلاغ عنها، وحساب إعلانات مدفوع يمكن تقييده، بسبب جملة واحدة لم يفكر فيها أحد. الوكالة هي التي تدير حساب الإعلانات، فهذه مسؤوليتها بقدر ما هي مسؤولية العميل.',
+    'This section exists because a food page can be reported, and a paid ad account restricted, on a single sentence nobody thought about. The agency runs the ad account, so this is the agency’s exposure as much as the client’s.',True)}
+<ol class="nev">{nv}</ol>
+{note('ما لم يصل من العميل مكتوبًا، لا تعرفه الوكالة. التخمين المفيد في خيط تعليقات هو ادعاء منشور باسم العلامة.',
+ 'If it did not come from the client in writing, the agency does not know it. A helpful guess in a comment thread is a published claim by the brand.',
+ 'المبدأ الحاكم','The governing principle',True)}
+{note('القائمة أعلاه تنطبق على الصور بنفس القوة. صورة صالة رياضية أو معمل ادعاء صحي، وكومة فاكهة ادعاء نسبة، وزيّ مدرسي ادعاء اعتماد. الصورة ادعاء منشور مثلها مثل الجملة.',
+ 'The list above applies to images with equal force. A gym or a laboratory is a health claim, a fruit pile is a content claim, and a school uniform is an endorsement claim. An image is a published claim exactly as a sentence is.',
+ 'وينطبق على الصور أيضًا','And it applies to pictures too')}''')
+
+# ================= 22 SYSTEM IN NUMBERS =================
+NUMS=[('المجموعات','Ranges',str(len(RANGES))),('الأصناف','SKUs',str(NF)),('الحقول','Flavour fields',str(NF)),
+('الحبري يفوز','Ink wins',str(NINK)),('الأبيض يفوز','White wins',str(NWHT)),('تحتاج خطًّا محيطًا','Need a keyline',str(NKEY)),
+('تصادمات دقيقة','Exact collisions',str(len(COLL))),('المحايدات','Neutrals','8'),
+('عائلات الخطوط','Type families','3'),('المقاسات النهائية','Output sizes','7'),
+('الأصول شهريًّا','Assets per month','20'),('قطع الحركة شهريًّا','Motion pieces per month','8')]
+nb2=''.join(f'<div class="num"><b>{v}</b><span class="ar">{a}</span><span class="en">{e}</span></div>' for a,e,v in NUMS)
+sec('22','THE SYSTEM IN NUMBERS','النظام بالأرقام', f'''{eb('النظام بالأرقام','22 · THE SYSTEM IN NUMBERS')}{chip('DEFINED','ok')}
+<div class="nums">{nb2}</div>
+{eb('إعادة البناء من هذه الوثيقة','REBUILDING FROM THIS BOOK')}
+{bi('كل شيء في هذا النظام مبني من خمسة أشياء. من فهمها يستطيع أن يمدّ النظام دون أن يخمّن.',
+    'Everything in this system is built from five things. Anybody who understands them can extend it without guessing.')}
+<ol class="ru">
+<li><span class="ar">البنية في القسم 3: الماستر فوق، والمجموعات تحته، والنكهة تحتها.</span><span class="en">The architecture in section 3. Master above, ranges beneath, flavour beneath that.</span></li>
+<li><span class="ar">ملكية اللون: النكهة للحقل، المجموعة للشعار، الماستر للختم.</span><span class="en">Colour ownership. Flavour owns the field, range owns the logo, master owns the seal.</span></li>
+<li><span class="ar">جهاز العبوة على الحقل في القسم 12.</span><span class="en">The pack in field device in section 12. Three layers, a computed type colour, an 8% margin.</span></li>
+<li><span class="ar">صوت واحد ونبرة لكل مجموعة، في القسم 8.</span><span class="en">One voice and a tone per range, in section 8.</span></li>
+<li><span class="ar">قائمة الممنوعات في القسم 21، وهي حماية قانونية لا أسلوب.</span><span class="en">The never list in section 21, which is legal protection rather than style.</span></li>
+</ol>
+{note('كل رقم في هذه الوثيقة محسوب بمعادلة السطوع النسبية في WCAG 2.1، لا مُقدَّرًا بالعين. يمكن إعادة توليد أي قيمة هنا من الشيفرة التي بنت الوثيقة.',
+ 'Every number in this book is computed with the WCAG 2.1 relative luminance formula rather than estimated by eye. Any value here can be regenerated from the code that built the document.',
+ 'من أين تأتي الأرقام','Where the numbers come from',True)}''')
+
+# ================= 23 GOVERNANCE =================
+sec('23','GOVERNANCE','الحوكمة', f'''{eb('الحوكمة وضبط الإصدارات','23 · GOVERNANCE &amp; VERSION CONTROL')}{chip('DEFINED','ok')}
+<table class="t3"><thead><tr><th>البند · ITEM</th><th>القاعدة · RULE</th></tr></thead><tbody>
+<tr><td><b class="ar">الإصدار</b><span class="en">Version</span></td><td class="ar">يظهر في تذييل كل صفحة. صفحة تُوجد على مكتب بعد ستة أشهر يجب أن تعرّف نفسها وإصدارها.<span class="en">Printed in the footer of every page. A page found loose on a desk in six months has to identify itself and its version.</span></td></tr>
+<tr><td><b class="ar">التعديل</b><span class="en">Revision</span></td><td class="ar">الوثيقة مولَّدة لا مُصفَّفة يدويًّا. التعديل تحرير وإعادة توليد، لا إعادة تخطيط.<span class="en">The book is generated rather than hand laid. A revision is an edit and a re render, never a re layout.</span></td></tr>
+<tr><td><b class="ar">المصدر</b><span class="en">The source</span></td><td class="ar">كل قيمة لون وكل نسبة تباين تأتي من الشيفرة نفسها. لا يوجد رقم مكتوب يدويًّا في هذه الوثيقة.<span class="en">Every colour value and every contrast ratio comes from the code itself. There is no hand typed number in this book.</span></td></tr>
+<tr><td><b class="ar">الاعتماد</b><span class="en">Approval</span></td><td class="ar">شخص واحد مسمّى من جانب العميل، وملاحظاته وحده هي التي تُحتسب. لا رد خلال 48 ساعة يعني اعتمادًا.<span class="en">One named approver on the client side, and only their notes count. No reply within 48 hours means approved.</span></td></tr>
+<tr><td><b class="ar">التعديلات</b><span class="en">Revision rounds</span></td><td class="ar">جولة واحدة لكل تسليم، وكل الملاحظات في رد مكتوب واحد.<span class="en">One round per delivery, with all notes gathered into a single written reply.</span></td></tr>
+</tbody></table>
+{note('الأقسام التي تحمل شارة انتظار ليست ناقصة، بل محجوزة ومحدَّدة وتنتظر شيئًا مسمّى. كل واحدة منها تقول ما تنتظره ومن. الوثيقة التي تحذف تسليمًا مدفوعًا بصمت أسوأ من الوثيقة التي تقول أين يقف.',
+ 'The sections carrying a waiting chip are not missing, they are reserved, specified, and waiting on something named. Each one says what it waits on and who from. A book that quietly leaves out a bought deliverable is worse than one that says where it stands.',
+ 'الأقسام المنتظرة','The sections that are waiting',True)}''')
+
+# ================= 24 SIGN OFF =================
+sec('24','SIGN-OFF','الاعتماد', f'''{eb('الاعتماد','24 · SIGN-OFF')}
+<div class="signoff">{cnr()}
+<h1 class="ar">اعتماد الأساس التجاري</h1><h2>BRAND FOUNDATION APPROVAL</h2>
+<p class="ar so">باعتماد هذه الوثيقة، يقرّ العميل بأن الأساس التجاري قد سُلِّم، ويسمّي الشخص الوحيد الذي تُحتسب ملاحظاته بموجب العقد.</p>
+<p class="en so">By approving this document the client accepts the Brand Foundation as delivered, and names the one person whose notes count under the contract.</p>
+<div class="sfields">
+ <div class="sf"><span>الاسم · NAME</span><i></i></div>
+ <div class="sf"><span>الصفة · ROLE</span><i></i></div>
+ <div class="sf"><span>التاريخ · DATE</span><i></i></div>
+ <div class="sf"><span>التوقيع · SIGNATURE</span><i></i></div>
+</div>
+<div class="sn"><b class="ar">شرط بدء الشهر الأول</b>
+<p class="ar">يبدأ الشهر الأول من الباقة في التاريخ الأبعد من اثنين: اعتماد الأساس التجاري كتابةً، أو وصول صور المنتج الصالحة للاستخدام.</p>
+<p class="en">Package month 1 starts on the later of two dates: written approval of the Brand Foundation, or the arrival of usable product photography.</p></div>
+<div class="by"><i></i><span>THE STANDARD AGENCY &nbsp;·&nbsp; {VER} &nbsp;·&nbsp; {DATE}</span></div></div>''')
+
+# ================= RENDER =================
+CSS=f'''
+@page{{size:210mm 297mm;margin:0}}
+*{{box-sizing:border-box}}
+html,body{{margin:0;padding:0;background:{PAPER};color:{INK};font-family:'IBM Plex Sans',sans-serif;
+ -webkit-print-color-adjust:exact;print-color-adjust:exact}}
+.page{{width:210mm;height:297mm;padding:14mm 14mm 20mm;position:relative;overflow:hidden;background:{PAPER};
+ page-break-after:always;break-after:page}}
+.page:last-child{{page-break-after:auto}}
+.page.dark{{background:{DEEP};color:{PAPER}}}
+.ar{{font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;line-height:1.75;text-align:right}}
+.mono{{font-family:'IBM Plex Mono',monospace}}
+b,strong{{font-weight:700}}
+.eb{{display:flex;align-items:baseline;gap:3mm;margin:5mm 0 2.4mm}}
+.eb > span{{font-size:7.6pt;font-weight:700;letter-spacing:.14em;color:{INK};text-transform:uppercase;white-space:nowrap}}
+.eb > i{{flex:1;height:0.25mm;background:{SILVER};align-self:center}}
+.eb > b.ar{{font-size:8.2pt;font-weight:400;color:{SLATE}}}
+.page > .eb:first-child{{margin-top:0;margin-bottom:3.6mm;align-items:baseline}}
+.page > .eb:first-child > span{{font-size:15pt;letter-spacing:.01em}}
+.page > .eb:first-child > b.ar{{font-size:14pt;font-weight:700;color:{INK}}}
+.page > .eb:first-child > i{{height:0.5mm;background:{INK}}}
+.cnr{{position:absolute;width:4mm;height:4mm;border:0.5mm solid {RED};z-index:3}}
+.cnr.tl{{top:2.5mm;left:2.5mm;border-right:0;border-bottom:0}} .cnr.tr{{top:2.5mm;right:2.5mm;border-left:0;border-bottom:0}}
+.cnr.bl{{bottom:2.5mm;left:2.5mm;border-right:0;border-top:0}} .cnr.br{{bottom:2.5mm;right:2.5mm;border-left:0;border-top:0}}
+/* cover */
+.cover ~ .cnr.bl,.cover ~ .cnr.br{{display:none}}
+.cover{{position:absolute;inset:0;background:{DEEP};color:{PAPER};display:flex;flex-direction:column;
+ justify-content:space-between;padding:20mm 18mm 0}}
+.cvtop .seal{{width:46mm}}
+.cvmid h1{{font-size:30pt;font-weight:700;margin:0;font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;text-align:right}}
+.cvmid h2{{font-size:15pt;font-weight:700;margin:2mm 0 0;letter-spacing:.2em}}
+.cvsub{{font-size:7.4pt;color:#B9B5D8;margin:4mm 0 0;line-height:1.7}}
+p.ar.cvsub{{text-align:right;font-size:8.4pt}}
+.cvbot{{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;padding-bottom:16mm}}
+.cvmeta span{{display:block;font-size:5.2pt;font-weight:700;letter-spacing:.18em;color:#8A86B8}}
+.cvmeta b{{display:block;font-size:7.4pt;margin-top:1.2mm;letter-spacing:.06em}}
+.cvmeta b.pend{{color:#FF8A82}}
+.cvband{{position:absolute;left:0;right:0;bottom:0;height:7mm;display:flex}}
+.cvband i{{flex:1}}
+/* chips */
+.chip{{display:inline-block;font-size:5.6pt;font-weight:700;letter-spacing:.18em;padding:0 0 0 3mm;
+ margin:0 0 2.6mm;background:transparent;color:{GRAPH};border-left:0.8mm solid {INK}}}
+.chip-ok{{border-left-color:#1BA34C;color:{SLATE}}} .chip-wait{{border-left-color:{RED};color:{RED}}} .chip-pend{{border-left-color:{SLATE};color:{SLATE}}}
+.chips{{display:grid;grid-template-columns:auto 1fr;gap:1.5mm 3mm;align-items:center;margin-bottom:2mm}}
+.chips p{{margin:0;font-size:6.6pt;color:{GRAPH}}}
+.lgd{{display:flex;gap:6mm;font-size:5.6pt;font-weight:700;letter-spacing:.12em;color:{SLATE};margin-top:1mm}}
+.lgd i{{display:inline-block;width:2.4mm;height:2.4mm;margin-right:1.4mm}}
+.lgd i.ok,.st i.ok{{background:#1BA34C}} .lgd i.wait,.st i.wait{{background:{RED}}} .lgd i.pend,.st i.pend{{background:{SLATE}}}
+.st i{{display:block;width:2.6mm;height:2.6mm}}
+/* rule panel */
+.rule{{position:relative;background:{DEEP};color:{PAPER};padding:7mm 9mm;text-align:center;overflow:hidden;margin-bottom:3mm;border-left:1.2mm solid {RED}}}
+.rule.sm{{padding:4.5mm 9mm}}
+.rule p.rl{{margin:0;font-weight:700;position:relative;z-index:2}}
+.rule p.ar.rl{{font-size:16pt;line-height:1.5;text-align:center;font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl}}
+.rule.sm p.ar.rl{{font-size:13pt}}
+.rule p.rl.en{{font-size:8pt;letter-spacing:.15em;margin-top:2mm;opacity:.92}}
+.rule .cnr{{display:none}}
+.bi{{margin:0 0 2mm}}
+.bi > p{{margin:0;font-size:7.4pt;line-height:1.68;color:{GRAPH};max-width:145mm}}
+.bi > p.ar{{font-size:8.1pt;color:{INK};margin-bottom:1.3mm;max-width:145mm;margin-left:auto}}
+/* tables */
+table.t3{{width:100%;border-collapse:collapse;margin:0 0 2mm}}
+table.t3 th{{font-size:5.6pt;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:{SLATE};
+ text-align:left;padding:0 2mm 1.4mm;border-bottom:0.3mm solid {SILVER}}}
+table.t3 td{{font-size:7pt;line-height:1.5;padding:1.5mm 2mm;border-bottom:0.2mm solid {SILVER};vertical-align:top;color:{GRAPH}}}
+table.t3 td > b{{color:{INK};display:inline}}
+table.t3 td.ar{{font-size:7.4pt;color:{INK}}}
+table.t3 td.sm{{font-size:6.5pt;color:{SLATE}}}
+table.t3 td span.en{{display:block;font-family:'IBM Plex Sans',sans-serif;direction:ltr;text-align:left;
+ font-size:6.2pt;color:{SLATE};margin-top:0.5mm;line-height:1.5}}
+table.t3 td.n{{font-family:'IBM Plex Mono',monospace;color:{RED};font-weight:700;width:6mm;font-size:8pt}}
+table.t3 td.num{{text-align:right;color:{INK}}}
+table.t3 td.sw{{width:8mm;padding:1.2mm 1mm}} table.t3 td.sw > i{{display:block;width:100%;height:4.6mm}}
+table.t3.ct td{{padding:0.72mm 2mm}}
+table.t3.ct td:first-child{{font-size:6pt;font-weight:700;letter-spacing:.08em;color:{INK}}}
+table.t3.ct td.v{{width:22mm}}
+table.t3.ct td.v > span{{font-size:5.4pt;font-weight:700;letter-spacing:.1em;padding:0.6mm 1.5mm;display:inline-block}}
+table.t3.ct td.v > span.ink{{background:{INK};color:{PAPER}}}
+table.t3.ct td.v > span.wht{{background:#FFF;color:{INK};border:0.2mm solid {SILVER}}}
+table.t3.ct td.v > span.key{{background:{RED};color:#FFF}}
+table.t3.ct tr.key td{{background:#FDF0EF}}
+table.t3.toc td{{padding:1.1mm 2mm}} table.t3.toc td.n{{color:{SLATE};width:8mm}}
+table.t3.toc td.d{{width:16mm;color:{SLATE};font-size:6.4pt}} table.t3.toc td.st{{width:8mm}}
+table.t3.cn td:first-child{{width:33mm}} table.t3.cn td:nth-child(2){{width:50mm}}
+table.t3.cp td:nth-child(2){{width:40mm}} table.t3.cfg td:first-child{{width:40mm}}
+table.t3.cap td:nth-child(3){{width:26mm}}
+table.t3.jb td:nth-child(2){{width:52mm}}
+table.t3.jb td.q{{width:16mm;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:12pt;font-weight:700;color:{INK}}}
+table.t3.m1 td:first-child{{width:42mm}} table.t3.m1 td:nth-child(3){{width:46mm}}
+table.t3.m1 td.q{{width:9mm;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:11pt;font-weight:700;color:{RED}}}
+/* notes */
+.note{{background:{MIST};border-left:0.8mm solid {RED};padding:2.4mm 4.2mm;margin:0 0 2mm}}
+.note.warn{{border-left-color:{INK}}}
+.note > b{{font-size:7.4pt;display:inline;color:{INK}}}
+.note > p{{font-size:7pt;line-height:1.62;margin:1.1mm 0 0;color:{GRAPH}}}
+.note > p.ar{{font-size:7.5pt;color:{INK}}}
+.ok{{background:{DEEP};color:{PAPER};padding:2.6mm 4.5mm;margin:0 0 2mm;font-family:'IBM Plex Sans Arabic',sans-serif;
+ direction:rtl;text-align:right;font-size:8pt}}
+.ok.warn{{background:{INK}}}
+.ok > b{{display:inline;font-weight:700}}
+.ok > span.en{{display:block;direction:ltr;text-align:left;font-family:'IBM Plex Sans',sans-serif;font-size:6.6pt;
+ color:#C9C5BC;margin-top:1mm;line-height:1.55}}
+/* lists */
+ol.ru{{list-style:none;margin:0 0 2mm;padding:0;counter-reset:r}}
+ol.ru li{{counter-increment:r;display:grid;grid-template-columns:6mm 1fr;gap:0 2mm;padding:1.6mm 0;border-bottom:0.2mm solid {SILVER}}}
+ol.ru li::before{{content:counter(r,decimal-leading-zero);font-family:'IBM Plex Mono',monospace;font-size:6.4pt;
+ font-weight:700;color:{RED};grid-row:1/3}}
+ol.ru li > span.ar{{font-size:7.4pt;color:{INK};line-height:1.6}}
+ol.ru li > span.en{{font-size:6.4pt;color:{SLATE};line-height:1.55}}
+ol.dn,ol.chk{{list-style:none;margin:0 0 2mm;padding:0;columns:2;column-gap:5mm}}
+ol.dn li,ol.chk li{{break-inside:avoid;display:grid;grid-template-columns:3.4mm 1fr;gap:0 2mm;padding:1.3mm 0;
+ border-bottom:0.2mm solid {SILVER}}}
+ol.dn li > i{{width:2.8mm;height:2.8mm;background:{RED};display:block;grid-row:1/3;margin-top:0.8mm}}
+ol.chk li > i{{width:2.8mm;height:2.8mm;border:0.3mm solid {INK};display:block;grid-row:1/3;margin-top:0.7mm}}
+ol.dn li > span.ar,ol.chk li > span.ar{{font-size:6.8pt;color:{INK};line-height:1.5}}
+ol.dn li > span.en,ol.chk li > span.en{{font-size:5.6pt;color:{SLATE};line-height:1.4}}
+ol.nev{{list-style:none;margin:0 0 2mm;padding:0}}
+ol.nev li{{display:grid;grid-template-columns:3.4mm 1fr;gap:0 2.5mm;padding:1.6mm 0;border-bottom:0.2mm solid {SILVER}}}
+ol.nev li > i{{width:2.8mm;height:2.8mm;background:{RED};display:block;grid-row:1/4;margin-top:0.8mm}}
+ol.nev li > span.ar{{font-size:7.4pt;color:{INK}}}
+ol.nev li > span.en{{font-size:6.2pt;color:{GRAPH}}}
+ol.nev li > span.ar.sm{{font-size:6.4pt;color:{SLATE}}}
+/* hierarchy */
+.hier{{margin:0 0 2mm}}
+.hlv{{background:{MIST};padding:3.2mm 3.5mm;text-align:center}}
+.hlv.m{{background:{DEEP};color:{PAPER};border-color:{DEEP}}}
+.hlv > b.ar{{font-size:10pt;display:block}} .hlv > span{{font-size:5.4pt;font-weight:700;letter-spacing:.16em;color:{SLATE}}}
+.hlv.m > span{{color:#8A86B8}}
+.hlv > em{{display:block;font-style:normal;font-size:6.6pt;margin-top:1mm;color:{GRAPH}}}
+.hlv.m > em{{color:#B9B5D8}}
+.hlv > i{{display:block;height:1.6mm;margin-top:1.5mm}}
+.harr{{height:3mm;border-left:0.3mm solid {SILVER};width:0;margin:0 auto}}
+.hrow{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm}}
+/* colour swatches */
+.csws4{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2mm}}
+.csw{{background:transparent;padding:0 0 2.2mm}}
+.chipc{{height:20mm;margin-bottom:2.2mm}}
+.csw b{{font-size:7pt;display:block;color:{INK}}}
+.csw span{{display:block;font-size:5.8pt;color:{SLATE};line-height:1.5}}
+.csw span.ar{{font-size:6.6pt;color:{GRAPH}}} .csw span.role{{font-size:5.2pt;letter-spacing:.06em;margin-top:0.8mm}}
+.csw span.cr{{font-family:'IBM Plex Mono',monospace;font-size:5.6pt;color:{INK};margin-top:0.8mm}}
+.csw span.cr em{{font-style:normal;color:{SLATE}}}
+.cols{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.col{{display:flex;gap:2.5mm;background:transparent;border-top:0.4mm solid {INK};padding:2.2mm}}
+.cs{{width:14mm;min-width:14mm}}
+.cx > b{{font-size:7pt;color:{INK};display:block;margin-bottom:0.8mm}}
+.cx > ul{{list-style:none;margin:0;padding:0}}
+.cx > ul li{{font-size:6pt;line-height:1.5;color:{GRAPH}}} .cx > ul li b{{color:{INK}}}
+table.t3.rl2 td{{padding:2mm}}
+/* type */
+.two{{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-bottom:2mm}}
+.fam{{background:transparent;border-top:0.4mm solid {INK};padding:3mm}}
+.fam.full{{margin-bottom:2mm}}
+.fam > b{{font-size:12pt;display:block;color:{INK}}}
+.fam > span{{font-size:7pt;color:{SLATE};display:block;font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;text-align:right;margin-bottom:1.5mm}}
+.fam > p{{margin:0;font-size:6.6pt;line-height:1.6;color:{GRAPH}}}
+/* logos */
+.sealrow{{display:flex;gap:6mm;align-items:center;background:transparent;border-top:0.4mm solid {INK};padding:4mm;margin-bottom:2mm}}
+.bigseal{{width:32mm}}
+.sealx > b.ar{{font-size:12pt;display:block;color:{INK}}}
+.sealx > span{{font-size:5.6pt;font-weight:700;letter-spacing:.16em;color:{SLATE};display:block;margin-bottom:1.5mm}}
+.sealx > p{{margin:0 0 1mm;font-size:6.8pt;line-height:1.6;color:{GRAPH}}}
+.sealx > p.ar{{font-size:7.4pt;color:{INK}}}
+.lks{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2mm}}
+.lk{{background:{MIST};height:24mm;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5mm;padding:2mm}}
+.lk img{{max-width:78%;max-height:13mm;object-fit:contain}}
+.lk span{{font-size:5.4pt;font-weight:700;letter-spacing:.14em;color:{SLATE}}}
+/* ranges */
+.rhero{{display:flex;align-items:center;gap:5mm;background:transparent;border-top:0.4mm solid {INK};padding:4mm;margin-bottom:2mm}}
+.rlogo{{width:26mm;max-height:16mm;object-fit:contain}}
+.rx{{flex:1}} .rx > b.ar{{font-size:14pt;display:block;color:{INK}}}
+.rx > span{{font-size:7pt;font-weight:700;letter-spacing:.16em;color:{SLATE};display:block;margin-bottom:1.5mm}}
+.rx > p{{margin:0;font-size:6.8pt;color:{GRAPH}}} .rx > p.ar{{font-size:7.4pt;color:{INK}}}
+.rsig{{text-align:center}} .rsig > i{{display:block;width:16mm;height:9mm;margin-bottom:1mm}}
+.rsig > span{{font-size:6pt;color:{INK};display:block}} .rsig > em{{font-style:normal;font-size:5pt;letter-spacing:.14em;color:{SLATE}}}
+.rpack{{background:{MIST};padding:3mm;margin-bottom:2mm;text-align:center}}
+.rpack img{{max-width:100%;max-height:36mm;object-fit:contain}}
+.rb{{background:transparent;border-top:0.4mm solid {INK};padding:3mm}}
+.rb > b.ar{{font-size:8.5pt;display:block;color:{INK}}}
+.rb > span{{font-size:5.4pt;font-weight:700;letter-spacing:.14em;color:{SLATE};display:block;margin-bottom:1.5mm}}
+.rb > p{{margin:0 0 1mm;font-size:6.6pt;line-height:1.6;color:{GRAPH}}} .rb > p.ar{{font-size:7.2pt;color:{INK}}}
+.fsws{{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm}}
+.fsw{{background:transparent;padding:0 0 1.8mm;text-align:center}}
+.fsw > i{{display:block;height:14mm;margin-bottom:1.4mm}}
+.fsw > b.ar{{font-size:6.8pt;display:block;color:{INK}}}
+.fsw > span.mono{{font-size:5.2pt;color:{SLATE};display:block}}
+.fsw > span.vd{{font-size:4.8pt;font-weight:700;letter-spacing:.08em;padding:0.5mm 1mm;display:inline-block;margin-top:0.8mm}}
+.fsw > span.vd.ink{{background:{INK};color:{PAPER}}} .fsw > span.vd.wht{{background:#FFF;color:{INK};border:0.2mm solid {SILVER}}}
+.fsw > span.vd.key{{background:{RED};color:#FFF}}
+/* voice */
+.vcs{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm}}
+.vc{{background:transparent;border-top:0.4mm solid {INK}}}
+.vh{{padding:2.4mm 3mm;background:{MIST}}}
+.vh > b.ar{{font-size:11pt;color:{INK}}} .vh > span{{font-size:6.4pt;font-weight:700;letter-spacing:.12em;color:{SLATE};margin-left:2mm}}
+.vh > em.ar{{display:block;font-style:normal;font-size:7.4pt;color:{INK};margin-top:1mm;direction:rtl;text-align:right;font-family:'IBM Plex Sans Arabic',sans-serif}}
+.vh > em.en{{display:block;font-style:normal;font-size:6pt;color:{GRAPH}}}
+table.vt{{width:100%;border-collapse:collapse}}
+table.vt td{{font-size:6.6pt;padding:1.5mm 3mm;border-bottom:0.2mm solid {MIST};vertical-align:top;color:{INK}}}
+table.vt td.k{{width:24mm;font-size:5.4pt;font-weight:700;letter-spacing:.06em;color:{SLATE};font-family:'IBM Plex Sans',sans-serif}}
+table.vt td.ar{{font-size:7pt}}
+table.vt td span.en{{display:block;direction:ltr;text-align:left;font-family:'IBM Plex Sans',sans-serif;font-size:5.8pt;color:{SLATE};margin-top:0.5mm;line-height:1.45}}
+table.vt tr.in td.ar{{color:#1BA34C}} table.vt tr.out td.ar{{color:{RED}}}
+table.vt tr:last-child td{{border-bottom:0}}
+/* scene worlds + prompts */
+.wlds{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.wld{{background:transparent;border-top:0.4mm solid {INK}}}
+.wh{{padding:2.2mm 3mm;display:flex;align-items:baseline;gap:2.5mm;background:{MIST}}}
+.wh > b.ar{{font-size:10pt;font-weight:700;color:{INK}}}
+.wh > span{{font-size:6.6pt;font-weight:700;letter-spacing:.12em;color:{SLATE};margin-left:auto}}
+table.wt{{width:100%;border-collapse:collapse}}
+table.wt td{{font-size:6.4pt;padding:1.4mm 3mm;border-bottom:0.2mm solid {MIST};vertical-align:top;color:{INK}}}
+table.wt td.k{{width:21mm;font-size:5.2pt;font-weight:700;letter-spacing:.06em;color:{SLATE};font-family:'IBM Plex Sans',sans-serif}}
+table.wt td.ar{{font-size:6.8pt}}
+table.wt td span.en{{display:block;direction:ltr;text-align:left;font-family:'IBM Plex Sans',sans-serif;font-size:5.8pt;color:{SLATE};margin-top:0.4mm;line-height:1.4}}
+table.wt tr.no td{{background:#FDF0EF}} table.wt tr:last-child td{{border-bottom:0}}
+.prs{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.pr{{background:transparent;border-top:0.4mm solid {INK};padding:2.4mm 3mm}}
+.pr > b{{font-size:8pt;display:block;margin-bottom:1.2mm;letter-spacing:.06em}}
+.pr > code{{font-family:'IBM Plex Mono',monospace;font-size:5.4pt;line-height:1.65;color:{GRAPH};display:block}}
+.neg{{background:{INK};padding:2.8mm 4.2mm;margin:0 0 2mm}}
+.neg > code{{font-family:'IBM Plex Mono',monospace;font-size:6.4pt;line-height:1.75;color:#FF8A82}}
+.lay3{{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5mm;margin-bottom:2mm}}
+.ly{{background:transparent;border-top:0.4mm solid {INK};padding:2.8mm}}
+.ly > i{{font-style:normal;font-family:'IBM Plex Mono',monospace;font-size:10pt;font-weight:700;color:{RED};display:block;line-height:1}}
+.ly > b.ar{{font-size:9.5pt;display:block;margin-top:1.2mm;color:{INK}}}
+.ly > span{{font-size:5.4pt;font-weight:700;letter-spacing:.14em;color:{SLATE};display:block;margin-bottom:1.2mm}}
+.ly > p{{margin:0;font-size:6.2pt;line-height:1.55;color:{GRAPH}}} .ly > p.ar{{font-size:6.8pt;color:{INK};margin-bottom:0.6mm}}
+/* slogans */
+table.t3.slg td{{padding:1.8mm 2mm}}
+table.t3.slg td.sg{{font-size:11pt;font-weight:700;color:{INK};width:52mm;line-height:1.45}}
+table.t3.slg tr.star td{{background:#F2F7EE}}
+table.t3.slg tr.star td.sg{{color:#14803B}}
+table.t3.slg tr.star td.n::after{{content:' *';color:#1BA34C}}
+.gls{{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm;margin-bottom:2mm}}
+.gl{{background:transparent;border-top:0.4mm solid {INK};padding:2.4mm 3mm;display:grid;grid-template-columns:7mm 1fr;gap:0 2mm}}
+.gl > b{{font-family:'IBM Plex Mono',monospace;font-size:6.4pt;color:{RED};grid-row:1/3}}
+.gl > span.ar{{font-size:9pt;font-weight:700;color:{INK};line-height:1.5}}
+.gl > em{{font-style:normal;font-size:6pt;color:{SLATE};line-height:1.45}}
+/* pending */
+.hold{{background:{MIST};border:0.4mm dashed {SLATE};padding:5mm;text-align:center;margin-top:2mm}}
+.hold > b.ar{{font-size:9pt;color:{INK};display:block}}
+.hold > span.en{{display:block;font-size:6.6pt;color:{GRAPH};margin-top:1.5mm;line-height:1.6}}
+/* numbers */
+.nums{{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-bottom:2mm}}
+.num{{background:transparent;border-top:0.4mm solid {INK};padding:3mm;text-align:center}}
+.num > b{{font-size:20pt;font-weight:700;color:{RED};display:block;line-height:1;font-family:'IBM Plex Mono',monospace}}
+.num > span.ar{{display:block;font-size:7pt;color:{INK};margin-top:1.5mm;text-align:center}}
+.num > span.en{{display:block;font-size:5.4pt;letter-spacing:.1em;color:{SLATE};text-transform:uppercase}}
+/* sign off */
+.signoff{{position:relative;background:{DEEP};color:{PAPER};padding:10mm;overflow:hidden;margin-top:2mm}}
+.signoff h1{{font-size:18pt;margin:0;font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;text-align:right}}
+.signoff h2{{font-size:9pt;letter-spacing:.2em;margin:2mm 0 4mm;color:#B9B5D8}}
+.signoff p.so{{font-size:7pt;line-height:1.7;color:#C9C5DD;margin:0 0 2mm}}
+.signoff p.ar.so{{font-size:7.8pt;color:{PAPER}}}
+.sfields{{display:grid;grid-template-columns:1fr 1fr;gap:6mm 8mm;margin:6mm 0}}
+.sf span{{font-size:5.4pt;font-weight:700;letter-spacing:.16em;color:#8A86B8;display:block}}
+.sf i{{display:block;height:0.3mm;background:#6A66A0;margin-top:7mm}}
+.sn{{background:rgba(255,255,255,.07);padding:3.5mm 4.5mm;margin-top:2mm}}
+.sn > b.ar{{font-size:8pt;color:{PAPER};display:block;margin-bottom:1.2mm}}
+.sn > p{{margin:0 0 0.8mm;font-size:6.6pt;line-height:1.6;color:#C9C5DD}}
+.sn > p.ar{{font-size:7.2pt;color:{PAPER}}}
+.by{{display:flex;align-items:center;gap:2.5mm;margin-top:6mm}}
+.by > i{{width:1mm;height:3.4mm;background:{RED};display:block}}
+.by > span{{font-size:5.6pt;font-weight:700;letter-spacing:.16em;color:#B9B5D8}}
+/* footer */
+footer{{position:absolute;left:14mm;right:14mm;bottom:9mm;display:flex;justify-content:space-between;align-items:center;
+ font-size:5.8pt;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:{SLATE};
+ border-top:0.25mm solid {SILVER};padding-top:2.4mm}}
+footer .fm{{display:flex;align-items:center;gap:2mm}}
+footer .fm > b{{color:{INK};letter-spacing:.1em}}
+footer .fm > em{{font-family:'IBM Plex Sans Arabic',sans-serif;font-style:normal;direction:rtl;font-weight:400;
+ letter-spacing:0;text-transform:none;font-size:7pt}}
+'''
+
+def render(ids=None, out='book.html', title='Alex Foods - Brand Foundation'):
+    chosen=[s for s in sorted(SEC,key=lambda x:x[0]) if ids is None or s[0] in ids]
+    H=[];n=[0]
+    for sid,en,ar,bodies in chosen:
+        for b in bodies:
+            n[0]+=1
+            cover = sid=='00'
+            H.append(f'<section class="page">{b}'+('' if cover else
+              f'<footer><span class="fm"><b>ALEX FOODS</b><em>أليكس فودز</em></span>'
+              f'<span class="fr">§{sid} · {VER} · PAGE {n[0]} / @@TOTAL@@</span></footer>')+'</section>')
+    html=(f'<!doctype html><html lang="ar" dir="ltr"><head><meta charset="utf-8"><title>{title}</title>'
+          f'<link rel="stylesheet" href="plex.css"><style>{CSS}</style></head><body>{"".join(H)}</body></html>')
+    html=html.replace('@@TOTAL@@',str(n[0]))
+    io.open(os.path.join(HERE,out),'w',encoding='utf-8').write(html)
+    return n[0]
+
+if __name__=='__main__':
+    print("BOOK pages:",render())

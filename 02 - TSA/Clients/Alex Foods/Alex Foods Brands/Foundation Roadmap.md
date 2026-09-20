@@ -9,6 +9,8 @@ The sequenced build plan for the 8 Brand Foundation deliverables owed to [[Alex 
 
 **Clock:** work started 18 September 2026 under the clause 11 exception. 3 weeks minimum puts delivery around **9 October 2026**, which sits before the second Foundation instalment on 8 October — so the money and the delivery line up.
 
+> **And on 19 September a deadline arrived that this plan does not accommodate.** The client's number one priority is a **school-gifts giveaway timed to the start of the school year**, which lands before 9 October. Every asset it needs sits behind Foundation delivery and Package A sign-off, both of which close after the campaign is over. The collision, and the options, are in [[Giveaway Programme]] §2 and §7.2. **It is the most time-sensitive open decision on the job and it is Aly's.**
+
 ---
 
 ## The correction this plan is built on
@@ -69,6 +71,8 @@ Not a list of swatches. A governed system:
 Needs the voice first. 2MAN's عيش جو المغامرة already works and gets built around, not replaced. The song is written, not produced — the scope says "written and ready for posts."
 **Method, audience map and the four feeling ladders are written up in [[Slogans and Song]].** The headline rules from [[Marketing]] do not transfer wholesale: a slogan has to survive two hundred repetitions, which is a test no headline ever faces.
 
+> **Reordered in practice on 19 September, and this is the real change to the build order.** The song is no longer a Phase 2 item that can wait its turn: it belongs to a live campaign with a deadline, and its mechanic line describes **a QR scan on the back of a pack**, not a comment. **Two things it now needs that the plan never listed: the campaign dates, and where the QR code goes.** Neither is writing work, both are client answers, and the song cannot be finished without them. See [[Giveaway Programme]].
+
 **5. Animation and Shooting Recipe** *(deliverable 6)*
 Independent of everything and **should ship early regardless of sequence**, because it is the document that tells the client how to shoot the product photos TSA is still waiting on. It unblocks them.
 
@@ -103,7 +107,9 @@ Colour system, type system, voice guide, slogans, shooting recipe, social spec, 
 
 ### The one that could have become a real cost — answered 18 September
 
-**The question was: does the client have vector or layered source files for the four logos?** The answer is no, and none are coming.
+> **Partly resolved 19 September: the master seal arrived as true Illustrator vector.** So the cost risk below now applies to **the four range marks only** — 2MAN and POLEKA are the illustrated 3D lettering, and those are the ones that would be specialist work to redraw. **Nothing in this contract needs them redrawn**, because nothing here is printed. See `logos-vector/README.md`.
+
+2MAN and POLEKA are custom illustrated 3D lettering. They cannot be retyped and they should not be traced badly. If no source artwork exists anywhere, **redrawing four logos — two of them illustrated — is a specialist job, it is not in the Foundation scope, and it gets quoted separately under clause 7.**
 
 It did **not** become a cost, and the reasoning is worth keeping. 2MAN and POLEKA are custom illustrated 3D lettering that cannot be retyped, so redrawing them would have been a specialist job outside Foundation scope and a clause 7 quote. **What removed the need is the scope itself:** material 2 reads "logo files, **vector if available**", and nothing in the Foundation or in Package A is printed. All four marks were cut out of the supplied raster onto transparency in `logos-transparent/`, which is sufficient for every deliverable in this contract.
 
@@ -115,13 +121,13 @@ It did **not** become a cost, and the reasoning is worth keeping. 2MAN and POLEK
 
 Ranked by what it blocks.
 
-1. **Product photos or actual samples.** Blocks all 20 monthly Package A deliverables, and it is now the **only** material that blocks anything. The shooting recipe should be sent to unblock it.
-2. **Meta admin access** — blocks executing the social setup.
-3. **Google account and GBP details** — blocks the GBP deliverable.
-4. **POLEKA confirmed in writing, and the Alex answer papered with it** — same message, same clause 4 exposure, cheap to close.
-5. **Rights confirmation on the cola artwork** — TSA runs the paid campaigns, so it is TSA's ad account carrying it.
-
-*(Vector logo files were item 1 here until 18 September, when the chase closed. See "The one that could have become a real cost" above.)*
+1. ~~**Vector or layered source files, all four logos.**~~ **Master seal closed 19 September — real Illustrator vector.** The four range marks remain raster cut-outs and that is sufficient: nothing in either stage is printed, and the material list only ever asked for vector "if available". **This is no longer a blocker on anything.**
+2. **Product photos or actual samples.** Blocks all 20 monthly Package A deliverables. The shooting recipe should be sent to unblock this.
+4. **Meta admin access** — blocks executing the social setup.
+5. **Google account and GBP details** — blocks the GBP deliverable.
+6. **POLEKA confirmed in writing, and the Alex answer papered with it** — same message, same clause 4 exposure, cheap to close.
+7. **Rights confirmation on the cola artwork** — TSA runs the paid campaigns, so it is TSA's ad account carrying it.
+8. **The giveaway programme's own five** — school campaign dates, the QR destination, the coupon artwork, written permission to publish winner media, and the giveaway facts in writing. **Added 19 September and none of them are contractual materials**, which is exactly why they will be missed: they block work the client is actively asking for and no list was watching them. [[Giveaway Programme]] §9.
 
 ---
 
@@ -167,6 +173,42 @@ Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see 
 5. **Build Phase 2 content** — slogans and song, social spec, local SEO, calendar format and month 1.
 6. **Assemble, render, proof.** Read the whole book against the signed scope's deliverable list, line by line.
 7. **Deliver**: the book, the sign-off page, and the month-1 start paragraph above, in one message.
+
+### How to propose it so they choose without designing it
+
+**The tension, stated honestly.** Clause 1 gives TSA execution and gives the client approval of an *outcome*. Clause 4 makes "matches the agreed brief and the approved guide" the test. **Both exist to keep the client out of designing.** But a client who feels handed a finished object with no say in it approves slowly, reopens late, and treats the book as TSA's rather than theirs.
+
+**The resolution: offer choice at the level of outcome, never at the level of execution.** Three tiers, and every section of the book sits in exactly one.
+
+| Tier | What it covers | What the client is offered |
+|---|---|---|
+| **1 · Governed** | Colour values and contrast verdicts, type, the pack-in-field geometry, compliance and the never-say list | **Nothing. No choice is offered, and that is the deliverable.** These are computed or legal. **Offering a choice here is offering to be wrong**, and clause 1 exists to protect it. |
+| **2 · Recommended** | Slogans, tone, the giveaway mechanic, post archetypes, the platform split | **One recommendation, at most two alternates, with the trade named.** This is where their market knowledge genuinely adds something TSA does not have. |
+| **3 · Theirs to state** | The named approver, ad budget, seasonality, artwork rights, product facts | **Not choices. Inputs.** Asked as questions, never dressed up as options. |
+
+### The four rules that make tier 2 work
+
+1. **Always lead with a recommendation. Never present a menu.** A menu says the agency could not decide. A recommendation with alternates says the agency decided and is showing its working.
+2. **Never show an option you would be unhappy to ship.** **If three are shown and one is secretly wanted, a two-in-three chance of a worse outcome has been created with no right to complain about it.** Every option on the page is one TSA would defend.
+3. **Name the trade, not the taste.** *"This one claims a habit, that one claims an effect"* is a business decision they are qualified to make. *"Which do you prefer"* is an invitation to art-direct, and clause 1 keeps them out of that.
+4. **Two alternates maximum.** Thirty options invites designing. §4 point 5 of [[Slogans and Song]] already says this and it holds for every tier 2 section.
+
+> **This is not theory. It was tested on the slogans on 20 September and it worked twice.** Aly chose against TSA's recommendation on BeBo and picked a TSA draft on AlRawy. **The set is stronger than it would have been if TSA had simply decided alone**, and both decisions took one line each because the trade was named rather than the taste.
+
+### Turning clause 3 from a risk into a mechanism
+
+**Clause 3 says no reply within 48 hours counts as approved.** Read passively that is a trap waiting to be argued about. **Read actively it is the most useful sentence in the contract.**
+
+**State the recommended option as the default, in writing, in the delivery message:** *if we do not hear back, we proceed with the recommended line.* **Silence then produces TSA's preferred outcome rather than a stalled deliverable**, and the client keeps a real choice for as long as they want to use it.
+
+### The order to present it in
+
+**Never send 35 pages cold.** A book arriving without a walk-through gets skimmed, and a skimmed book gets approved shallowly and reopened later.
+
+1. **The spine first.** Section 3, brand architecture: Alex Foods is the master, the four are ranges, **one presence rather than four pages.** **This is the page that earns the fee**, and everything downstream is application. If they disagree here, nothing else matters yet.
+2. **Then the tier 2 choices, batched into one message.** Slogans, tone, giveaway, platform split. One reply covers all of them, which is also what clause 2's single written reply per revision round wants.
+3. **Then the honest status.** The sections carrying a waiting chip, what each waits on and who from.
+4. **Then the sign-off page**, which approves the Foundation and names the approver in the same signature.
 
 ### What the delivery message has to carry
 

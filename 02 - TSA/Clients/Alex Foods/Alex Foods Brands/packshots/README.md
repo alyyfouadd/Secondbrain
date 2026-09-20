@@ -9,7 +9,7 @@ type: reference
 
 | File | What it is |
 |---|---|
-| `bebo.png` | The five BeBo sachets: peach, mango, apple, cola, pineapple. **Powder** — the pack graphic shows a cup being made up. |
+| `bebo.png` | The five BeBo **pillow bags**: peach, mango, apple, cola, pineapple. Each reads «مشروب بطعم X / X Drink». **Format contested — see [[Alex Foods Discovery Brief]] §A1.** The serving graphics show a drink already poured (a cup with a straw, a glass of cola over ice), and there is **no «أدخل الماصة هنا» print**, which AlRawy has. But nothing on the front says *powder* either. |
 | `alrawy.png` | The five AlRawy pouches: cocktail, apple, guava, peach, mango. **Ready to drink.** Every pouch prints `Insert Straw Here / أدخل الماصة هنا` across the top. |
 | `2man-icepops.png` | The four ICE POPS colourways: blue, red, green, orange. Each carries the Alex seal and the tagline عيش جو المغامرة. |
 | `2man-buzz.png` | The four Bu:Zz / Meyveli sticks: mango, a second fruit, strawberry, cola. **A different pack architecture for the same brand**, not a supply error. |
@@ -26,3 +26,21 @@ type: reference
 ---
 
 **Related:** [[Alex Foods Brands]] · [[Brand and Social Kit]] · [[Colour System]]
+
+---
+
+## Resolution warning, added 19 September 2026
+
+**These are fine for a governance document and too small for a social asset where the pack is the hero.** Audited:
+
+| | Size | 1080 × 1350 feed post? |
+|---|---|---|
+| `bebo-*.png` | **199 × 251** | **No** |
+| `alrawy-*.png` | ~250 × 410 | No |
+| `poleka-*.png` | ~130 × 520 | No |
+| `2man-*.png` | ~830 × 175 | No |
+| the range lineups above | ~1400–2600 wide | Yes, **as a strip**, not as a single pack |
+
+They were sliced out of iPad screenshots, which was right at the time. **A BeBo sachet at 199 px tall blown up to fill a 1080-wide frame is mush.**
+
+**The fix is not a shoot.** It is pack artwork at high resolution or vector, which the client can supply — they sent real Illustrator artwork of the master seal on 19 September, so the route is proven. **That is a separate ask from product photography** and conflating the two is why neither has arrived. See [[Package A Month 1]] §4.

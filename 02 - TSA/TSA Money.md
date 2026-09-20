@@ -43,6 +43,8 @@ The 42,000 is **one paid month of Package A that has not been delivered.** Under
 - Paid campaign management
 - 1 giveaway slogan and campaign lockup
 
+> **Watch this line, 19 September.** The client is running **three** giveaway campaigns, and the contract buys **one** slogan and **one** lockup per month. Held as one platform with a swappable prize slot, it stays inside the priced month. Allowed to become three builds, or to pull in coupon artwork, a QR landing page or retailer-facing material, it is uncosted work on a month that is already paid for. **This is the likeliest place the scope quietly grows on this contract.** See [[Giveaway Programme]] §5.
+
 In plain terms: **it is not profit, it is an advance.** Some of it has to survive long enough to pay for producing that month. How much is the one number nobody has worked out yet, and it is the gate on everything below.
 
 **Ad spend is not a TSA cost.** The scope is explicit — media spend does not pass through TSA, the client pays the platforms directly. Never let it land in this pot or in these numbers.
@@ -51,12 +53,30 @@ In plain terms: **it is not profit, it is an advance.** Some of it has to surviv
 
 ## Cost of delivery — the gap
 
-Not yet known. This is the single most important blank in the vault right now, because until it has a number, no draw can be called safe or reckless, only lucky.
+> **It stopped being a mystery on 19 September, because it got names.** TSA does not deliver this month alone any more: **Mahmoud does the 12 graphics, a CGI animator does the 2 animations and 6 animated stills, a media buyer runs the paid campaigns, Aly directs and TSA posts.** See [[Package A Month 1]] §3.
+>
+> **X is now mostly three invoices.** Not a vague blank — three suppliers, one of whom has already quoted.
+>
+> | Line | Rate | Status |
+> |---|---|---|
+> | **Media buyer — paid campaign management** | **2,000/month, fixed** | **Known.** The only priced line. **Confirm it is per month and not per campaign** before relying on it |
+> | **Mahmoud — 12 graphics/month** | — | Rate not recorded. **Ask** |
+> | **CGI animator — 8 motion pieces/month** | — | **Role not filled.** No rate, no person |
+> | Tools and software | Near zero | The documents build on a free rail. The AI product shooter's tooling is unpriced |
+> | Transfer fees | Small, real | InstaPay and Vodafone Cash |
+>
+> **Every rate here is per month and repeats three times**, so a rate agreed casually for month 1 is a rate agreed against 126,000 EGP of revenue. **Drawable = 42,000 − X**, and clearing all 23,000 of debt needs X at or under 19,000. **Three suppliers splitting 19,000 a month is the whole question**, and it is answerable this week rather than after the fact.
+>
+> **Two risks worth naming.** The animator is **unfilled and is 8 of the 20 assets** — so the largest part of X is also the least known, and a scramble hire on a running paid month is how a margin disappears. And the media buyer must be kept away from a direct client relationship: clause 1 keeps execution TSA's, clause 5 keeps the working method agency property.
+>
+> **Ad spend still does not pass through TSA** and never enters this pot, whoever is running the campaigns.
+
+**X is no longer unknown, it is incomplete** — and `drawable = 42,000 − X` cannot be computed off one line item. This is still the single most important blank in the vault, because until it has a total, no draw can be called safe or reckless, only lucky.
 
 What has to be priced for one month of Package A:
 
 - Software and tools — design, animation, scheduling, whatever the 12 graphics and 8 motion pieces actually get made in.
-- Any freelance or contract help, if I'm not producing all of it myself.
+- **Freelance and contract help — no longer an "if".** Mahmoud and the animator are the model, not a contingency.
 - Transfer and transaction fees on InstaPay and Vodafone Cash.
 - Anything the Foundation stage needs that the retainer doesn't cover.
 

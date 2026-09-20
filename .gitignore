@@ -19,3 +19,7 @@ Desktop.ini
 # themselves constantly, and the iPad and a desktop each want their own. Tracking
 # them buys a merge conflict on every sync in exchange for nothing.
 .obsidian/workspace*.json
+
+# python bytecode from the vault-check tooling
+__pycache__/
+*.pyc

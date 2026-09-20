@@ -30,7 +30,7 @@ So the system has three layers:
 
 ---
 
-## 2. BeBo — powdered drink sachets
+## 2. BeBo — a juice, in pillow-bag sachets
 
 Loud, kid-facing, character-led. The most playful of the four.
 
@@ -112,7 +112,7 @@ Blue · Red · Green · Orange. These read as colourways rather than named flavo
 
 ---
 
-## 5. POLEKA — jelly candy
+## 5. POLEKA — frozen juice *(see [[Alex Foods Brands]] for the category; «جيلي» on the pack is the texture, not the product)*
 
 The youngest and loudest. Full rainbow, animal characters, no restraint — and that is correct for the category.
 

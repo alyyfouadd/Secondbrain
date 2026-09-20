@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-vault-check.py - drift checks for the Secondbrain vault.
+structure.py - the structural half of vault-check.
 
-Run from anywhere:  python3 .claude/tools/vault-check.py
-Exit code 0 = clean, 1 = findings.
+check.py asks "does the vault still SAY something it retired?"
+This asks "does the vault still HOLD TOGETHER?" - links that resolve,
+frontmatter that is valid, indexes that exist, files that are really there.
+check.py imports and runs it, so `python3 check.py` runs both.
 
 EVERY CHECK IS LINE-BASED AND MARKER-AWARE.
 
@@ -24,25 +26,9 @@ Anything else that points at something missing is real drift.
 """
 import os, re, sys, collections
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 
-# --- the vault's own vocabulary, taken from what the notes actually say ---
-HISTORY = re.compile(r"""
-    ~~                      # struck through
-  | \bsupersed(?:ed|es)\b
-  | \bretired\b
-  | \bwithdrawn\b
-  | \bremoved\b | \bdeleted\b
-  | \bnever\ committed\b | \bdo(?:es)?\ not\ go\ in\ (?:this\ )?(?:the\ )?repo\b
-  | \bnot\ in\ (?:the\ |this\ )?(?:vault|repo)\b
-  | \breplaces?\b | \breplaced\b
-  | \bno\ longer\b
-  | \bused\ to\ (?:read|say|sit|be)\b
-  | \bclosed\ \d{1,2}\ (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)
-  | \brevised\ \d{1,2}\ (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)
-  | \bformer(?:ly)?\b
-  | \bgit\ history\ retains\b
-""", re.X | re.I)
+import markers
 
 PLANNED = re.compile(r"""
     \bdelivered\ as\b       # the spec naming a file it will produce
@@ -68,9 +54,9 @@ def flag(check, path, line_no, msg):
     findings.append((check, os.path.relpath(path, ROOT), line_no, msg))
 
 def marked(line):
-    """Is this line exempt, and why?"""
-    if HISTORY.search(line): return 'history'
-    if PLANNED.search(line): return 'planned'
+    """Is this line exempt, and why? Same vocabulary as check.py - see markers.py."""
+    if markers.is_history(line): return 'history'
+    if markers.is_planned(line): return 'planned'
     return None
 
 def strip_code(line):
@@ -91,14 +77,15 @@ def walk_lines(path):
 # ---------------------------------------------------------------- gather
 notes, assets = {}, set()
 for r, ds, fs in os.walk(ROOT):
-    if '.git' in r.split(os.sep): continue
+    if '.git' in r.split(os.sep) or 'vault-check' in r.split(os.sep): continue
     for f in fs:
         p = os.path.join(r, f)
-        if f.endswith('.md') and '.claude' not in r.split(os.sep):
+        if f.endswith('.md') and '.claude' not in r.split(os.sep) and 'vault-check' not in r.split(os.sep):
             notes.setdefault(os.path.splitext(f)[0], []).append(p)
         assets.add(f)
 
-def main():
+def run():
+    findings.clear()
     # ---------------------------------------------------- 1. PDF references
     # A note may name a PDF that is gone (history) or not built yet (planned).
     # Everything else must exist on disk.
@@ -122,7 +109,11 @@ def main():
                     if '<' in ref or '>' in ref:      # <client contract>.pdf template
                         continue
                     base = os.path.basename(ref)
-                    if base in assets:
+                    # A note often cites a file by a shortened name, e.g.
+                    # `Design System v1.1.pdf` for the real
+                    # `Alex Foods - Design System v1.1.pdf`. Suffix-match so a
+                    # correct citation is not reported as a missing file.
+                    if base in assets or any(a.endswith(base) for a in assets):
                         continue
                     why = marked(line)
                     if why:
@@ -171,7 +162,8 @@ def main():
     # ------------------------------------------------- 5. folder indexes
     for r, ds, fs in os.walk(ROOT):
         parts = r.split(os.sep)
-        if '.git' in parts or '.claude' in parts or '.obsidian' in parts or r == ROOT:
+        if ('.git' in parts or '.claude' in parts or '.obsidian' in parts
+                or 'vault-check' in parts or '__pycache__' in parts or r == ROOT):
             continue
         b = os.path.basename(r)
         if b in ASSET_FOLDERS or re.match(r'^\d\d - \w+ \d{4}$', b):
@@ -187,19 +179,18 @@ def main():
         if inbound[name] == 0:
             flag('orphan', paths[0], 0, 'nothing in the vault links to this note')
 
-    # ------------------------------------------------- report
-    if not findings:
-        print('vault-check: clean')
-        print(f'  {sum(len(v) for v in notes.values())} notes checked, 6 checks, all line-based and marker-aware')
-        return 0
+    return list(findings)
+
+def report(found):
     by = collections.defaultdict(list)
-    for c, p, n, m in findings: by[c].append((p, n, m))
+    for c, p, n, m in found: by[c].append((p, n, m))
     for c in sorted(by):
-        print(f'\n{c}  ({len(by[c])})')
+        print(f'\n  structure/{c}  ({len(by[c])})')
         for p, n, m in sorted(by[c]):
-            print(f'  {p}:{n}  {m}')
-    print(f'\nvault-check: {len(findings)} finding(s)')
-    return 1
+            print(f'    {p}:{n}  {m}')
 
 if __name__ == '__main__':
-    sys.exit(main())
+    f = run()
+    report(f)
+    print(f"\nstructure: {len(f) or 'clean'}")
+    sys.exit(1 if f else 0)

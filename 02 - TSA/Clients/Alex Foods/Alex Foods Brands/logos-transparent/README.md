@@ -3,6 +3,9 @@ status: active
 project: tsa
 type: reference
 ---
+
+> **CORRECTED 19 September 2026: a true vector master EXISTS for the Alex Foods seal.** `LOGO.pdf` arrived from the client and it is genuine vector artwork: **zero embedded images, zero fonts, 1,612 vector path operations, CMYK fills.** Filed as `logos-vector/alex-seal-master.pdf`. **It is also the FLAT two-colour seal, not the rendered 3D object** in `logo-alex-seal.jpg` — navy ring, red disc, white type, no gradients and no gloss, which is far more usable at every size. **The standing claim that no source files exist was true of the four range marks and is now false of the master.** Nobody has sent vector for BeBo, AlRawy, 2MAN or POLEKA yet, and **the chase should restart, because this proves the client can produce vector when asked.**
+
 # Logos — transparent working set
 
 **All four [[Alex Foods]] brand marks, cut out on transparency, ready to place.** Produced 18 September 2026 by extracting them from the raster material the client supplied, because no source files were ever sent and none are coming.

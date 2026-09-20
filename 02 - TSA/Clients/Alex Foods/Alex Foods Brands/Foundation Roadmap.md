@@ -101,12 +101,13 @@ Colour system, type system, voice guide, slogans, shooting recipe, social spec, 
 | Profile and cover images, 4 brands × platforms | Aly, on the iPad | Template-driven once the colour and type system exists. A designer is optional convenience, not a requirement. |
 | The presented brand book | Generated as a styled document, no designer | **Decided 18 Sep:** it ships as a built A4 PDF, not a working document. Format, layout and production route are specified in [[Brand Book Spec]]. Built from HTML and rendered, so revisions are an edit and a re-render rather than a re-layout. |
 
-### The one that could become a real cost
-**If the client has no vector or layered source files for the four logos.**
+### The one that could have become a real cost — answered 18 September
 
-2MAN and POLEKA are custom illustrated 3D lettering. They cannot be retyped and they should not be traced badly. If no source artwork exists anywhere, **redrawing four logos — two of them illustrated — is a specialist job, it is not in the Foundation scope, and it gets quoted separately under clause 7.**
+**The question was: does the client have vector or layered source files for the four logos?** The answer is no, and none are coming.
 
-Find this out before assuming it is free. Ask the question as: *"can you send the original design files — .ai, .eps, layered .psd or vector PDF — for all four logos?"* The answer decides whether this is a materials chase or a new line item.
+It did **not** become a cost, and the reasoning is worth keeping. 2MAN and POLEKA are custom illustrated 3D lettering that cannot be retyped, so redrawing them would have been a specialist job outside Foundation scope and a clause 7 quote. **What removed the need is the scope itself:** material 2 reads "logo files, **vector if available**", and nothing in the Foundation or in Package A is printed. All four marks were cut out of the supplied raster onto transparency in `logos-transparent/`, which is sufficient for every deliverable in this contract.
+
+**Redrawing returns as a clause 7 quote only if print or large format enters scope.**
 
 ---
 
@@ -114,12 +115,13 @@ Find this out before assuming it is free. Ask the question as: *"can you send th
 
 Ranked by what it blocks.
 
-1. **Vector or layered source files, all four logos.** Blocks every visual asset in both stages. Cannot be worked around, cannot be recreated by TSA at this price.
-2. **Product photos or actual samples.** Blocks all 20 monthly Package A deliverables. The shooting recipe should be sent to unblock this.
-4. **Meta admin access** — blocks executing the social setup.
-5. **Google account and GBP details** — blocks the GBP deliverable.
-6. **POLEKA confirmed in writing, and the Alex answer papered with it** — same message, same clause 4 exposure, cheap to close.
-7. **Rights confirmation on the cola artwork** — TSA runs the paid campaigns, so it is TSA's ad account carrying it.
+1. **Product photos or actual samples.** Blocks all 20 monthly Package A deliverables, and it is now the **only** material that blocks anything. The shooting recipe should be sent to unblock it.
+2. **Meta admin access** — blocks executing the social setup.
+3. **Google account and GBP details** — blocks the GBP deliverable.
+4. **POLEKA confirmed in writing, and the Alex answer papered with it** — same message, same clause 4 exposure, cheap to close.
+5. **Rights confirmation on the cola artwork** — TSA runs the paid campaigns, so it is TSA's ad account carrying it.
+
+*(Vector logo files were item 1 here until 18 September, when the chase closed. See "The one that could have become a real cost" above.)*
 
 ---
 
@@ -135,7 +137,7 @@ The remaining two, plus the whole of Package A, sit behind items 1 and 2 above. 
 
 ### The trap sitting under the word "deliver"
 
-**Written Foundation sign-off starts Package A month 1.** That is clause-level, not a detail: month 1 counts from the approval date, not the payment date. And month 1 is twenty deliverables — 2 animations, 6 animated stills, 12 graphics — every one of which needs **product photography and vector logos that have not arrived.**
+**Written Foundation sign-off starts Package A month 1.** That is clause-level, not a detail: month 1 counts from the approval date, not the payment date. And month 1 is twenty deliverables — 2 animations, 6 animated stills, 12 graphics — every one of which needs **product photography that has not arrived.** *(Logos are no longer part of this: the material closed 18 September and the transparent cut-outs cover every deliverable in the contract.)*
 
 Clause 6 extends the *timeline* day for day for client delay. It explicitly does **not** extend the paid month. So a Foundation approved on, say, 9 October against photos that land on 25 October leaves a paid month running with a fraction of it left to produce in. The 42,000 is already received. That month gets delivered in full regardless.
 
@@ -158,7 +160,7 @@ Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see 
 
 ### The build order to get there
 
-1. **Send the two client questions today.** What "Alex" is, and the rights confirmation on the cola artwork. Both are one message. The first one shapes the architecture section; the second is TSA's own exposure on the ad account.
+1. **Send the remaining client question today.** The rights confirmation on the cola artwork — TSA's own exposure on the ad account. *(This used to be two questions. "What Alex is" was answered 18 September: **Alex Foods is the master brand** and the four are ranges beneath it. It shaped the architecture section and it is done.)* Send the POLEKA and Alex confirmations in the same message, since both are clause 4 paperwork.
 2. **Ship § 10, the shooting recipe, on its own, this week.** Ahead of everything, out of sequence, as a short standalone PDF. It is the document that tells the client how to produce the photos that block all of Package A. Every day it sits inside an unfinished book is a day the client cannot start.
 3. **Build Phase 1 content** — colour system, type system, voice guide. Nothing external needed.
 4. **Build the book shell in parallel** — one proven page of each type (section opener, swatch page, rules page, specimen page, do-not page), rendered and checked, before 60 pages get poured into an untested template.

@@ -235,10 +235,10 @@ The values are computed honestly from sampled inputs. Two limits, stated plainly
 
 ## 11. Still open
 
-- **Vector logo files.** Blocks §3 being verified against real artwork, and blocks every visual deliverable in both stages.
+- ~~**Vector logo files.** Blocks §3 being verified against real artwork, and blocks every visual deliverable in both stages.~~ **Closed 18 September.** No source files exist; all four marks are cut out on transparency in `logos-transparent/`. §3's rule — colours inside a logo are not system values — stands on its own and never needed vector to be true. Vector returns only if print enters scope under clause 7.
 - ~~**The seal's rule** — tiering or rollout.~~ **Closed 18 September: rollout**, and the freeze rule retired with it. See §2.
 - **Alex Navy `#0A0378` is a governed master with no ramp and no contrast row.** It was sampled after the 18 were computed, and §4, §6 and §8 are verified against those 18 — a nineteenth means recomputing all three. **Not a blocker today:** the seal is placed as supplied and never reconstructed, so nothing in either stage needs an Alex Navy tint or a type-on-Alex-Navy verdict. It becomes one the moment the single Alex Foods presence needs corporate-layout colours. **Aly's call whether that recompute happens now or at v1.2.**
-- **Type system**, the other half of deliverable 2. Next in Phase 1 of [[Foundation Roadmap]].
+- ~~**Type system**, the other half of deliverable 2.~~ **Built 18 September in [[Type System]]. Phase 1 of [[Foundation Roadmap]] is closed.**
 
 ---
 

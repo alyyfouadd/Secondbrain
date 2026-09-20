@@ -148,7 +148,7 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 
 - ~~What "Alex" is.~~ **Answered 18 September: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it. § 03 carries a master layer — **still no house palette**, but now by architectural choice rather than because a parent does not repaint what it endorses: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. **§ 09 builds one Alex Foods presence, not four brand pages**, and the earlier bio rule is withdrawn — **every bio names Alex Foods**, sealed pack or not, because the seal is mid-rollout rather than a tier. See [[Brand Voice Guide]] §2.
 - **Alex Navy `#0A0378` has no ramp and no contrast row.** Sampled after the 18 masters were computed. Not a blocker for the book — the seal is placed as supplied — but § 04 carries the gap honestly rather than quietly. See [[Colour System]] §11.
-- **Vector logo files.** § 06 cannot ship finished without them. It ships with the rules written and the artwork marked `PENDING CLIENT INPUT` rather than holding the whole book.
+- ~~**Vector logo files.** § 06 cannot ship finished without them.~~ **Closed 18 September.** No source files exist; all four marks are cut out on transparency in `logos-transparent/`, which covers every deliverable in this contract because nothing in either stage is printed. **§ 06 ships finished, not `PENDING CLIENT INPUT`** — it states the rule that a wordmark is placed as supplied and never rebuilt, and names the print/large-format limit as a clause 7 boundary.
 
 ---
 

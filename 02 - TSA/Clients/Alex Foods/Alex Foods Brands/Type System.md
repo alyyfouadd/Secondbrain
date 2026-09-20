@@ -7,7 +7,7 @@ type: reference
 
 **Brand Foundation deliverable 2 of 8, part 2** for [[Alex Foods]]. The faces, the weights, the scales for print and for social, and the bilingual rules that stop an Arabic layout breaking. Pairs with [[Colour System]] to make deliverable 2 complete.
 
-> **Shipped as a PDF, 18 Sep 2026.** Both halves of deliverable 2 are published as `Alex Foods - Design System v1.0.pdf`, 19 pages, A4. Source and build instructions in `design-system/`. **Deliverable 2 is complete and Phase 1 of [[Foundation Roadmap]] is closed.**
+> **Shipped as a PDF, 18 Sep 2026.** Both halves of deliverable 2 are published as `Alex Foods - Design System v1.1.pdf`, 19 pages, A4. *(v1.0 shipped and was superseded the same day by the umbrella rebuild, before it went out for approval.)* Source and build instructions in `design-system/`. **Deliverable 2 is complete and Phase 1 of [[Foundation Roadmap]] is closed.**
 
 ---
 
@@ -100,8 +100,8 @@ White type fails on 11 of the 18 masters. It is genuinely correct on only four f
 
 ## 8. Still open
 
-- **Vector logo files.** §1 cannot be verified against real artwork until they arrive, and every visual deliverable in both stages waits on them.
-- **Licence confirmation** on the Plex family, §2.
+- ~~**Vector logo files.**~~ **Closed 18 September**, per the note at §1: no source files exist, all four marks are cut out on transparency, and nothing in either stage is printed. §1's rule is unchanged and never depended on the file format.
+- **Licence confirmation** on the Plex family, §2. **This is now the only thing this note waits on.**
 
 ---
 

@@ -99,7 +99,7 @@ The campaign lockup (the fixed visual treatment carried across every giveaway as
 ## 6. What this is waiting on
 
 - **The Brand Voice Guide.** Hard dependency, see §4.1.
-- **What "Alex" is.** If there is a house layer, there may be a fifth line sitting above the four, and every brand line has to leave room for it. If there is no house, each brand line stands alone. Same unanswered question that shapes [[Brand Book Spec]] §7.
+- ~~**What "Alex" is.**~~ **Answered 18 September: Alex Foods is the master brand**, the four are ranges beneath it. So **there is a fifth line, and it sits above the four** — every brand line has to leave room for it, and the master's own line is written last, once its tone block exists. See [[Brand Voice Guide]] §2.
 
 ---
 

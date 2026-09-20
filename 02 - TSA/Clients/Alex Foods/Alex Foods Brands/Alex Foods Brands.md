@@ -1,7 +1,7 @@
 ---
 status: active
 project: tsa
-type: reference
+type: index
 ---
 # Alex Foods Brands
 
@@ -168,10 +168,11 @@ One real client answer remains:
 
 1. **Do they hold the rights to the "Cola Cola" artwork?** See the trademark flag below. TSA runs the paid campaigns, so this is TSA's exposure, not just theirs.
 
-And two materials, which are chases rather than questions:
+And one chase, which is paperwork rather than a question:
 
-3. **Vector logo files** for all four brands — material #2, still outstanding, and the one thing that blocks every visual asset in both stages.
-4. **POLEKA in writing** — the decision is taken and it is in; this is paperwork closing a clause 4 gap.
+2. **POLEKA in writing** — the decision is taken and it is in; this is paperwork closing a clause 4 gap.
+
+*(Vector logo files used to sit here as item 3. **Closed 18 September** — see "Superseded 18 Sep" above. Kept out rather than struck through, because a closed material on an open-questions list is what made four other notes keep chasing it.)*
 
 ## Alex Foods — the master brand, now seen properly
 

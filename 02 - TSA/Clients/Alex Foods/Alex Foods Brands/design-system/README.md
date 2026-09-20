@@ -44,9 +44,9 @@ chromium --headless --disable-gpu --no-sandbox \
 
 **6. Read computed styles, not a downscaled PNG, before "fixing" a colour.** The Paper swatch card looked blue in an 80dpi render and was `rgb(20,20,20)` in the DOM. The render was lying, not the CSS.
 
-**8. Hardcoding a page total breaks the moment the document grows.** `kit.py` printed `PAGE n / 6` in its footer and the kit went to eight pages. The footer now writes a `@@TOTAL@@` token that is substituted once, after generation, when the real count is known.
-
 **7. A descendant selector will silently beat a class you wrote later.** `.tyl p` (0,1,1) beat `.d1` (0,1,0), so a 21pt display statement rendered at 7.2pt and simply looked like a design choice. **Nothing errors, nothing warns, and a screenshot will not tell you** — the text is just quietly the wrong size. Scoped to `.tyl p.d1`.
+
+**8. Hardcoding a page total breaks the moment the document grows.** `kit.py` printed `PAGE n / 6` in its footer and the kit went to eight pages. The footer now writes a `@@TOTAL@@` token that is substituted once, after generation, when the real count is known.
 
 > **Traps 4, 5 and 7 are one trap wearing three coats: a CSS rule silently beating the one you meant.** A descendant `display:block`, a reused class name, a specificity override. None of them error and none of them look broken in a screenshot. **The only reliable check is a DOM probe** — walk the elements, read `getComputedStyle`, and compare against what you intended. Four real defects in the kit build were found that way after repeated passes of looking at PNGs had missed every one.
 

@@ -192,6 +192,15 @@ When creating or editing a note, add `wikilinks`:
 
 *(One local adaptation, because this vault is a git repo: git does not track empty folders. So every folder here gets its index note from day one, even the ones that are still empty, or the folder would vanish on the next device that syncs the repo.)*
 
+**The one carve-out: asset and build folders take a `README.md`, or nothing.** A folder holding artwork, packshots, fonts or build scripts is not a note folder, and giving `fonts/` an index note listing twenty-six `.woff2` files would be bloat under rule 5 rather than a map. The line is what a human would actually look something up in:
+
+- **A folder of notes gets `<Folder Name>.md`**, `type: index`, wikilinked from its parent and from the one-hop line above. No exceptions, and this is the rule that matters.
+- **A folder of assets or build files gets a `README.md`** when there is something a future session genuinely needs — provenance, limits, a build command, a trap worth not rediscovering. `logos-transparent/`, `packshots/` and `design-system/` each earn one. It is named `README.md` on purpose: it is documentation sitting beside code and artwork, not a note in the graph, and it is described from the nearest real index rather than wikilinked.
+- **A folder of raw material gets nothing.** `fonts/`, `tsafonts/`, `packshots/single/` and `client-legacy-creative/` hold files their parent already explains. A note per folder here would be a note nobody opens twice.
+- **Month subfolders under `01 - Daily Notes/` get no index either.** [[Daily Notes]] lists every daily note directly, wikilinked, which keeps one map instead of one per month.
+
+**Stated because the rule as written said "no exceptions" and eight folders were quietly breaking it.** A rule everybody has to silently ignore is worse than a rule with a written boundary — the first time a session obeys it literally, the vault gains eight index notes nobody wanted.
+
 ### Renaming and moving notes
 
 - **Moving** a note to another folder is safe — wikilinks resolve by note name, so a folder change doesn't break `[[links]]`. Update both folders' indexes in the same pass.

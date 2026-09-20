@@ -157,7 +157,7 @@ This is the single most important thing in this section, and getting it wrong pr
 
 > **No brand name in this system gets retyped in a font.** All four wordmarks are placed as supplied vector artwork. Anyone who "rebuilds the logo because we didn't have the file" has produced something unusable.
 >
-> This is also exactly why **material 2, vector logo files, is not optional** and is still outstanding.
+> **Revised 18 Sep:** this used to read as the argument for why vector files were mandatory. They are not, and the contract never said they were. No source files exist, all four marks are cut out on transparency in `logos-transparent/`, and nothing in either stage is printed. **The rule above is what matters and it is unchanged** — the wordmark is placed as supplied and never rebuilt, whether "as supplied" is a path or a transparent PNG.
 
 ### Supporting type — the rules, and who picks the faces
 **TSA selects the supporting faces; the client approves the choice, not the process** (clause 1). There is no font list coming from the client's side — the current recommendation is **IBM Plex Sans Arabic with IBM Plex Sans**, drawn as one bilingual family, with IBM Plex Mono for codes and specs. Reasoning and the licence caveat are in [[Brand Book Spec]]. These rules hold regardless of which faces are finally named:
@@ -176,7 +176,7 @@ This is the single most important thing in this section, and getting it wrong pr
 
 What genuinely remains:
 
-1. **Vector logo files**, all four brands. *(Blocking every visual deliverable, not just this one.)*
+1. ~~**Vector logo files**, all four brands.~~ **Closed 18 September.** See §6.
 2. **POLEKA's scope, in writing**, and the Alex answer papered in the same message. Both are paperwork rather than decisions — both decisions are taken.
 
 This document is the sample set. The governed system built on top of it — rationalised values, ramps, neutrals and contrast-tested pairings — is Phase 1 of [[Foundation Roadmap]], and it ships inside the book specified in [[Brand Book Spec]].

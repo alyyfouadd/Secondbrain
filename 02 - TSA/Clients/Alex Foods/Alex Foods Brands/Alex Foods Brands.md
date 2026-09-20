@@ -139,7 +139,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ## The Canva mockup, and what it proves
 
-A file named `bebo_mucup.pdf` arrived 18 September. **It is not a BeBo file and it is not artwork.** It is a one-page Canva export carrying all four brands, assembled from raster images, and taking it apart settled the vector question for good.
+A file named `bebo_mucup.pdf` arrived 18 September. **It is not in this vault** — it is a 9.9 MB Canva deck whose entire value is two images, both of which were extracted and kept (see below), so committing it would bloat every clone forever for nothing. **It is not a BeBo file and it is not artwork either.** It is a one-page Canva export carrying all four brands, assembled from raster images, and taking it apart settled the vector question for good.
 
 | What is inside | What it is |
 |---|---|

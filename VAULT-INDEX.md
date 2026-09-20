@@ -215,6 +215,21 @@ When creating or editing a note, add `wikilinks`:
 - **Moving** a note to another folder is safe — wikilinks resolve by note name, so a folder change doesn't break `[[links]]`. Update both folders' indexes in the same pass.
 - **Renaming** a note (changing its name) breaks the `[[links]]` pointing to it unless the rename is done **inside the Obsidian app**, whose "auto-update internal links" setting repairs them automatically (already switched on in `.obsidian/app.json`). A shell `mv`, or any rename outside the app, does not. So do renames in the app; if the AI must rename a file directly, it then has to find and fix every `[[old name]]` reference by hand.
 
+### The drift checker
+
+`.claude/tools/vault-check.py` runs six checks over the whole vault: PDF references, frontmatter, wikilink resolution, the no-wikilinks-in-a-log rule, folder-index coverage, and orphans. `python3 .claude/tools/vault-check.py` from the repo root; exit 0 clean, 1 with findings. **Run it before any checkpoint that touched more than one note.**
+
+**Every check is line-based and marker-aware, and that is the design rather than a detail.** This vault keeps its own history in place on purpose — a note saying *"v1.0 was superseded and removed"* is correct, permanent, and names a file that no longer exists. A whole-file check has to either fail that note forever or exempt it forever, and exempting the file hides the real drift three lines below it. So a finding is raised against a **line**, and a line is exempt when it carries a marker saying what it is:
+
+- **History** — `~~struck through~~`, superseded, retired, withdrawn, removed, deleted, replaced, no longer, used to read/say, closed <date>, never committed, not in the vault.
+- **Planned** — delivered as, will ship, ships as, not yet, pending, target.
+
+Anything else pointing at something missing is real drift. **A daily note is exempt from the PDF check as a class**, because a log is history by construction — "shipped v1.0.pdf" was true on the day it was written and its filename is the date. Logs stay in every other check.
+
+**A PDF reference is a backticked one.** Verified against every note: each genuine reference in this vault sits in a code span, so prose that merely quotes a filename is read as an example rather than a pointer. Matching bare prose made the check flag its own documentation on the first run.
+
+Two things it deliberately matches Obsidian on: `[[links]]` inside code spans are not links, and fenced code blocks are skipped entirely.
+
 ### Checkpoint Persistence
 
 Whenever something changes that a future session would need to know, persist it without being asked: update the relevant note, today's daily note, and (only for a new always-on rule) CLAUDE.md. Then scan the touched folder's index and any cross-referenced notes for drift and fix it in the same pass. The vault is the memory — keeping it current is not busywork, it's maintaining the system itself.

@@ -9,7 +9,7 @@ type: reference
 
 > **STATUS: SAMPLE SET — the raw input, not the deliverable.**
 > Every value here is sampled by eye from the packaging in [[Alex Foods Brands]]. **There is no brand manual and there are no existing codes — that absence is why TSA was hired.** The Foundation builds the system; it does not transcribe one. So this page is the observation layer: what the four brands currently look like, recorded accurately enough to design from.
-> The deliverable is the *governed system* built on top of it — rationalised values, tints and shades, neutrals, contrast-tested pairings and the rules binding them. Build order in [[Foundation Roadmap]].
+> The deliverable is the *governed system* built on top of it, and **it is now written: [[Colour System]]**. Thirty-one values here rationalised to eighteen masters, with ramps, neutrals, computed contrast for every pairing and the rules binding them. This page stays as the observation layer and the audit trail; the system is what ships.
 
 ---
 
@@ -19,7 +19,7 @@ Alex Foods is not one brand with one colour scheme. It is **four consumer brands
 
 So the system has three layers:
 
-1. **Parent layer** — the *Alex* seal. Appears on **AlRawy** and **2MAN**. Does **not** appear on BeBo or POLEKA. *(Unresolved: see §7.)*
+1. **Parent layer** — the *Alex* seal. Appears on **AlRawy** and **2MAN**. Does **not** appear on BeBo or POLEKA. **Resolved 18 Sep: Alex is the parent company endorsing selected lines**, so the absence is information rather than an oversight, and **there is no house palette.** A parent that endorses does not repaint what it endorses. Placement and the freeze rule are in [[Brand Voice Guide]] §2.
 2. **Brand layer** — each brand's own logo colours. Fixed. Never changes for any reason.
 3. **Flavour layer** — the colour that owns the pack for a given SKU. Changes per product.
 
@@ -159,8 +159,8 @@ This is the single most important thing in this section, and getting it wrong pr
 >
 > This is also exactly why **material 2, vector logo files, is not optional** and is still outstanding.
 
-### Supporting type — the rules, pending the actual fonts
-The client's designer has not yet supplied font names. Until they do, these rules hold regardless of which faces get named:
+### Supporting type — the rules, and who picks the faces
+**TSA selects the supporting faces; the client approves the choice, not the process** (clause 1). There is no font list coming from the client's side — the current recommendation is **IBM Plex Sans Arabic with IBM Plex Sans**, drawn as one bilingual family, with IBM Plex Mono for codes and specs. Reasoning and the licence caveat are in [[Brand Book Spec]]. These rules hold regardless of which faces are finally named:
 
 - **Every layout is bilingual, Arabic and English.** Arabic runs right to left. A layout designed in English and then filled with Arabic will break. Set the Arabic first, then fit the English.
 - **Arabic is never a machine translation of the English line.** It is written, then the English is matched to it.
@@ -172,11 +172,11 @@ The client's designer has not yet supplied font names. Until they do, these rule
 
 ## 7. Open — what stops this being final
 
-1. **Exact colour codes** from whoever designed the packaging. Everything above is eyeballed. *(Blocking final sign-off.)*
-2. **Font names and weights**, Arabic and Latin, for supporting type. *(Blocking §6.)*
-3. **Vector logo files**, all four brands. *(Blocking every visual deliverable, not just this one.)*
-4. **Which 2MAN design is live.** *(Blocking all 2MAN work.)*
-5. **What "Alex" is.** The seal is on AlRawy and 2MAN, absent from BeBo and POLEKA. Is it the parent company endorsing selected lines, a consumer brand in its own right, or a rollout mid-flight? **The answer decides whether this kit needs a house layer at all**, and it decides how every profile bio and every piece of copy refers to the business.
-6. **POLEKA's scope, in writing.**
+**Two items that were listed here are gone, and it matters that they are gone.** "Exact colour codes from the client's designer" and "which 2MAN design is live" were both retired on 18 September. There is no designer holding codes back — **TSA sets the values, that is the deliverable** — and both 2MAN designs are live products, which is a sub-brand rule to write rather than a question to ask. Font names are the same category: TSA selects the supporting faces under clause 1, the client approves the choice. See [[Foundation Roadmap]].
 
-Once 1, 2 and 5 land, this document goes from draft to the signed-off Colour and Type Kit and the [[Alex Foods]] Foundation checklist gets its second tick.
+What genuinely remains:
+
+1. **Vector logo files**, all four brands. *(Blocking every visual deliverable, not just this one.)*
+2. **POLEKA's scope, in writing**, and the Alex answer papered in the same message. Both are paperwork rather than decisions — both decisions are taken.
+
+This document is the sample set. The governed system built on top of it — rationalised values, ramps, neutrals and contrast-tested pairings — is Phase 1 of [[Foundation Roadmap]], and it ships inside the book specified in [[Brand Book Spec]].

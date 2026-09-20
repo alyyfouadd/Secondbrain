@@ -56,6 +56,7 @@ This is my fourth agency. The difference this time is that it runs on direction,
 00 - Inbox          <- Capture everything, sort later
 01 - Daily Notes    <- Dated logs of what got done, one file per day, in month subfolders
 02 - TSA            <- The Standard Agency: clients, offers, positioning, scaling
+  TSA Brand/         <- the agency's own locked identity: colour, type, tagline, logo
   Alex Foods Brands/ <- the client's four brands, as read off their packaging
 03 - Personal       <- Life outside the agency: money, health, training, things I'm buying
 04 - Archive        <- Completed projects and old notes
@@ -63,7 +64,7 @@ This is my fourth agency. The difference this time is that it runs on direction,
   Marketing/        <- jaredrhod's marketing playbook, read before any marketing work
 ```
 
-**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[Alex Foods Brands]] (inside TSA)
+**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Alex Foods Brands]] (inside TSA)
 
 That line is not decoration. The map above is a code block, so it creates no links — without these, the only thing pointing at the folder indexes is whichever daily note happened to mention them, which makes a frozen log the hub of the vault instead of this file. This index is the hub. Every folder is one step away from it, and a new folder's index gets added to this line in the same pass that creates it.
 

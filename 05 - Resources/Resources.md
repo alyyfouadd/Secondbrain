@@ -15,4 +15,4 @@ No Jobs are built yet, by choice. The trigger for building one is simple: the se
 - **Marketing/** — [[Marketing]] · jaredrhod's marketing playbook: principles, the funnel, and a playbook each for copywriting, sales letters, email, ads, lead magnets, content and analytics. Read before any marketing work, for TSA or for a client.
 
 ## Notes in this folder
-*(None yet. This index exists from day one so the folder survives a git sync — git doesn't track empty folders.)*
+- [[Producing Copy with AI]] — how TSA gets an AI to write in a brand's actual voice instead of the average of every brand. The four files loaded before a word gets written, the approved-captions habit that compounds, the Arabic-specific failure modes, and the hard limits on what AI is allowed to do. **Agency property under clause 5 — this never goes to a client.**

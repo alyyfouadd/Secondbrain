@@ -44,6 +44,8 @@ Four gates sit in front of delivery, and they fire in order. Three of them are o
 3. **Foundation clock: 3 weeks minimum.** As written, it starts at the first instalment OR the complete materials list, whichever is later. **Superseded in part by the 18 Sep exception** (see above): the payment half of this gate is waived, so the clock now turns on the materials alone.
 4. **Package A starts only after Brand Foundation is signed off in writing — not from the payment date.** Month 1 counts from the written approval date.
 
+**And that fourth gate is a trap, not a milestone.** Month 1 is roughly twenty deliverables, and every visual one of them needs product photography and vector logos that have not arrived. Clause 6 extends the *timeline* day for day for client delay and explicitly does **not** extend the paid month — so approving the Foundation before those materials land starts a paid month that cannot be produced into. The fix is one written line agreed at the moment of delivery: **month 1 starts on the later of written Foundation approval or the arrival of usable product photography and vector logo files.** Full reasoning in [[Foundation Roadmap]].
+
 **The consequence worth holding onto:** Package A's 42,000 is marked received, but its clock has not started and cannot start until Foundation is approved. Money in hand is not the same as a month running.
 
 ### The clause 11 exception — agreed 18 September 2026
@@ -69,8 +71,8 @@ Defines what Alex Foods looks like, how it speaks, and where it appears, written
 
 Timeline: **3 weeks minimum** from whichever gate closes last.
 
-- [ ] **Brand Voice Guide** — words we use and words we avoid, sentence length, how comments get replied to. One brand voice, a different tone per family: BeBo, AlRawy, Freeze Pops.
-- [~] **Colour and Type Kit** — sample set recorded 18 Sep in [[Colour and Type Kit]]; the system itself is Phase 1 of [[Foundation Roadmap]]. **There are no existing codes to wait for — building them is the deliverable.**
+- [~] **Brand Voice Guide** — **drafted 18 Sep in [[Brand Voice Guide]]**, four brands not three. One voice and four tones, words in and out, sentence length and emoji per brand, the never-say list, and the comment-reply procedure with the complaint script. Only the house voice section is open, pending the "Alex" answer.
+- [x] **Colour and Type Kit — DELIVERED 18 Sep** as `Alex Foods - Design System v1.0.pdf`, 19 pages. Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
 - [ ] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material.
 - [ ] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins.
@@ -111,7 +113,7 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 - **Packaging artwork: arrived.** Material 4 closed.
 - **SKU names: arrived, and there are far more than five.** Roughly eighteen across four brands, against a contract asking for five.
-- **Logo files: NOT closed.** Mockup renders are not vector art. Material 2 is still outstanding.
+- **Logo files: CLOSED for the contracted work, 18 Sep.** No source files exist to send, so all four marks were cut out of the supplied raster onto transparency — see `Alex Foods Brands/logos-transparent/`. **Two things make this sufficient rather than a compromise.** The material list itself asks for "logo files, **vector if available**", so vector was never a contractual requirement. And **nothing in either stage is printed** — the Foundation and all of Package A are social and digital. Vector only becomes a real requirement if print or large format enters scope under clause 7.
 - **Product photos: NOT closed.** Packaging renders are not product photography. Material 3 is still outstanding, and it is the one every visual deliverable depends on.
 
 **Four brands arrived, the contract names three.** BeBo, AlRawy and 2MAN (the "Freeze Pops" family under its real name) are in scope as written. **POLEKA, a jelly-candy line, is not in the document — and Aly confirmed on 18 September that it is in.** Four brands, no change to fee. Still to be papered: a one-line written confirmation, because clause 4's rejection rule leans on the approved guide matching the signed scope. See [[Alex Foods Brands]] for the full inventory, the two conflicting 2MAN designs, the unresolved "Alex" parent-brand question, and the trademark flag on the cola SKUs.

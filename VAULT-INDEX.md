@@ -59,19 +59,30 @@ This is my fourth agency. The difference this time is that it runs on direction,
 00 - Inbox          <- Capture everything, sort later
 01 - Daily Notes    <- Dated logs of what got done, one file per day, in month subfolders
 02 - TSA            <- The Standard Agency: clients, offers, positioning, scaling
-  TSA Brand/         <- the agency's own locked identity: colour, type, tagline, logo
-  Alex Foods Brands/ <- EVERYTHING for the first client: contract, scope, brands, build, assets
-    design-system/   <- the generators that build the client's PDFs
-    logos-vector/     <- the client's real Illustrator master seal
-    logos-transparent/ <- the four range marks, cut out on transparency
-    packshots/       <- product mockups keyed to transparency
+  TSA Brand/        <- the agency's OWN locked identity: colour, type, tagline, logo
+  Clients/          <- one folder per client; the client note IS that folder's index
+    Alex Foods/     <- contract note, signed scope PDF, the plan, the brief, the messages
+      Alex Foods Brands/   <- the four brands, the whole Foundation build, and the assets
+        design-system/     <- the generators that build the client's PDFs
+        logos-vector/      <- the client's real Illustrator master seal
+        logos-transparent/ <- the four range marks, cut out on transparency
+        packshots/         <- product mockups keyed to transparency
 03 - Personal       <- Life outside the agency: money, health, training, things I'm buying
 04 - Archive        <- Completed projects and old notes
 05 - Resources      <- Cross-project reference material, templates, Jobs
   Marketing/        <- jaredrhod's marketing playbook, read before any marketing work
 ```
 
-**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Alex Foods Brands]] (inside TSA)
+### The hub rule: links point UP, logs never point out
+
+Two rules keep this file the centre of the vault instead of an ornament, and the graph view is where you check them.
+
+1. **Every folder index ends with an `**Up:**` line back to [[VAULT-INDEX]]**, plus its parent index where it has one. Without it the root index is a *source* — fifteen links out, none in — which draws as a spoke on the edge of the graph rather than a hub at the middle. A hub is inbound-heavy.
+2. **Daily notes never use `[[wikilinks]]`.** They reference notes and files by name in backticks. A daily note's "Notes Touched" section names twenty files, so wikilinking them makes a frozen log the single most connected node in the vault — which is exactly the failure the one-hop line below was added to fix, reappearing from the other direction. **The fix for an orphaned daily note is an inbound link from [[Daily Notes]], never outbound links from the log.**
+
+> **Measured 20 September:** `2026-09-18.md` carried **202 wikilinks — 30 outbound edges against 1 inbound** — and sat dead centre of the graph while [[VAULT-INDEX]] sat on the rim. Converted to backticks; the daily notes are now leaf nodes and [[Alex Foods]], the live client, is the largest node, which is what a working vault should look like.
+
+**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Clients]] (inside TSA) · [[Alex Foods]] (inside Clients — the client note doubles as its folder index) · [[Alex Foods Brands]] (inside Alex Foods)
 
 > **Asset and build folders are deliberately not on that line.** `design-system/`, `packshots/`, `logos-transparent/` and `logos-vector/` hold artwork, fonts and build scripts rather than notes, so each carries a **`README.md`** — documentation sitting beside code, not a node in the graph. They are described from [[Alex Foods Brands]], which is where a human would actually look them up. Giving `fonts/` an index note listing twenty-six `.woff2` files would be bloat under rule 5, not a map.
 
@@ -170,7 +181,7 @@ When creating or editing a note, add `wikilinks`:
 **project** — What the note *serves* (folder is the default, but content wins). Mapping:
 - `02 - TSA/*` -> `tsa`
 - `03 - Personal/*` -> `personal`
-- `01 - Daily Notes/*` -> `personal`
+- `01 - Daily Notes/*` -> **`tsa` by default**, because that is what the days are actually spent on. A day genuinely dominated by personal work takes `personal`. *(This used to read `personal` unconditionally, which contradicted the "content wins" line above it and mis-filed a log that is almost entirely agency work.)*
 - `04 - Archive/*` -> infer from content / original project
 - `05 - Resources/*` -> `meta`
 - `00 - Inbox/*` -> infer from content, else `personal`
@@ -191,11 +202,22 @@ When creating or editing a note, add `wikilinks`:
 
 ### Folder Indexes (keep them in sync)
 
-**Every folder here has an index, with no exceptions and no "once it fills up."** The index is named after the folder with its number prefix stripped — `03 - Personal/Personal.md`, `01 - Daily Notes/Daily Notes.md` — carries frontmatter `type: index`, and lists each note in the folder with a one-line description. The index is a contract: when you create, rename, move, or materially change a note, update its folder's index in the same pass. A stale index makes a future session decide from a wrong map.
+**Every folder here has an index, with no exceptions and no "once it fills up."** The index is named after the folder with its number prefix stripped — `03 - Personal/Personal.md`, `01 - Daily Notes/Daily Notes.md` — carries frontmatter `type: index`, and lists each note in the folder with a one-line description.
+
+**One sanctioned double-duty: a client folder.** `02 - TSA/Clients/<Client>/<Client>.md` is both the client note and that folder's index — the name lines up by design. A client has exactly one master note, and splitting "the map of this folder" away from "what they bought" makes two thin notes where one full one belongs. It carries `type: index` and opens with a "What's in this folder" block before the deal. This is the only place a note wears two hats; don't generalise it. The index is a contract: when you create, rename, move, or materially change a note, update its folder's index in the same pass. A stale index makes a future session decide from a wrong map.
 
 **When a new folder is created:** create its `<Folder Name>.md` index at the same time, add an entry to the parent folder's index if it has one, and update the **Vault Structure** map in this file in the same pass. A folder the map doesn't show is a folder no future session will look in.
 
 *(One local adaptation, because this vault is a git repo: git does not track empty folders. So every folder here gets its index note from day one, even the ones that are still empty, or the folder would vanish on the next device that syncs the repo.)*
+
+**The one carve-out: asset and build folders take a `README.md`, or nothing.** A folder holding artwork, packshots, fonts or build scripts is not a note folder, and giving `fonts/` an index note listing twenty-six `.woff2` files would be bloat under rule 5 rather than a map. The line is what a human would actually look something up in:
+
+- **A folder of notes gets `<Folder Name>.md`**, `type: index`, wikilinked from its parent and from the one-hop line above. No exceptions, and this is the rule that matters.
+- **A folder of assets or build files gets a `README.md`** when there is something a future session genuinely needs — provenance, limits, a build command, a trap worth not rediscovering. `logos-transparent/`, `packshots/` and `design-system/` each earn one. It is named `README.md` on purpose: it is documentation sitting beside code and artwork, not a note in the graph, and it is described from the nearest real index rather than wikilinked.
+- **A folder of raw material gets nothing.** `fonts/`, `tsafonts/`, `packshots/single/` and `client-legacy-creative/` hold files their parent already explains. A note per folder here would be a note nobody opens twice.
+- **Month subfolders under `01 - Daily Notes/` get no index either.** [[Daily Notes]] lists every daily note directly, wikilinked, which keeps one map instead of one per month.
+
+**Stated because the rule as written said "no exceptions" and eight folders were quietly breaking it.** A rule everybody has to silently ignore is worse than a rule with a written boundary — the first time a session obeys it literally, the vault gains eight index notes nobody wanted.
 
 ### Renaming and moving notes
 

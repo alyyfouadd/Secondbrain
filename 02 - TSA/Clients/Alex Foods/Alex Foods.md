@@ -1,13 +1,27 @@
 ---
 status: active
 project: tsa
-type: plan
+type: index
 ---
 # Alex Foods
 
-[[TSA]]'s first client. Food brand in Alexandria, Egypt, with three product families: **BeBo**, **AlRawy** and **Freeze Pops**.
+[[TSA]]'s first client. Food brand in Alexandria, Egypt. **Alex Foods is the master brand**, with four ranges beneath it: **BeBo**, **AlRawy**, **2MAN** and **POLEKA**. The signed scope names three product families — BeBo, AlRawy and "Freeze Pops" — so the contract and the reality differ by one brand and one name; both are reconciled below and in [[Alex Foods Brands]].
 
 Source document: `TSA - Alex Foods Service Scope V2.pdf` in this folder — Service Scope V2, dated 09.09.2026, bilingual Arabic/English. Everything below is drawn from it. Where the note says *confirm*, the document is clear but the real-world state isn't, and I shouldn't act on the assumption.
+
+---
+
+## What's in this folder
+
+This note is both the client note and the index for `02 - TSA/Clients/Alex Foods/`. The deal, the gates and the scope are below; the map is here.
+
+- **Alex Foods Brands/** — [[Alex Foods Brands]] · everything about what they actually sell and how it looks and speaks: the four-brand inventory read off the packaging, [[Colour System]], [[Type System]], [[Brand Voice Guide]], [[Slogans and Song]], [[Content Plan]], [[Post Archetypes]], [[Giveaway Programme]], [[Package A Month 1]], [[Shooting and Compositing Recipe]], [[Foundation Roadmap]], [[Brand Book Spec]], [[Brand and Social Kit]], the shipped PDFs, the logo and packshot artwork, and the `design-system/` build that renders them.
+- [[Alex Foods Discovery Brief]] — **what the client has actually told us**, tagged by where each fact came from. §12 is what they still owe, §14 every open question ranked, §15 what we will need later. **The Foundation was built on packaging; the strategy cannot be.**
+- [[Alex Foods Delivery Plan]] — **the dated plan to Foundation delivery on 9 October**, week by week, with what each day depends on and what can still break it.
+- [[Alex Foods Week 1 Messages]] — **five messages ready to send**, Arabic first, each with one job.
+- `TSA - Alex Foods Service Scope V2.pdf` — the signed-scope source document, 09.09.2026. This note is derived from it; that is the original.
+
+Live open items for this client are in [[Active Priorities]], never in this note's checkboxes — the boxes below record scope, the queue records state.
 
 ---
 
@@ -72,7 +86,11 @@ Defines what Alex Foods looks like, how it speaks, and where it appears, written
 Timeline: **3 weeks minimum** from whichever gate closes last.
 
 - [~] **Brand Voice Guide** — **drafted 18 Sep in [[Brand Voice Guide]]**, four brands not three. One voice and four tones, words in and out, sentence length and emoji per brand, the never-say list, and the comment-reply procedure with the complaint script. Only the house voice section is open, pending the "Alex" answer.
+<<<<<<<< HEAD:02 - TSA/Clients/Alex Foods/Alex Foods Brands/Alex Foods.md
 - [~] **Colour and Type Kit — BUILT 18 Sep, and FOLDED INTO THE BOOK 19 Sep.** **Decided: one book, not three documents.** The Design System stops being a separate client-facing PDF and becomes **§04–06 of the brand book**; [[Colour System]] and [[Type System]] remain the internal source of every value. **Nothing is lost and nothing needs rebuilding** — the content is done. See [[Brand Book Spec]] §5b. *(Original entry: delivered as `Alex Foods - Design System v1.1.pdf`, 19 pages.)* Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
+========
+- [x] **Colour and Type Kit — DELIVERED 18 Sep** as `Alex Foods - Design System v1.1.pdf`, 19 pages. *(v1.0 was superseded the same day by the umbrella rebuild, before it went out for approval.)* Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
+>>>>>>>> origin/claude/relaxed-tesla-1gicm3:02 - TSA/Clients/Alex Foods/Alex Foods.md
 - [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
 - [~] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material. **Scope moved on 19 September:** the client briefed **three** giveaway campaigns on two off-platform mechanics, and the song was written against one. See [[Giveaway Programme]]. **The BeBo line and the giveaway slogan are written** — see [[Slogans and Song]].
 - [~] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins. **Strategy and month 1 drafted 19 Sep in [[Content Plan]]**, including the three-month arc and the month-3 engagement goal. Months 2 and 3 are structured but deliberately not scripted, because the contract delivers each calendar before its own month and month 1's baseline is what should shape month 2.

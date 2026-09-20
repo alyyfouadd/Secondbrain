@@ -18,20 +18,22 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 - **Status:** Active — first client ([[Alex Foods]]) signed on a 146,000 EGP total contract; delivery gated on the client's signed acceptance page and materials.
 
 ## Folders in here
+
+**The split is agency / client, and it is the load-bearing line in here.** `TSA Brand/` is what TSA *is*; `Clients/` is who TSA *works for*. Anything TSA hands over is governed by the first and belongs to one entry in the second.
+
 - **TSA Brand/** — [[TSA Brand]] · the agency's own locked identity: three colours, two typefaces, one tagline, one logo, plus the source PDFs and the lockup artwork. **Governs every deliverable TSA hands over**, so read it before building anything a client will see.
-- **Alex Foods Brands/** — [[Alex Foods Brands]] · **everything for the first client**: the contract, the signed scope, the four brands read off the packaging, the whole Foundation build, the giveaway programme, the month-1 plan, and every asset. **Consolidated 19 September** — the contract note and the scope PDF used to sit out here, away from the thirteen notes that depend on them.
+- **Clients/** — [[Clients]] · one folder per client, each holding their contract note, their source document and their brand work. Currently one: [[Alex Foods]].
 
 ## Notes in this folder
-- [[Alex Foods]] — first client. Full service scope: Brand Foundation (20,000) plus Package A retainer (42,000/mo x 3), the gating chain, deliverables and the 11 contract clauses.
-- [[Alex Foods Delivery Plan]] — **the dated plan to Foundation delivery on 9 October**, week by week, with what each day depends on and what can still break it. **The vault had a build order since 18 September and no dates on it**, which is how a three-week job quietly becomes a four-week one.
-- [[Alex Foods Week 1 Messages]] — **five messages ready to send**, Arabic first, each with one job. Why they are split rather than sent as one, what to expect back, and what to do if the seasonality answer does not arrive.
-- [[Alex Foods Discovery Brief]] — the interview file for the client's **commercial** layer: goals, distribution, pricing, competitors, budget and reporting. Everything TSA knows is tagged by where it came from, everything it doesn't is an Arabic question ready to ask. **The Foundation was built on packaging; the strategy can't be.** **§12 is what the client still owes, §14 is every open question ranked by what it changes, and §15 (added 20 Sep) is what we will need LATER — asked for one cycle before it bites rather than the morning it does.**
 - [[TSA Money]] — the agency's books. Revenue, cost of delivery, and the owner's-draw rule that gates what moves from TSA to [[Money]]. Agency money and personal money are two pots; this note owns the first one.
 
 ## What belongs here as it gets built
-- One note per client: what they bought, what's owed, what's been delivered. Once there are three or more, they move into a `Clients/` subfolder with its own index. **Still one client, so that move has not happened** — and the folder naming waits with it: `Alex Foods Brands/` now holds far more than the brands, but renaming it means renaming its index too, and `Alex Foods.md` is already taken by the contract note. **Worth doing in one pass when the `Clients/` split happens, not twice.**
 - **The delivery model, now that it has one.** From 19 September TSA is not Aly plus AI doing everything: **Mahmoud designs, a CGI animator animates, Aly directs and TSA posts.** That changes what the agency sells and what a month costs. See [[Package A Month 1]] §3.
 - The offer and pricing logic — how a dedicated price gets arrived at, given there are no packages. [[Alex Foods]] is the first data point: a one-time foundation priced separately from a fixed-term monthly retainer.
 - Positioning work: how a high-value business gets identified and what the market read looks like.
 - The scaling plan: the structure that has to hold as the agency grows.
 - The delivery templates the retainer repeats every month — the shooting recipe, the content calendar format, the revision-and-approval loop. These are Job-shaped: the second time a month gets explained from scratch, it earns a Job note.
+
+---
+
+**Up:** [[VAULT-INDEX]] · **In here:** [[TSA Brand]] · [[Clients]]

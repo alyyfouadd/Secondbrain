@@ -20,6 +20,12 @@ A daily note is a frozen snapshot of the moment it was written. Its "What's Stil
 ## Notes in this folder
 - [[Daily Note Template]] — the shape every daily note is copied from.
 - `09 - September 2026/` — 2026-09-18 onward. The vault's first day.
-  - `2026-09-18.md` — 28 sessions. The vault built, Alex Foods scoped, the Foundation's first two deliverables written and shipped.
-  - `2026-09-19.md` — the overnight continuation. Session 1 started at 11:05 PM on the 18th and is filed here because it crossed midnight.
-  - `2026-09-20.md` — the whole vault read and briefed, and the discovery that it is split across four refs again.
+  - [[2026-09-18]] — 28 sessions. The vault built, Alex Foods scoped, the Foundation's first two deliverables written and shipped.
+  - [[2026-09-19]] — the overnight continuation. Session 1 started at 11:05 PM on the 18th and is filed here because it crossed midnight.
+  - [[2026-09-20]] — the slogans and the giveaway; TSA restructured on the agency/client split and Alex Foods moved into `Clients/`; the vault audited end to end, read and briefed, and the four refs finally merged.
+
+**Every daily note is wikilinked from this index, not just named.** Backticked filenames create no links, so the daily notes were graph orphans — floating islands nothing pointed at — which is the same defect the folder indexes had before the one-hop line was added to [[VAULT-INDEX]]. A month subfolder does not get its own index note; this list is the index for all of them.
+
+---
+
+**Up:** [[VAULT-INDEX]]

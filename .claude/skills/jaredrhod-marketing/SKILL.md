@@ -35,7 +35,7 @@ Read only what the task actually needs.
 
 The playbooks come from a direct-to-consumer information business. TSA sells high-value services to businesses. The principles carry unchanged; the funnel mechanics (tripwire pricing, low-ticket lead magnets) need translating to a B2B service sale rather than being applied literally. Say so when it matters instead of forcing the shape.
 
-For client work, read the client's own note as well — `02 - TSA/Alex Foods.md` for Alex Foods — so the output is primed on the actual business, not just the method.
+For client work, read the client's own note as well — `02 - TSA/Clients/Alex Foods/Alex Foods.md` for Alex Foods — so the output is primed on the actual business, not just the method.
 
 ## Background (optional)
 

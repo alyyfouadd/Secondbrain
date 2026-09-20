@@ -270,7 +270,7 @@ The values are computed honestly from sampled inputs. Two limits, stated plainly
 
 ## 11. Still open
 
-- **Vector logo files.** Blocks §3 being verified against real artwork, and blocks every visual deliverable in both stages.
+- ~~**Vector logo files.** Blocks §3 being verified against real artwork, and blocks every visual deliverable in both stages.~~ **Closed 18 September.** No source files exist; all four marks are cut out on transparency in `logos-transparent/`. §3's rule — colours inside a logo are not system values — stands on its own and never needed vector to be true. Vector returns only if print enters scope under clause 7.
 - ~~**The seal's rule** — tiering or rollout.~~ **Closed 18 September: rollout**, and the freeze rule retired with it. See §2.
 - ~~**Alex Navy `#0A0378` is a governed master with no ramp and no contrast row.**~~ **Superseded 19 September 2026 — and the problem is the value, not the ramp.**
 

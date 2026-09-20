@@ -59,3 +59,7 @@ Two things to keep straight when applying it:
 - **It is written from a direct-to-consumer information business** (a horse-training membership), so the funnel, the tripwire and the lead magnets assume you sell to individuals at low price points. [[TSA]] sells high-value services to businesses. The principles carry — sell the feeling, the headline is the whole game, context before output, benefits over features, transparency as proof. The funnel mechanics need translating.
 - **It earns its keep twice.** Once on TSA's own client acquisition, and once on what TSA delivers to clients — [[Alex Foods]] is owed a brand voice guide, slogans, a content calendar and paid campaign management, and every one of those has a playbook here.
 - **One rule has a scope limit worth naming:** [[marketing-copywriting]] bans em-dashes as an AI tell. That applies to marketing copy going out to an audience. It does not apply to notes in this vault.
+
+---
+
+**Up:** [[VAULT-INDEX]] · [[Resources]]

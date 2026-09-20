@@ -22,3 +22,7 @@ type: index
 ## What still belongs here
 - **Vector logo files.** `tsa-lockups.png` is a raster reference, not artwork. The same rule TSA applies to a client applies to TSA: a logo placed from a PNG is a logo that will eventually be rebuilt badly.
 - Templates as they get built: invoice, proposal, deck, social frames.
+
+---
+
+**Up:** [[VAULT-INDEX]] · [[TSA]]

@@ -50,9 +50,9 @@ $CHROME --headless --disable-gpu --no-sandbox \
 
 **6. Read computed styles, not a downscaled PNG, before "fixing" a colour.** The Paper swatch card looked blue in an 80dpi render and was `rgb(20,20,20)` in the DOM. The render was lying, not the CSS.
 
-**8. Hardcoding a page total breaks the moment the document grows.** `kit.py` printed `PAGE n / 6` in its footer and the kit went to eight pages. The footer now writes a `@@TOTAL@@` token that is substituted once, after generation, when the real count is known.
-
 **7. A descendant selector will silently beat a class you wrote later.** `.tyl p` (0,1,1) beat `.d1` (0,1,0), so a 21pt display statement rendered at 7.2pt and simply looked like a design choice. **Nothing errors, nothing warns, and a screenshot will not tell you** — the text is just quietly the wrong size. Scoped to `.tyl p.d1`.
+
+**8. Hardcoding a page total breaks the moment the document grows.** `kit.py` printed `PAGE n / 6` in its footer and the kit went to eight pages. The footer now writes a `@@TOTAL@@` token that is substituted once, after generation, when the real count is known.
 
 **9. `chromium` is not on `PATH` in this environment, and the failure looks like the tool is missing.** The binary lives at **`/opt/pw-browsers/chromium-1194/chrome-linux/chrome`** (Playwright's install, pointed at by `PLAYWRIGHT_BROWSERS_PATH`). A plain `which chromium` returns nothing and `chromium --headless` reports *command not found*, which reads as "no browser here" rather than "wrong name". **Set `CHROME=/opt/pw-browsers/chromium-1194/chrome-linux/chrome` and use `"$CHROME"`.** The version number in that path will move; `ls /opt/pw-browsers/` finds the current one.
 

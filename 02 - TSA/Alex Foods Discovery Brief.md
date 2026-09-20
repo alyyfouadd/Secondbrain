@@ -142,6 +142,21 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 
 ---
 
+## 0b. What is already running — ASK THIS FIRST ON EVERY CLIENT
+
+**Added 20 September 2026, after this section's absence cost seven rework cycles on this client alone.**
+
+**TSA designed a giveaway mechanic for a client who already had two, and did not know about a live back-to-school campaign that was their most urgent priority.** Both were one question away.
+
+| Question | What the answer was on Alex Foods |
+|---|---|
+| **What are you already running right now?** | **Three campaigns.** School gifts, bicycles and scooters, and a paused Umrah trade programme. |
+| **How does a customer actually enter or buy?** | **A QR code on the back of the pack** for consumers, **a coupon in the carton** for retailers. Both already printed and shipped. |
+| **What is on the back of the pack?** | **The entire consumer mechanic.** Nobody had photographed that surface. |
+| **What is your most urgent deadline in the next month?** | **Back-to-school**, racing the start of term, and TSA found out by accident. |
+
+> **The rule this produced, now rule 12 in the boot file: ask what already exists before designing what is missing.**
+
 ## 1. Goals
 
 - `[CONFIRMED]` **Main goal: engagement and online presence.** They have their own name in market already; what they want is a better presence behind it.

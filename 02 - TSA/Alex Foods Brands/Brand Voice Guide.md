@@ -110,7 +110,11 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 ## 3. BeBo — powdered drink sachets
 
-> **FROZEN 19 September, and this section is the one most likely to ship wrong.** The client described BeBo as *"juice in a sachet you drink directly with a straw."* **Their own artwork contradicts it:** BeBo is a pillow bag reading «مشروب بطعم X / X Drink», its serving graphics are a cup with a straw standing in it and a tall glass of cola over ice, and **it carries no «أدخل الماصة هنا» print — AlRawy does, on every pouch.** But the pack does not say *powder* either, so **the "one sachet makes a jug" premise this whole section rests on is TSA's inference, not a proven fact.**
+> **UNFROZEN AND SETTLED 20 September: BeBo is a JUICE. You drink it.** Their own page says «عصير بيبو», «وسبونج بوب شرب بيبو» and «اشرب بيبو» repeatedly, and Aly confirmed it. **The vault's *powder, one sachet makes a jug* was TSA's read off a pack graphic, and it was wrong.** The client said juice in the discovery answers, TSA deferred to its own reading, and the client was right. **Third time this week.**
+>
+> **What it unblocks:** BeBo copy is no longer frozen · the AI shooting recipe's ban on showing BeBo being prepared or drunk from is lifted, and **drinking is now the correct thing to show** · **«اشرب بيبو» is their own imperative and it is already doing slogan work.**
+
+> **FROZEN 19 September — superseded, kept for the audit trail.** The client described BeBo as *"juice in a sachet you drink directly with a straw."* **Their own artwork contradicts it:** BeBo is a pillow bag reading «مشروب بطعم X / X Drink», its serving graphics are a cup with a straw standing in it and a tall glass of cola over ice, and **it carries no «أدخل الماصة هنا» print — AlRawy does, on every pouch.** But the pack does not say *powder* either, so **the "one sachet makes a jug" premise this whole section rests on is TSA's inference, not a proven fact.**
 >
 > **Everything below — the feeling, the words in, the draft captions — is on hold until a photo of the back of a BeBo pack arrives.** Register, sentence length, emoji policy and person are unaffected and stand as written. **BeBo is now the client's priority range and best seller**, which is exactly why this gets settled before a word of it ships. See [[Alex Foods Discovery Brief]] §A1.
 

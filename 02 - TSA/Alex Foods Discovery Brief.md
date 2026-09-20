@@ -366,7 +366,8 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 - `[CONFIRMED]` **Approval time: about 1 day.** Comfortably inside clause 3's 48-hour auto-approval. No conflict.
 - `[CONFIRMED]` **"There's a main logo and packaging."** Consistent with what arrived: no source files exist, all four marks were cut to transparency in `logos-transparent/`, and the contract only ever asked for vector *if available*. **Closed.**
 - `[CONFIRMED]` **Colour and type: delivered** as `Alex Foods - Design System v1.1.pdf`. Pending written approval.
-- `[MISSING]` **Rights to the "Cola Cola" artwork.** Still unanswered and still TSA's exposure, because TSA runs the ad account. The POLEKA cola SKU stays out of paid campaigns until it lands.
+- `[CONFIRMED]` **Cola artwork rights: Hussein says it is fine**, 20 September, verbally via Aly. **The POLEKA cola SKU is released for paid campaigns.** One line in writing is still worth having, because TSA runs the ad account, but it no longer blocks anything.
+- `[MISSING]` **A SpongeBob licence.** **New exposure found 20 September:** their pinned post is built on SpongeBob imagery and names him in the copy. **Almost certainly unlicensed**, and the rule follows either way: **TSA does not produce, boost or repost third-party character content.**
 
 **أسئلة لحسين ومحمد:**
 - سؤال قانوني مهم: تصميم «كولا كولا» اللي على بوليكا، عندكوا حق استخدامه مكتوب؟ إحنا اللي بنشغل الإعلانات الممولة فالمسؤولية بتقع علينا كمان. لحد ما يوصلنا رد، المنتج ده مش هيدخل أي إعلان مدفوع.
@@ -424,7 +425,7 @@ Plus, in priority order:
 1. **A photo of the back of a BeBo pack.** One photo, thirty seconds, and it unfreezes the priority range's copy. **Highest value per effort of anything on this list.**
 2. **The signed acceptance page, naming ONE approver** with role and contact. See §A4.
 3. **The organic certificate for AlRawy, or an acknowledgement that there isn't one.** See §A2.
-4. **Written rights confirmation on the "Cola Cola" artwork.**
+4. ~~Written rights confirmation on the cola artwork.~~ **Answered verbally 20 September.** Replaced by: **an answer on SpongeBob**, which is the same question about a clearer property.
 5. **POLEKA confirmed in writing**, with the umbrella decision papered in the same message.
 6. **A rough distributor and stockist count**, so "more shops" has a baseline.
 
@@ -454,7 +455,8 @@ Plus, in priority order:
 | 5 | **Meta admin access** | Blocks deliverable 3, and blocks knowing whether we succeeded | Open |
 | 5b | **Is the Facebook asset a Page or a personal profile?** | **If a profile, no ads can run from it at all.** Ten-second check. §7 | Open |
 | 5c | **Seasonality — does 2MAN die over Oct–Jan?** | The whole paid term sits in an ice pop's off-season. §B | Open |
-| 6 | Rights to the "Cola Cola" artwork | TSA's exposure, not just theirs | Open |
+| 6 | ~~Cola Cola artwork rights~~ | **ANSWERED 20 Sep: Hussein says it is fine.** Verbal, via Aly. **The SKU is released for paid.** | **Closed** |
+| 6b | **Do they hold a SpongeBob licence?** | **New, 20 Sep.** Their pinned post is built on SpongeBob. **Same class as the cola question and arguably clearer.** TSA runs the ad account. | Open |
 | 7 | Engagement or shops, if we had to choose | Two goals, two kinds of content | Open |
 | 8 | Distributor and stockist count | "More shops" has no baseline | Open |
 | 9 | Seasonality per range | Decides whether one flat calendar works | Open |

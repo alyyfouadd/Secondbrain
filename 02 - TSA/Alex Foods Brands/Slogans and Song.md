@@ -511,7 +511,29 @@ It names no flavour, so it works across all four SKUs. It makes no claim needing
 
 **Sold frozen from a shop freezer confirms it: POLEKA is a summer product.** Both frozen ranges are. **Half the portfolio sits out of season across an October-to-January term**, and that is no longer inference about how a product behaves, it is inference about where it is physically sold.
 
-## 5d. The giveaway — BeBo's, 20 September 2026
+## 5d-0. SUPERSEDED — they already run a giveaway, and TSA was designing one they do not need
+
+> **20 September, from screenshots of their own page.** **The BeBo giveaway has been running since at least August and the prize is a bicycle.**
+>
+> > «نفسك تكسب عجلة 😃» · «الف مبروك لإياد ❤️ اياد استلم عجلته من بيبو 🎉 اشرب بيبو..دورك جاي» · «واحد اشترى بيبو... ورجع بعجلة!»
+>
+> **Mechanic: buy BeBo, win a bicycle.** Winners are **photographed in the shop holding the bike** with a «مبروك للفايز» overlay. **Real people, real proof, already posted.**
+>
+> **Everything specified below is superseded**: the photograph-the-pack mechanic, the weekly cadence, and a song built on a mechanic they do not use. **TSA's job is to run their giveaway better, not to replace it with an invented one.**
+>
+> **And Aly saying "BeBo is the one who does giveaways" was not a preference. It was a description of something already true**, and TSA treated it as a brief.
+
+### And there is a SECOND giveaway, aimed at the trade
+
+> «مبروك للفائزين برحلة العمرة» · «تم اختيار الفائزين من بين **أعلى العملاء في حجم المسحوبات** من جميع منتجات الشركة»
+
+**«أعلى العملاء في حجم المسحوبات» is a distributor or a shop owner, not a child.** **Alex Foods runs an annual trade loyalty programme and the prize is an Umrah trip.**
+
+**This is more important than the bicycle**, because **the client's stated goal is «mostly more shops» and they already own the instrument for it.** It also answers the trade-versus-consumer question that has been open since the discovery brief: **they are already doing both, on one page.**
+
+---
+
+## 5d. The giveaway — BeBo's, 20 September 2026 *(SUPERSEDED, kept for the reasoning)*
 
 > **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.
 

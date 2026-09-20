@@ -84,3 +84,59 @@ type: reference
 ---
 
 **Related:** [[Brand Voice Guide]] · [[Slogans and Song]] · [[Alex Foods Brands]] · [[Alex Foods Discovery Brief]]
+
+---
+
+# Page screenshots — 20 September 2026
+
+**Five screenshots of the live Facebook page.** These answer more than they were asked to.
+
+## 1 · It is a verified PAGE, not a personal profile
+
+**Settled.** The header shows **Alex Foods with a blue verification badge**, **Follow** and **WhatsApp** buttons, and the **All · Photos · Reels · Mentions** tab row. **All three are Page furniture and none of them exist on a personal profile.**
+
+> **The profile worry is dead, and it was the single biggest risk on the platform strategy.** Paid campaigns can run, partner access works as written in [[Meta Access Runbook]], and **the 52,000 are on an asset that can actually be managed.** It is also **verified**, which is an asset in itself and which TSA had no idea existed.
+
+## 2 · BeBo is a JUICE. You drink it.
+
+**Their own copy, repeatedly: «عصير بيبو»، «وسبونج بوب شرب بيبو»، «اشرب بيبو».** *BeBo juice. SpongeBob drank BeBo. Drink BeBo.*
+
+**The format question is closed and TSA had it wrong.** The vault carried *powder, one sachet makes a jug* from 18 September, read off a pack graphic. **The client said juice in the discovery answers, TSA deferred to its own reading, and the client was right.**
+
+**«اشرب بيبو» is their own imperative and it is already doing slogan work.**
+
+## 3 · The giveaway already exists, and the prize is a bicycle
+
+**TSA was designing a mechanic for a campaign that has been running since at least August.**
+
+> «نفسك تكسب عجلة 😃 تعالى اقولك ازاي تكسب عجلة 😉»
+> «الف مبروك لإياد ❤️ اياد استلم عجلته من بيبو 🎉 اشرب بيبو..دورك جاي 😍»
+> «واحد اشترى بيبو... ورجع بعجلة! ❤️ اشرب بيبو.. يمكن العجلة الجاية تبقى بتاعتك 😉»
+
+**The mechanic: buy BeBo, win a bicycle.** Winners are **photographed in the shop with the bike**, with a «مبروك للفايز» overlay. **Real people, real proof, posted.**
+
+**Everything TSA proposed in §5d is superseded.** The photograph-the-pack mechanic, the weekly cadence, the song built on a mechanic they do not use. **They have a working giveaway with proof-of-winner content. TSA's job is to run it better, not to replace it.**
+
+## 4 · And there is a SECOND giveaway, aimed at the TRADE
+
+**This is the finding nobody was looking for.**
+
+> «مبروك للفائزين برحلة العمرة»
+> «تم اختيار الفائزين من بين **أعلى العملاء في حجم المسحوبات** من جميع منتجات الشركة»
+> «كل ما تزيد مسحوباتك من مختلف منتجات الشركة، تزيد فرصتك في الفوز معانا العام القادم»
+
+**«أعلى العملاء في حجم المسحوبات» is not a child buying a juice. It is a distributor or a shop owner buying volume.** **Alex Foods runs an annual trade loyalty programme and the prize is an Umrah trip.**
+
+**Why this matters more than the bicycle:**
+
+- **The client's stated goal is «mostly more shops».** They already have the instrument for it and nobody mentioned it.
+- **It answers the trade-versus-consumer question that has been open since the discovery brief.** They are already doing both, on one page.
+- **The 52,000 followers are not only parents and kids. Some of them are the trade**, which changes who the content is talking to.
+
+## 5 · They use SpongeBob, and that is an IP exposure
+
+**The pinned post is built on SpongeBob imagery** and the copy names him: **«وسبونج بوب شرب بيبو»**.
+
+**Same class of problem as the «Cola Cola» artwork, and arguably clearer.** SpongeBob is a Paramount property. **TSA runs the paid campaigns, so a licensed-character post pushed to a paid audience is TSA's ad account carrying it.**
+
+> **This needs the same written answer the cola question got: do they hold a licence?** Almost certainly not. **The rule follows regardless: TSA does not produce, boost or repost third-party character content**, and if the client wants it on organic posts they make it themselves.

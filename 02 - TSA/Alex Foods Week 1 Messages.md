@@ -13,7 +13,13 @@ type: reference
 
 ---
 
-## 1 · To Mohamed — the ten-minute asks
+> ### UPDATED 20 September — three of these asks are already answered.
+>
+> **The page screenshots arrived and settled it: it is a verified Page**, BeBo is a juice, and the cola rights are fine per Hussein. **Message 1 shrinks to one item. Message 4 loses two.** **Insights are no longer requested as screenshots** — TSA pulls them once access lands.
+>
+> **What is actually still needed: Meta access, the Google details, seasonality, and one named approver.** Four things, down from nine.
+
+## 1 · To Mohamed — the ten-minute asks *(mostly answered, see above)*
 
 **The easy ones first, deliberately.** A client who answers something quickly is a client who is now in a conversation. **Nothing here needs a decision from anybody.**
 

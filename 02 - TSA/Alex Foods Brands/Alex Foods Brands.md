@@ -54,7 +54,11 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ---
 
-## BeBo — powdered drink sachets
+## BeBo — **juice**
+
+> **SETTLED 20 September from the client's own page: BeBo is a juice and you drink it.** «عصير بيبو» · «اشرب بيبو». **TSA's *powdered drink sachets* was read off a pack graphic and was wrong for three days.**
+
+## BeBo — *(was: powdered drink sachets)*
 
 > **FORMAT CONTESTED, 19 September.** The client described BeBo as *"juice in a sachet you drink directly with a straw, hand-sized package."* **That does not match this artwork.** The packs are **pillow bags**, they read «مشروب بطعم X / X Drink», their serving graphics are a **cup with a straw standing in it** (peach) and a **tall glass of cola over ice** (cola), and **none of them carries «أدخل الماصة هنا» — AlRawy prints it on every pouch.** Most likely the answer described AlRawy and applied it to both. **But "powdered" is TSA's inference too** — the word appears nowhere on the front, and a pillow bag could hold a strip of sachets, which would reconcile both accounts. **One photo of the back of a pack settles it.** Until then the heading below is unproven. See [[Alex Foods Discovery Brief]] §A1.
 

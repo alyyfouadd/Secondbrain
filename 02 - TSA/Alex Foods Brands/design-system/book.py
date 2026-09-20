@@ -376,17 +376,204 @@ f"""{eb('الترجمة والتوصية','GLOSS &amp; RECOMMENDATION')}
 {bi('المسابقة تخص بيبو: هي المجموعة الأولى والأكثر مبيعًا، وأرخص عبوة فلا يكلّف الاشتراك الطفل شيئًا يُذكر، والجمهور أطفال يشتركون بحماس لا يضاهيه جمهور بالغ. وتُدار على حساب أليكس فودز، لأنه الحضور الوحيد الذي فيه جمهور، وهذا هو نموذج العلامة الأم يعمل كما صُمم. شعار الحملة مكتوب، ويحمل الآلية والجائزة في ثلاث كلمات: «صوّر واكسب مع بيبو». الآلية: صوّر كيس بيبو وابعته، وفايز كل أسبوع. تتطلب شراءً، وتنتج محتوى تستطيع الوكالة إعادة نشره، ولا تحتاج تغييرًا في العبوة. الأغنية تتبع قواعد الحملات لا قواعد العلامة، فالاستعجال والموعد مسموحان. تفتح وتقفل على سطر العلامة، لأن وظيفة أغنية المسابقة الحقيقية هي غرس الشعار في رأس الطفل بينما تحفّزه الجائزة على تكراره.',
     'The giveaway belongs to BeBo: it is the priority range, the best seller, the cheapest pack so entry costs a child almost nothing, and the audience is kids who enter giveaways with a willingness no adult audience matches. It runs on the Alex Foods account, because that is the only presence with an audience, which is the umbrella model working as designed. The campaign slogan is written and carries the mechanic and the reward in three words: shoot and win with BeBo. The mechanic is photograph a BeBo pack and send it in, one winner a week: it requires a purchase, it produces content the agency can repost, and it needs no pack change. The song plays by campaign rules rather than brand rules, so urgency and a deadline are allowed. It opens and closes on the brand line, because a giveaway song’s real job is drilling the slogan into a child’s head while the prize is motivating them to repeat it.')}""")
 
-pending('17','CONTENT CALENDAR','خطة المحتوى الشهرية','5',
- 'الشكل جاهز: التاريخ، ونوع المحتوى، والمنتج، والرسالة، لكل منشور. الخطة تُسلَّم قبل بداية الشهر الذي تغطيه.',
- 'The format is ready: date, content type, product and message, per post. The calendar is delivered before the month it covers begins.',
- 'موسمية كل مجموعة. المدة المتعاقد عليها تقع بين أكتوبر ويناير، وتومان مجموعة مثلجات. إن كانت تتصرف كما تتصرف المثلجات، فربع المحفظة خارج موسمه طوال المدة المدفوعة، والثلاثة الباقية تحمل الخطط الثلاث.',
- 'Seasonality per range. The contracted term runs roughly October to January and 2MAN is an ice pop range. If it behaves the way an ice pop behaves, a quarter of the portfolio sits out of season for the whole paid term and the other three carry all three calendars. This is inference from the category, not from the client’s data, which is exactly why it is a question rather than a plan.')
+# ================= 17 CONTENT CALENDAR =================
+JOBS=[('01','إثبات أن المسابقة حقيقية','Prove the giveaway is real','35%',
+ 'أعلى محتوى مصداقيةً تملكه العلامة، وهو الذي يخدم المؤشر المتعاقد عليه: التعليقات والمشاهدات.',
+ 'The highest trust content this brand owns, and the one that serves the contracted KPI: comments and views.'),
+('02','شرح طريقة الاشتراك','Explain how to enter','20%',
+ 'الآلية مطبوعة على ظهر العبوة وغير مرئية في الفيد. من لا يعرف كيف يشترك لا يشترك.',
+ 'The mechanic is printed on the back of the pack and invisible in the feed. Nobody enters a giveaway they cannot see the door to.'),
+('03','تحريك المنتجات','Keep the products moving','35%',
+ 'ثمانية عشر صنفًا، ودورة نكهات، وشخصيات مرسومة ومدفوعة بالفعل.',
+ 'Eighteen SKUs, a flavour rotation, and characters that are already drawn and already paid for.'),
+('04','مخاطبة التجارة','Serve the trade','10%',
+ 'نصف الهدف المعلن هو «محلات أكتر»، ولا يوجد على الحساب اليوم منشور واحد يكلّم صاحب محل.',
+ 'Half the stated goal is more shops, and there is not one post on the account today that speaks to a shop owner.')]
+jb=''.join(f'''<tr><td class="n">{i}</td><td class="ar"><b>{ar}</b><span class="en">{en}</span></td>
+ <td class="ar sm">{wa}<span class="en">{we}</span></td><td class="q">{p}</td></tr>'''
+ for i,ar,en,p,wa,we in JOBS)
 
-pending('18','POST ARCHETYPES &amp; PATTERN INVENTORY','أنماط المنشورات','5',
- 'الجرد الكامل لكل نمط منشور، ولكل نمط ما يمكن تغييره فيه وما لا يمكن. هذا هو القسم الذي يجعل الكتاب قابلًا للبناء بدل أن يكون قابلًا للإعجاب.',
- 'The full inventory of every post pattern and, for each one, exactly what is configurable and what is not. This is the section that makes the book buildable rather than admirable.',
- 'يعتمد على الأقسام 11 و13 و15، وعلى الألوان الممتدة لبوليكا التي لم تُختَر بعد. بوليكا لها أربعة أصناف وثلاثة حقول، فالطبقة الممتدة إلزامية عليها ولا توجد قيم خلفها حتى الآن.',
- 'It depends on sections 11, 13 and 15, and on POLEKA’s extended colours, which have not been chosen. POLEKA has four SKUs and three fields, so the extended layer is mandatory on that range and there are no values behind it yet. That gap lands before the first POLEKA post, not after it.')
+M1=[('منشور الفايز','Winner post','4','1 ستيل متحرك + 3 جرافيك','1 animated still + 3 graphics',
+  'واحد كل أسبوع، وهو مرساة الشهر','one a week, and it anchors the month','star'),
+('شرح الآلية','Mechanic explainer','3','1 أنيميشن + 2 جرافيك','1 animation + 2 graphics',
+  'أكبر فجوة في الحساب','the biggest gap on the account','star'),
+('منشور منتج','Product post','5','2 ستيل متحرك + 3 جرافيك','2 animated stills + 3 graphics','دورة النكهات','the flavour rotation',''),
+('منشور شخصية','Character post','3','2 ستيل متحرك + 1 جرافيك','2 animated stills + 1 graphic','أرخص محتوى تملكه الشركة','the cheapest content this business owns',''),
+('لحظة · المدارس','Moment · school','3','1 أنيميشن + 1 ستيل متحرك + 1 جرافيك','1 animation + 1 animated still + 1 graphic',
+  'الحملة التي يسابق العميل موعدها','the campaign the client is racing','star'),
+('منشور تجارة','Trade post','2','2 جرافيك','2 graphics','محجوز على فن الكرتونة والكوبون','blocked on carton and coupon artwork','no')]
+m1=''.join(f'''<tr class="{c}"><td class="ar"><b>{ar}</b><span class="en">{en}</span></td><td class="q">{n}</td>
+ <td class="ar sm">{fa}<span class="en">{fe}</span></td><td class="ar sm">{wa}<span class="en">{we}</span></td></tr>'''
+ for ar,en,n,fa,fe,wa,we,c in M1)
+
+sec('17','CONTENT CALENDAR','خطة المحتوى الشهرية',
+f'''{eb('لماذا ننشر أصلًا','17 · THE CONTENT CALENDAR')}{chip('DEFINED','ok')}
+{rule('المحتوى يتبع الحملة، لا العكس.','CONTENT FOLLOWS THE CAMPAIGN, NEVER THE OTHER WAY ROUND.')}
+{bi('كانت الخطة الأولى دورة بين أربع مجموعات. وهي خاطئة. العميل يدير ثلاث حملات على ثلاث ساعات مختلفة: هدايا المدارس تسابق موعدًا حقيقيًا، والعجل والاسكوتر شغّالة بلا نهاية معلنة، والعمرة متوقّفة حتى تنتهي المدارس. المجموعات تدور داخل الحملة، لا الحملة داخل المجموعات.',
+ 'The first plan was a rotation across four ranges. It is wrong. The client runs three campaigns on three different clocks: the school gifts are racing a real deadline, the bicycles and scooters run continuously with no announced end, and the Umrah programme is paused until the school push is done. Ranges rotate inside a campaign, never a campaign inside the ranges.')}
+{eb('الوظائف الأربع','THE FOUR JOBS')}
+{bi('كل منشور يؤدي واحدة من هذه الأربع. منشور لا يؤدي أيًا منها لا ينزل.',
+ 'Every post does one of these four. A post that does none of them does not go out.')}
+<table class="t3 jb"><thead><tr><th>#</th><th>الوظيفة · THE JOB</th><th>لماذا · WHY</th><th>الحصة</th></tr></thead><tbody>{jb}</tbody></table>
+{note('القسم السابق من عدّة السوشيال كان يقسّم المحتوى أربعين وثلاثين وعشرين وعشرة. ذلك التقسيم اشتُقّ من العبوات قبل أن يعرف أحد أن هناك برنامج مسابقات شغّالًا وبرنامج ولاء للتجار. كان تخمينًا معقولًا، وقد انتهت صلاحيته. هذا الجدول يحلّ محلّه.',
+ 'The mix in the social kit split content forty, thirty, twenty and ten. That split was derived from the packaging before anyone knew there was a live giveaway programme and a retailer loyalty scheme. It was a reasonable guess and it is now out of date. This table replaces it.',
+ 'ما الذي تغيّر','What changed',True)}
+''',
+
+f'''{eb('الشهر الأول · حملة المدارس','MONTH 1 · THE SCHOOL CAMPAIGN')}
+{bi('عشرون أصلًا، وهو ما تموّله الباقة أ بالضبط. لا تُبنى الخطة على الطموح، بل على العدد المدفوع.',
+ 'Twenty assets, which is exactly what Package A funds. The plan is built on the number that is paid for, not on ambition.')}
+<div class="nums">
+ <div class="num"><b>20</b><span class="ar">أصل</span><span class="en">assets</span></div>
+ <div class="num"><b>02</b><span class="ar">أنيميشن</span><span class="en">animations</span></div>
+ <div class="num"><b>06</b><span class="ar">ستيل متحرك</span><span class="en">animated stills</span></div>
+ <div class="num"><b>12</b><span class="ar">جرافيك</span><span class="en">graphics</span></div></div>
+<table class="t3 m1"><thead><tr><th>النمط · ARCHETYPE</th><th>عدد</th><th>الشكل · FORMAT</th><th>لماذا · WHY</th></tr></thead><tbody>{m1}</tbody></table>
+{note('واحد على شرح الآلية، لأنها أكبر فجوة في الحساب، ولأن الحركة تشرح ثلاث خطوات أفضل من أي إطار ثابت. وواحد على لحظة المدارس، لأنها الحملة التي يسابق العميل موعدها، وتستحق أفضل أصل في الشهر. الأنيميشن الثاني لا يذهب إلى فيلم منتج.',
+ 'One goes on the mechanic explainer, because it is the biggest gap on the account and motion explains a three step process better than any static frame will. One goes on the school moment, because it is the campaign the client is racing and it deserves the best asset of the month. The second animation does not go to a product film.',
+ 'أين يذهب الأنيميشنان','Where the two animations go')}
+{ok('الإيقاع: فيسبوك أربعة إلى خمسة في الأسبوع، تيك توك اثنان، وإنستجرام يعكس فيسبوك.',
+ 'Rhythm: Facebook four to five a week, TikTok two, Instagram mirrors Facebook. Derived from twenty assets across four and a third weeks.')}
+{bi('شكل الأسبوع: منشور الفايز يرسي الأسبوع، ثم شرح آلية أو منشور منتج في منتصفه، ثم شخصية أو لحظة، والباقي يدور.',
+ 'The shape of a week: the winner post anchors it, then a mechanic or product post mid week, then a character or moment post, and the rest rotates.')}''',
+
+f'''{eb('حين تتغيّر الحملة','WHEN THE CAMPAIGN CHANGES')}
+<div class="wlds">
+<div class="wld"><div class="wh"><b class="ar">هدايا المدارس</b><span>NOW</span></div><table class="wt">
+<tr><td class="k">يرتفع · RISES</td><td class="ar">اللحظة والعدّ التنازلي<span class="en">Moment and Countdown</span></td></tr>
+<tr><td class="k">لماذا · WHY</td><td class="ar">الموعد حقيقي والمناسبة محدّدة، فالاستعجال مسموح لأنه صادق.<span class="en">The deadline is real and the occasion is specific, so urgency is allowed because it is true.</span></td></tr>
+</table></div>
+<div class="wld"><div class="wh"><b class="ar">العجل والاسكوتر</b><span>ONGOING</span></div><table class="wt">
+<tr><td class="k">يرتفع · RISES</td><td class="ar">الفايز وشرح الآلية<span class="en">Winner and Mechanic</span></td></tr>
+<tr><td class="k">لماذا · WHY</td><td class="ar">لا موعد لها، فالاستعجال مُطفأ والإثبات هو الذي يحملها.<span class="en">It has no deadline, so urgency is switched off and proof is what carries it.</span></td></tr>
+</table></div></div>
+<div class="wlds">
+<div class="wld"><div class="wh"><b class="ar">العمرة</b><span>PAUSED</span></div><table class="wt">
+<tr><td class="k">يرتفع · RISES</td><td class="ar">التجارة تتصدّر<span class="en">Trade becomes the lead</span></td></tr>
+<tr><td class="k">لماذا · WHY</td><td class="ar">برنامج تجار لا مستهلكين، فتهبط الأنماط الاستهلاكية إلى حد الصيانة.<span class="en">It is a retailer programme and not a consumer one, so the consumer archetypes drop to maintenance level.</span></td></tr>
+</table></div>
+<div class="wld"><div class="wh"><b class="ar">القاعدة</b><span>THE RULE</span></div><table class="wt">
+<tr><td class="k">ثابت · FIXED</td><td class="ar">الوظائف الأربع لا تتغيّر أبدًا. الذي يتغيّر هو وزنها.<span class="en">The four jobs never change. What changes is their weighting.</span></td></tr>
+<tr class="no"><td class="k">أبدًا · NEVER</td><td class="ar">حملتان تتصدّران الحساب في وقت واحد.<span class="en">Two campaigns leading the account at the same time.</span></td></tr>
+</table></div></div>
+{eb('ما يعطّل هذه الخطة','WHAT IS BLOCKING THIS PLAN')}
+<table class="t3 cn"><thead><tr><th>المعطِّل · BLOCKER</th><th>يعطّل · BLOCKS</th><th>الحالة</th></tr></thead><tbody>
+<tr><td class="ar"><b>فن الكرتونة والكوبون</b><span class="en">Carton and coupon artwork</span></td><td class="ar sm">منشورا التجارة معًا<span class="en">Both trade posts</span></td><td><div class="st"><i class="wait"></i></div></td></tr>
+<tr><td class="ar"><b>صورة ظهر العبوة والـ QR واضح</b><span class="en">Back of pack shot, QR legible</span></td><td class="ar sm">شروح الآلية الثلاثة، وهي أكبر فجوة<span class="en">All three mechanic explainers</span></td><td><div class="st"><i class="wait"></i></div></td></tr>
+<tr><td class="ar"><b>الموسمية</b><span class="en">Seasonality</span></td><td class="ar sm">الشهران الثاني والثالث<span class="en">Months 2 and 3</span></td><td><div class="st"><i class="pend"></i></div></td></tr>
+<tr><td class="ar"><b>صلاحية ميتا</b><span class="en">Meta access</span></td><td class="ar sm">النشر، وخط الأساس الذي يُقاس عليه كل شيء<span class="en">Publishing, and the baseline everything is measured against</span></td><td><div class="st"><i class="pend"></i></div></td></tr>
+</tbody></table>
+{note('الشهران الثاني والثالث لا يُكتبان قبل إجابة الموسمية. بوليكا وتومان كلاهما مثلجات، والمدة تمتد إلى الشتاء. إن تصرّفت المجموعتان كما تتصرّف المثلجات، فنصف المحفظة خارج موسمه في منتصف المدة المدفوعة، وهذا يغيّر خطتين كاملتين لا سطرًا فيهما.',
+ 'Months 2 and 3 do not get written before the seasonality answer. POLEKA and 2MAN are both frozen, and the term runs into winter. If both behave the way frozen products behave, half the portfolio is out of season in the middle of the paid term, and that changes two entire calendars rather than a line inside them.',
+ 'لماذا شهر واحد فقط مكتوب','Why only one month is written',True)}''')
+
+# ================= 18 POST ARCHETYPES =================
+def arch(code,ar,en,wa,we,fa,fe,ca,ce,na,ne):
+    return f'''<div class="wld"><div class="wh"><b class="ar">{ar}</b><span>{code} · {en}</span></div><table class="wt">
+<tr><td class="k">لماذا · WHY</td><td class="ar">{wa}<span class="en">{we}</span></td></tr>
+<tr><td class="k">ثابت · FIXED</td><td class="ar">{fa}<span class="en">{fe}</span></td></tr>
+<tr><td class="k">متغيّر · CHANGES</td><td class="ar">{ca}<span class="en">{ce}</span></td></tr>
+<tr class="no"><td class="k">أبدًا · NEVER</td><td class="ar">{na}<span class="en">{ne}</span></td></tr>
+</table></div>'''
+
+A_WIN=arch('A','منشور الفايز','THE WINNER POST',
+ 'شخص حقيقي يحمل عجلة حقيقية أمام محل حقيقي هو إثبات، والإثبات يتفوّق على كل ادعاء يُسمح لعلامة غذائية أن تقوله. وهو المحتوى الوحيد هنا الذي يجيب على السؤال الذي يمنع الناس من الاشتراك: هل المسابقة دي حقيقية؟',
+ 'A real person holding a real bicycle outside a real shop is proof, and proof outperforms every claim a food brand is allowed to make. It is also the only content here that answers the question stopping people from entering: is this giveaway actually real.',
+ 'فايز حقيقي، وجائزة حقيقية، ومصوَّر في المحل. قفل «مبروك للفايز» في المكان نفسه كل مرة. ختم أليكس. الاسم الأول للفايز.',
+ 'A real winner, a real prize, shot in the shop. The congratulations lockup in the same position every time. The Alex seal. The winner first name.',
+ 'الشخص، والجائزة، والمحل، والكابشن.','The person, the prize, the shop, the caption.',
+ 'صورة أرشيفية. فايز مُمثَّل. جائزة لا يحملها الشخص بيده.',
+ 'A stock photo. A staged winner. A prize the person is not holding in their own hands.')
+
+A_MEC=arch('B','شرح الآلية','THE MECHANIC EXPLAINER',
+ 'الـ QR مطبوع على ظهر الباكو، وكل منشور ينزل يعرض الوش. مسابقة لا يعرف أحد طريقة الاشتراك فيها هي مسابقة تُحوِّل على الرف وحده.',
+ 'The QR code is printed on the back of the pack, and every post they publish shows the front. A giveaway nobody knows how to enter is a giveaway that converts on the shelf only.',
+ 'ظهر العبوة، والـ QR مقروء بحجم التليفون. ثلاث خطوات كحد أقصى. تعليمة واحدة في كل إطار.',
+ 'The back of the pack, with the QR legible at phone size. Three steps maximum. One instruction per frame.',
+ 'المجموعة، والجائزة المعروضة، والشكل: ثابت أو متحرّك.','The range, the prize shown, and the format: still or animation.',
+ 'QR أصغر من أن يُمسح. أكثر من ثلاث خطوات. وش العبوة كبطل للإطار.',
+ 'A QR too small to scan. More than three steps. The front of the pack as the hero of the frame.')
+
+A_PRD=arch('C','منشور المنتج','THE PRODUCT POST',
+ 'ثمانية عشر صنفًا، والعبوة هي التصميم. يبقي دورة النكهات مرئية والمجموعة حاضرة في الذهن.',
+ 'Eighteen SKUs, and the pack is the creative. It keeps the flavour rotation visible and the range front of mind.',
+ 'العبوة على حقل نكهتها. هامش ثمانية بالمئة. الكتابة في القدم. لون الكتابة محسوب لا مختار.',
+ 'The pack on its own flavour field. An eight per cent margin. Type at the foot. The type colour computed, never chosen.',
+ 'الصنف، والحقل، والكابشن.','The SKU, the field, the caption.',
+ 'عبوة على حقل مجموعة أخرى. لون كتابة لم يُحسب على الحقل.',
+ 'A pack on another range field. A type colour that was not computed against the field.')
+
+A_CHR=arch('D','منشور الشخصية','THE CHARACTER POST',
+ 'أرخص محتوى تملكه الشركة: مرسوم بالفعل ومدفوع بالفعل. وجوه بيبو، وحيوانات بوليكا، وولد تومان. لا يستطيع منافس أن ينسخها.',
+ 'The cheapest content this business owns: already drawn and already paid for. The BeBo faces, the POLEKA animals, the 2MAN boy. A competitor cannot copy them.',
+ 'الشخصية تتصدّر الإطار. منشور بوليكا بلا شخصية خارج عن العلامة حتى لو كان النص مضبوطًا.',
+ 'The character leads the frame. A POLEKA post without a character is off brand even if the copy is perfect.',
+ 'أي شخصية، والسطر.','Which character, and the line.',
+ 'شخصية معادة الرسم أو معدّلة النسب.','A character redrawn or restretched.')
+
+A_MOM=arch('E','منشور اللحظة','THE MOMENT POST',
+ 'المناسبة، لا ادعاء عنها. شنطة المدرسة، وعزّ الظهر، وتلاجة المحل. هو الذي يجعل المنتج جزءًا من يوم بدل أن يكون شيئًا في صورة.',
+ 'The occasion, never a claim about it. The school bag, the hot afternoon, the shop fridge. It is what makes a product feel like part of a day rather than an object in a photograph.',
+ 'سياق حقيقي. بلا إيحاء صحي، وبلا كومة فاكهة، وبلا تلميح غذائي.',
+ 'A real context. No health cue, no fruit pile, no nutritional implication.',
+ 'اللحظة، والمجموعة.','The moment, and the range.',
+ 'مناسبة مفتعلة لا يعيشها أحد في الإسكندرية.',
+ 'A manufactured occasion nobody in Alexandria actually lives.')
+
+A_TRD=arch('F','منشور التجارة','THE TRADE POST',
+ 'التاجر يكسب عن طريق كوبون في الكرتونة وعن طريق برنامج العمرة، ولم يُشرح أيٌّ منهما علنًا ولا مرة. الموزّع الذي يقرّر هل يشيل الكرتونة أم لا لا يجد شيئًا يبصّ عليه.',
+ 'The retailer wins through a coupon inside the carton and through the Umrah programme, and neither has ever been explained publicly. A distributor deciding whether to carry a carton has nothing to look at.',
+ 'الكرتونة لا العبوة الفردية. الكوبون. لغة الهامش، وعدد العبوات، وإسكندرية كأصل.',
+ 'The carton and not the single pack. The coupon. Margin language, case counts, and the Alexandria origin.',
+ 'البرنامج، والمجموعة، والطلب.','The programme, the range, and the ask.',
+ 'طفل. هذا المنشور لا يكلّمه.','A child. This post is not talking to them.')
+
+A_CNT=arch('G','العدّ التنازلي','THE COUNTDOWN',
+ 'أثناء حملة لها موعد فقط. هدايا المدارس لها موعد، والعجل والاسكوتر ليس لهما. الاستعجال رافعة حملة، واستعمالها خارج حملة يصرفها بلا مقابل.',
+ 'Only during a campaign with a deadline. The school gifts have one, the bicycles and scooters do not. Urgency is a campaign lever, and using it outside a campaign spends it for nothing.',
+ 'تاريخ حقيقي أو حد حقيقي. «الكمية محدودة» لا تُكتب إلا حين تكون صحيحة.',
+ 'A real date or a real limit. A limited quantity line is written only when it is true.',
+ 'الحملة، والعدّ.','The campaign, and the count.',
+ 'عدّ تنازلي بلا موعد خلفه.','A countdown with no deadline behind it.')
+
+sec('18','POST ARCHETYPES &amp; PATTERN INVENTORY','أنماط المنشورات',
+f'''{eb('أنماط المنشورات','18 · POST ARCHETYPES')}{chip('DEFINED · TRADE POST BLOCKED ON ARTWORK','ok')}
+{bi('سبعة أنماط، ولكل نمط أربعة سطور: لماذا يوجد، وما الثابت فيه، وما المتغيّر، وما لا يُفعل أبدًا. هذا هو القسم الذي يجعل الكتاب قابلًا للبناء بدل أن يكون قابلًا للإعجاب: مصمّم يفتح النمط وينفّذ، بلا مكالمة.',
+ 'Seven archetypes, and four lines for each: why it exists, what is fixed, what changes, and what is never done. This is the section that makes the book buildable rather than admirable. A designer opens the archetype and executes, without a phone call.')}
+{rule('الثابت هو العلامة. المتغيّر هو المنشور.','WHAT IS FIXED IS THE BRAND. WHAT CHANGES IS THE POST.')}
+<div class="wlds">{A_WIN}{A_MEC}</div>
+{note('النمطان أ وب هما ثلث ونصف الخطة معًا، وكلاهما يخدم برنامج المسابقات. النمط أ عند العميل جاهز بالفعل وينشره بنفسه. النمط ب غير موجود إطلاقًا، وهو الذي يفتح الباب الذي يقف الناس أمامه.',
+ 'Archetypes A and B together are more than half the plan, and both serve the giveaway programme. The client already makes A and already publishes it. B does not exist at all, and it is the one that opens the door people are standing in front of.',
+ 'لماذا هذان أولًا','Why these two come first')}''',
+
+f'''{eb('الأنماط ج إلى هـ','ARCHETYPES C TO E')}
+<div class="wlds">{A_PRD}{A_CHR}</div>
+<div class="wlds">{A_MOM}
+<div class="wld"><div class="wh"><b class="ar">ما يشترك فيه الجميع</b><span>COMMON TO ALL</span></div><table class="wt">
+<tr><td class="k">الختم · SEAL</td><td class="ar">ختم أليكس في كل منشور، في الموضع نفسه.<span class="en">The Alex seal on every post, in the same position.</span></td></tr>
+<tr><td class="k">الهامش · MARGIN</td><td class="ar">ثمانية بالمئة على الأربعة الاتجاهات.<span class="en">Eight per cent on all four sides.</span></td></tr>
+<tr><td class="k">الكتابة · TYPE</td><td class="ar">لون الكتابة يُحسب على الخلفية، ولا يُختار بالعين.<span class="en">Type colour is computed against the background, never picked by eye.</span></td></tr>
+<tr class="no"><td class="k">أبدًا · NEVER</td><td class="ar">سعر، واسم محل، ورقم غذائي، وادعاء صحي، وعمر الشركة.<span class="en">A price, a shop name, a nutritional number, a health claim, the company age.</span></td></tr>
+</table></div></div>
+{ok('منشور بوليكا بلا شخصية خارج عن العلامة حتى لو كان النص مضبوطًا.',
+ 'A POLEKA post without a character is off brand even if the copy is perfect.')}''',
+
+f'''{eb('الأنماط و وز','ARCHETYPES F AND G')}
+<div class="wlds">{A_TRD}{A_CNT}</div>
+{note('النمط و لا يُنفَّذ قبل وصول فن الكرتونة وشكل الكوبون. لا يمكن صنع شيء لصاحب محل بغير الاثنين، ولن يُستبدل بصورة عبوة فردية لسدّ الخانة. منشوران من العشرين معلّقان على ملفين.',
+ 'Archetype F is not executed before the carton artwork and the coupon design arrive. Nothing can be made for a shop owner without both, and a single pack shot will not be substituted to fill the slot. Two of the twenty assets hang on two files.',
+ 'المعطِّل الوحيد هنا','The one blocker here',True)}
+{eb('اختبار النمط','THE ARCHETYPE TEST')}
+<ol class="ru">
+<li><span class="ar">أي وظيفة من الأربع يؤديها هذا المنشور؟ إن لم تكن واحدة منها، فلا ينزل.</span><span class="en">Which of the four jobs does this post do? If it is not one of them, it does not go out.</span></li>
+<li><span class="ar">أي نمط هو؟ إن لم يكن واحدًا من السبعة، فهو نمط جديد يُكتب هنا أولًا.</span><span class="en">Which archetype is it? If it is not one of the seven, it is a new archetype and it gets written here first.</span></li>
+<li><span class="ar">هل الثابت فيه ثابت فعلًا؟ الختم، والهامش، واللون المحسوب.</span><span class="en">Is what is fixed actually fixed? The seal, the margin, the computed colour.</span></li>
+<li><span class="ar">هل كسر سطرًا من «أبدًا»؟ سطر واحد يكفي لإيقافه.</span><span class="en">Did it break a never line? One is enough to stop it.</span></li>
+<li><span class="ar">هل يخدم الحملة الشغّالة هذا الشهر، أم حملة أخرى؟</span><span class="en">Does it serve the campaign running this month, or a different one?</span></li>
+</ol>
+{note('سبعة أنماط عدد مقصود. الحساب الذي فيه عشرون نمطًا ليس فيه نظام، بل فيه مصمّمون يرتجلون بالتناوب. وحين يظهر نمط ثامن حقيقي، يُكتب هنا قبل أن يُنفَّذ، لا بعده.',
+ 'Seven archetypes is a deliberate number. An account with twenty patterns does not have a system, it has designers improvising in rotation. And when a genuine eighth appears, it gets written here before it is executed, not after.',
+ 'لماذا سبعة لا عشرون','Why seven and not twenty')}''')
 
 pending('19','GOOGLE BUSINESS PROFILE','نشاط جوجل','7',
  'العنوان وصل: طريق إسكندرية القاهرة الزراعي، مدخل خورشيد، أبيس الأولى، الإسكندرية. البيانات الباقية والتحقق عمل حساب بحت، بلا تصميم.',
@@ -763,6 +950,10 @@ table.t3.toc td.d{{width:16mm;color:{SLATE};font-size:6.4pt}} table.t3.toc td.st
 table.t3.cn td:first-child{{width:33mm}} table.t3.cn td:nth-child(2){{width:50mm}}
 table.t3.cp td:nth-child(2){{width:40mm}} table.t3.cfg td:first-child{{width:40mm}}
 table.t3.cap td:nth-child(3){{width:26mm}}
+table.t3.jb td:nth-child(2){{width:52mm}}
+table.t3.jb td.q{{width:16mm;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:12pt;font-weight:700;color:{INK}}}
+table.t3.m1 td:first-child{{width:42mm}} table.t3.m1 td:nth-child(3){{width:46mm}}
+table.t3.m1 td.q{{width:9mm;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:11pt;font-weight:700;color:{RED}}}
 /* notes */
 .note{{background:{MIST};border-left:0.8mm solid {RED};padding:2.8mm 4.2mm;margin:0 0 2.5mm}}
 .note.warn{{border-left-color:{INK}}}

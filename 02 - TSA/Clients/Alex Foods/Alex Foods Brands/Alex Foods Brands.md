@@ -220,3 +220,7 @@ Both models are legitimate and they produce opposite instructions:
 The POLEKA cola pouch carries a **"Cola Cola"** wordmark set in a red-and-white script closely imitating a very well-known trademark, and 2MAN's Design B shows a cola bottle in similar territory. This is not TSA's decision to make, but it is TSA's exposure: under Package A, **TSA runs the paid campaigns**, which means TSA's hands are on the ad account pushing those packs to a paid audience.
 
 Get the client's written confirmation that they hold the rights to that artwork, or keep those specific SKUs out of paid campaigns. Cheap to ask now, expensive to discover after a platform takedown or a letter.
+
+---
+
+**Up:** [[VAULT-INDEX]] · [[Clients]] · [[Alex Foods]]

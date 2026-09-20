@@ -25,3 +25,7 @@ A daily note is a frozen snapshot of the moment it was written. Its "What's Stil
   - [[2026-09-20]] — TSA restructured on the agency/client split; Alex Foods moved into `Clients/`; the vault audited end to end.
 
 **Every daily note is wikilinked from this index, not just named.** Backticked filenames create no links, so the daily notes were graph orphans — floating islands nothing pointed at — which is the same defect the folder indexes had before the one-hop line was added to [[VAULT-INDEX]]. A month subfolder does not get its own index note; this list is the index for all of them.
+
+---
+
+**Up:** [[VAULT-INDEX]]

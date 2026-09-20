@@ -11,3 +11,7 @@ Archiving is never something the AI decides on its own. I say a thing is done, t
 
 ## Notes in this folder
 *(Empty. This index exists from day one so the folder survives a git sync — git doesn't track empty folders.)*
+
+---
+
+**Up:** [[VAULT-INDEX]]

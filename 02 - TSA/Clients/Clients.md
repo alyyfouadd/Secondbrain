@@ -28,3 +28,7 @@ The client note doubles as the folder index. That is deliberate and it is the on
 - One folder per signed client, created at signature, not at the first deliverable.
 - A client whose engagement ends moves to `04 - Archive/` whole — folder and all — with `status: archived` set on the client note. See [[Archive]].
 - Pricing logic stays in [[TSA]], not here. There are no packages, so *how* a dedicated price gets arrived at is agency knowledge; *what one client agreed* is client knowledge.
+
+---
+
+**Up:** [[VAULT-INDEX]] · [[TSA]]

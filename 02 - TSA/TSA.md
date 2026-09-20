@@ -32,3 +32,7 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 - Positioning work: how a high-value business gets identified and what the market read looks like.
 - The scaling plan: the structure that has to hold as the agency grows.
 - The delivery templates the retainer repeats every month — the shooting recipe, the content calendar format, the revision-and-approval loop. These are Job-shaped: the second time a month gets explained from scratch, it earns a Job note.
+
+---
+
+**Up:** [[VAULT-INDEX]] · **In here:** [[TSA Brand]] · [[Clients]]

@@ -66,6 +66,15 @@ This is my fourth agency. The difference this time is that it runs on direction,
   Marketing/        <- jaredrhod's marketing playbook, read before any marketing work
 ```
 
+### The hub rule: links point UP, logs never point out
+
+Two rules keep this file the centre of the vault instead of an ornament, and the graph view is where you check them.
+
+1. **Every folder index ends with an `**Up:**` line back to [[VAULT-INDEX]]**, plus its parent index where it has one. Without it the root index is a *source* — fifteen links out, none in — which draws as a spoke on the edge of the graph rather than a hub at the middle. A hub is inbound-heavy.
+2. **Daily notes never use `[[wikilinks]]`.** They reference notes and files by name in backticks. A daily note's "Notes Touched" section names twenty files, so wikilinking them makes a frozen log the single most connected node in the vault — which is exactly the failure the one-hop line below was added to fix, reappearing from the other direction. **The fix for an orphaned daily note is an inbound link from [[Daily Notes]], never outbound links from the log.**
+
+> **Measured 20 September:** `2026-09-18.md` carried **202 wikilinks — 30 outbound edges against 1 inbound** — and sat dead centre of the graph while [[VAULT-INDEX]] sat on the rim. Converted to backticks; the daily notes are now leaf nodes and [[Alex Foods]], the live client, is the largest node, which is what a working vault should look like.
+
 **Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Clients]] (inside TSA) · [[Alex Foods]] (inside Clients — the client note doubles as its folder index) · [[Alex Foods Brands]] (inside Alex Foods)
 
 That line is not decoration. The map above is a code block, so it creates no links — without these, the only thing pointing at the folder indexes is whichever daily note happened to mention them, which makes a frozen log the hub of the vault instead of this file. This index is the hub. Every folder is one step away from it, and a new folder's index gets added to this line in the same pass that creates it.
@@ -163,7 +172,7 @@ When creating or editing a note, add `wikilinks`:
 **project** — What the note *serves* (folder is the default, but content wins). Mapping:
 - `02 - TSA/*` -> `tsa`
 - `03 - Personal/*` -> `personal`
-- `01 - Daily Notes/*` -> `personal`
+- `01 - Daily Notes/*` -> **`tsa` by default**, because that is what the days are actually spent on. A day genuinely dominated by personal work takes `personal`. *(This used to read `personal` unconditionally, which contradicted the "content wins" line above it and mis-filed a log that is almost entirely agency work.)*
 - `04 - Archive/*` -> infer from content / original project
 - `05 - Resources/*` -> `meta`
 - `00 - Inbox/*` -> infer from content, else `personal`

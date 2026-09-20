@@ -16,3 +16,7 @@ No Jobs are built yet, by choice. The trigger for building one is simple: the se
 
 ## Notes in this folder
 - [[Producing Copy with AI]] — how TSA gets an AI to write in a brand's actual voice instead of the average of every brand. The four files loaded before a word gets written, the approved-captions habit that compounds, the Arabic-specific failure modes, and the hard limits on what AI is allowed to do. **Agency property under clause 5 — this never goes to a client.**
+
+---
+
+**Up:** [[VAULT-INDEX]]

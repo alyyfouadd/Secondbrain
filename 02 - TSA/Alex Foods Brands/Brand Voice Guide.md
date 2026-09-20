@@ -7,6 +7,12 @@ type: reference
 
 **Brand Foundation deliverable 1 of 8** for [[Alex Foods]]. How the four brands speak: what they say, what they never say, how long a sentence runs, and exactly how a comment gets answered. Written work, no client input required. Brand facts in [[Alex Foods Brands]], craft rules from [[Marketing]].
 
+> **PRIMARY SOURCE ARRIVED 20 September, and this guide now needs a pass against it.** Two posts the client published themselves are recorded verbatim in `client-legacy-creative/client-social-copy.md`. **This guide was written from packaging; that file is the client speaking. Where they disagree, the client wins.**
+>
+> **What it contradicts:** 2MAN's social voice is **nostalgia aimed at adults** («العمر مجرد رقم», «انتعاش بحكايات زمان»), not adventure aimed at kids · POLEKA is **«مشروب بطعم الفاكهة»**, a fruit-flavoured drink in their own words · **«لوليتا» is the category word** the market already uses and this guide has never heard of it · the emoji cap in §6 is broken by their own copy · scarcity is already in their playbook · **and they publish the price, 2 EGP.**
+>
+> **Three things in their copy are better than what is written below and should be adopted: انتعاش, لوليتا, and the formal-to-casual comic flip.**
+
 > **UPDATE 19 September: the master tone block is unblocked.** The client answered the tone question directly — **"fun"**. That is the direction the block was waiting on. **It still gets written by Aly rather than guessed**, but it is no longer missing an input. **One thing to hold while writing it: "fun" is the MASTER's tone, not a licence applied to all four ranges.** Voice never changes, tone does — and **AlRawy's calm adult register has to survive underneath a fun master**, because it is the only range making an argument rather than making noise. See [[Alex Foods Discovery Brief]] §10.
 >
 > **STATUS: DRAFTED, and one block short of complete.** The master-layer question that was holding §2 was answered on 18 September: **Alex Foods is the master brand**, the four are ranges beneath it, and it **does** have a consumer voice that leads. §2 was rebuilt on that model. **The one thing outstanding is Alex Foods' own tone block** — see §2 and §9. Everything else is written and usable.

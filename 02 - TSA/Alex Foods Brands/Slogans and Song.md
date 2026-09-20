@@ -347,6 +347,41 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 
 **«بوليكا.. مش حلاوة بس» is the alternate worth arguing for.** A negative is the sharpest tool available for a product whose whole claim is that it is more than its category, **and nothing else in the set uses one.**
 
+## 5c-vi. POLEKA — the idea is wrong, not the wording
+
+**Aly, 20 September: "change the whole idea."** Ten lines across three rounds have failed, and **they all rest on the same positioning, which TSA invented.**
+
+### The suspect layer
+
+| Layer | Source | Reliable? |
+|---|---|---|
+| Jelly candy, four SKUs, kids buy it | **The client** | Yes |
+| Bottle-shaped pouches, full-bleed animal per SKU, «جيلي كيدز», loudest mark | **Read off the packaging** | Factual, but only about the artwork |
+| *"A toy you are allowed to eat." "Play first, flavour second." "The character leads every frame." "Its whole job is being asked for by name."* | **TSA inferred all of it** | **This is what every rejected line was built on** |
+
+**Play, characters, friends, collecting, naming — all five dead directions come out of that third row**, and the client has never said a word of it.
+
+> **This is the third packaging-inference failure this week.** BeBo's format, BeBo's audience, now POLEKA's angle. **The pattern is consistent enough to be a rule: packaging tells you what the artwork is doing, never what the product means to the person buying it.**
+
+### And there is a specific hole underneath it
+
+**Nobody knows how POLEKA is actually consumed.** Chewed? Sucked? Squeezed out of the pouch? **The pack is bottle-shaped, which is a drink's shape on a sweet**, and that is either the most interesting thing about the product or completely incidental. **The vault does not know, because nobody asked.**
+
+**That is the same unresolved-format problem as BeBo**, on the range where it is arguably more decisive: a jelly you chew and a jelly you squeeze are different products with different slogans.
+
+### Four different ideas, one line each
+
+**Not four wordings of one idea. Four positionings.**
+
+| # | The idea | السطر | Gloss |
+|---|---|---|---|
+| **1** | **Taste, and nothing else.** Drop the toy entirely. It is a sweet and it is good. **The simplest possible reading, and the one nobody has tried.** | «بوليكا.. حلاوة بجد» | POLEKA, proper candy |
+| **2** | **The form is the story.** A bottle-shaped pouch is a drink's shape on a sweet. **Nothing else in the category looks like this.** | «بوليكا.. اشرب الحلاوة» | POLEKA, drink your candy |
+| **3** | **A small joy, not play.** Not a toy, not a game. A cheap moment of happiness in a child's day. | «بوليكا.. فرحة صغيرة» | POLEKA, a small joy |
+| **4** | **It is the one you chew.** In a house of drinks and ice pops, **POLEKA is the only thing you actually eat.** A portfolio-level difference nobody has named. | «بوليكا.. الحلاوة بتاعتك» | POLEKA, your candy |
+
+**Idea 2 depends entirely on the consumption question.** If it is squeezed and drunk, it is the strongest idea in the set and the only one built on a fact no competitor shares. **If it is chewed, the line is a lie and it dies immediately.**
+
 ## 5d. The giveaway — BeBo's, 20 September 2026
 
 > **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.

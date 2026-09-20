@@ -22,6 +22,8 @@ Everything else is memory.
 00 - Inbox/          Capture everything, sort later
 01 - Daily Notes/    One file per day, in month subfolders
 02 - TSA/            The Standard Agency
+  TSA Brand/         The agency's own identity
+  Clients/           One folder per client
 03 - Personal/       Money, health, training
 04 - Archive/        Finished work
 05 - Resources/      Reference material, templates, Jobs

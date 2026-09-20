@@ -1,13 +1,24 @@
 ---
 status: active
 project: tsa
-type: plan
+type: index
 ---
 # Alex Foods
 
-[[TSA]]'s first client. Food brand in Alexandria, Egypt, with three product families: **BeBo**, **AlRawy** and **Freeze Pops**.
+[[TSA]]'s first client. Food brand in Alexandria, Egypt. **Alex Foods is the master brand**, with four ranges beneath it: **BeBo**, **AlRawy**, **2MAN** and **POLEKA**. The signed scope names three product families — BeBo, AlRawy and "Freeze Pops" — so the contract and the reality differ by one brand and one name; both are reconciled below and in [[Alex Foods Brands]].
 
 Source document: `TSA - Alex Foods Service Scope V2.pdf` in this folder — Service Scope V2, dated 09.09.2026, bilingual Arabic/English. Everything below is drawn from it. Where the note says *confirm*, the document is clear but the real-world state isn't, and I shouldn't act on the assumption.
+
+---
+
+## What's in this folder
+
+This note is both the client note and the index for `02 - TSA/Clients/Alex Foods/`. The deal, the gates and the scope are below; the map is here.
+
+- **Alex Foods Brands/** — [[Alex Foods Brands]] · everything about what they actually sell and how it looks and speaks: the four-brand inventory read off the packaging, [[Colour System]], [[Type System]], [[Brand Voice Guide]], [[Slogans and Song]], [[Foundation Roadmap]], [[Brand Book Spec]], [[Brand and Social Kit]], the shipped PDFs, the logo and packshot artwork, and the `design-system/` build that renders them.
+- `TSA - Alex Foods Service Scope V2.pdf` — the signed-scope source document, 09.09.2026. This note is derived from it; that is the original.
+
+Live open items for this client are in [[Active Priorities]], never in this note's checkboxes — the boxes below record scope, the queue records state.
 
 ---
 

@@ -22,3 +22,4 @@ A daily note is a frozen snapshot of the moment it was written. Its "What's Stil
 - `09 - September 2026/` — 2026-09-18 onward. The vault's first day.
   - `2026-09-18.md` — 28 sessions. The vault built, Alex Foods scoped, the Foundation's first two deliverables written and shipped.
   - `2026-09-19.md` — the overnight continuation. Session 1 started at 11:05 PM on the 18th and is filed here because it crossed midnight.
+  - `2026-09-20.md` — TSA restructured on the agency/client split; Alex Foods moved into `Clients/`.

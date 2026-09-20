@@ -56,15 +56,17 @@ This is my fourth agency. The difference this time is that it runs on direction,
 00 - Inbox          <- Capture everything, sort later
 01 - Daily Notes    <- Dated logs of what got done, one file per day, in month subfolders
 02 - TSA            <- The Standard Agency: clients, offers, positioning, scaling
-  TSA Brand/         <- the agency's own locked identity: colour, type, tagline, logo
-  Alex Foods Brands/ <- the client's four brands, as read off their packaging
+  TSA Brand/        <- the agency's OWN locked identity: colour, type, tagline, logo
+  Clients/          <- one folder per client; the client note IS that folder's index
+    Alex Foods/     <- contract note, signed scope PDF, and their brand work:
+      Alex Foods Brands/  <- the client's four brands, as read off their packaging
 03 - Personal       <- Life outside the agency: money, health, training, things I'm buying
 04 - Archive        <- Completed projects and old notes
 05 - Resources      <- Cross-project reference material, templates, Jobs
   Marketing/        <- jaredrhod's marketing playbook, read before any marketing work
 ```
 
-**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Alex Foods Brands]] (inside TSA)
+**Every folder index, one hop from here:** [[Inbox]] · [[Daily Notes]] · [[TSA]] · [[Personal]] · [[Archive]] · [[Resources]] · [[Marketing]] (inside Resources) · [[TSA Brand]] (inside TSA) · [[Clients]] (inside TSA) · [[Alex Foods]] (inside Clients — the client note doubles as its folder index) · [[Alex Foods Brands]] (inside Alex Foods)
 
 That line is not decoration. The map above is a code block, so it creates no links — without these, the only thing pointing at the folder indexes is whichever daily note happened to mention them, which makes a frozen log the hub of the vault instead of this file. This index is the hub. Every folder is one step away from it, and a new folder's index gets added to this line in the same pass that creates it.
 
@@ -182,7 +184,9 @@ When creating or editing a note, add `wikilinks`:
 
 ### Folder Indexes (keep them in sync)
 
-**Every folder here has an index, with no exceptions and no "once it fills up."** The index is named after the folder with its number prefix stripped — `03 - Personal/Personal.md`, `01 - Daily Notes/Daily Notes.md` — carries frontmatter `type: index`, and lists each note in the folder with a one-line description. The index is a contract: when you create, rename, move, or materially change a note, update its folder's index in the same pass. A stale index makes a future session decide from a wrong map.
+**Every folder here has an index, with no exceptions and no "once it fills up."** The index is named after the folder with its number prefix stripped — `03 - Personal/Personal.md`, `01 - Daily Notes/Daily Notes.md` — carries frontmatter `type: index`, and lists each note in the folder with a one-line description.
+
+**One sanctioned double-duty: a client folder.** `02 - TSA/Clients/<Client>/<Client>.md` is both the client note and that folder's index — the name lines up by design. A client has exactly one master note, and splitting "the map of this folder" away from "what they bought" makes two thin notes where one full one belongs. It carries `type: index` and opens with a "What's in this folder" block before the deal. This is the only place a note wears two hats; don't generalise it. The index is a contract: when you create, rename, move, or materially change a note, update its folder's index in the same pass. A stale index makes a future session decide from a wrong map.
 
 **When a new folder is created:** create its `<Folder Name>.md` index at the same time, add an entry to the parent folder's index if it has one, and update the **Vault Structure** map in this file in the same pass. A folder the map doesn't show is a folder no future session will look in.
 

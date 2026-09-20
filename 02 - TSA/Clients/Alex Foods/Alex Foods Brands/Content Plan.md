@@ -104,7 +104,7 @@ Written against the content mix in the shipped kit: **40 product / 30 character 
 
 | | Idea | Pillar | Why it exists |
 |---|---|---|---|
-| **A1** | **"The jug."** One BeBo sachet, water, and it becomes a full jug for the whole family. Product truth, told in motion, no words needed until the end | Product | **BeBo's entire feeling is permission — yes, without the wince.** This is that feeling as a picture, and it is the one thing a static graphic cannot do |
+| **A1** | **DEAD — the jug does not exist.** ~~One BeBo sachet, water, and it becomes a full jug~~ **superseded 20 Sep**: the back of the pack reads «الوزن: ٧٥ مل تقريبا» and the ingredients begin with ماء. BeBo is 75 ml, ready to drink. **Replacement needed — see [[Decisions]] #30** | Product | The feeling still stands; the demonstration was a fiction built on TSA's own read of a pack graphic |
 | **A2** | **"Turn it over."** How to enter: the pack rotates, the QR comes into view, a phone scans, the school kit appears | Moment | **The single most important asset of the month.** Nobody knows the mechanic. A giveaway nobody knows how to enter is a giveaway that does not run |
 
 > **A2 before A1 if only one lands on time.** The mechanic beats the brand story in month 1, every time.

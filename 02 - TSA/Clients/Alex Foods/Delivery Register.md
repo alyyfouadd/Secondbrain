@@ -22,12 +22,12 @@ type: reference
 |---|---|---|---|---|
 | 1 | Brand Voice Guide | **IN PROGRESS** | Alex Foods' own tone block — **Aly's ear, not a client answer.** Direction received: "fun" | [[Brand Voice Guide]] |
 | 2 | Colour and Type System | **BUILT** | — folded into the book as §04–06 | [[Colour System]] · [[Type System]] |
-| 3 | Social Pages Setup | **BLOCKED** | **Meta admin access.** The spec is written; execution needs the access | [[Brand and Social Kit]] |
+| 3 | Social Pages Setup | **BLOCKED — unblocking 21 Sep** | Login received; **verification code lands 21 Sep**. The spec is written; execution needs the access | [[Brand and Social Kit]] |
 | 4 | Slogans and the giveaway song | **IN PROGRESS** | BeBo's line needs confirming — see [[Decisions]]. The song is drafted | [[Slogans and Song]] |
 | 5 | Monthly Content Calendar | **IN PROGRESS** | Seasonality answer before months 2 and 3 are scripted | [[Content Plan]] · [[Post Archetypes]] |
 | 6 | Shooting and Compositing Recipe | **SHIPPED, thin** | **Three sections lost when `recipe.py` was deleted** — the reject list, the source library and the resolution rule. Re-render is 2pp against the original 7pp. Prompts out and BeBo corrected. See [[Alex Foods Week 1 Messages]] §6 | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` |
-| 7 | Google Business Profile | **BLOCKED** | Google account, plus hours, categories and phone. **The address arrived 19 Sep** | — |
-| 8 | Local SEO — Alexandria | **NOT STARTED** | Nothing. Research is unblocked; the shelf walk is the competitor route | — |
+| 7 | Google Business Profile | **BLOCKED — unblocking 21 Sep** | Login received; **verification code lands 21 Sep**. Address in 19 Sep; **phone now read off the back of a BeBo pack**. Hours and categories still outstanding | — |
+| 8 | Local SEO — Alexandria | **NOT STARTED** | Nothing. **The shelf walk is dropped ([[Decisions]] #29)** — the competitor read is now a digital-shelf read and says so honestly in the book | — |
 | — | **The brand book** — the one document all eight ship inside | **BUILT** | Content for the four waiting sections | `Alex Foods - Brand Foundation v1.0.pdf` · [[Brand Book Spec]] |
 
 **Honest read: one deliverable is finished but too thin to send until three lost sections are restored. Two are blocked on client access and will ship as specification with a waiting chip. Five are part-built.** Nineteen days to target as of 20 September. Dated plan in [[Alex Foods Delivery Plan]].
@@ -58,10 +58,10 @@ type: reference
 | 2 | Logo files | **CLOSED.** Master seal is real vector; the four range marks are raster cut-outs, sufficient because nothing here is printed |
 | 3 | Product photos or samples | **NO LONGER BLOCKING** — TSA produces the imagery with the AI product shooter. See [[Decisions]] #13 |
 | 4 | Packaging artwork | **IN** |
-| 5 | **Meta admin access** | **OUTSTANDING.** Blocks deliverable 3, the paid campaigns, and the engagement baseline |
-| 6 | **Google account** | **OUTSTANDING.** Blocks deliverable 7 |
-| 7 | GBP details | **PART IN** — address received 19 Sep. Hours, categories and phone outstanding |
-| + | **Back-of-pack photo with a legible QR** | **OUTSTANDING.** Blocks the three mechanic-explainer posts |
+| 5 | **Meta admin access** | **IN, 20 Sep, as a shared login.** Verification code 21 Sep. **Used once to grant partner access, then never again** — [[Decisions]] #28 |
+| 6 | **Google account** | **IN, 20 Sep, as a shared login.** Verification code 21 Sep |
+| 7 | GBP details | **PART IN** — address 19 Sep; **phone, WhatsApp and the registered legal name read off `packshots/bebo-mango-back.png` 20 Sep.** Hours and categories outstanding |
+| + | **Back-of-pack photo with a legible QR** | **IN, 20 Sep** — `packshots/bebo-mango-back.png`, BeBo mango. **But the QR sits beside the recycling marks and «حافظ على نظافة مدينتك», so it may not be a giveaway QR at all.** One camera tap settles it |
 | + | **Carton artwork and the coupon** | **OUTSTANDING.** Hussein offered the coupon; blocks both trade posts in month 1 |
 
 ---

@@ -297,11 +297,37 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 >
 > Slightly longer and less chantable than the first two, but the warmest of the three.
 
-### The recommendation
+### All three rejected, 20 September — and the reason may be my own theory
 
-**«قول بوليكا».** It is the shortest line in the entire set, it is the only one that performs its own mechanic rather than describing it, and **on a brand sold by a child saying a name out loud, teaching them the name is the whole job.**
+**Aly rejected all three.** Before generating more volume, the more likely explanation is worth putting first:
 
-**«بوليكا.. مين النهاردة؟» is the alternate worth arguing for**, and the argument is engagement: it is the one line in the set built to be answered, on an engagement that is being measured in comments.
+> **«مع بوليكا، اللعب أحلى» was never rejected by Aly. I removed it myself**, on a set-balance argument: the master and BeBo both carry **مع + أحلى**, so a third would be *"one idea applied three times."*
+
+**The evidence says that argument was wrong.** Both lines Aly has contributed himself use **مع** — «مع بيبو، اليوم أحلى» and «صوّر واكسب مع بيبو» — and when given the choice between a **مع + أحلى** BeBo line and a «معاك» one, **he took the مع + أحلى.**
+
+**His picks say he wants the family resemblance. My theory said avoid it.** Three of five lines sharing a construction is not repetition on a house of four ranges under one master; **it is the thing that makes them read as one company**, which is the whole point of an umbrella.
+
+### So the line to put back on the table
+
+> ### «مع بوليكا، اللعب أحلى»
+> *With POLEKA, playing is better.*
+
+**It fits the range better than anything I replaced it with.** POLEKA's feeling is *a toy you are allowed to eat* — **play first, flavour second** — and «اللعب» states that directly without describing the sweet. Brand inside the line, their construction, four words, everyday concrete noun.
+
+**And it sidesteps the collection error entirely.** It claims nothing about keeping or building a set, so the mechanic problem that killed «اجمعهم كلهم» does not arise.
+
+### What the set looks like with it
+
+| أليكس فودز | «طعم أحلى مع أليكس فودز» | **مع + أحلى** |
+|---|---|---|
+| بيبو | «مع بيبو، اليوم أحلى» | **مع + أحلى** |
+| الراوي | «الراوي.. طعم تثق فيه» | trust pattern |
+| تومان | «عيش جو المغامرة» | imperative |
+| **بوليكا** | **«مع بوليكا، اللعب أحلى»** | **مع + أحلى** |
+
+**Three in the house construction, two outside it.** The master sets the shape, two ranges carry it, and the two ranges with their own strong existing identity — AlRawy's trust and 2MAN's adventure — sit outside it deliberately. **That reads as a system rather than a set of unrelated lines.**
+
+*The three rejected replacements are kept in §5c-iv above so they are not re-proposed.*
 
 ## 5d. The giveaway — BeBo's, 20 September 2026
 

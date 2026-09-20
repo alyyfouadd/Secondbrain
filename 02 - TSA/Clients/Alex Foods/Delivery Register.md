@@ -77,8 +77,4 @@ type: reference
 
 Full books, and the cost-of-delivery gap, in [[TSA Money]].
 
----
-
-**Related:** [[Active Priorities]]
-
 **Up:** [[Alex Foods]] · [[Clients]]

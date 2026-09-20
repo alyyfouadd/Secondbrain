@@ -83,10 +83,6 @@ type: reference
 
 ---
 
-**Related:** [[Slogans and Song]] · [[Alex Foods Brands]] · [[Alex Foods Discovery Brief]]
-
----
-
 # Page screenshots — 20 September 2026
 
 **Five screenshots of the live Facebook page.** These answer more than they were asked to.

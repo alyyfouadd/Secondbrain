@@ -53,7 +53,3 @@ type: guide
 | [[TSA Money]] · [[Alex Foods]] | Anything due inside seven days |
 
 > **It reads. It does not guess.** The vault is the source, and **if the vault does not say it, the brief does not either.**
-
----
-
-**Related:** [[Daily Notes]] · [[TSA Client System]]

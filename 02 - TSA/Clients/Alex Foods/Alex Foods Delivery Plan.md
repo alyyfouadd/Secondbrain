@@ -102,8 +102,4 @@ type: plan
 
 > **Four of the five are one message away.** That is why the client ask is dated day one rather than "this week".
 
----
-
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Brand Book Spec]] · [[Alex Foods Discovery Brief]] · [[Meta Access Runbook]] · [[Active Priorities]]
-
 **Up:** [[Alex Foods]] · [[Clients]]

@@ -32,7 +32,3 @@ Every item in this folder is in transit. These are the exits:
 
 ## Notes in this folder
 *(Empty — which is the correct resting state. This index exists from day one so the folder survives a git sync; git doesn't track empty folders.)*
-
----
-
-**Related:** [[VAULT-INDEX]]

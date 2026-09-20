@@ -246,8 +246,4 @@ Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts 
 
 **Aly's read: the kit looks cheap.** It does, and the causes are shared with the book because both come off the same CSS conventions. **The diagnosis and the eight fixes live once, in [[Brand Book Spec]] §6b** — the raster seal where a vector exists, fifty-five hairline boxes, no middle tier in the type scale, and the four range marks reduced to pixelated thumbnails on a grey panel. **Not restated here on purpose.**
 
----
-
-**Related:** [[Foundation Roadmap]]
-
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

@@ -329,8 +329,4 @@ no bottles, no sachets, no hands, no people, no faces, no watermark
 - [ ] شارة KIDS ZONE بلونها الأصلي · the KIDS ZONE lozenge in its original colours
 - [ ] صنف كولا بوليكا خارج أي مادة مدفوعة · the POLEKA cola SKU is out of all paid material
 
----
-
-**Related:** [[Alex Foods]] · [[Type System]] · [[Foundation Roadmap]] · [[Brand and Social Kit]]
-
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

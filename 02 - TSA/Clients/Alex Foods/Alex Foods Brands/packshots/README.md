@@ -25,10 +25,6 @@ type: reference
 
 ---
 
-**Related:** [[Brand and Social Kit]]
-
----
-
 ## Resolution warning, added 19 September 2026
 
 **These are fine for a governance document and too small for a social asset where the pack is the hero.** Audited:

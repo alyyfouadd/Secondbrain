@@ -209,10 +209,6 @@ The playbook again: *decide the thresholds ahead of time and let the number make
 
 ---
 
-**Related:** [[Brand and Social Kit]] · [[marketing-content]] · [[marketing-analytics]]
-
----
-
 **Related:** [[Post Archetypes]] · [[Giveaway Programme]] · [[Alex Foods]] · [[Brand Book Spec]] · [[Alex Foods Brands]]
 
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

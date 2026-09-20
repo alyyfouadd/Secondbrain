@@ -163,7 +163,3 @@ Added to the discovery brief for every client after the first:
 - **Day 4 to 7** — the remaining sections, assembled into the one book, probed and proofed.
 
 **That is achievable only because the CSS, the maths, the fonts and the architecture already exist.** Client one spent most of its time building those. Client two spends its time on the client.
-
----
-
-**Related:** [[Brand Book Spec]] · [[Colour System]] · [[Brand Voice Guide]] · [[Slogans and Song]] · [[Shooting and Compositing Recipe]] · [[TSA Money]] · [[Marketing]] · [[Resources]]

@@ -173,7 +173,3 @@ Nine drift items were found by reading every note against every other note. **Ei
 5. **Confirm which BeBo line is live** — [[Decisions]] carries two and cannot tell which is newer. One word from you closes it.
 6. **Write Alex Foods' master tone block.** Direction received ("fun"); it needs your ear and deliverable 1 closes.
 7. **Step 5 of [[Vault Rebuild Plan]]** — the forty-note rewrite. After the Foundation ships, not before.
-
----
-
-**Related:** [[README]] · [[Foundation Roadmap]] · [[Alex Foods Brands]] · [[Resources]]

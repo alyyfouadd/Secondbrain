@@ -200,10 +200,6 @@ Assumes the gates in [[Alex Foods]] have closed and month 1 has actually started
 
 ---
 
-**Related:** [[Brand and Social Kit]]
-
----
-
 ## 9. What Aly asked for, 19 September — and why the kit's job just changed
 
 **Scope of TSA's own build, in his words: the social kit, the logo usage rules, and the file packaged professionally.** Not the assets. The assets belong to Mahmoud and the animator.

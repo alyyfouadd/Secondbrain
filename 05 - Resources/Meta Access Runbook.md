@@ -123,7 +123,3 @@ The media buyer is added **as a user inside TSA's Business Manager**, then grant
 - **business.facebook.com works in Safari.** If the layout collapses, use **AA → Request Desktop Website**.
 - **The Meta Business Suite app** handles day-to-day posting and inbox, but **partner and permission settings are more reliable in the desktop-mode browser.**
 - **Do the setup in Safari desktop mode, then live in the app.**
-
----
-
-**Related:** [[Alex Foods Discovery Brief]] · [[TSA Client System]] · [[TSA]]

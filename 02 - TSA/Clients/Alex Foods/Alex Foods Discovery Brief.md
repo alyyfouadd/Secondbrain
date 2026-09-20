@@ -530,8 +530,4 @@ Main goal · success definition · priority range · biggest problem · years in
 
 > **The rule this section encodes: ask for a thing one cycle before you need it, not the morning you need it.** Every item here has already been identified; **none of them are surprises, and that is the entire point of writing them down before they bite.**
 
----
-
-**Related:** [[Alex Foods Brands]] · [[Slogans and Song]] · [[Colour System]] · [[Type System]] · [[Brand Book Spec]] · [[TSA Money]] · [[Active Priorities]] · [[Marketing]]
-
 **Up:** [[Alex Foods]] · [[Clients]]

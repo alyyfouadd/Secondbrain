@@ -168,10 +168,6 @@ Flagged as risks, not verdicts. **Two of these I cannot resolve from here and am
 
 ---
 
-**Related:** [[Brand and Social Kit]] · [[TSA Money]]
-
----
-
 ## 10. Carried over from the parallel session, 20 September
 
 *Two sessions wrote this note on the same day. Everything above is the fuller write-up; these two blocks are what only the other one had, kept verbatim rather than paraphrased.*

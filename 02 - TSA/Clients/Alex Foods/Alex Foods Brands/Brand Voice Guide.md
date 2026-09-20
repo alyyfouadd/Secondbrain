@@ -253,11 +253,7 @@ The Umrah campaign, parked by the client but coming. **A pilgrimage cannot be ad
 
 > **CORRECTED AGAIN, 20 September: POLEKA is a FROZEN JUICE.** Aly: *"it's more of a frozen juice."* Not a chew candy, and not a room-temperature drinkable jelly either. **The «جيلي» on the pack describes the texture, not the category.** The scissors and the cut neck are real; what comes out of the neck is frozen or near-frozen juice.
 
-
-
 > **CORRECTED 20 September 2026: POLEKA is a DRINKABLE jelly, not a chew candy.** Opened the packshot properly for the first time. **Every pouch carries a scissors icon and a cut line at the bottle neck** — you snip it and suck the jelly out. **The bottle shape is not decoration, it is the product idea: a sweet pretending to be a drink.** The earlier description, *jelly candy in bottle-shaped pouches*, was read off the silhouette and is what every failed POLEKA slogan was built on.
-
-
 
 > **CORRECTED 20 September: POLEKA is «مشروب بطعم الفاكهة» in the client's own words** — a fruit-flavoured drink, sold frozen. **The exact construction printed on the BeBo packs**, so the client files the two in one category. *(Earlier readings, all TSA's: chew candy, jelly, frozen juice.)* **And the market's word for the format is «لوليتا»**, which the client uses as a generic and brands with.
 
@@ -367,9 +363,5 @@ TSA → **the named approver** (clause 3) → the client.
 4. **The client's written product facts** (nutrition, sourcing, certifications, retail list) if they ever want §7's locked list loosened. Until then the list stands as written, and it stands in TSA's own interest.
 5. **Whether a trade register is owed at all** — §2's new sub-section. It is a scope question before it is a writing question, and it is Aly's. See [[Giveaway Programme]] §9.
 6. **The giveaway's facts in writing** — campaign dates, prize counts, draw method, how winners are announced. §8 cases 9 to 11 cannot be answered without them, and they will be the most-asked questions on the page.
-
----
-
-**Related:** [[Foundation Roadmap]] · [[Producing Copy with AI]] *(TSA-internal, never delivered)* · [[Brand Book Spec]]
 
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

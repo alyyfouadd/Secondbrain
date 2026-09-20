@@ -718,10 +718,6 @@ Clause 1 gives TSA execution and the client approval of an *outcome*. **Present 
 - **Aly's call on one platform versus three**, and on the trade register. [[Giveaway Programme]] §7.1 and §9.
 - **Aly's ear on the ten lines above**, and the giveaway song, which obeys campaign rules rather than brand rules.
 
----
-
-**Related:** [[Colour and Type Kit]]
-
 <!-- retired-ok:end -->
 
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

@@ -152,8 +152,4 @@ type: reference
 
 **If the seasonality answer has not arrived by Wednesday 24 September**, it blocks §17 and the plan says so. **Do not wait quietly.** Ask once more, and if it still does not come, **build the calendar on the stated assumption and say in the delivery message that it was built on an assumption.** That is honest and it keeps the 9 October date.
 
----
-
-**Related:** [[Alex Foods Delivery Plan]] · [[Alex Foods Discovery Brief]] · [[Alex Foods]]
-
 **Up:** [[Alex Foods]] · [[Clients]]

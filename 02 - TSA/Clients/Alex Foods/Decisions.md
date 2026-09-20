@@ -66,8 +66,4 @@ type: reference
 
 > **Aly: confirm which line is live, and this row becomes decision #24 with the other marked superseded.** Nothing else in the vault should state a BeBo line until it does.
 
----
-
-**Related:** [[Alex Foods]] · [[Alex Foods Discovery Brief]] · [[Alex Foods Brands]] · [[Slogans and Song]]
-
 **Up:** [[Alex Foods]] · [[Clients]]

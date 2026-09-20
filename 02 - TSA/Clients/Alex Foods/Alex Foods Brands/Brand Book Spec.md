@@ -265,8 +265,4 @@ Separately worth naming: **the four range logos in the "THE FOUR RANGES" panel a
 - **§ 06 gains a minimum-size and a placement rule, both now evidenced.** The ring lettering is the legibility floor — it turns to mush around 48 px and is gone by 28 px — and **the seal only holds on white or Paper**, because on navy its ring reads 1.43:1. Both are do-not pages that can be shown rather than described, which is what § 06's own rule asks for.
 - ~~**Vector logo files.** § 06 cannot ship finished without them.~~ **Master seal closed 19 September.** § 06 ships finished for the master mark. The four range marks stay raster and are sufficient, since nothing in this contract is printed — so § 06 no longer carries `PENDING CLIENT INPUT` at all.
 
----
-
-**Related:** [[Alex Foods Brands]] · [[TSA]]
-
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

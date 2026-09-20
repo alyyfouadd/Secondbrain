@@ -100,6 +100,8 @@ Written against the content mix in the shipped kit: **40 product / 30 character 
 
 **All Arabic here is draft, for Aly's ear.** He is the native speaker and the arbiter.
 
+> **SUPERSEDED 20 September. The live allocation of the twenty is [[Month 1 Asset Brief]]**, which also carries the posting calendar and the production spec. **The lists below are the first pass and are kept as reasoning, not as instructions.** What changed: the winner post went from one slot to four, because [[Post Archetypes]] §3 weights it at ~35% and this list had never been checked against that; a third mechanic asset was added; and the jug animation died with the back-of-pack. **Do not brief a supplier from this section.**
+
 ### The 2 animations — the heavy hitters
 
 | | Idea | Pillar | Why it exists |

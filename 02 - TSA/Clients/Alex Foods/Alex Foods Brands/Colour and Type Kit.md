@@ -35,6 +35,9 @@ So the system has three layers:
 Loud, kid-facing, character-led. The most playful of the four.
 
 ### Brand colours — fixed
+
+*Values here are the raw observation. The governed masters are in [[Colour System]] §4, which owns them.*
+
 | Role | Value *(provisional)* | Use |
 |---|---|---|
 | Banner green | `#1BA34C` | The logo pillow. Never recoloured. |
@@ -180,3 +183,5 @@ What genuinely remains:
 2. **POLEKA's scope, in writing**, and the Alex answer papered in the same message. Both are paperwork rather than decisions — both decisions are taken.
 
 This document is the sample set. The governed system built on top of it — rationalised values, ramps, neutrals and contrast-tested pairings — is Phase 1 of [[Foundation Roadmap]], and it ships inside the book specified in [[Brand Book Spec]].
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

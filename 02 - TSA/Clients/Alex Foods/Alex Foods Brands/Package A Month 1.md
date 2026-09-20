@@ -21,7 +21,7 @@ Three facts point the same way and they were not all knowable until 19 September
 2. **They named BeBo as the hero product for advertising** — and BeBo talks to the mother, who is the person buying exercise books in September.
 3. **The contract already contains a giveaway slogan and campaign lockup** as a month-1 line item. It is not extra work; it is work that was always in the month.
 
-So the month's twenty deliverables get **weighted**, not split evenly across four ranges and eighteen SKUs. Something like: BeBo leads, the giveaway is the spine, the other three ranges rotate underneath.
+So the month's twenty deliverables get **weighted**, not split evenly across four ranges and eighteen SKUs ([[Alex Foods Brands]]). Something like: BeBo leads, the giveaway is the spine, the other three ranges rotate underneath.
 
 **Why this matters beyond tidiness:** it is the only version of month 1 that solves the deadline collision. The school campaign needs assets before the Foundation is delivered; month 1 contains those assets; pointing the month at the campaign means TSA produces one thing well instead of two things late. **It also means the client's first paid month is spent on the thing they care most about**, which is worth more than any amount of on-time genericness.
 
@@ -109,7 +109,7 @@ The vault has said for days that the blocker is "product photography." **That is
 
 **Every single-pack cut-out — the thing that goes in a post as the hero — is far too small.** A BeBo sachet at 199 × 251 blown up to fill a 1080-wide frame is mush. They were sliced out of iPad screenshots, which was the right call at the time and is not good enough for production.
 
-> **Updated 19 September: mockup PDFs exist for the packaging AND for the gifts.** Aly has them and they are too large to send through chat. **That is very likely where the high-resolution pack artwork already is** — the same thing happened with `bebo_mucup.pdf`, which yielded the 3645 × 1515 transparent BeBo range. **Getting those PDFs into reach is probably the fastest fix to everything in this section**, ahead of any new ask to the client.
+> **Updated 19 September: mockup PDFs exist for the packaging AND for the gifts.** Aly has them and they are too large to send through chat. **That is very likely where the high-resolution pack artwork already is** — the same thing happened with `bebo_mucup.pdf` *(not in this vault)*, which yielded the 3645 × 1515 transparent BeBo range. **Getting those PDFs into reach is probably the fastest fix to everything in this section**, ahead of any new ask to the client.
 >
 > **Route:** they go to Drive, not into the repo — print-resolution files in git slow every clone on every device forever, and that rule is already set in [[Alex Foods]]. Screen-resolution extracts come into the vault; the originals stay in cloud storage with this note recording where.
 >
@@ -200,10 +200,6 @@ Assumes the gates in [[Alex Foods]] have closed and month 1 has actually started
 
 ---
 
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Giveaway Programme]] · [[Brand Voice Guide]] · [[Colour System]] · [[Brand and Social Kit]] · [[TSA Money]] · [[Slogans and Song]]
-
----
-
 ## 9. What Aly asked for, 19 September — and why the kit's job just changed
 
 **Scope of TSA's own build, in his words: the social kit, the logo usage rules, and the file packaged professionally.** Not the assets. The assets belong to Mahmoud and the animator.
@@ -226,3 +222,5 @@ The shipped v1.2 serves the first and not the second. A designer opening it cann
 - **The do-not pages**, shown rather than described, per [[Brand Book Spec]].
 
 > **The trap to avoid: do not turn the client's kit into a production manual.** The client should not be reading export settings. **Two documents, or one document with a clearly separated production section at the back** — and that is a real decision, not a formatting preference. **Aly's call.**
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

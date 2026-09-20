@@ -80,7 +80,7 @@ This is the structural fact the whole programme turns on, and it was not knowabl
 - **It is the cheapest range to produce for.** BeBo's characters are drawn, paid for, and sitting in `packshots/`.
 - **And the problem: BeBo is one of the two ranges with no Alex seal on the pack.** Under the umbrella decision ([[Brand Voice Guide]] §2) Alex Foods is the master brand and the account that posts — but the flagship advertised pack does not carry the master mark. The rollout rule covers it (printed packs stay as they are, new print carries the seal), so nothing needs fixing on the pack. **What it means in practice is that the Alex Foods presence has to be carried by the layout and the lockup rather than by the product**, on the exact campaign that will be seen most.
 
-**What this does not do is narrow the Foundation.** The Foundation governs four ranges and eighteen SKUs regardless of which one the ads lead with. Hero product is a media weighting, not a scope reduction, and it should never be allowed to become one in conversation.
+**What this does not do is narrow the Foundation.** The Foundation governs four ranges and eighteen SKUs ([[Alex Foods Brands]]) regardless of which one the ads lead with. Hero product is a media weighting, not a scope reduction, and it should never be allowed to become one in conversation.
 
 ## 5. What is not in the contract, and has to be named before it is assumed
 
@@ -168,10 +168,6 @@ Flagged as risks, not verdicts. **Two of these I cannot resolve from here and am
 
 ---
 
-**Related:** [[Alex Foods]] · [[Slogans and Song]] · [[Brand Voice Guide]] · [[Alex Foods Brands]] · [[Foundation Roadmap]] · [[Brand and Social Kit]] · [[TSA Money]]
-
----
-
 ## 10. Carried over from the parallel session, 20 September
 
 *Two sessions wrote this note on the same day. Everything above is the fuller write-up; these two blocks are what only the other one had, kept verbatim rather than paraphrased.*
@@ -195,3 +191,5 @@ Flagged as risks, not verdicts. **Two of these I cannot resolve from here and am
 ---
 
 **Related:** [[Alex Foods]] · [[Alex Foods Delivery Plan]] · [[Slogans and Song]] · [[Shooting and Compositing Recipe]] · [[Alex Foods Discovery Brief]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

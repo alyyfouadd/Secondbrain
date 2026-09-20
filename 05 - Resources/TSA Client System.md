@@ -9,7 +9,7 @@ type: guide
 
 Aly's instruction, 19 September 2026: the shape built for the first client is the shape every client gets. This note is that shape. **It exists so the second client costs a fraction of what the first one did**, and so no future session has to reverse-engineer the pattern out of one client's folder.
 
-> **The rule this note is built on: a template is only worth writing after the first real one is finished.** Everything below was paid for once, on a live 146,000 EGP contract. Nothing here is theoretical.
+> **The rule this note is built on: a template is only worth writing after the first real one is finished.** Everything below was paid for once, on a live 146,000 EGP ([[Alex Foods]]) contract. Nothing here is theoretical.
 
 ---
 
@@ -148,7 +148,7 @@ Added to the discovery brief for every client after the first:
 2. **What is the goal, as a number?** If they cannot say, **set it from their own baseline and put it in the delivery message.**
 3. **Is the bottleneck consumer demand or distribution?** For any business selling through retail, this changes the whole content mix.
 4. **What is the monthly ad budget?** Managing an unnamed spend is not a plan.
-5. **Which platform actually has an audience?** Client one: Facebook 52,000, TikTok 500, Instagram 40. **"All platforms" was the stated answer and the real answer was one.**
+5. **Which platform actually has an audience?** Client one: Facebook 52,000 ([[Alex Foods Discovery Brief]]), TikTok 500, Instagram 40. **"All platforms" was the stated answer and the real answer was one.**
 6. **Is the social asset a Page or a personal profile?** If a profile, **no paid campaign can run from it at all.**
 7. **Seasonality per product line.** A term that sits in a product's off-season changes every calendar.
 8. **Do they hold rights to the artwork you will be putting behind paid spend?**
@@ -163,7 +163,3 @@ Added to the discovery brief for every client after the first:
 - **Day 4 to 7** — the remaining sections, assembled into the one book, probed and proofed.
 
 **That is achievable only because the CSS, the maths, the fonts and the architecture already exist.** Client one spent most of its time building those. Client two spends its time on the client.
-
----
-
-**Related:** [[TSA]] · [[Alex Foods]] · [[Brand Book Spec]] · [[Foundation Roadmap]] · [[Colour System]] · [[Brand Voice Guide]] · [[Slogans and Song]] · [[Shooting and Compositing Recipe]] · [[TSA Money]] · [[Marketing]] · [[Resources]]

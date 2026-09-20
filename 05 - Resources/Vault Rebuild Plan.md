@@ -186,7 +186,3 @@ Measurable, so it is not a matter of opinion in a month:
 **It costs nothing in money.** It costs a working session that does not ship a client deliverable, against a Foundation due 9 October with four deliverables carrying no content at all.
 
 > **So the real question is not how, it is when.** Doing this before the Foundation ships buys a clean vault and spends days the contract needs. Doing it after month 1 ships buys the opposite. **Step 0 alone — merging the four refs — is the exception: that is urgent regardless, because every day it waits, more work lands on the wrong ref.**
-
----
-
-**Related:** [[Vault Brief]] · [[VAULT-INDEX]] · [[Active Priorities]] · [[Resources]] · [[TSA]] · [[Alex Foods]]

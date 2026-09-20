@@ -35,4 +35,3 @@ type: reference
 If print or large format ever enters scope, it is a clause 7 quote and the source files become a real requirement rather than a convenience.
 
 ---
-**Related:** [[Alex Foods Brands]] · [[Colour System]] · [[Type System]]

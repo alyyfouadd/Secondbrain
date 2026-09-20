@@ -144,8 +144,6 @@ type: plan
 
 ---
 
-**Related:** [[Alex Foods]] · [[Giveaway Programme]] · [[Brand and Social Kit]] · [[Brand Voice Guide]] · [[Shooting and Compositing Recipe]] · [[Alex Foods Delivery Plan]]
-
----
-
 **Related:** [[Content Plan]] · [[Giveaway Programme]] · [[Brand Book Spec]] · [[Brand Voice Guide]] · [[Alex Foods Brands]]
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

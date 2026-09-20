@@ -101,6 +101,8 @@ Never scale a pack above its source size. If a scene needs a pack larger than th
 **In English.** Each range has its world. The constants above never change, but the place, the surface and the mood do. The world is what separates the ranges from each other, exactly as their colours do on a shelf.
 
 ### بيبو · BeBo
+
+*Hex values in this section are cited from [[Colour System]]; the recipe sets none of them.*
 | | |
 |---|---|
 | المكان · Place | مطبخ بيت، سطح نظيف · a home kitchen, a clean counter |
@@ -137,6 +139,8 @@ Never scale a pack above its source size. If a scene needs a pack larger than th
 | | |
 |---|---|
 | المكان · Place | خلفية لون مسطّح، بلا واقعية · a flat colour ground, no realism |
+
+*Every hex in this section is governed by [[Colour System]]; nothing here sets a value.*
 | الأرضية · Surface | لون واحد صريح من نظام الألوان · one plain colour from the colour system |
 | الضوء · Light | ناعم ومتساوٍ · soft and even |
 | المزاج · Mood | لعب. الشخصية أولًا والنكهة ثانيًا · play. Character first, flavour second |
@@ -329,6 +333,4 @@ no bottles, no sachets, no hands, no people, no faces, no watermark
 - [ ] شارة KIDS ZONE بلونها الأصلي · the KIDS ZONE lozenge in its original colours
 - [ ] صنف كولا بوليكا خارج أي مادة مدفوعة · the POLEKA cola SKU is out of all paid material
 
----
-
-**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Brand Book Spec]] · [[Brand Voice Guide]] · [[Colour System]] · [[Type System]] · [[Foundation Roadmap]] · [[Brand and Social Kit]]
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

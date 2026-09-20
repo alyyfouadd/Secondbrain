@@ -96,7 +96,7 @@ Two weights only across the whole book — Regular and SemiBold. That is the kit
 
 ## 5b. DECIDED 19 September: one book, and what it swallows
 
-**Aly's call, against `SWAG-Design-System.pdf` as the completeness bar: one document, not three.**
+**Aly's call, against `SWAG-Design-System.pdf` as the completeness bar: one document, not three.** *(That file is an **external reference** Aly compared against, not a vault asset — it is deliberately not in this repo.)*
 
 | Was | Now |
 |---|---|
@@ -175,7 +175,7 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 **22 — The system in numbers, and rebuilding from this book.** SWAG's closing move, and it is worth stealing outright: the system counted (named colours, type sizes, post formats, patterns, ranges, SKUs), then the short paragraph naming **the few things everything else is assembled from**. It is how a reader knows they have understood the system rather than read it.
 
 ### The section that changed job
-**16 — Shooting and compositing recipe** *(was "Animation and shooting recipe")*. **With product photography now produced by TSA with an AI product shooter, there is no client shoot to write specs for.** It becomes the production recipe: scene prompts, the compositing rules, and the lighting and angle constants that keep eighteen SKUs looking like one brand. **The rule it exists to enforce: AI makes the scene, the client's real artwork gets placed into it, and nothing about a pack is ever generated.** See [[Alex Foods]].
+**16 — Shooting and compositing recipe** *(was "Animation and shooting recipe")*. **With product photography now produced by TSA with an AI product shooter, there is no client shoot to write specs for.** It becomes the production recipe: scene prompts, the compositing rules, and the lighting and angle constants that keep eighteen SKUs ([[Alex Foods Brands]]) looking like one brand. **The rule it exists to enforce: AI makes the scene, the client's real artwork gets placed into it, and nothing about a pack is ever generated.** See [[Alex Foods]].
 
 > **§ 08 grew on 19 September.** Four pages was costed against a single giveaway. The client's actual programme is **three campaigns, two off-platform entry mechanics and a named hero product** ([[Giveaway Programme]]). The section now has to carry the giveaway platform — the lockup with its prize slot, the song with its swappable prize line, the two mechanics drawn so a designer understands that **entry is a scan, not a comment** — which is nearer 6 pages than 4. **It does not need its own section.** Adding a fourteenth section for one client campaign would be building the book around this month instead of around the brand.
 
@@ -265,6 +265,4 @@ Separately worth naming: **the four range logos in the "THE FOUR RANGES" panel a
 - **§ 06 gains a minimum-size and a placement rule, both now evidenced.** The ring lettering is the legibility floor — it turns to mush around 48 px and is gone by 28 px — and **the seal only holds on white or Paper**, because on navy its ring reads 1.43:1. Both are do-not pages that can be shown rather than described, which is what § 06's own rule asks for.
 - ~~**Vector logo files.** § 06 cannot ship finished without them.~~ **Master seal closed 19 September.** § 06 ships finished for the master mark. The four range marks stay raster and are sufficient, since nothing in this contract is printed — so § 06 no longer carries `PENDING CLIENT INPUT` at all.
 
----
-
-**Related:** [[Alex Foods]] · [[Foundation Roadmap]] · [[Giveaway Programme]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[TSA]]
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

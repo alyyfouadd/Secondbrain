@@ -11,6 +11,23 @@ type: guide
 
 ---
 
+## 0. The lines — this is the live answer
+
+**Everything below section 1 is how these were arrived at, and most of it is inside a declared audit-trail block.** This section is what is true now. **Nothing else in the vault states a brand line; they link here.**
+
+| | Line | State |
+|---|---|---|
+| **Alex Foods** (master) | «طعم أحلى مع أليكس فودز» | **Live.** The client's own line, already in market — recorded, not written by TSA |
+| **BeBo** | «مع بيبو، اليوم أحلى» | **Settled 20 Sep**, `Decisions` #24, confirmed by Aly directly |
+| **AlRawy** | «الراوي.. طعم تثق فيه» | **Settled 20 Sep**, `Decisions` #19 |
+| **2MAN** | «عيش جو المغامرة» | **Live.** Theirs, in market, and it works — kept rather than replaced |
+| **POLEKA** | «بوليكا.. مش محتاجة شرح» | **Settled 20 Sep**, `Decisions` #25 — Aly's pick over TSA's «براحتك», both from the client's own post. **Ends six rounds and seventeen dead lines**, all of which were built on TSA's reading of the product |
+| **Giveaway campaign** | «صوّر واكسب مع بيبو» | **Settled 20 Sep**, `Decisions` #20. A campaign line, not a brand line |
+
+> **«بيبو معاك كل يوم» is dead.** It was chosen and then replaced the same day, and it is retired in `vault-check/retired.tsv` — any note that states it again fails the check. **The parked giveaway song still bookends on it**, which is the one thing this decision broke and has not been rebuilt.
+
+---
+
 ## 1. The correction that has to come first
 
 [[Marketing]] is the craft reference for every piece of copy TSA writes, and most of it carries here unchanged. **But a slogan is not a headline, and applying the headline rules literally will produce four unusable lines.**
@@ -26,7 +43,7 @@ A headline sells one click, once, and gets replaced tomorrow. A slogan is a perm
 - **Talk like a person, never like a company.**
 
 **What does NOT carry, and this is where people wreck it:**
-- **Specific numbers and time frames.** "In 30 days, using 3 principles" is a superb headline and a dead slogan. A brand line has to sit on eighteen SKUs for three years.
+- **Specific numbers and time frames.** "In 30 days, using 3 principles" is a superb headline and a dead slogan. A brand line has to sit on eighteen SKUs ([[Alex Foods Brands]]) for three years.
 - **Urgency and deadlines.** Those belong to the *campaign* line, never the brand line. The giveaway song is where they come back (see §5).
 - **Long copy and skim formatting.** Irrelevant. A slogan is four to six words.
 - **The "So What?" ladder** carries, but you stop differently. A headline climbs to the emotion and *states* it. A slogan climbs to the emotion and then finds the shortest way to *gesture* at it without naming it. Naming the feeling outright is what produces greeting-card copy.
@@ -549,6 +566,49 @@ It names no flavour, so it works across all four SKUs. It makes no claim needing
 
 **Sold frozen from a shop freezer confirms it: POLEKA is a summer product.** Both frozen ranges are. **Half the portfolio sits out of season across an October-to-January term**, and that is no longer inference about how a product behaves, it is inference about where it is physically sold.
 
+## 5c-x. POLEKA — round seven, from the only source never used
+
+**Aly, 20 September: "we need something different, I've sent you a lot about POLEKA."** He is right, and the count says so: **seventeen lines dead across six rounds.** Collection, name-instruction, question, friend-pick, the house **مع + أحلى**, negative, dual proposition, effect, character-as-fact, shop sentence, candy-real, drink-the-candy, small joy, your-candy, cold, freeze-at-home, and «انتعاش في ازازة».
+
+### Why they all failed, stated as one sentence
+
+**Every round tried to decide what POLEKA is.** Candy, then a toy, then a drinkable jelly, then a frozen juice — the product was corrected four times in one night, and each correction killed the lines built on the last one.
+
+**The client's own published post has been in the vault since 20 September and no slogan round has ever used it.**
+
+> «عذراً أيها السيدات والسادة الكرام، بس احنا جايين نعمل بوليكا 🎉😁
+> **هتسميها لوليتا، عصير، مشروب، براحتك** — المهم إن سعرها وطعمها **مش محتاجين شرح**، لازم تجرب بنفسك»
+
+**They do not categorise it either. They joke about not categorising it.** *Call it lolita, juice, a drink, whatever you like.*
+
+**That is the answer to six rounds of failure: the category confusion is not the obstacle in front of the line, it is the line.** TSA failed four times to name this product. So does the market. **The client turned that into their own voice and TSA has been fighting it.**
+
+### The lines
+
+| # | السطر | Gloss | Where it comes from |
+|---|---|---|---|
+| **1** | **«بوليكا.. براحتك»** | POLEKA, suit yourself | **Their exact word**, from their own POLEKA post |
+| **2** | «بوليكا.. مش محتاجة شرح» | POLEKA needs no explaining | Their phrase, «مش محتاجين شرح» |
+| **3** | «سمّيها براحتك.. المهم بوليكا» | Call it what you like, what matters is POLEKA | The joke carried in full |
+| **4** | «بوليكا.. جرّب وهتعرف» | POLEKA, try it and you'll know | Their «لازم تجرب بنفسك» |
+
+### Where TSA puts its weight: «بوليكا.. براحتك»
+
+**Two words**, which is the shortest range in the house and what §6 asks for. **Colloquial and sound-led**, which §6 also asks for, and **براحتك is a word every Egyptian child hears from an adult every day** — unlike انتعاش, which is a grown-up advertising word no six-year-old says.
+
+**It is true, and it is the first POLEKA line that cannot be made false by the next product correction.** Chewed, drunk, frozen, jelly, juice — the line survives all of them, because it is not a claim about the product. **Six rounds died on product corrections; this one is immune to them.**
+
+- **No sibling collision.** It says nothing about cold, so it does not help 2MAN in the shared freezer. **And it deliberately avoids لوليتا** — the client already brands 2MAN as «لوليتا تومان», so POLEKA taking the category word would be the third collision between these two ranges.
+- **No claim needing a document.** Nothing about sugar, health, fruit content or price.
+- **Works on all four SKUs** and holds with nothing beside it but the logo.
+- **It is a permission, and POLEKA's audience is a child being told what to do all day.**
+
+**The alternate worth arguing for is #2, «مش محتاجة شرح».** Funnier, more confident, and it is the honest answer to the thing that beat six rounds of slogan work. It is four words against two, and it claims a small superiority the range may not need.
+
+> **The open register question that «انتعاش في ازازة» carried is gone.** That line needed a deliberate decision about a grown-up word in a child's brand. **براحتك needs none** — it is already in the audience's mouth.
+
+---
+
 ## 5d-0. SUPERSEDED — they already run a giveaway, and TSA was designing one they do not need
 
 > **20 September, from screenshots of their own page.** **The BeBo giveaway has been running since at least August and the prize is a bicycle.**
@@ -590,7 +650,7 @@ Four reasons that hold independently of who decided it:
 
 ### Where it runs, which is a different question from whose it is
 
-**The giveaway belongs to BeBo. It runs on the Alex Foods account**, because that is the only presence with an audience — 52,000 against 540 across both other platforms. **One presence, a range campaign inside it.** That is the umbrella model working as designed rather than an exception to it.
+**The giveaway belongs to BeBo. It runs on the Alex Foods account**, because that is the only presence with an audience — 52,000 ([[Alex Foods Discovery Brief]]) against 540 across both other platforms. **One presence, a range campaign inside it.** That is the umbrella model working as designed rather than an exception to it.
 
 **The lockup therefore carries both:** BeBo's mark as the campaign owner, and **the Alex Foods seal, because the master owns the seal and always has.**
 
@@ -657,7 +717,7 @@ Four reasons that hold independently of who decided it:
 
 | # | السطر | Gloss | Why it holds |
 |---|---|---|---|
-| **1** | **«من إسكندرية لكل البيوت»** | From Alexandria to every home | **The strongest line in the set.** It is brand pillar 3 said in five words, and **no competitor can say it** — the company's name *is* the city and the seal carries the Pharos. It works on all eighteen SKUs, survives two hundred repetitions, and makes no claim that needs a document. |
+| **1** | **«من إسكندرية لكل البيوت»** | From Alexandria to every home | **The strongest line in the set.** It is brand pillar 3 said in five words, and **no competitor can say it** — the company's name *is* the city and the seal carries the Pharos. It works on all eighteen SKUs, survives two hundred repetitions, and makes no claim that needs a document. · [[Alex Foods Brands]] |
 | **2** | **«إسكندرية بتحلّي»** | Alexandria sweetens things | Shorter, warmer, and carries the "fun" register the client asked for. Slight risk: «بتحلّي» leans sweet, which fits three ranges and sits oddly on AlRawy. |
 
 ### BeBo — talking to the mother
@@ -718,8 +778,6 @@ Clause 1 gives TSA execution and the client approval of an *outcome*. **Present 
 - **Aly's call on one platform versus three**, and on the trade register. [[Giveaway Programme]] §7.1 and §9.
 - **Aly's ear on the ten lines above**, and the giveaway song, which obeys campaign rules rather than brand rules.
 
----
-
-**Related:** [[Alex Foods]] · [[Giveaway Programme]] · [[Foundation Roadmap]] · [[Colour and Type Kit]] · [[Alex Foods Brands]] · [[Marketing]]
-
 <!-- retired-ok:end -->
+
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

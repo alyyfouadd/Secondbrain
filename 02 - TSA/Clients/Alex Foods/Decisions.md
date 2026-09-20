@@ -32,6 +32,8 @@ type: reference
 
 | # | Date | Decision | Rests on | Overturned |
 |---|---|---|---|---|
+| 25 | 20 Sep | **POLEKA's line is «بوليكا.. مش محتاجة شرح»** | **The client's own published post**, «سعرها وطعمها مش محتاجين شرح» — the only POLEKA source never used across six failed rounds. Aly took it over TSA's recommended «بوليكا.. براحتك» | **#18, «بوليكا.. انتعاش في ازازة»**, and with it seventeen lines across six rounds, every one built on TSA's reading of what the product is |
+| 24 | 20 Sep | **BeBo's brand line is «مع بيبو، اليوم أحلى».** «بيبو معاك كل يوم» is dead | Aly, confirming directly when asked which of the two was live | **Decision #undated-duplicate**, where the same day recorded two BeBo lines and the vault could not tell which was newer |
 | 23 | 20 Sep | **The prompts do not ship to the client.** Section 16's prompt formula and exclusion list come out of the client build | Clause 5 reserves TSA's working method; the scope sold camera, light, background and framing, not the method | The assumption that the whole recipe was a client deliverable. **Pending Aly's go-ahead on the re-render** |
 | 22 | 20 Sep | **POLEKA is a frozen juice**, sold frozen from a freezer, snip the neck and drink it | The packshot, opened properly for the first time; then Aly | "Jelly candy", then "drinkable jelly". Corrected three times in one day |
 | 21 | 20 Sep | **The giveaway belongs to BeBo, not the master** | BeBo is the client's named hero product and best seller | The lockup had been put on Alex Foods and the hook on the wrong brand |
@@ -45,7 +47,7 @@ type: reference
 | 13 | 19 Sep | **The AI product shooter replaces the client shoot** | The render rail tested, not assumed: 60 frames at 1080×1350 in 54 seconds | Product photography as the gate on all twenty Package A deliverables |
 | 12 | 19 Sep | **TSA has a delivery team**: Mahmoud on graphics, a CGI animator on motion, a media buyer at 2,000/month, Aly directing | The month's twenty assets do not fit one person | "Aly plus AI does everything" — and it changes what a month costs |
 | 11 | 19 Sep | **One book, not three documents.** The Design System and the Brand and Social Kit fold into a single brand book | Three client-facing PDFs is three things to keep in sync and three chances to hand over the wrong file | Deliverables 2 and 3 as standalone shipped PDFs |
-| 10 | 19 Sep | **Facebook is primary**; TikTok is a secondary build on the character content; Instagram mirrors | 52,000 followers against 540 across both others combined | "All platforms", which is what the client answered |
+| 10 | 19 Sep | **Facebook is primary**; TikTok is a secondary build on the character content; Instagram mirrors | 52,000 followers against 540 across both others combined | "All platforms", which is what the client answered · [[Alex Foods Discovery Brief]] |
 | 9 | 19 Sep | **AlRawy is ready-to-drink, not a powder** | Every pouch prints «أدخل الماصة هنا / Insert Straw Here» | Three notes describing the wrong product. **BeBo is the powder; AlRawy is the juice** |
 | 8 | 19 Sep | **`Clients/` gets built at one client**, not at three | The structure that scales gets built before it hurts | [[TSA]]'s own "once there are three or more" |
 | 7 | 18 Sep | **The kit is TSA's kit rebuilt for Alex Foods** — same information architecture, client's colours, Paper ground | Aly, after two wrong readings on TSA's part | A governance document wearing kit clothing |
@@ -58,14 +60,12 @@ type: reference
 
 ---
 
-## One row that needs Aly to settle it
+## How this register earned its keep, once
 
-**BeBo's brand line is recorded twice, and the two entries disagree.**
+**The BeBo line was recorded twice on the same day and the register could not tell which was newer.** Two entries, both marked settled, the second saying the first was dead — and the only way to guess was list position, which is inference, not a record. **That is precisely the failure this note exists to stop, showing up inside the note itself.**
 
-[[Active Priorities]] carries both «**بيبو معاك كل يوم**» and «**مع بيبو، اليوم أحلى**» as settled on 20 September, the second saying the first is dead and that the parked song's bookend broke with it. **Reading the order, «مع بيبو، اليوم أحلى» is the later call and therefore the live one** — but that is inference from list position, not from a dated record, which is exactly the failure this note exists to stop.
+**Closed 20 September: Aly confirmed «مع بيبو، اليوم أحلى».** It is decision #24 above; the other is superseded and retired in `vault-check/retired.tsv`, so any note that states it again fails the check.
 
-> **Aly: confirm which line is live, and this row becomes decision #24 with the other marked superseded.** Nothing else in the vault should state a BeBo line until it does.
+**The lesson kept: a decision without a date and an author is not a record.** Every row above carries both for this reason.
 
----
-
-**Related:** [[Alex Foods]] · [[Alex Foods Discovery Brief]] · [[Alex Foods Brands]] · [[Slogans and Song]] · [[Brand Voice Guide]] · [[Active Priorities]]
+**Up:** [[Alex Foods]] · [[Clients]]

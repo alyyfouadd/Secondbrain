@@ -34,6 +34,7 @@ What [[Alex Foods]] actually sells, read off the packaging mockups the client se
 - `packs-bebo-transparent.png` · `packs-poleka-transparent.png` — **the most usable artwork received so far.** The full BeBo and POLEKA ranges at high resolution **on a transparent background**, extracted 18 Sep from a Canva mockup PDF. Cut out and ready to composite onto any layout, which is exactly what the monthly graphics need. Still raster.
 - **`logos-vector/alex-seal-master.pdf` — THE VECTOR MASTER, received 19 September.** True vector, no images and no fonts. **The flat two-colour seal**, not the 3D rendered object. `alex-seal-master.svg` beside it is a working conversion for HTML layouts, **carrying one known defect: the x of "Alex" does not survive the conversion, so the PDF is the master and the SVG is checked before use.**
 - `logo-alex-seal.jpg` — the **3D rendered** master seal with the Egyptian flag ribbon. Superseded as a source by the vector above; kept because it is what is currently printed on pack, and **it is the only evidence of the ribbon version — which version governs is still open.**
+- [[client-social-copy]] — the client's own published captions, transcribed. **The first primary source on how Alex Foods actually speaks**, and the note every voice decision is checked against.
 - `client-legacy-creative/` — two of the client's own existing graphics, kept as the "before" reference: what Alex Foods currently looks like in market, which is what the system is replacing. Useful for the voice guide and for the do-not pages.
 - `logo-alrawy-screencap.png` · `logo-2man-screencap.png` · `logo-bebo-screencap.png` · `logo-poleka-screencap.png` — **all four brand marks**, isolated on white, **received 18 September as iPad screenshots of files open in the Files app.** Far better than reading a mark off a pack: clean edges, no perspective, full colour. **Still not vector.** They are screen captures, so they do not close material #2 and they cannot be used for print or at large scale. **What they do prove is that the source files exist and are on the client's device**, which turns the chase from "do these exist?" into "send the file, not a picture of it."
 
@@ -178,7 +179,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ## The Canva mockup, and what it proves
 
-A file named `bebo_mucup.pdf` arrived 18 September. **It is not a BeBo file and it is not artwork.** It is a one-page Canva export carrying all four brands, assembled from raster images, and taking it apart settled the vector question for good.
+A file named `bebo_mucup.pdf` arrived 18 September. **It is not in this vault** — it is a 9.9 MB Canva deck whose entire value is two images, both of which were extracted and kept (see below), so committing it would bloat every clone forever for nothing. **It is not a BeBo file and it is not artwork either.** It is a one-page Canva export carrying all four brands, assembled from raster images, and taking it apart settled the vector question for good.
 
 | What is inside | What it is |
 |---|---|
@@ -230,6 +231,8 @@ The seal arrived in full on 18 September and it answers more than it was asked t
 > **What that changes:** the seal can now be scaled to any size, placed on any ground, and printed. It is still never *retyped or redrawn* — that rule stands and always did — but "placed as supplied" no longer means "stuck at whatever resolution arrived."
 >
 > **And this version carries no Egyptian flag ribbon.** `logo-alex-seal.jpg` has one. **Two versions of the master mark now exist, and the Foundation has to say which one governs.** See `logos-vector/README.md`.
+
+*Sampled off the artwork. [[Colour System]] owns the governed values these resolve to.*
 
 | Role | Value *(sampled)* | Note |
 |---|---|---|

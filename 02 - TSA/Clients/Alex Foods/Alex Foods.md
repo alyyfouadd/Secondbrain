@@ -188,11 +188,11 @@ Full brief and the decisions it forces: [[Giveaway Programme]].
 
 **Three consequences to hold:**
 
-1. **Deliverable 6 changes job, not name.** The Animation and Shooting Recipe was written specs for *the client* to shoot against. **With no client shoot there is nobody to hand it to.** It becomes TSA's own production recipe: the scene prompts, the compositing rules, the lighting and angle constants that keep eighteen SKUs looking like one brand. **Still deliverable 6, still ships first, but it is now an internal working document that also gets handed over.**
+1. **Deliverable 6 changes job, not name.** The Animation and Shooting Recipe was written specs for *the client* to shoot against. **With no client shoot there is nobody to hand it to.** It becomes TSA's own production recipe: the scene prompts, the compositing rules, the lighting and angle constants that keep eighteen SKUs ([[Alex Foods Brands]]) looking like one brand. **Still deliverable 6, still ships first, but it is now an internal working document that also gets handed over.**
 2. **TSA has absorbed work the contract put on the client.** The scope says the client supplies photos or samples. **Doing it ourselves removes the schedule risk and takes on the cost** — a trade that is almost certainly worth it, since the alternative was a paid month that could not be produced into. **Worth stating in writing at delivery so it reads as a concession granted, not a duty assumed.**
 3. **The never-say list applies to pictures as well as words.** An AI scene must not imply a health benefit, a fruit content, or a serving context the client has not confirmed. And **BeBo cannot be shown being prepared, or being drunk from, until §A1 is settled** — the format is contested and a photograph would assert an answer.
 
-### There is a media buyer, at a fixed 2,000 EGP per month
+### There is a media buyer, at a fixed 2,000 EGP ([[TSA Money]]) per month
 
 **The first real cost-of-delivery number this business has.** Recorded in [[TSA Money]], which has carried "cost of delivery: not yet known" as its largest blank since it was written.
 
@@ -220,3 +220,7 @@ The client came back on most of the commercial brief. Full merge, with the Arabi
 - **Is TSA producing anything retailer-facing?** The giveaway has a trade track — retailers winning through a coupon in the carton — and the signed scope is a social contract end to end, with no trade deliverable in it. If the answer is yes, it is clause 7 work and the voice guide needs a register it does not have.
 - **Does the school campaign get TSA creative at all?** Its deadline lands before the Foundation is delivered, and the giveaway lockup is a Package A item that has not started. On the current plan the client's biggest push runs with nothing from TSA on it. [[Giveaway Programme]] §2.
 - **What exact date was the 10,000 invoice issued?** The due date is set to 26 September; clause 11's 4-day term implies an 18 Sep issue date would have been due the 22nd. The gap is deliberate but should be recorded accurately.
+
+---
+
+**Up:** [[VAULT-INDEX]] · [[TSA]] · [[Clients]]

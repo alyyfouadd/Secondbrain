@@ -77,7 +77,3 @@ So the never-say list is a filter applied to output, not just a rule stated in a
 [[jareds-takes]] describes a Jobs system: one folder per recurring job, with a same-named index note listing the steps and wiki-linking the files each step needs.
 
 **This note is the method. A Job note would be the runbook**, and the vault's own trigger for building one is the second time a task gets explained from scratch. Monthly content production repeats three times on the [[Alex Foods]] contract alone, so it will earn one, and [[Active Priorities]] already carries the item. **Build it once month 1 has actually run**, so the runbook describes what happened rather than what was imagined.
-
----
-
-**Related:** [[Marketing]] · [[jareds-takes]] · [[marketing-copywriting]] · [[TSA]] · [[Alex Foods]] · [[Brand Voice Guide]] · [[Slogans and Song]]

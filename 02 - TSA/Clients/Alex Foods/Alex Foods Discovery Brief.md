@@ -114,7 +114,7 @@ That is not a contradiction and the deliverables do not change — a factory has
 
 ### Blocked on Package A, not on the Foundation
 - ~~**Product photography**~~ — **UNBLOCKED 19 September. TSA produces it with an AI product shooter**, compositing the client's real pack artwork into generated scenes. **The biggest gate on the contract is gone.** Method and consequences in [[Alex Foods]].
-- **Ad budget** — still no campaign can be planned against an unnamed spend. **A media buyer is engaged at a fixed 2,000 EGP/month**, which is TSA's cost and separate from the client's spend.
+- **Ad budget** — still no campaign can be planned against an unnamed spend. **A media buyer is engaged at a fixed 2,000 EGP/month ([[TSA Money]])**, which is TSA's cost and separate from the client's spend.
 
 ### The gap nobody has priced yet, and it is a timing problem
 
@@ -136,8 +136,8 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 - `[CONFIRMED]` **Hussein** is real and sits in the approval chain. **Mohamed** is the day-to-day contact and also approves. See §A4.
 - `[OBSERVED]` **Four ranges, not five: BeBo · AlRawy · 2MAN · POLEKA.** **"Freeze Pops" IS 2MAN** — the contract's generic name for the range the client calls 2MAN, Arabic **تومان**. The answer sheet still lists both as separate families and leaves 2MAN blank; there is no fifth family and nothing is missing there.
 - `[CONFIRMED]` **POLEKA is not in the signed scope.** Confirmed verbally as in, 18 Sep, no change to fee. **Still not papered.**
-- `[OBSERVED]` Roughly **eighteen SKUs**, against a contract asking for five. Plus uncounted mini 2MAN and mini BeBo lines in 25 and 50 piece cartons.
-- `[CONFIRMED]` Foundation **20,000** one-time · Package A **42,000 × 3 = 126,000** · total **146,000 EGP** · 3-month term, no auto-renewal.
+- `[OBSERVED]` Roughly **eighteen SKUs ([[Alex Foods Brands]])**, against a contract asking for five. Plus uncounted mini 2MAN and mini BeBo lines in 25 and 50 piece cartons.
+- `[CONFIRMED]` Foundation **20,000** one-time · Package A **42,000 × 3 = 126,000** · total **146,000 EGP ([[Alex Foods]])** · 3-month term, no auto-renewal.
 - `[CONFIRMED]` **Based in Alexandria**, and the city is load-bearing: the seal's icon is the **Pharos lighthouse** and the company name *is* the city. Brand pillar 3.
 
 ---
@@ -530,6 +530,4 @@ Main goal · success definition · priority range · biggest problem · years in
 
 > **The rule this section encodes: ask for a thing one cycle before you need it, not the morning you need it.** Every item here has already been identified; **none of them are surprises, and that is the entire point of writing them down before they bite.**
 
----
-
-**Related:** [[Alex Foods]] · [[Alex Foods Brands]] · [[Foundation Roadmap]] · [[Brand Voice Guide]] · [[Brand and Social Kit]] · [[Slogans and Song]] · [[Colour System]] · [[Type System]] · [[Brand Book Spec]] · [[TSA]] · [[TSA Money]] · [[Active Priorities]] · [[Marketing]]
+**Up:** [[Alex Foods]] · [[Clients]]

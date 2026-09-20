@@ -120,7 +120,3 @@ This is not a drift-check failure by anyone. It is a hole in the locked system, 
 **What closing it needs:** one Arabic display face to sit beside Barlow Condensed 800, and one Arabic text face to sit beside Inter. Both free and properly licensed, as with everything else here. Candidates worth looking at are **Alexandria** (a Google Fonts Arabic family with a matching Latin and a range of weights) and **IBM Plex Sans Arabic**, which is already in use on the Alex Foods work and pairs cleanly with Inter's neo-grotesque shapes.
 
 **Decision needed from Aly.** Until it lands, any Arabic in a TSA document is provisional and should be flagged as such rather than quietly standardised by repetition.
-
----
-
-**Related:** [[TSA]] · [[TSA Brand]] · [[Alex Foods]] · [[Brand Book Spec]] · [[Marketing]]

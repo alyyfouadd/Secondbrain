@@ -1,195 +1,218 @@
 #!/usr/bin/env python3
-"""vault-check — the whole-vault doctor.
+"""Fail loudly when the vault still states something it has retired.
 
-    python3 "05 - Resources/vault-check/check.py"          # everything
-    python3 "05 - Resources/vault-check/check.py" --quiet   # failures only
+Run it before any render and before any commit:
+    python3 "05 - Resources/vault-check/check.py"
 
-Exit 0 = clean. Exit 1 = at least one FAIL.
-
-Every check here exists because that exact class of mistake actually shipped.
-When a new class is found, it becomes a check rather than a resolution to be
-more careful.
+Exit 0 = clean. Exit 1 = a retired claim is stated live somewhere.
 """
-import os, re, sys, json, collections
+import os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pdftext
 
 HERE  = os.path.dirname(os.path.abspath(__file__))
 VAULT = os.path.abspath(os.path.join(HERE, "..", ".."))
-QUIET = "--quiet" in sys.argv
 
-SKIP_DIRS  = (".git", ".obsidian", ".claude", "vault-check", "fonts", "tsafonts")
-LOG_DIR    = "01 - Daily Notes"
-HISTORY_FILES = ("Decisions.md", "Vault Brief.md")
-MARKERS = ("superseded", "withdrawn", "was wrong", "corrected", "audit trail",
-           "retired", "no longer", "kept because", "not sendable", "as a fact",
-           "rewritten anyway", "unfrozen", "contested", "was:", "originally",
-           "reversed", "replaced", "stale", "retired-ok", "on hold")
+# History is allowed to mention a retired claim. These files ARE the history.
+SKIP_PARTS = (".git", "01 - Daily Notes", "vault-check")
+SKIP_NAMES = ("Decisions.md", "Vault Brief.md", "retired.tsv")
 
-VALID = {"status": {"active","completed","parked","idea","archived"},
-         "project": {"tsa","personal","meta"},
-         "type": {"index","reference","guide","plan","log"}}
+# PDFs the client sent US. A retired claim inside the signed scope is what the
+# contract says, not drift in our work, and editing it is not an option.
+SOURCE_PDFS = ("TSA - Alex Foods Service Scope V2.pdf",)
 
-FAILS, WARNS = [], []
-def fail(check, where, msg): FAILS.append((check, where, msg))
-def warn(check, where, msg): WARNS.append((check, where, msg))
+def load_owners(path):
+    """Rule 14: one fact, one owner. See owners.tsv."""
+    out = []
+    for ln in open(path, encoding="utf-8"):
+        # A comment is a # with no tab after it. Checking only for a leading #
+        # silently swallowed every colour row -- "#FAF8F3<TAB>Colour System" is
+        # a rule, not a comment -- so four facts went unenforced while the
+        # summary line cheerfully reported the table as loaded.
+        if not ln.strip() or "\t" not in ln:
+            continue
+        p = ln.rstrip("\n").split("\t")
+        if len(p) >= 3:
+            out.append(tuple(x.strip() for x in p[:3]))
+    return out
 
-# ---------- gather ----------
-def walk(exts):
-    for root, dirs, files in os.walk(VAULT):
-        dirs[:] = [d for d in dirs if d not in SKIP_DIRS and ".git" not in d]
-        if any(s in root for s in SKIP_DIRS): continue
-        for fn in sorted(files):
-            if fn.endswith(exts):
+import markers, structure
+MARKERS = markers.HISTORY
+
+def load_rules(path):
+    rules = []
+    for ln in open(path, encoding="utf-8"):
+        if not ln.strip() or ln.startswith("#"):
+            continue
+        parts = ln.rstrip("\n").split("\t")
+        if len(parts) >= 3:
+            rules.append(tuple(p.strip() for p in parts[:3]))
+    return rules
+
+def _all_pdfs(vault):
+    for root, dirs, files in os.walk(vault):
+        dirs[:] = [d for d in dirs if not any(s in os.path.join(root, d) for s in SKIP_PARTS)]
+        if any(s in root for s in SKIP_PARTS):
+            continue
+        for fn in files:
+            if fn.lower().endswith(".pdf") and fn not in SOURCE_PDFS:
                 yield os.path.join(root, fn)
 
-def rel(p): return os.path.relpath(p, VAULT)
-def read(p):
-    try: return open(p, encoding="utf-8").read()
-    except Exception: return ""
-
-MD  = [p for p in walk((".md",))]
-PY_ = [p for p in walk((".py",))]
-ALL_FILES = {rel(os.path.join(r, f))
-             for r, d, fs in os.walk(VAULT) if ".git" not in r for f in fs}
-NOTE_NAMES = {os.path.splitext(os.path.basename(p))[0] for p in MD}
-
-# ---------- 1 · conflict markers ----------
-for p in MD + PY_:
-    for i, l in enumerate(read(p).splitlines(), 1):
-        if re.match(r"^(<{7,8}[^<]|>{7,8}[^>]|={7,8}$)", l):
-            fail("conflict-markers", f"{rel(p)}:{i}", "unresolved merge marker")
-
-# ---------- 2 · frontmatter ----------
-for p in MD:
-    r = rel(p)
-    if os.path.basename(p) in ("CLAUDE.md",) or "/README.md" in "/"+r: pass
-    s = read(p)
-    if not s.startswith("---"):
-        if os.path.basename(p) != "CLAUDE.md":
-            fail("frontmatter", r, "no YAML frontmatter")
-        continue
-    fm = s.split("---", 2)[1]
-    for k, allowed in VALID.items():
-        m = re.search(rf"^{k}:\s*(\S+)", fm, re.M)
-        if not m: fail("frontmatter", r, f"missing `{k}`")
-        elif m.group(1) not in allowed:
-            fail("frontmatter", r, f"{k}: `{m.group(1)}` is not one of {sorted(allowed)}")
-
-# ---------- 3 · every note folder has an index ----------
-for root, dirs, files in os.walk(VAULT):
-    dirs[:] = [d for d in dirs if d not in SKIP_DIRS and ".git" not in d]
-    if any(s in root for s in SKIP_DIRS) or root == VAULT: continue
-    r = rel(root)
-    if re.match(r"^01 - Daily Notes/\d\d - ", r): continue          # month folders share one index
-    mds = [f for f in files if f.endswith(".md") and f != "README.md"]
-    if not mds:
-        continue   # pure asset folders are covered by their parent's README
-    name = os.path.basename(root).split(" - ")[-1]
-    if (f"{name}.md" in files) or ("README.md" in files) or (f"{os.path.basename(root)}.md" in files):
-        continue
-    # a client folder's index is the client note, which is named after the folder
-    fail("folder-index", r, "no `<Folder>.md` index and no `README.md`")
-
-# ---------- 4 · wikilinks resolve ----------
-for p in MD:
-    s = re.sub(r"`[^`]*`", "", read(p))
-    s = re.sub(r"```.*?```", "", s, flags=re.S)
-    for t in set(re.findall(r"\[\[([^\]|#]+)", s)):
-        t = t.strip()
-        if t and t not in NOTE_NAMES:
-            fail("wikilink", rel(p), f"[[{t}]] resolves to nothing")
-
-# ---------- 5 · backticked paths that do not exist ----------
-PATHISH = re.compile(r"`([A-Za-z0-9 _\-./]+\.(?:md|py|css|pdf|png|jpg|svg|tsv|json|html))`")
-for p in MD:
-    base = os.path.dirname(rel(p))
-    for m in set(PATHISH.findall(read(p))):
-        if m.startswith(("http", "@")) or " " == m: continue
-        cands = {m, os.path.normpath(os.path.join(base, m))}
-        if any(c in ALL_FILES for c in cands): continue
-        if any(os.path.basename(m) == os.path.basename(f) for f in ALL_FILES): continue
-        warn("dead-path", rel(p), f"`{m}` is not a file in the vault")
-
-# ---------- 6 · retired claims stated live ----------
-rules = []
-for ln in read(os.path.join(HERE, "retired.tsv")).splitlines():
-    if ln.strip() and not ln.startswith("#"):
-        parts = ln.split("\t")
-        if len(parts) >= 3: rules.append(tuple(x.strip() for x in parts[:3]))
-for p in MD + PY_:
-    r = rel(p)
-    if r.startswith(LOG_DIR) or os.path.basename(p) in HISTORY_FILES: continue
-    muted = False
-    for i, line in enumerate(read(p).splitlines(), 1):
-        low = line.lower()
-        if "retired-ok:start" in low: muted = True; continue
-        if "retired-ok:end" in low:  muted = False; continue
-        if muted or any(mk in low for mk in MARKERS): continue
-        for pat, now, where in rules:
-            if pat in line:
-                fail("retired-claim", f"{r}:{i}", f"says “{pat}” — now: {now} ({where})")
-
-# ---------- 7 · content duplicated between a note and a generator ----------
-def arabic_runs(s):
-    return {x.strip() for x in re.findall(r"[؀-ۿ][؀-ۿ ،؟.,!؟«»]{18,}", s)}
-gen = {}
-for p in PY_:
-    for a in arabic_runs(read(p)): gen.setdefault(a, []).append(rel(p))
-for p in MD:
-    r = rel(p)
-    if r.startswith(LOG_DIR) or os.path.basename(p) in HISTORY_FILES: continue
-    for a in arabic_runs(read(p)):
-        if a in gen:
-            warn("duplicated-content", r,
-                 f"same Arabic string also hard-coded in {', '.join(gen[a])} — “{a[:42]}…”")
-
-# ---------- 8 · every PDF a note names actually exists ----------
-pdfs = {os.path.basename(f) for f in ALL_FILES if f.endswith(".pdf")}
-EXTERNAL = {l.strip() for l in read(os.path.join(HERE, "external.txt")).splitlines()
-            if l.strip() and not l.startswith("#")}
-for p in MD:
-    r = rel(p)
-    if r.startswith(LOG_DIR) or os.path.basename(p) in HISTORY_FILES: continue
-    muted = False
-    for i, line in enumerate(read(p).splitlines(), 1):
-        low = line.lower()
-        if "retired-ok:start" in low: muted = True; continue
-        if "retired-ok:end" in low:  muted = False; continue
-        if muted or any(mk in low for mk in MARKERS): continue
-        for m in set(re.findall(r"`([^`]+\.pdf)`", line)):
-            b = os.path.basename(m)
-            if b in EXTERNAL or any(x in m for x in EXTERNAL): continue
-            if b in pdfs: continue
-            near = [f for f in pdfs if f.endswith(b) or b.endswith(f)]
-            if near:
-                warn("pdf-partial-name", f"{r}:{i}", f"names `{m}`; the file is `{near[0]}`")
+def main():
+    rules = load_rules(os.path.join(HERE, "retired.tsv"))
+    hits = []
+    for root, dirs, files in os.walk(VAULT):
+        dirs[:] = [d for d in dirs if not any(s in os.path.join(root, d) for s in SKIP_PARTS)]
+        if any(s in root for s in SKIP_PARTS):
+            continue
+        for fn in files:
+            if not fn.endswith((".md", ".py")) or fn in SKIP_NAMES:
                 continue
-            fail("missing-pdf", f"{r}:{i}", f"names `{m}`, which is not in the vault")
+            fp = os.path.join(root, fn)
+            try:
+                lines = open(fp, encoding="utf-8").read().splitlines()
+            except Exception:
+                continue
+            muted = False
+            for i, line in enumerate(lines, 1):
+                low = line.lower()
+                # block-level exemption for a region that IS the audit trail
+                if "retired-ok:start" in low:
+                    muted = True; continue
+                if "retired-ok:end" in low:
+                    muted = False; continue
+                if muted or any(m in low for m in MARKERS):
+                    continue
+                for pat, now, where in rules:
+                    if pat in line:
+                        hits.append((os.path.relpath(fp, VAULT), i, pat, now, where))
 
-# ---------- 9 · notes nothing links to ----------
-inbound = collections.Counter()
-for p in MD:
-    s = re.sub(r"`[^`]*`", "", read(p))
-    for t in set(re.findall(r"\[\[([^\]|#]+)", s)):
-        inbound[t.strip()] += 1
-for p in MD:
-    n = os.path.splitext(os.path.basename(p))[0]
-    r = rel(p)
-    if r.startswith(LOG_DIR) or os.path.basename(p) in ("README.md","CLAUDE.md","VAULT-INDEX.md"): continue
-    if inbound[n] == 0:
-        warn("orphan", r, "no note links to it")
+    # ---------------------------------------------------------------- PDFs
+    # The deliverable that actually reaches the client is the PDF, and that is
+    # exactly where the BeBo reversal survived: every .md and .py could be
+    # clean while page 11 of the shipped book said the opposite.
+    #
+    # This check is line-based for the same reason every other one is: a line
+    # is the unit that can carry a history marker. A PDF is a bag of positioned
+    # glyphs, so pdftext rebuilds lines from the text-matrix before the same
+    # MARKERS apply. Matching the whole document as one string would only ever
+    # be able to pass everything or fail everything, and an audit-trail page
+    # would fail the build forever.
+    pdf_hits = []
+    for root, dirs, files in os.walk(VAULT):
+        dirs[:] = [d for d in dirs if not any(s in os.path.join(root, d) for s in SKIP_PARTS)]
+        if any(s in root for s in SKIP_PARTS):
+            continue
+        for fn in files:
+            if not fn.lower().endswith(".pdf") or fn in SOURCE_PDFS:
+                continue
+            fp = os.path.join(root, fn)
+            try:
+                doc = pdftext.pages(fp)
+            except Exception as e:
+                pdf_hits.append((os.path.relpath(fp, VAULT), 0, "(unreadable)",
+                                 f"{type(e).__name__}: {e}", "pdftext.py"))
+                continue
+            muted = False
+            for pageno, plines in doc:
+                for line in plines:
+                    forms = pdftext.variants(line)
+                    low = " ".join(forms).lower()
+                    if "retired-ok:start" in low:
+                        muted = True; continue
+                    if "retired-ok:end" in low:
+                        muted = False; continue
+                    if muted or any(m in low for m in MARKERS):
+                        continue
+                    for pat, now, where in rules:
+                        if any(pat in f for f in forms):
+                            pdf_hits.append((os.path.relpath(fp, VAULT), pageno,
+                                             pat, now, where))
 
-# ---------- report ----------
-def show(items, label):
-    if not items: return
-    print(f"\n{label} ({len(items)})")
-    by = collections.defaultdict(list)
-    for c, w, m in items: by[c].append((w, m))
-    for c in sorted(by):
-        print(f"\n  [{c}]")
-        for w, m in by[c]: print(f"    {w}\n        {m}")
+    # ---------------------------------------------------- one fact, one owner
+    # Rule 14. A note that does not own a fact may still mention it -- prose has
+    # to read like prose -- but the line must LINK the owner, which turns a
+    # restatement into a citation. A citation sends the next reader to the one
+    # file allowed to be wrong; a restatement quietly becomes another source
+    # nobody remembers to update. Measured before this check existed: 23 of 24
+    # tracked facts lived in two or more notes, the delivery date in thirteen.
+    owner_hits = []
+    owners = load_owners(os.path.join(HERE, "owners.tsv"))
+    for root, dirs, files in os.walk(VAULT):
+        dirs[:] = [d for d in dirs if not any(s in os.path.join(root, d) for s in SKIP_PARTS)]
+        if any(s in root for s in SKIP_PARTS):
+            continue
+        for fn in files:
+            if not fn.endswith(".md") or fn in SKIP_NAMES:
+                continue
+            name = fn[:-3]
+            fp = os.path.join(root, fn)
+            muted = False
+            # A citation counts for its whole SECTION, not just its own line.
+            # A colour table cites [[Colour System]] in the sentence above it and
+            # then lists nine rows; demanding a link inside every cell would make
+            # the table unreadable to serve a checker. So the owner is considered
+            # cited from the moment it is linked until the next heading.
+            cited = set()
+            for i, line in enumerate(open(fp, encoding="utf-8").read().splitlines(), 1):
+                low = line.lower()
+                if line.startswith("#"):
+                    cited = set()
+                for _pat, owner_name, _what in owners:
+                    if f"[[{owner_name}]]" in line:
+                        cited.add(owner_name)
+                if "retired-ok:start" in low: muted = True; continue
+                if "retired-ok:end" in low: muted = False; continue
+                if muted or markers.is_history(line):
+                    continue
+                for pat, owner, what in owners:
+                    if name == owner or not re.search(pat, line):
+                        continue
+                    if owner in cited:
+                        continue
+                    owner_hits.append((os.path.relpath(fp, VAULT), i, pat, owner, what))
 
-print(f"vault-check · {len(MD)} notes, {len(PY_)} generators, {len(rules)} retired claims")
-show(FAILS, "FAIL")
-if not QUIET: show(WARNS, "WARN — look, but not necessarily wrong")
-print(f"\n{'CLEAN' if not FAILS else 'FAILED'} · {len(FAILS)} fail, {len(WARNS)} warn")
-sys.exit(1 if FAILS else 0)
+    # The structural half: links that resolve, valid frontmatter, indexes that
+    # exist, files that are really there. Same marker vocabulary, same
+    # line-based rule - see structure.py.
+    struct = structure.run()
+
+    if not hits and not pdf_hits and not struct and not owner_hits:
+        print(f"vault-check: clean. {len(rules)} retired claims, none stated live.")
+        print(f"             notes, code and {sum(1 for _ in _all_pdfs(VAULT))} shipped PDFs all checked line by line.")
+        print( "             structure clean: links, frontmatter, indexes, orphans.")
+        print(f"             {len(owners)} owned facts, each stated only by its owner or with a citation.")
+        return 0
+
+    print(f"vault-check: FAILED. {len(hits) + len(pdf_hits)} live statement(s) of a retired claim"
+          f"{f', {len(owner_hits)} restated fact(s)' if owner_hits else ''}"
+          f"{f', {len(struct)} structural finding(s)' if struct else ''}.\n")
+    if pdf_hits:
+        print("  IN A SHIPPED PDF - this is the copy that reaches the client:\n")
+        for fp, pg, pat, now, where in pdf_hits:
+            print(f"  {fp}  page {pg}")
+            print(f"     says     : {pat}")
+            print(f"     but now  : {now}")
+            print(f"     decided  : {where}")
+            print(f"     fix      : correct the source, then re-render. Editing the PDF is not a fix.\n")
+    for fp, i, pat, now, where in hits:
+        print(f"  {fp}:{i}")
+        print(f"     says     : {pat}")
+        print(f"     but now  : {now}")
+        print(f"     decided  : {where}\n")
+    if owner_hits:
+        print(f"  RESTATED FACT - rule 14, one fact one owner ({len(owner_hits)}):\n")
+        for fp, i, pat, owner, what in owner_hits:
+            print(f"  {fp}:{i}")
+            print(f"     restates : {pat}   ({what})")
+            print(f"     owner    : {owner}")
+            print(f"     fix      : drop the value and link [[{owner}]], or cite it on the same line\n")
+    if struct:
+        structure.report(struct)
+        print()
+    print("Fix each one, mark the line as history (SUPERSEDED / withdrawn / was wrong),")
+    print("or wrap a whole audit-trail region in <!-- retired-ok:start --> ... <!-- retired-ok:end -->.")
+    return 1
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -92,7 +92,6 @@ Contrast is measured against pure white and against Ink `#141414`. **"pass"** cl
 | **Deep Magenta** | `#D6006E` | 214 0 110 | 0 100 49 16 | 5.1:1 pass | 3.6:1 headline |
 | **Deep Purple** | `#92278F` | 146 39 143 | 0 73 2 43 | 7.2:1 pass | 2.6:1 **fail** |
 
-
 > **Two governed exceptions, both deliberate:**
 > **Peach Orange vs Mango Orange, ΔE 4.93.** Tight. They stay separate because they belong to different brands that never share a surface. Within one brand this gap would be forbidden.
 > **Ice Blue vs Nectar Blue, ΔE 2.74.** Tighter still, and this one nearly caused a mistake worth recording. The instinct was to move AlRawy's apple field off 2MAN's signature blue. **That would have been repainting a printed pack, which is outside this scope.** The real fix is governance: 2MAN owns Ice Blue as a *brand* colour, AlRawy's Nectar Blue is a *flavour field* on one SKU. Different layers, so no collision, provided AlRawy never uses that blue as a brand element and the two brands never share a layout. Rule, not repaint.
@@ -149,7 +148,6 @@ Every colour on every pack, mapped to a master. **If a colour is not in this tab
 *The gel wordmark's full spectrum lives inside the artwork and is not a system value.*
 
 > **The Kids Brights set**, shared by 2MAN and POLEKA because the packs already share it: Ice Blue, Bright Yellow, Bright Pink, Leaf Green. **Neither brand owns any of the four.** 2MAN owns Ice Blue only as its *home* colour, which is a usage claim and not an exclusive one. Separation between these two brands is carried by character, layout and type, never by colour, because colour cannot carry it.
-
 
 ## 6. The ramps
 
@@ -309,6 +307,4 @@ Contrast of the seal's own ring against its ground:
 > **The rule: the seal goes on white or Paper, and on nothing else.** It carries its own ring and its own disc, so it needs a light ground to have an edge at all. **This is a live defect in a shipped deliverable** — `design-system/kit.py` places the seal on `#05004B` labelled "ON NAVY — DEFAULT" and makes the profile picture the seal on Alex Navy. Confirmed by eye as well as by ratio.
 - **Type system**, the other half of deliverable 2. Next in Phase 1 of [[Foundation Roadmap]].
 
----
-
-**Related:** [[Alex Foods]] · [[Colour and Type Kit]] · [[Foundation Roadmap]] · [[Brand Voice Guide]] · [[Brand Book Spec]] · [[Alex Foods Brands]]
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

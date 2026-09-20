@@ -82,7 +82,7 @@ The media buyer is added **as a user inside TSA's Business Manager**, then grant
 
 ## Path B — It is a personal profile. Bigger problem, and it is the likely one.
 
-**If those 52,000 followers sit on a personal profile:**
+**If those 52,000 ([[Alex Foods Discovery Brief]]) followers sit on a personal profile:**
 
 - **No paid campaigns can run from it. At all.** Package A includes campaign management, and that deliverable would have nowhere to run.
 - **Partner access does not exist for profiles.** There is nothing to grant.
@@ -97,7 +97,7 @@ The media buyer is added **as a user inside TSA's Business Manager**, then grant
 
 1. **Confirm it is a profile.** Do not act on the URL alone.
 2. **Create a proper Page for Alex Foods** and set it up correctly from the start, per book §14.
-3. **Then decide on migration versus rebuild.** Migration keeps the 52,000 and carries risk. A rebuild is clean and starts from zero. **On a three-month contract measured in comments and views, losing the 52,000 would be severe** — so migration is almost certainly right, but it is the client's asset and the client's call.
+3. **Then decide on migration versus rebuild.** Migration keeps the 52,000 ([[Alex Foods Discovery Brief]]) and carries risk. A rebuild is clean and starts from zero. **On a three-month contract measured in comments and views, losing the 52,000 would be severe** — so migration is almost certainly right, but it is the client's asset and the client's call.
 4. **Flag it as the first item on the job.** It can invalidate the platform strategy rather than merely block a deliverable.
 
 ---
@@ -123,7 +123,3 @@ The media buyer is added **as a user inside TSA's Business Manager**, then grant
 - **business.facebook.com works in Safari.** If the layout collapses, use **AA → Request Desktop Website**.
 - **The Meta Business Suite app** handles day-to-day posting and inbox, but **partner and permission settings are more reliable in the desktop-mode browser.**
 - **Do the setup in Safari desktop mode, then live in the app.**
-
----
-
-**Related:** [[Alex Foods]] · [[Alex Foods Discovery Brief]] · [[TSA Client System]] · [[TSA]]

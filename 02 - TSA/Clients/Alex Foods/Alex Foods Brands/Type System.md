@@ -105,6 +105,4 @@ White type fails on 11 of the 18 masters. It is genuinely correct on only four f
 - ~~**Vector logo files.**~~ **Closed 18 September**, per the note at §1 — *and superseded for the master seal on 19 September:* no source files exist, all four marks are cut out on transparency, and nothing in either stage is printed. §1's rule is unchanged and never depended on the file format.
 - **Licence confirmation** on the Plex family, §2. **This is now the only thing this note waits on.**
 
----
-
-**Related:** [[Alex Foods]] · [[Colour System]] · [[Colour and Type Kit]] · [[Brand Voice Guide]] · [[Foundation Roadmap]] · [[Brand Book Spec]]
+**Up:** [[Alex Foods Brands]] · [[Alex Foods]]

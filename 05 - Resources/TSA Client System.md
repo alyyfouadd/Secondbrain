@@ -112,6 +112,34 @@ Learned the hard way on client one. **Sequenced by dependency, not by the order 
 
 **Never ask for a login.** The partner route in [[Meta Access Runbook]] means credentials never move, access survives staff changes on both sides, and the client revokes it in one click when the engagement ends. **And the ad account must be the client's, not the agency's** — otherwise the agency becomes payer of record for media spend the contract says the client pays directly.
 
+## 4d. The pre-flight, and it exists because client one paid for it eight times
+
+**Before writing a single line of copy, a positioning, a mechanic or a calendar, answer these four.** **Every one of them was skipped on client one and every skip cost a rewrite.**
+
+| # | The check | What it cost when skipped |
+|---|---|---|
+| **1** | **Have I opened the actual product image, or am I working from a note?** | Ten slogans written for a product the note misdescribed. **The photograph was in the same folder the whole time.** |
+| **2** | **Has the client said anything that contradicts what I inferred?** | A range's whole voice section built on the wrong audience, **after the contradiction had been spotted, written down, and deferred.** |
+| **3** | **What are they already running?** | **Two giveaway mechanics and three live campaigns** designed around rather than found. One of them was the client's most urgent priority. |
+| **4** | **Which of my facts are CONFIRMED and which are OBSERVED?** | The tag system existed and was ignored. **An OBSERVED fact drove four decisions as if it were CONFIRMED.** |
+
+### The failure shape, named so it is recognisable next time
+
+**Every one of client one's eight rework cycles was the same move: an inference from packaging outranking a statement from the client.**
+
+Packaging is honest about one thing only — **what the artwork is doing.** It does not tell you what the product is, who buys it, how it is consumed, what it costs, or what campaigns are running behind it. **A pack is a picture of a decision somebody else made, and reading it is not research.**
+
+> **The tell, and it is worth memorising: the moment you write "worth one more question rather than a rewrite", you have already made the mistake.** That sentence is a deferral, and a deferral on a contradiction is a decision to build on the thing you suspect is wrong.
+
+### What to ask on day one, before any creative work
+
+Added to the discovery brief for every client after the first:
+
+- **What are you already running right now?** Campaigns, giveaways, promotions, trade programmes.
+- **How does a customer actually enter or buy?** The mechanic, physically.
+- **What is printed on the back of the pack?** **Client one's entire consumer mechanic lived on a surface nobody had photographed.**
+- **What is your most urgent deadline in the next month?** **Client one's was a back-to-school campaign the agency did not know existed.**
+
 ## 5. The questions that shaped client one, and will shape the next
 
 **Ask these before building anything.** On client one, several were asked late and the answers moved work that was already done.

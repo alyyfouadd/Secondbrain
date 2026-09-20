@@ -65,7 +65,12 @@ A fresh or post-compaction session must never operate without these.
 
 11. **Verify the date.** Check the actual system date before writing a date into anything permanent. Conversations stay open overnight, and a wrong date poisons every note it touches. **This one bites here more than most:** I'm in Egypt (Africa/Cairo) and I sleep around 8 AM, so most of my sessions run through the night and cross midnight mid-conversation. The machine you run on may well be on UTC. Convert to Cairo time before you write a date or a timestamp anywhere.
 
-12. **Locked decisions stay locked.** If an instruction would contradict a rule marked "Locked" or a deliberate prior decision, pause and surface it ("this contradicts [X]. Are you changing it, or is this a one-time exception?") instead of silently overriding it.
+12. **The client's own words outrank your reading of their materials. Always, and without a "let me check one more thing" in between.** When what they say conflicts with what you inferred from a pack, a logo, a screenshot or a previous session's note, **they are right and you are wrong until proven otherwise.** Three enforcements, because this failed seven times in three days on one client and every failure had the same shape:
+    - **Open the source before you write about the thing.** If an image, a PDF or a file exists in the folder, **look at it.** Never work from a description somebody else wrote when the original is one command away. *(Ten slogans were written for a product from a note that misdescribed it, with the photograph sitting in the same folder.)*
+    - **Never defer a contradiction.** Noticing that their statement conflicts with your reading and writing *"worth one more question rather than a rewrite"* is how a whole voice section gets built on the wrong person. **Resolve it in that pass or stop.**
+    - **Ask what already exists before designing what is missing.** *"What are you already running?"* comes before *"here is what you should run."* **Two giveaway mechanics and three live campaigns were invented around rather than found.**
+
+13. **Locked decisions stay locked.** If an instruction would contradict a rule marked "Locked" or a deliberate prior decision, pause and surface it ("this contradicts [X]. Are you changing it, or is this a one-time exception?") instead of silently overriding it.
 
 ## How the vault stays healthy
 - **The vault is the memory.** Hold only the current task; reach for the rest on demand. Keeping the vault current is not busywork — it is how the system maintains itself. Letting it drift, or skipping a checkpoint, breaks the exact thing that makes the AI useful.

@@ -198,13 +198,23 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 - `[MISSING]` **Whether 2MAN stops in winter.** An ice pop in an Egyptian January is a different business from one in July, and it decides whether the calendar can run flat across four ranges.
 
 ### POLEKA — jelly candy *(in the Foundation, not in the signed scope)*
-- `[OBSERVED]` **A DRINKABLE jelly in a bottle-shaped pouch with a snip-off neck.** Cut the neck, suck it out. **Not a chew candy** — corrected 20 September after opening the packshot for the first time. Each pouch is a full-bleed animal: caterpillar, lion, a cola bottle, giraffe and friends. Rainbow gel letters on a cloud, «جيلي كيدز». The loudest, youngest mark. No Alex seal.
+- `[CONFIRMED]` **A FROZEN JUICE in a bottle-shaped pouch with a snip-off neck.** *Corrected twice on 20 September: first from chew candy to drinkable jelly off the packshot, then to frozen juice by Aly. **«جيلي» on the pack describes the texture, not the category.*** Cut the neck, suck it out. **Not a chew candy** — corrected 20 September after opening the packshot for the first time. Each pouch is a full-bleed animal: caterpillar, lion, a cola bottle, giraffe and friends. Rainbow gel letters on a cloud, «جيلي كيدز». The loudest, youngest mark. No Alex seal.
 - `[OBSERVED]` **The bottle shape is the product idea, not decoration: a sweet pretending to be a drink.** Which also makes POLEKA consistent with the rest of the house rather than the odd one out — **BeBo, AlRawy and POLEKA are all drunk**, and 2MAN is the only one that is not.
 - `[OBSERVED]` **4 SKUs:** apple · mango · cola · strawberry.
 - `[CONFIRMED]` **The cola SKU stays out of paid campaigns and out of copy** until the rights answer in §10 lands.
 
 ### Seasons
 - `[MISSING]` Strongest and weakest months, and the Ramadan, summer and school effect. **Not answered, and it is the input the content calendar needs most after the goal.**
+> ### `[CONFLICT]` THE SEASONALITY PROBLEM JUST DOUBLED, AND IT IS THE BIGGEST COMMERCIAL RISK ON THIS CONTRACT
+>
+> **POLEKA is frozen. 2MAN is frozen. That is HALF the portfolio in the freezer, not a quarter.**
+>
+> **The three-month paid term runs roughly October to January. Egyptian winter.** If both frozen ranges behave the way frozen products behave, **two of the four ranges sit out of season for the entire contract**, and BeBo and AlRawy carry all three monthly calendars alone.
+>
+> **This was flagged as a quarter of the portfolio when only 2MAN was known to be frozen. It is now half**, which moves it from a calendar adjustment to a question about what the client should actually be paying for between October and January.
+>
+> **Still inference from category, not their data** — which is exactly why the seasonality question is now the most valuable unanswered item on the job, ahead of the BeBo photo.
+
 - `[ASSUMED]` Four ranges probably carry four different seasons — 2MAN on summer, BeBo plausibly on Ramadan and the school year, POLEKA on pocket money, AlRawy on the lunchbox. **Inference from product category, not from their data.** If it is even roughly right, one flat calendar across four ranges is wrong.
 
 **أسئلة لمحمد:**

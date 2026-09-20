@@ -420,6 +420,44 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 
 > **The rule: when writing copy for a product, look at the product.** Not the note about it. **A note is somebody else's reading, and a slogan written off a reading is a slogan about a reading.**
 
+## 5c-viii. POLEKA is a frozen juice — 20 September
+
+**Aly: "it's more of a frozen juice."** Third product correction on this range in one night. **«حلاوة تتشرب» is dead with the rest** — it is not candy.
+
+**«جيلي» on the pack describes the texture, not the category.**
+
+### The lines depend on one thing nobody has established
+
+**Is POLEKA sold already frozen, or sold liquid for the child to freeze at home?** They are different products commercially and they take opposite slogans.
+
+| If it is sold **frozen** | If it is sold **liquid to freeze** |
+|---|---|
+| Impulse buy from a freezer, same shelf as 2MAN | Take-home, planned, a mother buys a few |
+| The line sells **cold, now** | The line sells **the ritual** — the child makes it |
+| Competes directly with every ice pop in Alexandria | Competes with nothing, because **the freezing is the novelty** |
+
+**Lines for sold-frozen:**
+
+| السطر | Gloss |
+|---|---|
+| **«بوليكا.. ساقعة أحلى»** | POLEKA, better cold. **Their أحلى without their مع**, so it stays in the family without repeating the master's construction. |
+| «بوليكا.. برد في ازازة» | POLEKA, cold in a bottle. Concrete, the form and the temperature in three words. |
+
+**Lines for freeze-at-home, and this is the more interesting product if it is true:**
+
+| السطر | Gloss |
+|---|---|
+| **«بوليكا.. جمّدها وكُلها»** | POLEKA, freeze it and eat it. **Two imperatives, the whole ritual in three words**, same construction family as «صوّر واكسب مع بيبو». |
+| «بوليكا.. انت اللي بتعملها» | POLEKA, you make it yourself. Participation as the proposition. |
+
+> **The freeze-at-home version is the better brand if it is the real one.** A sweet the child *makes* is a sweet the child owns, it turns a five-minute purchase into an afternoon, and **nothing else in the house or on the shelf asks the buyer to do anything.** That is a genuine differentiator rather than a claimed one.
+
+### And the finding that matters more than the line
+
+**POLEKA is frozen. 2MAN is frozen. That is half the portfolio in the freezer.**
+
+**The paid term runs roughly October to January.** The seasonality risk was flagged at a quarter of the portfolio when only 2MAN was known to be frozen. **It is now half**, and that stops being a calendar adjustment and becomes a question about what the client should be paying for across an Egyptian winter.
+
 ## 5d. The giveaway — BeBo's, 20 September 2026
 
 > **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.

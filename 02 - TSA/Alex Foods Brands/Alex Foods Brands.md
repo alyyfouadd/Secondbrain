@@ -141,7 +141,11 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ---
 
-## POLEKA — **drinkable jelly** *(in the Foundation, not yet in the signed scope)*
+## POLEKA — **frozen juice** *(in the Foundation, not yet in the signed scope)*
+
+> **CORRECTED AGAIN, 20 September: POLEKA is a FROZEN JUICE.** Aly: *"it's more of a frozen juice."* Not a chew candy, and not a room-temperature drinkable jelly either. **The «جيلي» on the pack describes the texture, not the category.** The scissors and the cut neck are real; what comes out of the neck is frozen or near-frozen juice.
+
+
 
 > **CORRECTED 20 September 2026: POLEKA is a DRINKABLE jelly, not a chew candy.** Opened the packshot properly for the first time. **Every pouch carries a scissors icon and a cut line at the bottle neck** — you snip it and suck the jelly out. **The bottle shape is not decoration, it is the product idea: a sweet pretending to be a drink.** The earlier description, *jelly candy in bottle-shaped pouches*, was read off the silhouette and is what every failed POLEKA slogan was built on.
 
@@ -150,7 +154,7 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 `mockup-poleka.png`
 
 - **Logo:** "POLEKA" in fat rainbow gel letters on a cloud, with "jelly" and Arabic **جيلي كيدز** and small jelly-blob faces. The loudest, youngest mark of the four.
-- **Format: a stand-up pouch moulded to a bottle silhouette, with a snip-off neck.** Consumed by cutting the neck and sucking the jelly out, **not by chewing.** Each pouch is wrapped in a full-bleed animal — caterpillar (apple), lion (mango), a cola bottle (cola), giraffe and friends (strawberry).
+- **Format: a frozen juice in a stand-up pouch moulded to a bottle silhouette, with a snip-off neck.** Cut the neck and suck it out. **Not a chew candy, and not a shelf-stable jelly.** Each pouch is wrapped in a full-bleed animal — caterpillar (apple), lion (mango), a cola bottle (cola), giraffe and friends (strawberry).
 - **The cola SKU is a photoreal Coca-Cola bottle rendered on a pink pouch**, with «Cola Cola» in near-identical script. The trademark flag is worse seen than described.
 - **No Alex seal.**
 - **4 SKUs visible:** apple (التفاح) · mango (المانجو) · cola · strawberry (الفراولة)

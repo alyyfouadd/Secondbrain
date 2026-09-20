@@ -191,7 +191,11 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 ---
 
-## 6. POLEKA — drinkable jelly
+## 6. POLEKA — frozen juice
+
+> **CORRECTED AGAIN, 20 September: POLEKA is a FROZEN JUICE.** Aly: *"it's more of a frozen juice."* Not a chew candy, and not a room-temperature drinkable jelly either. **The «جيلي» on the pack describes the texture, not the category.** The scissors and the cut neck are real; what comes out of the neck is frozen or near-frozen juice.
+
+
 
 > **CORRECTED 20 September 2026: POLEKA is a DRINKABLE jelly, not a chew candy.** Opened the packshot properly for the first time. **Every pouch carries a scissors icon and a cut line at the bottle neck** — you snip it and suck the jelly out. **The bottle shape is not decoration, it is the product idea: a sweet pretending to be a drink.** The earlier description, *jelly candy in bottle-shaped pouches*, was read off the silhouette and is what every failed POLEKA slogan was built on.
 

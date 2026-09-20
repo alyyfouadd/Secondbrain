@@ -80,6 +80,8 @@ Learned the hard way on client one. **Sequenced by dependency, not by the order 
 | **Compute the palette against itself.** | Client one had **five exact colour collisions nobody had noticed**, including a range signature that was two other ranges' flavour fields. |
 | **The rhythm is derived from what the retainer funds.** | Client one's kit asked for ~83 posts a month against 20 funded assets. **A rhythm the contract cannot fund is one the client can hold you to.** |
 | **Print the status chip; never omit a bought deliverable.** | A book that quietly drops a section looks unfinished. One that says what it waits on looks governed. |
+| **Look at the product before writing copy for it. Not the note about it.** | Ten slogans written from a text description of a client product that turned out to misdescribe it. **The photograph was in the same folder the whole time.** A note is somebody else's reading, and copy written off a reading is copy about a reading. |
+| **Packaging tells you what the artwork is doing, never what the product means to the buyer.** | Three failures in one week from the same move: a product's format, its audience, and its entire positioning, all inferred from looking at a pack. **When the client states who buys it or what it is, that outranks the read.** |
 | **Never generate a pack, a mark or Arabic lettering with AI.** | A fabricated product on a food brand. The scene is generated; the artwork is composited. |
 | **The never-say list is legal, not stylistic.** | A reported page or a restricted ad account. **The agency runs the ad account, so it is the agency's exposure.** |
 | **No em dashes in outgoing copy.** | Copy that reads as machine-written. |

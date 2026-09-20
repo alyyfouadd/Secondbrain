@@ -382,6 +382,44 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 
 **Idea 2 depends entirely on the consumption question.** If it is squeezed and drunk, it is the strongest idea in the set and the only one built on a fact no competitor shares. **If it is chewed, the line is a lie and it dies immediately.**
 
+## 5c-vii. POLEKA — what it actually is, 20 September
+
+**Aly: "do you know what POLEKA actually is?"** **No. I did not.**
+
+**Ten slogans across four rounds were written from a text description of the product written by an earlier session.** The packshot has been in `packshots/poleka.png` since 19 September. **I never opened it.**
+
+### What opening it showed
+
+**Every pouch carries a scissors icon and a cut line at the bottle neck.** POLEKA is **a drinkable jelly**: you snip the neck and suck it out. **It is not a chew candy.**
+
+**So the bottle shape is not decoration. It is the product idea — a sweet pretending to be a drink**, and that is the single most distinctive thing about the range.
+
+**Three things follow immediately:**
+
+1. **"A toy you are allowed to eat" was wrong**, and every line built on play, characters, collecting and naming was built on a misread product.
+2. **"The one you chew" was wrong too** — that was my own idea 4, invented an hour ago on the same bad description. **POLEKA is not the odd one out in the house. BeBo, AlRawy and POLEKA are all drunk**; 2MAN is the only one that is not.
+3. **The trademark exposure is worse seen than described.** The cola SKU is a **photoreal Coca-Cola bottle rendered on a pink pouch** with «Cola Cola» in near-identical script. Reading it in a note undersold it.
+
+### The lines, built on what it is
+
+> ### «بوليكا.. حلاوة تتشرب»
+> *POLEKA, candy you drink.*
+>
+> **Three words, and it is the entire product novelty.** No competitor in the sweet aisle can say it, a child understands it instantly, and **it is true** — which none of the previous ten were, because they described a product that does not exist.
+
+**Alternates in the same truth:**
+
+| السطر | Gloss | Note |
+|---|---|---|
+| «بوليكا.. ازازة حلاوة» | POLEKA, a bottle of candy | **ازازة is the child's own word.** The most concrete of the three. |
+| «بوليكا.. اشرب حلاوتك» | POLEKA, drink your candy | Imperative, same family as «عيش» and «صوّر واكسب». |
+
+### The lesson, and it is more expensive than the lines
+
+**The vault's description was not wrong so much as thin** — *"jelly candy in bottle-shaped pouches"* is technically accurate and completely misses the product. **I trusted a note over a photograph that was sitting in the same folder.**
+
+> **The rule: when writing copy for a product, look at the product.** Not the note about it. **A note is somebody else's reading, and a slogan written off a reading is a slogan about a reading.**
+
 ## 5d. The giveaway — BeBo's, 20 September 2026
 
 > **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.

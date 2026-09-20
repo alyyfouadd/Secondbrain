@@ -198,7 +198,8 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 - `[MISSING]` **Whether 2MAN stops in winter.** An ice pop in an Egyptian January is a different business from one in July, and it decides whether the calendar can run flat across four ranges.
 
 ### POLEKA — jelly candy *(in the Foundation, not in the signed scope)*
-- `[OBSERVED]` Bottle-shaped pouches, each a full-bleed animal character — caterpillar, lion, giraffe. Rainbow gel letters on a cloud, «جيلي كيدز». The loudest, youngest mark. No Alex seal.
+- `[OBSERVED]` **A DRINKABLE jelly in a bottle-shaped pouch with a snip-off neck.** Cut the neck, suck it out. **Not a chew candy** — corrected 20 September after opening the packshot for the first time. Each pouch is a full-bleed animal: caterpillar, lion, a cola bottle, giraffe and friends. Rainbow gel letters on a cloud, «جيلي كيدز». The loudest, youngest mark. No Alex seal.
+- `[OBSERVED]` **The bottle shape is the product idea, not decoration: a sweet pretending to be a drink.** Which also makes POLEKA consistent with the rest of the house rather than the odd one out — **BeBo, AlRawy and POLEKA are all drunk**, and 2MAN is the only one that is not.
 - `[OBSERVED]` **4 SKUs:** apple · mango · cola · strawberry.
 - `[CONFIRMED]` **The cola SKU stays out of paid campaigns and out of copy** until the rights answer in §10 lands.
 

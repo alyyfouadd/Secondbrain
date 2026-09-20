@@ -141,12 +141,17 @@ The Service Scope V2 says the Brand Voice Guide covers "one brand voice, a diffe
 
 ---
 
-## POLEKA — jelly candy *(in the Foundation, not yet in the signed scope)*
+## POLEKA — **drinkable jelly** *(in the Foundation, not yet in the signed scope)*
+
+> **CORRECTED 20 September 2026: POLEKA is a DRINKABLE jelly, not a chew candy.** Opened the packshot properly for the first time. **Every pouch carries a scissors icon and a cut line at the bottle neck** — you snip it and suck the jelly out. **The bottle shape is not decoration, it is the product idea: a sweet pretending to be a drink.** The earlier description, *jelly candy in bottle-shaped pouches*, was read off the silhouette and is what every failed POLEKA slogan was built on.
+
+
 
 `mockup-poleka.png`
 
 - **Logo:** "POLEKA" in fat rainbow gel letters on a cloud, with "jelly" and Arabic **جيلي كيدز** and small jelly-blob faces. The loudest, youngest mark of the four.
-- **Format:** bottle-shaped pouches, each wrapped in a full-bleed animal character — caterpillar, lion, giraffe and friends.
+- **Format: a stand-up pouch moulded to a bottle silhouette, with a snip-off neck.** Consumed by cutting the neck and sucking the jelly out, **not by chewing.** Each pouch is wrapped in a full-bleed animal — caterpillar (apple), lion (mango), a cola bottle (cola), giraffe and friends (strawberry).
+- **The cola SKU is a photoreal Coca-Cola bottle rendered on a pink pouch**, with «Cola Cola» in near-identical script. The trademark flag is worse seen than described.
 - **No Alex seal.**
 - **4 SKUs visible:** apple (التفاح) · mango (المانجو) · cola · strawberry (الفراولة)
 

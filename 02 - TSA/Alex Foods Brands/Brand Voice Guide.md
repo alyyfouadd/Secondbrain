@@ -191,7 +191,11 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 ---
 
-## 6. POLEKA — jelly candy
+## 6. POLEKA — drinkable jelly
+
+> **CORRECTED 20 September 2026: POLEKA is a DRINKABLE jelly, not a chew candy.** Opened the packshot properly for the first time. **Every pouch carries a scissors icon and a cut line at the bottle neck** — you snip it and suck the jelly out. **The bottle shape is not decoration, it is the product idea: a sweet pretending to be a drink.** The earlier description, *jelly candy in bottle-shaped pouches*, was read off the silhouette and is what every failed POLEKA slogan was built on.
+
+
 
 **Talking to: the child, deliberately.** POLEKA's whole commercial job is being asked for by name, out loud, in a shop. The copy exists to make the name sayable and the characters memorable.
 

@@ -206,6 +206,48 @@ The contents page **mirrors the signed Service Scope V2's own deliverable list, 
 - **No stock photography, anywhere.** The book shows the brands' own artwork only. A stock lifestyle shot in a brand book is a promise about a photo library that does not exist.
 - **Export specs live at the back**, not scattered: feed 1080 × 1350, story 1080 × 1920, profile 320 × 320 with the safe circle marked, cover per platform, GBP photo 1200 × 900 minimum. So the next designer does not have to ask.
 
+## 6b. Why the renders read cheap, and the eight fixes — 20 September
+
+**Aly's read on the shipped PDFs: "doesn't look clean, the colour and the kit look cheap."** He is right. Both files were rendered to PNG and looked at properly for the first time, and the causes are specific and fixable. **None of them is a taste disagreement and none needs money.**
+
+> **The diagnosis in one line: the pages are built out of bordered boxes on an off-white ground, with no scale hierarchy and leftover space at the foot. That is the visual signature of a dashboard, not a brand book.**
+
+**Ranked by how much each one is costing, worst first.**
+
+**1. The seal is the low-resolution raster, everywhere, and the real vector is sitting unused.** Every placement in both generators — 10 of them — points at `../logos-transparent/logo-alex-lockup-transparent.png`. **`logos-vector/` is referenced zero times.** So the cover mark, the profile circle and every lockup are a cut-out of a 3D render: soft edges, muddy ribbon, and the Arabic ring text is illegible mush at cover size. **The true Illustrator master arrived on 19 September and nothing was repointed at it.** This single fix lifts the cover, the profile art and every mockup at once, and it is the cheapest win available.
+
+**2. Fifty-five hairline boxes.** 34 border rules in `book.py`, 21 in `kit.py`, nearly all `0.25mm solid SILVER`. Kit page 1 alone carries nine bordered rectangles. **Boxing every element is what makes a layout read as a template**, because it is what a template does when it cannot trust its own alignment. A brand book groups with whitespace, shared baselines and one rule where a break genuinely matters. **Delete most of the borders and let the grid do the grouping.**
+
+**3. The green `DEFINED` chip.** A bright `#1BA34C` pill with white caps, sitting at the top of section openers. **It is a status badge out of a project tracker and it is on the client's document.** The status chips were the right idea for honesty (§6, "rules that apply to every page") and the wrong execution: set them as a small eyebrow in Graphite beside the section number, not as a coloured pill.
+
+**4. No middle tier in the type scale.** On a typical inner page the only large thing is a 21pt Arabic statement and everything else sits at 10 to 12pt. **A designed page has three or four clear levels; these have two**, so nothing leads the eye and every block competes. The scale in §4 already defines 28pt page headings and 16pt sub-heads — **they are specified and not being used.**
+
+**5. Leftover space at the foot, not designed space.** Inner pages stop around three-quarters down and leave the rest blank. **That reads as a generator running out of content**, which is exactly what it is. Either let a section breathe into the space deliberately, or let pages run short on purpose and consistently, or rebalance so blocks fill. **Inconsistent trailing void is the tell.**
+
+**6. Red is doing too much.** TSA's own system reserves Signal Red for one key word per headline, rules and eyebrows, and **explicitly not for full-bleed backgrounds** other than the guarantee panel. The book uses full-width red slabs as a recurring section device. **On a page that is already busy it reads loud rather than authoritative.** Keep the red panel for the one statement per section that earns it.
+
+**7. Every section opener looks identical.** Same thin rule, same red caps label left, same grey Arabic right. **Equal treatment means no hierarchy**, so a reader cannot tell §04 Colour from a minor sub-block. Vary weight and space by level.
+
+**8. The measure is too long.** 170mm live area with 10.5pt body puts English lines well past the comfortable 60 to 75 characters. **Long measure is one of the quietest cheap-tells there is.** Either set body in two columns on text-heavy pages, or inset body copy to about 120mm and leave the outer column for captions and Arabic glosses.
+
+### The range marks on kit page 1
+
+Separately worth naming: **the four range logos in the "THE FOUR RANGES" panel are tiny and pixelated on a grey box.** They are the client's own marks and they are the thing a client looks at first. Give them room, set them on Paper rather than Mist, and size them off their real resolution — **and never enlarge one past its source, which is the rule the recipe already states.**
+
+### There is no plugin, and it is worth being straight about why
+
+**These PDFs are not made by Obsidian.** `book.py` and `kit.py` write HTML and CSS, and headless Chromium renders it. **No Obsidian plugin touches that pipeline**, and the Obsidian PDF-export plugins are for exporting notes, which would produce something markedly worse than what exists now. **The lever is the CSS, not an add-on.**
+
+**What would genuinely help, priced honestly:**
+
+- **Free, and the biggest lift: the eight fixes above.** All CSS and asset-path changes in the two generators.
+- **Free: use the vector seal** — it is already in the vault.
+- **Free: a paid-looking Arabic display face.** [[Type System]] already names the tradeoff — Plex runs cool and technical — and names **Cairo** as the warmer fallback. Both free and properly licensed.
+- **Costs money and is not recommended yet: a premium Arabic display licence.** It would lift the book, but it is the last 10% and it should wait until the eight free fixes are in and the improvement can actually be judged against them.
+- **Rejected, and the reasoning stands: Canva or a layout app.** 39 pages hand-assembled, and every revision round a manual re-layout. §3 chose HTML precisely so a revision is an edit and a re-render.
+
+> **All eight are source-code changes to `book.py` and `kit.py`, so they wait on Aly's go-ahead** — the same gate as the section 16 re-render in [[Alex Foods Week 1 Messages]] §6. **Doing them in one pass is right**, because every one of them changes the same pages and re-rendering twice wastes the proof pass.
+
 ## 7. What this spec is still waiting on
 
 - ~~What "Alex" is.~~ **Answered 18 September: Alex Foods is the MASTER BRAND**, and the four are ranges beneath it. § 03 carries a master layer — **still no house palette**, but now by architectural choice rather than because a parent does not repaint what it endorses: the master owns the seal and the presence, the ranges keep the four clashing palettes that separate them on a shelf. **§ 09 builds one Alex Foods presence, not four brand pages**, and the earlier bio rule is withdrawn — **every bio names Alex Foods**, sealed pack or not, because the seal is mid-rollout rather than a tier. See [[Brand Voice Guide]] §2.

@@ -94,28 +94,34 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 >
 > **Everything below — the feeling, the words in, the draft captions — is on hold until a photo of the back of a BeBo pack arrives.** Register, sentence length, emoji policy and person are unaffected and stand as written. **BeBo is now the client's priority range and best seller**, which is exactly why this gets settled before a word of it ships. See [[Alex Foods Discovery Brief]] §A1.
 
-**Talking to: the mother.** The characters on the pack already own the child. She is the one deciding, and what she is deciding is whether she can afford to say yes.
+> **CORRECTED 20 September 2026: BeBo talks to the KID, not the mother.** Aly: *"it's a kids product."* **The client had already said so** in the discovery answers — *"the kids buy them all mainly"* — and this section was built on TSA's read of the packaging instead. **That is the same class of error as the BeBo format question: our inference outranking their statement.**
+>
+> **What it changes:** the audience, the feeling, the vocabulary and the person. **Three of the four ranges now talk to the child** and AlRawy is the only adult-facing one, which is exactly what §4 already says about it.
+
+**Talking to: the kid.** The characters on the pack own them, and they are the one asking for it and often the one paying with their own pocket money. **The parent is a payer on the school run, not the audience.**
+
+**The feeling: it is mine and it tastes good.** Not permission, which was the mother's feeling. **A kid does not need permission, they need the thing to be worth asking for.**
 
 > **Also queried 19 September.** The client says buyers are **mainly kids**, buying all four ranges themselves, with *"some parents buying it as an affordable juice for schools."* That second clause is a parent's sentence and BeBo is the school-drink candidate, so the mother is not gone. **But "mainly kids" is their answer and this line is TSA's reading, so it gets confirmed rather than defended.** Question 15 in the brief.
 
-**The feeling: permission, without the wince.** BeBo's product truth is that it is cheap enough that she never has to refuse.
-
 | | |
 |---|---|
-| **Register** | Egyptian colloquial, warm, mother to mother. Never baby talk. She is an adult being spoken to like an adult. |
-| **Sentence length** | Short. 6 to 12 words. One sentence per line, two lines per caption. |
-| **Emoji** | Light. One or two, at the end, never mid-sentence. Never as a substitute for a word. |
-| **Punctuation** | One exclamation mark maximum per caption, and most captions need none. |
-| **Person** | "انتي", singular. Never plural, never neutral. |
+| **Register** | Egyptian colloquial, bright, kid to kid. **Never a parent's voice**, and never baby talk either. |
+| **Sentence length** | Short. 4 to 9 words. |
+| **Emoji** | Free, capped at three. |
+| **Punctuation** | Exclamation marks allowed. Questions work harder, because they get answered. |
+| **Person** | "انت" or "انتي", singular and direct. **Never through a parent.** |
 
-**Words in:** ظرف · إبريق · العيال · مبسوطين · في دقيقة · يكفّي · البيت · جاهز
+**Words in:** طعم · حلو · هات · الفسحة · صاحبك · كل يوم · جديد
 
-**Words out:** صحي · طبيعي ١٠٠٪ · فيتامينات · مغذّي · أرخص من · بديل العصير · مشروب الأطفال الأول
+**Words out:** صحي · طبيعي ١٠٠٪ · فيتامينات · مغذّي · أرخص من · بديل العصير — **and now also the mother's vocabulary that was here until 20 September: البيت · العيال · يكفّي · في دقيقة.** Those are a parent's words about children, not a child's words about a drink.
 
-**Draft captions, to demonstrate tone:**
-- «قوليلهم آه.»
-- «ظرف واحد يعمل إبريق كامل. العيال مبسوطة وانتي مرتاحة.»
-- «مش محتاجة تفكري تاني. بيبو في البيت يعني الإجابة آه.»
+> **The one thing that did not change: the never-say list.** Health claims and «طبيعي ١٠٠٪» are banned whoever the copy is talking to, because that ban is legal rather than stylistic.
+
+**Draft captions, to demonstrate tone.** *(The three that were here spoke to a mother and are withdrawn.)*
+- «طعمك انت.»
+- «خمس طعوم. اختار بتاعك.»
+- «بيبو معاك في الفسحة.»
 
 > **These are voice demonstrations, not slogans.** The slogan is a separate deliverable with a different job and a much harder test. See [[Slogans and Song]].
 

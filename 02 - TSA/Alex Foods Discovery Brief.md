@@ -236,7 +236,11 @@ One named approver · POLEKA papered in writing · the month-1 start condition l
 - `[MISSING]` Age band, area and income level in their words.
 - `[MISSING]` Why people buy, and what stops them.
 - `[MISSING]` **What shop owners say about the product.** Never answered and still the most valuable question in the file. The shop owner hears every complaint the factory never does.
-- `[OBSERVED]` The eater-and-buyer split in [[Slogans and Song]] §2 **partly survives this answer and partly does not.** The client's "mainly kids" supports 2MAN and POLEKA talking to the child directly. **It sits against BeBo talking to the mother** — although "an affordable juice for school" is a *parent's* sentence, and BeBo is the priority range, so the mother is not gone. **Worth one more question rather than a rewrite.**
+- `[CONFIRMED]` **The eater-and-buyer split: the child, on three of the four ranges.** BeBo, 2MAN and POLEKA all talk to the kid. **AlRawy is the only adult-facing range**, which is what [[Brand Voice Guide]] §4 already said about it.
+
+> **CORRECTED 20 September, and the correction is on me rather than on the client.** This line used to read: *"the client's 'mainly kids' sits against BeBo talking to the mother... worth one more question rather than a rewrite."* **I spotted the exact tension, had the client's own answer in front of me, and chose to defer to my own read of the packaging.** BeBo's whole voice section was then built on a mother who is not the audience, and it produced two slogans that died on the word **البيت**.
+>
+> **The rule it cost: when the client states who buys it, that outranks what the packaging suggests.** A pack's characters tell you who the artwork is aimed at, not who is standing at the counter.
 
 **أسئلة لمحمد:**
 - بيبو مين اللي بيشتريه أكتر فعلاً: الطفل من مصروفه، ولا الأم وهي بتجيب حاجة البيت أو المدرسة؟
@@ -447,7 +451,7 @@ Plus, in priority order:
 | 12 | Google account | Blocks deliverable 7 | Open |
 | 13 | Product photos or samples | Blocks all twenty month-1 deliverables | Open |
 | 14 | Who replies to enquiries, how fast | Campaign spend dies in an unanswered inbox | Open |
-| 15 | Who really buys BeBo — child or mother | Priority range's audience | Open |
+| 15 | ~~Who really buys BeBo~~ | **ANSWERED 20 Sep: the child.** The client said *"mainly kids"*, Aly confirmed it is a kids product, and [[Brand Voice Guide]] §3 has been rebuilt on it. | **Closed** |
 | 16 | What shop owners say about the product | The complaint the factory never hears | Open |
 | 17 | Past ad spend and results | Baseline for the campaign plan | Open |
 

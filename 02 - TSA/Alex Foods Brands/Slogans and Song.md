@@ -35,7 +35,7 @@ The single most common failure in food branding: the person who eats it and the 
 
 | Brand | Eater | Buyer | **The slogan talks to** |
 |---|---|---|---|
-| BeBo | child | mother | **the mother** — she is the one deciding, and the pack's characters already handle the child |
+| BeBo | child | **the child, mostly own pocket money** | **the child.** *Corrected 20 Sep: this row said the mother until Aly pointed out it is a kids product, and the client's own discovery answer had already said so.* |
 | AlRawy | household | the person shopping for it | **the buyer**, and it is the only one of the four that is genuinely adult-facing |
 | 2MAN | older kid | the kid, mostly own pocket money | **the kid** — which is why عيش جو المغامرة is pitched where it is |
 | POLEKA | young child | mother, under pressure from the child | **the child**, deliberately — POLEKA's job is to be asked for by name |
@@ -46,10 +46,10 @@ Get this wrong and the line is homeless. It is not a stylistic choice, it decide
 
 Run the "So What?" ladder until it stops. This is the hard part of the job and it is language-independent, so it gets done before a single word is written.
 
-**BeBo** — one cheap sachet makes a full jug.
-> So what? A whole jug of drink for almost nothing. → So what? She can say yes instead of no. → So what? The child gets the treat and she does not feel the cost.
+**BeBo** — five flavours, pocket money, and a character that takes the colour of its own flavour.
+> So what? The kid picks which one. → So what? The choice is theirs, not handed to them. → So what? It is the one thing in the day that is theirs.
 >
-> **The feeling: permission. Yes, without the wince.** BeBo's product truth is that it is cheap enough to never have to refuse.
+> **The feeling: it is mine and it tastes good.** *Corrected 20 September. This ladder used to run through the mother and end at "permission, yes without the wince." That was a mother's feeling on a kids product, and it produced two dead slogans before it was caught.*
 
 **AlRawy** — real fruit nectar, photographed fruit, not illustration.
 > So what? It is actual fruit, not flavoured sugar. → So what? She is not compromising when she puts it in a lunchbox. → So what? She did not take the lazy option.
@@ -155,9 +155,12 @@ Their lines **do** name the brand. They **do** sit close to the product. They ar
 
 ### The three that need a line
 
-**BeBo** — the mother, and the pattern is theirs exactly:
-- **«مع بيبو، البيت أحلى»** — *With BeBo, the house is nicer.* Their **مع + أحلى** structure, pointed at her rather than the child, and it names no format.
-- «بيبو.. وكل البيت مبسوط» — *BeBo, and the whole house is happy.*
+**BeBo** — **the kid**, and the pattern is still theirs:
+- **«مع بيبو، الفسحة أحلى»** — *With BeBo, break time is better.* Their **مع + أحلى** structure, and **الفسحة is the child's own word for the school break**, which is also the one occasion the client named themselves: *an affordable juice for schools*. Names no format.
+- «بيبو.. اختار طعمك» — *BeBo, pick your taste.* Five flavours, so the choice is the point, and choosing is what a kid does with pocket money.
+- «بيبو معاك كل يوم» — *BeBo is with you every day.*
+
+> **WITHDRAWN 20 September: «مع بيبو، البيت أحلى» and «بيبو.. وكل البيت مبسوط».** Both are built on **البيت**, and the house is a mother's frame. **BeBo is a kids product and the client said so in the discovery answers before I wrote either line.**
 
 **AlRawy** — the buyer, and it borrows their own trust language:
 - **«الراوي.. طعم تثق فيه»** — *AlRawy, a taste you trust.* **Echoes «جودة نثق بها» directly**, which is the client's own word for what AlRawy is for. No fruit, no juice, no natural, no organic.

@@ -246,10 +246,10 @@ for r in RANGES:
 sec('07','THE RANGES','المجموعات', *rp)
 
 # ================= 08 BRAND VOICE =================
-VO=[('بيبو','BeBo','#1BA34C','الأم','the mother','إذن، بلا انقباض','Permission, without the wince',
- 'عامية مصرية، دافئة، أم لأم. ليست لغة أطفال.','Egyptian colloquial, warm, mother to mother. Never baby talk.',
- '6 إلى 12 كلمة','6 to 12 words','خفيف، واحد أو اثنان في النهاية','Light. One or two, at the end',
- 'ظرف · العيال · مبسوطين · في دقيقة · البيت','صحي · طبيعي ١٠٠٪ · فيتامينات · أرخص من'),
+VO=[('بيبو','BeBo','#1BA34C','الطفل','the kid','طعمي أنا','It is mine and it tastes good',
+ 'عامية مصرية، مرحة، من طفل لطفل. ليست صوت أب ولا لغة أطفال.','Egyptian colloquial, bright, kid to kid. Never a parent voice and never baby talk.',
+ '4 إلى 9 كلمات','4 to 9 words','حر، وبحد أقصى ثلاثة','Free use, capped at three',
+ 'طعم · حلو · هات · الفسحة · صاحبك · كل يوم','صحي · طبيعي ١٠٠٪ · فيتامينات · البيت · العيال'),
 ('الراوي','AlRawy','#1B4F9C','المشتري','the buyer','ما قصّرتش','I did not cut a corner',
  'عامية نظيفة. لا عامية شارع ولا فصحى.','Clean colloquial. No slang, and no formal Arabic either.',
  '8 إلى 16 كلمة','8 to 16 words','الصفر هو الأصل','Zero is the default',

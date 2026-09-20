@@ -48,7 +48,7 @@ The [[Colour and Type Kit]] sets rules — two weights maximum per layout, Arabi
 | **Grid** | 6 columns, 6 mm gutters, 23.3 mm columns. Splits at 2 / 3 / 6 cover every layout in the book. |
 | **Direction** | RTL document, Arabic-primary |
 | **Target file size** | Under 15 MB, so it sends on WhatsApp and email without a link |
-| **Delivered as** | `Alex Foods — Brand Foundation v1.0.pdf` |
+| **Delivered as** | `Alex Foods - Brand Foundation v1.0.pdf` |
 
 **Portrait, not landscape, and this was a real decision.** Landscape looks more like an agency deck and reads better on a laptop. But this client opens things on a phone, and a landscape A4 on a phone is a pinch-and-rotate job. It also gets printed in an Alexandria office on A4 with no scaling. A brand book is a reference document people look things up in, not a pitch — portrait is the one that actually gets read. Picked the one that gets read.
 

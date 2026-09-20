@@ -11,6 +11,29 @@ type: guide
 
 ---
 
+## What Claude can and cannot see — a standing constraint
+
+**Claude cannot open Facebook. At all.** Not a login wall: **the session's network policy blocks the domain outright**, confirmed against the egress proxy on 20 September 2026. Instagram and TikTok are the same.
+
+**So every fact about a client's social presence reaches TSA through Aly, and no future session should spend time trying to fetch one.**
+
+### What works instead, in order of value
+
+| Route | What it unlocks |
+|---|---|
+| **Screenshots** | **The highest-bandwidth option, and it is how the packshots worked.** Claude reads images properly — the POLEKA product truth came out of opening one. |
+| **Pasted text** | Their own copy pasted into chat is a primary source. **Two posts pasted on 20 September overturned six things the voice guide asserted.** |
+| **Insights exports** | Business Suite exports a CSV. Send the file, not a summary of it. |
+
+### The four screenshots that would unblock the most, right now
+
+1. **The page header.** Settles Page-versus-profile instantly, because the buttons are visible, and carries the name, follower count and category in the same frame.
+2. **Business Suite → Insights, last 28 or 90 days.** **The engagement baseline: reach, comments, views.** The contracted number is comments and views and TSA currently has follower counts and nothing else.
+3. **The last ten posts.** **Their voice at volume.** Two posts already rewrote the voice guide; ten would settle the register properly instead of by inference.
+4. **Business Suite home.** Shows whether the Page sits in a Business Manager at all, which decides whether the partner route below is even available.
+
+> **That is four screenshots and it closes the Page-versus-profile question, the engagement baseline, the voice re-pass and the access route.** Cheaper than any other four things on the job.
+
 ## Step 0 — Find out what the asset actually is. Ten seconds.
 
 **Everything below branches here, so it goes first.**

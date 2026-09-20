@@ -329,6 +329,24 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 
 *The three rejected replacements are kept in §5c-iv above so they are not re-proposed.*
 
+## 5c-v. POLEKA — round three, five directions, 20 September
+
+**«مع بوليكا، اللعب أحلى» is out too.** Five constructions are now dead for this range: collection, name-instruction, question, friend-pick, and the house **مع + أحلى**. **So these five go in five different directions rather than five variations of one.**
+
+| # | السطر | Gloss | The angle | Why it might work |
+|---|---|---|---|---|
+| **1** | **«بوليكا.. مش حلاوة بس»** | POLEKA, not just candy | **Negative positioning** | States *a toy you are allowed to eat* by saying what it is not. **Punchy, and a child understands a "not just" claim instantly.** No range in the set uses a negative, so it stands apart without leaving the register. |
+| **2** | **«بوليكا.. طعم ولعب»** | POLEKA, taste and play | **The dual proposition** | Three words, two concrete nouns, **the whole product truth with nothing left over.** Sound-led: طعم and لعب carry assonance, which §6 says is POLEKA's register. |
+| **3** | **«بوليكا تفرّح»** | POLEKA makes you happy | **Shortest possible** | **Two words, one verb.** The simplest line available, and it claims an effect rather than a feature, which is what the client's own register does. |
+| **4** | **«بوليكا.. حلاوة وصاحب»** | POLEKA, candy and a friend | **The character, without instructing** | Uses **صاحب**, POLEKA's territory word, **as a fact rather than an instruction.** Earlier attempts told the child to pick a friend; this one just says there is one in the bag. |
+| **5** | **«هات بوليكا»** | Get POLEKA | **The child's own shop sentence** | Two-word imperative. **It is literally the sentence the child says at the counter**, which on a range sold by being asked for by name is the mechanic in the mouth of the buyer. |
+
+### Where TSA would put its weight
+
+**«بوليكا.. طعم ولعب».** It is the only one of the five that carries **both halves of the positioning** — the sweet and the toy — in three words, and its sound does work that none of the others do. **It also reads as a range line rather than a campaign line**, which is what is actually being bought.
+
+**«بوليكا.. مش حلاوة بس» is the alternate worth arguing for.** A negative is the sharpest tool available for a product whose whole claim is that it is more than its category, **and nothing else in the set uses one.**
+
 ## 5d. The giveaway — BeBo's, 20 September 2026
 
 > **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.

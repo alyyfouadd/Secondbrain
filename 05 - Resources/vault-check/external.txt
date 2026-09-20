@@ -1,0 +1,7 @@
+# Files legitimately referenced but not in the vault: the client's own originals,
+# third-party references, and things deliberately never committed.
+LOGO.pdf
+bebo_mucup.pdf
+SWAG-Design-System.pdf
+ashkal mucup
+jaredrhod-marketing.zip

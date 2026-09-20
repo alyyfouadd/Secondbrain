@@ -88,6 +88,24 @@ Learned the hard way on client one. **Sequenced by dependency, not by the order 
 
 ---
 
+## 4b. How to propose a Foundation so the client chooses without designing it
+
+**Reusable, and it is the part most likely to decide whether a Foundation gets approved fast or argued over.** Full version in [[Foundation Roadmap]].
+
+**Every section sits in exactly one of three tiers:**
+
+- **Governed** — computed or legal. Colour, contrast, type, compliance. **No choice is offered, because offering one is offering to be wrong.**
+- **Recommended** — real judgement calls where the client's market knowledge adds something. **One recommendation, at most two alternates, the trade named.**
+- **Theirs to state** — facts only they hold. Approver, budget, seasonality, rights. **Inputs, not options.**
+
+**The four rules for the middle tier:** lead with a recommendation rather than a menu · **never show an option you would be unhappy to ship** · name the trade rather than the taste · two alternates maximum.
+
+**And use the 48-hour clause actively:** state the recommended option as the default in writing, so **silence produces the preferred outcome rather than a stall.**
+
+**Present the architecture page first, then the choices batched into one message, then the honest status, then the sign-off.** Never send the whole book cold.
+
+> **Tested on client one's slogans and it worked twice**, including once where the client chose against the recommendation and was right to.
+
 ## 5. The questions that shaped client one, and will shape the next
 
 **Ask these before building anything.** On client one, several were asked late and the answers moved work that was already done.

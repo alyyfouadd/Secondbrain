@@ -52,6 +52,10 @@ The pack artwork belongs to the client, and every pixel of product in the final 
 
 ---
 
+> **GAP FOUND 20 September: this recipe assumes the front of the pack, and the mechanic is on the back.** **Every consumer entry happens by scanning a QR code printed on the back of the باكو**, and **the retailer coupon is inside the carton.** Neither surface exists in `packshots/`, which holds front-facing packs only.
+>
+> **Two additions needed before the giveaway content can be produced: a back-of-pack frame with a legible QR, and a carton.** A QR that does not scan from a phone screen is a campaign that does not work. See [[Giveaway Programme]].
+
 ## 02 · مكتبة المصادر · The source library
 
 **كل ما يلزم موجود بالفعل. لا شيء ينتظر العميل · Everything needed already exists. Nothing waits on the client.**

@@ -11,6 +11,22 @@ type: plan
 
 ---
 
+## URGENT, 20 September — a live campaign outranks the plan below
+
+**The client has three giveaway campaigns running and has ranked them himself.** **«هدايا المدارس … أهم حاجة حالياً علشان نلحق دخول المدارس»** — school gifts, and it is a race against the start of term, **which is this week or next.**
+
+**That is more urgent than anything in the nineteen-day plan below, and it is not in the contract.**
+
+**Package A month 1 has not started.** It begins on written Foundation approval or usable photography, whichever is later. **So school-campaign content produced this week is work outside a paid month.**
+
+> **The decision, and it has to be made before anything is produced rather than after:** offer to start the school campaign **now**, and agree in the same sentence that **this starts month 1.** The client gets their most urgent need answered by the agency they just hired, TSA gets the month it is owed, **and the Foundation still lands on 9 October** because it is mostly writing and the school work is production.
+>
+> **Doing it as goodwill costs a month's fee and teaches the client that urgent things happen outside the contract.** Declining it is contractually correct and commercially deaf. **The written line is the only option that is both.**
+
+**Full mechanics in [[Giveaway Programme]].**
+
+---
+
 ## The shape of it
 
 **19 days from today. 8 of the book's sections still need work, and 5 of those are blocked on the client.**

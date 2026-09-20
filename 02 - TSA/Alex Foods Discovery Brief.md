@@ -108,7 +108,7 @@ That is not a contradiction and the deliverables do not change — a factory has
 **BeBo copy, everywhere** — voice section, slogan, captions. BeBo is the **priority range and the best seller**, so this single photo is the highest-value unlock on the job. §A1.
 
 ### Blocked on client access
-- **Deliverable 3 execution** — Meta admin. *And possibly worse than that; see the profile-versus-Page flag in §7.*
+- **Deliverable 3 execution** — Meta admin. *(The profile-versus-Page flag that sat here is closed: it is a verified Page. Access is the only thing left.)*
 - **Deliverable 7, Google Business Profile** — Google account, plus hours, categories and phone. **The address arrived today.**
 - **The engagement baseline** — Meta admin again. Without it there is no number to improve on.
 
@@ -434,15 +434,18 @@ Target delivery **around 9 October 2026**, before the second Foundation instalme
 | 5 | **Meta admin access** | **OUTSTANDING.** Blocks deliverable 3 and the baseline numbers. |
 | 6 | **Google account** | **OUTSTANDING.** Blocks deliverable 7. |
 | 7 | GBP details | **Address received today.** Hours, categories and phone still outstanding. |
+| 8 | **Carton artwork + the coupon** | **NEW, 20 Sep. OUTSTANDING.** Hussein said he would send the coupon. **Blocks both trade posts in month 1**, and the trade is half the stated goal. |
+| 9 | **Back-of-pack shot with a legible QR** | **NEW, 20 Sep. OUTSTANDING.** **Blocks all three mechanic explainers**, which [[Content Plan]] names as the biggest gap on the account. Same photo as priority 1 below. |
 
 Plus, in priority order:
 
-1. **A photo of the back of a BeBo pack.** One photo, thirty seconds, and it unfreezes the priority range's copy. **Highest value per effort of anything on this list.**
+1. **A photo of the back of a BeBo pack, with the QR code legible at phone size.** One photo, thirty seconds. **It now unlocks two separate things**: the priority range's copy, and the three mechanic-explainer posts. **A QR that will not scan off a phone screen is a campaign that does not work.** Still the highest value per effort of anything on this list.
 2. **The signed acceptance page, naming ONE approver** with role and contact. See §A4.
 3. **The organic certificate for AlRawy, or an acknowledgement that there isn't one.** See §A2.
 4. ~~Written rights confirmation on the cola artwork.~~ **Answered verbally 20 September.** Replaced by: **an answer on SpongeBob**, which is the same question about a clearer property.
 5. **POLEKA confirmed in writing**, with the umbrella decision papered in the same message.
 6. **A rough distributor and stockist count**, so "more shops" has a baseline.
+7. **The carton artwork and the coupon design.** Hussein offered the coupon and it has not arrived. **Two of month 1's twenty assets are sitting on these two files.**
 
 ---
 
@@ -468,7 +471,7 @@ Plus, in priority order:
 | 3 | **Organic certificate for AlRawy, or not** | TSA's ad account carries the claim | Open |
 | 4 | **Monthly ad budget** | Contracted to manage an unnamed spend | Open |
 | 5 | **Meta admin access** | Blocks deliverable 3, and blocks knowing whether we succeeded | Open |
-| 5b | **Is the Facebook asset a Page or a personal profile?** | **If a profile, no ads can run from it at all.** Ten-second check. §7 | Open |
+| 5b | ~~Is the Facebook asset a Page or a personal profile?~~ | **ANSWERED 20 Sep: it is a VERIFIED PAGE.** Follow and WhatsApp buttons, blue badge, Reels and Mentions tabs. **The biggest platform risk on the job, closed** — paid can run and the partner route works as written. | **Closed** |
 | 5c | **Seasonality — does 2MAN die over Oct–Jan?** | The whole paid term sits in an ice pop's off-season. §B | Open |
 | 6 | ~~Cola Cola artwork rights~~ | **ANSWERED 20 Sep: Hussein says it is fine.** Verbal, via Aly. **The SKU is released for paid.** | **Closed** |
 | 6b | **Do they hold a SpongeBob licence?** | **New, 20 Sep.** Their pinned post is built on SpongeBob. **Same class as the cola question and arguably clearer.** TSA runs the ad account. | Open |
@@ -486,6 +489,46 @@ Plus, in priority order:
 
 ### Answered on 19 September
 Main goal · success definition · priority range · biggest problem · years in business · factory address · approval chain · day-to-day contact · buyer type · distribution model and geography · shops-versus-sales goal · platforms · **all three follower counts** · who manages the accounts · tone of voice · brand separation · content restrictions · approval time · logo and packaging state.
+
+---
+
+## 15. What we will need LATER — asked for before it bites
+
+**Everything above is owed now. This is the list that stops the same scramble happening in month 2, and it exists because every item on it has a lead time longer than the day we will want it.**
+
+### Before Package A month 1 can be produced
+| # | What | Who | Bites when | Why it has a lead time |
+|---|---|---|---|---|
+| L1 | **The monthly ad budget, as a number** | Client | **Day 1 of month 1** | Package A sells campaign management. **A campaign cannot be planned against an unnamed spend**, and asking on day 1 costs a week. |
+| L2 | **Who answers enquiries, and how fast** | Client | **First boosted post** | **Campaign spend dies in an unanswered inbox.** A DM that waits two days is money burned. Question 14. |
+| L3 | **The production toolchain on an iPad** | **Aly** | **First animation** | 2 animations, 6 animated stills, 12 graphics a month, and **nobody has decided what they are made in.** This is TSA's problem, not the client's, and it gates every visual deliverable. |
+| L4 | **Month-1 start condition, in writing** | Client | **At delivery, 9 Oct** | Clause 6 extends the timeline for client delay but **not the paid month.** Cheap to agree at delivery, impossible in week three. |
+
+### Before months 2 and 3 can be planned
+| # | What | Who | Bites when | Why |
+|---|---|---|---|---|
+| L5 | **Seasonality per range** | Client | **Month 2 planning** | **POLEKA and 2MAN are both frozen and the term runs into winter.** If both go quiet, BeBo and AlRawy carry all three calendars alone. **This changes what the client should be paying for**, not just a calendar. |
+| L6 | **The monthly report: cadence, metrics, format** | **TSA proposes** | **End of month 1** | The signed scope specifies **none of it.** Agreeing it now costs nothing; arguing about whether TSA proved anything in month 3 costs the renewal. |
+| L7 | **The engagement baseline** | Meta access | **Before month 1 ends** | The contracted KPI is comments and views. **Without a baseline there is no number to have improved on.** Follower counts say nothing. |
+| L8 | **What shop owners actually say about the product** | Client / shelf walk | **Trade content** | The complaint the factory never hears. **Half the stated goal is "more shops"** and TSA has no idea what a retailer objects to. Question 16. |
+
+### Contract and money, on dates that already exist
+| # | What | When |
+|---|---|---|
+| L9 | **Instalment 1 — 10,000 EGP** | **Fri 26 Sep**, invoiced 18 Sep |
+| L10 | **Instalment 2 — 10,000 EGP** | **Wed 8 Oct**, chase it *before* delivery on the 9th |
+| L11 | **X: what one month of Package A costs TSA to deliver** | **Before any owner's draw.** Media buyer at 2,000/month is the only priced line; tooling and fees are not. |
+| L12 | **Renewal conversation** | **Month 3.** A three-month contract with no renewal discussion is a contract that ends. |
+
+### The ones that are only a risk until somebody asks
+| # | What | Why it is on this list |
+|---|---|---|
+| L13 | **SpongeBob licence** | Their pinned post is built on it. **TSA runs the ad account.** Same class as the cola question, arguably clearer. |
+| L14 | **The AlRawy organic certificate, or an admission there is none** | **Organic is a certified claim, not a describing word.** Banned in every language and surface until a certificate exists. |
+| L15 | **Written confirmation of POLEKA in the Foundation, and the umbrella decision** | Clause 4's rejection protection leans on the approved guide matching what the client actually said. **A verbal answer shaping four deliverables needs to exist in writing.** |
+| L16 | **One named approver** | Clause 3 allows one. **They named three.** Delivery has nobody to approve it until this closes. |
+
+> **The rule this section encodes: ask for a thing one cycle before you need it, not the morning you need it.** Every item here has already been identified; **none of them are surprises, and that is the entire point of writing them down before they bite.**
 
 ---
 

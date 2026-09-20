@@ -64,8 +64,9 @@ type: plan
 
 | When | What | Depends on |
 |---|---|---|
-| **Sun 27** | **§18 post archetypes and pattern inventory.** The section that makes the book buildable | §11, §13, §15, POLEKA colours |
-| **Mon 28** | **§17 content calendar, month 1** | **Seasonality answer** |
+| ~~Sun 27~~ | ~~§18 post archetypes~~ · **DONE 20 Sep, a week early.** Built from [[Content Plan]] without waiting on §11/§13/§15, because the archetypes govern the computed-colour rule rather than listing values | — |
+| ~~Mon 28~~ | ~~§17 content calendar~~ · **DONE 20 Sep for month 1.** The campaigns are the spine, so month 1 did not need the seasonality answer. **Months 2 and 3 still do** | — |
+| **Sun 27** | **Reclaimed: pull §11, §13 and §15 forward** into the space §17 and §18 just vacated | Nothing |
 | **Tue 29** | **§14 social setup executed**, or marked `SPEC — EXECUTION PENDING` | **Meta admin** |
 | **Wed 30** | **§19 GBP created**, or marked pending | **Google account + details** |
 | **Thu 1 Oct** | **First AI product shots.** Four scenes, one per range, checked against each other before eighteen SKUs are made to them | §16, already written |
@@ -94,7 +95,7 @@ type: plan
 | Risk | State |
 |---|---|
 | **Seasonality unanswered** | **The biggest one.** Half the portfolio is frozen and the term runs into an Egyptian winter. It blocks §17 and it changes what the client should be paying for. |
-| **The Facebook asset is a personal profile** | **Invalidates the platform strategy, not just a deliverable.** No paid campaign can run from a profile. |
+| ~~The Facebook asset is a personal profile~~ | **CLOSED 20 Sep: it is a verified Page.** Paid can run, the partner route works as written. **The single biggest platform risk on the job is gone.** |
 | **No named approver** | Clause 3 has no top rung. **Delivery has nobody to approve it**, and clause 4's protection has nothing to stand on. |
 | **BeBo photo** | Blocks BeBo copy, which is the priority range. |
 | **Ad budget unnamed** | Package A includes campaign management and nobody has said what the spend is. |

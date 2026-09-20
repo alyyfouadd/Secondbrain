@@ -37,9 +37,10 @@ The same shape as the colour system in [[Colour and Type Kit]], and deliberately
 3. **Never explain the joke.** No "😂 فهمتوا؟" No line that has to point at itself.
 4. **One idea per post.** Two ideas is two posts.
 5. **Talk to one person, not an audience.** "انتي" and "انت", never "متابعينا الكرام".
-6. **Never corporate.** "يسر شركتنا أن تعلن" is banned outright on all four brands.
+6. **Never corporate as sincerity. Corporate as a joke is theirs and it works.** "يسر شركتنا أن تعلن" said straight is banned on all four ranges. **But the client's own copy opens «عذرا ايها السيدات و الساده الكرام» and then collapses into «بس احنا جايين نعمل بوليكا 🎉»** — a formal address used as a setup. **That is a real device, it is theirs, and this guide had nothing like it.** The test is whether the register breaks on purpose.
 7. **Never lie, never stretch.** On food this is not just a trust problem, it is a regulatory one. See §7.
 8. **No em-dashes in any copy that leaves the building.** Commas, full stops, brackets. They read as machine-written and they quietly cost trust.
+9. **The formal-to-casual flip is a sanctioned device.** Open in a register the brand does not own, then drop into the one it does. **Adopted from the client's own copy rather than invented**, which is why it is allowed to break rule 6.
 
 ---
 
@@ -89,6 +90,19 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 2. **Sign-off line.** Alex Foods gets a line in corporate register, Arabic and English, for the Business Profile description, trade contexts and company materials. It is **corporate register, not the consumer voice** — the two are different jobs and the sign-off line never carries a caption's tone.
 3. **Google Business Profile and local SEO are Alex Foods', not the ranges'.** A Business Profile is a company at an address, and a range does not have an address. **One listing, for the company** — and under the umbrella model this is now the obvious answer rather than a resolution of a tension. Settles the entity question under Foundation deliverables 7 and 8.
 4. **No house palette, and the reason changed.** The master owns the seal and the presence; **the four ranges keep their four deliberately clashing palettes**, because that clash is the only thing separating them on a shelf. A master brand that repainted its ranges would destroy the differentiation it depends on. Governed in [[Colour System]] §2.
+
+> **UPDATE 20 September: this block is now draftable from evidence rather than guessed.** Two of the client's own posts arrived, and **they are the master account writing as itself.** What they show:
+>
+> | Observed | In their words |
+> |---|---|
+> | **Warm and cheeky, never stiff** | «عذرا ايها السيدات و الساده الكرام … بس احنا جايين نعمل بوليكا» |
+> | **Price-forward and unembarrassed by it** | «و ب ٢ جنيه بس» |
+> | **انتعاش is the house word** | used twice in one post |
+> | **Nostalgia is available to the master, not just to 2MAN** | «انتعاش بحكايات زمان» |
+> | **Emoji doubled, not sprinkled** | 💣💣 · ❤️❤️ · 🎉😁 |
+> | **Scarcity used casually** | «عشان الكمية محدودة» |
+>
+> **Direction confirmed: fun, which is what Aly said before this copy arrived.** The register is *a small company that likes its own products and is not pretending to be a big one*. **Still Aly's to write** — but it is now a transcription job rather than an invention, and that is a different kind of task.
 
 > **The one piece of writing this decision creates and nobody has done yet: Alex Foods' own tone block.** Sections 3 to 6 specify register, sentence length, emoji policy and person for each of the four ranges. The master now needs the same, because it is the account that actually posts. **It is deliberately not drafted here** — tone is Aly's call and his ear, and guessing it would put a fifth voice into a governance document on an AI's opinion. Everything else in §2 is usable today. See §9.
 
@@ -170,9 +184,19 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 ## 5. 2MAN — ice pops
 
-**Talking to: the kid.** Older than BeBo's audience, mostly spending their own pocket money, which is why the brand can speak to them directly instead of through a parent.
+> **CORRECTED 20 September against the client's own published copy, and this is the largest correction in the guide.** Their 2MAN post reads **«قدام حرارة الصيف … العمر مجرد رقم!»** and closes **«لوليتا تومان… انتعاش بحكايات زمان»** — *age is just a number* and *refreshment with stories from the old days*. **That is nostalgia, aimed at an adult remembering their own childhood.** This section said kid, adventure, outdoors, read off the running-boy character.
+>
+> **Both are true and the resolution is not to pick one.** **The pack sells to the child holding it. The social account sells to the adult scrolling past it** — an adult who buys four for the house and remembers these from their own street. **One brand, two surfaces, two audiences**, and the guide only knew about one of them.
 
-**The feeling: the day is yours, go outside.** Already solved on the packaging.
+**Talking to: the kid on pack, the adult on social.**
+
+**On pack and in-store:** the older child, spending their own pocket money, spoken to directly rather than through a parent. **عيش جو المغامرة lives here.**
+
+**On social:** **the adult who remembers.** Summer heat, childhood, «زمان». The client already writes this way and it is the more valuable audience on Facebook, **because the 52,000 followers there are not children.**
+
+**The feeling on pack: the day is yours, go outside.** Already solved on the packaging.
+
+**The feeling on social: you are still that kid.** Nostalgia, warmth, and a two-pound price that makes it costless to prove.
 
 | | |
 |---|---|
@@ -207,6 +231,8 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 
 
 
+> **CORRECTED 20 September: POLEKA is «مشروب بطعم الفاكهة» in the client's own words** — a fruit-flavoured drink, sold frozen. **The exact construction printed on the BeBo packs**, so the client files the two in one category. *(Earlier readings, all TSA's: chew candy, jelly, frozen juice.)* **And the market's word for the format is «لوليتا»**, which the client uses as a generic and brands with.
+
 **Talking to: the child, deliberately.** POLEKA's whole commercial job is being asked for by name, out loud, in a shop. The copy exists to make the name sayable and the characters memorable.
 
 **The feeling: a toy you are allowed to eat.** Play first, flavour second.
@@ -215,7 +241,7 @@ Current state on pack: **AlRawy yes. 2MAN yes. BeBo no. POLEKA no.**
 |---|---|
 | **Register** | Colloquial, silly, sound-led. The loudest of the four and that is correct for the category. |
 | **Sentence length** | Shortest of all. 2 to 6 words. |
-| **Emoji** | Heaviest use of the four, but still capped at three. |
+| **Emoji** | Heaviest use of the four. **The cap was three; the client's own posts run 💣💣 and ❤️❤️ and are louder than that.** **Revised: doubles are allowed at the end of a line, strings of three or more are not.** Their practice, bounded. |
 | **Punctuation** | Question marks do most of the work, because questions get answered in the comments and that is the engagement. |
 | **Person** | "انت", or often no person at all, just the character. |
 
@@ -249,6 +275,8 @@ This section exists because a food page can be reported, and a paid ad account c
 7. **Anything about the factory, certifications, halal status, expiry, or sourcing.** All of it is client information. If it did not arrive in writing, it does not get typed.
 8. **A public reply to a contamination, illness or foreign-object complaint.** See §8, because this one has its own procedure.
 
+> **And one line in the client's own copy is a claim TSA will not repeat: «بطعم ولا في الخيال».** *A taste beyond imagination.* **They can say it about their own product; TSA writing it makes the agency the author of an unverifiable superlative on an ad account TSA runs.** The rule is not that the client is wrong, it is that **TSA does not inherit a claim by copying it.**
+
 > **The governing principle: if it did not come from the client in writing, TSA does not know it.** A helpful guess in a comment thread is a published claim by the brand.
 
 ---
@@ -267,7 +295,7 @@ The scope asks for "how comments get replied to" and it is the part most brand g
 |---|---|---|
 | **1. Praise** | Reply short, in that brand's tone, and like the comment. Vary every reply. | 24h |
 | **2. Where can I buy it** | Give the standard answer if the client has supplied one. If not: ask them to DM their area. **Never name a shop that has not been confirmed.** | 12h |
-| **3. How much is it** | Only answer with a price the client has given in writing. Otherwise point to retail and say price varies by shop. | 12h |
+| **3. How much is it** | **Answer with the number. The client publishes «و ب ٢ جنيه بس» themselves**, so 2 EGP is public and usable. Add *يختلف من محل لمحل* because it does. **Any other product without a published price still gets the old answer.** | 12h |
 | **4. Is it healthy / how much sugar / what is in it** | **Do not answer.** Move to DM, escalate to the client, reply only with what comes back in writing. | Same day |
 | **5. Product complaint** (taste, a swollen pouch, something inside) | **Never debated publicly.** One neutral public line, then straight to DM. Get the batch code and a photo. Escalate to the client the same day. See the script below. | **2h in working hours, same day always** |
 | **6. Troll or insult** | Do not engage. Hide if abusive, never delete unless abusive, never argue. | n/a |

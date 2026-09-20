@@ -193,6 +193,52 @@ Their lines **do** name the brand. They **do** sit close to the product. They ar
 
 ---
 
+## 5c-i. AlRawy — settled 20 September 2026
+
+> ### «الراوي.. طعم تثق فيه»
+> *AlRawy, a taste you trust.*
+>
+> **Aly's pick, 20 September.**
+
+**Why it works, and it works by a different route from the others.** It does not use **مع**. **It borrows the client's other pattern** — «جودة نثق بها منذ ٢٠ عامًا» — and **ثقة is the client's own word for what this range is.** Brand inside the line, four words, a concrete everyday verb rather than an abstract noun.
+
+**And it quietly answers the audience question I raised.** *«طعم تثق فيه»* can be said to a child or to the person buying it. **It does not need AlRawy's audience settled to be correct**, which on a range where that question is still open is a feature rather than a dodge.
+
+**It carries no banned claim.** Trust is about the maker, not the contents: no fruit, no juice, no natural, no organic, no nutrition. On the one range where that ban has real teeth, the line stays clean.
+
+---
+
+## 5c-iii. BeBo — two candidates, and they are not the same line
+
+**«مع بيبو، اليوم أحلى»** arrived 20 September. **It fixes exactly what was wrong with my «مع بيبو، الفسحة أحلى»** — اليوم runs all year where الفسحة stops with the school term. **But BeBo already has «بيبو معاك كل يوم» chosen, so this is a replacement rather than an addition, and the two claim different things.**
+
+| | «بيبو معاك كل يوم» | «مع بيبو، اليوم أحلى» |
+|---|---|---|
+| **What it claims** | **Habit.** BeBo is there every day. | **Effect.** The day is better for it. |
+| **Construction** | brand + **معاك** + everyday phrase | **مع** + brand + **أحلى** |
+| **Frame** | Companionship, presence | Improvement, comparative |
+
+### The set-level problem, which is the real finding
+
+**The master is «طعم أحلى مع أليكس فودز» — مع plus أحلى.** If BeBo becomes «مع بيبو، اليوم أحلى» that is **two of five lines in the same construction**, and my POLEKA draft «مع بوليكا، اللعب أحلى» would make it **three of five.**
+
+> **A family of lines should rhyme, not repeat.** Three identical constructions stops reading as a system and starts reading as one idea applied four times. **The master owns مع + أحلى, because it got there first and it is in market.**
+
+**So whichever BeBo line is chosen, POLEKA's should not be «مع بوليكا، اللعب أحلى».** **«اجمعهم مع بوليكا»** is the better POLEKA line on set logic as well as on its own merits: an imperative, and it does the collection job that is POLEKA's entire commercial reason to exist.
+
+### The recommendation
+
+**Keep «بيبو معاك كل يوم».** Four reasons:
+
+1. **It leaves مع + أحلى to the master**, where it already lives.
+2. **«معاك» is BeBo's own territory word.** That was settled an hour earlier: BeBo owns معاك, POLEKA owns صاحبك. **A brand line should carry the brand's own word.**
+3. **Habit is a stronger claim than improvement for a cheap daily product.** «كل يوم» asserts a place in the day; «أحلى» is comparative and softer.
+4. **The giveaway song is already built to bookend on it.**
+
+**The case for «مع بيبو، اليوم أحلى»**, stated fairly: it is warmer, it sits closer to the client's own master line, and **أحلى is the single most characteristic word in their register.** If the goal is a set that obviously belongs to one company, it does that better.
+
+**Aly's call.**
+
 ## 5c-ii. The pattern, extracted from the four lines that landed
 
 **This is evidence rather than doctrine.** Four lines are now accepted: three of them the client's or Aly's, one of them his pick from my alternates. **They share a shape, and every line I wrote that failed broke it.**

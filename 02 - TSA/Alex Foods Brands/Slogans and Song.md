@@ -262,6 +262,47 @@ With the master and BeBo both on **مع + أحلى**, **a third would be one ide
 
 **Either does POLEKA's real job**, which is collection: the mechanic that makes a child ask for the next character by name. **The choice is between flow and balance, and that is an ear question rather than a structural one.**
 
+## 5c-iv. POLEKA — and why «اجمعهم كلهم» was wrong
+
+### The flaw is in the mechanic, not the wording
+
+**You cannot collect jelly sweets. You eat them.**
+
+*Collect them all* is borrowed from toy marketing, where the child keeps the object and builds a set. **POLEKA's repeat purchase is not collection, it is rotation: the child picks a different character next time.** The line was selling a mechanic the product does not have, and a child who tries to act on it ends up with an empty wrapper and no set.
+
+**It also fails marker 1: no brand name in the line.** On a range whose entire commercial job is being asked for by name out loud in a shop, **a slogan that omits the name is working against the product.**
+
+### The three replacements
+
+**All three name the brand, all three use an imperative or a question, and none uses مع** — so the set stays balanced against the master and BeBo.
+
+> ### 1 · «قول بوليكا»
+> *Say POLEKA.*
+>
+> **Two words, and it is the commercial job stated as an instruction.** [[Brand Voice Guide]] §6: *POLEKA's whole commercial job is being asked for by name, out loud, in a shop.* **This line does not describe that mechanic, it performs it.** A child repeating the slogan is rehearsing the exact sentence that sells the product.
+>
+> Sound-led, which §6 says POLEKA is. Imperative, same family as «عيش جو المغامرة» and «صوّر واكسب مع بيبو». Works on all four SKUs, holds with nothing but the logo, and **no competitor can say it because it is the name itself.**
+
+> ### 2 · «بوليكا.. مين النهاردة؟»
+> *POLEKA, who today?*
+>
+> **A question, and §6 says questions do POLEKA's work because they get answered in the comments.** That matters more here than anywhere else: **the contracted KPI is comments and views**, and this is the only line in the whole set that generates a comment by construction.
+>
+> **It also states the real mechanic: rotation, not collection.** *Who today* implies a different one tomorrow, which is exactly how a child actually buys these. Character-led, so it obeys the rule that a POLEKA post without a character is off-brand.
+
+> ### 3 · «بوليكا.. اختار صاحبك»
+> *POLEKA, pick your friend.*
+>
+> Brand first, imperative, and **«صاحبك» is POLEKA's own territory word** — the character as a friend is the whole proposition, and the word was deliberately kept out of BeBo's vocabulary to protect it.
+>
+> Slightly longer and less chantable than the first two, but the warmest of the three.
+
+### The recommendation
+
+**«قول بوليكا».** It is the shortest line in the entire set, it is the only one that performs its own mechanic rather than describing it, and **on a brand sold by a child saying a name out loud, teaching them the name is the whole job.**
+
+**«بوليكا.. مين النهاردة؟» is the alternate worth arguing for**, and the argument is engagement: it is the one line in the set built to be answered, on an engagement that is being measured in comments.
+
 ## 5d. The giveaway — BeBo's, 20 September 2026
 
 > **PARKED 20 September: the song is set aside at Aly's instruction.** *"Forget the song, let's talk about slogans only."* **The campaign slogan «صوّر واكسب مع بيبو» stands and is unaffected** — it is a Package A line item and it is written. The song's draft stays below untouched for whenever it is picked back up.

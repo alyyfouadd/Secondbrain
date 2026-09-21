@@ -12,7 +12,7 @@ type: plan
 >
 > **If an item here starts describing a status, it is in the wrong note.** A queue says *what has to happen next and who has to do it*. Delete an item the moment it closes — a completed list in here rots, and the record already lives in [[Decisions]] and the daily notes.
 
-**Today is 20 September 2026.** The delivery target and both instalment dates are in [[Delivery Register]] — **it owns them, and this queue does not repeat them.**
+**Today is 21 September 2026.** The delivery target and both instalment dates are in [[Delivery Register]] — **it owns them, and this queue does not repeat them.**
 
 ---
 
@@ -98,7 +98,20 @@ type: plan
 - [ ] **Pull the two client Drive links into the vault** — winner media and probably the coupon. Safari, download, screen-resolution copies into `Alex Foods Brands/giveaway/` with a README. **Until then the programme note describes material nobody on TSA's side has seen.** (tsa)
 - [ ] **Get the packaging and gifts mockup PDFs into reach.** Too large for chat. **Very likely where the high-resolution pack artwork already is.** Route via Drive; screen-resolution extracts into the vault. **The gifts mockups are the only artwork for the campaign the client ranked first.** (tsa)
 
-## 5 · TSA as a business
+## 5 · El Ghaly Motors — the pitch
+
+*The first inbound lead. Nothing is signed and no price has been said out loud. Full read, pricing shape and pitch sequence in [[El Ghaly Motors Pitch]] — **this queue holds only what has to move.***
+
+- [ ] **Get the videographer's day rate. This blocks the quote and nothing else can be decided around it.** It is the largest line in cost of delivery, and [[TSA Money]] has carried exactly this blank on a 42,000/month contract since it was written. **Do not repeat it on client two** — the floor is not computable without it. (tsa)
+- [ ] **Screenshots of their page, their posts and their profile picture into the vault.** **Facebook is blocked from the AI's machine — verified 21 September, the proxy returns 403** — so every fact about their current output comes through Aly. **"Their content is cheap" is a feeling until somebody has looked**, and writing a proposal off a description is the exact move [[TSA Client System]] §4d was paid for. (tsa)
+- [ ] **Fifteen minutes with the salesperson, BEFORE the manager and before the site is shown.** She is the only free discovery this deal gets and she is currently being treated as a door rather than a source: what the manager cares about, what has been spent before, whether the new branch is hitting its number, what the flagship bike sells for. **Questions 1 to 9 in [[El Ghaly Motors Pitch]] §4.** (tsa)
+- [ ] **Settle the website with the friend who built it — code, hosting, domain, what he is paid, and what happens when he gets a job.** **Selling a monthly retainer against a site TSA cannot edit is a fixed monthly invoice with no way to service it.** Close it before the pitch, not after. (tsa)
+- [ ] **Do not put the site on a public URL under their name or logo before there is a deal.** Private staging link only, one that can be killed. A live indexed site carrying a dealership's branding they never authorised changes the negotiation the moment they find it. (tsa)
+- [ ] **Confirm the trading name.** Aly wrote "elghsly motors"; the Facebook handle is `elghalymotorcycle`. **Get it in writing before it reaches an invoice or a website header.** (tsa)
+- [ ] **Decide the scooter route before any number is quoted.** Padding the fee by 10,000 is the worst of the three ways to do it — **it prices against Aly's need instead of their value, it lands in the TSA pot rather than his pocket, and it is the first thing that gets negotiated away.** Recommendation is full price in cash with the scooter bought separately at a partner rate, contra as the fallback. **And the fourth fixed monthly commitment needs its number worked out first**, against 23,000 of debt, an unconfirmed 18,000 tax date and an X that is still not computed. [[El Ghaly Motors Pitch]] §6 (tsa)
+- [ ] **Decide the ask: the site as the small yes now with the retainer in thirty days, or both in one meeting.** **Recommendation is the first** — they currently pay approximately nothing, and zero to a monthly retainer in one meeting is how a room goes quiet. The site is a thing with edges, it is already built, and it puts cash in this month. [[El Ghaly Motors Pitch]] §3 (tsa)
+
+## 6 · TSA as a business
 
 - [ ] **Get Mahmoud's rate and the animator's rate. That IS X.** Cost of delivery stopped being a mystery the moment it got names — **it is now mostly two invoices, repeating three times across the term.** The drawable arithmetic and the debt threshold are in [[TSA Money]]. (tsa)
 - [ ] **Set the owner's draw:** a decided amount on a decided date, logged in [[TSA Money]]. Not "whatever is in the account when a bill lands." (tsa)
@@ -109,7 +122,7 @@ type: plan
 - [ ] **Build the scaling plan.** Named since day one, never built. [[Alex Foods]] is the first live test of whether the delivery shape holds. **100% of revenue is one client.** (tsa)
 - [ ] **Decide the writing rules for copy the AI drafts.** [[Marketing]] supplies the craft rules; **TSA's own voice on top of them is still missing.** (meta)
 
-## 6 · Personal
+## 7 · Personal
 
 - [ ] **Confirm the date on the 18,000 EGP mobile tax.** Recorded as 9/11, a date now past. **Already overdue, a future 9/11, or moved?** The whole phone plan hangs off it. (personal)
 - [ ] **Decide the phone swap:** sell the current phone, buy a 17 Pro Max with a physical SIM for the 8 tax-free months, then pay. **Net cost is not worked out.** (personal)
@@ -119,7 +132,9 @@ type: plan
 - [ ] Set the gym start date and buy the kit first: 3 fits, creatine, vitamins, meal plan. (personal)
 - [ ] Set the MMA start date and buy gloves and the rest of the gear. (personal)
 
-## 7 · The vault
+## 8 · The vault
+
+- [ ] **Scope the bare-number patterns in `05 - Resources/vault-check/owners.tsv`. The checker has a false-positive class and it fired today.** Line 30 is `\b52,000\b` owned by [[Alex Foods Discovery Brief]] as *the Facebook follower count* — **so any note in the vault that ever prices anything at 52,000 EGP is reported as restating a follower count.** It caught a proposed monthly fee in [[El Ghaly Motors Pitch]], which was moved to 50,000 to get the check green. **The number dodged it; the pattern is still wrong**, and the same trap sits under every bare figure in that file. The fix is to require context in the regex — *followers*, *متابع*, or the owner's own vocabulary — rather than a naked number. **Tool config, so it needs Aly's go-ahead under rule 2.** (meta)
 
 - [ ] **Delete the dead branches.** Safari → Branches → delete. **All nine session branches are fully contained in `main`, verified** — deleting loses no commit. Admin action, only Aly. (meta)
 - [ ] **Point Working Copy at `main`.** (meta)

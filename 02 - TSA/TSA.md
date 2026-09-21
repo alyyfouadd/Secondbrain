@@ -26,6 +26,7 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 - **Jobs/** — [[Jobs]] · one note per recurring agency job, each handing a future session the whole procedure in a single read. **Empty by design** — a task earns a Job note the second time it gets explained from scratch. The Package A monthly run is first in the queue, after month 1 has actually run.
 
 ## Notes in this folder
+- [[El Ghaly Motors Pitch]] — **the first inbound lead and the first prospect that is not [[Alex Foods]].** Motorcycle dealership, new branch in El Shatby, Alexandria. The strategic read, the discovery questions, the three-tier pricing shape and the pitch sequence. **Not in `Clients/` because nothing is signed** — a client folder is created at signature. It moves there the day one is.
 - [[TSA Money]] — the agency's books. Revenue, cost of delivery, and the owner's-draw rule that gates what moves from TSA to [[Money]]. Agency money and personal money are two pots; this note owns the first one.
 
 ## What belongs here as it gets built

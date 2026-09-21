@@ -177,26 +177,30 @@ It assumed the whole business was premium and being undersold by amateur product
 
 ### The three
 
+**Aly's floor, 21 September: nothing below 46,000.** **That removes the cheap entry, so the entry package has to be rebuilt rather than just relabelled** — a 32,000 package with 46,000 written on it is a 71% margin the manager will feel even if he never calculates it.
+
 | | **1 · Launch** | **2 · Showroom** *(recommended)* | **3 · Superbike** |
 |---|---|---|---|
-| **Premium bike films** — log + 3D AE | **1** | **2** | **4** |
-| Founder videos — phone, directed | 8 | 12 | 16 |
-| Shoot days | 1 | 2 | 3 + events |
-| Graphics, on one system | 10 | 14 | 18 |
+| **Premium bike films** — log + 3D AE | **2** | **3** | **5** |
+| Founder videos — phone, directed | 10 | 14 | 18 |
+| Shoot days | 2 | 2 | 3 + events |
+| Graphics, on one system | 12 | 16 | 20 |
 | **Visual system, profile picture, cover** | **Month 1** | **Month 1** | **Month 1** |
 | Content calendar · community management | Yes | Yes | Yes |
+| Paid campaign management | **Yes** | Yes | Yes |
 | **Review engine** — 19 reviews to a real number | — | **Yes** | Yes |
-| Paid campaign management | — | Yes | Yes |
 | Google Business + local SEO | — | Yes | Yes |
 | Rideout and event coverage · rider collabs | — | — | Yes |
 | Monthly report | Basic | Full | Full, with lead attribution |
-| **Cost of delivery** | 13,500 | **25,200** | 39,400 |
-| **Price** | **32,000** | **60,000** | **95,000** |
-| **Margin** | 58% | **58%** | 59% |
+| **Cost of delivery** | 23,600 | **31,300** | 45,000 |
+| **Price** | **46,000** | **68,000** | **95,000** |
+| **Margin** | 49% | **54%** | 53% |
 
-**Every package carries the founder layer and the visual system**, because both are cheap and both are what actually moves their numbers. **The tiers differ on how much of the superbike floor gets filmed properly**, which is the expensive thing, the differentiated thing and the thing nobody has ever done for them.
+**Paid management moved down into package 1**, because at 46,000 an entry package without it is not credible — and it costs 2,000.
 
-**Why 2 is the one to recommend:** the jump from 1 to 2 buys paid management, local SEO, the review engine and a second film for 28,000. **The jump from 2 to 3 buys two more films for 35,000.** Package 2 is visibly the value pick, which is the job of the middle option.
+**The entry package is deliberately the thinnest margin in the set**, which is one more honest reason to steer at package 2 rather than a sales trick. **1 → 2 is +22,000 for a third film, four more founder videos, four more graphics, local SEO and the review engine.** That is the best value on the sheet and it should look like it.
+
+> **What the floor costs, stated plainly: there is no longer a cheap first yes.** 46,000 a month is a real commitment from a business that pays approximately nothing today. **The site now has to do the job the entry package was going to do** — see below, because it changes what the site should be priced at.
 
 ### The warning that comes with doing the premium edit yourself
 
@@ -216,13 +220,37 @@ It assumed the whole business was premium and being undersold by amateur product
 
 ### The site: build and monthly
 
-**Build: 40,000 one-time.** It is an immersive animated build rather than a template, they are a dealership with a superbike floor and 208,000 followers, and **it is the small yes that gets TSA in the door.** Do not discount it to win the retainer — **keep the two decisions clean, so neither one drags the other down.**
+**Build: 30,000, not 40,000 — and it is priced down on purpose.**
 
-**Monthly: 5,000.** **And sell it as inventory accuracy, never as maintenance.** A dealership site is only useful if the bikes on it are the bikes on the floor; **a customer who drives to Shatby for a superbike that sold three weeks ago does not come back.** That is a fee they can picture losing money without. "Updating everything" is not.
+**The 46,000 floor removed the cheap first yes, so the site now has to be it.** The arithmetic is one-sided: **the gap between a 40,000 and a 30,000 site is 10,000, once.** The retainer is 46,000 a month, **which is 138,000 across a three-month term — fourteen times that gap.** **So the site should be priced to convert fast, not to maximise its own margin.** 30,000 is a number a manager can say yes to in the room without assembling anybody.
 
-**What the 5,000 has to cover:** Basel's retainer, hosting and domain, and Aly's oversight. **Domain and hosting get billed through at cost or sit in the client's own account** — a 5,000 fee with 800 of somebody else's hosting inside it is not a 5,000 fee.
+**It is still well above what a freelancer charges**, so it does not signal cheap, and **it is already built, so the marginal cost of delivering it is near zero.**
 
----
+**Monthly: 5,000.** **Sell it as inventory accuracy, never as maintenance.** A dealership site is only useful if the bikes on it are the bikes on the floor; **a buyer who drives to Shatby for a superbike that sold three weeks ago does not come back.** That is a fee they can picture losing money without. "Updating everything" is not.
+
+**What the 5,000 must cover:** Basel at 1,500, hosting and domain, and Aly's oversight. **Domain and hosting get billed through at cost or sit in the client's own account** — a 5,000 fee with 800 of somebody else's hosting inside it is not a 5,000 fee.
+
+### If they find out it was built with AI — the honest read
+
+**Stated first, because it matters: nobody here has verified data on how an Egyptian motorcycle dealer thinks about AI.** **That is a real gap and it is not guessable.** What follows is reasoning from what the page itself shows, not knowledge of the man.
+
+**What the page shows is a commercially pragmatic operator**, not a technologically precious one: 208,000 followers, a weekly competition, a student offer, instalments on the cover, the owner on camera selling. **That is somebody who cares whether a thing sells bikes.**
+
+> **The AI is not the risk, and treating it as the risk aims the worry at the wrong target.** **No agency discloses its tooling and no client asks.** Nobody asked whether a poster came out of Illustrator or Canva. In 2026 an AI-assisted build is a tool choice, in the same category as Webflow or WordPress. **What will actually damage trust is a site that breaks, loads slowly on mobile data, or cannot be updated the week a price changes.** **That risk is real and it is Basel's inexperience, not the AI.**
+
+**The three objections that will genuinely come, ranked by how likely they are:**
+
+1. **"My nephew can build this for five thousand."** **Far and away the most likely, and it has nothing to do with AI.** Every custom site in this market meets it. **The answer is never a defence of the price** — it is *"he can build you a page; this is your showroom's front door, with your stock on it, kept accurate every week, and it is the thing that answers a buyer at 1am."* **Sell the maintained system, not the file.**
+2. **"What other sites have you built?"** **This is the real weak spot and it is a portfolio gap, not a technology one.** TSA has one site, by a first-timer. **Do not invent a second.** The honest answer is strong on its own: *"this one, built for you, before you asked."* **Spec work is the portfolio.**
+3. **"Is this AI?"** **Least dangerous, and only dangerous if the answer sounds guilty.** *"We use modern tooling, AI included, like every agency does. What matters is that it works and that we keep it accurate."* **Said flat and unbothered, it closes.** Said defensively, it invents a problem that was not there.
+
+**The three things that actually protect this, and they are all pre-work:**
+
+- **Test it hard before it is shown.** On a phone, on slow mobile data, every link, every image, in Arabic. **A broken demo is the only version of this that genuinely loses the deal.**
+- **Never claim a team TSA does not have.** *"We build and maintain your site"* is true. *"Our development team"* is a promise that breaks the first time it is tested.
+- **Do not sell the monthly until it can be serviced.** §5b's three conditions. **The thing that comes back later is not how the site was made — it is a fee charged for an update nobody can perform.**
+
+> **The deepest version, and it is the one to hold: the site is only fragile if it is sold as bespoke craft.** **Sold as a working sales tool for their inventory, how it was made stops being a question anybody thinks to ask.**
 
 ## 5b. Basel — the deal, if he is coming along for the journey
 
@@ -232,11 +260,11 @@ It assumed the whole business was premium and being undersold by amateur product
 
 | | Amount | When |
 |---|---|---|
-| **The build, retrospectively** | **8,000** — 20% of the 40,000 | **On the client's payment, not before.** Stated that way upfront |
+| **The build, retrospectively** | **6,000** — 20% of the 30,000 | **On the client's payment, not before.** Stated that way upfront |
 | **Monthly retainer** | **1,500/month** | For weekly stock updates and keeping it up. **Reviewed at month 3** against real workload |
 | **Future sites** | **A per-site rate agreed before each one** | Not a share of TSA. **A supplier rate, like Mahmoud's** |
 
-**8,000 is real money for a first project and it is meant to be.** **It is what turns a favour into a supplier**, and a supplier is something TSA can plan around. A friend doing it free is the arrangement that collapses in week three, and it spends the friendship at the same time.
+**6,000 is real money for a first project and it is meant to be.** **It is what turns a favour into a supplier**, and a supplier is something TSA can plan around. A friend doing it free is the arrangement that collapses in week three, and it spends the friendship at the same time.
 
 > **Pay him a written rate precisely because he is a friend.** **Unpaid friend-work is how friendships die on a client deadline** — and once a client is depending on a weekly update, the favour has become an obligation whether anyone named it or not.
 

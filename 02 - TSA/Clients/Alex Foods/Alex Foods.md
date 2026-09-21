@@ -142,10 +142,10 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 *The files are print-resolution — the smallest is 126 MB. **They do not go in this repo.** GitHub rejects any single file over 100 MB, and even under that limit, print PDFs in a git repo make every future clone slower on every device forever. They live in cloud storage; this note records where, and working copies for brand work are screen-resolution exports.*
 
-- [ ] 5 SKU names
+- [x] 5 SKU names
 - [~] Logo files — vector if available. **Master seal: real vector received 19 Sep.** Four range marks: raster cut-outs, sufficient under "if available".
-- [ ] Product photos, or actual samples for shooting
-- [ ] Packaging artwork
+- [x] Product photos, or actual samples for shooting
+- [x] Packaging artwork
 - [ ] Meta admin access on the social pages
 - [ ] Google account for the Business Profile
 - [ ] GBP business details: address, opening hours, categories, phone
@@ -155,7 +155,7 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 - [ ] **The school campaign's real dates**, including the actual start of the school year. The client's number one priority has a deadline nobody on TSA's side has been told.
 - [ ] **Where the QR code on the back of the pack actually goes.** The live URL, or confirmation that nothing is built.
 - [ ] **The coupon artwork** — and whether TSA is being shown it or asked to rebuild it.
-- [ ] **Written permission to publish winner photos and videos.** Many winners are children, and consent to be photographed is not consent to appear in a paid ad.
+- [x] **Written permission to publish winner photos and videos.** Many winners are children, and consent to be photographed is not consent to appear in a paid ad.
 - [ ] **The giveaway's facts in writing** — prize counts, draw method, how winners are announced. Without them the comment policy cannot answer the three most-asked questions on a live giveaway.
 
 Full brief and the decisions it forces: [[Giveaway Programme]].

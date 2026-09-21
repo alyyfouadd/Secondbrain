@@ -28,13 +28,16 @@ type: reference
 | 6 | Shooting and Compositing Recipe | **SHIPPED, thin** | **Three sections lost when `recipe.py` was deleted** — the reject list, the source library and the resolution rule. Re-render is 2pp against the original 7pp. Prompts out and BeBo corrected. See [[Alex Foods Week 1 Messages]] §6 | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` |
 | 7 | Google Business Profile | **BLOCKED — unblocking 21 Sep** | Login received; **verification code lands 21 Sep**. Address in 19 Sep; **phone now read off the back of a BeBo pack**. Hours and categories still outstanding | — |
 | 8 | Local SEO — Alexandria | **NOT STARTED** | Nothing. **The shelf walk is dropped ([[Decisions]] #29)** — the competitor read is now a digital-shelf read and says so honestly in the book | — |
-| — | **The brand book** — the one document all eight ship inside | **CONTENT BUILT · LAYOUT REASSIGNED** | **Mahmoud, and he has not been briefed** — [[Decisions]] #36 | `Alex Foods - Brand Foundation v1.0.pdf` is now an internal content proof, not the client copy · [[Brand Book Spec]] |
+| — | **Brand Identity & Guidelines** — §03–07, 11, 12, 13, ~46pp | **CONTENT BUILT · AWAITING DESIGNER** | **Mahmoud.** Brief written, not yet sent or re-quoted | [[Mahmoud Kit Brief]] · [[Brand Book Spec]] |
+| — | **Operating Guide** — everything else, TSA's own | **CONTENT BUILT** | Content for the four waiting sections | `Alex Foods - Brand Foundation v1.0.pdf` becomes this · [[Brand Book Spec]] |
 
 > ### 21 September: the client-facing layout moved to Mahmoud, and the critical path moved with it.
 >
 > **[[Decisions]] #36.** The generator output stops being what the client sees. **TSA still owns all 25 sections of content; Mahmoud owns the layout.** Nothing above changes status on content — what changes is that **the shipped PDFs are no longer the delivery.**
 >
-> **The cost, stated plainly, because [[Decisions]] #27 was specifically written to avoid it: Mahmoud is now on the critical path to 9 October.** #27 kept his document off the eight deliverables *so that* a subcontractor could never gate the target. **That protection is spent.**
+> **CORRECTED the same afternoon by [[Decisions]] #37, and the correction matters: Mahmoud takes the identity half only, not the whole book.** He owns **one** of the eight contracted deliverables — #2, the Colour and Type Kit — plus the identity spine around it. **Seven of the eight still ship whatever he does**, so #27's protection is mostly intact rather than spent. *(The earlier reading here was that Mahmoud gated the whole target. That was written before the scope was set and it overstated the exposure.)*
+>
+> **What he does gate: deliverable 2, and the visual language the rest should follow.** That is a sequencing dependency, not a blocker — his pages want to land before TSA finalises the look of the operating guide.
 >
 > **Eighteen days as of 21 September**, and inside them Mahmoud must take a brief that does not exist yet, lay out a bilingual document currently at 38 pages and specced toward ~105 ([[Brand Book Spec]] §5), take a revision round, **and** produce month 1's twelve graphics. **Three of those four things have no date on them.**
 >

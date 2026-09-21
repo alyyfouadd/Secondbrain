@@ -401,6 +401,45 @@ This section exists because a food page can be reported, and a paid ad account c
 
 **Text to speech does not sing.** [[Slogans and Song]] §5's giveaway song is a *song*; a spoken-word read of it is not a produced track, it is a voice-over of lyrics. **Producing the song needs a music tool or a human singer, and that is a different job from the voice-over above.** Do not let "we have ElevenLabs now" quietly become "the song is handled."
 
+### What Jarvis CANNOT do here, tested 21 September rather than assumed
+
+**Aly asked for two female voices auditioned against Haytham and a final name. That cannot be delivered from this session, and the reason is not a preference.**
+
+| Tried | Result |
+|---|---|
+| `elevenlabs.io`, `api.elevenlabs.io`, `api.us.elevenlabs.io` | **All three 403 at the egress proxy.** Fully blocked, site and API |
+| The voice-directory mirrors | Blocked too |
+| Higgsfield's `list_voices`, 100 entries | **Not one Arabic voice, and no accent or language field at all.** Grady, Ainsley, Brielle, Holden. It is a Western preset library, and it is not ElevenLabs' |
+| Listening to a clip | **Claude cannot process audio at all.** Not a network problem — a hard limit |
+
+> **So no future session should spend time trying.** Generating a sample here would mean a Western preset reading Arabic, which is worse than no test, and it would spend Aly's credits to produce it.
+>
+> **The casting ear is Aly's and only Aly's.** What this note can do is make his part ten minutes instead of an afternoon, which is the section below.
+
+### The ten-minute audition, and the rule that decides it
+
+**One line first, not four.** Twelve clips is decision fatigue. **Run «مع بيبو، اليوم أحلى» through all three, cut to two, then run the rest on the finalists.**
+
+**Apply these in order. The first failure eliminates — do not carry a voice forward hoping a later test rescues it.**
+
+1. **Does it sound Egyptian, or does it sound like the news?** **Any drift to MSA prosody and it is out.** This kills more candidates than everything below combined, and it is binary: you are not asking whether you like it, you are asking whether you wince.
+2. **Make it say «الباكو».** **Colloquial nouns are where Arabic synthesis breaks.** If the brand's own words break, the voice is unusable however pleasant it is.
+3. **Would a nine-year-old listen to it?** BeBo is the hero and the child is the audience ([[Decisions]] #17).
+4. **Would a mother trust it?** The same voice carries AlRawy.
+5. **Only now: which do you prefer.**
+
+> **Most people start at 5 and end up with a voice that cannot say «الباكو».** The order is the whole method.
+
+**Write the losers down with their reason.** Month 2 asks this again, and an undocumented rejection gets re-auditioned.
+
+### If none of the three clear steps 1 and 2 — and this is the likelier outcome than it sounds
+
+**The answer is not "pick the best of three." It is a human voice-over.**
+
+**A01 and A02 are the two films a prospect watches**, and [[TSA Client System]]'s first-client rule says this account is the showreel. **Broken-dialect synthesis on a showreel is worse than no voice-over at all** — silence with type and music is clean; a robot mangling «الباكو» is the thing a prospect remembers.
+
+**Egyptian voice talent for a six-second read is cheap**, and on a portfolio piece the difference between that and $6 of synthesis is not the number that matters. **Price it before defaulting to synthesis for the two hero films.** Synthesis still covers the repeatable, low-risk end: step instructions, story lines, the taglines.
+
 ### How the voice actually gets chosen — by ear, not by spec
 
 **Nothing above picks the voice. Aly does, and only Aly can** — he is the native speaker and every line is his call.

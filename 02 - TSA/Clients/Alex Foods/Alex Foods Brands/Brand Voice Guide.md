@@ -305,6 +305,63 @@ This section exists because a food page can be reported, and a paid ad account c
 
 ---
 
+## 7b. The spoken voice — added 21 September
+
+**Everything in §3 to §7 is a written register.** Words in and out, sentence length, emoji policy, person. **None of it says what this brand SOUNDS like**, and the moment an animation carries a voice-over that becomes a gap rather than an omission. This section closes it.
+
+### The governing decision: one voice for the account, not five
+
+**Alex Foods is the master brand and posts as one presence** ([[Decisions]] #3). **So the account has ONE narrator.**
+
+> **Five narrators across four ranges is the four-brands-four-looks problem reproduced in audio**, and it is the exact thing this Foundation exists to stop. **Range character comes from the writing, the music and the picture — never from swapping the person speaking.**
+
+**The one deliberate exception is Umrah**, for the same reason it is the exception in the winner template: a pilgrimage cannot be read in the voice that sells a pencil case. Quiet, plain, unhurried, no smile in it.
+
+### The cast brief — what the voice is
+
+| | |
+|---|---|
+| **Dialect** | **Egyptian colloquial. Not MSA.** Every confirmed line in this vault is colloquial — «اقلب الباكو», «مين معاك النهاردة؟» — and MSA read over them sounds like a news bulletin selling sweets |
+| **Register** | **Fun**, per Aly's direction for the master, **with AlRawy's calm surviving underneath it.** Warm, not manic. **A brand that shouts at a child is a brand a mother turns off** |
+| **Pace** | Unhurried. **The lines are three to six words; there is no reason to rush one** |
+| **Never** | A hard sell read. A cartoon character voice. A radio-advert shout. **An exclamation in the delivery that is not in the writing** |
+
+### The technical constraint, checked rather than assumed
+
+**ElevenLabs is competent at Modern Standard Arabic and has Egyptian-accent voices in its library — but heavy colloquial dialect is where its Arabic gets inconsistent**, and the model does not truly differentiate Egyptian from Gulf or Levantine. Verified 21 September against published sources, not from memory.
+
+**The practical consequence, and it happens to suit this job:**
+
+> **The shorter the line, the safer the synthesis.** A three-word slogan is low risk. A forty-second narrated film in Egyptian colloquial is high risk.
+>
+> **A01 and A02 are built from three-to-six-word lines.** That is the safe end of the range, by accident rather than design — **but it becomes a rule now: synthesised Arabic carries slogans, taglines and step instructions. It does not carry long narration.** Long narration is a human read or it is not made.
+
+**Diacritics, hamza and numerals misrender in Arabic TTS.** Write numbers as words, and expect to fight the text before the voice.
+
+### The licence, and this one is not optional
+
+> **The free tier grants NO commercial licence and requires attribution to ElevenLabs on anything published.** TSA runs the client's ad account. **Free-tier audio on a paid Alex Foods advert is a licence breach with TSA's name on it, not the client's.**
+>
+> **Commercial rights start at the paid entry tier, around $6 a month, with no attribution.** It is the smallest line item on this contract and it is not optional. [[TSA Money]] carries it once a plan is actually bought.
+
+### The scope line, because this is where the money is
+
+**The song is written, not produced** — [[Slogans and Song]] §5 and [[Giveaway Programme]] §5 both say so, and **a recorded track is a clause 7 quote.**
+
+**Cheap to produce is not the same as in scope.** Synthesis makes a recorded track cost TSA about six dollars and an hour, which changes the *cost*, not the *contract*.
+
+**Recommendation: quote it under clause 7 rather than give it away.** It would be the fourth concession in a row on this job, and it is now a high-margin add-on instead of a favour. **If it does go free, it goes with one written line saying it is a one-off and not a new baseline.**
+
+### How the voice actually gets chosen — by ear, not by spec
+
+**Nothing above picks the voice. Aly does, and only Aly can** — he is the native speaker and every line is his call.
+
+**The test: three candidate voices, the same four confirmed lines through each, listened to back to back.**
+
+> «مع بيبو، اليوم أحلى» · «صوّر واكسب مع بيبو» · «بوليكا.. مش محتاجة شرح» · «الراوي.. طعم تثق فيه»
+
+**Four lines, three voices, twelve clips, fifteen minutes.** Then the chosen voice's ID gets written into this section and **never changed without a decision**, because a brand that sounds like a different person each month has no spoken voice at all.
+
 ## 8. The comment reply policy
 
 The scope asks for "how comments get replied to" and it is the part most brand guides skip entirely, which is why most social pages answer comments by improvisation. This is the procedure.

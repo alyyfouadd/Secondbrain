@@ -40,3 +40,29 @@ type: reference
 They were sliced out of iPad screenshots, which was right at the time. **A BeBo sachet at 199 px tall blown up to fill a 1080-wide frame is mush.**
 
 **The fix is not a shoot.** It is pack artwork at high resolution or vector, which the client can supply — they sent real Illustrator artwork of the master seal on 19 September, so the route is proven. **That is a separate ask from product photography** and conflating the two is why neither has arrived. See [[Package A Month 1]] §4.
+
+## `bebo-mango-back.png` — added 20 September, and it settled the format argument for good
+
+**The back of a BeBo mango pack, sent by Aly.** The first back surface in the library, and the only primary source that states what the product legally is.
+
+| Read directly off the pack | Value |
+|---|---|
+| Product type | **«مشروب سكري صناعي بطعم المانجو محلي بالسكر والمحليات»** — artificial sugary drink, mango flavour, sweetened with sugar and sweeteners |
+| Standard | Egyptian standard specification **1602 / 2002** |
+| First ingredient | **ماء** — water |
+| Net | **«الوزن: ٧٥ مل تقريبا»** — 75 ml, declared as a weight, which is itself a pack defect |
+| Shelf life | 6 months from the production date printed on the side |
+| Additives | E466 CMC · colours **E110, E102** · sweeteners **E951 aspartame, E950 acesulfame-K** · preservatives **E211 sodium benzoate, E202 potassium sorbate** |
+| Registered name | **الاسكندرية لتصنيع وتغليف المواد الغذائية**, ش.ذ.م.م |
+| Address | الاسكندرية – رمل ثاني – ابيس، طريق الاسكندرية القاهرة الزراعي |
+| Customer service | 01010000015 · 01010001374 · WhatsApp 01550210766 |
+| Barcode | 6225000529199 |
+| Also printed | **"KIDS PARTY!"**, in full colour, on the back |
+
+**Three things this changes, and they are not cosmetic.**
+
+1. **The jug is dead.** 75 ml, ready to drink, water first on the ingredients list. Animation **A1** in [[Content Plan]] §5 was built on one sachet making a jug for the family, and that product does not exist. [[Decisions]] #30.
+2. **«عصير» is a claim, not a description.** The pack says artificial sugary drink. The client's own page says «عصير بيبو». **TSA runs the ad account** — same shape as the AlRawy "organic" problem. **Open for Aly**, not settled here.
+3. **The QR IS the giveaway entry route — corrected 21 September.** This README first read it as *probably a recycling code*, because of what sits beside it. **The client's own brief says «والمستهلك هيكسب عن طريق مسح ال QR code الي في ظهر الباكو».** The pack carries one QR; it is that one. **A client statement outranks TSA's reading of their artwork — rule 12.** What is still unknown is the destination URL, which has not been scanned.
+
+> **One observation recorded without a conclusion.** The line «يحتوي على مصدر للبنزين الامن» appears where a phenylalanine declaration belongs, which is what aspartame E951 requires. It reads as a printing error on the client's side. **It is not TSA's to fix and not TSA's to publicise — but never shoot, zoom or crop this panel into creative.**

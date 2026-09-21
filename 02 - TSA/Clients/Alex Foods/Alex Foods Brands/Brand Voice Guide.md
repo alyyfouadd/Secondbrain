@@ -305,6 +305,193 @@ This section exists because a food page can be reported, and a paid ad account c
 
 ---
 
+## 7b. The spoken voice — added 21 September
+
+**Everything in §3 to §7 is a written register.** Words in and out, sentence length, emoji policy, person. **None of it says what this brand SOUNDS like**, and the moment an animation carries a voice-over that becomes a gap rather than an omission. This section closes it.
+
+### The governing decision: one voice for the account, not five
+
+**Alex Foods is the master brand and posts as one presence** ([[Decisions]] #3). **So the account has ONE narrator.**
+
+> **Five narrators across four ranges is the four-brands-four-looks problem reproduced in audio**, and it is the exact thing this Foundation exists to stop. **Range character comes from the writing, the music and the picture — never from swapping the person speaking.**
+
+**The one deliberate exception is Umrah**, for the same reason it is the exception in the winner template: a pilgrimage cannot be read in the voice that sells a pencil case. Quiet, plain, unhurried, no smile in it.
+
+### The cast brief — what the voice is
+
+| | |
+|---|---|
+| **Dialect** | **Egyptian colloquial. Not MSA.** Every confirmed line in this vault is colloquial — «اقلب الباكو», «مين معاك النهاردة؟» — and MSA read over them sounds like a news bulletin selling sweets |
+| **Register** | **Fun**, per Aly's direction for the master, **with AlRawy's calm surviving underneath it.** Warm, not manic. **A brand that shouts at a child is a brand a mother turns off** |
+| **Pace** | Unhurried. **The lines are three to six words; there is no reason to rush one** |
+| **Never** | A hard sell read. A cartoon character voice. A radio-advert shout. **An exclamation in the delivery that is not in the writing** |
+
+### The technical constraint, checked rather than assumed
+
+**ElevenLabs is competent at Modern Standard Arabic and has Egyptian-accent voices in its library — but heavy colloquial dialect is where its Arabic gets inconsistent**, and the model does not truly differentiate Egyptian from Gulf or Levantine. Verified 21 September against published sources, not from memory.
+
+**The practical consequence, and it happens to suit this job:**
+
+> **The shorter the line, the safer the synthesis.** A three-word slogan is low risk. A forty-second narrated film in Egyptian colloquial is high risk.
+>
+> **A01 and A02 are built from three-to-six-word lines.** That is the safe end of the range, by accident rather than design — **but it becomes a rule now: synthesised Arabic carries slogans, taglines and step instructions. It does not carry long narration.** Long narration is a human read or it is not made.
+
+**Diacritics, hamza and numerals misrender in Arabic TTS.** Write numbers as words, and expect to fight the text before the voice.
+
+### The licence, and this one is not optional
+
+> **The free tier grants NO commercial licence and requires attribution to ElevenLabs on anything published.** TSA runs the client's ad account. **Free-tier audio on a paid Alex Foods advert is a licence breach with TSA's name on it, not the client's.**
+>
+> **Commercial rights start at the paid entry tier, around $6 a month, with no attribution.** It is the smallest line item on this contract and it is not optional. [[TSA Money]] carries it once a plan is actually bought.
+
+### The scope line, because this is where the money is
+
+**The song is written, not produced** — [[Slogans and Song]] §5 and [[Giveaway Programme]] §5 both say so, and **a recorded track is a clause 7 quote.**
+
+**Cheap to produce is not the same as in scope.** Synthesis makes a recorded track cost TSA about six dollars and an hour, which changes the *cost*, not the *contract*.
+
+**Recommendation: quote it under clause 7 rather than give it away.** It would be the fourth concession in a row on this job, and it is now a high-margin add-on instead of a favour. **If it does go free, it goes with one written line saying it is a one-off and not a new baseline.**
+
+### The cast, the model and the settings — 21 September
+
+**Researched against published sources; ElevenLabs' own site is blocked by this session's network policy, so every name below is confirmed from third parties and must be checked in the library before it is bought.**
+
+**Recommendation: a warm Egyptian male, mid-thirties register, with a smile in it.** Not an announcer, not a cartoon.
+
+**Why male, when family food in this market usually defaults to a warm female or a booming announcer:**
+
+1. **BeBo is the hero and the child is the audience** ([[Decisions]] #17). **An older-brother voice lands with a kid; a mother-figure voice reads as instruction.**
+2. **2MAN's social voice is nostalgia aimed at adults**, found in the client's own published copy, and that nostalgia is adult-male-coded in their posts.
+3. **It is the differentiated choice in the category**, which is worth something on an account whose whole job is to stop looking like four unrelated brands.
+
+> **The trade, named rather than hidden: AlRawy is the one range aimed squarely at the mother, and a male read serves it less naturally.** **It is handled by slowing the read and dropping the energy, never by swapping the narrator** — one account, one voice.
+
+| | Candidate | Why |
+|---|---|---|
+| **1** | **Haytham — "the storyteller"**, middle-aged Egyptian podcaster, warm and expressive | **Conversational rather than announcer**, which is the whole brief |
+| **2** | **Amr**, middle-aged Egyptian male, general narration | **The safer, more neutral read.** Take it if Haytham is too characterful across twenty assets |
+| **3** | **Abdullah — Egyptian**, professional, warm, clear articulation | The straight fallback |
+
+**A named Egyptian FEMALE voice could not be confirmed from here.** Filter the library on Arabic + Egyptian + female and audition two before settling, because the argument above is a recommendation and not a proof.
+
+**Model: Eleven v3, decided by Aly on 21 September.** *(Superseded: TSA had recommended Multilingual v2 on the reasoning that three-to-six-word lines repeated across twenty assets need consistency over expressiveness. **The batching the v3 character floor forces delivers that consistency anyway** — see the settings below.)*
+
+**MODEL DECIDED 21 September: Eleven v3, by Aly.** TSA's recommendation had been v2 for consistency; **v3 is the call and the settings below are v3's, which are a different set of controls, not different numbers on the same ones.**
+
+### The constraint that changes the workflow, and it is not a preference
+
+> **v3 accepts between 200 and 10,000 characters per generation.**
+>
+> **«مع بيبو، اليوم أحلى» is about twenty characters. Every line in this brand is under the floor.** They cannot be generated one at a time on v3. That is a hard input limit, not a quality opinion.
+
+**The fix is better than the problem: batch the whole month's lines into ONE generation and cut them apart in the edit.**
+
+**And it improves the thing v3 was weakest at for us** — every line renders in a single pass with the same prosody state, so twenty assets share one performance instead of twenty separate ones that drift. **v3's floor accidentally forces the consistency v2 was being chosen for.**
+
+**The batch script — one generation, cut into clips afterwards. Each line on its own line so the gaps are findable in the waveform.**
+
+```
+مع بيبو، اليوم أحلى.
+صوّر واكسب مع بيبو.
+عايز تكسب؟
+اقلب الباكو.
+امسح الكود.
+وهدايا المدارس تبقى معاك.
+طعمك انت.
+خمس طعوم. اختار بتاعك.
+حطّيه في اللانش بوكس وانتي مطمنة.
+مين معاك النهاردة؟
+برّه أحلى.
+بوليكا.. مش محتاجة شرح.
+الراوي.. طعم تثق فيه.
+آخر أسبوع في هدايا المدارس.
+```
+
+**Re-render the whole block whenever a line changes, and re-cut.** One master render per version keeps every clip in the same voice — **never patch a single line in from a separate generation**, because it will not match.
+
+### The settings — v3
+
+| Control | **Set to** | Why |
+|---|---|---|
+| **Model** | **Eleven v3** | Aly's call |
+| **Stability** | **Robust** for the tagline and step-line batch · **Natural** for A01 and A02 narration | **Robust is highly stable and consistent and less responsive to audio tags** — which is exactly right for lines repeated across twenty assets. Natural is the balanced middle and buys a little life on the two films |
+| **Stability — never** | **Creative** | **Documented as prone to hallucinations.** A hallucinated sigh inside a brand tagline, on an ad account TSA runs, is not a risk worth any amount of expressiveness |
+| **Similarity** | **78%** | Holds character; past ~90% it amplifies artefacts |
+| **Speed** | **0.92 if the control is present** | Not guaranteed on v3 — **if it is absent, slow the read with punctuation instead** |
+
+### Audio tags — v3's actual new capability, used with a short leash
+
+**v3 performs inline tags like `[whispers]`, `[excited]`, `[sighs]`.** Two rules:
+
+1. **Robust mostly ignores them.** If a tag is genuinely needed, that line moves to **Natural** — do not raise stability toward Creative to make a tag land.
+2. **Tags belong in narration, never in a tagline.** «مع بيبو، اليوم أحلى» is the brand's signature line. **It is read straight, every time, forever.**
+
+**v3 does not support SSML break tags, and stacking break-type tags in one generation causes instability — speed-ups and artefacts.** Place pauses with commas and full stops.
+
+### Text preparation, which matters more than the settings
+
+- **Write every number as a word.** Numerals misrender in Arabic synthesis.
+- **Use commas and full stops to place the pauses.** The engine reads punctuation, not intention.
+- **Skip diacritics** unless one is genuinely needed to disambiguate a word.
+- **When a colloquial word misreads — and «الباكو» is the likely first offender — respell it phonetically in Arabic until it sounds right, then WRITE THE WORKING SPELLING DOWN in the table below.** A pronunciation lexicon built once stops every future session paying the same discovery tax.
+
+| Written as | Spelled for the engine as | Note |
+|---|---|---|
+| *(empty — fill on first run)* | | |
+
+### One thing synthesis does NOT solve, and it is worth being straight about
+
+**Text to speech does not sing.** [[Slogans and Song]] §5's giveaway song is a *song*; a spoken-word read of it is not a produced track, it is a voice-over of lyrics. **Producing the song needs a music tool or a human singer, and that is a different job from the voice-over above.** Do not let "we have ElevenLabs now" quietly become "the song is handled."
+
+### What Jarvis CANNOT do here, tested 21 September rather than assumed
+
+**Aly asked for two female voices auditioned against Haytham and a final name. That cannot be delivered from this session, and the reason is not a preference.**
+
+| Tried | Result |
+|---|---|
+| `elevenlabs.io`, `api.elevenlabs.io`, `api.us.elevenlabs.io` | **All three 403 at the egress proxy.** Fully blocked, site and API |
+| The voice-directory mirrors | Blocked too |
+| Higgsfield's `list_voices`, 100 entries | **Not one Arabic voice, and no accent or language field at all.** Grady, Ainsley, Brielle, Holden. It is a Western preset library, and it is not ElevenLabs' |
+| Listening to a clip | **Claude cannot process audio at all.** Not a network problem — a hard limit |
+
+> **So no future session should spend time trying.** Generating a sample here would mean a Western preset reading Arabic, which is worse than no test, and it would spend Aly's credits to produce it.
+>
+> **The casting ear is Aly's and only Aly's.** What this note can do is make his part ten minutes instead of an afternoon, which is the section below.
+
+### The ten-minute audition, and the rule that decides it
+
+**One line first, not four.** Twelve clips is decision fatigue. **Run «مع بيبو، اليوم أحلى» through all three, cut to two, then run the rest on the finalists.**
+
+**Apply these in order. The first failure eliminates — do not carry a voice forward hoping a later test rescues it.**
+
+1. **Does it sound Egyptian, or does it sound like the news?** **Any drift to MSA prosody and it is out.** This kills more candidates than everything below combined, and it is binary: you are not asking whether you like it, you are asking whether you wince.
+2. **Make it say «الباكو».** **Colloquial nouns are where Arabic synthesis breaks.** If the brand's own words break, the voice is unusable however pleasant it is.
+3. **Would a nine-year-old listen to it?** BeBo is the hero and the child is the audience ([[Decisions]] #17).
+4. **Would a mother trust it?** The same voice carries AlRawy.
+5. **Only now: which do you prefer.**
+
+> **Most people start at 5 and end up with a voice that cannot say «الباكو».** The order is the whole method.
+
+**Write the losers down with their reason.** Month 2 asks this again, and an undocumented rejection gets re-auditioned.
+
+### If none of the three clear steps 1 and 2 — and this is the likelier outcome than it sounds
+
+**The answer is not "pick the best of three." It is a human voice-over.**
+
+**A01 and A02 are the two films a prospect watches**, and [[TSA Client System]]'s first-client rule says this account is the showreel. **Broken-dialect synthesis on a showreel is worse than no voice-over at all** — silence with type and music is clean; a robot mangling «الباكو» is the thing a prospect remembers.
+
+**Egyptian voice talent for a six-second read is cheap**, and on a portfolio piece the difference between that and $6 of synthesis is not the number that matters. **Price it before defaulting to synthesis for the two hero films.** Synthesis still covers the repeatable, low-risk end: step instructions, story lines, the taglines.
+
+### How the voice actually gets chosen — by ear, not by spec
+
+**Nothing above picks the voice. Aly does, and only Aly can** — he is the native speaker and every line is his call.
+
+**The test: three candidate voices, the same four confirmed lines through each, listened to back to back.**
+
+> «مع بيبو، اليوم أحلى» · «صوّر واكسب مع بيبو» · «بوليكا.. مش محتاجة شرح» · «الراوي.. طعم تثق فيه»
+
+**Four lines, three voices, twelve clips, fifteen minutes.** Then the chosen voice's ID gets written into this section and **never changed without a decision**, because a brand that sounds like a different person each month has no spoken voice at all.
+
 ## 8. The comment reply policy
 
 The scope asks for "how comments get replied to" and it is the part most brand guides skip entirely, which is why most social pages answer comments by improvisation. This is the procedure.

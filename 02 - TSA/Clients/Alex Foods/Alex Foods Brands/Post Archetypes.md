@@ -45,6 +45,8 @@ type: plan
 
 **Caption shape:** congratulate by name · what they bought · the invitation. *«الف مبروك لإياد ❤️ اشرب بيبو.. دورك جاي»* — **their own structure, and it works.**
 
+> **Built as a reusable template, 21 September, and it lives in [[Month 1 Asset Brief]] §6** — the anatomy, the source-photo accept-and-reject gate, the Umrah variant, the motion version and the consent rules. **Four a month from one locked master**, because this post repeats every week across all three campaigns. **This archetype says what the post is; that section says how it gets built.**
+
 ### B · The Mechanic Explainer
 > **The biggest gap on the account. Nobody scrolling knows how to enter.**
 

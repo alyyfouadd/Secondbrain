@@ -146,6 +146,40 @@ type: reference
 
 ---
 
+## 7 · To Mohamed — delivering the Colour and Type System
+
+**Drafted 20 September 2026.** Same shape as §6: an item lands, it carries no ask, and it does not invite a second approval. Ships with `Alex Foods - Design System v1.1.pdf`.
+
+> أستاذ محمد، بند تاني من الأساس التجاري خلص ومعاك مرفق 📄
+>
+> ده **«نظام الألوان والخطوط»**، بند من التمانية. عربي وإنجليزي، ١٩ صفحة.
+>
+> **هيكل العلامة الأول.** أليكس فودز هي العلامة الأم، وتحتها أربع مجموعات: بيبو، الراوي، 2MAN، وبوليكا. كل مجموعة محتفظة بألوانها الخاصة، وده مقصود، لأنه هو اللي بيفرقهم عن بعض على الرف.
+>
+> **والقاعدة الحاكمة في المستند كله:** لون النكهة بياخد الخلفية، ولون المجموعة بياخد اللوجو، والاتنين مابيتبادلوش أماكنهم أبدًا. كيس بيبو مانجو خلفيته برتقالي، لكن شريط اللوجو يفضل أخضر زي ما هو. الشريط الأخضر اللي مابيتغيرش هو اللي بيخلي الرف المليان بيبو يتقرى كعلامة واحدة.
+>
+> **الألوان.** سحبنا ٣١ لون من العبوات الحالية بتاعتكم، ورتبناهم لـ**١٨ لون محكوم** بأسماء وأكواد ودرجات. وكل تركيبة نص على لون اتقاس تباينها بالأرقام، مش بالنظر، عشان نعرف بالظبط فين الكتابة هتتقرا وفين محتاجة معالجة.
+>
+> **اللوجوهات.** الأربعة **رسم، مش خط مكتوب**، فبتتحط زي ما هي وماتتعادش كتابتها بأي خط مهما كان قريب من الشكل. ده مكتوب في المستند كقاعدة عشان أي حد يشتغل على العلامة بعد كده يلتزم بيها.
+>
+> **الخطوط.** اخترنا عائلة **IBM Plex Sans Arabic** ومعاها Plex Sans و Plex Mono. مرسومة عربي ولاتيني بنفس اليد، يعني مفيش فرق في الشكل لما السطر يبدل بين اللغتين، ومجانية ومرخصة للاستخدام التجاري فمافيش تكلفة خطوط عليكم.
+>
+> وفيه كمان المقاسات، وقواعد التصميم بلغتين، وصفحة **«ممنوع»** بالحاجات اللي بتكسر الهوية، وصفحة بعيوب في العبوات الحالية لاحظناها وهتفرق معاكم في أي طبعة جاية.
+>
+> المراجعة والاعتماد النهائي بيحصلوا مرة واحدة على الدليل الكامل، فمش محتاجين منكم أي حاجة دلوقتي. باقي البنود ماشية في معادها، والتسليم الكامل مستهدف **٩ أكتوبر**.
+
+**English gloss, for Aly's ear rather than for sending:** a second Foundation item is done and attached. The Colour and Type System, one of the eight, bilingual, 19 pages. Architecture first: Alex Foods is the master, four ranges beneath it, each keeping its own palette on purpose because that is what separates them on a shelf. The governing rule: the flavour colour owns the field, the range colour owns the logo, and they never trade places. The rationalised master set from [[Colour System]] with names, codes and ramps, and every type-on-colour pairing measured rather than eyeballed. The four wordmarks are artwork, never retyped. Type is IBM Plex Sans Arabic with Plex Sans and Plex Mono, one bilingual family, free and commercially licensed. Plus scales, bilingual rules, a "never do this" page, and a page of defects in their current packs that will matter at the next print run. Review and sign off happen once, on the complete book.
+
+**Three decisions inside this draft, and the first one is the one that matters:**
+
+- **It is framed as «بند من التمانية», an item landing inside the book, not as a standalone document.** [[Decisions]] #11 retired the Design System as a standalone client deliverable and folded colour and type into the book as §04 to §06. **Sending the PDF early is fine; presenting it as a finished separate deliverable is not**, because that is three things to keep in sync and a client who later asks which document governs.
+- **It carries no ask and no approval request**, for the same reason §6 does not: the Foundation has **one** sign off, on the book's sign off page. The type selection is TSA's under clause 1 and the client approves the choice at that single sign off, not in a WhatsApp reply.
+- **The «عيوب في العبوات» line is deliberately soft.** Section 12 of the document names real defects in printed packs. Framed as *useful at the next print run* it is a service; framed as a finding it is a criticism of their designer, and repainting is explicitly outside this scope.
+
+> **Not in the client's copy, and it must be fixed before the book ships:** the attached v1.1 predates the real vector seal. Its §1 prints Alex Navy as `#0A0378`, which is **wrong by ΔE2000 9.80** against the authored CMYK 98 / 81.3 / 27 / 12.9, and describes the seal as a rendered 3D object when the client's own file is flat vector. **No range value, ramp or contrast verdict is affected.** See [[Decisions]] #14 and [[Colour System]] §11.
+
+---
+
 ## What to expect back, and what to do if nothing comes
 
 **Realistically: message 1 gets answered, message 4 does not.** Photos are easy and decisions are not.

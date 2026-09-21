@@ -22,6 +22,7 @@ This note is both the client note and the index for `02 - TSA/Clients/Alex Foods
 - [[Alex Foods Marketing Plan]] — **the strategy layer: what the marketing is actually trying to do.** Positioning, the funnel, the channel logic, the paid-media plan, the trade track, the measurement framework, and §11's ranked list of every input the plan is still running without. **Internal, not a contracted deliverable** — §12.
 - [[Alex Foods Delivery Plan]] — **the dated plan to Foundation delivery on 9 October**, week by week, with what each day depends on and what can still break it.
 - [[Alex Foods Week 1 Messages]] — **five messages ready to send**, Arabic first, each with one job.
+- [[Alex Foods - Company Brief]] — **the one-page "who are they" in Arabic**, for a supplier about to make work for this client. Derived from the notes above and re-derived rather than patched when one of them changes.
 - `TSA - Alex Foods Service Scope V2.pdf` — the signed-scope source document, 09.09.2026. This note is derived from it; that is the original.
 
 Live open items for this client are in [[Active Priorities]], never in this note's checkboxes — the boxes below record scope, the queue records state.

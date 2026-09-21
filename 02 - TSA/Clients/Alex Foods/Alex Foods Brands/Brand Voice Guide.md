@@ -376,15 +376,31 @@ This section exists because a food page can be reported, and a paid ad account c
 
 **Model: Eleven Multilingual v2, not v3.** v3 is the more expressive model, but **these are three-to-six-word lines repeated across twenty assets and a whole month — consistency beats expressiveness every time.** v2 is the stable production model. **A wobble in a three-word tagline ruins the tagline.**
 
-**Starting settings — a start point tuned by ear, not a measured result:**
+**Type these in. Single numbers to start from, with the tuning band beside each — a reasoned start point, not a measured result.**
 
-| Control | Value | Why |
-|---|---|---|
-| **Stability** | **65–75%, high** | Low stability buys emotion and pays in variance and dialect drift. **Across a month of assets the same read every time is the product** |
-| **Similarity** | **75–80%** | Holds the voice's character. **Pushing past ~90% amplifies artefacts** |
-| **Style exaggeration** | **0–15%, low** | **Style push is where Arabic synthesis breaks** and drifts toward MSA prosody. The brief is warm, not manic |
-| **Speaker boost** | **On** | — |
-| **Speed** | **0.9–0.95, slightly slow** | The lines are three to six words. **There is no reason to rush one** |
+| Control | **Set it to** | Band | Why |
+|---|---|---|---|
+| **Model** | **Eleven Multilingual v2** | — | Not v3. Twenty assets of three-to-six-word lines: **consistency beats expressiveness** |
+| **Stability** | **70%** | 65–75 | Lower buys emotion and pays in variance and dialect drift. **The same read every time IS the product** |
+| **Similarity** | **78%** | 75–80 | Holds the voice's character. **Past ~90% it amplifies artefacts** |
+| **Style** | **5%** | 0–15 | **Style push is where Arabic synthesis breaks** and drifts to MSA prosody |
+| **Speaker boost** | **On** | — | — |
+| **Speed** | **0.92** | 0.90–0.95 | Three-to-six-word lines. Nothing to rush |
+
+**What to change when it is wrong, one control at a time:**
+
+| Symptom | Move |
+|---|---|
+| Sounds robotic or flat | **Stability down to 65.** Not style up |
+| Drifts to MSA, or a word comes out formal | **Style down to 0**, then stability up to 75 |
+| Different energy on every render | **Stability up to 75** |
+| Breathy, buzzy or artefacted | **Similarity down to 72** |
+| Rushed | **Speed 0.90** |
+
+**Labels and available controls shift between models and UI versions — Speed in particular is not on every model.** Match by meaning, not by exact wording.
+
+*(Superseded, kept so nobody re-derives it: the first pass gave ranges only, which is not something you can type into a slider.)*
+
 
 ### Text preparation, which matters more than the settings
 

@@ -134,29 +134,49 @@ That is the reframe the whole meeting turns on, and it is not "your graphics loo
 
 ## 5. Pricing — the method, then the numbers
 
-### The floor, and why it is where it is
+### Cost of delivery, computed rather than guessed
 
-**[[Alex Foods]] pays 42,000/month for twenty assets with no camera involved at all** — every image is composited into a generated scene, and the only named supplier costs are a media buyer at 2,000/month and a designer whose rate is still not recorded.
+**The videographer is 2,000 a day** *(Aly, 21 September)*. **Mahmoud is 300 a graphic** and **a media buyer is 2,000 a month, fixed** — both real rates off [[Alex Foods]] ([[TSA Money]]), both reusable here.
 
-**El Ghaly involves a real videographer, real shoot days, and real edits. It costs more to deliver, so it prices above, not below.**
+| Per month | **A — Presence** | **B — Showroom** | **C — The Scene** |
+|---|---|---|---|
+| Shoot days | 1 → **2,000** | 2 → **4,000** | 3 → **6,000** |
+| Graphics at 300 | 8 → **2,400** | 12 → **3,600** | 16 → **4,800** |
+| Media buyer | — | **2,000** | **2,000** |
+| Transport to Shatby, misc | ~500 | ~1,000 | ~1,500 |
+| **Known cost of delivery** | **4,900** | **10,600** | **14,300** |
+| **Against an indicative** | 30,000 | 50,000 | 85,000 |
+| **Gross before editing** | **84%** | **79%** | **83%** |
 
-> **Bank this as a TSA rule: a month that includes a shoot never prices under a month that does not.** It is the first pricing precedent this agency has that is not a single data point, and it is the number to hold when the room pushes back.
+**Editing is the only line left with no number on it, and it is now the line that decides the margin.** Everything else is priced.
 
-### The blank that stops this being a quote
+### Two things that number changes, and one of them was my own conclusion
 
-**The videographer's day rate has not been asked for**, and it is the largest line in cost of delivery. **The floor is not computable until it exists** — which is the same failure [[TSA Money]] has been carrying as its biggest blank since it was written: a 42,000/month contract running against an unknown X. **Do not repeat it on client two. Get the rate before the meeting.**
+**1. The tiers were built on the wrong variable.** They differentiate on shoot days because shoot days were assumed to be the cost driver. **At 2,000 a day they are the cheapest thing in the build — one day costs less than seven graphics.** And a shoot day is a **fixed cost producing variable output**: a day with a gimbal and an A7 II in a showroom full of sport bikes yields far more usable material than four reels. **The second day costs 2,000 and roughly doubles the raw material for the entire month.**
 
-Also unpriced: editing (**Aly can do it and has explicitly stopped being an editor — so either it is bought, or the directing time is the cost**), graphics, and transport to Shatby on every shoot day.
+> **So every tier gets two shoot days, and the tiers differentiate on finished output and paid media instead.** Buying a third *regular* day adds little — **what tier C should buy is event and rideout coverage, which is a different kind of day, not more of the same one.**
+
+**2. The rule banked this morning was right for the wrong reason, and the reason is what a future session would have used.** It read: *a month that includes a shoot never prices under a month that does not, because it costs more to deliver.* **The cost half is false.** Tier B's known cost of delivery is **10,600** against [[Alex Foods]]' X of up to **19,000** for a month with no camera in it at all — because eight CGI motion pieces from a role nobody has filled cost more than two days of a real videographer.
+
+> **Restated on the true reason: a month that includes a shoot prices above one that does not because video is worth more to the client, not because it costs more to make.** **The shoot-based client is the cheaper one to deliver.** Holding the old reasoning in a negotiation means defending a cost that does not exist, and losing the argument.
+
+### The blank that is left
+
+**Does the 2,000 a day include an edit, or is it shoot-only?** A videographer with his own body and gimbal is usually a shooter, and **eight reels and two films a month is a real editing job.** Three ways it goes:
+
+- **It includes editing.** Then tier B delivers for **10,600** and the margin above is real. **Confirm it in those words** — *"is that two thousand to shoot and cut, or two thousand to shoot?"*
+- **Aly edits it.** Zero cash, and **he has explicitly stopped being an editor** — so it is the highest-margin option and the worst use of the person who is supposed to be directing. **Defensible for month 1 to prove the offer; a trap if it becomes the model.**
+- **An editor is bought.** Then get that rate the same way this one was got, before the quote.
+
+> **Whichever it is, price the tier as though editing is paid for.** If Aly ends up cutting month 1 himself, **that is margin he keeps — never a discount he hands over.** A price built on the founder working for free cannot survive the founder stopping.
 
 ### The shape: three tiers, and the middle one is the answer
 
 **[[TSA]]'s positioning is no packages — a dedicated price and a dedicated set of services per client.** Three tiers built for this one dealership is not a price list; it is one dedicated proposal with a decoy on either side of the recommendation. **What would break the rule is reusing these numbers on the next client without doing the work again.**
 
-The variable across the tiers is **shoot days**, because that is both the cost driver and the visible difference. Graphics and ad management scale cheaply on top.
-
 | | **A — Presence** | **B — Showroom** *(recommended)* | **C — The Scene** |
 |---|---|---|---|
-| Shoot days/month | 1 | 2 | 3 + events |
+| Shoot days/month | 1 | **2** | **2 + event days** |
 | Reels / short video | 4 | 8 | 12 |
 | Premium bike films | — | 2 | 4 |
 | Graphics | 8 | 12 | 16 |
@@ -168,9 +188,10 @@ The variable across the tiers is **shoot days**, because that is both the cost d
 | Rider and creator collabs | — | — | Yes |
 | Service-department campaign | — | — | Yes |
 | Monthly report | Basic | Full | Full, with sales attribution |
+| **Known cost of delivery** | 4,900 | **10,600** | 14,300 |
 | **Indicative monthly** | **~30,000** | **~50,000** | **~85,000** |
 
-**Every number in that row is an inference, not a quote.** They are anchored to the one real contract TSA holds and to a cost structure that is still missing its biggest line. **They are the shape to walk in with, not the figure to say out loud before the videographer's rate is known.**
+**The costs are computed from real rates. The prices are still inferences** — they are anchored to the one contract TSA holds and to what this market will bear, which nobody has tested. **They are the shape to walk in with; the number gets said out loud only once the editing line is closed.**
 
 **Media spend never passes through TSA.** The client pays the platforms directly. [[Alex Foods]] settled this and it is now a TSA rule, not a negotiation — **the moment an agency becomes payer of record for someone else's ad budget it is financing a client.**
 

@@ -11,6 +11,8 @@ The strategy and the calendar behind [[Alex Foods]]' Package A: what gets posted
 
 Built on [[Marketing]] — read `jareds-takes.md` and `marketing-content.md` before changing anything here. Brand facts in [[Alex Foods Brands]], tone in [[Brand Voice Guide]], campaigns in [[Giveaway Programme]], production in [[Package A Month 1]].
 
+> **This note sits underneath [[Alex Foods Marketing Plan]], which owns the strategy layer** — positioning, the funnel map, channels, paid media, the trade track and measurement. **This note owns content.** If a change here would alter *why* rather than *what gets posted*, it belongs up there.
+
 ---
 
 ## 1. Translating the playbook, because it was not written for this

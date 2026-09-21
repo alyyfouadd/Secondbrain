@@ -19,6 +19,7 @@ This note is both the client note and the index for `02 - TSA/Clients/Alex Foods
 - [[Delivery Register]] — **every deliverable, one row, one status.** This note owns delivery state; nothing else does. Read it to know where the contract actually stands.
 - [[Decisions]] — **every decision on this engagement, dated, with what it rests on and what it overturned.** Read a row before changing anything that contradicts it. Also clause 4 armour.
 - [[Alex Foods Discovery Brief]] — **what the client has actually told us**, tagged by where each fact came from. §12 is what they still owe, §14 every open question ranked, §15 what we will need later. **The Foundation was built on packaging; the strategy cannot be.**
+- [[Alex Foods Marketing Plan]] — **the strategy layer: what the marketing is actually trying to do.** Positioning, the funnel, the channel logic, the paid-media plan, the trade track, the measurement framework, and §11's ranked list of every input the plan is still running without. **Internal, not a contracted deliverable** — §12.
 - [[Alex Foods Delivery Plan]] — **the dated plan to Foundation delivery on 9 October**, week by week, with what each day depends on and what can still break it.
 - [[Alex Foods Week 1 Messages]] — **five messages ready to send**, Arabic first, each with one job.
 - `TSA - Alex Foods Service Scope V2.pdf` — the signed-scope source document, 09.09.2026. This note is derived from it; that is the original.

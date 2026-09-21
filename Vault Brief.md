@@ -15,6 +15,8 @@ A full read of this vault, front to back. **Written 20 September 2026 at 5:15 PM
 
 ## 1. The vault is one ref again
 
+> **CORRECTED 21 September, and the correction is the point.** This section was written on 20 September and it was **wrong on the day it was written.** Three branches had been merged; **two more were already stranded and nobody counted them** — `claude/alexfoods-color-kit-guidelines-txx208` and `claude/foundation-requirements-oyjwf3`, carrying 13 commits and roughly 1,280 lines between them, including Mahmoud's agreed rates and the whole `Month 1 Asset Brief`. **Meanwhile [[Active Priorities]] was telling Aly all the branches were safe to delete.** Both are merged now and the vault is genuinely on one ref, **but the lesson is that "one ref" is a thing to verify with `git`, never a thing to declare.** The verification is one command: `git ls-remote --heads origin`, then `git merge-base --is-ancestor` per branch.
+
 **The finding this brief opened with is now closed.** At 5:15 PM `main` was the smallest of four live versions of the vault: three session branches carried roughly 7,600 insertions of work that had never reached the trunk, two of them editing the boot config, and they conflicted with each other on where the client note lived and what the asset folders were called.
 
 **All three are merged.** The conflicts were resolved by combining rather than picking, because both sides were usually describing the same days from different sessions:

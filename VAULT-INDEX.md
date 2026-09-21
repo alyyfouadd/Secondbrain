@@ -59,19 +59,23 @@ This is my fourth agency. The difference this time is that it runs on direction,
 00 - Inbox          <- Capture everything, sort later
 01 - Daily Notes    <- Dated logs of what got done, one file per day, in month subfolders
 02 - TSA            <- The Standard Agency: clients, offers, positioning, scaling
+                       a PROSPECT that has not signed is one note here, never in Clients/
   TSA Brand/        <- the agency's OWN locked identity: colour, type, tagline, logo
   Jobs/             <- one note per recurring agency job; empty until a task repeats
-  Clients/          <- one folder per client; the client note IS that folder's index
+  Clients/          <- one folder per client, created at SIGNATURE, not at first deliverable
     Alex Foods/     <- contract note, signed scope PDF, the plan, the brief, the messages
+                       the client note IS this folder's index - the one sanctioned double-duty
       Alex Foods Brands/   <- the four brands, the whole Foundation build, and the assets
         design-system/     <- the generators that build the client's PDFs
         logos-vector/      <- the client's real Illustrator master seal
         logos-transparent/ <- the four range marks, cut out on transparency
         packshots/         <- product mockups keyed to transparency
+        client-legacy-creative/  <- the client's OWN old posts and artwork, read not reused
 03 - Personal       <- Life outside the agency: money, health, training, things I'm buying
 04 - Archive        <- Completed projects and old notes
 05 - Resources      <- Cross-project reference material, templates, Jobs
   Marketing/        <- jaredrhod's marketing playbook, read before any marketing work
+  vault-check/      <- the drift checker. Run it before any render and any commit
 ```
 
 ### The hub rule: links point UP, logs never point out
@@ -92,6 +96,14 @@ That line is not decoration. The map above is a code block, so it creates no lin
 ## What's Active Right Now
 
 All open work lives in one note: [[Active Priorities]]. Tag each item with its project where it isn't obvious. Check it at the start of every conversation; verify an item's real state before acting on it (a listed item may already be done).
+
+**The three notes that live at the root, and what each one is for.** They are here rather than in a folder because they describe the vault itself, and a folder would make one of them look like reference material.
+
+- [[Active Priorities]] — **the queue.** What is open and who has to move it. The live one.
+- [[Vault Brief]] — **a dated cold-read snapshot** of the whole vault, for a future session or for Aly after a gap. **Not a source of truth** — where it disagrees with the queue, the registers or this index, they win and it is stale.
+- [[README]] — how the repo gets cloned and opened as a vault on the iPad.
+
+*(`CLAUDE.md` also sits at the root and is deliberately not in that list: it is Claude Code configuration, not a note.)*
 
 ## Background
 

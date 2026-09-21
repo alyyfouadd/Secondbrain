@@ -15,25 +15,46 @@ Aly's instruction, 19 September 2026: the shape built for the first client is th
 
 ## 1. The folder shape
 
+**Verified against the vault on 21 September.** This is what is on disk, not what was planned.
+
 ```
 02 - TSA/
-  <Client>.md                      <- the contract: deal, gates, clauses, money
-  <Client> Discovery Brief.md      <- the commercial layer: goals, distribution, competitors
-  <Client> Brands/
-    <Client> Brands.md             <- folder index and product inventory
-    Foundation Roadmap.md          <- sequenced build plan, dependencies, what needs a human
-    Brand Voice Guide.md           <- one voice, a tone per range, the comment-reply policy
-    Colour System.md               <- computed: masters, ramps, contrast, collisions
-    Type System.md                 <- faces, weights, scales, bilingual rules
-    Slogans and Song.md            <- method, audience map, the lines
-    Shooting and Compositing Recipe.md
-    Brand Book Spec.md             <- the spec for the one book
-    <Client> - Brand Foundation v1.0.pdf   <- THE DELIVERABLE
-    design-system/                 <- the build
-    packshots/ · logos-transparent/ · logos-vector/ · client-legacy-creative/
+  <Prospect> Pitch.md                <- a business that has NOT signed. Lives here, not in Clients/
+  TSA Money.md
+  TSA Brand/                         <- the agency's own locked identity
+  Jobs/                              <- one note per recurring agency job
+  Clients/
+    Clients.md                       <- the roster
+    <Client>/
+      <Client>.md                    <- the contract AND this folder's index. The one sanctioned double-duty
+      <Client> Discovery Brief.md    <- the commercial layer: goals, distribution, competitors
+      <Client> Marketing Plan.md     <- the strategy layer: what the marketing is trying to do
+      <Client> Delivery Plan.md      <- the dated plan to delivery
+      <Client> Week 1 Messages.md    <- messages ready to send
+      <Client> - Company Brief.md    <- the one-pager a supplier reads. Explicitly derived
+      Decisions.md                   <- every decision, dated, with what it overturned
+      Delivery Register.md           <- every deliverable, one row, one status
+      <signed scope>.pdf             <- the source document
+      <Client> Brands/
+        <Client> Brands.md           <- folder index and product inventory
+        Foundation Roadmap.md · Brand Voice Guide.md · Colour System.md
+        Type System.md · Slogans and Song.md · Content Plan.md · Post Archetypes.md
+        Brand and Social Kit.md · Giveaway Programme.md · Brand Book Spec.md
+        Shooting and Compositing Recipe.md · Package A Month 1.md · Month 1 Asset Brief.md
+        <Client> - Brand Foundation v1.0.pdf     <- THE DELIVERABLE
+        design-system/               <- the build
+        packshots/ · logos-transparent/ · logos-vector/ · client-legacy-creative/
 ```
 
-**When the third client signs, all client notes move into `02 - TSA/Clients/` with its own index.** That trigger is already recorded in [[TSA]] and it has not fired yet.
+**Three placement rules, and each one was a decision rather than a habit:**
+
+1. **`Clients/` exists at one client, not at three.** [[Decisions]] #8, 19 September. **The structure that scales gets built before it hurts**, which is the whole reason this vault exists. Full reasoning in [[Clients]].
+2. **A client folder is created at signature, never at the first deliverable.** A business that has not signed is a prospect, and a prospect is one note in `02 - TSA/` — [[El Ghaly Motors Pitch]] is the first. **The second prospect is what earns a `Pipeline/` folder; one does not.**
+3. **The client note doubles as its folder index**, carrying `type: index` and opening with a "What's in this folder" block. **This is the only place in the vault a note wears two hats** — a client has exactly one master note, and splitting the map away from the deal makes two thin notes where one full one belongs.
+
+### How we got here
+
+> **This section described the pre-`Clients/` shape until 21 September**, with every client note flat in `02 - TSA/` and the line *"when the third client signs, all client notes move into `02 - TSA/Clients/` — that trigger has not fired yet."* **It had fired two days earlier.** [[Decisions]] #8 built `Clients/` at one client on 19 September and [[Clients]] recorded why, while this note went on telling the next session to file client two flat. **Two notes disagreeing about where a client lives is rule 14 failing on the one fact this document exists to carry.**
 
 ---
 

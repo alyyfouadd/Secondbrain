@@ -352,6 +352,55 @@ This section exists because a food page can be reported, and a paid ad account c
 
 **Recommendation: quote it under clause 7 rather than give it away.** It would be the fourth concession in a row on this job, and it is now a high-margin add-on instead of a favour. **If it does go free, it goes with one written line saying it is a one-off and not a new baseline.**
 
+### The cast, the model and the settings — 21 September
+
+**Researched against published sources; ElevenLabs' own site is blocked by this session's network policy, so every name below is confirmed from third parties and must be checked in the library before it is bought.**
+
+**Recommendation: a warm Egyptian male, mid-thirties register, with a smile in it.** Not an announcer, not a cartoon.
+
+**Why male, when family food in this market usually defaults to a warm female or a booming announcer:**
+
+1. **BeBo is the hero and the child is the audience** ([[Decisions]] #17). **An older-brother voice lands with a kid; a mother-figure voice reads as instruction.**
+2. **2MAN's social voice is nostalgia aimed at adults**, found in the client's own published copy, and that nostalgia is adult-male-coded in their posts.
+3. **It is the differentiated choice in the category**, which is worth something on an account whose whole job is to stop looking like four unrelated brands.
+
+> **The trade, named rather than hidden: AlRawy is the one range aimed squarely at the mother, and a male read serves it less naturally.** **It is handled by slowing the read and dropping the energy, never by swapping the narrator** — one account, one voice.
+
+| | Candidate | Why |
+|---|---|---|
+| **1** | **Haytham — "the storyteller"**, middle-aged Egyptian podcaster, warm and expressive | **Conversational rather than announcer**, which is the whole brief |
+| **2** | **Amr**, middle-aged Egyptian male, general narration | **The safer, more neutral read.** Take it if Haytham is too characterful across twenty assets |
+| **3** | **Abdullah — Egyptian**, professional, warm, clear articulation | The straight fallback |
+
+**A named Egyptian FEMALE voice could not be confirmed from here.** Filter the library on Arabic + Egyptian + female and audition two before settling, because the argument above is a recommendation and not a proof.
+
+**Model: Eleven Multilingual v2, not v3.** v3 is the more expressive model, but **these are three-to-six-word lines repeated across twenty assets and a whole month — consistency beats expressiveness every time.** v2 is the stable production model. **A wobble in a three-word tagline ruins the tagline.**
+
+**Starting settings — a start point tuned by ear, not a measured result:**
+
+| Control | Value | Why |
+|---|---|---|
+| **Stability** | **65–75%, high** | Low stability buys emotion and pays in variance and dialect drift. **Across a month of assets the same read every time is the product** |
+| **Similarity** | **75–80%** | Holds the voice's character. **Pushing past ~90% amplifies artefacts** |
+| **Style exaggeration** | **0–15%, low** | **Style push is where Arabic synthesis breaks** and drifts toward MSA prosody. The brief is warm, not manic |
+| **Speaker boost** | **On** | — |
+| **Speed** | **0.9–0.95, slightly slow** | The lines are three to six words. **There is no reason to rush one** |
+
+### Text preparation, which matters more than the settings
+
+- **Write every number as a word.** Numerals misrender in Arabic synthesis.
+- **Use commas and full stops to place the pauses.** The engine reads punctuation, not intention.
+- **Skip diacritics** unless one is genuinely needed to disambiguate a word.
+- **When a colloquial word misreads — and «الباكو» is the likely first offender — respell it phonetically in Arabic until it sounds right, then WRITE THE WORKING SPELLING DOWN in the table below.** A pronunciation lexicon built once stops every future session paying the same discovery tax.
+
+| Written as | Spelled for the engine as | Note |
+|---|---|---|
+| *(empty — fill on first run)* | | |
+
+### One thing synthesis does NOT solve, and it is worth being straight about
+
+**Text to speech does not sing.** [[Slogans and Song]] §5's giveaway song is a *song*; a spoken-word read of it is not a produced track, it is a voice-over of lyrics. **Producing the song needs a music tool or a human singer, and that is a different job from the voice-over above.** Do not let "we have ElevenLabs now" quietly become "the song is handled."
+
 ### How the voice actually gets chosen — by ear, not by spec
 
 **Nothing above picks the voice. Aly does, and only Aly can** — he is the native speaker and every line is his call.

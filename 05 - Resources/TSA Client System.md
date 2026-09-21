@@ -163,3 +163,26 @@ Added to the discovery brief for every client after the first:
 - **Day 4 to 7** — the remaining sections, assembled into the one book, probed and proofed.
 
 **That is achievable only because the CSS, the maths, the fonts and the architecture already exist.** Client one spent most of its time building those. Client two spends its time on the client.
+
+## The first-client rule — added 21 September 2026
+
+**[[Alex Foods]] is TSA's first client, and every prospect after them will be shown this work.** Aly's instruction, 21 September: deliver as much as we can, because the portfolio is being built at the same time as the contract.
+
+**That is right, and it changes how "in scope" gets decided — but it needs a boundary or it eats the month.**
+
+> **The line: a free extra that costs TSA a few dollars and shows well is a portfolio investment. A free extra that costs a SUPPLIER money is not.**
+
+| | Example | Verdict |
+|---|---|---|
+| Cheap, visible, TSA's own time | The recorded voice-over, at about $6 of licence | **Do it.** It is a showreel asset that happens to also delight the client |
+| Cheap, invisible | A tidier file-naming convention | Do it, but it buys nothing in the portfolio |
+| **Costs a supplier cash** | Extra graphics beyond the twelve, at 300 each | **No.** That is real money out of a month that has to fund its own delivery — [[TSA Money]] |
+| Costs a month of capacity | A third campaign built rather than a prize swapped | **No.** [[Giveaway Programme]] §7.1 |
+
+### And the thing nobody thinks of until it is too late
+
+**A portfolio piece TSA is not allowed to show is not a portfolio piece.**
+
+The signed scope keeps the working method as agency property, **but showing a client's finished creative in TSA's own marketing is a different permission and no document grants it.** **Ask for it in writing at delivery, in the same message as the sign-off page** — one line, free on the day, awkward to raise six months later when the work is good and the relationship has cooled.
+
+**This applies to every client after them too, which is why it is here and not in the client folder.**

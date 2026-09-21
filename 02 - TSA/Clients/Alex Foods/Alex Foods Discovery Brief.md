@@ -76,7 +76,9 @@ What is actually printed on the five BeBo packs in `packshots/`:
 
 **They said:** *"mohamed and hussein then manager"* approve, and **Mohamed** is the day-to-day contact.
 
-**Clause 3 gives one named approver, and only their notes count.** Three voices in the chain means a delivery can be approved by one and re-opened by another, and clause 4's "a delivery matching the agreed brief counts as delivered" stops protecting anything. **This is not a formality — it is the mechanism that decides whether a revision round is included or chargeable.**
+**TSA is running this engagement with no single approver, deliberately, and this is what that costs.** They named three voices; clause 3 allows one; **no signed page was ever returned and TSA stopped asking on 21 September** ([[Decisions]] #35). So a delivery can be approved by one of them and re-opened by another, clause 4's "a delivery matching the agreed brief counts as delivered" has nothing to stand on, and **the 48-hour auto-approval has no subject, so silence does not mean yes.**
+
+**The mitigation carries the whole weight and it is not optional: every delivery closes on a written reply, in the chat, naming what was approved.** That is the record clause 4 would otherwise have given for free. **It also decides whether a revision round is included or chargeable**, which is the part that turns into money in week three.
 
 > **Mohamed as day-to-day contact is fine and is a separate role.** What the acceptance page needs is **one name with final say**, with role and contact. If they want Hussein to hold it and Mohamed to run the day to day, that works perfectly — it just has to be written down that way.
 
@@ -125,7 +127,7 @@ That is not a contradiction and the deliverables do not change — a factory has
 > **This is inference from product category, not from their data**, and it is exactly what the unanswered seasonality question decides. **It is now the most valuable outstanding answer after the BeBo photo**, because it shapes all three monthly calendars rather than one deliverable. Question 9 and 10.
 
 ### Contract-level, running in parallel and not blocking production
-One named approver · POLEKA papered in writing · the month-1 start condition line · the cola artwork rights.
+POLEKA papered in writing · the month-1 start condition line · the cola artwork rights. *(A named approver was on this list and is **withdrawn**, not answered — [[Decisions]] #35, 21 September.)*
 
 ---
 
@@ -440,7 +442,7 @@ Target delivery **around 9 October 2026**, before the second Foundation instalme
 Plus, in priority order:
 
 1. **A photo of the back of a BeBo pack, with the QR code legible at phone size.** One photo, thirty seconds. **It now unlocks two separate things**: the priority range's copy, and the three mechanic-explainer posts. **A QR that will not scan off a phone screen is a campaign that does not work.** Still the highest value per effort of anything on this list.
-2. **The signed acceptance page, naming ONE approver** with role and contact. See §A4.
+2. ~~**The signed acceptance page, naming ONE approver** with role and contact.~~ **Withdrawn 21 September — [[Decisions]] #35.** Not asked for again.
 3. **The organic certificate for AlRawy, or an acknowledgement that there isn't one.** See §A2.
 4. ~~Written rights confirmation on the cola artwork.~~ **Answered verbally 20 September.** Replaced by: **an answer on SpongeBob**, which is the same question about a clearer property.
 5. **POLEKA confirmed in writing**, with the umbrella decision papered in the same message.
@@ -467,7 +469,7 @@ Plus, in priority order:
 | # | Question | Why it matters | Status |
 |---|---|---|---|
 | 1 | **Photo of the back of a BeBo pack** | Priority range's copy is frozen without it | Open |
-| 2 | **One named approver on the acceptance page** | Clause 3 and 4 have nothing to stand on | Open |
+| 2 | ~~**One named approver on the acceptance page**~~ | Clause 3 and 4 have nothing to stand on — **and that is now accepted** | **Closed 21 Sep by decision, not by an answer.** [[Decisions]] #35 |
 | 3 | **Organic certificate for AlRawy, or not** | TSA's ad account carries the claim | Open |
 | 4 | **Monthly ad budget** | Contracted to manage an unnamed spend | Open |
 | 5 | **Meta admin access** | Blocks deliverable 3, and blocks knowing whether we succeeded | Open |
@@ -526,7 +528,7 @@ Main goal · success definition · priority range · biggest problem · years in
 | L13 | **SpongeBob licence** | Their pinned post is built on it. **TSA runs the ad account.** Same class as the cola question, arguably clearer. |
 | L14 | **The AlRawy organic certificate, or an admission there is none** | **Organic is a certified claim, not a describing word.** Banned in every language and surface until a certificate exists. |
 | L15 | **Written confirmation of POLEKA in the Foundation, and the umbrella decision** | Clause 4's rejection protection leans on the approved guide matching what the client actually said. **A verbal answer shaping four deliverables needs to exist in writing.** |
-| L16 | **One named approver** | Clause 3 allows one. **They named three.** Delivery has nobody to approve it until this closes. |
+| L16 | ~~**One named approver**~~ | **Retired 21 September — [[Decisions]] #35.** They named three, clause 3 allows one, and **TSA stopped asking.** Delivery closes on a written reply instead. |
 
 > **The rule this section encodes: ask for a thing one cycle before you need it, not the morning you need it.** Every item here has already been identified; **none of them are surprises, and that is the entire point of writing them down before they bite.**
 

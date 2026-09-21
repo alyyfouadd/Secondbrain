@@ -146,7 +146,7 @@ Grouped by what each one blocks, so the list can be sent as one message rather t
 13. **Who they consider competition.** For positioning and for local SEO.
 
 ### Blocks approval itself
-14. **The signed acceptance page and a named approver.** Still the most exposed item on the job.
+14. ~~**The signed acceptance page and a named approver.**~~ **No longer being chased — [[Decisions]] #35, 21 September.** **Approval now runs on written replies rather than on a named voice and a clock.**
 15. **Rights confirmation on the "Cola Cola" artwork.**
 
 ## 6. What does not make sense yet — commercial terms, not client facts
@@ -156,7 +156,7 @@ These are ambiguities in how the work runs. **None of them are urgent today and 
 1. **What is "a delivery"?** Clause 2 gives one revision round **per delivery**, and the contract never defines the unit. If each of twenty assets is a delivery, that is twenty revision rounds a month. If the month is one delivery, it is one. **The honest middle is a batch** — the calendar is one delivery, each production batch is one delivery. Worth agreeing in writing at Foundation sign-off, in the same message as everything else.
 2. **Does TSA post, or hand over files?** The scope buys social pages setup and campaign management, which implies TSA runs the account. But with no Meta admin TSA cannot post anything, and if the client posts, the content calendar is a document rather than a schedule. **Two different services and the contract does not say which.**
 3. **How do assets get delivered?** WhatsApp, Drive, something else. Twenty assets a month needs an answer that is not "in the chat."
-4. **The 48-hour auto-approval has nobody to run against.** Clause 3 makes one named approver the only voice that counts. Until that person exists, neither approval nor rejection has a subject.
+4. **The 48-hour auto-approval has nobody to run against, and that is now permanent rather than pending.** Clause 3 makes one named approver the only voice that counts, and **[[Decisions]] #35 stopped the chase for one on 21 September.** So neither approval nor rejection has a contractual subject: **silence does not mean yes, and any of the three people they named can re-open what another approved.** **Get every delivery closed on a written reply** — that is the working substitute and it is the only one there is.
 
 ## 7. What is missing on TSA's side
 

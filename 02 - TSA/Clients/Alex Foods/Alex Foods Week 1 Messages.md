@@ -17,7 +17,7 @@ type: reference
 >
 > **The page screenshots arrived and settled it: it is a verified Page**, BeBo is a juice, and the cola rights are fine per Hussein. **Message 1 shrinks to one item. Message 4 loses two.** **Insights are no longer requested as screenshots** — TSA pulls them once access lands.
 >
-> **What is actually still needed: Meta access, the Google details, seasonality, and one named approver.** Four things, down from nine.
+> **What is actually still needed: Meta access, the Google details, and seasonality.** Three things, down from nine. *(It was four until 21 September; **the named approver was dropped rather than answered** — [[Decisions]] #35.)*
 
 ## 1 · To Mohamed — the ten-minute asks *(mostly answered, see above)*
 

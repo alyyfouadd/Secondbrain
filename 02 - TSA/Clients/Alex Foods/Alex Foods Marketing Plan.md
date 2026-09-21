@@ -301,7 +301,7 @@ Three facts, all confirmed, produce it:
 
 | # | Input | Owner |
 |---|---|---|
-| 14 | **One named approver on a signed acceptance page** | Client · clause 3 allows one, they named three |
+| 14 | ~~**One named approver on a signed acceptance page**~~ **Withdrawn 21 September** — [[Decisions]] #35. **No longer an input TSA asks for** | — |
 | 15 | **Who answers an enquiry, and how fast** | Client · **campaign spend dies in an unanswered inbox** |
 | 16 | **What shop owners actually say about the product** | Client, or the shelf walk · the complaint the factory never hears |
 | 17 | **Competitor prices, pack sizes and shelf position** | **Aly, physically.** The client does not know who their competitors are, no sourced data exists, **and none will be invented.** Two shops and a phone camera |

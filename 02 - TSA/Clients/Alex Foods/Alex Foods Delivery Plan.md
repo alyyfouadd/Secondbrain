@@ -47,7 +47,7 @@ type: plan
 
 | When | What | Depends on |
 |---|---|---|
-| **Sun 20** | **Send the client ask, one message.** BeBo back-of-pack photo · the four screenshots · Meta admin via the partner route · Google account and GBP details · seasonality per range · organic certificate · cola rights · **one named approver** | Nothing |
+| **Sun 20** | **Send the client ask, one message.** BeBo back-of-pack photo · the four screenshots · Meta admin via the partner route · Google account and GBP details · seasonality per range · organic certificate · cola rights · ~~one named approver~~ **(withdrawn 21 Sep, [[Decisions]] #35)** | Nothing |
 | **Sun 20** | **Chase instalment 1**, due Friday | Nothing |
 | **Mon 21** | **Master tone block.** Now a transcription job rather than an invention, because their own copy arrived | **Aly's ear** |
 | **Tue 22** | **§11 canvas and grid · §13 flashes and characters** | Nothing |
@@ -96,7 +96,7 @@ type: plan
 |---|---|
 | **Seasonality unanswered** | **The biggest one.** Half the portfolio is frozen and the term runs into an Egyptian winter. It blocks §17 and it changes what the client should be paying for. |
 | ~~The Facebook asset is a personal profile~~ | **CLOSED 20 Sep: it is a verified Page.** Paid can run, the partner route works as written. **The single biggest platform risk on the job is gone.** |
-| **No named approver** | Clause 3 has no top rung. **Delivery has nobody to approve it**, and clause 4's protection has nothing to stand on. |
+| **No named approver — now an accepted risk, not an open one** | **Deliberate: [[Decisions]] #35, 21 September.** Clause 4's protection has nothing to stand on and the 48-hour clock has no subject, **so a delivery is closed by a written reply or it is not closed.** Unchanged in severity; changed in status. |
 | **BeBo photo** | Blocks BeBo copy, which is the priority range. |
 | **Ad budget unnamed** | Package A includes campaign management and nobody has said what the spend is. |
 

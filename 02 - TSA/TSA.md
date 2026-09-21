@@ -15,7 +15,7 @@ We grow businesses on social media, and we find high-value businesses that need 
 
 This is my fourth agency. The difference is that this one runs on direction, systems and structure instead of on me out-working the problem — and the system scales in parallel with the business rather than getting bolted on once it hurts.
 
-- **Status:** Active — first client ([[Alex Foods]]) signed on a 146,000 EGP total contract; delivery gated on the client's signed acceptance page and materials.
+- **Status:** Active — first client ([[Alex Foods]]) signed on a 146,000 EGP total contract, **plus a first inbound lead in [[El Ghaly Motors Pitch]] that has not signed anything.** Delivery is gated on the client's materials. *(The signed acceptance page was a gate until 21 September; **withdrawn** as a blocker by [[Decisions]] #35.)*
 
 ## Folders in here
 

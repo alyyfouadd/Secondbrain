@@ -534,17 +534,19 @@ The scope asks for "how comments get replied to" and it is the part most brand g
 
 > **The three new cases share one dependency: the giveaway's facts have to come from the client in writing.** Dates, prize counts, draw method, results. §7's governing principle applies here with no softening — **if it did not come from the client in writing, TSA does not know it** — and on a giveaway a helpful guess in a comment thread is a published promise about somebody's prize.
 
-### The escalation ladder, and the hole in it
+### The escalation ladder
 
-TSA → **the named approver** (clause 3) → the client.
+TSA → **Mohamed**, the day-to-day contact → the client.
 
-> **There is currently no named approver.** The signed acceptance page has not come back, which means the escalation ladder has no top rung. A contamination complaint arriving at 11pm has nobody to route to, and TSA is contractually the only party that may act on the page. **This is the acceptance-page gap doing real operational damage rather than paperwork damage**, and it is the sharpest argument available for closing it. See [[Alex Foods]].
+**The ladder has a top rung and it is an operational one, not a contractual one.** Mohamed takes anything TSA cannot answer on the page: a contamination or illness claim, a legal or press approach, anything naming a person, and any prize dispute. **Tell him he is it** — a routing target who does not know he is a routing target is the same as no routing target at 11pm.
+
+> **The clause 3 approver is a separate thing and it is no longer being chased** — [[Decisions]] #35, 21 September. **That does not weaken this ladder**, which never depended on a signature. **It weakens approval instead:** with no single voice of record, clause 4's rejection protection has nothing to lean on and the 48-hour auto-approval has nothing to run against. **Deliveries close on a written reply, not on the clock.** See [[Alex Foods]].
 
 ---
 
 ## 9. What this is waiting on
 
-1. **A named approver.** Puts a top rung on §8's escalation ladder.
+1. ~~**A named approver.**~~ **Dropped 21 September — [[Decisions]] #35.** §8's ladder now routes to Mohamed as day-to-day contact, which was never contractual and does not need a signature. **What is still needed is telling him he is it.**
 2. **Alex Foods' own tone block** — register, sentence length, emoji policy and person for the master account, matching the shape of §3 to §6. **Direction received 19 September: "fun."** The input is no longer missing; the writing still needs Aly's ear rather than an AI's guess. It is the only thing between this deliverable and complete, and it blocks deliverable 3's single presence from having a written voice.
 3. ~~**Which reading governs the seal** (tiering versus rollout).~~ **Closed 18 September: rollout.** Printed packs stay; new print carries the seal on every range. The freeze rule is retired. See §2.
 4. **The client's written product facts** (nutrition, sourcing, certifications, retail list) if they ever want §7's locked list loosened. Until then the list stands as written, and it stands in TSA's own interest.

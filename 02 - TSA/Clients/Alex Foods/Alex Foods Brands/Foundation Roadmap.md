@@ -184,7 +184,7 @@ Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see 
 |---|---|---|
 | **1 · Governed** | Colour values and contrast verdicts, type, the pack-in-field geometry, compliance and the never-say list | **Nothing. No choice is offered, and that is the deliverable.** These are computed or legal. **Offering a choice here is offering to be wrong**, and clause 1 exists to protect it. |
 | **2 · Recommended** | Slogans, tone, the giveaway mechanic, post archetypes, the platform split | **One recommendation, at most two alternates, with the trade named.** This is where their market knowledge genuinely adds something TSA does not have. |
-| **3 · Theirs to state** | The named approver, ad budget, seasonality, artwork rights, product facts | **Not choices. Inputs.** Asked as questions, never dressed up as options. |
+| **3 · Theirs to state** | Ad budget, seasonality, artwork rights, product facts | **Not choices. Inputs.** Asked as questions, never dressed up as options. *(The named approver was here until 21 September. **The chase is dropped** — [[Decisions]] #35.)* |
 
 ### The four rules that make tier 2 work
 
@@ -201,6 +201,8 @@ Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see 
 
 **State the recommended option as the default, in writing, in the delivery message:** *if we do not hear back, we proceed with the recommended line.* **Silence then produces TSA's preferred outcome rather than a stalled deliverable**, and the client keeps a real choice for as long as they want to use it.
 
+> **Weakened on 21 September and worth knowing exactly how.** [[Decisions]] #35 stopped the chase for a named approver, so **the 48-hour clock has no contractual subject to run against.** The technique above still works as a *drafting* habit — stating the default in writing is what makes silence readable at all — **but it is no longer a clause TSA can lean on in an argument.** **Close deliveries on a written reply.**
+
 ### The order to present it in
 
 **Never send 35 pages cold.** A book arriving without a walk-through gets skimmed, and a skimmed book gets approved shallowly and reopened later.
@@ -208,13 +210,13 @@ Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see 
 1. **The spine first.** Section 3, brand architecture: Alex Foods is the master, the four are ranges, **one presence rather than four pages.** **This is the page that earns the fee**, and everything downstream is application. If they disagree here, nothing else matters yet.
 2. **Then the tier 2 choices, batched into one message.** Slogans, tone, giveaway, platform split. One reply covers all of them, which is also what clause 2's single written reply per revision round wants.
 3. **Then the honest status.** The sections carrying a waiting chip, what each waits on and who from.
-4. **Then the sign-off page**, which approves the Foundation and names the approver in the same signature.
+4. **Then the sign-off page**, which approves the Foundation. *(It still carries name, role and contact — [[Brand Book Spec]] §15 — so **if a named approver ever happens it happens here, on a page they sign anyway.** It is never a separate ask: [[Decisions]] #35.)*
 
 ### What the delivery message has to carry
 
 Four things, and missing any one of them costs money:
 
-1. The book itself, and the sign-off page naming an approver with role and contact — which is also how the clause 3 gap finally closes.
+1. The book itself, and the sign-off page. **Do not frame it as closing the clause 3 gap and do not ask for an approver** — [[Decisions]] #35. If they fill in name, role and contact, that is a bonus, not the ask.
 2. The month-1 start condition, quoted above.
 3. The honest status on the two execution-pending items, with exactly what is needed to close them.
 4. The POLEKA line in writing — four brands, no change to fee — because the signed scope still names three and clause 4's rejection rule leans on the approved guide matching the scope.

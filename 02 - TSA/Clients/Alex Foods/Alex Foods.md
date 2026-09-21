@@ -57,7 +57,7 @@ Payment terms that apply to both stages: minimum 50% upfront before work starts,
 
 Four gates sit in front of delivery, and they fire in order. Three of them are outside my control, which is the whole risk on this job.
 
-1. **Signed acceptance page.** Work does not begin until the client returns page 3 signed, naming one approver with role and contact. **Partly closed 19 September: the approver is Mohamed, who works with Alex Foods.** Clause 3 now has a name, which is a real improvement on nobody — **but it is still verbal.** The clause wants a name, a role and a contact on a signed page, and a 48-hour auto-approval that has never been agreed in writing is not a clock anyone can run. **Get Mohamed's role and contact, and get the page signed.**
+1. ~~**Signed acceptance page.**~~ **NO LONGER A GATE — [[Decisions]] #35, 21 September.** TSA stops chasing a signed page naming one approver, and no further message asks for one. **Clause 3 is still in the signed scope and is untouched; what changed is that TSA does not treat it as a blocker.** **Mohamed remains the day-to-day contact** and the top rung of [[Brand Voice Guide]] §8's escalation ladder, which was never contractual. **The accepted exposure is in the decision row and is real** — read it before relying on clause 4 or on the 48-hour clock. **If a signature ever happens it rides the Foundation sign-off page ([[Brand Book Spec]] §15), which they sign anyway.**
 2. **Client materials, all seven.** No delivery starts before these arrive (list below).
 3. **Foundation clock: 3 weeks minimum.** As written, it starts at the first instalment OR the complete materials list, whichever is later. **Superseded in part by the 18 Sep exception** (see above): the payment half of this gate is waived, so the clock now turns on the materials alone.
 4. **Package A starts only after Brand Foundation is signed off in writing — not from the payment date.** Month 1 counts from the written approval date.
@@ -74,7 +74,7 @@ What it does and does not do:
 
 - **It removes the money gate.** Foundation work may begin.
 - **It does not touch the materials gate.** The seven client materials are a separate dependency, and no exception on payment produces an SKU name. Most of the Foundation stays blocked until they arrive.
-- **It does not replace the signed acceptance page.** Clause 3's single named approver is what makes a delivery approvable and clause 4's rejection rule enforceable. Working without it means producing for a client with no defined voice of record.
+- **It does not replace the signed acceptance page.** Clause 3's single named approver is what makes a delivery approvable and clause 4's rejection rule enforceable. Working without it means producing for a client with no defined voice of record. *(Still true as a description of the risk. **What changed on 21 September is that the risk is now accepted rather than chased** — [[Decisions]] #35.)*
 - **It weakens clause 6.** The day-for-day extension for client delay is harder to invoke once TSA has demonstrated it will work without the prerequisites.
 
 **The exposure, stated plainly:** three weeks of Foundation work now sit against money due 26 September from a client who has not yet returned a signed acceptance page. The 42,000 does not cover this — it is already owed against roughly twenty Package A deliverables.
@@ -216,8 +216,8 @@ The client came back on most of the commercial brief. Full merge, with the Arabi
 
 ## Open questions
 
-- ~~**Who is the named approver?**~~ **Answered 19 September: Mohamed, who works with Alex Foods.** Still needs his role, his contact, and the page actually signed.
-- **Has the signed acceptance page come back?** Still open, and still the most exposed item on the job: the clause 11 exception means work starts without it. Clause 3 makes that one person the only voice whose notes count, and clause 4's "a delivery matching the agreed brief counts as delivered" has nothing to lean on until a named approver exists.
+- ~~**Who is the named approver?**~~ **Closed 21 September, by decision rather than by an answer.** Mohamed is the day-to-day contact; **the chase for a signed page naming one contractual approver is dropped.** [[Decisions]] #35.
+- ~~**Has the signed acceptance page come back?**~~ **Closed 21 September. It has not, and TSA is no longer asking** — [[Decisions]] #35. **The consequence stands and is worth holding: clause 4's "a delivery matching the agreed brief counts as delivered" has no single voice to lean on, and the 48-hour auto-approval has nothing to run against, so silence does not mean yes.** Plan deliveries on written replies, not on the clock.
 - **Which of the seven client materials have arrived?** Unchanged by the payment exception, and now the only gate still holding. This list, not the calendar, is the real schedule driver.
 - **Is TSA producing anything retailer-facing?** The giveaway has a trade track — retailers winning through a coupon in the carton — and the signed scope is a social contract end to end, with no trade deliverable in it. If the answer is yes, it is clause 7 work and the voice guide needs a register it does not have.
 - **Does the school campaign get TSA creative at all?** Its deadline lands before the Foundation is delivered, and the giveaway lockup is a Package A item that has not started. On the current plan the client's biggest push runs with nothing from TSA on it. [[Giveaway Programme]] §2.

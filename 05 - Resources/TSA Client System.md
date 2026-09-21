@@ -165,7 +165,9 @@ Added to the discovery brief for every client after the first:
 
 **Ask these before building anything.** On client one, several were asked late and the answers moved work that was already done.
 
-1. **Who is the one named approver?** Not two, not three. The contract allows one, and it is what makes a delivery approvable.
+1. **Who is the one named approver?** Not two, not three. The contract allows one, and it is what makes a delivery approvable. **Ask it once, at signature, on the page they are signing anyway — never as a separate chase.**
+
+   > **The agency rule stands and client one did not follow it, which is the useful part.** Alex Foods named three, never returned a signed page, and on 21 September Aly stopped asking ([[Decisions]] #35) — four asks in, against a client who had already paid and was cooperative. **The judgement was that a fourth paperwork chase costs more relationship than clause 4 was buying.** That is defensible and it is a real trade rather than a lapse. **What it costs, so the next client can price it:** clause 4's rejection protection has no single voice of record, the 48-hour auto-approval has no subject, and **every delivery has to be closed on a written reply instead.** **The cheap version is the one client one discovered too late — put name, role and contact on the Foundation sign-off page, which the client signs regardless, and never send a message whose only job is asking for a signature.**
 2. **What is the goal, as a number?** If they cannot say, **set it from their own baseline and put it in the delivery message.**
 3. **Is the bottleneck consumer demand or distribution?** For any business selling through retail, this changes the whole content mix.
 4. **What is the monthly ad budget?** Managing an unnamed spend is not a plan.

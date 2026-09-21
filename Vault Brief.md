@@ -87,7 +87,7 @@ Three files carry the system: `CLAUDE.md` (boot config and identity — survives
 
 ### What is exposed
 
-- **No signed acceptance page, and no named approver.** Foundation work is running anyway under the clause 11 exception Aly granted on 18 September. Clause 3 makes one named person the only voice whose notes count, and clause 4's "matching the brief counts as delivered" has nothing to stand on until they exist. It also leaves the complaint-escalation ladder in [[Brand Voice Guide]] §8 with no top rung.
+- **No signed acceptance page, and no named approver — and as of 21 September that is a decision rather than a gap.** Foundation work runs under the clause 11 exception Aly granted on 18 September, and [[Decisions]] #35 stopped the chase for a signature. Clause 3 makes one named person the only voice whose notes count, and clause 4's "matching the brief counts as delivered" has nothing to stand on. **The exposure is accepted, so the mitigation carries the weight: every delivery closes on a written reply, never on the 48-hour clock.** **The [[Brand Voice Guide]] §8 escalation ladder is separately fine** — it routes to Mohamed as day-to-day contact, which never needed a signature.
 - **Four brands against a three-brand contract.** BeBo, AlRawy and 2MAN are named; **POLEKA is not**, and is in by Aly's verbal decision at no change to fee. Still not papered.
 - **Roughly eighteen SKUs ([[Alex Foods Brands]]) against a contract asking for five**, plus uncounted mini lines. The twelve monthly graphics were priced against five.
 - **The cola artwork.** POLEKA's cola pouch carries a photoreal contour bottle in red-and-white livery with "Cola Cola" in near-identical Spencerian script. The bottle silhouette is protected trade dress independently of the wordmark, and **TSA's own ad account would push it.** (A branch records Hussein clearing this verbally on 20 September; `main` does not know.)
@@ -156,7 +156,7 @@ Nine drift items were found by reading every note against every other note. **Ei
 ## 7. Risks, ranked by what they actually cost
 
 1. **Four unbuilt or part-built deliverables against a 9 October target.** The schedule is the exposure now that the refs are merged. [[Alex Foods Delivery Plan]] has it dated.
-2. **Producing for a client with no signed acceptance page.** Mohamed is named verbally as approver, which is a real improvement on nobody — but clause 3 wants a name, a role and a contact on a signed page, and a 48-hour auto-approval clock nobody agreed in writing is not a clock.
+2. **Producing for a client with no signed acceptance page, deliberately.** **[[Decisions]] #35, 21 September: the chase is off.** Mohamed remains the day-to-day contact, which is what the escalation ladder actually needed — but **clause 4 has no single voice of record and the 48-hour clock has no subject, permanently rather than pending.** **This stays ranked here because dropping the chase did not drop the risk; it accepted it.**
 3. **X is still incomplete**, so no draw is safe or reckless, only lucky. One of three suppliers has quoted; the animator who carries 8 of the 20 assets is unfilled and unpriced. 23,000 of personal debt waits on the answer.
 4. **The paid month trap** — sign-off starts a clock the client has not supplied everything for. One sentence in the delivery message fixes it.
 5. **Half the portfolio is frozen and the term runs October to January.** POLEKA and 2MAN both sell from a freezer. Inference from category, not client data, and the seasonality answer is the most valuable outstanding question.

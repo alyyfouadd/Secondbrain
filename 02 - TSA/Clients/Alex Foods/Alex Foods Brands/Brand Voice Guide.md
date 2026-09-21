@@ -374,33 +374,59 @@ This section exists because a food page can be reported, and a paid ad account c
 
 **A named Egyptian FEMALE voice could not be confirmed from here.** Filter the library on Arabic + Egyptian + female and audition two before settling, because the argument above is a recommendation and not a proof.
 
-**Model: Eleven Multilingual v2, not v3.** v3 is the more expressive model, but **these are three-to-six-word lines repeated across twenty assets and a whole month — consistency beats expressiveness every time.** v2 is the stable production model. **A wobble in a three-word tagline ruins the tagline.**
+**Model: Eleven v3, decided by Aly on 21 September.** *(Superseded: TSA had recommended Multilingual v2 on the reasoning that three-to-six-word lines repeated across twenty assets need consistency over expressiveness. **The batching the v3 character floor forces delivers that consistency anyway** — see the settings below.)*
 
-**Type these in. Single numbers to start from, with the tuning band beside each — a reasoned start point, not a measured result.**
+**MODEL DECIDED 21 September: Eleven v3, by Aly.** TSA's recommendation had been v2 for consistency; **v3 is the call and the settings below are v3's, which are a different set of controls, not different numbers on the same ones.**
 
-| Control | **Set it to** | Band | Why |
-|---|---|---|---|
-| **Model** | **Eleven Multilingual v2** | — | Not v3. Twenty assets of three-to-six-word lines: **consistency beats expressiveness** |
-| **Stability** | **70%** | 65–75 | Lower buys emotion and pays in variance and dialect drift. **The same read every time IS the product** |
-| **Similarity** | **78%** | 75–80 | Holds the voice's character. **Past ~90% it amplifies artefacts** |
-| **Style** | **5%** | 0–15 | **Style push is where Arabic synthesis breaks** and drifts to MSA prosody |
-| **Speaker boost** | **On** | — | — |
-| **Speed** | **0.92** | 0.90–0.95 | Three-to-six-word lines. Nothing to rush |
+### The constraint that changes the workflow, and it is not a preference
 
-**What to change when it is wrong, one control at a time:**
+> **v3 accepts between 200 and 10,000 characters per generation.**
+>
+> **«مع بيبو، اليوم أحلى» is about twenty characters. Every line in this brand is under the floor.** They cannot be generated one at a time on v3. That is a hard input limit, not a quality opinion.
 
-| Symptom | Move |
-|---|---|
-| Sounds robotic or flat | **Stability down to 65.** Not style up |
-| Drifts to MSA, or a word comes out formal | **Style down to 0**, then stability up to 75 |
-| Different energy on every render | **Stability up to 75** |
-| Breathy, buzzy or artefacted | **Similarity down to 72** |
-| Rushed | **Speed 0.90** |
+**The fix is better than the problem: batch the whole month's lines into ONE generation and cut them apart in the edit.**
 
-**Labels and available controls shift between models and UI versions — Speed in particular is not on every model.** Match by meaning, not by exact wording.
+**And it improves the thing v3 was weakest at for us** — every line renders in a single pass with the same prosody state, so twenty assets share one performance instead of twenty separate ones that drift. **v3's floor accidentally forces the consistency v2 was being chosen for.**
 
-*(Superseded, kept so nobody re-derives it: the first pass gave ranges only, which is not something you can type into a slider.)*
+**The batch script — one generation, cut into clips afterwards. Each line on its own line so the gaps are findable in the waveform.**
 
+```
+مع بيبو، اليوم أحلى.
+صوّر واكسب مع بيبو.
+عايز تكسب؟
+اقلب الباكو.
+امسح الكود.
+وهدايا المدارس تبقى معاك.
+طعمك انت.
+خمس طعوم. اختار بتاعك.
+حطّيه في اللانش بوكس وانتي مطمنة.
+مين معاك النهاردة؟
+برّه أحلى.
+بوليكا.. مش محتاجة شرح.
+الراوي.. طعم تثق فيه.
+آخر أسبوع في هدايا المدارس.
+```
+
+**Re-render the whole block whenever a line changes, and re-cut.** One master render per version keeps every clip in the same voice — **never patch a single line in from a separate generation**, because it will not match.
+
+### The settings — v3
+
+| Control | **Set to** | Why |
+|---|---|---|
+| **Model** | **Eleven v3** | Aly's call |
+| **Stability** | **Robust** for the tagline and step-line batch · **Natural** for A01 and A02 narration | **Robust is highly stable and consistent and less responsive to audio tags** — which is exactly right for lines repeated across twenty assets. Natural is the balanced middle and buys a little life on the two films |
+| **Stability — never** | **Creative** | **Documented as prone to hallucinations.** A hallucinated sigh inside a brand tagline, on an ad account TSA runs, is not a risk worth any amount of expressiveness |
+| **Similarity** | **78%** | Holds character; past ~90% it amplifies artefacts |
+| **Speed** | **0.92 if the control is present** | Not guaranteed on v3 — **if it is absent, slow the read with punctuation instead** |
+
+### Audio tags — v3's actual new capability, used with a short leash
+
+**v3 performs inline tags like `[whispers]`, `[excited]`, `[sighs]`.** Two rules:
+
+1. **Robust mostly ignores them.** If a tag is genuinely needed, that line moves to **Natural** — do not raise stability toward Creative to make a tag land.
+2. **Tags belong in narration, never in a tagline.** «مع بيبو، اليوم أحلى» is the brand's signature line. **It is read straight, every time, forever.**
+
+**v3 does not support SSML break tags, and stacking break-type tags in one generation causes instability — speed-ups and artefacts.** Place pauses with commas and full stops.
 
 ### Text preparation, which matters more than the settings
 

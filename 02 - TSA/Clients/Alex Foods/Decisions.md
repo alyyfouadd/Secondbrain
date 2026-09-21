@@ -34,6 +34,7 @@ type: reference
 
 | # | Date | Decision | Rests on | Overturned |
 |---|---|---|---|---|
+| 34 | 21 Sep | **The voice model is Eleven v3** | Aly | **TSA's recommendation of Multilingual v2**, argued on consistency across twenty repeated lines. **v3's 200-character floor forces every line into one batched render, which delivers that consistency anyway** — [[Brand Voice Guide]] §7b |
 | 33 | 21 Sep | **The back-of-pack QR IS the giveaway entry route** | **The client's own brief**, [[Giveaway Programme]] §1: «والمستهلك هيكسب عن طريق مسح ال QR code الي في ظهر الباكو». The pack carries exactly one QR | **TSA's 20 Sep reading of the pack photograph** — *"it sits with the recycling marks, so probably a corporate code"*. **Rule 12, eighth time.** Unblocks A01, G03 and G04 |
 | 32 | 21 Sep | **Four winner posts a month, built from one locked template** | Aly, approving the rebalance. [[Post Archetypes]] §3 weights the winner post at ~35%; it is the only month-1 content that costs nothing to originate, and proof outperforms every claim a food brand may legally make | **[[Content Plan]] §5's single winner slot**, and with it three product assets — S02, G05 and G09. **The template is [[Month 1 Asset Brief]] §6** |
 | 31 | 20 Sep | **Mahmoud's rates: 2,000 for the visual kit, 300 per post** | Aly | The blank in cost of delivery. **X is now two-thirds known and it produces a hiring ceiling for the animator** — [[TSA Money]] |

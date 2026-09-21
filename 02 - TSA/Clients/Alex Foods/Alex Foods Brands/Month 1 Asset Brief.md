@@ -7,7 +7,7 @@ type: guide
 
 **The twenty Package A month-1 assets, specified to the point a supplier can build one without asking a question.** This is the note [[Package A Month 1]] §3 calls *"the single highest-leverage thing to make before month 1 starts"* — the brief is the deliverable, because Aly directs and two suppliers execute.
 
-**What owns what.** Ideas and pillar weighting are [[Content Plan]] §5 and [[Post Archetypes]] §3 — this note does not re-argue them. Colour values are [[Colour System]]. Tone and the never-say list are [[Brand Voice Guide]]. Campaign facts are [[Giveaway Programme]]. Delivery state is [[Delivery Register]]. **This note owns the production spec and the month-1 posting calendar** — the twenty assets, what each one is, and the day each one goes out. **Where its allocation differs from [[Content Plan]] §5, this note is live and §5 is superseded**; the reasoning is in §5 below.
+**What owns what.** Ideas and pillar weighting are [[Content Plan]] §5 and [[Post Archetypes]] §3 — this note does not re-argue them. Colour values are [[Colour System]]. Tone and the never-say list are [[Brand Voice Guide]]. Campaign facts are [[Giveaway Programme]]. Delivery state is [[Delivery Register]]. **This note owns the production spec, the month-1 posting calendar and the winner-post template** — the twenty assets, what each one is, and the day each one goes out. **Where its allocation differs from [[Content Plan]] §5, this note is live and §5 is superseded**; the reasoning is in §5 below.
 
 **Month 1 IS the school campaign** ([[Decisions]] #26), and **the campaign go-live date is D0.** Every deadline below is relative to it, because the date does not exist yet.
 
@@ -189,7 +189,86 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 
 ---
 
-## 6. Who makes what, and what it costs
+## 6. The winner-post template
+
+**Approved 21 September: four winner posts a month, built from one template.** This section is the template.
+
+**Why it is a template and not four layouts.** The winner post repeats **weekly, across three campaigns and the whole three-month term** — school gifts now, bicycles and scooters after, Umrah last. It is also the only asset in the month TSA does not originate. **Build the frame once and every future winner is a fifteen-minute drop-in; build it four times and it drifts by week three.** After month 1 has run, this section is the first thing that earns a Job note in [[Jobs]].
+
+### The constraint everything else follows from
+
+**TSA does not control the photograph and never will.** These are phone shots taken in a shop: bad light, a cluttered counter, a half-open fridge, someone's arm in frame. **The template's job is to rescue a mediocre photo, not to decorate a good one.** Every rule below exists for that reason.
+
+### The one rule that outranks the rest
+
+> **The photo is the hero and it gets at least 60% of the frame.**
+>
+> **The standard failure in this category is an agency burying the proof under its own branding** — a thick frame, a big logo, a pattern, and the actual human shrunk to a thumbnail. **If the result reads as "a graphic with a photo in it", it has failed. It should read as "a photo with a band under it."** The proof is the product here; the branding is a signature.
+
+### Anatomy — 1080 × 1350
+
+| Zone | Share | Spec |
+|---|---|---|
+| **Photo well** | **Top ~68%** | Full-bleed to three edges. **Tight crop on person and prize**, nothing else earns the space |
+| **Caption band** | **Bottom ~32%** | Paper ground. **Type never sits on the photograph** — that single decision is what makes an unpredictable source image survivable, because legibility stops being a gamble |
+| **Campaign rule** | 3 px | A thin rule at the top of the band, in the campaign range's own field colour from [[Colour System]] §5. **A rule, never a fill** |
+| **The lockup** | Band, top-left | **«مبروك للفايز», identical position every single time.** This is the thing that makes four posts read as one programme |
+| **Name slot** | Band, largest type | **First name only.** One line |
+| **Prize slot** | Band, under the name | One line, **swappable**: «هدية المدارس» · «عجلة» · «سكوتر» · «عمرة» |
+| **Range mark** | Band, bottom-left | Whichever range owns the giveaway — **BeBo for the school campaign** |
+| **The seal** | Band, bottom-right | On Paper, per §1. **Never on the photograph** |
+
+**Story and Reel at 1080 × 1920: the photo well grows, the band keeps its exact height and contents. Nothing reflows, nothing is re-set.**
+
+### The source-photo gate — the part that actually saves the month
+
+**Run every incoming photo through this before it enters production.** A rejected photo costs one message; a published bad one costs the proof.
+
+**Reject and ask for another:**
+- **The prize is not in the photo**, or **not in the winner's hands.** This is the whole point of the format
+- Shorter side under ~1000 px — **it cannot fill a 1080 well and it will not be enlarged past source**, which is the rule the recipe already sets
+- A competitor's product visible in frame
+- **A shop sign legible enough to read as an endorsement.** [[Brand Voice Guide]] §7 forbids naming a shop, and a photograph names it just as loudly as a caption does
+- Other people in frame who have not given permission
+
+**Accept and fix in production:**
+- Dark → **lift it; never relight it into something that did not happen.** A slightly rough real photo outperforms a polished fake one
+- Busy background → tighter crop, or a soft vignette. **Never a cut-out** — a floating winner on a clean field is exactly the staged look the format exists to avoid
+- Wrong ratio → crop to the well. **Never letterbox**
+
+### The Umrah variant, and it is not optional
+
+[[Content Plan]] §4 is blunt: **Umrah cannot be advertised in the voice that sells jelly sweets.** The same template, stripped:
+
+**No range mark. No character. No exclamation mark. No coloured campaign rule — Ink instead. Seal only, and the band in Paper.** Quiet, plain, respectful. **Decide it now while it is parked and cheap**, rather than in month 3 with the campaign live.
+
+### The motion version — S02, and every future animated winner
+
+**Same frame, nothing re-laid out.** Photo holds a slow 3% push-in across the whole clip · the lockup fades on at 0.4 s · the name sets on after it · hold. **4 seconds, seamless loop.** That is the entire motion spec, and it is deliberately dull — **a winner post that shows off its animation is a winner post competing with its own proof.**
+
+### The caption, fixed
+
+**Congratulate by name · what they bought · the invitation.**
+
+> «الف مبروك لإياد ❤️ اشرب بيبو.. دورك جاي»
+
+**That is the client's own structure and it already works.** Vary the words, never the shape.
+
+### Never
+
+- A stock photo. A staged winner. **A prize the person is not holding.**
+- **A winner's full name.** First name only, every time.
+- **A child's photograph without the parent's written permission** — and on a kids product most winners will be children. **Consent to receive a prize is not consent to appear in an advert, and a child cannot give that consent at all.** This is the one line in the template that is not a design preference.
+- A named shop, in the frame or in the caption.
+- **Two winners in one post.** Four separate posts are four proofs; one grid of four is one proof. **The format's entire value is repetition — do not spend it to save a slot.**
+
+### Delivery
+
+**Mahmoud keeps one locked master** with the photo well, the band and every slot as named layers. **Each winner is a drop-in, not a rebuild.** Filenames per §1: `AF-M1-G05-winner-2-4x5-v1.png`.
+
+---
+
+## 7. Who makes what, and what it costs
 
 **Rates agreed 20 September 2026** ([[Decisions]] #31). Full books in [[TSA Money]] — **that note owns the arithmetic, this one owns the split.**
 
@@ -205,7 +284,7 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 
 **At 300 a post he is cheap, and an animated still is a designed frame with a small motion pass on top.** Split it: **Mahmoud designs the six still frames at his post rate (1,800), and the animator only does the motion pass.** That drops the animator's scope from **eight originated pieces to two films plus six passes on finished art** — which should cut his price materially, and it de-risks the single largest hole in the month. **Worth one message before the role gets filled at a panic rate.**
 
-## 7. What each blocked asset is waiting for
+## 8. What each blocked asset is waiting for
 
 **Nine of the twenty cannot be finished today, and every gap is one client message.** Grouped so it can be sent as one ask rather than dribbled out.
 
@@ -221,7 +300,7 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 
 > **The trade pillar is deliberately absent from the twenty.** [[Post Archetypes]] §3 allocated it two graphics and both are blocked on artwork that does not exist. **Two assets against a carton nobody has seen would be invented work on a paid month** — the slots go to the giveaway instead, which is where the client's priority is. **Reinstate in month 2 when the coupon arrives.**
 
-## 8. Supplier terms still unagreed, and all four get expensive in week three
+## 9. Supplier terms still unagreed, and all four get expensive in week three
 
 1. **Who owns the working files.** Clause 5 makes them TSA property in the client contract — **that has to be agreed with Mahmoud, not just written about him.**
 2. **How many revision rounds he gets.** The client gets one. **If Mahmoud gets unlimited, the margin is wherever Mahmoud stops.**

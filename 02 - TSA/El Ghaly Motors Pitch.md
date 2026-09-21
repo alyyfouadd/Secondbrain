@@ -153,77 +153,105 @@ It assumed the whole business was premium and being undersold by amateur product
 
 ---
 
-## 5. Pricing — the method, then the numbers
+## 5. The three packages
 
-### Every rate is now known
+### Why three, and why this is not a price list
 
-**Videographer 2,000/day · editing from 1,000 a video · Mahmoud 300 a graphic · media buyer 2,000/month** *(the last two are real [[Alex Foods]] rates — [[TSA Money]])*.
+**Three is the number.** Two reads as an ultimatum and invites a counter-offer; four or more invites line-item negotiation and decision paralysis. **Three lets the middle one be chosen**, which is where the recommendation goes.
 
-**Editing is the biggest line in the build, and it was the one being guessed at.**
+> **And it does not break [[TSA]]'s "no packages" positioning.** A package list is published, generic and reused. **These are three curated options built from one dealership's own situation, priced off its own numbers, and shown to one manager.** That is a proposal with options, which is how a client chooses without designing the work themselves — [[TSA Client System]] §4b. **What would break the rule is quoting these same numbers to the next client without doing the work again.**
 
-| Per month | **A — Presence** | **B — Showroom** | **C — The Scene** |
+### The rates, with the premium layer priced honestly
+
+**Aly's correction, 21 September: the shooting and editing is neither cheap nor easy. The premium layer is S-Log capture with grading, and 3D camera-tracked compositing in After Effects.** **That is not a 1,000 EGP cut and it was wrong to model it as one.**
+
+| Line | Rate | Note |
+|---|---|---|
+| Videographer | **2,000/day** | Confirmed |
+| **Premium bike film** — S-Log grade + 3D AE | **4,000 each** | **Priced as if bought in.** See the warning below |
+| Founder video — phone, directed, fast cut | **500 each** | The layer that already works. **Stays scruffy on purpose** |
+| Graphic | **300** | [[Alex Foods]] rate |
+| Media buyer | **2,000/month** | [[Alex Foods]] rate, fixed |
+
+**The premium film costs eight times what a founder video costs.** **So the films are what the packages are built on, and everything else rides along.**
+
+### The three
+
+| | **1 · Launch** | **2 · Showroom** *(recommended)* | **3 · Superbike** |
 |---|---|---|---|
-| Shoot days | 1 → 2,000 | 2 → 4,000 | 3 → 6,000 |
-| **Editing at 1,000** | 4 → **4,000** | 10 → **10,000** | 16 → **16,000** |
-| Graphics at 300 | 8 → 2,400 | 12 → 3,600 | 16 → 4,800 |
-| Media buyer | — | 2,000 | 2,000 |
-| Transport, misc | ~500 | ~1,000 | ~1,500 |
-| **Cost of delivery** | **8,900** | **20,600** | **30,300** |
-| Indicative price | 30,000 | 50,000 | 85,000 |
-| **Gross margin** | **70%** | **59%** | **64%** |
-| Editing as a share of cost | 45% | **49%** | 53% |
-
-**A finished video costs 1,000. A whole extra shoot day costs 2,000.** So the camera is never the constraint — **the constraint is how many finished pieces get cut**, and that is what the price has to be built on.
-
-### The evidence changes the product, and it improves the margin
-
-**Their best-performing content is a man talking to camera on a phone.** It needs **no shoot day and no cinematic grade** — direction, a fast cut, better lighting. **Call it 400 rather than 1,000.**
-
-| If the talking-head layer is phone-shot and lightly cut | 8 videos | 12 videos | 16 videos |
-|---|---|---|---|
-| At 1,000 each, cinematic | 8,000 | 12,000 | 16,000 |
-| At 400 each, phone and light cut | 3,200 | 4,800 | 6,400 |
-| **Saved** | **4,800** | **7,200** | **9,600** |
-
-> **So the right architecture is two layers, not one tier ladder.** **A high-frequency founder layer, shot on his phone, directed by TSA, cut fast and cheap** — that is the engine and it already works. **And a low-frequency cinematic layer with the Sony pointed at the bikes**, for inventory films and paid creative, where a machine standing still has to sell itself. **Tier B done this way delivers nearer 15,000 than 20,600, on the same output.**
-
-**The margin case for doing it right is also the performance case, which is rare and worth saying in the room:** the cheaper content is the content that works better here.
-
-### The shape: three tiers, and the middle one is the answer
-
-**[[TSA]]'s positioning is no packages — a dedicated price and a dedicated set of services per client.** Three tiers for this one dealership is not a price list; it is one dedicated proposal with a decoy on either side of the recommendation. **What would break the rule is reusing these numbers on the next client without doing the work again.**
-
-| | **A — Presence** | **B — Showroom** *(recommended)* | **C — The Scene** |
-|---|---|---|---|
-| Founder videos, phone-shot | 4 | **8** | 12 |
-| Cinematic bike films, Sony | — | **2** | 4 |
-| Shoot days | 1 | **2** | 2 + event days |
-| Graphics, on one system | 8 | 12 | 16 |
-| Profile picture, cover, visual system | **Yes, month 1** | **Yes, month 1** | **Yes, month 1** |
-| Content calendar | Yes | Yes | Yes |
-| Community management | Yes | Yes | Yes |
-| **Review engine — 19 reviews to a real number** | — | **Yes** | Yes |
-| Paid campaign management | **No** | Yes | Yes |
+| **Premium bike films** — log + 3D AE | **1** | **2** | **4** |
+| Founder videos — phone, directed | 8 | 12 | 16 |
+| Shoot days | 1 | 2 | 3 + events |
+| Graphics, on one system | 10 | 14 | 18 |
+| **Visual system, profile picture, cover** | **Month 1** | **Month 1** | **Month 1** |
+| Content calendar · community management | Yes | Yes | Yes |
+| **Review engine** — 19 reviews to a real number | — | **Yes** | Yes |
+| Paid campaign management | — | Yes | Yes |
 | Google Business + local SEO | — | Yes | Yes |
-| Rideout / event coverage | — | — | Yes |
-| Service-department campaign | — | — | Yes |
+| Rideout and event coverage · rider collabs | — | — | Yes |
 | Monthly report | Basic | Full | Full, with lead attribution |
-| **Cost of delivery** | 8,900 | **20,600** | 30,300 |
-| **Indicative monthly** | **~30,000** | **~50,000** | **~85,000** |
+| **Cost of delivery** | 13,500 | **25,200** | 39,400 |
+| **Price** | **32,000** | **60,000** | **95,000** |
+| **Margin** | 58% | **58%** | 59% |
 
-**The costs are computed from real rates. The prices are still inferences** — anchored to the one contract TSA holds and to what this market will bear, which nobody has tested. **The number gets said out loud only after the ten-minute call in §3.**
+**Every package carries the founder layer and the visual system**, because both are cheap and both are what actually moves their numbers. **The tiers differ on how much of the superbike floor gets filmed properly**, which is the expensive thing, the differentiated thing and the thing nobody has ever done for them.
 
-**Media spend never passes through TSA.** The client pays the platforms directly. [[Alex Foods]] settled this and it is now a TSA rule, not a negotiation — **the moment an agency becomes payer of record for someone else's ad budget it is financing a client.**
+**Why 2 is the one to recommend:** the jump from 1 to 2 buys paid management, local SEO, the review engine and a second film for 28,000. **The jump from 2 to 3 buys two more films for 35,000.** Package 2 is visibly the value pick, which is the job of the middle option.
 
-### The website
+### The warning that comes with doing the premium edit yourself
 
-**Build: ~30,000 one-time. Monthly: hold it back until §3 step 3 is settled.**
+**Aly is the one making these films.** So the 4,000 a film is not cash leaving TSA — **and that is exactly why it has to stay in the model.**
 
-**The monthly fee is right in principle and the reason first given for it was the weak version.** "Updating everything" is a maintenance charge and every client resents paying it. **The real product is stock accuracy: a dealership site is only useful if the bikes on it are the bikes on the floor.** A stale site does not sit there harmlessly — **a customer who drives to Shatby for a bike that sold three weeks ago does not come back.**
+1. **Price as if it is bought.** Every rate here repeats for the whole term. **A price built on the founder doing 16,000 EGP of After Effects a month does not survive the founder stopping** — and [[VAULT-INDEX]] records that stopping is the plan.
+2. **A month Aly edits is margin kept, never a discount offered.** If it is discounted into the price, the price can never come back up.
+3. **Package 3 is four log-graded 3D AE films a month, alongside directing [[Alex Foods]].** **That is the real ceiling on this business, and it is a person, not a price.** **Sell package 3 only with a plan for who else can cut it** — otherwise a won deal becomes a month Aly cannot deliver.
 
-**But it cannot be sold until somebody can actually service it weekly**, and right now that is a friend on his first project. **Sell the build; quote the monthly only once the hosting, the domain and the edit route are in hands that answer.**
+### What stays scruffy, and why it is not a contradiction
 
-**Domain and hosting are a real cost and they are not TSA's.** Bill them through at cost or put them in the client's own account. **A 4,000 fee with 800 of somebody else's hosting inside it is not a 4,000 fee.**
+**The premium correction and the evidence do not fight each other — they apply to different audiences.**
+
+**The superbike buyer is purchasing an identity, and there the log grade and the 3D work ARE the product.** **The economy buyer wants price, instalments and availability, and a man talking to camera in his own shop outperforms anything polished** — 171 reactions and 109 comments say so, on their own page, two days ago.
+
+> **So do not let the premium layer creep into the founder layer.** **The moment the talking-head videos start getting graded and tracked, TSA is spending expensive hours making that content worse.** Keep them separate in the calendar, in the budget and in the brief.
+
+### The site: build and monthly
+
+**Build: 40,000 one-time.** It is an immersive animated build rather than a template, they are a dealership with a superbike floor and 208,000 followers, and **it is the small yes that gets TSA in the door.** Do not discount it to win the retainer — **keep the two decisions clean, so neither one drags the other down.**
+
+**Monthly: 5,000.** **And sell it as inventory accuracy, never as maintenance.** A dealership site is only useful if the bikes on it are the bikes on the floor; **a customer who drives to Shatby for a superbike that sold three weeks ago does not come back.** That is a fee they can picture losing money without. "Updating everything" is not.
+
+**What the 5,000 has to cover:** Basel's retainer, hosting and domain, and Aly's oversight. **Domain and hosting get billed through at cost or sit in the client's own account** — a 5,000 fee with 800 of somebody else's hosting inside it is not a 5,000 fee.
+
+---
+
+## 5b. Basel — the deal, if he is coming along for the journey
+
+**Basel built the site on his first project while learning with AI.** **Aly wants him on the team rather than as a one-off favour, and that is the right instinct** — he is TSA's entire web capability and there is no second one.
+
+### What he gets
+
+| | Amount | When |
+|---|---|---|
+| **The build, retrospectively** | **8,000** — 20% of the 40,000 | **On the client's payment, not before.** Stated that way upfront |
+| **Monthly retainer** | **1,500/month** | For weekly stock updates and keeping it up. **Reviewed at month 3** against real workload |
+| **Future sites** | **A per-site rate agreed before each one** | Not a share of TSA. **A supplier rate, like Mahmoud's** |
+
+**8,000 is real money for a first project and it is meant to be.** **It is what turns a favour into a supplier**, and a supplier is something TSA can plan around. A friend doing it free is the arrangement that collapses in week three, and it spends the friendship at the same time.
+
+> **Pay him a written rate precisely because he is a friend.** **Unpaid friend-work is how friendships die on a client deadline** — and once a client is depending on a weekly update, the favour has become an obligation whether anyone named it or not.
+
+### The three conditions, and they are not negotiable
+
+**They are what makes the 5,000 monthly sellable at all:**
+
+1. **Hosting and domain live in TSA's account or the client's — never in Basel's personal one.** **If TSA cannot log in, TSA cannot promise anything.**
+2. **Stock must be editable without touching code.** **If changing a bike's price needs a developer, the monthly fee has a single point of failure with no contract behind it.**
+3. **Clause 5 applies to him as it does to every supplier:** the working method and the project files are agency property, **and he holds no direct relationship with the client.** Same rule as the media buyer on [[Alex Foods]], for the same reason.
+
+### What to decide before offering it
+
+- **Supplier or partner?** **Supplier.** Money is tight and he is unproven — **a revenue share on a beginner's first project gives away the upside of every future site for one that is already built.** Revisit it when there is a track record.
+- **Does he want this?** He is learning, not job-hunting. **A rate, a defined scope and a review date is an offer; "help me out with the client sites" is a slowly souring favour.**
 
 ## 6. The scooter — route chosen
 

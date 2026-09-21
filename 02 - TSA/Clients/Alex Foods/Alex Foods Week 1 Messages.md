@@ -292,6 +292,12 @@ Four things the draft does deliberately:
 | Tomorrow, mid-morning | **§5, the money, alone** | **Hussein** |
 | Tomorrow, afternoon | §8d | Hussein |
 
+> ### 21 September: the money message goes ALONE, with nothing attached.
+>
+> **[[Decisions]] #36 removed the last candidate for a "give".** The plan had been to land a finished Foundation item before the instalment message so the money followed something good; **every candidate PDF is now an internal content proof rather than a client deliverable**, and nothing reaches the client until Mahmoud has laid it out.
+>
+> **§5 still works and its shape is unchanged** — it opens on progress, calls the money administrative and asks for no date. **What it loses is the sweetener, not its cleanliness.** §6 and §7, the two delivery drafts, are **parked until there is a designed document to attach them to.**
+
 **The money never shares an hour with a task list** — the rule at the head of this note, and the reason §5 sits where it does. **And it goes to Hussein while §8a to §8c go to Mohamed**, so the owner's only message that morning is the one about the instalment.
 
 ---

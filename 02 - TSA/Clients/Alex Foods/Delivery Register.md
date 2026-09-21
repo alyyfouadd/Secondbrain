@@ -28,9 +28,22 @@ type: reference
 | 6 | Shooting and Compositing Recipe | **SHIPPED, thin** | **Three sections lost when `recipe.py` was deleted** — the reject list, the source library and the resolution rule. Re-render is 2pp against the original 7pp. Prompts out and BeBo corrected. See [[Alex Foods Week 1 Messages]] §6 | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` |
 | 7 | Google Business Profile | **BLOCKED — unblocking 21 Sep** | Login received; **verification code lands 21 Sep**. Address in 19 Sep; **phone now read off the back of a BeBo pack**. Hours and categories still outstanding | — |
 | 8 | Local SEO — Alexandria | **NOT STARTED** | Nothing. **The shelf walk is dropped ([[Decisions]] #29)** — the competitor read is now a digital-shelf read and says so honestly in the book | — |
-| — | **The brand book** — the one document all eight ship inside | **BUILT** | Content for the four waiting sections | `Alex Foods - Brand Foundation v1.0.pdf` · [[Brand Book Spec]] |
+| — | **The brand book** — the one document all eight ship inside | **CONTENT BUILT · LAYOUT REASSIGNED** | **Mahmoud, and he has not been briefed** — [[Decisions]] #36 | `Alex Foods - Brand Foundation v1.0.pdf` is now an internal content proof, not the client copy · [[Brand Book Spec]] |
 
-**Honest read: one deliverable is finished but too thin to send until three lost sections are restored. Two are blocked on client access and will ship as specification with a waiting chip. Five are part-built.** Nineteen days to target as of 20 September. Dated plan in [[Alex Foods Delivery Plan]].
+> ### 21 September: the client-facing layout moved to Mahmoud, and the critical path moved with it.
+>
+> **[[Decisions]] #36.** The generator output stops being what the client sees. **TSA still owns all 25 sections of content; Mahmoud owns the layout.** Nothing above changes status on content — what changes is that **the shipped PDFs are no longer the delivery.**
+>
+> **The cost, stated plainly, because [[Decisions]] #27 was specifically written to avoid it: Mahmoud is now on the critical path to 9 October.** #27 kept his document off the eight deliverables *so that* a subcontractor could never gate the target. **That protection is spent.**
+>
+> **Eighteen days as of 21 September**, and inside them Mahmoud must take a brief that does not exist yet, lay out a bilingual document currently at 38 pages and specced toward ~105 ([[Brand Book Spec]] §5), take a revision round, **and** produce month 1's twelve graphics. **Three of those four things have no date on them.**
+>
+> **Two hard dependencies to clear before he can start rather than after:**
+>
+> 1. **The production-resolution artwork** — [[Alex Foods Week 1 Messages]] §8b. It was the graphics blocker; **it is now the book blocker too.** No designer makes a 20,000 EGP document premium around a 199 × 251 pixel pack.
+> 2. **The master navy in the brief must be the authored value, not the generators'.** `book.py:12`, `kit.py:23` and `gen.py` all still carry `#0A0378`, which [[Colour System]] §11 puts **ΔE2000 9.80** off the client's own file. **The authoritative value is CMYK 98 / 81.3 / 27 / 12.9 ≈ `#042AA2`**, and the inner disc is CMYK 7.4 / 93.8 / 83.6 / 0.8 ≈ `#EA1029`. **This stops being a render defect and becomes a brief defect** — hand him the wrong number and he builds a beautiful book around a colour the client never authored.
+
+**Honest read: one deliverable is finished but too thin to send until three lost sections are restored. Two are blocked on client access and will ship as specification with a waiting chip. Five are part-built. And as of 21 September none of them reaches the client until a designer who has not been briefed lays them out.** Eighteen days to target as of 21 September. Dated plan in [[Alex Foods Delivery Plan]].
 
 ---
 

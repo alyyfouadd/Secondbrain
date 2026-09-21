@@ -244,7 +244,7 @@ Separately worth naming: **the four range logos in the "THE FOUR RANGES" panel a
 - **Free: use the vector seal** — it is already in the vault.
 - **Free: a paid-looking Arabic display face.** [[Type System]] already names the tradeoff — Plex runs cool and technical — and names **Cairo** as the warmer fallback. Both free and properly licensed.
 - **Costs money and is not recommended yet: a premium Arabic display licence.** It would lift the book, but it is the last 10% and it should wait until the eight free fixes are in and the improvement can actually be judged against them.
-- **Rejected, and the reasoning stands: Canva or a layout app.** 39 pages hand-assembled, and every revision round a manual re-layout. §3 chose HTML precisely so a revision is an edit and a re-render.
+- ~~**Rejected, and the reasoning stands: Canva or a layout app.**~~ **SUPERSEDED 21 September — [[Decisions]] #36.** The argument was 39 pages hand-assembled and every revision round a manual re-layout, and §3 chose HTML precisely so a revision is an edit and a re-render. **It was sound and it lost on evidence:** the eight fixes below were all applied and re-rendered on 20 September, and Aly's verdict on 21 September is unchanged. **A remediation pass that runs, verifies and still fails is the argument for a designer.** The revision cost the rejection was protecting is now Mahmoud's to carry, not TSA's.
 
 > ### DONE, 20 September. All eight applied and both documents re-rendered.
 >

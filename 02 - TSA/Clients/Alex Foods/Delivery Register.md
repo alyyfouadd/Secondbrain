@@ -61,7 +61,7 @@ type: reference
 | 5 | **Meta admin access** | **IN, 20 Sep, as a shared login.** Verification code 21 Sep. **Used once to grant partner access, then never again** — [[Decisions]] #28 |
 | 6 | **Google account** | **IN, 20 Sep, as a shared login.** Verification code 21 Sep |
 | 7 | GBP details | **PART IN** — address 19 Sep; **phone, WhatsApp and the registered legal name read off `packshots/bebo-mango-back.png` 20 Sep.** Hours and categories outstanding |
-| + | **Back-of-pack photo with a legible QR** | **IN, 20 Sep** — `packshots/bebo-mango-back.png`, BeBo mango. **But the QR sits beside the recycling marks and «حافظ على نظافة مدينتك», so it may not be a giveaway QR at all.** One camera tap settles it |
+| + | **Back-of-pack photo with a legible QR** | **IN, 20 Sep** — `packshots/bebo-mango-back.png`, BeBo mango. **The QR is confirmed as the entry route by the client's own brief** ([[Decisions]] #33); only its destination URL is still unknown |
 | + | **Carton artwork and the coupon** | **OUTSTANDING.** Hussein offered the coupon; blocks both trade posts in month 1 |
 
 ---

@@ -295,7 +295,8 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 | **Carton and coupon artwork** | The two trade posts, which is why **there are no trade posts in the twenty above** — the pillar is dropped for month 1 rather than faked | Client |
 | **Winner photos and video, plus written permission to publish** | **S02, G05, G09, G11 — four of the twenty — and every daily story slot.** Consent to receive a prize is not consent to appear in an ad. **The fallback if it never comes is named in §5** | Client |
 | **The real school-campaign dates** | **G12 is a deadline post with no deadline**, and D0 does not exist until this arrives | Client |
-| **Confirmation the back-of-pack QR is the entry route** | **A01 and G03.** It sits with the recycling marks — **one camera tap settles it** | Aly |
+| ~~Confirmation the back-of-pack QR is the entry route~~ **CLOSED 21 Sep** | **A01, G03 and G04 are unblocked.** The client's brief confirms the scan is how a consumer enters ([[Decisions]] #33), and `packshots/bebo-mango-back.png` is the reference | — |
+| **The QR's destination URL** | **Nothing in month 1.** It blocks *reporting*, not production — see [[Giveaway Programme]] §11.6 | Client |
 | **Meta admin** | **Publishing anything at all**, and the baseline the month is measured against | Unblocking 21 Sep |
 
 > **The trade pillar is deliberately absent from the twenty.** [[Post Archetypes]] §3 allocated it two graphics and both are blocked on artwork that does not exist. **Two assets against a carton nobody has seen would be invented work on a paid month** — the slots go to the giveaway instead, which is where the client's priority is. **Reinstate in month 2 when the coupon arrives.**

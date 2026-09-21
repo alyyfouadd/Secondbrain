@@ -190,6 +190,105 @@ Flagged as risks, not verdicts. **Two of these I cannot resolve from here and am
 
 ---
 
+## 11. Month 1 — the school campaign, planned and ready to announce
+
+**Written 21 September 2026, after Aly asked to announce the back-to-school giveaway.** The asset list and the dated posting calendar are [[Month 1 Asset Brief]] §2 and this note does not repeat them. **This section owns the campaign: the mechanic as announced, the launch sequence, the copy, and the four facts still missing.**
+
+### 11.1 The QR is the entry route, and TSA had this wrong for a day
+
+> **CORRECTED 21 September.** On 20 September a back-of-pack photo arrived and this vault recorded that its QR *"sits beside the recycling marks and «حافظ على نظافة مدينتك», so it is probably a corporate or recycling code, not a giveaway entry."*
+>
+> **That was TSA reading a photograph over a client statement, which is exactly the failure rule 12 exists to stop.** The client's own brief in §1 says it outright:
+>
+> > «والمستهلك هيكسب عن طريق مسح ال QR code الي في ظهر الباكو»
+>
+> **The consumer wins by scanning the QR code on the back of the pack.** The pack carries one QR. It is that one. **The client's words outrank TSA's reading of their materials, and this is the eighth time that has been the lesson.**
+>
+> **What it unblocks immediately: A01, G03 and G04** — the three mechanic assets, which were the biggest gap on the account. `packshots/bebo-mango-back.png` is the reference and it is already in the vault.
+>
+> **What is still genuinely open is different and smaller: where the scan LANDS.** The code exists and works as an entry route; nobody on TSA's side knows the URL behind it. That is §7.3 and it is still a question for the client, because it decides whether a single entry can ever be reported ([[Content Plan]] §2).
+
+### 11.2 The announcement, and why it does not wait on the dates
+
+**The campaign can be announced before the client gives an end date, and it should be.** The only asset that needs a real date is **G12, the countdown** — everything ahead of it says *scan and you are in*, which is true from the first day. **Holding the whole launch for one date is how the client's number-one campaign misses the start of term.**
+
+**The order is fixed and the reason is in it: the mechanic goes out before the prize.**
+
+| | Asset | What it says |
+|---|---|---|
+| **1** | **A01** — mechanic animation | *How* to enter, in motion. Three steps |
+| **2** | **G02** — the announcement | *What* you win |
+| **3** | **G03** — how to enter, static | The screenshot-able version of A01 |
+
+> **Announce a prize to people who cannot work out how to enter and the launch week is spent answering «ازاي أشارك؟» in the comments instead of collecting scans.** [[Brand Voice Guide]] §8 case 9 already calls that the highest-volume comment once a campaign is live. **The order above is what keeps it from becoming the whole comment section.**
+
+### 11.3 The copy — draft, for Aly's ear
+
+**All Arabic below is draft. Aly is the native speaker and the arbiter.** Nothing here uses «عصير», because that question is still open ([[Decisions]] #30), and every line clears [[Brand Voice Guide]] §7.
+
+**G02 · the announcement**
+
+> **«صوّر واكسب مع بيبو»**
+> «هدايا المدارس من بيبو — كراسات، نوتة، مقلمة، أقلام ومساطر.»
+> «اقلب الباكو وامسح الكود.»
+
+**G03 · how to enter, three steps and no more**
+
+> **«ازاي تدخل السحب؟»**
+> «١ — اشتري بيبو»
+> «٢ — اقلب الباكو»
+> «٣ — امسح الكود»
+> «وانت كده داخل السحب.»
+
+**A01 · the mechanic animation, shot by shot**
+
+| Time | Frame | Line |
+|---|---|---|
+| 0–3 s | BeBo mango, front, on its field | «عايز تكسب؟» |
+| 3–7 s | The pack rotates to its back | «اقلب الباكو.» |
+| 7–11 s | Phone enters, the QR fills the frame, scans | «امسح الكود.» |
+| 11–15 s | The school kit resolves | «وهدايا المدارس تبقى معاك.» |
+| 15–18 s | Lockup and seal | «صوّر واكسب مع بيبو» |
+
+**G12 · the countdown, once, when the date exists**
+
+> «آخر أسبوع في هدايا المدارس.» + «اقلب الباكو وامسح الكود.»
+
+### 11.4 One risk inside the approved slogan, and it is a pairing rule not a rewrite
+
+**«صوّر واكسب مع بيبو» is Aly's line and it stands** ([[Decisions]] #20) — it carries mechanic and reward in three words, which TSA's own attempts did not.
+
+**But «صوّر» can be read two ways.** Pointing a camera at a code is «تصوير» in ordinary speech, so the line works. **It can equally be heard as "photograph your purchase and post it"** — which is not the mechanic, and which would fill the comments with photos nobody can count as entries.
+
+> **The rule that fixes it costs nothing: the lockup never appears without «امسح الكود» beside it.** Slogan and mechanic travel together on every asset, every time. **A slogan that invites the wrong action is only a problem when it travels alone.**
+
+### 11.5 The winner posts start on bicycle winners, not school winners
+
+**A hole in the calendar, found and closed rather than left.** The first winner post lands at **D0+7**, but the school giveaway only opens at D0 — **so no school winner can exist yet.**
+
+**The first two winner posts use existing bike-and-scooter winners**, and that is not a compromise:
+
+1. **The bike campaign is still running** — the client says so in §1 and says he is still sending photos and videos as they come.
+2. **Proof transfers.** The question a winner post answers is *"does anybody actually win?"*, not *"did anybody win this specific prize?"* A real person with a real bicycle answers it completely.
+3. **Waiting would put the month's first proof at roughly D0+21**, three weeks into the campaign the client cares most about.
+
+**School winners take over from the third winner post onward, as they arrive.** The template ([[Month 1 Asset Brief]] §6) has a swappable prize slot precisely so this costs nothing.
+
+### 11.6 What the announcement is still missing
+
+**Four things, and only one of them can stop the launch.**
+
+| Missing | Effect on the announcement |
+|---|---|
+| **Gift artwork or a photograph of the school kit** | **The only one that can actually stop it.** G02 and S06 *are* the prize, and no artwork for it exists on TSA's side. **The gifts mockup PDFs Aly is holding are the nearest thing** |
+| **The campaign's end date** | **Does not stop the launch.** It stops G12 only, and G12 runs last |
+| **Where the QR lands** | **Does not stop the launch.** It stops *reporting*, which is a month-end problem, not a week-0 one |
+| **Written permission to publish winner media, from the parents** | Stops the four winner posts, not the announcement. Fallback in [[Month 1 Asset Brief]] §5 |
+
+> **So the launch is one asset away, and that asset is a photograph of a pencil case.** Everything else either exists or waits behind a post that runs later.
+
+---
+
 **Related:** [[Alex Foods]] · [[Alex Foods Delivery Plan]] · [[Slogans and Song]] · [[Shooting and Compositing Recipe]] · [[Alex Foods Discovery Brief]]
 
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

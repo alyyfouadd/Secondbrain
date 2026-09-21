@@ -63,6 +63,6 @@ They were sliced out of iPad screenshots, which was right at the time. **A BeBo 
 
 1. **The jug is dead.** 75 ml, ready to drink, water first on the ingredients list. Animation **A1** in [[Content Plan]] §5 was built on one sachet making a jug for the family, and that product does not exist. [[Decisions]] #30.
 2. **«عصير» is a claim, not a description.** The pack says artificial sugary drink. The client's own page says «عصير بيبو». **TSA runs the ad account** — same shape as the AlRawy "organic" problem. **Open for Aly**, not settled here.
-3. **The QR is probably not the giveaway QR.** It sits bottom-left with the recycling marks and «حافظ على نظافة مدينتك», not with anything promotional. **Unverified — it has not been scanned**, and no future session should assume either way.
+3. **The QR IS the giveaway entry route — corrected 21 September.** This README first read it as *probably a recycling code*, because of what sits beside it. **The client's own brief says «والمستهلك هيكسب عن طريق مسح ال QR code الي في ظهر الباكو».** The pack carries one QR; it is that one. **A client statement outranks TSA's reading of their artwork — rule 12.** What is still unknown is the destination URL, which has not been scanned.
 
 > **One observation recorded without a conclusion.** The line «يحتوي على مصدر للبنزين الامن» appears where a phenylalanine declaration belongs, which is what aspartame E951 requires. It reads as a printing error on the client's side. **It is not TSA's to fix and not TSA's to publicise — but never shoot, zoom or crop this panel into creative.**

@@ -27,6 +27,7 @@ This is my fourth agency. The difference is that this one runs on direction, sys
 
 ## Notes in this folder
 - [[El Ghaly Motors Pitch]] — **the first inbound lead and the first prospect that is not [[Alex Foods]].** Motorcycle dealership, new branch in El Shatby, Alexandria. The strategic read, the discovery questions, the three-tier pricing shape and the pitch sequence. **Not in `Clients/` because nothing is signed** — a client folder is created at signature. It moves there the day one is.
+- [[el-ghaly-screens]] — **the only direct evidence TSA holds about the El Ghaly prospect:** four screenshots of their Facebook page, captured 21 September. **Facebook is hard-blocked from the AI's machine**, so without these every statement about their current output is a description of a description. Read alongside [[El Ghaly Motors Pitch]] §1.
 - [[TSA Money]] — the agency's books. Revenue, cost of delivery, and the owner's-draw rule that gates what moves from TSA to [[Money]]. Agency money and personal money are two pots; this note owns the first one.
 
 ## What belongs here as it gets built

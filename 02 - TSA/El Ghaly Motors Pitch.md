@@ -15,103 +15,113 @@ type: plan
 
 ## 1. What is actually known, and what is being guessed
 
-**Nothing here has been verified against the business.** Their Facebook page is **unreachable from this machine — the network policy blocks Facebook**, the same wall that has stopped every social fact on [[Alex Foods]] from being checked directly. So every line below is Aly's report or an inference from it, and the tags are not decoration.
+**Their page was captured on 21 September** and the screenshots are in [[el-ghaly-screens]]. **Facebook is hard-blocked from this machine — the proxy returns 403** — so those four images are the entire evidence base, and everything not in them is still somebody's description.
 
-| # | Statement | Tag |
-|---|---|---|
-| 1 | Motorcycle business in Alexandria. New branch opened in **El Shatby** | **REPORTED** — Aly, 21 Sep |
-| 2 | Showroom carries **sport bikes, new scooters, bikes, accessories, and service** | **REPORTED** |
-| 3 | **"One of one" in Alexandria** — the only showroom of its kind | **REPORTED, and it is the single most valuable claim in this note.** If true it is the whole positioning. **Verify with them before it is said back to them** |
-| 4 | Their video, graphics and even the profile picture are low resolution | **REPORTED, and it is the visible wound.** Unverifiable here |
-| 5 | Their marketing is done by a **salesperson**, not a marketer | **REPORTED** |
-| 6 | She will raise TSA with the manager | **REPORTED** — this is the whole route in |
-| 7 | A website is built, finishing tonight, by a friend of Aly's | **REPORTED** |
-| 8 | Aly has a videographer with a **gimbal and a Sony A7 II** | **REPORTED** |
+### Verified off the page itself
 
-**The name is not settled.** Aly wrote *"elghsly motors"*; the Facebook handle is **`elghalymotorcycle`**. Almost certainly **El Ghaly Motors / الغالي موتورز**, and this note uses that. **Get the legal and trading name in writing before it goes on an invoice or a website header** — a dealership's name on the wrong document is not a typo, it is a credibility event with the exact audience being sold to.
+| | |
+|---|---|
+| **Name** | **El GHALY Motorcycle — الغالي للدراجات النارية**. Not "El Ghsly", and the trading name question is closed |
+| **Reach** | **208,000 followers · 1,000 posts · 22 following** |
+| **Category** | Motorcycle Dealership, Alexandria Governorate |
+| **Tagline** | *"Ride Premium"* |
+| **Dealer roster** | **Official dealer: ZONTES · QJ MOTORS · TVS · SYM · HAOJIN**, and the line is truncated so there are more |
+| **Reviews** | **84% recommend, on 19 reviews** |
+| **Cover** | A **BMW S1000RR**, with «وكالة الغالي للموتوسيكلات», «سواء اقتصادي أو سبورت», «سوبر سبورت», «خدمة ما بعد البيع» and «تسهيلات» |
+| **Engagement** | A two-day-old talking-head video: **171 reactions, 109 comments.** An older post: 51 and 16 |
+| **Already running** | **A weekly photo competition** — buy a bike in 2025 or 2026, post a photo with it, win 1,000 EGP of accessories |
+| **Also running** | A student offer · «رجعنا لعميلنا ١٠٠٠٠ جنية» as a trust story · after-sales service and instalments, both on the cover |
 
-### The four things nobody has looked at yet
+### What that overturns, including two things written in this note this morning
 
-Straight out of the [[TSA Client System]] pre-flight, which exists because each one cost a rewrite on client one:
+1. **"One of one in Alexandria" is Aly's read, not the client's words** *(confirmed by Aly, 21 September)* — **and the page contradicts it.** ZONTES, QJ, TVS, SYM and Haojin are **Chinese, Indian and Taiwanese economy-to-midrange marques**, which is a volume dealership, not a boutique superbike house. **The claim is removed from the pitch rather than softened.** Saying it back to a manager who knows his own market is how credibility dies in the first five minutes.
+2. **"They make very cheap videos and graphics" is half right, and the half that is wrong matters more.** **208,000 followers and 109 comments on a phone video is not a marketing problem — it is a marketing engine.** Whatever they are doing on video is working, and it is working *because* it looks like a real man in a real shop rather than in spite of it.
+3. **Instalments and a giveaway mechanic were both going to be "TSA's idea."** They are on the cover and in this week's posts. **Pre-flight check 3, and it would have been the third client in a row** — [[Alex Foods]] had two giveaway mechanics and three live campaigns designed around rather than found.
 
-1. **Nobody has opened their actual content.** Not the page, not a single post, not the profile picture. **"Their stuff is cheap" is a description of a feeling, not a read.** Aly can see it; this machine cannot. **Screenshots into the vault before a proposal is written.**
-2. **Nobody has asked what they are already running.** Promos, installment offers, paid ads, a rider group, a trade-in scheme. On client one this exact gap produced a giveaway mechanic designed around two the client was already running.
-3. **Nobody has asked what a bike sells for or how many they sell.** **Without that number there is no argument, only an opinion about graphics.**
-4. **Nobody has asked who approves.** The manager, the owner, or the salesperson. Clause 3 of every TSA scope allows exactly one.
+### Still unknown, and no longer guessable from the outside
 
----
-
-## 2. The strategic read
-
-### What this business actually sells is five businesses
-
-A dealership looks like one client and prices like one, and it is not. **Five products, five buying cycles, and a content plan that ignores the difference is a content plan about motorcycles rather than about their money.**
-
-| Line | Ticket | Cycle | What marketing has to do |
-|---|---|---|---|
-| **Sport bikes** | Highest | Months of wanting, one decision | Desire and status. **This is the identity purchase** |
-| **New scooters** | Mid | Weeks. Practical | Price, installments, availability, reliability |
-| **Accessories** | Low | Impulse and repeat | Volume and frequency. **The cheapest content to make and the fastest to convert** |
-| **Service** | Low, recurring | Every few months, forever | **The highest-frequency touchpoint in the business and almost certainly the least marketed** |
-| **The showroom itself** | — | — | **Get the right body through the door.** Everything above happens in the room |
-
-### The one sentence the pitch is built on
-
-**They are selling a machine that costs as much as a car, using content that costs nothing to make — and the content is quietly setting the price.**
-
-A sport bike is not transport. Nobody needs one. It is bought for who it makes the rider, which means **the entire product is perception**, and a low-resolution photograph of a premium machine does not merely fail to sell it — it argues it is worth less. **Cheap content on an aspirational product is a discount the dealership is applying to itself, every day, for free.**
-
-That is the reframe the whole meeting turns on, and it is not "your graphics look bad." One is an insult to the person who made them — **who is the salesperson championing TSA in the room.** The other is a commercial finding about margin. **Say the second one. Never the first.**
-
-### The asset they own and are not using
-
-**A showroom full of sport bikes is the best film set in Alexandria and they are paying rent on it every month.** TSA does not have to build anything, hire a location, or generate a scene. It needs a camera in a room that already exists, for one or two days a month.
-
-**This is the cost structure that makes the engagement work**, and it is the opposite of [[Alex Foods]], where there is no shoot at all and every image is composited into a generated set. **Here the set is real, free and already paid for. That is a margin advantage and it should not be given away in the price.**
-
-### Three angles nobody in this market runs
-
-1. **Installments as the headline, not the footnote.** On a high-ticket purchase in Egypt, **whether it can be paid monthly is frequently the entire decision**, and dealerships bury it in a comment reply. A content line built on *what this bike costs a month* reaches everybody who wants one and has priced themselves out in their head. **Confirm they actually offer it before a single word is written.**
-2. **The service department as a content line.** Every bike sold is a customer returning for years. **Nobody markets a workshop**, which is precisely why it is open ground, and it is the cheapest content in the building to shoot.
-3. **The rider scene.** Bike culture runs on groups and rideouts. A dealership that hosts and films them stops being a shop and becomes the address — **earned reach instead of paid**, in a city small enough for it to work. This is where the "one of one" claim, if it holds, converts into something ownable.
+Bike prices and monthly volume · the Shatby branch's target · where leads land and whether anyone counts · ad spend, if any · who signs off · who the man on camera is *(he appears in three of the four posts — **observed, not confirmed**)* · whether the service department has spare capacity.
 
 ---
 
-## 3. The sequence — and it is not the one currently planned
+## 2. The strategic read — rewritten, because the first one was wrong
 
-**The stated plan is: show them the animated site, then the packages.** The site is a strong asset and the instinct to lead with proof is right. **Two things are out of order, and one of them is free to fix.**
+### The premise this note opened with does not survive the evidence
 
-### Step 1 — Talk to the salesperson first. Before the manager, before the site.
+**It read: they are selling a premium machine with cheap content, and the content is quietly discounting the bikes.** **That argument is wrong for this business and walking in with it would have been a disaster.**
 
-**She is the only free discovery this deal will ever get, and right now she is being treated as a door rather than a source.** She knows what the manager cares about, what has been spent before and what it got, whether the new branch is hitting its numbers, what the flagship bike is, and what walks in versus what converts. **Fifteen minutes on the phone with her is worth more than the entire proposal written without it.**
+It assumed a boutique superbike dealer whose aspirational product was being undersold by amateur production. **What the page actually shows is a 208,000-follower volume dealership whose unpolished, founder-led video is its single best-performing asset.** A 109-comment post is not a page that needs rescuing.
 
-**And it protects the relationship that makes the introduction work.** The marketing being replaced is hers. Handled badly she is the objection; handled properly she is the internal champion, and **the framing that does it is true: she is doing two jobs and the marketing one is stopping her selling.** TSA takes the job she never asked for so she can do the one she is paid for. Her numbers go up. **Make her look right for bringing TSA in, and she will sell the deal in the room when Aly is not in it.**
+> **The risk that creates, and it is the most important line in this note: high production could make their numbers worse.** Replacing a man talking to camera in his own shop with a gimbal-and-Sony cinematic is a real way to kill the exact thing that built the audience. **In this category, in this market, authenticity outperforms polish and it is not close.** **Any proposal that quietly replaces their voice with TSA's house style is a proposal that loses them money.**
 
-### Step 2 — The site is evidence, not the offer.
+### What is actually broken, which is a narrower and more sellable thing
 
-**Open on the gap, close with the site.** Walking in and opening a laptop is answering a question nobody asked — it makes the conversation about the website's colours instead of about their margin. **The order is: what a bike costs them to sell today, what their content is doing to that price, and then — this is what it looks like when it is done properly.**
+**Not the video. The layer around it.**
 
-**Three things to settle before it is shown at all:**
+1. **The static graphics and the page furniture.** The cover is cluttered, overlapped and low-resolution; **the profile picture is pixelated** — and a pixelated mark is the one thing on a dealership page that reads as *small* to a buyer about to spend a year's salary.
+2. **There is no visual system.** A thousand posts and no repeatable frame, so nothing compounds. **Every post pays full price for attention instead of inheriting it.**
+3. **208,000 followers and 19 reviews.** That gap is the most valuable broken thing on the page. **84% on 19 reviews is a fragile signal on a business selling high-ticket goods**, and review generation is cheap, fast, and entirely unworked.
+4. **Nothing visible converts.** No evident lead route, no offer architecture, no measurement. **1,000 posts of reach with no instrumented destination is the same problem [[Alex Foods]] has, at four times the audience.**
+5. **The BMW.** See below. It is a risk, not a flaw.
 
-- **Do not put it on a public URL under their name or logo before there is a deal.** A live, indexed site carrying a dealership's branding that they never authorised is a problem that is entirely avoidable — and if they find it themselves, the negotiation changes shape. **Private staging link only, one that can be killed.**
-- **Nothing is handed over until it is paid for.** [[Alex Foods]] clause 5, and it applies from day one: **final files are licensed on full payment; the working files stay TSA's.**
-- **Settle the friend before selling a monthly fee against his work.** Who owns the code, who holds the hosting and domain accounts, what he is paid, and what happens when he gets a job and stops answering. **Selling a monthly retainer on a site TSA cannot edit is a liability with a fixed monthly invoice attached to it.** This is a loose end and it gets closed this week, not after the pitch.
+### The offer, restated
 
-### Step 3 — Ask for the small yes first.
+**TSA does not replace what is working. TSA industrialises it and fixes the layer it sits in.**
 
-**This is the real disagreement with the current plan, and it is worth arguing.**
+- **Keep the founder on camera and make him more frequent, better lit and better cut.** That is direction and editing, not a film crew. **It is also the cheapest content in the building.**
+- **Point the Sony at the bikes, not at the man.** Cinematic earns its place on inventory films and paid creative, where a still-looking machine has to sell itself. **It does not earn its place on a talking head.**
+- **Rebuild the graphics layer, the profile picture and the cover into one system**, so 1,000 posts start compounding.
+- **Build the review engine.** From 19 to 200 is a quarter's work and it changes what a stranger sees before they ever walk in.
+- **Add the things a page this size has no excuse to lack: paid media with structure, a lead route that can be counted, and a monthly report.**
 
-**They currently pay approximately nothing for marketing.** A business that has never bought this does not go from zero to a monthly retainer in one meeting because a deck was good — it goes quiet, it "discusses internally," and the window closes. **A website is a thing with edges. A retainer is a commitment to a stranger.**
+### The BMW on the cover — a risk, and it is the third time this pattern has appeared
 
-**So pitch both in one meeting, but make the site the decision they take that day**, with the retainer presented as the next step and a start date attached rather than a second simultaneous yes. Three reasons:
+**They are an official dealer for ZONTES, QJ, TVS, SYM and Haojin. The cover is a BMW S1000RR.**
 
-1. **It is the easiest yes in the room and it is already built.**
-2. **It puts cash in this month**, which matters — see [[TSA Money]].
-3. **It buys thirty days of proof.** The retainer conversation is a completely different conversation once they have watched TSA deliver something.
+Either they also move used or imported superbikes, or **it is aspirational imagery for inventory they do not sell.** **Ask before assuming.** But the exposure is the same either way, and it is TSA's: **the agency runs the ad account, so BMW's product imagery and trade dress behind paid spend is the agency's problem, not the client's.**
 
-**The cost of being wrong about this is one month of retainer.** The cost of being wrong the other way is the whole deal.
+> **This is the same finding as SpongeBob on [[Alex Foods]] and the word "organic" on AlRawy. Three clients, three unlicensed or unsupportable claims, and in every case TSA carries it because TSA holds the ad account.** **It belongs in [[TSA Client System]] as a standing pre-flight, not as a surprise on every job.**
 
----
+## 3. The sequence — and the route in is colder than it looked
+
+**Aly does not know the salesperson** *(confirmed 21 September)*. **She is cold outreach who said she can raise TSA with the manager.** That is a real opening and it is not a champion, and the difference changes the first move entirely.
+
+> **The version written this morning had her as a warm contact and an internal ally who would sell the deal in the room.** **She will not.** A stranger who offers to pass your name along does exactly that, once, and the willingness evaporates the moment it costs her anything. **Plan for one introduction, not an advocate.**
+
+### Step 1 — Give her something that makes her look good for passing it on
+
+**She is still the best route in and she is now also the fragile one.** **The marketing being replaced is hers**, so *"let me take that off you"* from a stranger reads as a threat rather than a favour.
+
+**What survives cold outreach is arriving with work already done, aimed at her boss's problem rather than at her job.** A short message plus the site, framed so that forwarding it makes her look useful. **What she gets out of it has to be obvious to her before she spends any credibility on it.**
+
+**Ask her for exactly one thing, not twelve:** a ten-minute call with whoever decides. **The twelve questions in §4 are for that call, not for her** — a stranger will not run discovery on your behalf, and asking will burn the introduction.
+
+### Step 2 — The site is evidence, and it carries their branding
+
+**Confirmed 21 September: the site uses El Ghaly's name and logo.** Two consequences, neither optional:
+
+- **It does not go on a public URL before there is a deal.** Private staging link, shown from the iPad or sent as something that can be killed. **A live indexed page carrying a dealership's brand they never authorised is a gift to anyone looking for a reason to say no.**
+- **Nothing is handed over until it is paid for.** [[Alex Foods]] clause 5 from day one: final files licensed on full payment, working files stay TSA's.
+
+**And open on their problem, not on the site.** With the page now actually read, the opening is not *"your content is cheap"* — it is **"you have 208,000 followers and nineteen reviews, and nothing on the page tells me where a buyer goes next."** That is a sentence a dealership manager cannot wave away, **and it does not insult the woman who forwarded the message.**
+
+### Step 3 — Basel, and the riskiest line in this deal
+
+**The site was built by Basel, who is new to this and learning with AI** *(Aly, 21 September)*. **He is not a supplier; he is a friend doing a first project.**
+
+**Selling a monthly stock-accuracy retainer against that is the exposure.** A dealership site is only useful if the bikes on it are the bikes on the floor, which means **somebody has to reliably change it every week for as long as the fee is charged.** If Basel gets busy, gets a job, or loses interest, **TSA is charging monthly for something it cannot service** — which is worse than never selling it.
+
+**Three things to settle with him before a fee is quoted, and it is a conversation rather than an accusation:**
+
+1. **Who holds the hosting account, the domain and the code.** **If Aly cannot log in and change a price, the retainer cannot be sold.**
+2. **What Basel is paid, in writing, as a rate rather than a favour.** **The free version is the one that collapses first**, and it is also how a friendship gets spent on a client deadline.
+3. **Can stock be edited by a non-developer?** If changing a bike needs Basel to touch code, the monthly fee has a single point of failure with no contract behind it.
+
+> **The honest fallback: sell the site as a one-time build and hold the monthly fee back until it can actually be serviced.** **A retainer TSA cannot deliver is not revenue, it is a debt** — and on a site built by a beginner it comes due the first week a price on the floor is wrong.
+
+### Step 4 — Ask for the small yes first
+
+**Unchanged, and the cold route makes it more true.** They pay approximately nothing for marketing today. **Zero to a monthly retainer in one meeting, from someone introduced by a stranger, is how a room goes quiet.** The site is a thing with edges, it is already built, and it puts cash in this month. **Pitch both; make the site the decision they take that day and give the retainer a start date rather than a second simultaneous yes.**
 
 ## 4. What to ask them — before any price is named
 
@@ -134,85 +144,89 @@ That is the reframe the whole meeting turns on, and it is not "your graphics loo
 
 ## 5. Pricing — the method, then the numbers
 
-### The floor, and why it is where it is
+### Every rate is now known
 
-**[[Alex Foods]] pays 42,000/month for twenty assets with no camera involved at all** — every image is composited into a generated scene, and the only named supplier costs are a media buyer at 2,000/month and a designer whose rate is still not recorded.
+**Videographer 2,000/day · editing from 1,000 a video · Mahmoud 300 a graphic · media buyer 2,000/month** *(the last two are real [[Alex Foods]] rates — [[TSA Money]])*.
 
-**El Ghaly involves a real videographer, real shoot days, and real edits. It costs more to deliver, so it prices above, not below.**
+**Editing is the biggest line in the build, and it was the one being guessed at.**
 
-> **Bank this as a TSA rule: a month that includes a shoot never prices under a month that does not.** It is the first pricing precedent this agency has that is not a single data point, and it is the number to hold when the room pushes back.
+| Per month | **A — Presence** | **B — Showroom** | **C — The Scene** |
+|---|---|---|---|
+| Shoot days | 1 → 2,000 | 2 → 4,000 | 3 → 6,000 |
+| **Editing at 1,000** | 4 → **4,000** | 10 → **10,000** | 16 → **16,000** |
+| Graphics at 300 | 8 → 2,400 | 12 → 3,600 | 16 → 4,800 |
+| Media buyer | — | 2,000 | 2,000 |
+| Transport, misc | ~500 | ~1,000 | ~1,500 |
+| **Cost of delivery** | **8,900** | **20,600** | **30,300** |
+| Indicative price | 30,000 | 50,000 | 85,000 |
+| **Gross margin** | **70%** | **59%** | **64%** |
+| Editing as a share of cost | 45% | **49%** | 53% |
 
-### The blank that stops this being a quote
+**A finished video costs 1,000. A whole extra shoot day costs 2,000.** So the camera is never the constraint — **the constraint is how many finished pieces get cut**, and that is what the price has to be built on.
 
-**The videographer's day rate has not been asked for**, and it is the largest line in cost of delivery. **The floor is not computable until it exists** — which is the same failure [[TSA Money]] has been carrying as its biggest blank since it was written: a 42,000/month contract running against an unknown X. **Do not repeat it on client two. Get the rate before the meeting.**
+### The evidence changes the product, and it improves the margin
 
-Also unpriced: editing (**Aly can do it and has explicitly stopped being an editor — so either it is bought, or the directing time is the cost**), graphics, and transport to Shatby on every shoot day.
+**Their best-performing content is a man talking to camera on a phone.** It needs **no shoot day and no cinematic grade** — direction, a fast cut, better lighting. **Call it 400 rather than 1,000.**
+
+| If the talking-head layer is phone-shot and lightly cut | 8 videos | 12 videos | 16 videos |
+|---|---|---|---|
+| At 1,000 each, cinematic | 8,000 | 12,000 | 16,000 |
+| At 400 each, phone and light cut | 3,200 | 4,800 | 6,400 |
+| **Saved** | **4,800** | **7,200** | **9,600** |
+
+> **So the right architecture is two layers, not one tier ladder.** **A high-frequency founder layer, shot on his phone, directed by TSA, cut fast and cheap** — that is the engine and it already works. **And a low-frequency cinematic layer with the Sony pointed at the bikes**, for inventory films and paid creative, where a machine standing still has to sell itself. **Tier B done this way delivers nearer 15,000 than 20,600, on the same output.**
+
+**The margin case for doing it right is also the performance case, which is rare and worth saying in the room:** the cheaper content is the content that works better here.
 
 ### The shape: three tiers, and the middle one is the answer
 
-**[[TSA]]'s positioning is no packages — a dedicated price and a dedicated set of services per client.** Three tiers built for this one dealership is not a price list; it is one dedicated proposal with a decoy on either side of the recommendation. **What would break the rule is reusing these numbers on the next client without doing the work again.**
-
-The variable across the tiers is **shoot days**, because that is both the cost driver and the visible difference. Graphics and ad management scale cheaply on top.
+**[[TSA]]'s positioning is no packages — a dedicated price and a dedicated set of services per client.** Three tiers for this one dealership is not a price list; it is one dedicated proposal with a decoy on either side of the recommendation. **What would break the rule is reusing these numbers on the next client without doing the work again.**
 
 | | **A — Presence** | **B — Showroom** *(recommended)* | **C — The Scene** |
 |---|---|---|---|
-| Shoot days/month | 1 | 2 | 3 + events |
-| Reels / short video | 4 | 8 | 12 |
-| Premium bike films | — | 2 | 4 |
-| Graphics | 8 | 12 | 16 |
+| Founder videos, phone-shot | 4 | **8** | 12 |
+| Cinematic bike films, Sony | — | **2** | 4 |
+| Shoot days | 1 | **2** | 2 + event days |
+| Graphics, on one system | 8 | 12 | 16 |
+| Profile picture, cover, visual system | **Yes, month 1** | **Yes, month 1** | **Yes, month 1** |
 | Content calendar | Yes | Yes | Yes |
 | Community management | Yes | Yes | Yes |
+| **Review engine — 19 reviews to a real number** | — | **Yes** | Yes |
 | Paid campaign management | **No** | Yes | Yes |
 | Google Business + local SEO | — | Yes | Yes |
 | Rideout / event coverage | — | — | Yes |
-| Rider and creator collabs | — | — | Yes |
 | Service-department campaign | — | — | Yes |
-| Monthly report | Basic | Full | Full, with sales attribution |
+| Monthly report | Basic | Full | Full, with lead attribution |
+| **Cost of delivery** | 8,900 | **20,600** | 30,300 |
 | **Indicative monthly** | **~30,000** | **~50,000** | **~85,000** |
 
-**Every number in that row is an inference, not a quote.** They are anchored to the one real contract TSA holds and to a cost structure that is still missing its biggest line. **They are the shape to walk in with, not the figure to say out loud before the videographer's rate is known.**
+**The costs are computed from real rates. The prices are still inferences** — anchored to the one contract TSA holds and to what this market will bear, which nobody has tested. **The number gets said out loud only after the ten-minute call in §3.**
 
 **Media spend never passes through TSA.** The client pays the platforms directly. [[Alex Foods]] settled this and it is now a TSA rule, not a negotiation — **the moment an agency becomes payer of record for someone else's ad budget it is financing a client.**
 
 ### The website
 
-**Build: ~30,000 one-time. Ongoing: ~4,000/month.**
+**Build: ~30,000 one-time. Monthly: hold it back until §3 step 3 is settled.**
 
-**The monthly fee is right and the reason given for it is the weak version.** "Updating everything" is a maintenance charge, and every client on earth resents paying for maintenance. **The real product is stock accuracy: a dealership website is only useful if the bikes on it are the bikes in the showroom.** A stale site does not sit there harmlessly — it actively loses sales, because a customer who drives to Shatby for a bike that sold three weeks ago does not come back. **Sell it as keeping the floor and the site the same building. That is a fee they can picture losing money without.**
+**The monthly fee is right in principle and the reason first given for it was the weak version.** "Updating everything" is a maintenance charge and every client resents paying it. **The real product is stock accuracy: a dealership site is only useful if the bikes on it are the bikes on the floor.** A stale site does not sit there harmlessly — **a customer who drives to Shatby for a bike that sold three weeks ago does not come back.**
 
-**Domain and hosting are a real cost and they are not TSA's.** Bill them through at cost or put them in the client's own account. **Do not quietly absorb a recurring charge** — money is tight, and a 4,000/month fee with 800 of somebody else's hosting inside it is not a 4,000 fee.
+**But it cannot be sold until somebody can actually service it weekly**, and right now that is a friend on his first project. **Sell the build; quote the monthly only once the hosting, the domain and the edit route are in hands that answer.**
 
----
+**Domain and hosting are a real cost and they are not TSA's.** Bill them through at cost or put them in the client's own account. **A 4,000 fee with 800 of somebody else's hosting inside it is not a 4,000 fee.**
 
-## 6. The scooter — the part to be careful about
+## 6. The scooter — route chosen
 
-**Aly wants ~10,000 added on top of the package price, to fund buying a scooter from them on installments.** The instinct behind it is good and the mechanism is wrong.
+**Aly's decision, 21 September: instalments, and not before the engagement starts — mid month 1 at the earliest.** **That is the right call, and the timing is the better half of it.**
 
-### Why padding the fee is the worst of the three ways to do this
+**Buying mid month 1 means the first invoice has landed before a personal liability is taken on.** The fee is proven before the commitment is made, rather than a scooter being financed against a deal that could still evaporate in the second meeting.
 
-1. **It prices against his need instead of their value.** A fee that exists to fund something has a number that comes from the wrong side of the table. **They will feel it, because it will not connect to anything in the proposal.**
-2. **It is not 10,000 in his pocket.** It arrives as revenue in the TSA pot and gets taxed by cost of delivery like every other pound. **[[TSA Money]]'s whole rule is that money in the TSA pot is not his money until it is deliberately drawn** — and 10,000 of client fee earmarked for a personal purchase is exactly the paper-only split that note says collapses in the first bad week.
-3. **It is the first thing they will negotiate away.** When the price gets pushed — and it will — **the padding is the part with no argument behind it**, so it is what comes off. The scooter disappears and the fee is now 10,000 lower on work that was always worth the original number.
+**It also settles the 10,000 question by making it irrelevant.** The original plan padded the package price by 10,000 to fund the purchase. **With the buy moved to mid month 1 and run as an ordinary customer instalment, there is nothing left to pad** — the marketing prices at what it is worth and the bike is a separate transaction. **Which was the recommendation, arrived at from the other direction.**
 
-### The three routes, and the recommendation
+**Three things to hold:**
 
-| | How | Verdict |
-|---|---|---|
-| **1. Pad the fee by 10,000** | Quote higher, keep the difference | **No.** The three reasons above |
-| **2. Contra deal** | Part of the fee settled in a scooter instead of cash | **The commercial fallback, and it is genuinely good.** **They pay in inventory at their cost, not at retail** — so a scooter that costs Aly 60,000 to buy might cost them far less to give. **More value per pound of fee surrendered than cash.** The catch: **a scooter does not pay a videographer.** TSA needs cash to fund delivery |
-| **3. Full price in cash, scooter bought separately at a partner rate** | Two clean transactions. Market fee for the marketing; a customer discount and an installment plan on the bike | **Recommended** |
-
-**Why 3 wins.** It keeps a personal want out of a commercial price, which is the only way to defend that price when it gets pushed. **And being an actual customer is leverage in the room, not a conflict** — *"I am buying one of your scooters; I want this brand to be worth what I am paying for it"* is the most credible sentence available in that meeting, and it is free. **The agency owner riding the client's product is a case study, not an awkwardness.** He becomes content.
-
-**Run 2 as the fallback if they come back cash-poor**, which a dealership that just funded a new branch plausibly is. **Whichever route, the scooter's value gets written down as a number in the agreement.** An undocumented trade is an argument in month three.
-
-### The thing that has to be said, because nobody else will say it
-
-**There are already 23,000 in personal debts, an 18,000 mobile tax whose date is not confirmed, and a 42,000/month contract whose cost of delivery still has no total.** A scooter on installments is a **fourth fixed monthly commitment**, and it is the first one that is optional.
-
-**This is not an argument against buying it.** It is one number: **what does it cost per month, and for how many months.** That number sits next to the draw rule in [[TSA Money]] that has not been set yet, against an X that has not been computed. **Work out the monthly figure before committing to it, not after the first invoice.**
-
----
+1. **Ask for the customer or partner rate as a buyer, never as leverage inside the fee negotiation.** Keeping them separate is what protects the fee. *"I am buying one of your scooters"* is the most credible sentence available in that room and it costs nothing to say.
+2. **Write the monthly instalment down before signing it.** It is a **fourth fixed monthly commitment** against 23,000 of personal debt, an 18,000 tax with an unconfirmed date, and an [[Alex Foods]] delivery cost that still has no total. **Not an argument against buying it — an argument for knowing the number first.**
+3. **A contra deal stays as the fallback** if they come back cash-poor: part of the fee settled in a scooter at their cost rather than retail, which is worth more per pound of fee surrendered. **The catch is unchanged — a scooter does not pay an editor.**
 
 ## 7. What has to happen, in order
 

@@ -60,6 +60,7 @@ This is my fourth agency. The difference this time is that it runs on direction,
 01 - Daily Notes    <- Dated logs of what got done, one file per day, in month subfolders
 02 - TSA            <- The Standard Agency: clients, offers, positioning, scaling
                        a PROSPECT that has not signed is one note here, never in Clients/
+  el-ghaly-screens/ <- screenshots of a prospect's page; Facebook is blocked from the AI
   TSA Brand/        <- the agency's OWN locked identity: colour, type, tagline, logo
   Jobs/             <- one note per recurring agency job; empty until a task repeats
   Clients/          <- one folder per client, created at SIGNATURE, not at first deliverable

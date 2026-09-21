@@ -25,7 +25,8 @@ type: plan
 | **Reach** | **208,000 followers · 1,000 posts · 22 following** |
 | **Category** | Motorcycle Dealership, Alexandria Governorate |
 | **Tagline** | *"Ride Premium"* |
-| **Dealer roster** | **Official dealer: ZONTES · QJ MOTORS · TVS · SYM · HAOJIN**, and the line is truncated so there are more |
+| **Official dealerships** | **ZONTES · QJ MOTORS · TVS · SYM · HAOJIN**, and the line is truncated so there are more. **This is the franchise list, NOT the inventory** — see below |
+| **Also on the floor** | **Superbikes: S1000RR, CBR1000RR, GSX-R and more** *(Aly, 21 September, from having been in the showroom)*. Almost certainly imported or used rather than franchised, which is exactly why they are not on the dealer line |
 | **Reviews** | **84% recommend, on 19 reviews** |
 | **Cover** | A **BMW S1000RR**, with «وكالة الغالي للموتوسيكلات», «سواء اقتصادي أو سبورت», «سوبر سبورت», «خدمة ما بعد البيع» and «تسهيلات» |
 | **Engagement** | A two-day-old talking-head video: **171 reactions, 109 comments.** An older post: 51 and 16 |
@@ -34,7 +35,7 @@ type: plan
 
 ### What that overturns, including two things written in this note this morning
 
-1. **"One of one in Alexandria" is Aly's read, not the client's words** *(confirmed by Aly, 21 September)* — **and the page contradicts it.** ZONTES, QJ, TVS, SYM and Haojin are **Chinese, Indian and Taiwanese economy-to-midrange marques**, which is a volume dealership, not a boutique superbike house. **The claim is removed from the pitch rather than softened.** Saying it back to a manager who knows his own market is how credibility dies in the first five minutes.
+1. **"One of one in Alexandria" is Aly's read rather than the client's words, and it is plausible — verify it, do not drop it and do not assert it.** **They carry S1000RR, CBR1000RR, GSX-R and more** *(Aly, who has been in the showroom)*. **A real superbike floor in Alexandria alongside five economy franchises is a genuinely unusual proposition**, and if the manager says it in his own words it is the positioning. **Ask; never say it first.**
 2. **"They make very cheap videos and graphics" is half right, and the half that is wrong matters more.** **208,000 followers and 109 comments on a phone video is not a marketing problem — it is a marketing engine.** Whatever they are doing on video is working, and it is working *because* it looks like a real man in a real shop rather than in spite of it.
 3. **Instalments and a giveaway mechanic were both going to be "TSA's idea."** They are on the cover and in this week's posts. **Pre-flight check 3, and it would have been the third client in a row** — [[Alex Foods]] had two giveaway mechanics and three live campaigns designed around rather than found.
 
@@ -50,9 +51,11 @@ Bike prices and monthly volume · the Shatby branch's target · where leads land
 
 **It read: they are selling a premium machine with cheap content, and the content is quietly discounting the bikes.** **That argument is wrong for this business and walking in with it would have been a disaster.**
 
-It assumed a boutique superbike dealer whose aspirational product was being undersold by amateur production. **What the page actually shows is a 208,000-follower volume dealership whose unpolished, founder-led video is its single best-performing asset.** A 109-comment post is not a page that needs rescuing.
+It assumed the whole business was premium and being undersold by amateur production. **What is actually there is two businesses on one page: five economy franchises doing volume, and a superbike floor carrying S1000RR, CBR1000RR and GSX-R** — which is what their own cover says, «سواء اقتصادي أو سبورت», *whether economy or sport*. **And a 208,000-follower page whose unpolished founder-led video is its best-performing asset.** A 109-comment post is not a page that needs rescuing.
 
-> **The risk that creates, and it is the most important line in this note: high production could make their numbers worse.** Replacing a man talking to camera in his own shop with a gimbal-and-Sony cinematic is a real way to kill the exact thing that built the audience. **In this category, in this market, authenticity outperforms polish and it is not close.** **Any proposal that quietly replaces their voice with TSA's house style is a proposal that loses them money.**
+> **Two audiences, two jobs, and conflating them is how this proposal goes wrong.** **The economy buyer needs price, instalments and availability** — and phone-shot founder video is the right register for it, which is why it works. **The superbike buyer is buying identity, and for him production value IS the product.** **The mistake is not choosing one; it is running one register across both.**
+
+> **The risk that creates, and it is still the most important line in this note: high production applied to the WRONG layer makes their numbers worse.** Replacing a man talking to camera in his own shop with a gimbal-and-Sony cinematic kills the thing that built the audience. **The founder layer stays exactly as scruffy as it is.** **What has never been properly filmed is the superbike floor** — and that is where a Sony earns its fee, because a machine standing still in a showroom has to sell itself on desire alone. **Any proposal that replaces their voice with TSA's house style loses them money; any proposal that leaves an S1000RR unshot leaves the best asset in the building on the floor.**
 
 ### What is actually broken, which is a narrower and more sellable thing
 
@@ -74,13 +77,21 @@ It assumed a boutique superbike dealer whose aspirational product was being unde
 - **Build the review engine.** From 19 to 200 is a quarter's work and it changes what a stranger sees before they ever walk in.
 - **Add the things a page this size has no excuse to lack: paid media with structure, a lead route that can be counted, and a monthly report.**
 
-### The BMW on the cover — a risk, and it is the third time this pattern has appeared
+### The BMW on the cover — a narrower risk than it looked, with a fix that is also the pitch
 
-**They are an official dealer for ZONTES, QJ, TVS, SYM and Haojin. The cover is a BMW S1000RR.**
+**They do carry the S1000RR** *(Aly, 21 September)*, so the cover is not selling stock they do not have. **That closes the misrepresentation question entirely.**
 
-Either they also move used or imported superbikes, or **it is aspirational imagery for inventory they do not sell.** **Ask before assuming.** But the exposure is the same either way, and it is TSA's: **the agency runs the ad account, so BMW's product imagery and trade dress behind paid spend is the agency's problem, not the client's.**
+**What does not close is whose photograph it is.** That cover reads as manufacturer press imagery rather than a picture of their own floor, and **TSA would be holding the ad account** — so a BMW press render behind paid spend is still TSA's exposure, not theirs.
 
-> **This is the same finding as SpongeBob on [[Alex Foods]] and the word "organic" on AlRawy. Three clients, three unlicensed or unsupportable claims, and in every case TSA carries it because TSA holds the ad account.** **It belongs in [[TSA Client System]] as a standing pre-flight, not as a surprise on every job.**
+> **And the fix is the single best argument in the whole proposal: they own the bike, so shoot the bike.** **An S1000RR standing in their own showroom in Alexandria, filmed properly, beats any press render** — it is real, it is theirs, it is in stock, and a buyer can come and sit on it this afternoon. **The rights problem disappears and the content gets better in the same move.** Nothing about it is a compromise.
+
+**The pattern still belongs in [[TSA Client System]].** Three clients, three times something behind paid spend was not the client's to use — SpongeBob and the word "organic" on [[Alex Foods]], a press render here. **A standing pre-flight rather than a surprise each time: before any spend, who owns every asset in the creative?**
+
+### What the superbike floor does to the commercial case
+
+**It raises the ceiling on everything.** A dealership moving S1000RR, CBR1000RR and GSX-R has ticket values an order above a scooter, **so "one extra sale a month pays for the whole engagement" stops being a stretch and becomes the obvious arithmetic** — which is exactly the argument a 50,000 fee has to win.
+
+**Get their real flagship price and the monthly superbike count in the ten-minute call.** **That single pair of numbers is the entire ROI case**, and it is the difference between a proposal about content and a proposal about their margin.
 
 ## 3. The sequence — and the route in is colder than it looked
 

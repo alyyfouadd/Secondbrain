@@ -152,6 +152,16 @@ Packaging is honest about one thing only — **what the artwork is doing.** It d
 
 > **The tell, and it is worth memorising: the moment you write "worth one more question rather than a rewrite", you have already made the mistake.** That sentence is a deferral, and a deferral on a contradiction is a decision to build on the thing you suspect is wrong.
 
+### Two more, added 21 September on client two, before a word of creative was written
+
+**5. Read the WHOLE artefact, not the part that confirms your read.** El Ghaly's page bio lists five economy franchises — ZONTES, QJ, TVS, SYM, Haojin — and **the cover image in the same screenshot said «سواء اقتصادي أو سبورت», *whether economy or sport*.** The franchise list was read as the inventory, the cover was treated as decoration, and a whole strategic section was written declaring them a volume dealership with no superbike business. **They carry S1000RR, CBR1000RR and GSX-R.**
+
+> **A franchise list is not an inventory, a pack is not a product, and a bio is not a business.** Each is one artefact answering one narrow question. **The tell is identical every time: a conclusion about what a business IS, drawn from a document that only says what one part of it DOES** — and on both clients the contradicting evidence was inside the same file, in the same frame, already open.
+
+**6. Before any spend: who owns every asset in the creative?** Three clients, three items behind paid media that were not the client's to use — **SpongeBob and the word "organic" on [[Alex Foods]], a manufacturer press render on client two.** **The agency holds the ad account, so the agency carries all of it.**
+
+> **And the fix is usually better than the thing it replaces.** A dealership with a real S1000RR on the floor does not need BMW's press render: **their own bike, in their own showroom, in stock and sittable today, is stronger creative and carries no rights question at all.** **Ask what they own before sourcing anything — the answer is frequently the better asset.**
+
 ### What to ask on day one, before any creative work
 
 Added to the discovery brief for every client after the first:

@@ -47,6 +47,32 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 
 ---
 
+## 1b. The frame system — five frames, twenty assets
+
+**Added 22 September.** §1 says what every asset obeys and §§3 to 5 say what each asset *is*. **Neither says what any of them looks like** — and §6 quietly proved the point by giving the winner post a full anatomy table because it repeats. **Every other asset repeats too, across three months.**
+
+> **Mahmoud builds FIVE masters, not twenty layouts.** Same argument §6 already makes: build the frame once and every asset after it is a drop-in; build it twenty times and it drifts by week two. **Twelve graphics briefed without this come back looking like twelve different designers, and no amount of colour governance fixes that.**
+
+**Laid out as artboards at full 1080 × 1350 so the numbers can be measured off them:** [Alex Foods Month 1 — Frame System](https://claude.ai/artifact/HMkaok3mcso5u2QogRpaqc) *(private — not visible to Mahmoud or the client until shared from the page's Share menu)*.
+
+| Frame | Assets | Anatomy |
+|---|---|---|
+| **A · Product** | S01 · S03 · S04 · S05 · G07 · G10 | Full-bleed flavour field · range mark top-left · **pack centred on a contact shadow, ~46% of frame height** · one line bottom-right · seal on a Paper chip bottom-left |
+| **B · Winner** | S02 · G05 · G09 · G11 | **Already specified — §6 is this frame.** Photo well 68%, Paper band 32%, 3px campaign rule between them |
+| **C · Mechanic** | A01 · G03 · G04 | Golden Yellow field · headline · **three numbered steps, one instruction each** · back-of-pack panel with the QR at **150 px minimum** · campaign line at the foot |
+| **D · Character** | G06 · G08 | **Character leads and the pack comes second** · grid of characters · question line at the foot |
+| **E · Statement** | G01 · G02 · S06 · G12 | **Paper ground, type leads, the seal at full size.** No pack, no character, no field colour |
+
+**A02 is the one asset that takes no frame.** It is a filmed scene; it ends on the statement lockup and borrows nothing else.
+
+**The 9:16 rule, once, for all five:** the image area absorbs the extra height, **the band keeps its exact height and its exact contents.** Nothing reflows, nothing is re-set — §6 already states this for the winner post and it generalises to every frame.
+
+> **A judgement call made inside a governed rule, flagged rather than buried.** §1 says *"Bright Pink `#EC008C` always carries a dark keyline"* but does not say which colour the type is — and a dark keyline on Ink type is meaningless. **Frame D is drawn as white type with a 4 px Ink stroke, painted under the fill.** That is the only reading where the rule does anything. **[[Colour System]] §8 owns the pairing and should say so explicitly** rather than leaving it to be inferred.
+
+> **Every dashed slot on those artboards is client artwork that has not arrived**, and the geometry makes the problem concrete: Frame A's pack slot is **430 px wide against cut-outs that are 199 px.** §8 already lists this as the top blocker; the frames are what make it visible rather than theoretical.
+
+---
+
 ## 2. The calendar — what posts, when, where
 
 **This is Package A's contracted "content calendar", and it is the thing the spec below could not do on its own.** A spec says what an asset is; a calendar says when it earns its money.

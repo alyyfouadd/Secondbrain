@@ -195,6 +195,18 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 | **G11** | Winner | **Winner 4.** The last one before the deadline post | Per the photo | «الف مبروك لـ[الاسم]» — **their own caption structure, and it works** |
 | **G12** | Moment | **Closing reminder.** The deadline, once, plainly | System Red | **«الكمية محدودة» only if it is actually true** |
 
+**The twelve above, merged with §2's dates and §1b's frames, are drawn as one production sheet** on the frame-system canvas: [The twelve graphics](https://claude.ai/artifact/HMkaok3mcso5u2QogRpaqc). One link covers the frames and the schedule, which is what a supplier should receive.
+
+> ### Counted per graphic for the first time: FOUR of the twelve can be built today.
+>
+> **§8 lists the gaps by gap. Nobody had counted them by asset**, and the number is worse than the gap list reads.
+>
+> **Clear now — G01, G03, G04, G06.** The opening post needs only the vector seal; the two mechanic assets need only `packshots/bebo-mango-back.png`, which is in hand; BeBo's faces are already drawn.
+>
+> **Waiting on the client — eight.** G07, G08 and G10 on production-resolution artwork · G05, G09 and G11 on winner media and written permission · G02 on the gifts mockups · G12 on the real campaign end date.
+>
+> **So two thirds of the month's graphics are gated on material that is one message away**, and three of the four ungated ones are the giveaway mechanic. **A supplier briefed today can start on four.**
+
 **Deadlines are in the calendar at §2.** The four winner posts are the only assets with a live clock — **each ships within 48 hours of its photo arriving.**
 
 > **Eight of the twenty are the giveaway** — four winner posts, three mechanic assets, the prize. That is the month pointed at the client's own number-one priority rather than spread politely across four ranges.

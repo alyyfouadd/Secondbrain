@@ -205,6 +205,8 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 >
 > **Waiting on the client — eight.** G07, G08 and G10 on production-resolution artwork · G05, G09 and G11 on winner media and written permission · G02 on the gifts mockups · G12 on the real campaign end date.
 >
+> **And a thirteenth item that is not a graphic: the winner master**, due earlier than any of them. See §6.
+>
 > **So two thirds of the month's graphics are gated on material that is one message away**, and three of the four ungated ones are the giveaway mechanic. **A supplier briefed today can start on four.**
 
 **Deadlines are in the calendar at §2.** The four winner posts are the only assets with a live clock — **each ships within 48 hours of its photo arriving.**
@@ -303,6 +305,17 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 ### Delivery
 
 **Mahmoud keeps one locked master** with the photo well, the band and every slot as named layers. **Each winner is a drop-in, not a rebuild.** Filenames per §1: `AF-M1-G05-winner-2-4x5-v1.png`.
+
+> ### The master is NOT one of the twelve graphics — settled 22 September, Aly.
+>
+> **The twelve are outputs. The master is the thing three of them drop into**, and building a reusable frame with named layers is a different job from producing a post. **"Twelve graphics at 300 each" does not contain it.**
+>
+> **And the sequencing is worse than the pricing, because the master's first consumer is not a graphic at all.** The winner assets in date order are **S02 at D0+7, then G05 at D0+14, G09 at D0+21, G11 at D0+27.** S02 is *Winner 1* and it is an **animated still** — §7 puts it on the CGI animator, not on Mahmoud.
+>
+> **So Mahmoud builds a master that another supplier consumes, a full week before his own first winner graphic.** Two consequences:
+>
+> 1. **The master's deadline is D0+7 minus the animator's lead time, not D0+14.** It is the earliest-due piece of winner work on the contract and nothing currently says so.
+> 2. **It is a thirteenth piece of work and it gets priced or waived explicitly**, never absorbed silently — because it is also the single thing that makes four winner posts across three campaigns read as one programme.
 
 ---
 

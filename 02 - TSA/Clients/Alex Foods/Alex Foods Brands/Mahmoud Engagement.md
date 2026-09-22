@@ -11,7 +11,7 @@ type: reference
 
 ---
 
-## 1. What we actually need back — seven things
+## 1. What we actually need back — eight things
 
 Ranked by what it costs to leave open.
 
@@ -19,11 +19,12 @@ Ranked by what it costs to leave open.
 |---|---|---|
 | 1 | **A re-quote on the kit, against the real spec** | The 2,000 in [[Decisions]] #31 was priced for a supplementary kit. **He is now laying out ~46 pages of bilingual client-facing identity document.** A price agreed against the wrong job gets renegotiated at the worst moment |
 | 2 | **Is 300 per ASSET or per DELIVERED POST?** | A feed post and its story crop are two files and one asset. **Twelve graphics a month is either 3,600 or 7,200**, repeated three times. **That single word is worth 10,800 across the term** *(calculated)* |
-| 3 | **Will he design the six animated-still frames at his post rate?** | **The highest-leverage question on the whole delivery team.** At 1,800 it drops the animator from **eight originated pieces to two films plus six motion passes on finished art.** The animator is unfilled, is 8 of the 20 month-1 assets, and is the last blank in X. [[Month 1 Asset Brief]] §5 |
-| 4 | **One Arabic page, before the whole document is committed** | **There is a rate for him and no evidence of his Arabic typesetting.** Arabic leading at 1.7 against Latin's 1.5 is the tell that separates a designer who reads Arabic from one who does not ([[Type System]]). One page costs a day now or fifteen days on 5 October |
-| 5 | **Capacity against both workstreams** | The kit wants a first draft on **1 October** and month 1's twelve graphics land on top of it. **Month 1 starts when the school campaign goes live** ([[Decisions]] #26) and the client has never given that date — so the collision is real and unscheduled |
-| 6 | **Who owns the working files** | Clause 5 reserves raw and project files as agency property **against the client.** It says nothing about a supplier. **Unagreed, the layered source of the client's identity document sits on a freelancer's laptop** |
-| 7 | **His revision count, against the client's one** | The client gets one round under clause 2. **If Mahmoud also gets one, a single client note consumes it and the second costs money nobody budgeted** |
+| 3 | **What does the winner MASTER cost, as its own line?** | **Settled 22 Sep: it is not one of the twelve** ([[Month 1 Asset Brief]] §6). The twelve are outputs; the master is the frame three of them drop into. **And its first consumer is S02, an animated still on D0+7 that belongs to the animator** — so Mahmoud builds it a week before his own first winner graphic, and it is the earliest winner work on the contract |
+| 4 | **Will he design the six animated-still frames at his post rate?** | **The highest-leverage question on the whole delivery team.** At 1,800 it drops the animator from **eight originated pieces to two films plus six motion passes on finished art.** The animator is unfilled, is 8 of the 20 month-1 assets, and is the last blank in X. [[Month 1 Asset Brief]] §5 |
+| 5 | **One Arabic page, before the whole document is committed** | **There is a rate for him and no evidence of his Arabic typesetting.** Arabic leading at 1.7 against Latin's 1.5 is the tell that separates a designer who reads Arabic from one who does not ([[Type System]]). One page costs a day now or fifteen days on 5 October |
+| 6 | **Capacity against both workstreams** | The kit wants a first draft on **1 October** and month 1's twelve graphics land on top of it. **Month 1 starts when the school campaign goes live** ([[Decisions]] #26) and the client has never given that date — so the collision is real and unscheduled |
+| 7 | **Who owns the working files** | Clause 5 reserves raw and project files as agency property **against the client.** It says nothing about a supplier. **Unagreed, the layered source of the client's identity document sits on a freelancer's laptop** |
+| 8 | **His revision count, against the client's one** | The client gets one round under clause 2. **If Mahmoud also gets one, a single client note consumes it and the second costs money nobody budgeted** |
 
 **And one thing that is told, not asked: no direct client relationship.** Clause 1 keeps execution TSA's and clause 5 keeps the method agency property — **the same rule already set for the media buyer** ([[Alex Foods]]).
 
@@ -74,9 +75,11 @@ Ranked by what it costs to leave open.
 >
 > **١.** الـ٣٠٠ اللي اتفقنا عليها — **دي للأصل الواحد ولا للبوست المسلّم؟** يعني لو البوست له نسخة ستوري، دول واحد ولا اتنين؟ عايز أفهمها صح من الأول عشان محاسبتنا تمشي مظبوطة تلات شهور.
 >
-> **٢.** وده الأهم: عندنا **٦ صور متحركة** في الشهر. الحركة نفسها هيعملها حد تاني، **بس الفريم المصمم نفسه ممكن تعمله إنت بسعر البوست العادي؟** لو أيوة، ده بيوفر علينا كتير وبيخليك إنت اللي ماسك شكل الشهر كله.
+> **٢.** وقبل أي حاجة: محتاجين **ماستر واحد لبوست الفايز** ، إطار ثابت بطبقات مسماة يتبدل فيه الصورة والاسم بس. **ده مش واحد من الاتناشر**، ده شغل لوحده ومحتاج سعر لوحده. ومحتاجينه **قبل باقي الشغل** لأن حد تاني هيستخدمه في فيديو قبلك بأسبوع.
 >
-> **٣.** وآخر حاجة: الاتنين دول — الدليل والاتناشر تصميم — **هينزلوا قريبين من بعض.** تقدر تاخد الاتنين ولا نظبط المواعيد؟ قوللي بصراحة أحسن دلوقتي.
+> **٣.** وده الأهم: عندنا **٦ صور متحركة** في الشهر. الحركة نفسها هيعملها حد تاني، **بس الفريم المصمم نفسه ممكن تعمله إنت بسعر البوست العادي؟** لو أيوة، ده بيوفر علينا كتير وبيخليك إنت اللي ماسك شكل الشهر كله.
+>
+> **٤.** وآخر حاجة: الاتنين دول — الدليل والاتناشر تصميم — **هينزلوا قريبين من بعض.** تقدر تاخد الاتنين ولا نظبط المواعيد؟ قوللي بصراحة أحسن دلوقتي.
 
 **English gloss:** A separate thing, about the monthly work. One: the 300 we agreed — is that per asset or per delivered post? If a post has a story version, is that one or two? I want to get it right from the start so the accounting runs clean for three months. Two, and this is the important one: we have six animated stills a month. Someone else does the motion, but could you do the designed frame itself at your normal post rate? If yes it saves us a lot and it puts you in control of how the whole month looks. Three: these two jobs — the guide and the twelve graphics — land close together. Can you take both, or do we stagger them? Tell me straight now rather than later.
 

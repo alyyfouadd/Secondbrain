@@ -141,6 +141,7 @@ All three are free under the SIL Open Font License. **One bilingual superfamily,
 
 ## 6. What TSA supplies
 
+- **[[Alex Foods - Company Brief]]** — **send this with the brief.** One page in Arabic: who the client is, the four-range architecture, who actually buys, and the four red lines. **It is written for exactly this reader** and it answers "who am I making this for" without him asking a question.
 - **`logos-vector/alex-seal-flat.svg`** — the real Illustrator master. Flat, CMYK, 116 paths, no gradients, no gloss. **Use this and nothing else for the seal.**
 - **`logos-transparent/`** — the four range marks, cut out on transparency.
 - **`packshots/` and `packshots/single/`** — pack artwork on transparency.

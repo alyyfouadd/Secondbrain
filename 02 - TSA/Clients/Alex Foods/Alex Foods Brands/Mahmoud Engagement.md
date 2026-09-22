@@ -88,6 +88,25 @@ Ranked by what it costs to leave open.
 
 ---
 
+## 3c · What travels with message 3a — two documents, and only two
+
+| Send | Why |
+|---|---|
+| **[[Mahmoud Kit Brief]]** | The design brief: scope, rules, every colour and type value, what TSA supplies, the terms |
+| **[[Alex Foods - Company Brief]]** | One page, Arabic, **written for precisely this reader** — who the client is, the four ranges, who buys, the four red lines |
+
+**Nothing else, and [[Alex Foods Marketing Plan]] in particular does not go.** Three reasons, and the third is the one that matters:
+
+1. **It is internal strategy, not a deliverable.** §12 says so explicitly.
+2. **It is a strategy document handed to someone laying out an identity guide.** Its subject is content — the funnel, the paid plan, the trade track, the measurement framework. **None of it changes a single page of §03 to §13.** Hand a designer thirty thousand characters of strategy and he reads none of it, including the parts that do matter.
+3. **It tells a supplier that TSA subcontracts, and §13 names the media buyer as a subcontracted role.** No rates leak — [[TSA Money]] owns those and §13 restates none of them, which is rule 14 doing its job. **But the shape of TSA's delivery model is not a supplier's business either**, and it sits oddly next to a conversation where the fee is deliberately withheld.
+
+> **Where the strategy DOES reach him: the twelve graphics, not the book.** Four of month 1's twenty assets are mechanic assets, and a designer drawing "turn the pack over" three times needs to know why. **That is [[Month 1 Asset Brief]]'s job and it already does it** — §1's standing spec plus the G03 and G04 rows. **It goes with the graphics conversation, not this one.**
+
+> **And the more expensive misread, flagged because the client has already walked TSA toward it once:** the marketing plan **does not go to Alex Foods either.** They said their problem is *"no marketing plan."* **A formatted plan arriving as part of the Foundation becomes a ninth deliverable that was never priced**, and it sets the precedent that scope grows whenever they name a problem. **If they want one it is clause 7 work and it is quoted — and it is a good sale, because it is mostly written.** [[Alex Foods Marketing Plan]] §12.
+
+---
+
 ## 4. What is NOT in these messages, and why
 
 - **The Foundation's 20,000 and Package A's 42,000.** Clause 5. §2 above.

@@ -229,6 +229,169 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 
 ---
 
+## 5b. The twelve captions
+
+**Written 22 September.** §5 says what each graphic *is*; this is what each one *says*. **Built to §09 of the book's caption system**, which is the governing shape and is not negotiable per post:
+
+> **Line 1 — the hook.** One idea, in that range's own register. It carries the post alone if nothing else is read.
+> **Line 2 — optional.** Extends line 1. **Never introduces a second idea.**
+> **Line 3 — the call, when there is one.** **A question the comments can answer, never a demand.**
+> **Line 4 — hashtags.** Three to five, own line, Arabic first.
+
+**Two things govern every line below.** The contracted KPI is **comments and views** ([[Alex Foods Discovery Brief]]), so almost every post ends on a question somebody can actually answer. And [[Brand Voice Guide]] §7's never-list is legal rather than stylistic — **no health claim, no «طبيعي ١٠٠٪», no nutritional number, no competitor, no price superlative, no named shop, no company age.** TSA runs the ad account.
+
+> **Every Arabic line here is a draft for Aly's ear.** He is the native speaker and the register is his call — the same rule [[Month 1 Asset Brief]] §1 already sets for the rest of the brief.
+
+---
+
+### G01 · The opening post · Frame E · Paper
+
+> الأربعة دول في إيدك من زمان.
+>
+> بيبو، الراوي، تومان، وبوليكا. كلهم من بيت واحد في إسكندرية.
+>
+> انت بتحب أنهي واحد فيهم؟
+>
+> #أليكس_فودز #بيبو #الراوي #تومان #بوليكا
+
+**Why it opens on recognition rather than introduction.** A company post that says *we are Alex Foods, we have four brands, we have been here X years* is the exact shape [[Marketing]] says does not work — **content about the company instead of the customer.** They already have a real Facebook audience ([[Alex Foods Discovery Brief]]) and four ranges in market. **The hook assumes they know the products and reveals the company behind them**, which is a fact the audience genuinely does not have. **No age claim**, deliberately.
+
+### G02 · The prize · Frame E · Paper
+
+> شنطة، كشاكيل، مقلمة، أقلام، ومساطر.
+>
+> كل ده في هدية واحدة، وبتيجي من عبوة بيبو.
+>
+> إيه أكتر حاجة نفسك فيها؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+**The prize list is §5's S06 spec** — books, notepad, pencil case, pens, rulers. **It is unconfirmed until the gifts mockups arrive** and the line has to be checked against them before it ships. **The question makes the reader list the thing they want**, which is the cheapest comment on the account.
+
+### G03 · How to enter · Frame C · Golden Yellow
+
+> ازاي تدخل السحب؟ تلات خطوات بس.
+>
+> اقلب الباكو، امسح الكود، سجّل بياناتك.
+>
+> جربت تقلب العبوة قبل كده؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+**The instruction sits in line 2, not line 3.** §09 says the call is a question and never a demand — **so the three steps are the content and the question is the invitation.**
+
+### G04 · Where the QR is · Frame C · Golden Yellow
+
+> الكود مكانه ورا العبوة، تحت خالص.
+>
+> اقلبها، هتلاقيه قدامك على طول.
+>
+> لقيته؟ قوللي في الكومنتات.
+>
+> #صور_واكسب_مع_بيبو #بيبو #امسح_الكود #أليكس_فودز
+
+**This is the post that answers «ازاي أشارك؟»**, which §5 predicts will be the highest-volume comment on the account. **«لقيته؟» turns finding the code into a thing people report**, which is a comment and a proof at the same time.
+
+### G05 · Winner 2 · Frame B · per the photo
+
+> الف مبروك لـ[الاسم] ❤️
+>
+> اشترى بيبو، قلب الباكو، ومسح الكود.
+>
+> مين الجاي؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+### G09 · Winner 3 · Frame B · per the photo
+
+> الف مبروك لـ[الاسم] 🎉
+>
+> عبوة بيبو، وكود اتمسح، والهدية وصلت.
+>
+> انت مسحت كودك؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+### G11 · Winner 4 · Frame B · per the photo
+
+> الف مبروك لـ[الاسم] 👏
+>
+> آخر فايز قبل ما السحب يقفل.
+>
+> لسه فيه وقت، مسحت كودك؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+> **The three winner captions keep one shape and vary only the words**, exactly as §6 requires: **congratulate by name · what they did · the invitation.** First name only, every time. **The shape is what makes four posts read as one programme** — change it and they read as four unrelated posts.
+
+### G06 · BeBo's five faces · Frame D · Brand Green
+
+> خمس طعوم، وكل واحد ليه وش. 😋
+>
+> مع بيبو، اليوم أحلى.
+>
+> بتاعك أنهي واحد فيهم؟
+>
+> #بيبو #مع_بيبو_اليوم_أحلى #أليكس_فودز
+
+**Kid to kid, 4 to 9 words, «انت» singular** — [[Brand Voice Guide]] §3. **«مين معاك النهاردة؟» was deliberately NOT used here** even though it is the obvious line: it is POLEKA's, and G08 is eleven days later. **Two ranges sharing a question is how a calendar starts sounding like one brand talking to itself.**
+
+### G07 · AlRawy guava · Frame A · Brand Green
+
+> نكتار جوافة، بماصة على العبوة، جاهز يتفتح ويتشرب.
+>
+> تحطيه في اللانش بوكس وانتي مطمنة إنه اختيار كويس.
+>
+> بتختاري أنهي طعم للبيت؟
+>
+> #الراوي #نكتار #أليكس_فودز
+
+**The only adult-facing caption in the twelve, and it is written to look different.** No emoji, no exclamation mark, 8 to 16 words, «انتي» — [[Brand Voice Guide]] §4. **«نكتار» is used rather than «عصير» because the pack says nectar**, and «أورجانيك» does not appear in any language.
+
+### G08 · POLEKA's animals · Frame D · Bright Pink + keyline
+
+> مين معاك النهاردة؟ 🦁🦒
+>
+> الأسد، الزرافة، ولا الدودة؟
+>
+> #بوليكا #مش_محتاجة_شرح #أليكس_فودز
+
+**No line 3, on purpose.** §09 says the call exists *when there is one* — **here line 1 is already the question**, and stacking a second one would be asking twice. **2 to 6 words, emoji doubles allowed** — §6. **The characters are offered as a choice and never ranked**, because every child has a favourite and half of them would be told they chose wrong.
+
+### G10 · 2MAN, four colourways · Frame A · Ice Blue
+
+> فاكر لما كنت تختار اللون قبل الطعم؟
+>
+> أربعة، زي ما هما، من زمان لحد دلوقتي.
+>
+> كان لونك أنهي واحد؟
+>
+> #تومان #عيش_جو_المغامرة #أليكس_فودز
+
+**This one is written to the ADULT, and that is the single most easily-got-wrong caption in the month.** [[Brand Voice Guide]] §5: **the pack sells to the child, the Facebook account sells to the adult scrolling past** — an adult who remembers these from their own street. **The client already writes it this way** («العمر مجرد رقم», «انتعاش بحكايات زمان»), and **the Facebook audience ([[Alex Foods Discovery Brief]]) is not children.** A kid-voiced 2MAN caption on Facebook is talking to nobody who is there.
+
+### G12 · The countdown · Frame E · System Red
+
+> فاضل تلات أيام على قفل السحب.
+>
+> اقلب الباكو، امسح الكود، سجّل. وخلاص.
+>
+> مسحت ولا لسه؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+**«الكمية محدودة» is deliberately absent.** §5 allows it **only if it is actually true**, and nothing in the vault establishes that it is. **Urgency is a lever that gets spent** — the real deadline is the only one this post needs.
+
+---
+
+### Three things to settle before any of these ship
+
+1. **The hashtags are PROPOSED, not agreed.** **No hashtag set exists anywhere in the vault**, and §09 only gives the rule — three to five, own line, Arabic first, never translated for symmetry. **Four of the five recur across every giveaway post on purpose**, so the campaign is searchable as one thing. **Aly picks the final set once and it stops changing.**
+2. **«صور واكسب» never travels alone**, and the captions above obey it: every giveaway post also carries «امسح الكود» or the three steps. **The slogan can be heard as "photograph your purchase and post it", which is not the mechanic.**
+3. **G02's prize list is unverified.** It comes from §5's S06 spec and **the gifts mockups have not arrived** — check the line against them rather than shipping it on the spec.
+
+---
+
 ## 6. The winner-post template
 
 **Approved 21 September: four winner posts a month, built from one template.** This section is the template.

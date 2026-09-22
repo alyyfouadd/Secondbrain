@@ -187,4 +187,6 @@ All three are free under the SIL Open Font License. **One bilingual superfamily,
 
 ---
 
+**The commercial side of this engagement — what TSA needs back from him, the walk-away reasoning and the messages that ask for it — is [[Mahmoud Engagement]].** This note is the design brief only.
+
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

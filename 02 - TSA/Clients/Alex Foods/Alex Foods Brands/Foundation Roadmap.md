@@ -41,25 +41,26 @@ The brand-level constants (the 2MAN wordmark, the ice-blue world, the tagline) c
 
 Sequenced by dependency, not by the order the contract lists them. Each phase only contains work whose inputs already exist.
 
+> **This is a build ORDER, not a status board.** Where each deliverable has actually got to is one row in [[Delivery Register]]. Until 24 September the items below also carried their own dates and verdicts — "BUILT 18 Sep", "DRAFTED 18 Sep", "Phase 1 is now closed" — which made this the fourth place the same eight statuses lived. **What a phase says here is what it depends on and why it comes when it does.**
+
 ### Phase 1 — Define the system *(nothing external needed)*
 
-**1. Colour System** *(rebuilds [[Colour and Type Kit]] §2–5)* — **BUILT 18 Sep in [[Colour System]].** 31 sampled values down to 18 governed masters, ramps, neutrals, contrast computed on every pairing, SKU map, and three packaging defects named. Every step below is closed.
-Not a list of swatches. A governed system:
-- **Sample** every colour off the four packs — done.
+**1. Colour System** *(rebuilds [[Colour and Type Kit]] §2–5)* — not a list of swatches, a governed system. Built in [[Colour System]]:
+- **Sample** every colour off the four packs.
 - **Rationalise.** Four brands grown separately will have near-duplicate greens, reds and blues that were never meant to relate. Decide which are genuinely distinct and which collapse into one value.
 - **Set the master values.** TSA names them: HEX for digital, RGB, and CMYK equivalents flagged as conversions rather than press-accurate.
 - **Build the ramps.** Each brand colour gets tints and shades so a designer has a usable range instead of one flat swatch, which is what forces off-system colour picking.
 - **Define the neutrals.** The one thing all four brands share and none of them currently have. This is where a house layer can exist without flattening the brands.
 - **Check contrast.** Every text-on-colour pairing tested, because half these fields are pale yellow and lime.
-- **Write the relationships:** flavour owns the field, range owns the logo, and the master seal sits above both and takes neither. *(Rebuilt 18 Sep on the umbrella model — Alex Foods is the master brand, the four are ranges. See [[Colour System]] §2.)*
+- **Write the relationships:** flavour owns the field, range owns the logo, and the master seal sits above both and takes neither — the umbrella model, [[Colour System]] §2.
 
-**2. Type System** — **BUILT 18 Sep in [[Type System]].** Plex family selected at zero cost, weights, print and social scales, bilingual rules. **Phase 1 is now closed.**
-- Identify what each wordmark actually is — done. Two are illustrated lettering and can never be retyped.
+**2. Type System** — in [[Type System]]:
+- Identify what each wordmark actually is. **Two are illustrated lettering and can never be retyped.**
 - **Select the supporting faces:** one Arabic, one Latin, that pair and carry the brands' energy. TSA chooses; the client approves the choice, not the process (clause 1).
 - Set the scale, the weights, the bilingual layout rules, and the fixed rule that Arabic is written first and English fitted to it.
-- **Cost check:** default to free, properly-licensed families (Google Fonts has strong Arabic/Latin pairs) unless there is a reason to spend. Any paid licence gets priced before it is chosen.
+- **Cost check:** default to free, properly-licensed families unless there is a reason to spend. Any paid licence gets priced before it is chosen.
 
-**3. Brand Voice Guide** *(contract deliverable 1)* — **DRAFTED 18 Sep in [[Brand Voice Guide]].** Eight of nine sections complete and usable; only the house voice waits on the "Alex" answer. Carries the never-say list and the full comment-reply procedure.
+**3. Brand Voice Guide** *(contract deliverable 1)* — in [[Brand Voice Guide]]:
 - The house voice, then a distinct tone per brand: BeBo, AlRawy, 2MAN, POLEKA.
 - Words in and words out, sentence length, emoji policy, Arabic/English register — Egyptian colloquial versus formal, per brand.
 - The comment-reply policy, which is what the scope actually asks for and what most guides skip.
@@ -69,24 +70,24 @@ Not a list of swatches. A governed system:
 
 **4. Slogans and the giveaway song** *(deliverable 4)*
 Needs the voice first. 2MAN's عيش جو المغامرة already works and gets built around, not replaced. The song is written, not produced — the scope says "written and ready for posts."
-**Method, audience map and the four feeling ladders are written up in [[Slogans and Song]].** The headline rules from [[Marketing]] do not transfer wholesale: a slogan has to survive two hundred repetitions, which is a test no headline ever faces.
+**Method, audience map and the four feeling ladders are in [[Slogans and Song]].** The headline rules from [[Marketing]] do not transfer wholesale: a slogan has to survive two hundred repetitions, which is a test no headline ever faces.
 
-> **Reordered in practice on 19 September, and this is the real change to the build order.** The song is no longer a Phase 2 item that can wait its turn: it belongs to a live campaign with a deadline, and its mechanic line describes **a QR scan on the back of a pack**, not a comment. **Two things it now needs that the plan never listed: the campaign dates, and where the QR code goes.** Neither is writing work, both are client answers, and the song cannot be finished without them. See [[Giveaway Programme]].
+> **The song is not a Phase 2 item that can wait its turn.** It belongs to a live campaign with a deadline, and its mechanic line describes **a QR scan on the back of a pack**, not a comment. **Two things it needs that the original plan never listed: the campaign dates, and where the QR code goes.** Neither is writing work, both are client answers, and the song cannot be finished without them. See [[Giveaway Programme]].
 
-**5. Animation and Shooting Recipe** *(deliverable 6)*
-Independent of everything and **should ship early regardless of sequence**, because it is the document that tells the client how to shoot the product photos TSA is still waiting on. It unblocks them.
+**5. Shooting and Compositing Recipe** *(deliverable 6)*
+Independent of everything and **should ship early regardless of sequence**, because it is the document that tells the client how to shoot the product photos. It unblocks them.
 
 **6. Social Pages Setup spec** *(deliverable 3)*
 Names, usernames, bios, contact details, button configuration, and the profile/cover image designs. **The written spec needs nothing. Executing it needs Meta admin access.**
 
-**7. Local SEO** *(deliverable 8)* — **built in [[Local SEO — Alexandria]].**
-Alexandria keyword research, competitor read and the business-data structure. Research is unblocked; the listing itself needs the client's data.
+**7. Local SEO** *(deliverable 8)* — in [[Local SEO — Alexandria]].
+Alexandria keyword research, competitor read and the business-data structure. **Research is unblocked; the listing itself needs the client's data.**
 
 ### Phase 3 — Close *(depends on client inputs)*
 
-**8. Google Business Profile** *(deliverable 7)* — blocked on the client's Google account and business details. Pure account work, no design.
+**8. Google Business Profile** *(deliverable 7)* — pure account work, no design. Needs the client's Google account and business details.
 
-**9. Monthly Content Calendar** *(deliverable 5)* — the format is TSA's and buildable now; the filled calendar needs the voice, the SKU set and the products decided. Delivered before the month it covers.
+**9. Monthly Content Calendar** *(deliverable 5)* — the format is TSA's and buildable without anything external; the filled calendar needs the voice, the SKU set and the products decided. Delivered before the month it covers.
 
 **10. Assembly and written sign-off** — all eight into one document, submitted for the written approval that clause 3 requires. **Package A month 1 does not start until that approval is dated**, so this step is worth money, not admin.
 
@@ -119,15 +120,18 @@ It did **not** become a cost, and the reasoning is worth keeping. 2MAN and POLEK
 
 ## What is still needed from the client
 
-Ranked by what it blocks.
+**State for every material is in [[Delivery Register]]** — the seven contractual ones and the five the giveaway added. **This section does not repeat it.** What it keeps is the roadmap's own contribution: **what each one blocks**, which is sequencing rather than status.
 
-1. ~~**Vector or layered source files, all four logos.**~~ **Master seal closed 19 September — real Illustrator vector.** The four range marks remain raster cut-outs and that is sufficient: nothing in either stage is printed, and the material list only ever asked for vector "if available". **This is no longer a blocker on anything.**
-2. **Product photos or actual samples.** Blocks all 20 monthly Package A deliverables. The shooting recipe should be sent to unblock this.
-4. **Meta admin access** — blocks executing the social setup.
-5. **Google account and GBP details** — blocks the GBP deliverable.
-6. **POLEKA confirmed in writing, and the Alex answer papered with it** — same message, same clause 4 exposure, cheap to close.
-7. **Rights confirmation on the cola artwork** — TSA runs the paid campaigns, so it is TSA's ad account carrying it.
-8. **The giveaway programme's own five** — school campaign dates, the QR destination, the coupon artwork, written permission to publish winner media, and the giveaway facts in writing. **Added 19 September and none of them are contractual materials**, which is exactly why they will be missed: they block work the client is actively asking for and no list was watching them. [[Giveaway Programme]] §9.
+| Material | What it blocks |
+|---|---|
+| Product photos or samples | All 20 monthly Package A deliverables. **The shooting recipe is what unblocks it**, which is why it ships out of sequence. |
+| Meta admin access | Executing the social setup — the spec itself needs nothing. |
+| Google account and GBP details | The GBP deliverable entirely. It is pure account work. |
+| POLEKA confirmed in writing, with the Alex answer papered alongside | Nothing technical. **Clause 4 exposure** — the rejection rule leans on the approved guide matching a scope that names three brands. Cheap to close, same message. |
+| Rights confirmation on the cola artwork | Nothing technical. **TSA runs the paid campaigns, so it is TSA's ad account carrying it.** |
+| The giveaway's five | Work the client is actively asking for. **None of them are contractual materials**, which is exactly why they get missed — no list was watching them. [[Giveaway Programme]] §9. |
+
+**The logo material is no longer on this list.** The master seal closed as real vector; the four range marks stay raster cut-outs and that is sufficient, because nothing in either stage is printed and the material list only ever asked for vector *"if available"*. Detail in `logos-vector/README.md`.
 
 ---
 
@@ -135,7 +139,7 @@ Ranked by what it blocks.
 
 Phase 1 and most of Phase 2 can be finished without the client sending anything else. That is roughly **six of the eight deliverables**.
 
-The remaining two, plus the whole of Package A, sit behind items 1 and 2 above. Clause 6 extends the timeline day for day for client delay — **but it does not extend the paid month.** The 42,000 already received is against a month that starts at Foundation sign-off, so every day the logos and photos are late is a day of a paid month that still has to be delivered in full.
+The remaining two, plus the whole of Package A, sit behind the access items in the table above — Meta admin, and the Google account with the GBP details. Clause 6 extends the timeline day for day for client delay — **but it does not extend the paid month.** The 42,000 already received is against a month that starts at Foundation sign-off, so every day that access is late is a day of a paid month that still has to be delivered in full.
 
 ---
 
@@ -201,7 +205,7 @@ Both carry the `SPEC — EXECUTION PENDING CLIENT ACCESS` chip in the book (see 
 
 **State the recommended option as the default, in writing, in the delivery message:** *if we do not hear back, we proceed with the recommended line.* **Silence then produces TSA's preferred outcome rather than a stalled deliverable**, and the client keeps a real choice for as long as they want to use it.
 
-> **Weakened on 21 September and worth knowing exactly how.** [[Decisions]] #35 stopped the chase for a named approver, so **the 48-hour clock has no contractual subject to run against.** The technique above still works as a *drafting* habit — stating the default in writing is what makes silence readable at all — **but it is no longer a clause TSA can lean on in an argument.** **Close deliveries on a written reply.**
+**This is a drafting habit, not a clause TSA can lean on.** [[Decisions]] #35 dropped the chase for a named approver, so **the 48-hour clock has no contractual subject to run against.** Stating the default in writing is still what makes silence readable at all — but **deliveries close on a written reply**, never on the clock. How that changed is at the foot of this note.
 
 ### The order to present it in
 
@@ -220,5 +224,15 @@ Four things, and missing any one of them costs money:
 2. The month-1 start condition, quoted above.
 3. The honest status on the two execution-pending items, with exactly what is needed to close them.
 4. The POLEKA line in writing — four brands, no change to fee — because the signed scope still names three and clause 4's rejection rule leans on the approved guide matching the scope.
+
+## How we got here
+
+*Lifted out of the body on 24 September, so the plan above reads as one position rather than an argument with itself.*
+
+**Clause 3's 48-hour auto-approval was written into this plan as a mechanism to lean on.** The reading was that stating the recommended option as the default, in writing, turns silence into TSA's preferred outcome rather than a stalled deliverable. **[[Decisions]] #35 weakened it on 21 September** by dropping the chase for a named approver: with no contractual subject, the clock has nothing to run against. **The drafting habit survives; the contractual lever does not.**
+
+**The build order used to carry its own status.** Each numbered item stamped a verdict and a date — "BUILT 18 Sep", "DRAFTED 18 Sep", "Phase 1 is now closed" — and the client-materials section repeated the register's table with its own tick-marks. **That made this the fourth place the same eight statuses lived**, against [[Delivery Register]] which owns them. Stripped on 24 September; what the items keep is dependency and sequence, which is this note's actual job.
+
+---
 
 **Up:** [[Alex Foods Brands]] · [[Alex Foods]]

@@ -58,7 +58,7 @@ Payment terms that apply to both stages: minimum 50% upfront before work starts,
 Four gates sit in front of delivery, and they fire in order. Three of them are outside my control, which is the whole risk on this job.
 
 1. ~~**Signed acceptance page.**~~ **NO LONGER A GATE — [[Decisions]] #35, 21 September.** TSA stops chasing a signed page naming one approver, and no further message asks for one. **Clause 3 is still in the signed scope and is untouched; what changed is that TSA does not treat it as a blocker.** **Mohamed remains the day-to-day contact** and the top rung of [[Brand Voice Guide]] §8's escalation ladder, which was never contractual. **The accepted exposure is in the decision row and is real** — read it before relying on clause 4 or on the 48-hour clock. **If a signature ever happens it rides the Foundation sign-off page ([[Brand Book Spec]] §15), which they sign anyway.**
-2. **Client materials — and as of 21 September the creative half is closed.** **SKU names, product photos and packaging artwork are all in**, and the master logo is real vector. **What is left is three items and none of them is creative material: Meta admin, a Google account, and the GBP details.** **That changes the shape of this gate entirely — nothing is blocked on the client producing anything any more, only on them granting access.** List below.
+2. **Client materials.** **The shape of this gate is that it is an ACCESS gate, not a production gate** — what remains outstanding is permission to log in, not anything the client has to make. **That is the fact worth holding**; which specific items are in and out is a row each in [[Delivery Register]]. The contractual list is below.
 3. **Foundation clock: 3 weeks minimum.** As written, it starts at the first instalment OR the complete materials list, whichever is later. **Superseded in part by the 18 Sep exception** (see above): the payment half of this gate is waived, so the clock now turns on the materials alone.
 4. **Package A starts only after Brand Foundation is signed off in writing — not from the payment date.** Month 1 counts from the written approval date.
 
@@ -89,14 +89,16 @@ Defines what Alex Foods looks like, how it speaks, and where it appears, written
 
 Timeline: **3 weeks minimum** from whichever gate closes last.
 
-- [~] **Brand Voice Guide** — **drafted 18 Sep in [[Brand Voice Guide]]**, four brands not three. One voice and four tones, words in and out, sentence length and emoji per brand, the never-say list, and the comment-reply procedure with the complaint script. Only the house voice section is open, pending the "Alex" answer.
-- [~] **Colour and Type Kit — BUILT 18 Sep, and FOLDED INTO THE BOOK 19 Sep.** **Decided: one book, not three documents.** The Design System stops being a separate client-facing PDF and becomes **§04–06 of the brand book**; [[Colour System]] and [[Type System]] remain the internal source of every value. **Nothing is lost and nothing needs rebuilding** — the content is done. See [[Brand Book Spec]] §5b. *(Original entry: delivered as `Alex Foods - Design System v1.1.pdf`, 19 pages.)* Colour in [[Colour System]], type in [[Type System]], sample set and audit trail in [[Colour and Type Kit]]. Carries its own sign-off page. **Pending the client's written approval, not pending any further work.**
-- [ ] **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, unified look across pages.
-- [~] **Slogans** — brand slogans plus the giveaway song, written and ready for posts, ads and campaign material. **Scope moved on 19 September:** the client briefed **three** giveaway campaigns on two off-platform mechanics, and the song was written against one. See [[Giveaway Programme]]. **The BeBo line and the giveaway slogan are written** — see [[Slogans and Song]].
-- [~] **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins. **Strategy and month 1 drafted 19 Sep in [[Content Plan]]**, including the three-month arc and the month-3 engagement goal. Months 2 and 3 are structured but deliberately not scripted, because the contract delivers each calendar before its own month and month 1's baseline is what should shape month 2.
-- [x] **Shooting and Compositing Recipe — COMPLETE 19 Sep** in [[Shooting and Compositing Recipe]]. *(Was "Animation and Shooting Recipe"; renamed because with AI producing the imagery there is no client shoot to write specs for.)* Bilingual, Arabic leading. **The governing rule is that the scene is generated and the product never is**, so every pixel of product in every image is the client's own artwork. Ready to render as its own short PDF ahead of the book.
-- [ ] **Google Business Profile Setup** — create and verify the listing: address, hours, categories, contact details, photos.
-- [ ] **Local SEO** — business data and keywords tuned to rank inside Alexandria and surrounding areas.
+> **Status for all eight lives in [[Delivery Register]], one row each.** This section says what each deliverable *is* — the contract's own definition. It deliberately carries no dates, no "drafted", no "shipped": those existed here, in [[Foundation Roadmap]] and in the register simultaneously, which is how row 7 of the register went three days stale without anyone noticing.
+
+1. **Brand Voice Guide** — one house voice and a distinct tone per brand, words in and words out, sentence length and emoji policy per brand, the never-say list, and the comment-reply procedure with the complaint script. Built in [[Brand Voice Guide]].
+2. **Colour and Type Kit** — the governed colour system and the type system. **Not a separate client-facing PDF: it is §04–06 of the brand book** ([[Brand Book Spec]] §5b). Values live in [[Colour System]] and [[Type System]]; the sample set and audit trail in [[Colour and Type Kit]].
+3. **Social Pages Setup** — name, username, bio, profile and cover images, contact details and buttons, one unified look across the pages. Spec in [[Brand and Social Kit]].
+4. **Slogans and the giveaway song** — brand slogans plus the song, written and ready for posts, ads and campaign material. **The client briefed three giveaway campaigns on two off-platform mechanics** ([[Giveaway Programme]]); the writing is in [[Slogans and Song]].
+5. **Monthly Content Calendar** — per post: date, content type, product, message. Delivered before the month it covers begins. Months 2 and 3 are structured but deliberately not scripted, because the contract delivers each calendar before its own month and month 1's baseline is what should shape month 2. Strategy in [[Content Plan]], month 1 in [[Month 1 Asset Brief]].
+6. **Shooting and Compositing Recipe** — bilingual, Arabic leading. **The governing rule is that the scene is generated and the product never is**, so every pixel of product in every image is the client's own artwork. In [[Shooting and Compositing Recipe]].
+7. **Google Business Profile Setup** — create and verify the listing: address, hours, categories, contact details, photos.
+8. **Local SEO** — business data and keywords tuned to rank inside Alexandria and the surrounding areas. In [[Local SEO — Alexandria]].
 
 ---
 
@@ -104,16 +106,21 @@ Timeline: **3 weeks minimum** from whichever gate closes last.
 
 The monthly retainer that executes what the Foundation defined. These quantities repeat **every month** for the term.
 
-- [ ] **2 × Product Animations** — premium short product videos, built on the approved shooting recipe, delivered ready to publish.
-- [ ] **6 × Animated Stills** — static product shots with simple motion. Lighter and faster than full animation; works for feed and story.
-- [ ] **12 × Graphics** — feed and story, split between the two, in approved colours and fonts, copy written in the brand voice.
-- [ ] **1 × Content Calendar** — same format as the Foundation's, for the new month, delivered before that month starts.
-- [ ] **GBP + Local SEO maintenance** — update listing data, posts and photos; track local search visibility in Alexandria and surroundings.
-> **Settled 19 September: TSA runs the account and TSA posts.** Not a hand-over of files for the client to publish. **That makes Meta admin access critical-path** — without it the month produces twenty finished assets nobody can put anywhere. **And it puts [[Brand Voice Guide]] §8's reply clocks on TSA**, including the two-hour response on a product complaint in working hours.
+> **Status lives in [[Delivery Register]], Stage 2 table.** What follows is what the retainer buys, not where any of it got to.
 
-- [ ] **Paid Campaign Management** — campaign build, audience targeting, performance monitoring and in-flight optimisation. **Media spend does not pass through TSA** — the client pays the platforms directly.
-  > **And the giveaway breaks the measurement half of this.** Entry is a QR scan on a pack in a shop, which Meta cannot see. Unless the QR destination is instrumented, these campaigns can only be optimised toward reach, engagement or clicks, and TSA cannot evidence a single entry it drove. **Settle this before the first pound of spend.** [[Giveaway Programme]] §3.
-- [~] **1 × Giveaway slogan and campaign lockup** — **the slogan is written: «صوّر واكسب مع بيبو»**, chosen 20 September. Mechanic, cadence and the song are in [[Slogans and Song]] §5d. **The lockup itself is still to be designed**, and it carries BeBo's mark as campaign owner plus the Alex seal, because the master owns the seal. **One of each is what the contract buys and the client is running three campaigns** — the answer is one lockup with a swappable prize slot, not three builds. [[Giveaway Programme]] §7.1.
+- **2 × Product Animations** — premium short product videos, built on the approved shooting recipe, ready to publish.
+- **6 × Animated Stills** — static product shots with simple motion. Lighter and faster than full animation; works for feed and story.
+- **12 × Graphics** — feed and story, split between the two, in approved colours and fonts, copy written in the brand voice.
+- **1 × Content Calendar** — same format as the Foundation's, for the new month, delivered before that month starts.
+- **GBP + Local SEO maintenance** — update listing data, posts and photos; track local search visibility in Alexandria and surroundings.
+- **Paid Campaign Management** — campaign build, audience targeting, performance monitoring and in-flight optimisation. **Media spend does not pass through TSA** — the client pays the platforms directly.
+- **1 × Giveaway slogan and campaign lockup** — the lockup carries BeBo's mark as campaign owner plus the Alex seal, because the master owns the seal. **One of each is what the contract buys and the client is running three campaigns** — so it is one lockup with a swappable prize slot, not three builds. [[Giveaway Programme]] §7.1.
+
+**Two rules that ride on this list and are not status:**
+
+> **TSA runs the account and TSA posts.** Not a hand-over of files for the client to publish. **That makes Meta admin access critical-path** — without it the month produces twenty finished assets nobody can put anywhere. **And it puts [[Brand Voice Guide]] §8's reply clocks on TSA**, including the two-hour response on a product complaint in working hours.
+
+> **The giveaway breaks the measurement half of paid management.** Entry is a QR scan on a pack in a shop, which Meta cannot see. Unless the QR destination is instrumented, these campaigns can only be optimised toward reach, engagement or clicks, and TSA cannot evidence a single entry it drove. **Settle this before the first pound of spend.** [[Giveaway Programme]] §3.
 
 ### How a month runs
 1. **Calendar** — arrives before the month begins.
@@ -130,35 +137,29 @@ So the entire monthly output — 2 animations, 6 animated stills, 12 graphics �
 
 ## Client materials required — 7 items, no delivery before they arrive
 
-**First materials landed 18 September 2026:** the client sent **packaging mockups as PDFs**. Reviewed — the full read is in [[Alex Foods Brands]], and it changed the shape of the job.
+**What the contract asks the client for.** State for every one of them — arrived, part-arrived, outstanding — is a row in [[Delivery Register]] under *The client's seven materials*, and **it is not repeated here.** It used to be, as a checkbox list, in a note that also carried two contradicting entries for the same material; the reasoning that produced them is at the foot of this note.
 
-- **Packaging artwork: arrived.** Material 4 closed.
-- **SKU names: arrived, and there are far more than five.** Roughly eighteen across four brands, against a contract asking for five.
-- **Logo files: REOPENED 19 September, and in a good way. The master seal is now REAL VECTOR.** The client sent a true Adobe Illustrator master of the Alex Foods seal — flat, CMYK, authored that morning — filed in `logos-vector/`. **This overturns the 18 September finding that no source files exist:** it was true of the four range marks and is now false of the master, which is printable and scalable at any size. **Material #2 is closed properly for the master mark rather than by concession.** **The four range marks (BeBo, AlRawy, 2MAN, POLEKA) are still raster cut-outs** on the 18 Sep workaround, which the contract's "vector if available" already covers. **Restart the chase for the four range marks**, because this proves the client can produce vector when asked for it precisely. *(Original entry below, kept because the reasoning it rests on is still correct for the ranges.)*
-- **Logo files: CLOSED for the contracted work, 18 Sep.** No source files exist to send, so all four marks were cut out of the supplied raster onto transparency — see `Alex Foods Brands/logos-transparent/`. **Two things make this sufficient rather than a compromise.** The material list itself asks for "logo files, **vector if available**", so vector was never a contractual requirement. And **nothing in either stage is printed** — the Foundation and all of Package A are social and digital. Vector only becomes a real requirement if print or large format enters scope under clause 7.
-- **Product photos: CLOSED 19 September, by decision rather than by delivery.** **TSA produces the imagery with an AI product shooter, compositing the client's real pack artwork into generated scenes.** Material 3 stops being a gate. See the section above for the method and the three consequences.
+1. **SKU names** — the contract asks for five.
+2. **Logo files** — *"vector if available"*, and the phrasing matters: vector was never a contractual requirement.
+3. **Product photos, or actual samples for shooting.**
+4. **Packaging artwork.**
+5. **Meta admin access** on the social pages.
+6. **Google account** for the Business Profile.
+7. **GBP business details** — address, opening hours, categories, phone.
 
-**Four brands arrived, the contract names three.** BeBo, AlRawy and 2MAN (the "Freeze Pops" family under its real name) are in scope as written. **POLEKA, a jelly-candy line, is not in the document — and Aly confirmed on 18 September that it is in.** Four brands, no change to fee. Still to be papered: a one-line written confirmation, because clause 4's rejection rule leans on the approved guide matching the signed scope. See [[Alex Foods Brands]] for the full inventory, the two conflicting 2MAN designs, the unresolved "Alex" parent-brand question, and the trademark flag on the cola SKUs.
+**Four brands arrived, the contract names three.** BeBo, AlRawy and 2MAN (the "Freeze Pops" family under its real name) are in scope as written. **POLEKA, a jelly-candy line, is not in the document — and Aly confirmed on 18 September that it is in.** Four brands, no change to fee. Still to be papered: a one-line written confirmation, because clause 4's rejection rule leans on the approved guide matching the signed scope. See [[Alex Foods Brands]] for the full inventory, the two 2MAN pack architectures and the trademark flag on the cola SKUs.
 
-*The files are print-resolution — the smallest is 126 MB. **They do not go in this repo.** GitHub rejects any single file over 100 MB, and even under that limit, print PDFs in a git repo make every future clone slower on every device forever. They live in cloud storage; this note records where, and working copies for brand work are screen-resolution exports.*
+*The client's packaging files are print-resolution — the smallest is 126 MB. **They do not go in this repo.** GitHub rejects any single file over 100 MB, and even under that limit, print PDFs in a git repo make every future clone slower on every device forever. They live in cloud storage; working copies for brand work are screen-resolution exports.*
 
-- [x] 5 SKU names
-- [~] Logo files — vector if available. **Master seal: real vector received 19 Sep.** Four range marks: raster cut-outs, sufficient under "if available".
-- [x] Product photos, or actual samples for shooting
-- [x] Packaging artwork
-- [ ] Meta admin access on the social pages
-- [ ] Google account for the Business Profile
-- [ ] GBP business details: address, opening hours, categories, phone
+### Five more that the contract never listed
 
-**And five more arrived as dependencies on 19 September**, created by the giveaway brief rather than listed in the contract. They are not contractual materials, but every one of them blocks work the client is asking for:
+Created by the giveaway brief rather than by the scope. **They are not contractual materials, and every one of them blocks work the client is actively asking for** — which is exactly why they get missed: no list was watching them. State for each is in [[Delivery Register]]; the brief and the decisions it forces are in [[Giveaway Programme]].
 
-- [ ] **The school campaign's real dates**, including the actual start of the school year. The client's number one priority has a deadline nobody on TSA's side has been told.
-- [ ] **Where the QR code on the back of the pack actually goes.** The live URL, or confirmation that nothing is built.
-- [ ] **The coupon artwork** — and whether TSA is being shown it or asked to rebuild it.
-- [x] **Written permission to publish winner photos and videos.** Many winners are children, and consent to be photographed is not consent to appear in a paid ad.
-- [ ] **The giveaway's facts in writing** — prize counts, draw method, how winners are announced. Without them the comment policy cannot answer the three most-asked questions on a live giveaway.
-
-Full brief and the decisions it forces: [[Giveaway Programme]].
+- **The school campaign's real dates**, including the actual start of the school year.
+- **Where the QR code on the back of the pack goes** — the live URL, or confirmation that nothing is built.
+- **The coupon artwork** — and whether TSA is being shown it or asked to rebuild it.
+- **Written permission to publish winner photos and videos.** Many winners are children, and consent to be photographed is not consent to appear in a paid ad.
+- **The giveaway's facts in writing** — prize counts, draw method, how winners are announced. Without them the comment policy cannot answer the three most-asked questions on a live giveaway.
 
 ---
 
@@ -218,10 +219,26 @@ The client came back on most of the commercial brief. Full merge, with the Arabi
 
 - ~~**Who is the named approver?**~~ **Closed 21 September, by decision rather than by an answer.** Mohamed is the day-to-day contact; **the chase for a signed page naming one contractual approver is dropped.** [[Decisions]] #35.
 - ~~**Has the signed acceptance page come back?**~~ **Closed 21 September. It has not, and TSA is no longer asking** — [[Decisions]] #35. **The consequence stands and is worth holding: clause 4's "a delivery matching the agreed brief counts as delivered" has no single voice to lean on, and the 48-hour auto-approval has nothing to run against, so silence does not mean yes.** Plan deliveries on written replies, not on the clock.
-- **Which of the seven client materials have arrived?** Unchanged by the payment exception, and now the only gate still holding. This list, not the calendar, is the real schedule driver.
+- **Which of the seven client materials have arrived?** Answered by [[Delivery Register]] rather than here, and it is the real schedule driver — that list, not the calendar.
 - **Is TSA producing anything retailer-facing?** The giveaway has a trade track — retailers winning through a coupon in the carton — and the signed scope is a social contract end to end, with no trade deliverable in it. If the answer is yes, it is clause 7 work and the voice guide needs a register it does not have.
 - **Does the school campaign get TSA creative at all?** Its deadline lands before the Foundation is delivered, and the giveaway lockup is a Package A item that has not started. On the current plan the client's biggest push runs with nothing from TSA on it. [[Giveaway Programme]] §2.
 - **What exact date was the 10,000 invoice issued?** The due date is set to 26 September; clause 11's 4-day term implies an 18 Sep issue date would have been due the 22nd. The gap is deliberate but should be recorded accurately.
+
+---
+
+## How we got here
+
+*Lifted out of the body on 24 September so the sections above describe only what is true now. Nothing here is current; it is the reasoning behind decisions the register and [[Decisions]] now carry.*
+
+**The logo material was closed twice, and the note kept both answers side by side.** On **18 September** the finding was that no source files exist, so all four marks were cut out of the supplied raster onto transparency in `logos-transparent/`. Two things made that sufficient rather than a compromise: the material list asks for *"logo files, vector if available"*, so vector was never contractual, and **nothing in either stage is printed.** Then on **19 September the client sent a true Adobe Illustrator master of the Alex Foods seal** — flat, CMYK, authored that morning — which overturned the finding for the master mark while leaving it correct for the four range marks. **Until 24 September this note carried both entries in its body, the second introduced as "original entry below, kept because the reasoning still holds."** That is the pattern rule 15 exists to stop. The live position is one line in [[Delivery Register]]; the vector detail is in `logos-vector/README.md`. **Worth keeping from it: the client can produce vector when asked precisely, which is the argument for restarting the chase on the four range marks.**
+
+**Product photography stopped being a gate by decision, not by delivery — 19 September.** TSA produces the imagery with an AI product shooter, compositing the client's real pack artwork into generated scenes. Material 3 was the largest gate on the contract and it was removed without the client sending anything.
+
+**The Colour and Type Kit was built as a standalone document and then folded into the book — 18 and 19 September.** It shipped once as `Alex Foods - Design System v1.1.pdf`, 19 pages. **Decided: one book, not three documents**, so it became §04–06 of the brand book. Nothing was lost and nothing needed rebuilding — the content was already done. [[Brand Book Spec]] §5b.
+
+**The Shooting and Compositing Recipe was renamed.** It was the *Animation and Shooting Recipe*; renamed because with AI producing the imagery there is no client shoot to write specs for.
+
+**Why this section exists at all.** Until 24 September, Stage 1, Stage 2 and the client materials were each a checkbox list in this note carrying dates and statuses — a second and third copy of what [[Delivery Register]] owns, and a fourth existed in [[Foundation Roadmap]]. **The copies had already drifted**: register row 7 sat three days stale because a correction reached row 3 and stopped. The lists here are now definitions, and state is a link.
 
 ---
 

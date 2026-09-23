@@ -173,11 +173,13 @@ Measurable, so it is not a matter of opinion in a month:
 |---|---|---|---|
 | Facts with an enforced single owner | not counted | **9** — every other fact in the vault runs on discipline alone | every repeated fact |
 | Notes whose body describes a superseded model | 4+ | **26 notes, 54 inline corrections** | **0** |
-| Places you must read to learn the state of 8 deliverables | 8 | **4** — [[Delivery Register]], [[Alex Foods]], [[Foundation Roadmap]], [[Brand Book Spec]] | **1** |
+| Places you must read to learn the state of 8 deliverables | 8 | **1 — [[Delivery Register]], and only it.** Was 4 at 01:00 on 24 Sep; the other three were stripped the same night | **1 — met** |
 | Live versions of the vault | 4 | **4** — `main` plus three branches carrying work it does not have | **1** |
 | Drift items found by a full read | 9 | **4 found on 24 Sep**, all fixed the same day | **0** |
 
-> **Read that table honestly: only one row moved in four days, and it moved from 8 to 4 rather than to 1.** The skeleton was rebuilt on 20 September and has held perfectly since — steps 0 to 4 and 7 are genuinely done and nothing has regressed. **What the tests measure is step 5, and step 5 has not started.** The vault is *restructured*; its contents are not yet *rewritten to the structure*, and those are different jobs. **Anyone reading "the rebuild is done" should read this table instead.**
+> **Read that table honestly. One test of five is now met; the rest are not.** The skeleton was rebuilt on 20 September and has held perfectly since — steps 0 to 4 and 7 are genuinely done and nothing has regressed. **What the remaining tests measure is step 5, and step 5 is one slice in.** The vault is *restructured*; most of its contents are still not *rewritten to the structure*, and those are different jobs. **Anyone reading "the rebuild is done" should read this table instead.**
+>
+> **The row that moved shows the shape of the remaining work.** Deliverable status went from four notes to one in a single sitting, because the fix was mechanical: the register already held everything, so the other three copies could be cut to a link rather than migrated. **The 54 inline history blockquotes are not like that** — each one is a judgement about what is still true, and they are why §7's cost argument still holds for the rest.
 >
 > **The one row that should alarm you is the last-but-one.** Four live versions was the 20 September diagnosis, it was supposedly fixed, and it is four again — because a branch keeps getting stranded. Rule 17 exists for it and has now failed four times. *(Measured 24 September.)*
 
@@ -212,8 +214,8 @@ Daily notes, [[Decisions]], [[Delivery Register]] and the `Marketing/` playbook 
 | [[Brand and Social Kit]] | 8 | 3 | — |
 | [[Slogans and Song]] | 8 | 2 | — |
 | [[Alex Foods Brands]] | 7 | 7 | — |
-| [[Alex Foods]] | 0 | 13 | — |
-| [[Foundation Roadmap]] | 2 | 11 | — |
+| ~~[[Alex Foods]]~~ | **0** | **0 status verdicts** | **yes — done 24 Sep** |
+| ~~[[Foundation Roadmap]]~~ | **0** | **0 status verdicts** | **yes — done 24 Sep** |
 | [[Alex Foods Week 1 Messages]] | 3 | 3 | — |
 | [[Package A Month 1]] | 0 | 7 | — |
 | [[Alex Foods Discovery Brief]] | 1 | 4 | — |
@@ -226,7 +228,8 @@ Daily notes, [[Decisions]], [[Delivery Register]] and the `Marketing/` playbook 
 
 ### The two highest-value fixes, and they are not the heaviest notes
 
-1. **[[Alex Foods]] and [[Foundation Roadmap]] each carry a complete deliverable-by-deliverable status list.** That is three copies of the same eight statuses — theirs plus [[Delivery Register]], the note built to own them. **It has already drifted once:** row 7 of the register still read *"unblocking 21 Sep"* on 24 September, three days stale, because the 23 September pass corrected row 3 and missed the identical phrase one row down. Stripping both lists to a link at the register is the single change that removes the most future drift, and neither note loses anything a reader needs.
+1. ~~**[[Alex Foods]] and [[Foundation Roadmap]] each carry a complete deliverable-by-deliverable status list.**~~ **DONE, 24 September.** Eight statuses lived in four notes; they now live in [[Delivery Register]] and nowhere else. Both notes keep what they are *for* — the client note defines what each deliverable **is**, the roadmap says what each one **depends on** — and both gained a `## How we got here` foot section carrying the history that was arguing with their bodies. **`Alex Foods` also lost a third copy** (the client-materials checklist) and **a pair of entries for the same material that openly contradicted each other**, introduced as *"original entry below, kept because the reasoning still holds."*
+
 2. **[[Brand Voice Guide]] is the worst single note at twelve inline corrections** — and it is a **client-facing** governance document. A guide that argues with itself in front of the client is the failure §1.2 describes, sitting in the one place it costs most.
 
 ### What this does not change

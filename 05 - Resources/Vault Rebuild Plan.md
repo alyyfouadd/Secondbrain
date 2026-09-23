@@ -169,13 +169,17 @@ Sequenced by dependency. Each step is safe to stop after.
 
 Measurable, so it is not a matter of opinion in a month:
 
-| Test | Today | After |
-|---|---|---|
-| Notes that must be edited to change one fact | **6** | **1** |
-| Notes whose body describes a superseded model | **4+** | **0** |
-| Places you must read to learn the state of 8 deliverables | **8** | **1** |
-| Live versions of the vault | **4** | **1** |
-| Drift items found by a full read | **9** | **0** |
+| Test | 20 Sep | **24 Sep, measured** | Target |
+|---|---|---|---|
+| Facts with an enforced single owner | not counted | **9** — every other fact in the vault runs on discipline alone | every repeated fact |
+| Notes whose body describes a superseded model | 4+ | **26 notes, 54 inline corrections** | **0** |
+| Places you must read to learn the state of 8 deliverables | 8 | **4** — [[Delivery Register]], [[Alex Foods]], [[Foundation Roadmap]], [[Brand Book Spec]] | **1** |
+| Live versions of the vault | 4 | **4** — `main` plus three branches carrying work it does not have | **1** |
+| Drift items found by a full read | 9 | **4 found on 24 Sep**, all fixed the same day | **0** |
+
+> **Read that table honestly: only one row moved in four days, and it moved from 8 to 4 rather than to 1.** The skeleton was rebuilt on 20 September and has held perfectly since — steps 0 to 4 and 7 are genuinely done and nothing has regressed. **What the tests measure is step 5, and step 5 has not started.** The vault is *restructured*; its contents are not yet *rewritten to the structure*, and those are different jobs. **Anyone reading "the rebuild is done" should read this table instead.**
+>
+> **The one row that should alarm you is the last-but-one.** Four live versions was the 20 September diagnosis, it was supposedly fixed, and it is four again — because a branch keeps getting stranded. Rule 17 exists for it and has now failed four times. *(Measured 24 September.)*
 
 ---
 

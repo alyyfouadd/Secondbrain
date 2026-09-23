@@ -61,10 +61,12 @@ In plain terms: **it is not profit, it is an advance.** Some of it has to surviv
 > |---|---|---|
 > | **Media buyer — paid campaign management** | **2,000/month, fixed** | **Confirm it is per month and not per campaign** before relying on it |
 > | **Mahmoud — 12 graphics/month** | **300 each = 3,600/month** | **AGREED 20 Sep** ([[Decisions]] #31). **Confirm whether 300 is per asset or per delivered post** — a feed post and its story crop are two files and one asset |
-> | **Mahmoud — the visual kit and guidelines** | **2,000, one-off** | **AGREED 20 Sep.** Against the **Foundation's** 20,000, not the retainer. **The Foundation had no cost of delivery until this line existed** |
+> | **Mahmoud — the visual kit and guidelines** | **2,000, one-off — NOW THE WRONG NUMBER** | **The job changed under the price on 21 September** ([[Decisions]] #36). 2,000 was quoted for a supplementary kit; **he is now laying out the client-facing identity document** — **eight sections, about 46 pages** ([[Decisions]] #37), bilingual, with a revision round, behind a 20,000 stage. **Smaller than the whole book, still several times a supplementary kit. Re-scope and re-quote before he starts.** Against the **Foundation's** 20,000, not the retainer |
 > | **CGI animator — 8 motion pieces/month** | — | **Role not filled.** No rate, no person. **The only blank left in X** |
 > | Tools and software | Near zero, **plus a voice plan** | The documents build on a free rail. **A text-to-speech commercial licence is about $6/month and it is NOT optional** — the free tier grants no commercial rights and requires attribution, on an ad account TSA runs ([[Brand Voice Guide]] §7b). The AI product shooter's tooling is unpriced |
 > | Transfer fees | Small, real | InstaPay and Vodafone Cash |
+>
+> **And the Foundation's cost of delivery is now unknown again, days after it got its first number.** The 2,000 line was the only thing standing between the Foundation and a blank, and [[Decisions]] #36 invalidated it. **Until Mahmoud re-quotes against the real spec, the 20,000 stage has no costed delivery** — the same gap the retainer carried for three days, now on the stage that gets delivered first.
 >
 > **Every rate here is per month and repeats three times**, so a rate agreed casually for month 1 is a rate agreed against 126,000 EGP of revenue. **Drawable = 42,000 − X**, and clearing all 23,000 of debt needs X at or under 19,000. **Three suppliers splitting 19,000 a month is the whole question**, and it is answerable this week rather than after the fact.
 >

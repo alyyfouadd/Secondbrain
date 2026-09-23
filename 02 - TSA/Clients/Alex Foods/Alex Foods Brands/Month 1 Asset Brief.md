@@ -47,6 +47,32 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 
 ---
 
+## 1b. The frame system — five frames, twenty assets
+
+**Added 22 September.** §1 says what every asset obeys and §§3 to 5 say what each asset *is*. **Neither says what any of them looks like** — and §6 quietly proved the point by giving the winner post a full anatomy table because it repeats. **Every other asset repeats too, across three months.**
+
+> **Mahmoud builds FIVE masters, not twenty layouts.** Same argument §6 already makes: build the frame once and every asset after it is a drop-in; build it twenty times and it drifts by week two. **Twelve graphics briefed without this come back looking like twelve different designers, and no amount of colour governance fixes that.**
+
+**Laid out as artboards at full 1080 × 1350 so the numbers can be measured off them:** [Alex Foods Month 1 — Frame System](https://claude.ai/artifact/HMkaok3mcso5u2QogRpaqc) *(private — not visible to Mahmoud or the client until shared from the page's Share menu)*.
+
+| Frame | Assets | Anatomy |
+|---|---|---|
+| **A · Product** | S01 · S03 · S04 · S05 · G07 · G10 | Full-bleed flavour field · range mark top-left · **pack centred on a contact shadow, ~46% of frame height** · one line bottom-right · seal on a Paper chip bottom-left |
+| **B · Winner** | S02 · G05 · G09 · G11 | **Already specified — §6 is this frame.** Photo well 68%, Paper band 32%, 3px campaign rule between them |
+| **C · Mechanic** | A01 · G03 · G04 | Golden Yellow field · headline · **three numbered steps, one instruction each** · back-of-pack panel with the QR at **150 px minimum** · campaign line at the foot |
+| **D · Character** | G06 · G08 | **Character leads and the pack comes second** · grid of characters · question line at the foot |
+| **E · Statement** | G01 · G02 · S06 · G12 | **Paper ground, type leads, the seal at full size.** No pack, no character, no field colour |
+
+**A02 is the one asset that takes no frame.** It is a filmed scene; it ends on the statement lockup and borrows nothing else.
+
+**The 9:16 rule, once, for all five:** the image area absorbs the extra height, **the band keeps its exact height and its exact contents.** Nothing reflows, nothing is re-set — §6 already states this for the winner post and it generalises to every frame.
+
+> **A judgement call made inside a governed rule, flagged rather than buried.** §1 says *"Bright Pink `#EC008C` always carries a dark keyline"* but does not say which colour the type is — and a dark keyline on Ink type is meaningless. **Frame D is drawn as white type with a 4 px Ink stroke, painted under the fill.** That is the only reading where the rule does anything. **[[Colour System]] §8 owns the pairing and should say so explicitly** rather than leaving it to be inferred.
+
+> **Every dashed slot on those artboards is client artwork that has not arrived**, and the geometry makes the problem concrete: Frame A's pack slot is **430 px wide against cut-outs that are 199 px.** §8 already lists this as the top blocker; the frames are what make it visible rather than theoretical.
+
+---
+
 ## 2. The calendar — what posts, when, where
 
 **This is Package A's contracted "content calendar", and it is the thing the spec below could not do on its own.** A spec says what an asset is; a calendar says when it earns its money.
@@ -169,6 +195,20 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 | **G11** | Winner | **Winner 4.** The last one before the deadline post | Per the photo | «الف مبروك لـ[الاسم]» — **their own caption structure, and it works** |
 | **G12** | Moment | **Closing reminder.** The deadline, once, plainly | System Red | **«الكمية محدودة» only if it is actually true** |
 
+**The twelve above, merged with §2's dates and §1b's frames, are drawn as one production sheet** on the frame-system canvas: [The twelve graphics](https://claude.ai/artifact/HMkaok3mcso5u2QogRpaqc). One link covers the frames and the schedule, which is what a supplier should receive.
+
+> ### Counted per graphic for the first time: FOUR of the twelve can be built today.
+>
+> **§8 lists the gaps by gap. Nobody had counted them by asset**, and the number is worse than the gap list reads.
+>
+> **Clear now — G01, G03, G04, G06.** The opening post needs only the vector seal; the two mechanic assets need only `packshots/bebo-mango-back.png`, which is in hand; BeBo's faces are already drawn.
+>
+> **Waiting on the client — eight.** G07, G08 and G10 on production-resolution artwork · G05, G09 and G11 on winner media and written permission · G02 on the gifts mockups · G12 on the real campaign end date.
+>
+> **And a thirteenth item that is not a graphic: the winner master**, due earlier than any of them. See §6.
+>
+> **So two thirds of the month's graphics are gated on material that is one message away**, and three of the four ungated ones are the giveaway mechanic. **A supplier briefed today can start on four.**
+
 **Deadlines are in the calendar at §2.** The four winner posts are the only assets with a live clock — **each ships within 48 hours of its photo arriving.**
 
 > **Eight of the twenty are the giveaway** — four winner posts, three mechanic assets, the prize. That is the month pointed at the client's own number-one priority rather than spread politely across four ranges.
@@ -186,6 +226,169 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 > **What moved:** S02 *(was a second BeBo product still, justified only by "it proves the template repeats" — a production argument, not an audience one)*, G05 *(BeBo cola)* and G09 *(a static twin of A02 — the month does not need a still **and** a film of the same idea)*. **G04 became the third mechanic asset** instead of a fourth BeBo product shot.
 >
 > **The risk, named out loud: four of twenty now ride on winner media and written permission, and neither has arrived.** **If that permission never comes, three product graphics come straight back off the bench** — S02→BeBo mango, G05→BeBo cola, G09→the school-morning still. **That fallback is the reason this rebalance is safe to make. Do not lose it.**
+
+---
+
+## 5b. The twelve captions
+
+**Written 22 September.** §5 says what each graphic *is*; this is what each one *says*. **Built to §09 of the book's caption system**, which is the governing shape and is not negotiable per post:
+
+> **Line 1 — the hook.** One idea, in that range's own register. It carries the post alone if nothing else is read.
+> **Line 2 — optional.** Extends line 1. **Never introduces a second idea.**
+> **Line 3 — the call, when there is one.** **A question the comments can answer, never a demand.**
+> **Line 4 — hashtags.** Three to five, own line, Arabic first.
+
+**Two things govern every line below.** The contracted KPI is **comments and views** ([[Alex Foods Discovery Brief]]), so almost every post ends on a question somebody can actually answer. And [[Brand Voice Guide]] §7's never-list is legal rather than stylistic — **no health claim, no «طبيعي ١٠٠٪», no nutritional number, no competitor, no price superlative, no named shop, no company age.** TSA runs the ad account.
+
+> **Every Arabic line here is a draft for Aly's ear.** He is the native speaker and the register is his call — the same rule [[Month 1 Asset Brief]] §1 already sets for the rest of the brief.
+
+---
+
+### G01 · The opening post · Frame E · Paper
+
+> الأربعة دول في إيدك من زمان.
+>
+> بيبو، الراوي، تومان، وبوليكا. كلهم من بيت واحد في إسكندرية.
+>
+> انت بتحب أنهي واحد فيهم؟
+>
+> #أليكس_فودز #بيبو #الراوي #تومان #بوليكا
+
+**Why it opens on recognition rather than introduction.** A company post that says *we are Alex Foods, we have four brands, we have been here X years* is the exact shape [[Marketing]] says does not work — **content about the company instead of the customer.** They already have a real Facebook audience ([[Alex Foods Discovery Brief]]) and four ranges in market. **The hook assumes they know the products and reveals the company behind them**, which is a fact the audience genuinely does not have. **No age claim**, deliberately.
+
+### G02 · The prize · Frame E · Paper
+
+> شنطة، كشاكيل، مقلمة، أقلام، ومساطر.
+>
+> كل ده في هدية واحدة، وبتيجي من عبوة بيبو.
+>
+> إيه أكتر حاجة نفسك فيها؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+**The prize list is §5's S06 spec** — books, notepad, pencil case, pens, rulers. **It is unconfirmed until the gifts mockups arrive** and the line has to be checked against them before it ships. **The question makes the reader list the thing they want**, which is the cheapest comment on the account.
+
+### G03 · How to enter · Frame C · Golden Yellow
+
+> ازاي تدخل السحب؟ تلات خطوات بس.
+>
+> اقلب الباكو، امسح الكود، سجّل بياناتك.
+>
+> جربت تقلب العبوة قبل كده؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+**The instruction sits in line 2, not line 3.** §09 says the call is a question and never a demand — **so the three steps are the content and the question is the invitation.**
+
+### G04 · Where the QR is · Frame C · Golden Yellow
+
+> الكود مكانه ورا العبوة، تحت خالص.
+>
+> اقلبها، هتلاقيه قدامك على طول.
+>
+> لقيته؟ قوللي في الكومنتات.
+>
+> #صور_واكسب_مع_بيبو #بيبو #امسح_الكود #أليكس_فودز
+
+**This is the post that answers «ازاي أشارك؟»**, which §5 predicts will be the highest-volume comment on the account. **«لقيته؟» turns finding the code into a thing people report**, which is a comment and a proof at the same time.
+
+### G05 · Winner 2 · Frame B · per the photo
+
+> الف مبروك لـ[الاسم] ❤️
+>
+> اشترى بيبو، قلب الباكو، ومسح الكود.
+>
+> مين الجاي؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+### G09 · Winner 3 · Frame B · per the photo
+
+> الف مبروك لـ[الاسم] 🎉
+>
+> عبوة بيبو، وكود اتمسح، والهدية وصلت.
+>
+> انت مسحت كودك؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+### G11 · Winner 4 · Frame B · per the photo
+
+> الف مبروك لـ[الاسم] 👏
+>
+> آخر فايز قبل ما السحب يقفل.
+>
+> لسه فيه وقت، مسحت كودك؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+> **The three winner captions keep one shape and vary only the words**, exactly as §6 requires: **congratulate by name · what they did · the invitation.** First name only, every time. **The shape is what makes four posts read as one programme** — change it and they read as four unrelated posts.
+
+### G06 · BeBo's five faces · Frame D · Brand Green
+
+> خمس طعوم، وكل واحد ليه وش. 😋
+>
+> مع بيبو، اليوم أحلى.
+>
+> بتاعك أنهي واحد فيهم؟
+>
+> #بيبو #مع_بيبو_اليوم_أحلى #أليكس_فودز
+
+**Kid to kid, 4 to 9 words, «انت» singular** — [[Brand Voice Guide]] §3. **«مين معاك النهاردة؟» was deliberately NOT used here** even though it is the obvious line: it is POLEKA's, and G08 is eleven days later. **Two ranges sharing a question is how a calendar starts sounding like one brand talking to itself.**
+
+### G07 · AlRawy guava · Frame A · Brand Green
+
+> نكتار جوافة، بماصة على العبوة، جاهز يتفتح ويتشرب.
+>
+> تحطيه في اللانش بوكس وانتي مطمنة إنه اختيار كويس.
+>
+> بتختاري أنهي طعم للبيت؟
+>
+> #الراوي #نكتار #أليكس_فودز
+
+**The only adult-facing caption in the twelve, and it is written to look different.** No emoji, no exclamation mark, 8 to 16 words, «انتي» — [[Brand Voice Guide]] §4. **«نكتار» is used rather than «عصير» because the pack says nectar**, and «أورجانيك» does not appear in any language.
+
+### G08 · POLEKA's animals · Frame D · Bright Pink + keyline
+
+> مين معاك النهاردة؟ 🦁🦒
+>
+> الأسد، الزرافة، ولا الدودة؟
+>
+> #بوليكا #مش_محتاجة_شرح #أليكس_فودز
+
+**No line 3, on purpose.** §09 says the call exists *when there is one* — **here line 1 is already the question**, and stacking a second one would be asking twice. **2 to 6 words, emoji doubles allowed** — §6. **The characters are offered as a choice and never ranked**, because every child has a favourite and half of them would be told they chose wrong.
+
+### G10 · 2MAN, four colourways · Frame A · Ice Blue
+
+> فاكر لما كنت تختار اللون قبل الطعم؟
+>
+> أربعة، زي ما هما، من زمان لحد دلوقتي.
+>
+> كان لونك أنهي واحد؟
+>
+> #تومان #عيش_جو_المغامرة #أليكس_فودز
+
+**This one is written to the ADULT, and that is the single most easily-got-wrong caption in the month.** [[Brand Voice Guide]] §5: **the pack sells to the child, the Facebook account sells to the adult scrolling past** — an adult who remembers these from their own street. **The client already writes it this way** («العمر مجرد رقم», «انتعاش بحكايات زمان»), and **the Facebook audience ([[Alex Foods Discovery Brief]]) is not children.** A kid-voiced 2MAN caption on Facebook is talking to nobody who is there.
+
+### G12 · The countdown · Frame E · System Red
+
+> فاضل تلات أيام على قفل السحب.
+>
+> اقلب الباكو، امسح الكود، سجّل. وخلاص.
+>
+> مسحت ولا لسه؟
+>
+> #صور_واكسب_مع_بيبو #بيبو #هدايا_المدارس #أليكس_فودز
+
+**«الكمية محدودة» is deliberately absent.** §5 allows it **only if it is actually true**, and nothing in the vault establishes that it is. **Urgency is a lever that gets spent** — the real deadline is the only one this post needs.
+
+---
+
+### Three things to settle before any of these ship
+
+1. **The hashtags are PROPOSED, not agreed.** **No hashtag set exists anywhere in the vault**, and §09 only gives the rule — three to five, own line, Arabic first, never translated for symmetry. **Four of the five recur across every giveaway post on purpose**, so the campaign is searchable as one thing. **Aly picks the final set once and it stops changing.**
+2. **«صور واكسب» never travels alone**, and the captions above obey it: every giveaway post also carries «امسح الكود» or the three steps. **The slogan can be heard as "photograph your purchase and post it", which is not the mechanic.**
+3. **G02's prize list is unverified.** It comes from §5's S06 spec and **the gifts mockups have not arrived** — check the line against them rather than shipping it on the spec.
 
 ---
 
@@ -265,6 +468,17 @@ AF-M1-A02-bebo-mechanic-9x16-v2.mp4
 ### Delivery
 
 **Mahmoud keeps one locked master** with the photo well, the band and every slot as named layers. **Each winner is a drop-in, not a rebuild.** Filenames per §1: `AF-M1-G05-winner-2-4x5-v1.png`.
+
+> ### The master is NOT one of the twelve graphics — settled 22 September, Aly.
+>
+> **The twelve are outputs. The master is the thing three of them drop into**, and building a reusable frame with named layers is a different job from producing a post. **"Twelve graphics at 300 each" does not contain it.**
+>
+> **And the sequencing is worse than the pricing, because the master's first consumer is not a graphic at all.** The winner assets in date order are **S02 at D0+7, then G05 at D0+14, G09 at D0+21, G11 at D0+27.** S02 is *Winner 1* and it is an **animated still** — §7 puts it on the CGI animator, not on Mahmoud.
+>
+> **So Mahmoud builds a master that another supplier consumes, a full week before his own first winner graphic.** Two consequences:
+>
+> 1. **The master's deadline is D0+7 minus the animator's lead time, not D0+14.** It is the earliest-due piece of winner work on the contract and nothing currently says so.
+> 2. **It is a thirteenth piece of work and it gets priced or waived explicitly**, never absorbed silently — because it is also the single thing that makes four winner posts across three campaigns read as one programme.
 
 ---
 

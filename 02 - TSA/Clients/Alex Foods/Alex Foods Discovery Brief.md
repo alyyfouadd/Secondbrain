@@ -101,7 +101,7 @@ That is not a contradiction and the deliverables do not change — a factory has
 | 6 | **Animation and Shooting Recipe** | **Ships first, out of sequence.** It is the document that tells them how to shoot the photos blocking all twenty Package A deliverables. Every day it sits inside an unfinished book is a day they cannot start. |
 | 1 | **Alex Foods master tone block** | Input received — **"fun."** Needs Aly's ear, not another client answer. Last piece of deliverable 1. |
 | 4 | **2MAN and POLEKA slogans** | Both voices are written and neither carries a conflict. **BeBo's and AlRawy's lines wait** — see §A1 and §A2. |
-| 8 | **Local SEO research + the shelf walk** | Alexandria keyword research needs nothing. The client does not know their competitors, so the shelf walk is now the only route to §6. |
+| 8 | **Local SEO** | Built 23 Sep in [[Local SEO — Alexandria]]. The shelf walk is dropped ([[Decisions]] #29). |
 | 5 | **Content calendar format** | The structure is TSA's. **The filled calendar waits on seasonality** — see below. |
 | — | **Brand book assembly** | Template proven. Remaining work is content, not layout. |
 | — | **The four `kit.py` corrections** | Text in four lists. Awaiting go-ahead, because it is code. |
@@ -283,11 +283,7 @@ POLEKA papered in writing · the month-1 start condition line · the cola artwor
 
 | Competitor | Their products | Their price | What they do well | Their weakness | Social page |
 |---|---|---|---|---|---|
-| `[MISSING]` | | | | | |
-
-> **The rows stay empty and no names get invented.** TSA has no sourced competitor information and will not supply Egyptian FMCG brand names out of general knowledge into a file whose own rule forbids it.
->
-> **So the shelf walk is now the only route, and it moved from "nice idea" to "the method."** Two shop visits in Alexandria with a phone camera — the ice-pop freezer, the sachet rack, the candy box at the till — produces prices, pack sizes and shelf position for nothing. **That is the competitor read Foundation deliverable 8 already owes**, and it is now the only way it gets done.
+**This file stays empty on competitors, because it only holds what the client told us.** The sourced competitor read is in [[Local SEO — Alexandria]] §5: names that surfaced in search, each with where it surfaced, and none taken from general knowledge. **The shelf walk that used to be the method here was dropped by [[Decisions]] #29.**
 
 ---
 
@@ -512,7 +508,7 @@ Main goal · success definition · priority range · biggest problem · years in
 | L5 | **Seasonality per range** | Client | **Month 2 planning** | **POLEKA and 2MAN are both frozen and the term runs into winter.** If both go quiet, BeBo and AlRawy carry all three calendars alone. **This changes what the client should be paying for**, not just a calendar. |
 | L6 | **The monthly report: cadence, metrics, format** | **TSA proposes** | **End of month 1** | The signed scope specifies **none of it.** Agreeing it now costs nothing; arguing about whether TSA proved anything in month 3 costs the renewal. |
 | L7 | **The engagement baseline** | Meta access | **Before month 1 ends** | The contracted KPI is comments and views. **Without a baseline there is no number to have improved on.** Follower counts say nothing. |
-| L8 | **What shop owners actually say about the product** | Client / shelf walk | **Trade content** | The complaint the factory never hears. **Half the stated goal is "more shops"** and TSA has no idea what a retailer objects to. Question 16. |
+| L8 | **What shop owners actually say about the product** | Client | **Trade content** | The complaint the factory never hears. **Half the stated goal is "more shops"** and TSA has no idea what a retailer objects to. Question 16. |
 
 ### Contract and money, on dates that already exist
 | # | What | When |

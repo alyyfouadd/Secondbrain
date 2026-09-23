@@ -52,8 +52,8 @@ type: plan
 | **Mon 21** | **Master tone block.** Now a transcription job rather than an invention, because their own copy arrived | **Aly's ear** |
 | **Tue 22** | **§11 canvas and grid · §13 flashes and characters** | Nothing |
 | **Wed 23** | **§15 motion** | Nothing |
-| **Thu 24** | **The Alexandria shelf walk.** Two shops, phone camera, prices and shelf position | **Aly, physically** |
-| **Fri 25** | **§20 local SEO** from the shelf walk | Thu 24 |
+| **Thu 24** | **Aly's digital-shelf pass on the iPad**, about 30 minutes: Ad Library, one delivery app, autocomplete. *(Was the shelf walk, dropped by [[Decisions]] #29)* | **Aly** |
+| **Fri 25** | **§20 local SEO: fold in Thu 24's findings.** The content itself was built early, on 23 Sep, in [[Local SEO — Alexandria]] | Thu 24 |
 | **Sat 26** | **POLEKA extended colours** — four SKUs, three fields, and the extended layer is mandatory there | Nothing |
 
 **By the end of week 1: every section that needs nothing from the client is built.**

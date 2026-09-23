@@ -41,7 +41,7 @@ pattern	what is true now	where the decision is recorded
 <!-- retired-ok:end -->
 ```
 
-**Always skipped:** `01 - Daily Notes/` (an append-only log records what was believed at the time), `Decisions.md` and `Vault Brief.md` (both are records of supersession by design).
+**Always skipped:** `01 - Daily Notes/` (an append-only log records what was believed at the time), `Decisions.md` and `Vault Brief.md` (both are records of supersession by design). **And `graphify-out/`**, in every check: it is the generated, gitignored output of the `/graphify` skill, not notes — see `05 - Resources/Graphify.md`.
 
 ## The PDF check — the half that was missing
 

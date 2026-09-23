@@ -16,6 +16,7 @@ No Jobs are built yet, by choice. The trigger for building one is simple: the se
 
 ## Folders in here — tools
 
+- [[Graphify]] — **the knowledge-graph tool behind `/graphify`.** What it is for, how to run it, what was installed and what was deliberately left out (the hooks, the CLAUDE.md sections), and why its output is never committed. The skill itself lives at `.claude/skills/graphify/`.
 - **vault-check/** — the guard that makes a correction stick. One row per retired claim in `retired.tsv`; `check.py` fails on any live statement of one, anywhere in the notes **or the generators**. **Run it before any render and before any commit.** See its `README.md`.
 
 ## Notes in this folder

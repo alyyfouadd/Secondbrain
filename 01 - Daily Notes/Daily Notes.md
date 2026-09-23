@@ -24,6 +24,7 @@ A daily note is a frozen snapshot of the moment it was written. Its "What's Stil
   - [[2026-09-19]] — the overnight continuation. Session 1 started at 11:05 PM on the 18th and is filed here because it crossed midnight.
   - [[2026-09-20]] — the slogans and the giveaway; TSA restructured on the agency/client split and Alex Foods moved into `Clients/`; the vault audited end to end, read and briefed, and the four refs finally merged.
   - [[2026-09-21]] — **eight sessions across two parallel trees, reconciled on merge.** Overnight: the winner-post template, the school campaign and the QR correction, the spoken voice and its licence trap, the voice cast, Mahmoud's rates, the month-1 asset brief and posting calendar. Morning: the Alex Foods marketing plan, and the El Ghaly Motors pitch.
+  - [[2026-09-23]] — graphify added as a skill, hooks and CLAUDE.md edits deliberately left out; `vault-check` taught to skip its output; committed on a one-time 14b exception over a pre-existing failure.
 
 **Every daily note is wikilinked from this index, not just named.** Backticked filenames create no links, so the daily notes were graph orphans — floating islands nothing pointed at — which is the same defect the folder indexes had before the one-hop line was added to [[VAULT-INDEX]]. A month subfolder does not get its own index note; this list is the index for all of them.
 

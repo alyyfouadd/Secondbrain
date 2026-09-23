@@ -14,7 +14,8 @@ HERE  = os.path.dirname(os.path.abspath(__file__))
 VAULT = os.path.abspath(os.path.join(HERE, "..", ".."))
 
 # History is allowed to mention a retired claim. These files ARE the history.
-SKIP_PARTS = (".git", "01 - Daily Notes", "vault-check")
+# graphify-out/ is generated, gitignored output of the /graphify skill, not notes.
+SKIP_PARTS = (".git", "01 - Daily Notes", "vault-check", "graphify-out")
 SKIP_NAMES = ("Decisions.md", "Vault Brief.md", "retired.tsv")
 
 # PDFs the client sent US. A retired claim inside the signed scope is what the

@@ -77,7 +77,7 @@ def walk_lines(path):
 # ---------------------------------------------------------------- gather
 notes, assets = {}, set()
 for r, ds, fs in os.walk(ROOT):
-    if '.git' in r.split(os.sep) or 'vault-check' in r.split(os.sep): continue
+    if '.git' in r.split(os.sep) or 'vault-check' in r.split(os.sep) or 'graphify-out' in r.split(os.sep): continue
     for f in fs:
         p = os.path.join(r, f)
         if f.endswith('.md') and '.claude' not in r.split(os.sep) and 'vault-check' not in r.split(os.sep):
@@ -163,7 +163,8 @@ def run():
     for r, ds, fs in os.walk(ROOT):
         parts = r.split(os.sep)
         if ('.git' in parts or '.claude' in parts or '.obsidian' in parts
-                or 'vault-check' in parts or '__pycache__' in parts or r == ROOT):
+                or 'vault-check' in parts or 'graphify-out' in parts
+                or '__pycache__' in parts or r == ROOT):
             continue
         b = os.path.basename(r)
         if b in ASSET_FOLDERS or re.match(r'^\d\d - \w+ \d{4}$', b):

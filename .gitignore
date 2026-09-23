@@ -23,3 +23,9 @@ Desktop.ini
 # python bytecode from the vault-check tooling
 __pycache__/
 *.pyc
+
+# graphify's output (graph.json, graph.html, GRAPH_REPORT.md, its cache). Built on
+# demand by the /graphify skill and never committed: it regenerates from the notes
+# in minutes, it would go stale the moment a note changes, and GRAPH_REPORT.md has
+# no frontmatter. See 05 - Resources/Graphify.md.
+graphify-out/

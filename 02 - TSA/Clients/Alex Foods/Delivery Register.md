@@ -22,7 +22,7 @@ type: reference
 |---|---|---|---|---|
 | 1 | Brand Voice Guide | **IN PROGRESS** | Alex Foods' own tone block — **Aly's ear, not a client answer.** Direction received: "fun" | [[Brand Voice Guide]] |
 | 2 | Colour and Type System | **BUILT** | — folded into the book as §04–06 | [[Colour System]] · [[Type System]] |
-| 3 | Social Pages Setup | **BLOCKED — unblocking 21 Sep** | Login received; **verification code lands 21 Sep**. The spec is written; execution needs the access | [[Brand and Social Kit]] |
+| 3 | Social Pages Setup | **BLOCKED** | **The logins have still not been used** (Aly, 23 Sep). The spec is written and **the FB and IG bios were drafted 23 Sep** (§8). Execution needs the access | [[Brand and Social Kit]] |
 | 4 | Slogans and the giveaway song | **IN PROGRESS** | BeBo's line needs confirming — see [[Decisions]]. The song is drafted | [[Slogans and Song]] |
 | 5 | Monthly Content Calendar | **BUILT for month 1** | **Month 1 is complete** — twenty assets, dated against campaign go-live, in [[Month 1 Asset Brief]] §2. Months 2 and 3 wait on the seasonality answer, and the contract delivers each before the month it covers | [[Month 1 Asset Brief]] · [[Content Plan]] · [[Post Archetypes]] |
 | 6 | Shooting and Compositing Recipe | **SHIPPED, thin** | **Three sections lost when `recipe.py` was deleted** — the reject list, the source library and the resolution rule. Re-render is 2pp against the original 7pp. Prompts out and BeBo corrected. See [[Alex Foods Week 1 Messages]] §6 | `Alex Foods - Shooting and Compositing Recipe v1.0.pdf` |

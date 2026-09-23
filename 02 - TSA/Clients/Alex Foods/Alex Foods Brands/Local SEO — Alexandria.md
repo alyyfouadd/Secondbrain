@@ -84,9 +84,9 @@ created: 2026-09-23
 
 ### The description
 
-> **أليكس فودز — الشركة الإسكندرية، من الإسكندرية لكل مصر من أكتر من ٢٠ سنة.** بنصنع بيبو، والراوي، وتومان، وبوليكا: مشروبات ونكتار وآيس بوب وعصير مجمد. للتجار والموزعين: كلمونا على الرقم أو واتساب.
+> **أليكس فودز، من الإسكندرية لكل مصر من أكتر من ٢٠ سنة.** بنصنع بيبو، والراوي، وتومان، وبوليكا: مشروبات ونكتار وآيس بوب وعصير مجمد. للتجار والموزعين: كلمونا على الرقم أو واتساب.
 >
-> *Alex Foods — from Alexandria, for all of Egypt, for more than 20 years. Makers of BeBo, AlRawy, 2MAN and POLEKA: drinks, nectar, ice pops and frozen juice. Traders and distributors: call or WhatsApp.*
+> *Alex Foods, from Alexandria, for all of Egypt, for more than 20 years. Makers of BeBo, AlRawy, 2MAN and POLEKA: drinks, nectar, ice pops and frozen juice. Traders and distributors: call or WhatsApp.*
 
 **Why every word is there, and why some are not:**
 - **«أكتر من ٢٠ سنة», never 25.** [[Alex Foods Discovery Brief]] §2.

@@ -186,3 +186,45 @@ Measurable, so it is not a matter of opinion in a month:
 **It costs nothing in money.** It costs a working session that does not ship a client deliverable, against a Foundation due 9 October with four deliverables carrying no content at all.
 
 > **So the real question is not how, it is when.** Doing this before the Foundation ships buys a clean vault and spends days the contract needs. Doing it after month 1 ships buys the opposite. **Step 0 alone — merging the four refs — is the exception: that is urgent regardless, because every day it waits, more work lands on the wrong ref.**
+
+---
+
+## 8. Step 5, measured — 24 September 2026
+
+**"Roughly forty notes" was an estimate and it was never checked. Measured against the vault: it is twenty-nine notes, not forty**, and the work inside them is very unevenly spread. Four notes carry a third of it. **That changes step 5 from a week-shaped blob into something that can be done in pieces**, which is the only reason it is written down here rather than left as a line in [[Active Priorities]].
+
+### What was counted
+
+- **Inline history** — a blockquote in a note's *body* carrying correction language (superseded, retired, was wrong, used to read, reverted, withdrawn, corrected). Rule 15 puts these in a `## How we got here` foot section or in [[Decisions]]. **54 of them across the vault.**
+- **Status in prose** — a sentence describing what state a thing is in, outside the register that owns it. Rule 16 puts these in a register row. **93 lines matched**, and this number is the soft one: the pattern also catches contract language (*"counts as delivered"*) and specs (*"delivered ready to publish"*), which are not violations. **Spot-checked two notes: roughly half the matches are genuine.** Treat 93 as the search list, not the defect count.
+
+Daily notes, [[Decisions]], [[Delivery Register]] and the `Marketing/` playbook are excluded by design — a log is history by construction, the registers *own* history and status, and the playbook is third-party.
+
+### The worklist, heaviest first
+
+| Note | Inline history | Prose status | Has `How we got here` |
+|---|---|---|---|
+| [[Brand Voice Guide]] | 12 | 1 | — |
+| [[Brand and Social Kit]] | 8 | 3 | — |
+| [[Slogans and Song]] | 8 | 2 | — |
+| [[Alex Foods Brands]] | 7 | 7 | — |
+| [[Alex Foods]] | 0 | 13 | — |
+| [[Foundation Roadmap]] | 2 | 11 | — |
+| [[Alex Foods Week 1 Messages]] | 3 | 3 | — |
+| [[Package A Month 1]] | 0 | 7 | — |
+| [[Alex Foods Discovery Brief]] | 1 | 4 | — |
+| [[Brand Book Spec]] | 1 | 4 | — |
+| [[Giveaway Programme]] | 1 | 4 | — |
+| [[Colour System]] · [[Content Plan]] · [[Type System]] · [[El Ghaly Motors Pitch]] · [[Month 1 Asset Brief]] | 1–2 each | 0–2 each | — |
+| Eleven more with a single hit each | 0–1 | 1–2 | — |
+
+**Only three notes in the whole vault already comply**: [[Local SEO — Alexandria]], [[Alex Foods Marketing Plan]] and [[Active Priorities]] have a `## How we got here` section. Every other note keeps its argument in its body.
+
+### The two highest-value fixes, and they are not the heaviest notes
+
+1. **[[Alex Foods]] and [[Foundation Roadmap]] each carry a complete deliverable-by-deliverable status list.** That is three copies of the same eight statuses — theirs plus [[Delivery Register]], the note built to own them. **It has already drifted once:** row 7 of the register still read *"unblocking 21 Sep"* on 24 September, three days stale, because the 23 September pass corrected row 3 and missed the identical phrase one row down. Stripping both lists to a link at the register is the single change that removes the most future drift, and neither note loses anything a reader needs.
+2. **[[Brand Voice Guide]] is the worst single note at twelve inline corrections** — and it is a **client-facing** governance document. A guide that argues with itself in front of the client is the failure §1.2 describes, sitting in the one place it costs most.
+
+### What this does not change
+
+**The gate still holds: after the Foundation ships, not before.** §7's cost argument is unaffected by knowing the number — twenty-nine notes rewritten badly is still worse than twenty-nine left honest and untidy. What the measurement buys is the ability to take the top two rows in an hour instead of booking a week, and **fix 1 above is worth doing on its own the moment the Foundation is out**, because it is the one that keeps re-breaking.

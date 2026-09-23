@@ -79,7 +79,7 @@ Independent of everything and **should ship early regardless of sequence**, beca
 **6. Social Pages Setup spec** *(deliverable 3)*
 Names, usernames, bios, contact details, button configuration, and the profile/cover image designs. **The written spec needs nothing. Executing it needs Meta admin access.**
 
-**7. Local SEO** *(deliverable 8)*
+**7. Local SEO** *(deliverable 8)* — **built in [[Local SEO — Alexandria]].**
 Alexandria keyword research, competitor read and the business-data structure. Research is unblocked; the listing itself needs the client's data.
 
 ### Phase 3 — Close *(depends on client inputs)*

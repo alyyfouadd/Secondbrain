@@ -242,6 +242,32 @@ Source is `design-system/kit.py`, sharing `colour.py`, `plex.css` and the fonts 
 
 ---
 
+## 8. The bios, Facebook and Instagram — drafted 23 September
+
+**The spec always listed bios as part of deliverable 3, and none were ever written.** These are the texts to paste in once Meta access exists. **Arabic only:** the audience is Egyptian, and voice rule 1 says English is fitted or dropped. The Latin spelling "Alex Foods" goes in the name field, where it is searchable.
+
+| Field | Text | Limit |
+|---|---|---|
+| **Facebook bio** (the Intro) | طعم أحلى مع أليكس فودز 😋😋 بيبو، الراوي، تومان وبوليكا. من إسكندرية لكل مصر من أكتر من ٢٠ سنة | 92 / 101 |
+| **Instagram name** | Alex Foods \| أليكس فودز | 23 / 64 |
+| **Instagram bio** | طعم أحلى مع أليكس فودز 😋😋 ⏎ بيبو · الراوي · تومان · بوليكا ⏎ من إسكندرية لكل مصر من أكتر من ٢٠ سنة ⏎ امسح الكود اللي ورا الباكو واكسب 🎁 | 129 / 150 |
+| **Facebook About / description** | The same text as the Google profile description, **copied from [[Local SEO — Alexandria]] §3 and never rewritten here**, so the two can never drift apart | — |
+
+**Why each part is there:**
+- **It opens on «طعم أحلى مع أليكس فودز»**, the client's own master line from [[Slogans and Song]] §0. It is already in market, so the bio adds no new claim.
+- **All four ranges are named, and every bio names Alex Foods** ([[Brand Voice Guide]] §2). **It is also search work:** POLEKA and AlRawy are invisible when searched by name ([[Local SEO — Alexandria]] §2).
+- **«أكتر من ٢٠ سنة», never 25**, and Alexandria is the brand's third pillar (§5). Both are facts the client confirmed ([[Alex Foods Discovery Brief]] §2).
+- **No category word for BeBo.** «عصير» waits on [[Decisions]] #30.
+- **Doubled emoji is the house habit** observed in the client's own posts ([[Brand Voice Guide]] §2). No em-dashes, per voice rule 8.
+- **Instagram's last line is the call to action from [[Content Plan]]: turn the pack over.** It never uses «صوّر واكسب» on its own, because that line only travels with «امسح الكود» beside it ([[Slogans and Song]]). **If the scan mechanic ever stops, this line comes out the same day.**
+
+**Three rules for the person pasting these in:**
+1. **Do not rename the verified Facebook page.** Renaming a verified page can cost it the badge. The page name stays whatever it is today, and the bio does the work.
+2. **Keep the Instagram username `alex.foods1` for now.** Changing it is harmless at 40 followers, but no better handle has been checked for availability. That is a two-minute check from the iPad, not a guess.
+3. **Hold the contact fields (phone, WhatsApp, website) until the five business-data answers land** ([[Local SEO — Alexandria]] §3). **Two different WhatsApp numbers already exist in the wild**, and a bio is the worst place to add a third.
+
+> **Still Aly's ear.** The master tone block is unwritten (§6), and these bios are the first thing written in the master's voice. **They are built from the client's own lines and habits rather than from a guess, but the tone call is still his.**
+
 ## The render critique, 20 September
 
 **Aly's read: the kit looks cheap.** It does, and the causes are shared with the book because both come off the same CSS conventions. **The diagnosis and the eight fixes live once, in [[Brand Book Spec]] §6b** — the raster seal where a vector exists, fifty-five hairline boxes, no middle tier in the type scale, and the four range marks reduced to pixelated thumbnails on a grey panel. **Not restated here on purpose.**

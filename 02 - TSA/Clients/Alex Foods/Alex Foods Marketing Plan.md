@@ -147,7 +147,7 @@ Three facts, all confirmed, produce it:
 - **Facebook is the only channel that exists.** It is the only place the contracted KPI can move inside a month, and the parent audience is exactly right for BeBo-as-school-drink and for AlRawy.
 - **TikTok is a zero-marginal-cost build** off the 8 funded motion pieces and the already-drawn characters.
 - **Instagram mirrors. No bespoke production until it earns attention.**
-- **The shop shelf is a channel and it is not in the contract.** The pack is the highest-circulation media Alex Foods owns, it already carries the mechanic, and TSA has no control over it. Worth saying out loud at delivery, because it is also the reason the Alexandria shelf walk is a real research method and not a chore.
+- **The shop shelf is a channel and it is not in the contract.** The pack is the highest-circulation media Alex Foods owns, it already carries the mechanic, and TSA has no control over it. Worth saying out loud at delivery. *(The Alexandria shelf walk that would have read it was dropped by [[Decisions]] #29.)*
 - **Google Business Profile and local SEO are scoped to Alexandria against national distribution.** They get delivered as bought and **they do not get oversold.** Deliverable 8 is worth what it is worth; presenting it as a national growth lever is how a month-three conversation goes bad ([[Alex Foods Discovery Brief]] §A5).
 
 > **The supply constraint that governs all of it:** the kit's posting rhythm asks for roughly 84 slots a month and the contract funds 20 original assets. **It only closes at ~2.7× cross-posting with zero slack**, and the client's own winner footage is the slack. Worked through in [[Content Plan]] §3. **If it will not close, the rhythm gets cut, not the quality.**
@@ -303,7 +303,7 @@ Three facts, all confirmed, produce it:
 |---|---|---|
 | 14 | ~~**One named approver on a signed acceptance page**~~ **Withdrawn 21 September** — [[Decisions]] #35. **No longer an input TSA asks for** | — |
 | 15 | **Who answers an enquiry, and how fast** | Client · **campaign spend dies in an unanswered inbox** |
-| 16 | **What shop owners actually say about the product** | Client, or the shelf walk · the complaint the factory never hears |
+| 16 | **What shop owners actually say about the product** | Client · the complaint the factory never hears |
 | 17 | **Competitor prices, pack sizes and shelf position** | **Aly, physically.** The client does not know who their competitors are, no sourced data exists, **and none will be invented.** Two shops and a phone camera |
 | 18 | **A SpongeBob answer** | Client · same class as the cola question, arguably clearer |
 

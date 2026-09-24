@@ -34,7 +34,7 @@ type: plan
 | | |
 |---|---|
 | **Today** | Sunday 20 September |
-| **Instalment 1 due** | **Friday 26 September** · 10,000 EGP, invoiced 18 Sep |
+| **Instalment 1 due** | **Saturday 26 September** · 10,000 EGP, invoiced 18 Sep. *(Corrected 24 Sep: this table said Friday. The invoice date 26 Sep is right; the weekday was wrong, and the week-1 table below always had it as Sat 26.)* |
 | **Delivery target** | **Thursday 9 October** |
 | **Instalment 2 due** | **Wednesday 8 October** · 10,000 EGP |
 | **Package A month 1** | Starts on written approval **or** usable photography, whichever is later |

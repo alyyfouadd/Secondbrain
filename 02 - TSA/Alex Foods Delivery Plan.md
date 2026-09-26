@@ -56,7 +56,11 @@ type: plan
 | **Fri 25** | **§20 local SEO** from the shelf walk | Thu 24 |
 | **Sat 26** | **POLEKA extended colours** — four SKUs, three fields, and the extended layer is mandatory there | Nothing |
 
-**By the end of week 1: every section that needs nothing from the client is built.**
+> **WEEK 1 OUTCOME, recorded 26 September: none of it happened.** Zero of the seven items closed. The client ask was never sent, the tone block was not written, §11, §13 and §15 were not built, the shelf walk did not happen, and §20 was blocked by it. **The only vault activity between 20 and 26 September was a correction to a weekday label.**
+>
+> **This matters to whoever reads this plan next:** week 2 below opens on the assumption that everything needing nothing from the client is already built. **It is not.** Week 1's seven items are now week 2's backlog on top of week 2's own six, and **the 9 October date was set against a three-week run that has had one week produce nothing.**
+
+~~By the end of week 1: every section that needs nothing from the client is built.~~
 
 ---
 
